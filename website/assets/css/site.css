@@ -516,6 +516,7 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   .events .w-size { width: 56px; }
   .events .w-cost { width: 56px; }
   .events .v-city, .events .v-sep, .events .m-only { display: none; }
+  .btn.more-toggle { display: none; }
   .events td {
     white-space: nowrap;
     overflow: hidden;
@@ -531,7 +532,9 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   .field.search { flex-basis: 100%; }
   .field { flex: 1 1 140px; }
   .field.date { flex: 1 1 130px; }
-  .btn#reset { flex: 1 1 100%; }
+  .btn#reset, .btn#more { flex: 1 1 calc(50% - 5px); }
+  /* Venue Size, Cost, and the chips stay hidden until "More filters" opens them. */
+  .controls:not(.open) .more { display: none; }
   .grid thead { display: none; }
   .grid, .grid tbody, .grid tr, .grid td { display: block; width: 100%; }
   .grid tr {

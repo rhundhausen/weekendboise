@@ -107,6 +107,16 @@
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
     },
     {
+      "displayName": "Alley Repertory Theater",
+      "status": "investigating",
+      "url": "https://alleyrep.org/shows/",
+      "robotsChecked": "2026-11-07",
+      "category": "performing-arts",
+      "city": "Garden City",
+      "venue": "Alley Repertory Theater",
+      "notes": "Professional theater company, 3638 Osage St, Garden City. Checked 2026-11-07: robots.txt allows everything. WordPress, no tribe route (rest_no_route), no schema.org Event data. /shows/ still shows the 2025-26 season (Monsters of the American Cinema, Deep Blue Sound, Oklahoma!) as prose with no dates in markup and no ticketing feed; the 2026-27 season is not posted. Recheck when a new season is announced"
+    },
+    {
       "name": "meetup-ambivert-girlies",
       "displayName": "Ambivert Girlies (Meetup)",
       "status": "running",
@@ -300,6 +310,16 @@
       "venueKey": "meetup-beings-of-light-and-coffee",
       "priority": 70,
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 10 events in the feed on 2026-11-06"
+    },
+    {
+      "displayName": "BikeReg",
+      "status": "investigating",
+      "adapter": "other",
+      "url": "https://www.bikereg.com/Events",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Other",
+      "notes": "2026-11-07: national bike race registration. robots.txt allows / but disallows /api/ (except /api/supergraph/gql), /Events/CalendarFeed.aspx and ?page= and ?sort= variants. /calendar redirects to /Events, a React app (EventCalendar bundle) with no events in the HTML and no schema.org data, so no Idaho filter can be read with an existing adapter. The only route left is the GraphQL endpoint /api/supergraph/gql, which robots.txt allows but is undocumented, so it was not probed. Treasure Valley races sold there, such as the SWICA Criterium Series (BikeReg 73532), are also on idahobikeracing.org. Terms not read"
     },
     {
       "name": "meetup-blueskyhomesinvesting",
@@ -540,6 +560,21 @@
       "venueKey": "meetup-boise-country-dancers",
       "priority": 70,
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 10 events in the feed on 2026-11-06"
+    },
+    {
+      "name": "meetup-boisegdg",
+      "displayName": "Boise Creative Professionals Community (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/boisegdg/events/ical/",
+      "robotsChecked": "2026-11-07",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Boise Creative Professionals Community",
+      "venueKey": "meetup-boisegdg",
+      "priority": 70,
+      "notes": "Meetup group (slug boisegdg), added 2026-11-07 at the user's request. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 3 events in the feed on 2026-11-07. Its descriptions are Markdown, which the adapter strips"
     },
     {
       "name": "meetup-boise-girls-and-guys-having-fun-meetup-group",
@@ -840,6 +875,18 @@
       "venueKey": "meetup-boise-table-top-game-design-and-development",
       "priority": 70,
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
+    },
+    {
+      "displayName": "Boise Twilight Criterium",
+      "status": "investigating",
+      "url": "https://boisetwilightcriterium.com/",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Boise",
+      "venue": "Downtown Boise",
+      "venueKey": "downtown-boise",
+      "organizer": "Boise Developmental Cycling",
+      "notes": "2026-11-07: one downtown criterium a year (July 11, 2026; 2027 date not posted). Own site boisetwilightcriterium.com is WordPress with Elementor; robots.txt allows all but /wp-admin/. No tribe route (rest_no_route), and the home page and /eventdetails/ have no schema.org Event data, so no existing adapter reads it. Visit Boise has a page for it (visitboise.com/events/boise-twilight-criterium-2/) but it still carries the 2025 edition (startDate 2025-07-19); visit-boise reads only the first page of /events/ (about 12 events), so it brings the race in only when it is near and Visit Boise has updated the page. idahobikeracing.org lists it (Boise Twilight, 2026-07-11). Not worth a source of its own. Terms not read"
     },
     {
       "name": "meetup-boise-walk-shoot",
@@ -1237,6 +1284,23 @@
       "notes": "City events and attractions page, added 2026-11-05. It describes annual events (National Oldtime Fiddlers Contest in June, Festival of Trees at the Vendome, the chamber's Crab Feed) without dates. Asking the city for permission or a feed would reopen it"
     },
     {
+      "name": "cwi",
+      "displayName": "College of Western Idaho",
+      "status": "ready",
+      "adapter": "ics",
+      "url": "https://25livepub.collegenet.com/calendars/website-events-calendar.ics",
+      "robotsChecked": "2026-11-07",
+      "category": "learning-business",
+      "inferCategory": true,
+      "city": "Nampa",
+      "venue": "College of Western Idaho",
+      "venueKey": "college-of-western-idaho",
+      "priority": 20,
+      "fixedVenue": true,
+      "excludeTitlePattern": "(?i)\\bmeetings?\\b|\\bclub\\b|\\bstudy\\b|\\bregistration\\b|\\bwithdraw\\b|\\borientation\\b|\\bdeadline\\b|\\blast day\\b|\\bscavenger hunt\\b|\\btransfer\\b|\\bnext steps\\b|\\bstudent government\\b|\\bleadership circle\\b|\\bfirst steps\\b|\\bbusiness basics\\b|\\bclosed\\b|\\bno classes\\b|\\bbegins\\b|\\bends\\b|\\bfinals?\\b|\\bboise software developer|^veteran.?s day$|\\bfoodbank drive\\b|^alter display\\b",
+      "notes": "College of Western Idaho. Checked 2026-11-07: cwi.edu/events redirects to /students/campus-life/events, which embeds one Trumba calendar, website-events-calendar (cwi.edu robots.txt allows it with a 10 second crawl delay). 25livepub.collegenet.com serves it, robots.txt allows everything, and it publishes https://25livepub.collegenet.com/calendars/website-events-calendar.ics (also .rss and .xml). The ICS had 100 VEVENTs on 2026-11-07, running only to 2026-11-17 (about 10 days ahead), 2 with RRULE. LOCATION is a campus room (NCSC 117 - Student Commons, Nampa Campus - Quad), so fixedVenue with Nampa as the city; Boise (Pintail) campus and off-campus events, such as the Astronomy Club star party at Dedication Point in Melba, get the Nampa fallback. Most entries are student club meetings, study breaks, registration dates and campus drives; excludeTitlePattern removes them, leaving 12 on 2026-11-07, such as the November Star Party, a visiting artist lecture, the Veteran Job Fair and a DKMS stem cell drive. An event held on several campuses is listed once per campus with the same time. Held at ready: decide whether a student-facing campus calendar is wanted. Terms not read"
+    },
+    {
       "name": "meetup-collister-boise-pickle-ball-tennis-group",
       "displayName": "Collister (Boise) Pickle Ball/Tennis Group (Meetup)",
       "status": "running",
@@ -1618,6 +1682,21 @@
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
     },
     {
+      "name": "idaho-bike-racing",
+      "displayName": "Idaho Bike Racing (SWICA)",
+      "status": "ready",
+      "adapter": "tribe",
+      "url": "https://idahobikeracing.org/wp-json/tribe/events/v1/events",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Other",
+      "venue": "Various Idaho locations",
+      "venueKey": "various-idaho-locations",
+      "priority": 50,
+      "organizer": "Southwest Idaho Cycling Association (SWICA)",
+      "notes": "2026-11-07: idahobikeracing.org is the site of the Southwest Idaho Cycling Association (SWICA), the USA Cycling local association in Boise. robots.txt allows everything but /wp-admin/ and WooCommerce paths, no crawl delay. The Events Calendar REST API answers: 0 upcoming on 2026-11-07, but start_date=2025-01-01 returns 99 events (road, crit, MTB, cyclocross, gravel), the last on 2026-10-11, so the fall 2026 cyclocross races are not posted. Dry run ok (0 events); the saved 2026 page parsed offline with the tribe adapter gave 49 events. Problems before running: no event has a venue object (the place is only in the description text, if at all), and many races are outside the Treasure Valley (Bend, Baker City, The Dalles, Pocatello, Stanley, Galena, Jug Mountain, Brundage, Hailey), which the tribe adapter cannot filter. Most untimed events are published as timed events from 00:00 to 00:00 (all_day false), so they would show at midnight. Includes the SWICA Tuesday Night Crits (Expo Idaho west lot, 5610 N Glenwood St), Boise Twilight, and Twisted Turtle short track and cyclocross. Terms not read"
+    },
+    {
       "name": "meetup-greater-idaho-sharepoint-user-group",
       "displayName": "Idaho M365 User Group (Meetup)",
       "status": "running",
@@ -1678,6 +1757,14 @@
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
     },
     {
+      "displayName": "Idaho Wafflecross",
+      "status": "ruled-out",
+      "url": "https://idahowafflecross.athlete360.com",
+      "robotsChecked": "2026-11-07",
+      "reason": "The athlete360 registration page has not been updated since the 2023 series, and the series' own site www.idahowafflecross.com answers 403 to robots.txt (2026-11-07)",
+      "notes": "2026-11-07: idahowafflecross.athlete360.com has no robots.txt (404); its home page shows the 2023 Waffle Cross races at Eagle Bike Park (Sept 30-Oct 1, Oct 21-22, Nov 18-19, 2023) with registration closed, no feed and no schema.org data. It links to www.idahowafflecross.com, whose robots.txt answered 403, so nothing else was requested there. The Eagle Bike Park cyclocross weekend now appears on Twisted Turtle Racing's home page (Southern Idaho Cyclocross Series, Nov 21-22, 2026) and on idahobikeracing.org (Eagle Bike Park/Wafflecross, 2025-11-22)"
+    },
+    {
       "name": "meetup-isgci-gem-court-events",
       "displayName": "ISGCI Gem Court events (Meetup)",
       "status": "running",
@@ -1706,6 +1793,10 @@
       "venueKey": "meetup-kartoflanie-folk-dance-ensemble",
       "priority": 70,
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
+    },
+    {
+      "displayName": "Knock 'Em Dead Dinner Theatre",
+      "notes": "Boise dinner theater (KED Productions, kedproductions.org). Found by search 2026-11-07; the newest listings are from 2018 and 2019, so it may be dormant. Not probed"
     },
     {
       "notes": "Found while researching the Chambers of commerce idea, 2026-11-06. Runs Kuna Days (first weekend of August). Note: the homepage was requested once in the same step as robots.txt, before the rule was read; it was discarded. City of Kuna (city-of-kuna) lists Kuna city events",
@@ -1836,6 +1927,34 @@
       "venueKey": "meetup-meridian-sociale-meetup-group",
       "priority": 70,
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 2 events in the feed on 2026-11-06"
+    },
+    {
+      "displayName": "Liquid Laughs",
+      "status": "investigating",
+      "url": "https://www.liquidlaughs.com/",
+      "robotsChecked": "2026-11-07",
+      "category": "performing-arts",
+      "city": "Boise",
+      "venue": "Liquid Laughs",
+      "notes": "Comedy club in downtown Boise (site address not confirmed). Checked 2026-11-07: www.liquidlaughs.com/robots.txt answered 404 (no rules), but two requests for the home page failed in the HTTP client before any response ('Operation is not valid due to the current state of the object'), so nothing was read and no further requests were made. Not in data/events.json. Next: confirm the club's current website and ticket platform"
+    },
+    {
+      "name": "marathonguide-boise",
+      "displayName": "MarathonGuide",
+      "status": "ready",
+      "adapter": "scrape",
+      "url": "https://marathonguide.com/half-marathons/usa/id/boise/",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Boise",
+      "venue": "Various Treasure Valley locations",
+      "venueKey": "various-treasure-valley",
+      "priority": 80,
+      "scrapeMode": "jsonld",
+      "fixedVenue": true,
+      "eventLinkPattern": "/races/run/[a-z0-9-]+/\\d{4}/details/",
+      "maxPages": 30,
+      "notes": "Checked 2026-11-07. www.marathonguide.com redirects to marathonguide.com; robots.txt allows /half-marathons/ and /races/run/ (disallows only print, write-review, organizer contact, members). The site is a Next.js app with no state filter in its search, but the sitemap lists city pages: /half-marathons/usa/id/boise/ lists half marathons and marathons in Boise (a superset of /marathons/usa/id/boise/), and /half-marathons/usa/id/eagle/ exists too (not tested; would be a second entry). Each race page has a schema.org SportsEvent with a date only, so events are all-day; the place is just 'Boise, ID, United States', so fixedVenue is set. 13 events on 2026-11-07, several not on RunSignup (Boise Marathon, City of Trees Marathon, FitOne, Popsicle 5K/10K/Half). Terms not read. Held at ready 2026-11-07: dates only (all-day), and its Boise races are the same ones RunSignup lists with start times, so they would show twice."
     },
     {
       "displayName": "Meetup: 2nd-chapter-social-club",
@@ -2215,6 +2334,16 @@
       "notes": "Newspaper community calendar, added 2026-11-05. enjoymountainhome.com and cityofmountainhome.com are Mountain Home, Arkansas"
     },
     {
+      "displayName": "Music Theatre of Idaho",
+      "status": "investigating",
+      "url": "https://www.broadwaynampa.org/",
+      "robotsChecked": "2026-11-07",
+      "category": "performing-arts",
+      "city": "Nampa",
+      "venue": "Nampa Civic Center",
+      "notes": "Community musical theater (MTI, 'Broadway Nampa') performing at the Nampa Civic Center. Checked 2026-11-07: broadwaynampa.org and www.broadwaynampa.org robots.txt allow everything but ?lightbox= URLs. Wix site, no schema.org Event data. The home page lists upcoming runs only as date ranges (December 3-6, 2026 through December 2-4, 2027) with the show titles in images; /buytickets is an old 2022 season. Tickets are on TicketPeak (ticketpeak.co/musictheatreofidaho/events/<id>), but ticketpeak.co robots.txt redirected to ticketpeak.com/go/robots.txt and answered HTTP 403 with a Cloudflare challenge, so nothing there was read. boise-mom already lists Anastasia (December 3-6, 2026, 4 performances with times). Nampa Civic Center (ready) is the venue's own calendar"
+    },
+    {
       "name": "meetup-nampa-board-games-group",
       "displayName": "Nampa Board Games Group (Meetup)",
       "status": "running",
@@ -2488,10 +2617,10 @@
       "displayName": "Boise Little Theater",
       "status": "ruled-out",
       "category": "performing-arts",
-      "notes": "Checked 2026-10-30 with the project User-Agent. No tribe route and no schema.org Event data. Ticketmaster metro covers it. Rechecked 2026-11-06: robots.txt allows /events/ with a 10 second crawl delay. Modern Events Calendar Lite: /events/ carries schema.org Event JSON-LD for 9 events, all auditions (The Shark is Broken, Emma, Red Herring and others), with local time written as UTC (12:00 pm shows as 05:00-07:00), so jsonld with localTimeAsUtc would read them if auditions were wanted. Tickets are on vbotickets",
+      "notes": "Checked 2026-10-30 with the project User-Agent. No tribe route and no schema.org Event data. Ticketmaster metro covers it. Rechecked 2026-11-06: robots.txt allows /events/ with a 10 second crawl delay. Modern Events Calendar Lite: /events/ carries schema.org Event JSON-LD for 9 events, all auditions (The Shark is Broken, Emma, Red Herring and others), with local time written as UTC (12:00 pm shows as 05:00-07:00), so jsonld with localTimeAsUtc would read them if auditions were wanted. Tickets are on vbotickets. Rechecked 2026-11-07: robots.txt unchanged (Crawl-delay 10, disallows only admin, include and config paths). /events/ still carries only auditions: 9 schema.org Events, all titled '... Auditions' (The Shark is Broken, A Crazy Little Cafe Called Love, Women of Lockerbie, Red Herring, Emma, The Cottage), no performances. The site links /season-79/ and /buy-tickets/ for shows; not read, since ticketmaster-metro already lists 47 performance dates",
       "url": "https://boiselittletheater.org/events/",
-      "robotsChecked": "2026-11-06",
-      "reason": "The site's calendar (checked 2026-11-06) lists only auditions, not performances. Performances are already read by ticketmaster-metro (47 upcoming dates)"
+      "robotsChecked": "2026-11-07",
+      "reason": "The site's calendar lists only auditions, not performances (checked 2026-11-06 and 2026-11-07). Performances are already read by ticketmaster-metro (47 upcoming dates)"
     },
     {
       "displayName": "Boise Metro Chamber",
@@ -2529,9 +2658,9 @@
       "displayName": "Boise Parks and Recreation",
       "category": "outdoors-recreation",
       "city": "Boise",
-      "notes": "Dictated as 'Boise city park schedule' plus Ann Morrison Park, Julia Davis Park, and Camel's Back Park (dictated 'Camelback'). Parks don't publish their own calendars; events there come from the department or from organizers. Added 2026-11-05, not probed: the department's league calendar on TeamSideline (https://teamsideline.com/sites/boiseparks/calendar), probably rec league games rather than public events, and the Fort Boise drop-in activities schedule (https://www.cityofboise.org/departments/parks-and-recreation/facilities/fort-boise/drop-in-activities-schedule/), probably recurring classes. city-of-boise already reads the city's events API; check for overlap. Checked 2026-11-06: teamsideline.com/sites/boiseparks/calendar 403; cityofboise.org allows the Fort Boise drop-in page, a static weekly class schedule. Park events by outside organizers (races in Julia Davis and Ann Morrison parks) come through mike-brown-group and boise-mom",
+      "notes": "Dictated as 'Boise city park schedule' plus Ann Morrison Park, Julia Davis Park, and Camel's Back Park (dictated 'Camelback'). Parks don't publish their own calendars; events there come from the department or from organizers. Added 2026-11-05, not probed: the department's league calendar on TeamSideline (https://teamsideline.com/sites/boiseparks/calendar), probably rec league games rather than public events, and the Fort Boise drop-in activities schedule (https://www.cityofboise.org/departments/parks-and-recreation/facilities/fort-boise/drop-in-activities-schedule/), probably recurring classes. city-of-boise already reads the city's events API; check for overlap. Checked 2026-11-06: teamsideline.com/sites/boiseparks/calendar 403; cityofboise.org allows the Fort Boise drop-in page, a static weekly class schedule. Park events by outside organizers (races in Julia Davis and Ann Morrison parks) come through mike-brown-group and boise-mom. 2026-11-07: dictated again as Ann Morrison Park, Julia Davis Park ('Julie Davis') and 'Albertsons Park' schedules. 'Albertsons Park' is most likely Kathryn Albertson Park, the Boise city park across Americana Blvd from Ann Morrison Park (Albertsons Stadium is Boise State's football stadium and already has a source). None of the three parks publishes its own calendar. cityofboise.org robots.txt allows everything but /city_clerk/. parks.cityofboise.org is only a redirect to https://www.cityofboise.org/departments/parks-and-recreation/. City events in these parks (Fourth of July fireworks and Water Jamboree in Ann Morrison Park, Zoo Boise in Julia Davis Park) are on cityofboise.org/events, which city-of-boise already reads (26 Zoo Boise events in data/events.json). Organizer events there come through mike-brown-group (Boise Half Marathon in Julia Davis Park, YMCA Thanksgiving Leftovers Fun Run in Ann Morrison Park), boise-mom and Meetup. Shelter reservations and league schedules are not public events. No new source needed",
       "status": "ruled-out",
-      "robotsChecked": "2026-11-06",
+      "robotsChecked": "2026-11-07",
       "reason": "Covered by city-of-boise, which reads the city's events API, including Parks and Recreation events (Rake Up Boise at Fort Boise Community Center). The TeamSideline league calendar returned HTTP 403 on 2026-11-06, and it is rec league games, not public events. The Fort Boise drop-in schedule is recurring classes"
     },
     {
@@ -3560,6 +3689,40 @@
       "notes": "Meridian Library District, Caldwell Public Library, Eagle Public Library. Boise Public Library, Ada Community Library, Nampa Public Library, Kuna Library District, Mountain Home Public Library and Garden City Public Library have their own entries. City of Nampa and City of Eagle are ruled out; check whether a library site is a separate host before probing. Many libraries use LibCal, which publishes ICS. Checked 2026-11-05 and out for now: Middleton Public Library and Emmett Public Library (Wix Events widgets that load with JavaScript; see Middleton Chamber of Commerce and City of Emmett), Payette and Weiser public libraries (no calendar found). 2026-11-06: Caldwell Public Library configured as its own entry (Wix event pages carry schema.org Event data). Eagle Public Library got its own entry (its calendar moved to a LocalHop widget, needs code). Meridian Library District got its own ruled-out entry (robots.txt disallows all but named search crawlers)"
     },
     {
+      "name": "race-to-robie-creek",
+      "displayName": "Race to Robie Creek",
+      "status": "running",
+      "adapter": "scrape",
+      "url": "https://runsignup.com/Race/ID/Boise/RacetoRobieCreek",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Boise",
+      "venue": "Fort Boise Park",
+      "venueKey": "fort-boise-park",
+      "priority": 20,
+      "organizer": "Race to Robie Creek",
+      "scrapeMode": "jsonld",
+      "fixedVenue": true,
+      "notes": "Dictated as 'Race to Robbie creek'. Checked 2026-11-07: robiecreek.com has no robots.txt (404) and redirects to the race's RunSignup page, runsignup.com/Race/ID/Boise/RacetoRobieCreek. runsignup.com robots.txt allows /Race/ pages (Crawl-delay 1). The page has a schema.org Event in JSON-LD with startDate 2027-04-17 (date only, so all-day; the description says high noon MT). fixedVenue uses Fort Boise Park, the usual start; the JSON-LD place is only a PO box in Boise. Also listed by runsignup-treasure-valley, marathonguide-boise, and raceup-boise; this entry at priority 20 gives the race's own url. Terms not read"
+    },
+    {
+      "name": "raceup-boise",
+      "displayName": "RaceUp",
+      "status": "ready",
+      "adapter": "scrape",
+      "url": "https://www.raceup.org/en/events/city/boise-united-states",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Boise",
+      "venue": "Various Treasure Valley locations",
+      "venueKey": "various-treasure-valley",
+      "priority": 80,
+      "scrapeMode": "jsonld",
+      "eventLinkPattern": "/(?:en/)?event/[a-z0-9-]+-\\d{4}-\\d\\d-\\d\\d-[a-z0-9-]+(?=\")",
+      "maxPages": 40,
+      "notes": "Checked 2026-11-07. raceup.org redirects to www.raceup.org. robots.txt allows /events/city/ and /event/<slug> pages; it disallows /event/*/race/*, ?q= and ?lat= searches, and it lists AI agents separately with the same rules. A French-first European directory; the listings sitemap has only one Treasure Valley city page, /en/events/city/boise-united-states. Each event page has Event JSON-LD, dates only. 16 events on 2026-11-07, mostly YMCA and RunSignup races; Serenata Shuffle is 2027-04-10 here but 2027-04-03 on RunSignup, so this copy may be stale. Adds Treasure Valley Triathlon. Low value next to runsignup-treasure-valley. Terms not read. Held at ready 2026-11-07: dates only (all-day), mostly copies RunSignup, and one date disagrees with RunSignup (Serenata Shuffle), so races would show twice."
+    },
+    {
       "displayName": "Radio Boise",
       "status": "investigating",
       "url": "https://radioboise.org/events",
@@ -3658,6 +3821,48 @@
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
     },
     {
+      "displayName": "RunGuides",
+      "status": "investigating",
+      "url": "https://www.runguides.com/boise/runs",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "notes": "Checked 2026-11-07. robots.txt: 'Allow: /\\$', 'Disallow: /runs', /running-clubs, /running-stores, /privacy. Read literally, /boise/runs and /event/<id>/<slug> are allowed (the /runs rule only matches paths starting with /runs), but the rules suggest the site may not want its listings crawled; confirm intent before running. /boise/runs is an Angular app: the server HTML carries 10 events as schema.org JSON (Event with startDate, Boise address, and runguides.com/event/<id>/<slug> url) inside the content attribute of <meta name=\"structured-data-events-list\">, HTML-entity encoded, not in a <script type=application/ld+json> block. Event pages likewise carry only <meta name=\"structured-data-event\">. The jsonld reader finds nothing. Listings mirror RunSignup races (Serenata Shuffle, Race to Robie Creek)"
+    },
+    {
+      "name": "running-life-boise",
+      "displayName": "Running.life",
+      "status": "ready",
+      "adapter": "scrape",
+      "url": "https://running.life/running-calendar/united-states/idaho/boise",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Other",
+      "venue": "Various Treasure Valley locations",
+      "venueKey": "various-treasure-valley",
+      "priority": 80,
+      "scrapeMode": "jsonld",
+      "eventLinkPattern": "/en/event/[a-z0-9-]+(?:/\\d{4}-\\d\\d-\\d\\d)?(?=\")",
+      "maxPages": 40,
+      "notes": "Checked 2026-11-07. running.life robots.txt disallows only /<lang>/map/ and /demo-. The Idaho page lists events in an ItemList JSON-LD (SportsEvent inside itemListElement[].item), which the jsonld reader does not unwrap, so this reads the Boise page /running-calendar/united-states/idaho/boise (which covers the wider valley) and each linked /en/event/ page, which has its own Event JSON-LD. Dates only, so all-day. 19 events on 2026-11-07; the page also links Melba races (city becomes Other). Some cities differ from RunSignup (Sogood 10K is Parma on RunSignup, Meridian here). Page 2 is not read. Mostly the same races as runsignup-treasure-valley, without start times. Terms not read. Held at ready 2026-11-07: dates only (all-day), and almost every race repeats RunSignup, so they would show twice."
+    },
+    {
+      "name": "runsignup-treasure-valley",
+      "displayName": "RunSignup",
+      "status": "running",
+      "adapter": "scrape",
+      "url": "https://runsignup.com/Races?country=US&state=ID&zipcodeRadius=83702&radius=50",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Other",
+      "venue": "Various Treasure Valley locations",
+      "venueKey": "various-treasure-valley",
+      "priority": 60,
+      "scrapeMode": "jsonld",
+      "eventLinkPattern": "/Race/ID/(?:Boise|Meridian|Nampa|Caldwell|Eagle|GardenCity|Kuna|Star|Emmett|Middleton|MountainHome|Payette|Weiser|Marsing)/[A-Za-z0-9]+(?=[?\"])",
+      "maxPages": 40,
+      "notes": "Checked 2026-11-07. The official API (api.runsignup.com/rest/races, documented with state, city, zipcode and radius filters) is on a host whose robots.txt is 'Disallow: /' for all agents, so it was not requested; the same API under runsignup.com/Rest/ was not used either, to avoid working around that. runsignup.com robots.txt allows /Races and /Race/ pages (Crawl-delay 1). The Find a Race page /Races?country=US&state=ID&zipcodeRadius=83702&radius=50 lists the 30 soonest races within 50 miles of Boise (page 2 and later are not read), and each race page has schema.org Event JSON-LD with start time and -07:00/-06:00 offsets correct. eventLinkPattern keeps only race links whose URL city is one of the covered towns (Melba and Parma are dropped). 27 events on 2026-11-07. Overlaps mike-brown-group for several races (Boise Half Marathon, Valnova Turkey Trot, Nampa Pumpkin Spice 5K, Turkey Day 5K). Terms not read"
+    },
+    {
       "name": "seatgeek",
       "displayName": "SeatGeek",
       "status": "ready",
@@ -3691,6 +3896,27 @@
       "displayName": "Showclix, TicketLeap, and Tix",
       "status": "ruled-out",
       "reason": "These sell tickets for individual organizers, so there is no local list to read without knowing each organizer. Add an organizer as its own idea instead"
+    },
+    {
+      "name": "shrine-social-club",
+      "displayName": "Shrine Social Club",
+      "status": "ready",
+      "adapter": "scrape",
+      "url": "https://shrinesocialclub.com/shows/",
+      "robotsChecked": "2026-11-07",
+      "category": "music",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Shrine Social Club",
+      "venueKey": "shrine-social-club",
+      "priority": 20,
+      "fixedVenue": true,
+      "scrapeMode": "cards",
+      "itemPattern": "(?s)<div class='shr-show-item .*?class='shr-show-ticket'.*?</div>",
+      "datePattern": "<br>(?<month>\\d{1,2})/(?<day>\\d{1,2})/(?<year>\\d{4})",
+      "titlePattern": "(?s)<div class='fs-h1'>(?<title>.*?)</div>",
+      "timePattern": "Doors:\\s*(?<start>\\d{1,2}(?::\\d{2})?\\s*[ap]m)",
+      "notes": "Music venue at 1118 W Idaho St, downtown Boise, with two rooms (Ballroom and Basement); same group as Treefort Music Hall and The Duck Club. Checked 2026-11-07: robots.txt allows everything but /wp-admin/ (www redirects to shrinesocialclub.com). WordPress, but no tribe route (rest_no_route) and no schema.org Event data. /shows/ is server-rendered: 83 shows on 2026-11-07 through June 2027, each a div.shr-show-item with a numeric date (Saturday<br>11/7/2026), doors time, headliner in div.fs-h1, supports in div.fs-sa, the room, and a DICE ticket link (link.dice.fm). Tickets are on DICE. Dry run with scrapeMode cards: 83 events, titles and dates right, but every event is all-day and links to /shows/: the doors time is written as 'Doors: 8<span>pm</span>', which the cards time parser cannot read, and the ticket links use single-quoted href, which cards mode does not read. Held at ready: all-day copies would not merge with mike-brown-group's timed listings of the same shows (26 Shrine events) and would show twice. Weekly 'KARAOKE IN THE BASEMENT!' is listed; filter it with excludeTitlePattern if unwanted. Terms not read"
     },
     {
       "name": "meetup-shutupandwriteboiseid",
@@ -4334,6 +4560,16 @@
       "robotsChecked": "2026-11-06"
     },
     {
+      "displayName": "Twisted Turtle Racing",
+      "status": "investigating",
+      "adapter": "other",
+      "url": "https://www.twistedturtleracing.com",
+      "robotsChecked": "2026-11-07",
+      "category": "sports",
+      "city": "Boise",
+      "notes": "2026-11-07: Boise race promoter (Southern Idaho Cyclocross Series, short track, XC, enduro, gravel). Squarespace; robots.txt disallows /api/, ?format=json and ?month= among others; the home page and /cyclocross are allowed. No events collection, no schema.org Event data and no feed: the schedule is free text on the home page (Next up: Nov 21-22 Eagle Bike Park, Dec 5-6 Lucky Peak State Park, year end CX awards party Dec 7, then past events), with no year and no per-event blocks, so cards mode does not fit. Registration is on zone4.ca, whose robots.txt answered 403, so zone4 was not probed further. Many races are outside the Treasure Valley (Pocatello, Hailey, Jug Mountain, Galena, Brundage). Most of its events also appear on idahobikeracing.org. Terms not read"
+    },
+    {
       "displayName": "University of Idaho Extension county calendars",
       "url": "https://www.uidaho.edu/extension/county/gem/4-h/calendar",
       "category": "learning-business",
@@ -4451,6 +4687,16 @@
       "notes": "Aviation and military history museum, 201 Municipal Dr, Nampa. Found 2026-11-06 while researching the Air shows idea. robots.txt disallows only WooCommerce paths and /wp-admin/. The Events Calendar: the REST API (/wp-json/tribe/events/v1/events) had 14 upcoming events, but the tribe adapter has no title filter, so this reads the site's iCal feed (/events/?ical=1, text/calendar, the same 14 events with TZID America/Boise) and skips closures by title, leaving 9: Veterans Breakfast, Veterans Free Week, a model building workshop, Winterfest, Kilroy Coffee Klatch, and Homeschool Family Days. Times match the site. fixedVenue, because LOCATION repeats the museum address. boise-mom and mike-brown-group repost a few of these. Configured 2026-11-06. Terms not read",
       "fixedVenue": true,
       "excludeTitlePattern": "(?i)\\bclosed\\b|\\bclosure\\b"
+    },
+    {
+      "displayName": "Watson's Mystery Cafe and Spirits",
+      "status": "investigating",
+      "url": "https://www.eventbrite.com/o/33074932119",
+      "robotsChecked": "2026-11-07",
+      "category": "performing-arts",
+      "city": "Boise",
+      "venue": "Watson's Mystery Cafe and Spirits",
+      "notes": "Dictated as 'Watson's Theatre on Fairview'. Murder mystery dinner theater, improv and comedy at 8001 W Fairview Ave, Boise (208-779-0092); Meetup lists it as 'Watsons Mystery Cafe and Theatre'. No website of its own was found on 2026-11-07; show listings are on BroadwayWorld and tickets were sold on Eventbrite, organizer 33074932119. eventbrite.com robots.txt allows /o/ pages. The organizer page said 'Nothing planned right now' and had no __SERVER_DATA__ or schema.org events, so the eventbrite-search adapter has nothing to read. If shows return to Eventbrite, the eventbrite API adapter could read the organizer once it has a token (the adapter takes organization or venue ids, not organizer ids, so check which id applies). Facebook is out of scope. Ask the venue where its schedule is published"
     },
     {
       "name": "meetup-waypoint-a-meditative-service-for-pilgrims",

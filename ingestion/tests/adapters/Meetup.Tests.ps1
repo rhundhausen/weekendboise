@@ -90,4 +90,16 @@ Describe 'meetup adapter' {
   It 'fails when the response is not a calendar' {
     { & $adapter -Source $source -FetchedAt $fetchedAt -Response '<html>sign in</html>' -RawPath $rawPath } | Should -Throw '*not an iCalendar feed*'
   }
+
+  It 'removes Markdown from the description' {
+    # Meetup writes descriptions in Markdown and escapes punctuation, then the feed escapes the backslashes.
+    $markdown = @(
+      'BEGIN:VCALENDAR', 'VERSION:2.0', 'X-WR-CALNAME:Adult Board Game Night'
+      'BEGIN:VEVENT', 'UID:event_6@meetup.com', 'DTSTART;TZID=America/Denver:20261115T180000', 'SUMMARY:Known Night'
+      'DESCRIPTION:Adult Board Game Night\n**Wednesday\\, November 18 \| 5:30 PM** at 10 Barrel Brewing Co\. We''ve all had *that* client\!'
+      'URL;VALUE=URI:https://www.meetup.com/adult-board-game-night/events/6/', 'END:VEVENT', 'END:VCALENDAR'
+    ) -join "`r`n"
+    $e = @(& $adapter -Source $source -FetchedAt $fetchedAt -Response @($markdown) -RawPath $rawPath)[0]
+    $e.description | Should -BeExactly 'Wednesday, November 18 | 5:30 PM at 10 Barrel Brewing Co. We''ve all had that client!'
+  }
 }

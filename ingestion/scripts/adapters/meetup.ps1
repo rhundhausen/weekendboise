@@ -119,6 +119,8 @@ foreach ($item in (ConvertFrom-Ics $text)) {
     # Meetup starts each description with the group's name.
     $description = $item.Description
     if ($groupName -and $description.StartsWith($groupName)) { $description = $description.Substring($groupName.Length) }
+    # Some groups write in Markdown: drop bold and italic marks and the backslashes that escape punctuation.
+    $description = $description -replace '\\([\\`*_{}\[\]()#+\-.!|,:;~<>"''])', '$1' -replace '(?<![\w*])\*{1,3}(?=\S)|(?<=\S)\*{1,3}(?![\w*])', ''
 
     New-TvEvent -Title $title -Start $item.Start -End $item.End -AllDay:$item.AllDay `
       -Venue $venue -VenueKey $venueKey -City $city `

@@ -90,11 +90,12 @@
         <span class="label">City</span>
         <select id="city"><option value="">All cities</option></select>
       </label>
-      <label class="field">
+      {{- /* On phones, Venue Size, Cost, and the chips row sit behind the "More filters" button. */}}
+      <label class="field more" id="size-field">
         <span class="label">Venue Size</span>
         <select id="size"><option value="">Any size</option></select>
       </label>
-      <label class="field">
+      <label class="field more" id="cost-field">
         <span class="label">Cost</span>
         <select id="cost">
           <option value="">Any cost</option>
@@ -104,11 +105,12 @@
           <option value="3">$$${{ index $costRange "3" }}</option>
         </select>
       </label>
+      <button id="more" class="btn more-toggle" type="button" aria-expanded="false" aria-controls="size-field cost-field chips-row">More filters<span id="more-n"></span></button>
       <button id="reset" class="btn" type="button">Reset</button>
     </div>
     {{- /* Category chips, then the Meetup toggle on the same row. Meetup events are hidden until it
          is checked, because Meetup groups are only partly public. */}}
-    <div class="chips">
+    <div class="chips more" id="chips-row">
       <div class="chip-group" id="cats" role="group" aria-label="Categories"></div>
       <label class="chip toggle" id="meetup-chip"><input type="checkbox" id="meetup"><span>Include Meetups</span><span class="n" id="meetup-n"></span></label>
     </div>

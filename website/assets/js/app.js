@@ -18,6 +18,7 @@ const el = {
   reset: $('reset'), cats: $('cats'), count: $('count'), rows: $('rows'), sourceNote: $('source-note'),
   pagerTop: $('pager-top'), pagerBottom: $('pager-bottom'), per: $('per'),
   meetup: $('meetup'), meetupCount: $('meetup-n'), meetupChip: $('meetup-chip'),
+  more: $('more'), moreCount: $('more-n'), controls: document.querySelector('.controls'),
 };
 
 // Dates are handled as YYYY-MM-DD strings in Boise time; noon UTC keeps day math clear of DST edges.
@@ -156,6 +157,9 @@ function render() {
   el.meetup.disabled = forced;
   el.meetupCount.textContent = numFmt.format(meetups);
   el.meetupChip.classList.toggle('empty', !meetups);
+  // The phone's "More filters" button counts the filters set behind it.
+  const hidden = (state.size ? 1 : 0) + (state.cost ? 1 : 0) + state.cats.size + (state.meetup ? 1 : 0);
+  el.moreCount.textContent = hidden ? ` (${hidden})` : '';
   renderSourceNote();
   renderRows(slice);
   el.count.textContent = shown.length
@@ -460,6 +464,11 @@ el.size.addEventListener('change', onFilter(() => { state.size = el.size.value; 
 el.cost.addEventListener('change', onFilter(() => { state.cost = el.cost.value; }));
 el.meetup.addEventListener('change', onFilter(() => { state.meetup = el.meetup.checked; }));
 el.reset.addEventListener('click', resetAll);
+el.more.addEventListener('click', () => {
+  const open = el.controls.classList.toggle('open');
+  el.more.setAttribute('aria-expanded', open ? 'true' : 'false');
+  el.more.firstChild.textContent = open ? 'Fewer filters' : 'More filters';
+});
 for (const n of PAGE_SIZES) {
   const o = document.createElement('option');
   o.value = String(n);
