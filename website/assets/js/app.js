@@ -158,7 +158,7 @@ function render() {
   el.meetupCount.textContent = numFmt.format(meetups);
   el.meetupChip.classList.toggle('empty', !meetups);
   // The phone's "More filters" button counts the filters set behind it.
-  const hidden = (state.size ? 1 : 0) + (state.cost ? 1 : 0) + state.cats.size + (state.meetup ? 1 : 0);
+  const hidden = (state.from || state.to ? 1 : 0) + (state.size ? 1 : 0) + (state.cost ? 1 : 0) + state.cats.size + (state.meetup ? 1 : 0);
   el.moreCount.textContent = hidden ? ` (${hidden})` : '';
   renderSourceNote();
   renderRows(slice);
@@ -464,11 +464,14 @@ el.size.addEventListener('change', onFilter(() => { state.size = el.size.value; 
 el.cost.addEventListener('change', onFilter(() => { state.cost = el.cost.value; }));
 el.meetup.addEventListener('change', onFilter(() => { state.meetup = el.meetup.checked; }));
 el.reset.addEventListener('click', resetAll);
-el.more.addEventListener('click', () => {
-  const open = el.controls.classList.toggle('open');
+function setMoreOpen(open) {
+  el.controls.classList.toggle('open', open);
   el.more.setAttribute('aria-expanded', open ? 'true' : 'false');
   el.more.firstChild.textContent = open ? 'Fewer filters' : 'More filters';
-});
+}
+el.more.addEventListener('click', () => setMoreOpen(!el.controls.classList.contains('open')));
+// Choosing "Custom dates" opens the panel, so the From and To boxes are there to fill in.
+el.when.addEventListener('change', () => { if (el.when.value === 'custom') setMoreOpen(true); });
 for (const n of PAGE_SIZES) {
   const o = document.createElement('option');
   o.value = String(n);

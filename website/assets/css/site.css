@@ -361,7 +361,8 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   align-items: center;
   gap: 4px;
 }
-.pager.bottom { justify-content: flex-end; margin: 10px 0 0; }
+/* Below the list: the per-page choice on the left, the pager on the right. */
+.paging.bottom { justify-content: space-between; margin: 10px 0 0; }
 .paging {
   display: flex;
   flex-wrap: wrap;
@@ -533,7 +534,7 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   .field { flex: 1 1 140px; }
   .field.date { flex: 1 1 130px; }
   .btn#reset, .btn#more { flex: 1 1 calc(50% - 5px); }
-  /* Venue Size, Cost, and the chips stay hidden until "More filters" opens them. */
+  /* From, To, Venue Size, Cost, and the chips stay hidden until "More filters" opens them. */
   .controls:not(.open) .more { display: none; }
   .grid thead { display: none; }
   .grid, .grid tbody, .grid tr, .grid td { display: block; width: 100%; }

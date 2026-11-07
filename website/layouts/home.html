@@ -78,11 +78,12 @@
           <option value="custom">Custom dates</option>
         </select>
       </label>
-      <label class="field date">
+      {{- /* On phones, From, To, Venue Size, Cost, and the chips row sit behind the "More filters" button. */}}
+      <label class="field date more" id="from-field">
         <span class="label">From</span>
         <input id="from" type="date">
       </label>
-      <label class="field date">
+      <label class="field date more" id="to-field">
         <span class="label">To</span>
         <input id="to" type="date">
       </label>
@@ -90,7 +91,6 @@
         <span class="label">City</span>
         <select id="city"><option value="">All cities</option></select>
       </label>
-      {{- /* On phones, Venue Size, Cost, and the chips row sit behind the "More filters" button. */}}
       <label class="field more" id="size-field">
         <span class="label">Venue Size</span>
         <select id="size"><option value="">Any size</option></select>
@@ -105,7 +105,7 @@
           <option value="3">$$${{ index $costRange "3" }}</option>
         </select>
       </label>
-      <button id="more" class="btn more-toggle" type="button" aria-expanded="false" aria-controls="size-field cost-field chips-row">More filters<span id="more-n"></span></button>
+      <button id="more" class="btn more-toggle" type="button" aria-expanded="false" aria-controls="from-field to-field size-field cost-field chips-row">More filters<span id="more-n"></span></button>
       <button id="reset" class="btn" type="button">Reset</button>
     </div>
     {{- /* Category chips, then the Meetup toggle on the same row. Meetup events are hidden until it
@@ -119,10 +119,7 @@
 
   <div class="status">
     <p id="count" aria-live="polite">Loading events</p>
-    <div class="paging">
-      <label class="per">Show <select id="per" aria-label="Events per page"></select> per page</label>
-      <nav class="pager" id="pager-top" aria-label="Pages"></nav>
-    </div>
+    <nav class="pager" id="pager-top" aria-label="Pages"></nav>
   </div>
 
   <div class="table-wrap">
@@ -146,7 +143,10 @@
     </table>
   </div>
 
-  <nav class="pager bottom" id="pager-bottom" aria-label="Pages"></nav>
+  <div class="paging bottom">
+    <label class="per">Show <select id="per" aria-label="Events per page"></select> per page</label>
+    <nav class="pager" id="pager-bottom" aria-label="Pages"></nav>
+  </div>
 </main>
 
 <footer class="wrap foot">
