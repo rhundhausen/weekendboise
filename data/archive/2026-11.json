@@ -3247,6 +3247,28 @@
     ]
   },
   {
+    "id": "90a00e2e4358",
+    "title": "Zion and Bryce Hiking and Glamping",
+    "start": "2026-11-05T07:00:00-07:00",
+    "end": "2026-11-08T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Explorer Chicks of Boise",
+    "venueKey": "explorer-chicks-of-boise",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/explorer-chicks-of-boise/events/314709112/",
+    "description": "Unreal hoodoos? Check. Slot canyons? Majestic overlooks? Check. All this and more (like heated tents with electricity) await you during our Women’s Hiking and Glamping in Zion National Park and Bryce Canyon weekend adventure! BRYCE CANYON HIKING AND BEGINNER-FRIENDLY CANYONEERING Escape to prehis...",
+    "sources": [
+      {
+        "name": "meetup-explorer-chicks-of-boise",
+        "url": "https://www.meetup.com/explorer-chicks-of-boise/events/314709112/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
     "id": "854f7e42bef4",
     "title": "Fit and Fall Proof",
     "start": "2026-11-05T09:15:00-07:00",
@@ -6199,6 +6221,32 @@
     ]
   },
   {
+    "id": "e9c16b059bda",
+    "title": "Idaho Dream Wedding Expo",
+    "start": "2026-11-07T08:00:00-07:00",
+    "end": "2026-11-08T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Expo Idaho",
+    "venueKey": "expo-idaho",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "trade-show"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "http://www.idahodreamwedding.com",
+    "description": "LOVE is in the Air! Idaho Dream Wedding Expo November 7-8, 2026 Saturday: 10 AM - 4 PM | Sunday: 10 AM - 3 PM You’ve been searching for wedding ideas and trends online—now it’s time to see them come to life! Join us at the Idaho Dream Wedding Expo, the largest wedding event of the year. What to E...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "http://www.idahodreamwedding.com",
+        "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
     "id": "190530f2ee5f",
     "title": "LSMS Holiday Bazaar",
     "start": "2026-11-07T09:00:00-07:00",
@@ -8308,6 +8356,435 @@
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/love-in-the-club-2000s-rb-hip-hop-dance-party/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "5ff23a1f14ec",
+    "title": "Idaho Reined Cow Horse Association",
+    "start": "2026-11-08T08:00:00-07:00",
+    "allDay": false,
+    "venue": "Ford Idaho Center Horse Park & Sports Center",
+    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
+    "city": "Nampa",
+    "category": "sports",
+    "tags": [
+      "rodeo"
+    ],
+    "size": "L",
+    "url": "https://www.fordidahocenter.com/events/detail/ircha2022-19",
+    "description": "Idaho Reined Cowhorse Association Futurity/Derby/Horse Show The Idaho Reined Cow Horse Futurity is the highest paying NRCHA affiliate Futurity in the nation.",
+    "sources": [
+      {
+        "name": "ford-idaho-center",
+        "url": "https://www.fordidahocenter.com/events/detail/ircha2022-19",
+        "fetchedAt": "2026-11-08T07:04:55Z"
+      }
+    ]
+  },
+  {
+    "id": "b5e2233e4bf7",
+    "title": "Let's drink some coffee and talk about our spiritual experiences!",
+    "start": "2026-11-08T09:30:00-07:00",
+    "end": "2026-11-08T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Alchemist Coffee (overland)",
+    "venueKey": "alchemist-coffee-overland",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317049276/",
+    "description": "All lives are spiritual in nature. And all people are on a spiritual journey. Some of us just realize this. And some people have wonderful, exciting or flat out confusing spiritual experiences. And the world can not, or will not, explain or acknowledge. These experiences are not crazy, or insane...",
+    "sources": [
+      {
+        "name": "meetup-beings-of-light-and-coffee",
+        "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317049276/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "43c6d7193a87",
+    "title": "Harvest Hustle",
+    "start": "2026-11-08T10:00:00-07:00",
+    "end": "2026-11-08T12:00:00-07:00",
+    "allDay": false,
+    "venue": "CAES 5K Course",
+    "venueKey": "caes-5k-course",
+    "city": "Nampa",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.mikebrowngroup.com/event/harvest-hustle-2/",
+    "description": "The second annual CAES 5K and 1-mile fun run in Nampa, open to runners, walkers, families and friends, supporting a good cause.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/harvest-hustle-2/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "474aea57b764",
+    "title": "Eagle Holiday Bazaar",
+    "start": "2026-11-08T10:00:00-07:00",
+    "end": "2026-11-08T15:00:00-07:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "category": "holiday-seasonal",
+    "tags": [
+      "holiday-event",
+      "holiday-market"
+    ],
+    "size": "M",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/eagle-holiday-bazaar/2026-11-08/",
+    "description": "Each year our Artisans work their craft skills to bring you the highest quality products that you would be proud to give as a gift or keep for yourself. We offer a large variety of products such as handmade cinnamon rolls, BBQ sauce, candies, rugs, quilts, ceramics, glass, jewelry, wooden items,...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/eagle-holiday-bazaar/2026-11-08/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ],
+    "city": "Eagle"
+  },
+  {
+    "id": "476cf7d12f8f",
+    "title": "Beginner Still Life Drawing",
+    "start": "2026-11-08T10:00:00-07:00",
+    "end": "2026-11-08T12:00:00-07:00",
+    "allDay": false,
+    "venue": "6427 W Ustick Rd",
+    "venueKey": "6427-w-ustick-rd",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317049657/",
+    "description": "This beginner-friendly drawing class is perfect for anyone looking to improve their skills. All ages Ongoing, Biweekly Sundays: 10:00am - 12:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/beginner-still-life-drawing-sun-10am-1 In this c...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317049657/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "568d1c9169ad",
+    "title": "LSMS Holiday Bazaar",
+    "start": "2026-11-08T10:00:00-07:00",
+    "end": "2026-11-08T15:00:00-07:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "city": "Other",
+    "category": "holiday-seasonal",
+    "tags": [
+      "concert",
+      "holiday-event",
+      "holiday-market",
+      "theater"
+    ],
+    "size": "M",
+    "url": "https://boisemom.com/event/lsms-holiday-bazaar/2026-11-08/",
+    "description": "It is officially one week till we open the doors for our 15th annual holiday bazaar, where you can shop these vendors and so many more at our great event. Plus, enjoy live music and dance performances, vote in our student art contest, and donate to our clothing drive and toy drive. So grab your f...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/lsms-holiday-bazaar/2026-11-08/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "be3b670c60d8",
+    "title": "Idaho Dream Wedding Expo",
+    "start": "2026-11-08T10:00:00-07:00",
+    "end": "2026-11-08T15:00:00-07:00",
+    "allDay": false,
+    "venue": "Expo Idaho",
+    "venueKey": "expo-idaho",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "trade-show"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://expoidaho.com/event/idaho-dream-wedding-expo-19/2026-11-08/",
+    "description": "Whether you’re starting out your planning journey or you just need that one last thing, this is the place to be! Brides and their guests can meet face-to-face with top wedding professionals who can’t wait to discuss your special day. We invite you to join us at the Idaho Dream Wedding Expo! Bring...",
+    "sources": [
+      {
+        "name": "expo-idaho",
+        "url": "https://expoidaho.com/event/idaho-dream-wedding-expo-19/2026-11-08/",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      }
+    ]
+  },
+  {
+    "id": "e593927f9d40",
+    "title": "Treasure Valley Flea Market",
+    "start": "2026-11-08T10:00:00-07:00",
+    "end": "2026-11-08T16:00:00-07:00",
+    "allDay": false,
+    "venue": "Expo Idaho",
+    "venueKey": "expo-idaho",
+    "city": "Garden City",
+    "category": "markets-shopping",
+    "tags": [
+      "flea-market",
+      "kids"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://expoidaho.com/event/treasure-valley-flea-market-45/2026-11-08/",
+    "description": "Out with the old…in with the older! Don’t miss your chance to say, “I found something” at the Treasure Valley Indoor Flea market at Expo Idaho.",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/treasure-valley-flea-market-4/2026-11-08/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "expo-idaho",
+        "url": "https://expoidaho.com/event/treasure-valley-flea-market-45/2026-11-08/",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      }
+    ]
+  },
+  {
+    "id": "a6b8265d35b5",
+    "title": "Sunday Hike - Upper Hulls Gulch",
+    "start": "2026-11-08T10:30:00-07:00",
+    "end": "2026-11-08T13:30:00-07:00",
+    "allDay": false,
+    "venue": "Hulls Gulch Upper Trailhead",
+    "venueKey": "hulls-gulch-upper-trailhead",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "hike"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/boise-introverts-who-want-to-mingle/events/316926449/",
+    "description": "The weather looks like it might be a bit more reliable this weekend, so I'm planning to hike Upper Hulls Gulch on Sunday. Meet at the (First) Upper Hulls Gulch Trailhead parking lot (not to be confused with the Lower Hulls Gulch Trailhead parking lot, which you will drive past) - if you are searc...",
+    "sources": [
+      {
+        "name": "meetup-boise-introverts-who-want-to-mingle",
+        "url": "https://www.meetup.com/boise-introverts-who-want-to-mingle/events/316926449/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "802d593e2709",
+    "title": "Outdoor Pickleball @ Settlers Park 11 AM",
+    "start": "2026-11-08T11:00:00-07:00",
+    "end": "2026-11-08T13:00:00-07:00",
+    "allDay": false,
+    "venue": "Settler's Park",
+    "venueKey": "settlers-park",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/the-fun-seekers-connection/events/317258779/",
+    "description": "Let's play some pickleball. Settlers Park. We will be on a first come first serve basis so no fees will be charged. Come out and have some fun. We may be on the back pickleball courts please check the courts next to the playground.",
+    "sources": [
+      {
+        "name": "meetup-the-fun-seekers-connection",
+        "url": "https://www.meetup.com/the-fun-seekers-connection/events/317258779/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "7473a286483b",
+    "title": "Boise State Broncos Men's Basketball vs. Butler",
+    "start": "2026-11-08T12:00:00-07:00",
+    "allDay": false,
+    "venue": "ExtraMile Arena",
+    "venueKey": "extramile-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "XL",
+    "url": "https://www.ticketmaster.com/boise-state-broncos-mens-basketball-vs-boise-idaho-11-08-2026/event/1E006557EC30A4F0",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/boise-state-mens-basketball-game/2026-11-08/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      },
+      {
+        "name": "extramile-arena",
+        "url": "https://www.ticketmaster.com/boise-state-broncos-mens-basketball-vs-boise-idaho-11-08-2026/event/1E006557EC30A4F0",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ],
+    "description": "Home game schedule here: https://gotickets.com/boise-state-broncos-mens-basketball-tickets?utm_medium=cpc&utm_source=google&tid=kwd-300993523873&agid=202260866140&cid=24399799847&int=&pres=9191083&network=g&gad_source=1&gad_campaignid=24399799847&gbraid=0AAAAAqsaoUSrjJzlELmGYiaACBV4jFcBi&gclid=Cj...",
+    "end": "2026-11-08T14:00:00-07:00"
+  },
+  {
+    "id": "973c840a2180",
+    "title": "Boise State University Men's Basketball vs Butler",
+    "start": "2026-11-08T12:00:00-07:00",
+    "end": "2026-11-08T14:00:00-07:00",
+    "allDay": false,
+    "venue": "ExtraMile Arena",
+    "venueKey": "extramile-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "XL",
+    "url": "https://admin.broncosports.com/calendar.aspx?game_id=23268&sport_id=4",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/boise-state-mens-basketball-game/2026-11-08/",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      },
+      {
+        "name": "boise-state-athletics",
+        "url": "https://admin.broncosports.com/calendar.aspx?game_id=23268&sport_id=4",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "extramile-arena",
+        "url": "https://www.ticketmaster.com/boise-state-broncos-mens-basketball-vs-boise-idaho-11-08-2026/event/1E006557EC30A4F0",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "visit-boise",
+        "url": "https://broncosports.com/sports/mens-basketball",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ],
+    "description": "Home game schedule here: https://gotickets.com/boise-state-broncos-mens-basketball-tickets?utm_medium=cpc&utm_source=google&tid=kwd-300993523873&agid=202260866140&cid=24399799847&int=&pres=9191083&network=g&gad_source=1&gad_campaignid=24399799847&gbraid=0AAAAAqsaoUSrjJzlELmGYiaACBV4jFcBi&gclid=Cj..."
+  },
+  {
+    "id": "cb49655f62ec",
+    "title": "Nature Act journaling club outing!",
+    "start": "2026-11-08T13:30:00-07:00",
+    "end": "2026-11-08T15:00:00-07:00",
+    "allDay": false,
+    "venue": "5301 North Maple Grove Road",
+    "venueKey": "5301-north-maple-grove-road",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/nature-act-nature-journaling-workshops/events/316858299/",
+    "description": "Welcome to the first Nature Act journaling club outing! No instruction, just \"YOU TIME\" to notice, wonder, and remember a relaxing, creative, and refreshing afternoon at a fantastic natural location in Boise. We'll meet at [Hyatt Hidden Lakes Reserve](https://www.cityofboise.org/departments/parks...",
+    "sources": [
+      {
+        "name": "meetup-nature-act-nature-journaling-workshops",
+        "url": "https://www.meetup.com/nature-act-nature-journaling-workshops/events/316858299/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "37694ae77910",
+    "title": "Holiday Wreath Workshop",
+    "start": "2026-11-08T14:00:00-07:00",
+    "end": "2026-11-08T16:00:00-07:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "category": "learning-business",
+    "tags": [
+      "holiday-event",
+      "workshop"
+    ],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://boisemom.com/event/holiday-wreath-workshop-2/2026-11-08/",
+    "description": "Join us at Franz Witte for a fun and festive Make-and-Take wreath workshop! We’ll provide all the supplies you need to create your own personalized holiday wreath, along with helpful guidance from our friendly teachers. You’ll leave with a beautiful, handcrafted decoration. Limited seating availa...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/holiday-wreath-workshop-2/2026-11-08/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ],
+    "city": "Boise"
+  },
+  {
+    "id": "760e4e248000",
+    "title": "The Planets",
+    "start": "2026-11-08T14:00:00-07:00",
+    "end": "2026-11-08T16:00:00-07:00",
+    "allDay": false,
+    "venue": "Morrison Center for the Performing Arts",
+    "venueKey": "morrison-center-for-the-performing-arts",
+    "city": "Boise",
+    "category": "arts-culture",
+    "tags": [],
+    "size": "L",
+    "url": "https://events.boisestate.edu/event/the-planets-35",
+    "description": "Eric Garcia leads a journey from intimate lyricism to cosmic grandeur as guest pianist Fei-Fei brings elegance and expressive depth to Beethoven’s Piano Concerto No. 4 in G major, Op. 58. Then, the women of the Boise Phil Master Chorale join the orchestra for Holst’s The Planets, a vivid voyage t...",
+    "sources": [
+      {
+        "name": "boise-state-arts",
+        "url": "https://events.boisestate.edu/event/the-planets-35",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "9ac36b7e9d02",
+    "title": "Boise Phil: The Planets",
+    "start": "2026-11-08T14:00:00-07:00",
+    "end": "2026-11-08T16:00:00-07:00",
+    "allDay": false,
+    "venue": "Morrison Center, 2201 W Cesar Chavez Ln, Boise, ID 83725, United States",
+    "venueKey": "morrison-center-2201-w-cesar-chavez-ln-boise-id-83725-united-states",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://boisephil.org",
+    "description": "Presented by Boise Phil. Eric Garcia leads a journey from intimate lyricism to cosmic grandeur as guest pianist Fei-Fei brings elegance and expressive depth to Beethoven’s Piano Concerto No. 4 in G major, Op. 58. Then, the women of the Boise Phil Master Chorale join the orchestra for Holst’s The...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://boisephil.org",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "caae4a252faf",
+    "title": "Project Flux: Perspectives",
+    "start": "2026-11-08T14:00:00-07:00",
+    "end": "2026-11-08T16:00:00-07:00",
+    "allDay": false,
+    "venue": "ISF School of Theater",
+    "venueKey": "isf-school-of-theater",
+    "city": "Boise",
+    "category": "arts-culture",
+    "tags": [],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://www.boiseartsandhistory.org/calendar/event?key=project-flux-perspectives_20261108",
+    "description": "Perspectives is a place for Boise artists and audiences to engage more deeply with the performing arts. During this works-in-progress showing, audiences will get the chance to see in-development works, hear about the artists' processes, and ask questions to the creators. During the November 2026...",
+    "sources": [
+      {
+        "name": "boise-arts-history",
+        "url": "https://www.boiseartsandhistory.org/calendar/event?key=project-flux-perspectives_20261108",
+        "fetchedAt": "2026-11-04T06:01:16Z"
       }
     ]
   }
