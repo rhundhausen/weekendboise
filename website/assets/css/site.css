@@ -5,7 +5,8 @@
    Day is the default. A script in baseof.html sets data-period to "sunset" from 6 PM to 9 PM and
    "night" from 9 PM to 6 AM on the visitor's clock. The logo and the top stripe follow the period
    in every color scheme; the page colors follow it only in light mode, so dark mode stays dark.
-   The filter panel and event table stay light in every period, so long lists read the same. */
+   The page around the panels takes the period's sky (light blue, peach, deep indigo), and the
+   filter panel and event table stay light in every period, so long lists read the same. */
 :root {
   --logo: url("/icons/day/favicon.svg");
   --sky: linear-gradient(90deg, #1d4ed8, #7dd3fc);
@@ -29,6 +30,10 @@
   --header-link: var(--accent);
   --skyline: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 38 64 14' preserveAspectRatio='none'%3E%3Cpath d='M0 64 L0 52 L7 52 L7 46 L12 46 L12 52 L16 52 L16 42 L21 42 L21 52 L24 52 L24 44 L29 44 L29 52 L33 52 L33 48 A4 4 0 0 1 41 48 L41 52 L45 52 L45 40 L51 40 L51 52 L55 52 L55 46 L64 46 L64 64 Z' fill='%231e3a5f' fill-opacity='0.12'/%3E%3C/svg%3E");
   --shadow: 0 1px 2px rgb(16 24 40 / 6%), 0 1px 3px rgb(16 24 40 / 8%);
+  /* The page around the panels, and the text set straight on it (counts, paging, footer). */
+  --page-bg: var(--bg);
+  --page-muted: var(--muted);
+  --page-link: var(--accent);
   --radius: 8px;
   --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
@@ -41,6 +46,15 @@
   --logo-ring: 0 0 0 1px rgb(255 255 255 / 30%);
   --logo: url("/icons/night/favicon.svg");
   --sky: linear-gradient(90deg, #312e81, #fde68a);
+}
+
+/* Day: the page around the panels is the icon's light sky blue. */
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  :root:not([data-period]):not([data-theme="dark"]),
+  :root[data-period="day"]:not([data-theme="dark"]) {
+    --page-bg: #cde6fb;
+    --page-muted: #334155;
+  }
 }
 
 /* Sunset: the header is the icon's pink-to-amber sky with the navy skyline along the bottom,
@@ -57,6 +71,9 @@
     --cost-bg: #fef3c7;
     --cost-border: #fcd34d;
     --cost-text: #92400e;
+    --page-bg: #fbd3bd;
+    --page-muted: #2a2660;
+    --page-link: #9a3412;
     --header-bg: #f59e0b;
     --header-image: var(--sky);
     --header-text: #1e1b4b;
@@ -79,6 +96,10 @@
     --cost-bg: #fef3c7;
     --cost-border: #fcd34d;
     --cost-text: #92400e;
+    /* The page continues the night sky below the header, so text on it is light. */
+    --page-bg: #1e1b4b;
+    --page-muted: #c7d2fe;
+    --page-link: #fde68a;
     --header-bg: #020617;
     --header-image: linear-gradient(180deg, #020617, #312e81);
     --header-text: #ffffff;
@@ -130,7 +151,7 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  background: var(--bg);
+  background: var(--page-bg);
   color: var(--text);
   font: 14px/1.45 var(--font);
 }
@@ -273,7 +294,8 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   background: var(--surface-2);
 }
 .btn:hover:not(:disabled) { border-color: var(--accent); }
-.btn:disabled { opacity: 0.45; cursor: default; }
+/* Dimmed text, not transparency, so a disabled button stays solid on the colored page. */
+.btn:disabled { color: color-mix(in srgb, var(--muted) 50%, var(--surface)); background: var(--surface); cursor: default; }
 .btn.small { height: 28px; padding: 0 9px; font-size: 12px; }
 
 .chips {
@@ -354,7 +376,7 @@ input:focus-visible, select:focus-visible, button:focus-visible {
 #count {
   margin: 0;
   font-size: 13px;
-  color: var(--muted);
+  color: var(--page-muted);
 }
 .pager {
   display: flex;
@@ -374,12 +396,12 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   align-items: center;
   gap: 6px;
   font-size: 12px;
-  color: var(--muted);
+  color: var(--page-muted);
 }
 .per select { height: 28px; padding: 0 6px; font-size: 12px; }
 .page-info {
   font-size: 12px;
-  color: var(--muted);
+  color: var(--page-muted);
   padding: 0 6px;
   font-variant-numeric: tabular-nums;
 }
@@ -503,8 +525,9 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   margin-top: 24px;
   padding-bottom: 32px;
   font-size: 12px;
-  color: var(--muted);
+  color: var(--page-muted);
 }
+.foot a { color: var(--page-link); }
 
 /* Desktop: one line per event. Long text ends in an ellipsis; hovering shows it in full. */
 @media (min-width: 761px) {
