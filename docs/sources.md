@@ -22,6 +22,7 @@ An idea needs only `displayName`. An entry with a `name` is a configured source 
 | `venue` | configured | Fallback venue display name |
 | `venueKey` | configured | Fallback venue slug |
 | `priority` | no | Integer, default 50, lower is better. When sources report the same event, the url comes from the lowest number. Official sources use 20 and aggregators use 80 |
+| `local` | no | `true` for a site that turns away or times out on GitHub's servers but loads from a home connection. The nightly ingest skips it and keeps its last fetch; `Invoke-LocalIngest.ps1` runs it from a PC, and the Sunday ingest emails a weekly reminder. See [development.md](development.md#nightly-workflows) |
 | `robotsChecked`, `termsChecked` | no | `YYYY-MM-DD`. The outcome goes in `notes`, or in `reason` if it ruled the site out |
 | `organizer` | no | Free text |
 | `notes` | no | Free text. For ideas, what was tried and found |
@@ -44,7 +45,7 @@ Unknown fields fail validation, so a typo can't silently turn a setting off. A n
 
 One entry per Meetup group, named `meetup-<group slug>` (lowercase, underscores as hyphens), with `url` set to `https://www.meetup.com/<group slug>/events/ical/`. Meetup's feed has each event's title, times, description, and link, but no `LOCATION`, so for each new event the adapter reads its Meetup page once, whose schema.org data gives the venue, the city, and whether the event is online. Online events and events whose city isn't one this site covers are dropped. Events already in `data/raw-events.json` from an earlier night reuse the venue and city stored there, so only new events cost a request; a page that can't be read drops that event for the night with a warning. Canceled and past events are skipped before any page is read, and the group's name is removed from the start of each description.
 
-robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rss, and xml feeds). It is read once per run for every Meetup source, and requests to meetup.com are at least 1 second apart across all of them. A private group's feed answers 403; those are `ruled-out`, never worked around. `venue`, `venueKey`, and `city` are fallbacks only. The ingest email sums the groups up in one "Meetup groups" line and leaves empty groups out of "No events", since a group with nothing scheduled is normal.
+robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rss, and xml feeds). It is read once per run for every Meetup source, and requests to meetup.com are at least 1 second apart across all of them. A private group's feed answers 403; those are `ruled-out`, never worked around. `venue`, `venueKey`, and `city` are fallbacks only. The ingest email sums the groups up in one "Meetup groups" line, since a group with nothing scheduled is normal.
 
 ### tribe
 

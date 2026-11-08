@@ -8,6 +8,8 @@ const TZ = 'America/Boise';
 
 const ymdFmt = new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' });
 const timeFmt = new Intl.DateTimeFormat('en-US', { timeZone: TZ, hour: 'numeric', minute: '2-digit' });
+// "17:30" in Boise time, for comparing times as strings.
+const hmFmt = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
 const dayFmt = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', weekday: 'short', month: 'short', day: 'numeric' });
 const shortFmt = new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' });
 const numFmt = new Intl.NumberFormat('en-US');
@@ -31,6 +33,11 @@ const fold = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/
 const ALIASES = { bsu: ['boise state'], nnu: ['northwest nazarene'], cofi: ['college of idaho'], meetups: ['meetup'] };
 const searchTerms = (q) => fold(q).split(/\s+/).filter(Boolean).map((w) => [w, ...(ALIASES[w] || [])]);
 const today = () => boiseDay(new Date());
+// "Tonight" is events today that start at 5 PM or later, or are still going then.
+const EVENING = '17:00';
+// A timed event with no end (or an end not after its start) is taken to last 3 hours, so it
+// leaves the list 3 hours after it starts.
+const ASSUMED_LENGTH = 3 * 60 * 60 * 1000;
 
 // Display-only shortening from website/data/display.json, so grid rows fit on one line.
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -69,10 +76,16 @@ function prepare(e) {
     // its hyphens also as spaces so "boise ai" finds it.
     (e.r || []).join(' '), meetupSlug, meetupSlug.replace(/-/g, ' '),
   ];
+  const instant = allDay ? 0 : Date.parse(e.s);
+  const endParsed = !allDay && e.e ? Date.parse(e.e) : NaN;
+  const end = allDay ? 0 : (endParsed > instant ? endParsed : instant + ASSUMED_LENGTH);
   return {
     title: e.t, venue: e.v, shortTitle: shorten(e.t), shortVenue: shorten(dropAddress(e.v || '')), city: e.c, cat: e.k, catLabel, tags: e.g || [], size: e.z, cost: e.p || '', broken: Boolean(e.x), url: e.u, desc: e.d, src: e.r || [], meetup,
     sd, ed, allDay,
-    instant: allDay ? 0 : Date.parse(e.s),
+    instant, end,
+    // Boise "YYYY-MM-DD HH:MM" of the start and the real end (blank without one), for Tonight.
+    startKey: allDay ? '' : `${sd} ${hmFmt.format(new Date(instant))}`,
+    endKey: endParsed > instant ? `${boiseDay(new Date(endParsed))} ${hmFmt.format(new Date(endParsed))}` : '',
     dateText, timeText,
     hay: fold(searchable.join(' ')),
   };
@@ -81,7 +94,7 @@ function prepare(e) {
 function presetRange(when) {
   const t = today();
   switch (when) {
-    case 'today': return [t, t];
+    case 'today': case 'tonight': return [t, t];
     case 'tomorrow': return [addDays(t, 1), addDays(t, 1)];
     case 'weekend': {
       const dow = asDate(t).getUTCDay();
@@ -105,9 +118,15 @@ const searchesMeetup = (words) => words.some((forms) => forms.some((f) => f.leng
 const meetupsForced = (words) => state.source.startsWith('meetup-') || searchesMeetup(words);
 
 // Every filter except the Meetup one, which render() applies.
-function matches(e, words, from, to, skipCats) {
+function matches(e, words, from, to, skipCats, now) {
   if (e.ed < from) return false;
   if (to && e.sd > to) return false;
+  // Timed events that are over drop off the list, in every date choice.
+  if (!e.allDay && e.end <= now) return false;
+  if (state.when === 'tonight') {
+    const evening = `${from} ${EVENING}`;
+    if (e.allDay || e.sd !== from || (e.startKey < evening && e.endKey <= evening)) return false;
+  }
   if (state.city && e.city !== state.city) return false;
   if (state.size && e.size !== state.size) return false;
   if (COST_TIERS[state.cost] && e.cost !== COST_TIERS[state.cost]) return false;
@@ -131,7 +150,8 @@ function render() {
 
   // Category counts reflect every other filter, so a chip shows what clicking it would give.
   // The Meetup count is how many Meetup events checking the box would add, or did add.
-  const found = events.filter((e) => matches(e, words, from, to, true));
+  const now = Date.now();
+  const found = events.filter((e) => matches(e, words, from, to, true, now));
   const inCats = (e) => !state.cats.size || state.cats.has(e.cat);
   const meetups = found.filter((e) => e.meetup && inCats(e)).length;
   let forced = meetupsForced(words);

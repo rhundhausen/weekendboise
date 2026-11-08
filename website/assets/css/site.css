@@ -220,7 +220,7 @@ a { color: var(--accent); }
 .list .via { display: block; font-weight: 400; font-size: 11.5px; color: var(--muted); }
 .list .via .m-only { display: none; }
 .list .s-city, .list .s-type { color: var(--muted); }
-.list .s-count a { font-weight: 600; }
+.list .s-count a { font-weight: 550; }
 .list .none { color: var(--muted); }
 .note { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
 
@@ -556,9 +556,17 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   .events .c-city, .events .c-cost { display: none; }
   .c-cat { grid-column: 3; grid-row: 3; text-align: right; align-self: center; }
   .pager { flex-wrap: wrap; }
+  /* Below the list, the per-page choice and the pager share one tighter line. */
+  .paging.bottom { flex-wrap: nowrap; gap: 6px; }
+  .paging.bottom .per-show { display: none; }
+  .paging.bottom .per { gap: 4px; font-size: 11px; white-space: nowrap; }
+  .paging.bottom .per select { height: 26px; padding: 0 2px; font-size: 11px; }
+  .paging.bottom .pager { flex-wrap: nowrap; gap: 3px; }
+  .paging.bottom .btn.small { height: 26px; padding: 0 6px; font-size: 11px; }
+  .paging.bottom .page-info { padding: 0 2px; font-size: 11px; white-space: nowrap; }
   .list tr { grid-template-columns: 1fr auto; }
   .list .s-name { grid-column: 1; grid-row: 1; }
-  .list .s-count { grid-column: 2; grid-row: 1; align-self: center; font-size: 15px; }
+  .list .s-count { grid-column: 2; grid-row: 1; align-self: center; }
   /* Two lines per source: the name, then "host | City | How it's read". */
   .list .s-city, .list .s-type { display: none; }
   .list .via { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

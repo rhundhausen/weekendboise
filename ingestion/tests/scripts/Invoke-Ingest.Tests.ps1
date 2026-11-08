@@ -21,7 +21,7 @@ New-TvEvent -Title "`$(`$Source.displayName) Night" -Start '2026-11-20T19:00:00-
       [ordered]@{
         name = $entry.name; displayName = $entry.name.ToUpperInvariant(); status = $entry.status ?? 'running'; adapter = 'ics'
         url = $entry.url ?? "https://$($entry.name).test"; category = 'music'; city = 'Boise'; venue = 'Hall'; venueKey = 'hall'
-      }
+      } + $(if ($entry.local) { @{ local = $true } } else { @{} })
     }
     [ordered]@{ sources = @($list) } | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $path
     $path
@@ -100,6 +100,33 @@ Describe 'Invoke-Ingest' {
     $script:sourcesPath = Write-Sources @(@{ name = 'alpha' }, @{ name = 'beta'; status = 'investigating' })
     Invoke-TestIngest | Should -Be 0
     @((Read-TvRawFile $rawPath).sources.PSObject.Properties.Name) | Should -Be @('alpha')
+  }
+
+  Context 'local sources' {
+    BeforeEach {
+      $script:sourcesPath = Write-Sources @(@{ name = 'alpha' }, @{ name = 'home'; local = $true })
+    }
+
+    It 'skips a local source in a normal run, and keeps its last fetch' {
+      Invoke-TestIngest @{ Local = $true; AsOf = '2026-11-01T07:00:00Z' } | Should -Be 0
+      $script:sourcesPath = Write-Sources @(@{ name = 'alpha' }, @{ name = 'home'; local = $true; url = 'https://home2.test' })
+      Invoke-TestIngest @{ AsOf = '2026-11-06T07:00:00Z' } | Should -Be 0
+      $run = Get-Content (Join-Path $TestDrive 'out' 'run.json') -Raw | ConvertFrom-Json
+      @($run.sources.name) | Should -Be @('alpha')
+      $raw = Read-TvRawFile $rawPath
+      $raw.sources.home.events[0].url | Should -Be 'https://home.test/e'
+      $raw.asOf | Should -BeExactly '2026-11-06T07:00:00Z'
+    }
+
+    It 'runs only the local sources with -Local, and keeps the raw file''s asOf' {
+      Invoke-TestIngest @{ AsOf = '2026-11-06T07:00:00Z' } | Should -Be 0
+      Invoke-TestIngest @{ Local = $true } | Should -Be 0
+      $run = Get-Content (Join-Path $TestDrive 'out' 'run.json') -Raw | ConvertFrom-Json
+      @($run.sources.name) | Should -Be @('home')
+      $raw = Read-TvRawFile $rawPath
+      $raw.asOf | Should -BeExactly '2026-11-06T07:00:00Z'
+      @($raw.sources.PSObject.Properties.Name) | Should -Be @('alpha', 'home')
+    }
   }
 
   It 'writes nothing with -NoWrite' {

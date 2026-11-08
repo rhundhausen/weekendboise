@@ -204,14 +204,12 @@ function New-TvIngestReport {
   $sections.Add((New-TvReportSection -Title "Failed ($($failed.Count))" -Note ($failed.Count ? 'A failed source keeps its last good events in the raw file.' : 'None.') -Rows @(
         $failed | ForEach-Object { , @((Get-TvSourceLabel $_.name $Sources), @{ Text = (& $pageOf $_.name); Url = (& $pageOf $_.name) }, "$($_.error)") }
       )))
-  $empty = @($ok | Where-Object { $_.fetched -eq 0 -and $_.name -notin $meetupNames })
-  $sections.Add((New-TvReportSection -Title "No events ($($empty.Count))" -Note ($empty.Count ? 'Succeeded but returned nothing. A scraper whose site changed looks like this.' : 'None.') -Rows @(
-        $empty | ForEach-Object { , @((Get-TvSourceLabel $_.name $Sources), @{ Text = (& $pageOf $_.name); Url = (& $pageOf $_.name) }) }
-      )))
   $warned = @($results | Where-Object { @($_.warnings).Count -gt 0 })
   $sections.Add((New-TvReportSection -Title "Warnings ($(($warned | ForEach-Object { @($_.warnings).Count } | Measure-Object -Sum).Sum ?? 0))" -Note ($warned.Count ? '' : 'None.') -Groups @(
         $warned | ForEach-Object { [pscustomobject]@{ Title = (Get-TvSourceLabel $_.name $Sources); Rows = @($_.warnings | ForEach-Object { , @("$_") }) } }
       )))
+  # Most events first, so the sources that returned 0 are at the end. A scraper whose site changed
+  # looks like one of those.
   $sections.Add((New-TvReportSection -Title "Succeeded ($($ok.Count))" -Rows @(
         $ok | Sort-Object { -[int]$_.fetched } | ForEach-Object { , @(@{ Text = (Get-TvSourceLabel $_.name $Sources); Url = (& $pageOf $_.name) }, "$($_.fetched) events", "$($_.duration)") }
       )))
@@ -305,6 +303,62 @@ function New-TvRefineReport {
   $sections.Add((New-TvReportSection -Title 'Upcoming events by source' -Note 'An event that several sources list counts for each.' -Rows @(
         $Refine.sources.PSObject.Properties | Sort-Object { -[int]$_.Value } | ForEach-Object { , @((Get-TvSourceLabel $_.Name $Sources), "$($_.Value)") }
       )))
+
+  @{ Subject = $subject; Text = ConvertTo-TvReportText $subject $sections; Html = ConvertTo-TvReportHtml $subject $sections }
+}
+
+function Test-TvReminderDay {
+  # True when the given UTC time is a Sunday in Boise: the Sunday midnight ingest sends the reminder.
+  param([Parameter(Mandatory)][string]$At)
+
+  $utc = [DateTimeOffset]::Parse($At, [Globalization.CultureInfo]::InvariantCulture).UtcDateTime
+  $local = [TimeZoneInfo]::ConvertTimeFromUtc($utc, [TimeZoneInfo]::FindSystemTimeZoneById('America/Boise'))
+  $local.DayOfWeek -eq [DayOfWeek]::Sunday
+}
+
+function New-TvLocalReminder {
+  <#
+  .SYNOPSIS
+    The weekly email asking for a local ingest run: Subject, Text, and Html.
+  .PARAMETER Sources
+    Every entry in sources.json. Only running sources marked local are listed.
+  .PARAMETER Raw
+    data/raw-events.json, for each local source's last fetch.
+  #>
+  [CmdletBinding()]
+  param(
+    [object[]]$Sources = @(),
+    [AllowNull()][object]$Raw,
+    [string]$RunUrl
+  )
+
+  $local = @($Sources | Where-Object { $_.status -eq 'running' -and $_.local } | Sort-Object displayName)
+  $subject = "WeekendBoise: run the local ingest this week ($($local.Count) source$($local.Count -eq 1 ? '' : 's'))"
+  $rows = [Collections.Generic.List[object]]::new()
+  foreach ($entry in $local) {
+    $stored = if ($Raw -and $Raw.sources.PSObject.Properties[$entry.name]) { $Raw.sources.($entry.name) }
+    $last = if ($stored) { "last fetched $(Format-TvReportTime $stored.fetchedAt)" } else { 'never fetched' }
+    $count = if ($stored) { "$(@($stored.events).Count) events" } else { '0 events' }
+    $rows.Add(@(@{ Text = (Get-TvSourceLabel $entry.name $Sources); Url = "$($entry.url)" }, $last, $count))
+  }
+  $actions = 'https://github.com/rhundhausen/weekendboise/actions/workflows/refine.yml'
+  $sections = @(
+    New-TvReportSection -Title 'What this is for' -Rows @(
+      , @("Some sites turn away or time out on requests from GitHub's servers, which run in Microsoft Azure, but load fine from a home connection.")
+      , @('The nightly ingest skips these local sources and keeps the events they returned last time, so their listings stay on the site.')
+      , @('Running them from your PC once a week picks up their new and changed events. Nothing breaks if you skip a week.')
+    )
+    New-TvReportSection -Title "Local sources ($($local.Count))" -Rows $rows.ToArray()
+    New-TvReportSection -Title 'How to run it' -Rows @(
+      , @('1. Open PowerShell 7 in your weekendboise folder.')
+      , @('2. Run: ./ingestion/scripts/Invoke-LocalIngest.ps1')
+      , @('3. It pulls, runs the local sources, commits data/raw-events.json, and pushes. It takes a minute or two.')
+      , @('4. The push starts the refine workflow, which updates the site a few minutes later.')
+      , @(@{ Text = "Refine runs: $actions"; Url = $actions })
+      , @('If a source fails from home too, the run says so; its last events stay on the site.')
+    )
+  )
+  if ($RunUrl) { $sections += New-TvReportSection -Title 'Sent by' -Kind pairs -Rows @(, @('Ingest run:', @{ Text = $RunUrl; Url = $RunUrl })) }
 
   @{ Subject = $subject; Text = ConvertTo-TvReportText $subject $sections; Html = ConvertTo-TvReportHtml $subject $sections }
 }

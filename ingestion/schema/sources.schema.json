@@ -102,6 +102,11 @@
             "sports"
           ]
         },
+        "local": {
+          "type": "boolean",
+          "description": "Runs only from a home connection, because the site turns away or times out on GitHub's servers. The nightly ingest skips it and keeps its last fetch; Invoke-LocalIngest.ps1 runs it, and the Sunday ingest emails a reminder.",
+          "default": false
+        },
         "inferCategory": {
           "type": "boolean",
           "description": "Choose each event's category from its tags. For sources that mix many kinds of event.",

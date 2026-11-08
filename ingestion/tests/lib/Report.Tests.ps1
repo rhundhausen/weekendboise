@@ -46,11 +46,12 @@ Describe 'New-TvIngestReport' {
     $report.Text | Should -Match '(?s)Failed.*Blocked Site \(blocked\).*https://blocked\.test/events/.*HTTP 405'
   }
 
-  It 'flags a source that succeeded with no events' {
-    $report.Text | Should -Match '(?s)No events.*Empty Site \(empty\)'
+  It 'lists a source that succeeded with no events under Succeeded, with 0 events, and has no No events section' {
+    $report.Text | Should -Match '(?s)== Succeeded \(2\) ==.*Empty Site \(empty\) +\| +0 events'
+    $report.Text | Should -Not -Match '== No events'
   }
 
-  It 'leaves empty Meetup groups out of No events, and sums the groups up instead' {
+  It 'sums up the Meetup groups' {
     $withMeetup = $sources + @(
       [pscustomobject]@{ name = 'meetup-a'; displayName = 'Group A (Meetup)'; status = 'running'; adapter = 'meetup'; url = 'https://m.test/a' }
       [pscustomobject]@{ name = 'meetup-b'; displayName = 'Group B (Meetup)'; status = 'running'; adapter = 'meetup'; url = 'https://m.test/b' }
@@ -61,8 +62,6 @@ Describe 'New-TvIngestReport' {
       [pscustomobject]@{ name = 'meetup-b'; status = 'ok'; fetched = 4; duration = '1s'; warnings = @() }
     )
     $text = (New-TvIngestReport -Run $runMeetup -Sources $withMeetup -Context $context).Text
-    $text | Should -Match '(?s)== No events \(1\) ==.*Empty Site'
-    $text | Should -Not -Match '(?s)== No events.*Group A \(Meetup\).*== Warnings'
     $text | Should -Match 'Meetup groups: +2 ok, 1 with events, 4 events'
   }
 
@@ -210,5 +209,59 @@ Describe 'Send-TvReport' {
       $body.from -eq 'WeekendBoise Reports <reports@weekendboise.com>' -and
       $body.reply_to[0] -eq 'me@test.example'
     }
+  }
+}
+
+Describe 'Test-TvReminderDay' {
+  It 'is true for the scheduled run at midnight Sunday in Boise' {
+    # 2026-11-08 07:00 UTC is Sunday 12:00 AM MST.
+    Test-TvReminderDay '2026-11-08T07:00:00Z' | Should -BeTrue
+  }
+
+  It 'is false on other days, including late Saturday night in Boise' {
+    Test-TvReminderDay '2026-11-07T07:00:00Z' | Should -BeFalse
+    Test-TvReminderDay '2026-11-08T06:00:00Z' | Should -BeFalse
+  }
+}
+
+Describe 'New-TvLocalReminder' {
+  BeforeAll {
+    $script:localSources = @(
+      [pscustomobject]@{ name = 'good'; displayName = 'Good Venue'; status = 'running'; url = 'https://good.test/' }
+      [pscustomobject]@{ name = 'home'; displayName = 'Home Only Hall'; status = 'running'; local = $true; url = 'https://home.test/events/' }
+      [pscustomobject]@{ name = 'paused'; displayName = 'Paused Hall'; status = 'investigating'; local = $true; url = 'https://paused.test/' }
+    )
+    $script:raw = [pscustomobject]@{
+      asOf    = '2026-11-08T07:00:00Z'
+      sources = [pscustomobject]@{
+        good = [pscustomobject]@{ fetchedAt = '2026-11-08T07:00:05Z'; events = @(1, 2) }
+        home = [pscustomobject]@{ fetchedAt = '2026-11-01T18:30:00Z'; events = @(1, 2, 3) }
+      }
+    }
+    $script:reminder = New-TvLocalReminder -Sources $localSources -Raw $raw -RunUrl 'https://github.test/runs/1'
+  }
+
+  It 'has a subject that says what to do' {
+    $reminder.Subject | Should -BeExactly 'WeekendBoise: run the local ingest this week (1 source)'
+  }
+
+  It 'says what the local run is for' {
+    $reminder.Text | Should -Match "GitHub's servers"
+    $reminder.Text | Should -Match 'home connection'
+  }
+
+  It 'lists each running local source with its last fetch and event count, and leaves out paused ones' {
+    $reminder.Text | Should -Match 'Home Only Hall \(home\).*Nov 1, 2026 11:30:00 AM MST.*3 events'
+    $reminder.Text | Should -Not -Match 'Paused Hall'
+    $reminder.Text | Should -Not -Match 'Good Venue'
+  }
+
+  It 'says the source was never fetched when the raw file has no entry for it' {
+    $text = (New-TvLocalReminder -Sources $localSources -Raw ([pscustomobject]@{ sources = [pscustomobject]@{} })).Text
+    $text | Should -Match 'Home Only Hall \(home\).*never'
+  }
+
+  It 'gives the command to run' {
+    $reminder.Text | Should -Match '\./ingestion/scripts/Invoke-LocalIngest\.ps1'
   }
 }

@@ -18,6 +18,10 @@
   Its entry in the raw file is replaced and every other entry, and asOf, are left as they are.
 .PARAMETER OutDir
   Where per-source raw output goes, as <name>.json, plus run.json.
+.PARAMETER Local
+  Run only the running sources marked local: sites that turn away GitHub's servers but load from a
+  home connection. A normal run skips them and keeps their last fetch. Like -Source, it replaces
+  only their entries and keeps asOf. Invoke-LocalIngest.ps1 wraps it.
 .PARAMETER NoWrite
   Fetch and report, but don't write the raw file.
 .PARAMETER AsOf
@@ -37,6 +41,7 @@ param(
   [string]$Source,
   [string]$OutDir = './out',
   [switch]$NoWrite,
+  [switch]$Local,
   [ValidatePattern('^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$')][string]$AsOf,
   [string]$RawPath = (Join-Path $PSScriptRoot '..' '..' 'data' 'raw-events.json'),
   [string]$SourcesPath = (Join-Path $PSScriptRoot '..' 'sources.json'),
@@ -60,7 +65,8 @@ $running = @($allSources | Where-Object { $_.status -eq 'running' })
 $selected = if ($Source) {
   @($allSources | Where-Object { $_.name -and $_.name -eq $Source })
 } else {
-  $running
+  # Local sources run only with -Local, from a home connection; a normal run keeps their last fetch.
+  @($running | Where-Object { [bool]$_.local -eq [bool]$Local })
 }
 foreach ($entry in $selected | Where-Object { $_.status -ne 'running' }) {
   Write-Warning "$($entry.name): status is $($entry.status ? $entry.status : 'idea'), running it because it was asked for by name"
@@ -131,7 +137,7 @@ if ($failed -eq $results.Count) {
 }
 
 $previous = Read-TvRawFile $rawFile
-$asOfValue = if ($Source -and $previous) { $previous.asOf } elseif ($AsOf) { $AsOf } else { $fetchedAt }
+$asOfValue = if (($Source -or $Local) -and $previous) { $previous.asOf } elseif ($AsOf) { $AsOf } else { $fetchedAt }
 $keep = @(@($running | ForEach-Object name) + @($selected | ForEach-Object name) | Select-Object -Unique)
 $raw = Update-TvRawFile $previous -Results $results -Keep $keep -AsOf $asOfValue -FetchedAt $fetchedAt
 if (-not $NoWrite) { Write-TvRawFile $rawFile $raw }

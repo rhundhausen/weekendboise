@@ -145,3 +145,15 @@ jobs:
           EVENT: ${{ github.event_name }}
           SOURCE: ${{ inputs.source }}
         run: ./ingestion/scripts/Send-Report.ps1 -Kind ingest
+
+      # The scheduled run at midnight Sunday, Boise time, also emails the weekly reminder to run
+      # the local sources (sites that turn away GitHub's servers) from home. Other runs skip it.
+      - name: Email the weekly local ingest reminder
+        if: always()
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          REPORT_EMAIL: ${{ secrets.REPORT_EMAIL }}
+          SCHEDULED_AT: ${{ needs.when.outputs.at }}
+          EVENT: ${{ github.event_name }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: ./ingestion/scripts/Send-LocalReminder.ps1

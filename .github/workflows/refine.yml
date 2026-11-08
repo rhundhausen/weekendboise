@@ -12,6 +12,11 @@ on:
     workflows: [ingest]
     types: [completed]
     branches: [main]
+  # A raw file pushed from a PC by Invoke-LocalIngest.ps1. The nightly ingest's own push never
+  # starts this, because pushes made with a workflow's GITHUB_TOKEN start no workflows.
+  push:
+    branches: [main]
+    paths: [data/raw-events.json]
   workflow_dispatch:
     inputs:
       skip_link_check:

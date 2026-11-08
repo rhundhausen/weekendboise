@@ -4627,7 +4627,8 @@
     {
       "name": "visual-arts-collective",
       "displayName": "Visual Arts Collective",
-      "status": "investigating",
+      "status": "running",
+      "local": true,
       "adapter": "scrape",
       "url": "https://visualartscollective.com/events/",
       "category": "music",
@@ -4639,7 +4640,7 @@
       "fixedVenue": true,
       "scrapeMode": "jsonld",
       "eventLinkPattern": "https://visualartscollective\\.com/events/[a-z0-9-]+/",
-      "notes": "Reads each event page. Paused 2026-11-05: from GitHub Actions runners the 3 newest event pages time out at 30s on every run (listing and older pages load), so no upcoming events came through; from a home connection with the same User-Agent all 6 load in 14s. robots.txt allows /events/, llms.txt points to it, no terms of use. Reminder: once a basic website is up, email booking@visualartscollective.com with the plan and ask them to allow the bot from GitHub's servers; set back to running if they agree, ruled-out if they decline. 2026-11-06: not re-probed; still waiting on the email to booking@visualartscollective.com"
+      "notes": "Reads each event page. Paused 2026-11-05: from GitHub Actions runners the 3 newest event pages time out at 30s on every run (listing and older pages load), so no upcoming events came through; from a home connection with the same User-Agent all 6 load in 14s. robots.txt allows /events/, llms.txt points to it, no terms of use. Reminder: once a basic website is up, email booking@visualartscollective.com with the plan and ask them to allow the bot from GitHub's servers; set back to running if they agree, ruled-out if they decline. 2026-11-06: not re-probed; still waiting on the email to booking@visualartscollective.com. 2026-11-07: running again as a local source (local: true): the nightly ingest skips it, and Invoke-LocalIngest.ps1 runs it from home once a week after the Sunday reminder email. A local dry run read all 6 event pages in 13s. If they allow GitHub's servers, remove local."
     },
     {
       "name": "meetup-volunteers-beers-and-cheers",
