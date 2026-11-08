@@ -547,6 +547,12 @@ fetch(cfg.events)
   .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
   .then((list) => {
     events = list.map(prepare);
+    // The header counts what the list shows with no filters set and Meetups included: events that
+    // aren't over yet. The build's count also has the ones that finished since the nightly run.
+    const t = today();
+    const now = Date.now();
+    const total = events.filter((e) => e.ed >= t && (e.allDay || e.end > now)).length;
+    $('total').textContent = numFmt.format(total);
     fillSelects();
     readUrl();
     syncControls();

@@ -52,7 +52,8 @@
     {{- /* Every running source, whether or not it has upcoming events. */}}
     {{- $running := where hugo.Data.sources.sources "status" "running" }}
     <p class="sub">
-      {{- len hugo.Data.events | lang.FormatNumber 0 }} upcoming events
+      {{- /* The build's count, until app.js replaces it with what the unfiltered list shows. */}}
+      <span id="total">{{ len hugo.Data.events | lang.FormatNumber 0 }}</span> upcoming events
       <span class="sep" aria-hidden="true">|</span> <a href="{{ relURL "sources/" }}">{{ len $running }} sources</a>
       {{- with $lastIngest }} <span class="sep" aria-hidden="true">|</span> <time id="as-of" datetime="{{ . }}">{{ (time.AsTime .).Format "Jan 2, 3:04 PM UTC" }}</time>{{ end }}
     </p>
