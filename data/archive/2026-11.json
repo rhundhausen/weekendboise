@@ -6034,6 +6034,31 @@
     ]
   },
   {
+    "id": "2125934229bc",
+    "title": "The Girls Day Out Expo",
+    "start": "2026-11-07",
+    "allDay": true,
+    "venue": "Expo Idaho",
+    "venueKey": "expo-idaho",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "trade-show"
+    ],
+    "size": "L",
+    "costTier": "free",
+    "url": "https://expoidaho.com/event/the-girls-day-out-expo-8/",
+    "description": "Girls Day Out Expo is a free event with a festive mix of shopping, sampling, and local flair. Browse over 100 vendor booths featuring handmade goods, fashion, beauty, treats, and home decor. A casual, social day out to explore, unwind, and support local businesses. Hours Saturday 10a-4p",
+    "sources": [
+      {
+        "name": "expo-idaho",
+        "url": "https://expoidaho.com/event/the-girls-day-out-expo-8/",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      }
+    ]
+  },
+  {
     "id": "22b0948cce9f",
     "title": "Pray For Snow Festival",
     "start": "2026-11-07T06:00:00-07:00",
@@ -7808,6 +7833,29 @@
     ]
   },
   {
+    "id": "311da33916db",
+    "title": "Advanced Country Swing Lesson",
+    "start": "2026-11-07T19:00:00-07:00",
+    "end": "2026-11-07T23:59:00-07:00",
+    "allDay": false,
+    "venue": "The Farm",
+    "venueKey": "the-farm",
+    "city": "Garden City",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317042096/",
+    "description": "NEW CLASS COMING! Advanced Country Swing with Dirt Road Dancing every Saturday 7:30-9pm in studio three! ! Doors open 7pm! Class begins 7:30pm! Social dancing on main floor 9-Midnight!com](http://thefarmboise.com/?fbclid=IwZXh0bgNhZW0CMTAAAR3-lFF3UMQMJolojSzkhornphHZ1r4heEYS95w-ISwO2ek9D3zyZMketu...",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317042096/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
     "id": "3b0d96bace31",
     "title": "Northwest Nazarene University Men's Basketball vs Walla Walla - Exhibition | Homecoming",
     "start": "2026-11-07T19:00:00-07:00",
@@ -7875,6 +7923,29 @@
         "name": "visit-boise",
         "url": "https://www.facebook.com/events/1430862602513901/?acontext=event_action_historyextra_datamechanismsurfacesurfaceduplicate_dialogextra_datamechanismsurfacesurfacepermalinkextra_datamechanismsurfacesurfaceedit_dialogref_notif_typenull",
         "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "e77b06fac9fa",
+    "title": "Line Dancing At the Farm",
+    "start": "2026-11-07T19:00:00-07:00",
+    "end": "2026-11-07T23:59:00-07:00",
+    "allDay": false,
+    "venue": "The Farm",
+    "venueKey": "the-farm",
+    "city": "Garden City",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317042095/",
+    "description": "Join us for Line Dancing every Friday at Boise Largest ALL AGE Dance Hub!! Doors Open at 7pm Lesson starts at 7:30pm with Dirt Road Dancing Social dancing from 9pm to Midnight. No experience necessary. Check out more at www.thefarmboise.com Under 18 allow as long as accompanied by an adult.",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317042095/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
   },
@@ -8076,6 +8147,30 @@
         "name": "recycled-minds",
         "url": "https://recycledmindsllc.thundertix.com/events/272342",
         "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "a79c9aa5d5e4",
+    "title": "MARIS",
+    "start": "2026-11-07T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/maris/",
+    "description": "MARIS plays Shrine Social Club’s Basement on Saturday, November 7. Doors at 8 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/maris/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
       }
     ]
   },
