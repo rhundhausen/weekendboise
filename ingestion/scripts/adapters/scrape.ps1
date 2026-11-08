@@ -240,7 +240,10 @@ function Read-CardsSource {
       $titleYear = if ($Source.yearFromTitle -and $title -match '\b(20\d\d)\b') { [int]$Matches[1] }
       $dates = @([regex]::Matches($text, $datePattern) | ForEach-Object {
           if ($_.Groups['year'].Success) {
-            return [DateTime]::new([int]$_.Groups['year'].Value, [int]$_.Groups['month'].Value, [int]$_.Groups['day'].Value).ToString('yyyy-MM-dd', $invariant)
+            # The month can be a number or a name ("June", "Jun").
+            $monthValue = $_.Groups['month'].Value
+            $monthNumber = if ($monthValue -match '^\d+$') { [int]$monthValue } else { [DateTime]::ParseExact($monthValue.Substring(0, [Math]::Min(3, $monthValue.Length)), 'MMM', $invariant).Month }
+            return [DateTime]::new([int]$_.Groups['year'].Value, $monthNumber, [int]$_.Groups['day'].Value).ToString('yyyy-MM-dd', $invariant)
           }
           $monthText = $_.Groups['month'].Value
           $month = $monthText.Substring(0, [Math]::Min(3, $monthText.Length))

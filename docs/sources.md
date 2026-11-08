@@ -122,7 +122,7 @@ The last resort, for sites with no API or feed. Check for a feed first: a workin
 | `eventLinkPattern` | no | `jsonld`: regex for event links on the list page. Each linked page is read. Without it, the list page itself is read |
 | `maxPages` | no | `jsonld`: most event pages to read in one run. Defaults to 40. `civicplus` and `chambermaster`: months to read, starting with this one. Defaults to 3 |
 | `itemPattern` | `cards` | Regex matching one event's HTML block |
-| `datePattern` | no | `cards`: regex with named groups `month` and `day`, matched inside a card. Defaults to `month` and `day` spans. Add a `year` group to read a numeric date, such as `date=2026-11-14` in a link (The Little Gym) |
+| `datePattern` | no | `cards`: regex with named groups `month` and `day`, matched inside a card. Defaults to `month` and `day` spans. Add a `year` group to read the year as given: a numeric date, such as `date=2026-11-14` in a link (The Little Gym), or a month name with the year elsewhere in the card (Fiddlers' Contest) |
 | `yearFromTitle` | no | `cards`: `true` takes the year of the dates from a year in the card title, such as "Winter Carnival 2027", instead of guessing it from the month (McCall Winter Carnival). A later date before the first is the next year's |
 | `titlePattern` | no | `cards`: regex with a named group `title`. Defaults to the first heading |
 | `timePattern` | no | `cards`: regex with named groups `start` and optional `end`, such as `3:00 pm`. Without a match, the event is all-day |

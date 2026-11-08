@@ -385,6 +385,30 @@ Describe 'scrape adapter, cards from a festival page (McCall Winter Carnival)' {
   }
 }
 
+Describe 'scrape adapter, cards with a month name and a year (Fiddlers'' Contest)' {
+  BeforeAll {
+    $html = @"
+<p class="has-text-align-center home-heading"><span class="line-one">Fiddlers&#8217; Contest </span></p><p class="has-text-align-center home-heading"><span class="line-two">&amp; Festival</span></p></p>
+<p class="has-text-align-center home-hero-dates wp-block-paragraph"><span class="home-hero-dates">June 21st $([char]0x2013) 26th, 2027</span> &#8226; Weiser, ID</p>
+"@
+  }
+
+  It 'reads both dates of the banner, the second borrowing the first one''s month' {
+    $events = @(& $adapter -Source (Get-TestSource 'fiddlers-contest') -FetchedAt $fetchedAt -Response $html)
+    $events.Count | Should -Be 1
+    $events[0].title | Should -Be "Fiddlers$([char]0x2019) Contest & Festival"
+    $events[0].start | Should -Be '2027-06-21'
+    $events[0].end | Should -Be '2027-06-26'
+    $events[0].allDay | Should -BeTrue
+    $events[0].city | Should -Be 'Weiser'
+  }
+
+  It 'keeps the page''s year after the contest, rather than guessing next year' {
+    $events = @(& $adapter -Source (Get-TestSource 'fiddlers-contest') -FetchedAt '2027-09-15T10:00:00Z' -Response $html)
+    $events[0].start | Should -Be '2027-06-21'
+  }
+}
+
 Describe 'scrape adapter, cards from a Simple Calendar page (Reuseum)' {
   BeforeAll {
     $events = @(& $adapter -Source (Get-TestSource 'reuseum') -FetchedAt $fetchedAt -Response (Get-Fixture 'reuseum.html'))

@@ -1257,7 +1257,7 @@
       "priority": 20,
       "scrapeMode": "civicplus",
       "excludeTitlePattern": "(?i)\\bmeeting\\b|\\bclosed\\b|\\bcouncil\\b|\\bcommission\\b",
-      "notes": "CivicPlus calendar, same platform and robots.txt as City of Kuna: the list pages are allowed with a 10 second crawl delay, the iCalendar module and RSS.aspx are not. Calendars on 2026-11-05: City Council Meetings and Main Calendar. Meetings and closures are skipped by title, which left 2 events in November (Veterans Day Potato Feed, HALO Teen Meetup) and none in December. Configured 2026-11-05. Terms not read"
+      "notes": "CivicPlus calendar, same platform and robots.txt as City of Kuna: the list pages are allowed with a 10 second crawl delay, the iCalendar module and RSS.aspx are not. Calendars on 2026-11-05: City Council Meetings and Main Calendar. Meetings and closures are skipped by title, which left 2 events in November (Veterans Day Potato Feed, HALO Teen Meetup) and none in December. Configured 2026-11-05. Terms not read. 2026-11-08: probed again because Star shows only 1 or 2 events. Calendar.aspx is allowed (Crawl-delay 10; RSS.aspx and the iCalendar module are disallowed, and /iCalendar.aspx only links to them). Categories 14 Main Calendar, 22 City Council Meetings, 26 Hunter's Creek Sports Complex; the month pages already show all of them. Nov to Jan hold 9 events and only HALO Teen Meetup survives the filter (the rest are council and youth council meetings and closures), so more months or another category would not help. staridaho.org/events is a 404, and /recreation redirects to a department page whose classes and leagues are on hisawyer.com and teamsideline.com (not probed)"
     },
     {
       "name": "meetup-city-of-trees-orienteering-club",
@@ -1281,7 +1281,7 @@
       "url": "https://www.cityofweiser.net/events-attractions",
       "category": "community-civic",
       "city": "Weiser",
-      "notes": "City events and attractions page, added 2026-11-05. It describes annual events (National Oldtime Fiddlers Contest in June, Festival of Trees at the Vendome, the chamber's Crab Feed) without dates. Asking the city for permission or a feed would reopen it"
+      "notes": "City events and attractions page, added 2026-11-05. It describes annual events (National Oldtime Fiddlers Contest in June, Festival of Trees at the Vendome, the chamber's Crab Feed) without dates. Asking the city for permission or a feed would reopen it. 2026-11-08: suggested again (/events-attractions). Duda site; the page describes six annual events (Fiddlers Contest, Festival of Trees, Crab Feed) with no dates, and the footer reservation stands. The Fiddlers Contest now has its own entry (fiddlers-contest)"
     },
     {
       "name": "cwi",
@@ -3577,7 +3577,7 @@
       "robotsChecked": "2026-11-06",
       "termsChecked": "2026-11-06",
       "category": "community-civic",
-      "notes": "Patch community calendars, one per city, added 2026-11-05. robots.txt allows the calendar pages (Crawl-delay 1), and the Star page was fetched once on 2026-11-05 before the terms were read. The terms forbid automated collection, so no calendar was requested on 2026-11-06. Calendars: https://patch.com/idaho/caldwell-id/calendar, https://patch.com/idaho/eagle-id/calendar, https://patch.com/idaho/emmett-id/calendar, https://patch.com/idaho/garden-city-id/calendar, https://patch.com/idaho/kuna-id/calendar, https://patch.com/idaho/marsing-id/calendar, https://patch.com/idaho/meridian-id/calendar, https://patch.com/idaho/middleton-id/calendar, https://patch.com/idaho/mountain-home-id/calendar, https://patch.com/idaho/nampa-id/calendar, https://patch.com/idaho/payette-id/calendar, https://patch.com/idaho/star-id/calendar, https://patch.com/idaho/weiser-id/calendar. Needs Patch's written permission. 2026-11-07: the Middleton and Marsing calendars were suggested again; still blocked by the terms. 2026-11-08: https://patch.com/idaho/mccall-id/calendar and https://patch.com/idaho/cascade-id/calendar were suggested for Valley County; not requested, still blocked by the terms"
+      "notes": "Patch community calendars, one per city, added 2026-11-05. robots.txt allows the calendar pages (Crawl-delay 1), and the Star page was fetched once on 2026-11-05 before the terms were read. The terms forbid automated collection, so no calendar was requested on 2026-11-06. Calendars: https://patch.com/idaho/caldwell-id/calendar, https://patch.com/idaho/eagle-id/calendar, https://patch.com/idaho/emmett-id/calendar, https://patch.com/idaho/garden-city-id/calendar, https://patch.com/idaho/kuna-id/calendar, https://patch.com/idaho/marsing-id/calendar, https://patch.com/idaho/meridian-id/calendar, https://patch.com/idaho/middleton-id/calendar, https://patch.com/idaho/mountain-home-id/calendar, https://patch.com/idaho/nampa-id/calendar, https://patch.com/idaho/payette-id/calendar, https://patch.com/idaho/star-id/calendar, https://patch.com/idaho/weiser-id/calendar. Needs Patch's written permission. 2026-11-07: the Middleton and Marsing calendars were suggested again; still blocked by the terms. 2026-11-08: https://patch.com/idaho/mccall-id/calendar and https://patch.com/idaho/cascade-id/calendar were suggested for Valley County; not requested, still blocked by the terms. 2026-11-08: the Weiser and Payette calendars were suggested again; not requested, still blocked by the terms"
     },
     {
       "name": "meetup-pawnsandpintsboise",
@@ -3601,7 +3601,7 @@
       "robotsChecked": "2026-11-06",
       "category": "learning-business",
       "city": "Payette",
-      "notes": "Wild Apricot site, added 2026-11-05. No city calendar was found for Payette. robots.txt allows /events with 'Crawl-delay: 10' and 'Request-rate: 1/60' (it blocks /Sys/Api/ and &SelectedDate=). The events list links its own RSS, https://payettechamberofcommerce.wildapricot.org/events/RSS, which still had no items on 2026-11-06. Wild Apricot RSS is plain RSS 2.0 with no ev: event module, so the rss adapter (which needs ev:startdate) could not read its dates even when items appear. Check again when events are posted"
+      "notes": "Wild Apricot site, added 2026-11-05. No city calendar was found for Payette. robots.txt allows /events with 'Crawl-delay: 10' and 'Request-rate: 1/60' (it blocks /Sys/Api/ and &SelectedDate=). The events list links its own RSS, https://payettechamberofcommerce.wildapricot.org/events/RSS, which still had no items on 2026-11-06. Wild Apricot RSS is plain RSS 2.0 with no ev: event module, so the rss adapter (which needs ev:startdate) could not read its dates even when items appear. Check again when events are posted. 2026-11-08: suggested again. robots.txt unchanged (Crawl-delay 10, Request-rate 1/60; /events and /events/RSS allowed). No upcoming events (\"No events available\", RSS 0 items); the last was a luncheon on 2026-11-03. Only whole-list feed is plain RSS 2.0 without the ev: module, so the rss adapter cannot read dates; no whole-list iCal, only per-event iCal. Needs a Wild Apricot reader (or cards on /events) once events are posted; recheck in spring for Apple Blossom"
     },
     {
       "name": "kuna-library",
@@ -3984,10 +3984,10 @@
     {
       "name": "signal-american",
       "displayName": "Signal American",
-      "status": "ready",
+      "status": "running",
       "adapter": "scrape",
       "url": "https://signalamerican.com/calendar-node-field-date/month",
-      "robotsChecked": "2026-11-06",
+      "robotsChecked": "2026-11-08",
       "category": "community-civic",
       "inferCategory": true,
       "city": "Weiser",
@@ -3999,7 +3999,7 @@
       "datePattern": "content=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})T",
       "titlePattern": "(?s)<a href=\"/content/[^\"]+\">(?<title>[^<]+)</a>",
       "timePattern": ">\\d{2}/\\d{2}/\\d{4} - (?<start>\\d{1,2}:\\d{2}[ap]m)(?: to (?:\\d{2}/\\d{2}/\\d{4} - )?(?<end>\\d{1,2}:\\d{2}[ap]m))?",
-      "notes": "Weiser newspaper, Drupal. robots.txt has Crawl-delay 10 and allows the calendar (checked 2026-11-06). /calendar-node-field-date/month is a server-rendered month view; each item has a title link to /content/<slug> and a date with a correct -07:00 offset. scrapeMode cards reads it, skipping board meetings, support groups and the Fit and Fall classes (listed at 9:00 PM, likely wrong) with a negative lookahead in itemPattern, since cards has no excludeTitlePattern. Only the current month is read, so late in a month few events remain; 3 upcoming on 2026-11-06. No iCal display (/calendar-node-field-date/ical returns HTML). Left ready: it works but is thin; decide whether it is worth running. Tested 2026-11-06. Terms not read"
+      "notes": "Weiser newspaper, Drupal. robots.txt has Crawl-delay 10 and allows the calendar (checked 2026-11-06). /calendar-node-field-date/month is a server-rendered month view; each item has a title link to /content/<slug> and a date with a correct -07:00 offset. scrapeMode cards reads it, skipping board meetings, support groups and the Fit and Fall classes (listed at 9:00 PM, likely wrong) with a negative lookahead in itemPattern, since cards has no excludeTitlePattern. Only the current month is read, so late in a month few events remain; 3 upcoming on 2026-11-06. No iCal display (/calendar-node-field-date/ical returns HTML). Left ready: it works but is thin; decide whether it is worth running. Tested 2026-11-06. Terms not read. 2026-11-08: set running for Weiser coverage (the only Weiser source that reads). robots.txt unchanged (Crawl-delay 10, calendar allowed); no terms page found (/terms, /terms-of-use, /terms-service return 404). December and January month pages exist but cards reads one page, so expect about 2 to 3 events a month"
     },
     {
       "displayName": "Snake River Stampede",
@@ -4067,10 +4067,9 @@
       "url": "https://staridahochamber.com/events",
       "category": "learning-business",
       "city": "Star",
-      "status": "ruled-out",
-      "robotsChecked": "2026-11-06",
-      "notes": "Chamber events, added 2026-11-05. staridahochamber.com robots.txt allows everything, but its events page renders with JavaScript; the page source points at the ChamberMaster host staridaho.chambermaster.com (customer 3601). That host disallows everything in robots.txt. Note: on 2026-11-06 one request was made to /events/calendar/ on that host in the same command as the robots.txt check, before the disallow was read; it was not repeated. Search results show it reposts Star branch library events. Ask the chamber for permission or an ICS export",
-      "reason": "The calendar lives on staridaho.chambermaster.com, whose robots.txt is User-agent: * Disallow: / (checked 2026-11-06), so the chambermaster mode cannot read it"
+      "status": "investigating",
+      "robotsChecked": "2026-11-08",
+      "notes": "Chamber events, added 2026-11-05. staridahochamber.com robots.txt allows everything, but its events page renders with JavaScript; the page source points at the ChamberMaster host staridaho.chambermaster.com (customer 3601). That host disallows everything in robots.txt. Note: on 2026-11-06 one request was made to /events/calendar/ on that host in the same command as the robots.txt check, before the disallow was read; it was not repeated. Search results show it reposts Star branch library events. Ask the chamber for permission or an ICS export. 2026-11-08: the JavaScript note above is wrong. staridahochamber.com/events (robots.txt allows everything) embeds the whole calendar as data in the page source: an events list (Id, Name, StartTime, EndTime, IsAllDay, Slug) and eventDetails (EventName, EventLocation, Types), 573 events, about 207 public ones from Nov 8 to Feb 8 after dropping ribbon cuttings, After Hours, Out to Lunch, Coffee Klatch and meetings. Most are weekly Star Library programs, which nothing else gives us. business.staridahochamber.com/robots.txt answered 301 (to staridahochamber.com), so nothing else was sent there, and staridaho.chambermaster.com is still Disallow: /. No existing scrape mode reads the embedded data; it needs a new one"
     },
     {
       "name": "meetup-start-boise",
@@ -5155,6 +5154,71 @@
       "titlePattern": "(?s)<h1[^>]*>(?<title>.*?)</h1>",
       "datePattern": "(?<month>[A-Z][a-z]{2})[a-z]*\\.? (?<day>\\d{1,2})\\b",
       "notes": "Added 2026-11-08 at the user's request so the McCall Winter Carnival is listed: it is not in visit-mccall's event feed or the City of McCall calendar (checked January and February 2027). Run by the McCall Area Chamber (Visit McCall). robots.txt allows everything and sets Crawl-delay 10. The page heading is 'Winter Carnival 2027' with the dates under it ('Jan 28', a dash, 'Feb 6'), read as one all-day event; the Mardi Gras Parade (Feb 6) is part of it. yearFromTitle takes the year from the heading, so after the carnival the old page is read as past, not as next year. If the heading stops naming a year, or the page or its layout changes, the source finds 0 events and shows at the end of Succeeded in the ingest email. Terms not read"
+    },
+    {
+      "name": "fiddlers-contest",
+      "displayName": "National Oldtime Fiddlers' Contest",
+      "status": "ready",
+      "adapter": "scrape",
+      "url": "https://www.fiddlecontest.org/",
+      "robotsChecked": "2026-11-08",
+      "category": "music",
+      "city": "Weiser",
+      "venue": "Weiser",
+      "venueKey": "weiser",
+      "priority": 20,
+      "fixedVenue": true,
+      "scrapeMode": "cards",
+      "itemPattern": "(?s)<span class=\"line-one\">.*?<span class=\"home-hero-dates\">[^<]*</span>",
+      "titlePattern": "(?s)<span class=\"line-one\">(?<title>.*?<span class=\"line-two\">[^<]*)</span>",
+      "datePattern": "(?<month>[A-Z][a-z]+) (?<day>\\d{1,2})(?:st|nd|rd|th)?(?=[^<]*?(?<year>\\d{4}))|(?<=(?<month>[A-Z][a-z]+) \\d{1,2}(?:st|nd|rd|th)?\\s*[\\u2013\\u2014-]\\s*)(?<day>\\d{1,2})(?=(?:st|nd|rd|th)?,\\s*(?<year>\\d{4}))",
+      "notes": "Weiser, third full week of June. Suggested 2026-11-08; www.fiddlecontest.org verified as the official site (the City of Weiser links to it; footer: National Oldtime Fiddlers, Inc, PO Box 447, Weiser). robots.txt allows the site (disallows only /wp-admin/ and Gravity Forms export paths). It runs The Events Calendar, but the REST API and ?ical=1 had 0 events (also none since 2025-01-01), and /schedule/ links only the 2026 schedule PDF. The dates are in the home page banner ('Fiddlers' Contest & Festival', 'June 21st – 26th, 2027 • Weiser, ID'), read here as one all-day event. The datePattern's second branch borrows the first date's month, and both read the year from the banner, so after the contest the old dates are past rather than next year's. If the banner changes, the source finds 0 events. Recheck the tribe API in spring: if daily events get posted, a tribe entry could replace this. Terms not read. Held 2026-11-08: the site answers HTTP 403 to the ingest client (PowerShell) for robots.txt and everything else, while curl with the same User-Agent gets 200, so it filters on how the client connects. The ingest treats a 403 as a refusal and does not change its client to get past it. The cards configuration is tested offline against the saved banner. Ask the site to allow the WeekendBoise User-Agent, then set running"
+    },
+    {
+      "name": "idvs-payette",
+      "displayName": "Idaho Veterans Services (Payette)",
+      "status": "running",
+      "adapter": "ics",
+      "url": "https://veterans.idaho.gov/events/list/?tribe-bar-search=Payette&ical=1",
+      "robotsChecked": "2026-11-08",
+      "category": "community-civic",
+      "city": "Payette",
+      "venue": "American Legion Post 33",
+      "venueKey": "american-legion-post-33-payette",
+      "priority": 50,
+      "locationFilter": "Payette\\W+ID",
+      "excludeTitlePattern": "^\\*|(?i)\\bmeeting\\b",
+      "notes": "Idaho Division of Veterans Services statewide calendar (The Events Calendar), suggested 2026-11-08 filtered to Payette. robots.txt allows everything. The REST API has 2,528 upcoming events statewide and most venues have no city, so the tribe adapter (no location filter) would mislabel them. The site's own search as an iCal feed (/events/list/?tribe-bar-search=Payette&ical=1) gives the Payette events; locationFilter keeps those whose LOCATION is in Payette, ID. Every event is listed twice, once with a leading '*', and the monthly American Legion and VFW post meetings are skipped, leaving the American Legion #33 breakfast fundraiser (first Saturday, 8 AM). The feed holds 30 events (to about May 2027). Terms not read"
+    },
+    {
+      "displayName": "Apple Blossom Festival",
+      "status": "ruled-out",
+      "url": "https://www.appleblossomfestival.net/",
+      "robotsChecked": "2026-11-08",
+      "category": "festivals",
+      "city": "Payette",
+      "reason": "The domain no longer resolves (NXDOMAIN on 2026-11-08)",
+      "notes": "Payette, second full week of May. Suggested 2026-11-08. www.appleblossomfestival.net and appleblossomfestival.net both return NXDOMAIN, from the local resolver and 8.8.8.8, so nothing was requested. The Payette Chamber posts Apple Blossom events on its Wild Apricot calendar (Payette Chamber of Commerce entry). Find the festival's current site to add it"
+    },
+    {
+      "displayName": "City of Payette",
+      "status": "ruled-out",
+      "url": "https://payette.govoffice.com/",
+      "robotsChecked": "2026-11-08",
+      "category": "community-civic",
+      "city": "Payette",
+      "reason": "No calendar: only council agendas and news",
+      "notes": "Suggested 2026-11-08. GovOffice; payette.govoffice.com redirects to cityofpayette.com, whose robots.txt blocks only AI training crawlers (one homepage request followed the redirect before that robots.txt was read; it allows everything else). No calendar link, and the 103-URL sitemap has no calendar, event, RSS or iCal pages: agenda archives by year and news such as council meeting notices. Recheck if the city adds a calendar"
+    },
+    {
+      "displayName": "Visit Southwest Idaho",
+      "status": "ruled-out",
+      "url": "https://www.visitsouthwestidaho.org/",
+      "robotsChecked": "2026-11-08",
+      "category": "community-civic",
+      "city": "Other",
+      "reason": "No event listing or feed: its events are seasonal editorial guides",
+      "notes": "Suggested 2026-11-08 as covering Payette and Washington counties. It is the Southwest Idaho Travel Association's regional site, centred on Boise. robots.txt allows everything (Crawl-delay 10). WordPress with no tribe route and no event post type; schema.org data is Article and CollectionPage only. 'Events' are guides such as /fall-events-in-southwest-idaho/ with no dates or venue cities"
     }
   ]
 }
