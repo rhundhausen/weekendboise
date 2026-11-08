@@ -138,6 +138,17 @@ Describe 'tribe adapter with fixedVenue' {
   }
 }
 
+Describe 'tribe adapter with excludeTitlePattern' {
+  It 'skips events whose title matches' {
+    $page = '{"total_pages":1,"events":[{"title":"Rolling Hills &#8211; Happy Hour","all_day":true,"start_date":"2026-11-12 08:00:00","end_date":"2026-11-12 17:00:00","url":"https://x.test/a","description":"","venue":[]},{"title":"Telaya Wine Co &#8211; Pop-Up Music","all_day":false,"utc_start_date":"2026-11-27 20:00:00","utc_end_date":"2026-11-27 23:00:00","url":"https://x.test/b","description":"","venue":[]}]}'
+    $path = Join-Path $repo 'scripts' 'adapters' 'tribe.ps1'
+    $events = @(& $path -Source (Get-TestSource 'idaho-wine-commission') -FetchedAt $fetchedAt -Response $page)
+    $events.Count | Should -Be 1
+    $events[0].title | Should -BeLike 'Telaya Wine Co*Pop-Up Music'
+    $events[0].venueKey | Should -Be 'idaho-wineries'
+  }
+}
+
 Describe 'ticketmaster adapter' {
   BeforeAll {
     $source = Get-TestSource 'ford-idaho-center-arena'

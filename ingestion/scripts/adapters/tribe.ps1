@@ -36,6 +36,8 @@ $pages = if ($Response) { $Response | ForEach-Object { ConvertFrom-TvJson $_ } }
 
 foreach ($item in ($pages | ForEach-Object { $_.events } | Where-Object { $_ })) {
   try {
+    $title = ConvertTo-PlainText $item.title
+    if ($Source.excludeTitlePattern -and $title -match $Source.excludeTitlePattern) { continue }
     $allDay = [bool]$item.all_day
     if ($allDay) {
       $start = $item.start_date.Substring(0, 10)
@@ -56,7 +58,7 @@ foreach ($item in ($pages | ForEach-Object { $_.events } | Where-Object { $_ }))
     if (-not $city) { $city = $Source.city }
 
     $url = $item.url
-    New-TvEvent -Title (ConvertTo-PlainText $item.title) -Start $start -End $end -AllDay:$allDay `
+    New-TvEvent -Title $title -Start $start -End $end -AllDay:$allDay `
       -Venue ($name ? $name : $Source.venue) -VenueKey ($name ? (Get-VenueKey $name) : $Source.venueKey) -City $city `
       -Category $Source.category -InferCategory:([bool]$Source.inferCategory) -Labels @($item.categories.name) -Url $url -Description $item.description `
       -PriceMin (ConvertFrom-TvPriceText (ConvertTo-PlainText $item.cost)) -Sources @(@{ name = $Source.name; url = $url; fetchedAt = $FetchedAt })

@@ -52,6 +52,7 @@ robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rs
 | Field | Required | Notes |
 | --- | --- | --- |
 | `fixedVenue` | no | `true` uses the entry's venue for every event. Use it when a site lists rooms or buildings as venues, like Expo Idaho |
+| `excludeTitlePattern` | no | Regex. Matching titles are skipped, such as the Idaho Wine Commission's weekly happy hours |
 
 `url` is the REST events endpoint, ending in `/wp-json/tribe/events/v1/events`. The site's event categories feed tag matching.
 

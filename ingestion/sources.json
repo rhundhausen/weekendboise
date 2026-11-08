@@ -2253,14 +2253,26 @@
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
     },
     {
+      "name": "middleton-chamber",
       "displayName": "Middleton Chamber of Commerce",
-      "status": "ruled-out",
-      "reason": "middletonchamber.org is a parked domain for sale (checked 2026-11-06), and no other site for the Middleton, Idaho chamber was found",
-      "url": "https://www.middletonchamber.org",
-      "robotsChecked": "2026-11-06",
-      "category": "learning-business",
+      "status": "running",
+      "adapter": "scrape",
+      "url": "https://middletonidahochamber.org/events/",
+      "robotsChecked": "2026-11-07",
+      "category": "community-civic",
+      "inferCategory": true,
       "city": "Middleton",
-      "notes": "Chamber site, added 2026-11-05. No city calendar was found for Middleton. On 2026-11-05 the TLS connection failed when fetching robots.txt. 2026-11-06: robots.txt loaded and allows everything for other agents; the home page is a domain-for-sale lander. A web search found only a FestivalNet listing for its Fall Craft Bazaar, no chamber site. The Middleton Public Library (https://www.middletonlibrary.org/event-list) is a Wix Events widget that loads with JavaScript, with no events in the HTML. Re-add if the chamber gets a site"
+      "venue": "Middleton",
+      "venueKey": "middleton",
+      "priority": 20,
+      "fixedVenue": true,
+      "scrapeMode": "cards",
+      "itemPattern": "(?s)<article class=\"entry-card.*?</article>",
+      "titlePattern": "(?s)<h2 class=\"entry-title\"><a[^>]*>(?<title>.*?)</a>",
+      "datePattern": "event_start_display[^>]*>(?<month>[A-Z][a-z]+) (?<day>\\d{1,2}), \\d{4}",
+      "timePattern": "event_start_display[^>]*>[^<]*? at (?<start>\\d{1,2}:\\d{2} [AP]M)",
+      "excludeTitlePattern": "(?i)coffee and donuts|ribbon cutting|luncheon|mixer|board meeting",
+      "notes": "Chamber site, added 2026-11-05. No city calendar was found for Middleton. On 2026-11-05 the TLS connection failed when fetching robots.txt. 2026-11-06: robots.txt loaded and allows everything for other agents; the home page is a domain-for-sale lander. A web search found only a FestivalNet listing for its Fall Craft Bazaar, no chamber site. The Middleton Public Library (https://www.middletonlibrary.org/event-list) is a Wix Events widget that loads with JavaScript, with no events in the HTML. 2026-11-07: the chamber's site is middletonidahochamber.org (suggested by the user). robots.txt allows everything but /wp-admin/. WordPress (Blocksy theme) with an 'event' post type, no tribe route; /events/ is server-rendered, each event an article.entry-card with the title in h2.entry-title and the start in event_start_display ('December 12, 2026 at 2:00 PM'), read with scrape cards. Event pages have no schema.org Event data and name their own venue (2026 Christmas Parade at Middleton Middle School, 511 W Main St), which cards mode cannot read, so the venue is Middleton. 2 events on 2026-11-07; the monthly Coffee and Donuts member networking is skipped by title. Terms not read"
     },
     {
       "name": "meetup-singles-mixers-by-matchmaking-mavens",
@@ -2445,7 +2457,7 @@
       "status": "ready",
       "adapter": "bandsintown",
       "url": "https://rest.bandsintown.com",
-      "notes": "Adapter built, never run live. Needs an approved BANDSINTOWN_APP_ID; app_id=tv-events got HTTP 403. Keyed by artist, so it cannot list a venue's shows. Knitting Factory and Neurolux come through Ticketmaster instead"
+      "notes": "Adapter built, never run live. Needs an approved BANDSINTOWN_APP_ID; app_id=tv-events got HTTP 403. Keyed by artist, so it cannot list a venue's shows. Knitting Factory and Neurolux come through Ticketmaster instead. 2026-11-07: the city page https://www.bandsintown.com/c/marsing-id was suggested. robots.txt allows * but blocks AI crawlers by name, and its terms page answered 403 to the project User-Agent, so the city pages were not requested"
     },
     {
       "name": "barnes-noble-boise",
@@ -3178,6 +3190,22 @@
       "notes": "Checked 2026-10-30 with the project User-Agent. No tribe route and no schema.org Event data. 2026-11-06: the calendar is All-in-One Event Calendar (ai1ec). Its ICS export (?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller) is disallowed in robots.txt, as are all the /calendar/action~*/ views. /calendar/ said 'There are no upcoming events'. /events/ is prose about statewide speaker visits (Caldwell Public Library, Ada Community Library and others), mostly past. Little valley content; recheck when lecture season is announced"
     },
     {
+      "name": "idaho-wine-commission",
+      "displayName": "Idaho Wine Commission",
+      "status": "running",
+      "adapter": "tribe",
+      "url": "https://idahowines.org/wp-json/tribe/events/v1/events",
+      "robotsChecked": "2026-11-07",
+      "category": "food-drink",
+      "inferCategory": true,
+      "city": "Other",
+      "venue": "Idaho wineries",
+      "venueKey": "idaho-wineries",
+      "priority": 50,
+      "excludeTitlePattern": "(?i)happy hour|trivia|growler|board meeting|annual meeting|case sale|first fridays",
+      "notes": "Statewide winery events calendar of the Idaho Wine Commission. Suggested 2026-11-07. idahowines.org robots.txt allows everything. /events/month/?ical=1 answered 403, so the ICS is not used; the Events Calendar REST API answers with 665 upcoming events on 2026-11-07 (14 pages), running to 2028. Almost all are weekly repeats posted two years ahead: happy hours (VEER Wine Project, Rolling Hills, Vizcaya), Meriwether Cider trivia and growler fills, and commission board meetings. 442 of them start at 08:00, a placeholder time, as do VEER's First Fridays. excludeTitlePattern drops those, leaving one-off winery events such as Indian Creek Winery's arts and crafts days, Telaya Wine Co pop-up music and wreath making, Huston Vineyards and 3100 Cellars Thanksgiving weekend, and Savor Idaho. No event has a venue object; the winery is only the start of the title (Telaya Wine Co - Pop-Up Music), so city is Other and refine's city lookup reads the event page. The wineries named so far are in Garden City, Kuna, Caldwell and Eagle. Terms not read"
+    },
+    {
       "name": "idaho-shakespeare-festival",
       "displayName": "Idaho Shakespeare Festival",
       "status": "running",
@@ -3333,7 +3361,7 @@
       "venue": "Various Treasure Valley locations",
       "venueKey": "various-treasure-valley",
       "priority": 80,
-      "notes": "Aggregator run by a real estate group. All-day events report timezone UTC+0, timed events don't"
+      "notes": "Aggregator run by a real estate group. All-day events report timezone UTC+0, timed events don't. 2026-11-07: /local-events/ (suggested) is the same Events Calendar this reads"
     },
     {
       "name": "morrison-center",
@@ -3549,7 +3577,7 @@
       "robotsChecked": "2026-11-06",
       "termsChecked": "2026-11-06",
       "category": "community-civic",
-      "notes": "Patch community calendars, one per city, added 2026-11-05. robots.txt allows the calendar pages (Crawl-delay 1), and the Star page was fetched once on 2026-11-05 before the terms were read. The terms forbid automated collection, so no calendar was requested on 2026-11-06. Calendars: https://patch.com/idaho/caldwell-id/calendar, https://patch.com/idaho/eagle-id/calendar, https://patch.com/idaho/emmett-id/calendar, https://patch.com/idaho/garden-city-id/calendar, https://patch.com/idaho/kuna-id/calendar, https://patch.com/idaho/marsing-id/calendar, https://patch.com/idaho/meridian-id/calendar, https://patch.com/idaho/middleton-id/calendar, https://patch.com/idaho/mountain-home-id/calendar, https://patch.com/idaho/nampa-id/calendar, https://patch.com/idaho/payette-id/calendar, https://patch.com/idaho/star-id/calendar, https://patch.com/idaho/weiser-id/calendar. Needs Patch's written permission"
+      "notes": "Patch community calendars, one per city, added 2026-11-05. robots.txt allows the calendar pages (Crawl-delay 1), and the Star page was fetched once on 2026-11-05 before the terms were read. The terms forbid automated collection, so no calendar was requested on 2026-11-06. Calendars: https://patch.com/idaho/caldwell-id/calendar, https://patch.com/idaho/eagle-id/calendar, https://patch.com/idaho/emmett-id/calendar, https://patch.com/idaho/garden-city-id/calendar, https://patch.com/idaho/kuna-id/calendar, https://patch.com/idaho/marsing-id/calendar, https://patch.com/idaho/meridian-id/calendar, https://patch.com/idaho/middleton-id/calendar, https://patch.com/idaho/mountain-home-id/calendar, https://patch.com/idaho/nampa-id/calendar, https://patch.com/idaho/payette-id/calendar, https://patch.com/idaho/star-id/calendar, https://patch.com/idaho/weiser-id/calendar. Needs Patch's written permission. 2026-11-07: the Middleton and Marsing calendars were suggested again; still blocked by the terms"
     },
     {
       "name": "meetup-pawnsandpintsboise",
@@ -4078,7 +4106,7 @@
       "datePattern": "<time class=\"event-date\" datetime=\"(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})\"",
       "titlePattern": "(?s)class=\"eventlist-title-link\">(?<title>.*?)</a>",
       "timePattern": "(?s)event-time-localized(?:-start)?\" datetime=\"[^\"]+\">(?<start>\\d{1,2}:\\d{2}\\s*[AP]M)</time>(?:\\s*<span class=\"event-datetime-divider\"></span>\\s*<time class=\"event-time-localized-end\" datetime=\"[^\"]+\">(?<end>\\d{1,2}:\\d{2}\\s*[AP]M)</time>)?",
-      "notes": "Winery at 19348 Lowell Rd, Caldwell (Sunny Slope). Squarespace; robots.txt (checked 2026-11-06) disallows format=ical and format=json. The event pages have schema.org Event data, but the site time zone is set to America/Los_Angeles, so startDate carries -0800 and would read 1 hour late; scrapeMode cards reads the list page instead, using the displayed wall-clock time and the datetime attribute for the date, and only cards marked eventlist-event--upcoming. 4 upcoming on 2026-11-06 (concerts, Santa, carolers). Configured 2026-11-06. Terms not read"
+      "notes": "Winery at 19348 Lowell Rd, Caldwell (Sunny Slope). Squarespace; robots.txt (checked 2026-11-06) disallows format=ical and format=json. The event pages have schema.org Event data, but the site time zone is set to America/Los_Angeles, so startDate carries -0800 and would read 1 hour late; scrapeMode cards reads the list page instead, using the displayed wall-clock time and the datetime attribute for the date, and only cards marked eventlist-event--upcoming. 4 upcoming on 2026-11-06 (concerts, Santa, carolers). Configured 2026-11-06. Terms not read. 2026-11-07: /events (suggested) redirects to /upcomingevents, the page this reads"
     },
     {
       "name": "meetup-spiral-dynamics-meetup-group",
@@ -4593,7 +4621,7 @@
       "displayName": "University of Idaho Extension county calendars",
       "url": "https://www.uidaho.edu/extension/county/gem/4-h/calendar",
       "category": "learning-business",
-      "notes": "County extension and 4-H calendars, added 2026-11-05. 2026-11-06: www.uidaho.edu robots.txt allows everything. The Gem, Elmore and Payette calendar URLs return the 4-H overview pages, with no events, no Google Calendar or ICS link; the only events are the statewide Trumba feed (uidaho.edu/events), mostly Moscow. Owyhee not requested. Recheck before the fair season",
+      "notes": "County extension and 4-H calendars, added 2026-11-05. 2026-11-06: www.uidaho.edu robots.txt allows everything. The Gem, Elmore and Payette calendar URLs return the 4-H overview pages, with no events, no Google Calendar or ICS link; the only events are the statewide Trumba feed (uidaho.edu/events), mostly Moscow. Owyhee not requested. Recheck before the fair season. 2026-11-07: the Owyhee 4-H calendar (suggested) redirects to /extension/county/owyhee/4h, the same overview page with only the statewide 4-H Trumba events (Know Your Government, state events in Moscow)",
       "status": "ruled-out",
       "robotsChecked": "2026-11-06",
       "reason": "The county calendar URLs no longer have calendars: on 2026-11-06 Gem, Elmore and Payette /calendar pages served the county 4-H overview page with no events and no embed, pointing to Facebook for updates"
@@ -4859,6 +4887,81 @@
       "status": "ruled-out",
       "reason": "HTTP 403 on 2026-10-30. Refuses automated requests",
       "notes": "Suggested again 2026-11-05: https://www.cityofnampa.us/Calendar.aspx and https://www.cityofnampa.us/1049/Events. Same host, so still out. Downtown Nampa, Nampa Chamber, Visit Nampa, and Nampa Civic Center have their own entries on other hosts"
+    },
+    {
+      "name": "owyhee-county",
+      "displayName": "Owyhee County",
+      "status": "running",
+      "adapter": "tribe",
+      "url": "https://owyheecounty.net/wp-json/tribe/events/v1/events",
+      "robotsChecked": "2026-11-07",
+      "category": "community-civic",
+      "inferCategory": true,
+      "city": "Other",
+      "venue": "Owyhee County",
+      "venueKey": "owyhee-county",
+      "priority": 30,
+      "notes": "County site (owyheecounty.net), suggested 2026-11-07. robots.txt allows everything. WordPress with The Events Calendar (Divi event module); the REST API works. 0 upcoming on 2026-11-07 and 4 since 2025-01-01: geology field trips (Shoofly Sand Pit, Bruneau petrified wood) and America's 250th at the Owyhee County Museum in Murphy, so it adds little now but costs one request. Events far from the Treasure Valley get city Other. Terms not read"
+    },
+    {
+      "displayName": "City of Middleton calendar",
+      "status": "ruled-out",
+      "url": "https://middleton.id.gov/calendar",
+      "robotsChecked": "2026-11-07",
+      "category": "community-civic",
+      "city": "Middleton",
+      "reason": "The city's calendar page has no events in its HTML (a DNN site; /Events is a 404)",
+      "notes": "Suggested 2026-11-07 as https://middleton.id.gov/Events, which answered 404; the home page links /calendar. robots.txt allows it (disallows only /*/ctl/ and DNN system folders). /calendar is a DNN (DNNGo) page whose text is only 'Check out the City of Middleton Event Calendar', with no events, feed or embed. The chamber's Christmas Parade comes through middleton-chamber. Recheck if the city publishes events"
+    },
+    {
+      "displayName": "City of Marsing",
+      "status": "ruled-out",
+      "url": "https://cityofmarsing.org/news",
+      "robotsChecked": "2026-11-07",
+      "category": "community-civic",
+      "city": "Marsing",
+      "reason": "News & Events lists only city council meetings and the congregate meal notice",
+      "notes": "Suggested 2026-11-07. robots.txt is 404, so everything is allowed. /news is a short server-rendered list: Marsing City Council Meeting (12 November 2026) and Congregate Meal (19 June 2026). No public events"
+    },
+    {
+      "displayName": "Marsing Chamber of Commerce",
+      "status": "ruled-out",
+      "url": "https://www.marsingchamber.org/calender",
+      "robotsChecked": "2026-11-07",
+      "category": "community-civic",
+      "city": "Marsing",
+      "reason": "Wix site whose calendar and event pages carry no dates in their HTML",
+      "notes": "Suggested 2026-11-07. robots.txt allows everything for other agents. Wix; /calender ('CALENDER' in the menu) has no events in its HTML, and event pages such as /2026-christmas-parade-tree-lighting (Marsing Night Light Parade) are entry forms with no date. Other pages: 2026 Trunk or Treat, Car Show Registration, Business Workshop with Dr Webb. No feed or schema.org Event data"
+    },
+    {
+      "displayName": "City of Homedale",
+      "status": "ruled-out",
+      "url": "https://cityofhomedale.org/",
+      "robotsChecked": "2026-11-07",
+      "category": "community-civic",
+      "city": "Other",
+      "reason": "Current Events & Notices are blog posts and flyers with no event data",
+      "notes": "Suggested 2026-11-07. robots.txt allows everything but /wp-admin/. WordPress with no tribe route; the Very Simple Event List plugin is loaded but no event list renders, /current-events/ is a 404, and the home page's 'Current Events & Notices' are posts (a July 4th flyer for America's 250th). Homedale is in Owyhee County; owyhee-county reads the county calendar"
+    },
+    {
+      "displayName": "Sunnyslope Wine Trail",
+      "status": "ruled-out",
+      "url": "https://sunnyslopewinetrail.com/events/",
+      "robotsChecked": "2026-11-07",
+      "category": "food-drink",
+      "city": "Caldwell",
+      "reason": "The events page lists no events",
+      "notes": "Suggested 2026-11-07. robots.txt allows everything but /wp-admin/. WordPress (Zion builder) with no tribe route; /events/ has only a heading and a mailing list form. The trail's wineries post events on idahowines.org (idaho-wine-commission), and Ste. Chapelle has its own source"
+    },
+    {
+      "displayName": "Ste. Chapelle on Tock",
+      "status": "ruled-out",
+      "url": "https://www.exploretock.com/ste-chapelle-winery-caldwell/",
+      "robotsChecked": "2026-11-07",
+      "category": "food-drink",
+      "city": "Caldwell",
+      "reason": "exploretock.com answered 403 to robots.txt, so nothing else was requested",
+      "notes": "Suggested 2026-11-07: Ste. Chapelle's reservations page on Tock. robots.txt answered HTTP 403 to the project User-Agent. ste-chapelle-winery already reads the winery's own events page"
     }
   ]
 }
