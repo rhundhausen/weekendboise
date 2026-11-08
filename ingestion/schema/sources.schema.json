@@ -176,13 +176,14 @@
         },
         "scrapeMode": {
           "type": "string",
-          "description": "scrape: jsonld reads schema.org data, cards reads HTML blocks, calendarapp reads the event JSON that City of Boise calendar pages embed in #calendar-app, civicplus reads a CivicPlus city calendar (Calendar.aspx) one month per page, chambermaster reads a ChamberMaster or GrowthZone chamber calendar one month per page and each event's iCal file.",
+          "description": "scrape: jsonld reads schema.org data, cards reads HTML blocks, calendarapp reads the event JSON that City of Boise calendar pages embed in #calendar-app, civicplus reads a CivicPlus city calendar (Calendar.aspx) one month per page, chambermaster reads a ChamberMaster or GrowthZone chamber calendar one month per page and each event's iCal file, sveltekit reads the ChamberMaster calendar a SvelteKit chamber site (staridahochamber.com) embeds as page data.",
           "enum": [
             "calendarapp",
             "cards",
             "chambermaster",
             "civicplus",
-            "jsonld"
+            "jsonld",
+            "sveltekit"
           ]
         },
         "eventLinkPattern": {

@@ -4063,13 +4063,21 @@
       "robotsChecked": "2026-11-06"
     },
     {
+      "name": "star-chamber",
       "displayName": "Star Chamber of Commerce",
+      "status": "running",
+      "adapter": "scrape",
       "url": "https://staridahochamber.com/events",
-      "category": "learning-business",
-      "city": "Star",
-      "status": "investigating",
       "robotsChecked": "2026-11-08",
-      "notes": "Chamber events, added 2026-11-05. staridahochamber.com robots.txt allows everything, but its events page renders with JavaScript; the page source points at the ChamberMaster host staridaho.chambermaster.com (customer 3601). That host disallows everything in robots.txt. Note: on 2026-11-06 one request was made to /events/calendar/ on that host in the same command as the robots.txt check, before the disallow was read; it was not repeated. Search results show it reposts Star branch library events. Ask the chamber for permission or an ICS export. 2026-11-08: the JavaScript note above is wrong. staridahochamber.com/events (robots.txt allows everything) embeds the whole calendar as data in the page source: an events list (Id, Name, StartTime, EndTime, IsAllDay, Slug) and eventDetails (EventName, EventLocation, Types), 573 events, about 207 public ones from Nov 8 to Feb 8 after dropping ribbon cuttings, After Hours, Out to Lunch, Coffee Klatch and meetings. Most are weekly Star Library programs, which nothing else gives us. business.staridahochamber.com/robots.txt answered 301 (to staridahochamber.com), so nothing else was sent there, and staridaho.chambermaster.com is still Disallow: /. No existing scrape mode reads the embedded data; it needs a new one"
+      "category": "community-civic",
+      "inferCategory": true,
+      "city": "Star",
+      "venue": "Star Chamber of Commerce",
+      "venueKey": "star-chamber",
+      "priority": 20,
+      "scrapeMode": "sveltekit",
+      "excludeTitlePattern": "(?i)\\bmeeting\\b|ribbon cutting|after hours|out to lunch|coffee klatch|\\blions club\\b|pre-order pickup",
+      "notes": "Chamber events, added 2026-11-05. staridahochamber.com robots.txt allows everything, but its events page renders with JavaScript; the page source points at the ChamberMaster host staridaho.chambermaster.com (customer 3601). That host disallows everything in robots.txt. Note: on 2026-11-06 one request was made to /events/calendar/ on that host in the same command as the robots.txt check, before the disallow was read; it was not repeated. Search results show it reposts Star branch library events. Ask the chamber for permission or an ICS export. 2026-11-08: the JavaScript note above is wrong. staridahochamber.com/events (robots.txt allows everything) embeds the whole calendar as data in the page source: an events list (Id, Name, StartTime, EndTime, IsAllDay, Slug) and eventDetails (EventName, EventLocation, Types), 573 events, about 207 public ones from Nov 8 to Feb 8 after dropping ribbon cuttings, After Hours, Out to Lunch, Coffee Klatch and meetings. Most are weekly Star Library programs, which nothing else gives us. business.staridahochamber.com/robots.txt answered 301 (to staridahochamber.com), so nothing else was sent there, and staridaho.chambermaster.com is still Disallow: /. No existing scrape mode reads the embedded data; it needs a new one. 2026-11-08: set running with the new sveltekit scrape mode, which reads the events list from the page's SvelteKit data (one request a night; event pages are /events/details/<slug>-<id>, and the sitemap lists no feed). Chamber business (luncheons, After Hours, ribbon cuttings, Coffee Klatch, meetings, Lions Club) and the REKO pre-order pickups are skipped by title. Venues come from '(@ Star Library)' or '@ Helina Marie's' in titles; the location field is nearly always empty"
     },
     {
       "name": "meetup-start-boise",

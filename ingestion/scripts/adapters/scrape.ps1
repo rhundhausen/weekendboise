@@ -15,7 +15,8 @@
   data-config attribute of #calendar-app. With scrapeMode civicplus, they come from a CivicPlus
   city calendar (Calendar.aspx), one month per page. With scrapeMode chambermaster, they come from
   a ChamberMaster or GrowthZone chamber calendar: the month pages list the events, and each
-  event's iCal file gives its details. See docs/sources.md.
+  event's iCal file gives its details. With scrapeMode sveltekit, they come from the calendar a
+  SvelteKit chamber site embeds as page data. See docs/sources.md.
 .PARAMETER Source
   One entry from sources.json.
 .PARAMETER FetchedAt
@@ -479,11 +480,76 @@ function Read-ChamberMasterSource {
   }
 }
 
+function Read-SvelteKitSource {
+  # A SvelteKit chamber site (staridahochamber.com) that serves its ChamberMaster calendar as page
+  # data: kit.start(..., { data: [...] }) holds one entry per page node, and the events node has
+  # events (Id, Name, Description, StartTime, EndTime, IsAllDay, Slug, in Boise wall-clock time) and
+  # eventDetails (the same Ids, with EventLocation). Event pages are /events/details/<slug>-<id>.
+  $html = if ($Response) { $Response[0] } else { Get-ScrapePage $listUri }
+  $match = [regex]::Match($html, '(?s)kit\.start\(app,\s*element,\s*\{.*?\bdata:\s*(?<d>\[.*?\])\s*,\s*form:')
+  if (-not $match.Success) { throw "$($Source.name): no SvelteKit data on the page" }
+  $node = @(ConvertFrom-TvJsLiteral $match.Groups['d'].Value) | Where-Object { $_ -and $_.data.events } | Select-Object -First 1
+  if (-not $node) { throw "$($Source.name): no SvelteKit data on the page with events" }
+
+  $invariant = [Globalization.CultureInfo]::InvariantCulture
+  $locations = @{}
+  foreach ($detail in @($node.data.eventDetails)) { if ($detail.EventLocation) { $locations["$($detail.Id)"] = $detail.EventLocation } }
+  $site = $listUri.GetLeftPart('Authority')
+
+  foreach ($item in @($node.data.events)) {
+    $title = ''
+    try {
+      $title = ConvertTo-PlainText $item.Name
+      if (-not $title) { throw 'no title' }
+      if ($Source.excludeTitlePattern -and $title -match $Source.excludeTitlePattern) { continue }
+
+      $from = [DateTime]::ParseExact($item.StartTime, 'yyyy-MM-ddTHH:mm:ss', $invariant)
+      $to = if ($item.EndTime) { [DateTime]::ParseExact($item.EndTime, 'yyyy-MM-ddTHH:mm:ss', $invariant) }
+      $lastDay = if ($to -and $to -gt $from) { $to } else { $from }
+      if ($lastDay.ToString('yyyy-MM-dd', $invariant) -lt $today) { continue }
+
+      $end = $null
+      if ($item.IsAllDay) {
+        $start = $from.ToString('yyyy-MM-dd', $invariant)
+        if ($lastDay.Date -gt $from.Date) { $end = $lastDay.ToString('yyyy-MM-dd', $invariant) }
+      } else {
+        $start = ConvertTo-BoiseTime $from
+        if ($to -and $to -gt $from) { $end = ConvertTo-BoiseTime $to }
+      }
+
+      # Titles name the place: "Dog Tales (@ Star Library)" or "Karoake Friday @ Helina Marie's".
+      # The bracketed form is dropped from the title, as the venue column shows it.
+      $venueName = ''
+      $at = [regex]::Match($title, '^(?<t>.*?)\s*\(\s*@\s*(?<v>[^)]+?)\s*\)\s*$')
+      if ($at.Success) {
+        $title = $at.Groups['t'].Value
+        $venueName = $at.Groups['v'].Value
+      } elseif ($title -match '\s@\s+(?<v>.+)$') {
+        $venueName = $Matches['v'].Trim()
+      }
+
+      # The location is nearly always empty. When set it's HTML lines ("Spring Shores Marina<br />
+      # 74 Arrow Rock Road<br />Boise, ID 83716"), and its first line is a name only when a street
+      # line follows; other locations are just a street or a sentence.
+      $parts = @((ConvertTo-PlainText ("$($locations["$($item.Id)"])" -replace '(?i)<br\s*/?>', ',')) -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ })
+      if (-not $venueName -and $parts.Count -ge 2 -and $parts[0] -notmatch '^\d' -and $parts[0].Length -le 60 -and @($parts | Where-Object { $_ -match '^\d+\s' }).Count -gt 0) {
+        $venueName = $parts[0]
+      }
+
+      New-ScrapeEvent -Title $title -Start $start -End $end -AllDay ([bool]$item.IsAllDay) `
+        -VenueName $venueName -CityText ($parts -join ',') -Url "$site/events/details/$($item.Slug)-$($item.Id)" -Description $item.Description
+    } catch {
+      Write-Warning "$($Source.name): skipping '$title': $_"
+    }
+  }
+}
+
 switch ($Source.scrapeMode) {
   'jsonld' { Read-JsonLdSource }
   'cards' { Read-CardsSource }
   'calendarapp' { Read-CalendarAppSource }
   'civicplus' { Read-CivicPlusSource }
   'chambermaster' { Read-ChamberMasterSource }
+  'sveltekit' { Read-SvelteKitSource }
   default { throw "$($Source.name): unknown scrapeMode '$($Source.scrapeMode)'" }
 }

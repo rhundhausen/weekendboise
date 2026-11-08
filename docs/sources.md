@@ -118,7 +118,7 @@ The last resort, for sites with no API or feed. Check for a feed first: a workin
 
 | Field | Required | Notes |
 | --- | --- | --- |
-| `scrapeMode` | yes | `jsonld`, `cards`, `calendarapp`, `civicplus`, or `chambermaster`, see below |
+| `scrapeMode` | yes | `jsonld`, `cards`, `calendarapp`, `civicplus`, `chambermaster`, or `sveltekit`, see below |
 | `eventLinkPattern` | no | `jsonld`: regex for event links on the list page. Each linked page is read. Without it, the list page itself is read |
 | `maxPages` | no | `jsonld`: most event pages to read in one run. Defaults to 40. `civicplus` and `chambermaster`: months to read, starting with this one. Defaults to 3 |
 | `itemPattern` | `cards` | Regex matching one event's HTML block |
@@ -128,7 +128,7 @@ The last resort, for sites with no API or feed. Check for a feed first: a workin
 | `timePattern` | no | `cards`: regex with named groups `start` and optional `end`, such as `3:00 pm`. Without a match, the event is all-day |
 | `localTimeAsUtc` | no | `true` corrects sites that write local time as UTC |
 | `fixedVenue` | no | `true` uses the entry's venue for every event |
-| `excludeTitlePattern` | no | `jsonld`, `cards`, `civicplus`, and `chambermaster`: regex. Matching titles are skipped, such as meetings and closures |
+| `excludeTitlePattern` | no | `jsonld`, `cards`, `civicplus`, `chambermaster`, and `sveltekit`: regex. Matching titles are skipped, such as meetings and closures |
 | `excludeDescriptionPattern` | no | `jsonld`: regex, matched against the description as plain text with WordPress shortcodes such as `[post_title]` removed. Matching events are skipped. Bluebird Social uses it to skip food trucks, whose descriptions are only shortcodes |
 
 `url` is the list page.
@@ -138,6 +138,7 @@ The last resort, for sites with no API or feed. Check for a feed first: a workin
 - **`calendarapp`** reads the event JSON that City of Boise calendar pages (boiseartsandhistory.org) embed in the `data-config` attribute of `#calendar-app`. It reads the `start` and `end` fields, which are Boise wall-clock time, and skips past events.
 - **`civicplus`** reads a CivicPlus city calendar (`Calendar.aspx`, as on staridaho.org and kunacity.id.gov). `url` is the `Calendar.aspx` page. Each month is its own page (`?month=12&year=2026&day=1`), so one run makes `maxPages` requests at the site's crawl delay. It reads each event's title and date line ("November 10, 2026, 6:30 PM - 8:00 PM", "All Day", or a range of dates), and the hidden schema.org microdata for the place, city, and description when it's there. The placeholder place "Event Location" falls back to the entry's venue. CivicPlus sites disallow their iCalendar export and RSS.aspx in robots.txt, which is why this reads the HTML. City calendars are mostly meetings and closures, so set `excludeTitlePattern`.
 - **`chambermaster`** reads a ChamberMaster or GrowthZone chamber calendar (as on business.emmettidaho.com). `url` is the `/events/calendar/` page. Later months are `/events/calendar/YYYY-MM-01`. Each month page lists every day's events as links to `/events/details/<slug>-<id>`, and a multi-day event is listed on every day. Titles are filtered with `excludeTitlePattern` and past events are skipped on the list, before anything else is fetched. Each remaining event is read from its iCal file at `/events/ical/<slug>-<id>.ics`, at most 150 a run. The location reads "Name 123 Street City, ID": the name ends at the house number, and a location with no name falls back to the entry's venue. Chamber calendars carry many weekly church services and classes, so set `excludeTitlePattern`.
+- **`sveltekit`** reads a SvelteKit chamber site that serves its ChamberMaster calendar as page data (as on staridahochamber.com/events), in one request. The page's `kit.start(...)` call lists `data` for each page node, written as a JavaScript function whose arguments stand in for repeated values; `ConvertFrom-TvJsLiteral` (lib/Scrape.ps1) reads it without running anything. The events node has `events` (Id, Name, Description, StartTime, EndTime, IsAllDay, Slug, in Boise wall-clock time) and `eventDetails` (EventLocation). Each event links to `/events/details/<slug>-<id>`. The venue comes from "(@ Star Library)" in the title, which is then dropped from the title, or "@ Helina Marie's", which stays; otherwise from the location's first line when a street line follows it, else the entry's venue. The city comes from the location, else the entry's city. Set `excludeTitlePattern` for chamber business.
 
 ### cityofboise
 

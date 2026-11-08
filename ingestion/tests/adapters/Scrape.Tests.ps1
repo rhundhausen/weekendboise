@@ -698,3 +698,58 @@ Describe 'scrape adapter, staying out of bounds' {
     $events.title | Should -Be 'Good'
   }
 }
+
+Describe 'scrape adapter, sveltekit (Star Chamber)' {
+  BeforeAll {
+    $events = @(& $adapter -Source (Get-TestSource 'star-chamber') -FetchedAt $fetchedAt -Response (Get-Fixture 'star-chamber.html'))
+    $byId = @{}
+    $events | ForEach-Object { $byId[($_.url -split '-')[-1]] = $_ }
+  }
+
+  It 'reads the events, skipping past ones and chamber business by title' {
+    $events.title | Should -Be @('Dog Tales', "Karoake Friday @ Helina Marie's", 'Gebert-Arbaugh Polar Bear Challenge', 'Make Star Shine', 'Homeschool PE')
+  }
+
+  It 'fills in repeated values from the payload arguments' {
+    $byId['103'].description | Should -Be 'Kids read to therapy dogs.'
+  }
+
+  It 'reads start and end as Boise wall-clock time' {
+    $byId['103'].start | Should -Be '2026-11-05T10:30:00-07:00'
+    $byId['103'].end | Should -Be '2026-11-05T11:30:00-07:00'
+  }
+
+  It 'reads an all-day event as a date' {
+    $byId['106'].start | Should -Be '2026-11-14'
+    $byId['106'].allDay | Should -BeTrue
+    $byId['106'].end | Should -BeNullOrEmpty
+  }
+
+  It 'takes the venue from "(@ Venue)" in the title and drops it from the title' {
+    $byId['103'].venue | Should -Be 'Star Library'
+    $byId['103'].venueKey | Should -Be 'star-library'
+    $byId['103'].city | Should -Be 'Star'
+  }
+
+  It 'takes the venue from "@ Venue" in the title and keeps the title' {
+    $byId['104'].venue | Should -Be "Helina Marie's"
+    $byId['104'].city | Should -Be 'Star'
+  }
+
+  It 'takes the venue and city from a location with an address' {
+    $byId['105'].venue | Should -Be 'Spring Shores Marina at Lucky Peak'
+    $byId['105'].city | Should -Be 'Boise'
+  }
+
+  It 'falls back to the source venue' {
+    $byId['107'].venueKey | Should -Be 'star-chamber'
+  }
+
+  It 'links each event page' {
+    $byId['103'].url | Should -Be 'https://staridahochamber.com/events/details/dog-tales-star-library-11-05-2026-103'
+  }
+
+  It 'fails when the page has no SvelteKit data' {
+    { & $adapter -Source (Get-TestSource 'star-chamber') -FetchedAt $fetchedAt -Response '<html></html>' } | Should -Throw '*no SvelteKit data*'
+  }
+}
