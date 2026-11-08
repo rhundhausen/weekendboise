@@ -14,7 +14,7 @@ An idea needs only `displayName`. An entry with a `name` is a configured source 
 | `status` | no | `idea` (the default when missing), `investigating`, `feed-found`, `ready`, `running`, or `ruled-out`. Ingest runs only `running` |
 | `reason` | `ruled-out` | Why it was ruled out |
 | `name` | `running` | Unique slug, also the per-source output file name. Setting it makes the entry a configured source |
-| `adapter` | configured, `ready` | `cityofboise`, `ics`, `rss`, `tribe`, `ticketmaster`, `eventbrite`, `eventbrite-search`, `seatgeek`, `songkick`, `bandsintown`, or `scrape`. `other` is allowed on ideas that need a new adapter, never on a configured entry |
+| `adapter` | configured, `ready` | `cityofboise`, `eventastic`, `ics`, `rss`, `tribe`, `ticketmaster`, `eventbrite`, `eventbrite-search`, `seatgeek`, `songkick`, `bandsintown`, or `scrape`. `other` is allowed on ideas that need a new adapter, never on a configured entry |
 | `url` | configured, `feed-found`, `ready` | Feed or API endpoint, or the site for an idea |
 | `category` | configured | An id from `data/schema/categories.json`, used for this source's events. With `inferCategory`, it's the fallback |
 | `inferCategory` | no | `true` chooses each event's category from its tags. Use it for sources that mix many kinds of event. See [schema.md](schema.md#categories-and-tags) |
@@ -56,6 +56,10 @@ robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rs
 | `localTimeAsUtc` | no | `true` for a site set to UTC+0 (as Donnelly Library is), whose `utc_start_date` is really Boise wall-clock time. Reads `start_date` as local instead |
 
 `url` is the REST events endpoint, ending in `/wp-json/tribe/events/v1/events`. The site's event categories feed tag matching.
+
+### eventastic
+
+For WordPress sites running the Eventastic plugin by Madden Media (Visit McCall; Visit Nampa uses it too). `url` is the site's events page. The calendar on that page fills itself by posting `action=get_events_date_ordered` with `start_date` and `end_date` to `/wp-admin/admin-ajax.php`; the adapter checks robots.txt for that path and makes the same request once, for today through the next 180 days. A weekly event lists its dates in `pattern_dates`, and each one becomes its own event; any other event runs from `start_date` to `end_date`. Times are like "5:30 pm"; an event without one is all-day. The venue is the event's venue term, or the entry's venue when it has none, and `meta.city` sets the city when it is a known one. `excludeTitlePattern` (regex) skips matching titles. The `?ical=1` trick for The Events Calendar does not work on these sites: it returns the HTML page.
 
 ### ticketmaster
 

@@ -149,6 +149,46 @@ Describe 'tribe adapter with excludeTitlePattern' {
   }
 }
 
+Describe 'eventastic adapter' {
+  BeforeAll {
+    # Visit McCall's admin-ajax answer of 2026-11-08, trimmed to the fields the adapter reads.
+    # fetchedAt is 2026-11-02, so the window is 2026-11-02 through 2027-05-01.
+    $source = Get-TestSource 'visit-mccall'
+    $events = Invoke-Adapter 'eventastic' $source 'eventastic/visit-mccall.json'
+  }
+
+  It 'reads a one-day event with its time, venue, and page' {
+    $breakfast = @($events | Where-Object title -eq 'Fall Membership Breakfast')
+    $breakfast.Count | Should -Be 1
+    $breakfast[0].start | Should -Be '2026-11-19T08:30:00-07:00'
+    $breakfast[0].end | Should -Be '2026-11-19T10:30:00-07:00'
+    $breakfast[0].venue | Should -Be 'Evergreen Hotel'
+    $breakfast[0].city | Should -Be 'Valley County'
+    $breakfast[0].url | Should -Be 'https://visitmccall.org/event/fall-membership-breakfast-2/'
+  }
+
+  It 'lists a weekly event once per date in the window' {
+    $singo = @($events | Where-Object title -eq 'Friday Night Singo Game' | Sort-Object start)
+    @($singo.start) | Should -Be @('2026-11-06T17:30:00-07:00', '2026-11-13T17:30:00-07:00', '2026-11-20T17:30:00-07:00', '2026-11-27T17:30:00-07:00')
+    $singo[0].end | Should -Be '2026-11-06T19:00:00-07:00'
+    @($singo.id | Select-Object -Unique).Count | Should -Be 4
+  }
+
+  It 'files Tamarack, Donnelly, and McCall events under Valley County' {
+    @($events.city | Select-Object -Unique) | Should -Be @('Valley County')
+  }
+
+  It 'keeps dates inside the window' {
+    @($events | Where-Object { $_.start.Substring(0, 10) -lt '2026-11-02' -or $_.start.Substring(0, 10) -gt '2027-05-01' }).Count | Should -Be 0
+    @($events | Where-Object title -eq 'Trivia Tuesdays at Seven Devils').Count | Should -Be 26
+  }
+
+  It 'decodes titles' {
+    @($events | Where-Object title -like 'Broken Horn*Thursday Trivia').Count | Should -BeGreaterThan 0
+    @($events | Where-Object title -match '&#') | Should -BeNullOrEmpty
+  }
+}
+
 Describe 'tribe adapter with localTimeAsUtc' {
   It 'reads a site set to UTC+0 as Boise wall-clock time' {
     # Donnelly Library's site is set to UTC+0, so 4 PM local comes back as 16:00 in both fields.

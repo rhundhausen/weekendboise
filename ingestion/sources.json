@@ -5086,13 +5086,19 @@
       "notes": "Regional visitor site (five north central Idaho counties), suggested 2026-11-08 as https://visitnorthcentralidaho.org/event-directory/. robots.txt allows everything for other agents (it blocks AI training crawlers by name). The Events Calendar: ?ical=1 works (30 events, one list page) and so does the REST API (243 upcoming). Held: no venue has a city, and only 1 of the 243 is in the Valley County grouping (Riggins Christmas Tree Lighting, which salmon-river-chamber already reads). Running it needs a filter on the title and description, which the tribe adapter does not have. Terms not read"
     },
     {
+      "name": "visit-mccall",
       "displayName": "Visit McCall",
-      "status": "investigating",
+      "status": "running",
+      "adapter": "eventastic",
       "url": "https://visitmccall.org/events/",
       "robotsChecked": "2026-11-08",
       "category": "community-civic",
+      "inferCategory": true,
       "city": "Valley County",
-      "notes": "Visitor bureau, suggested 2026-11-08 as https://visitmccall.org/events/?ical=1. robots.txt allows everything and sets Crawl-delay 10. ?ical=1 returns the HTML page: the site does not run The Events Calendar but the Eventastic plugin (Madden Media), like Visit Nampa. /events/ embeds a few events as JSON (window.preLoadData), and the calendar posts action=get_events_date_ordered with start_date and end_date to /wp-admin/admin-ajax.php, which returns event_objects (title, start_date, end_date, start_time, end_time, pattern_dates, addr1, city, permalink, categories). On 2026-11-08 the range to 2027-05-07 held only 4 events (56 dates): Trivia Tuesdays at Seven Devils and Friday Night Singo (both Tamarack, which tamarack-resort reads), Broken Horn Thursday Trivia (McCall), and a chamber Fall Membership Breakfast. Needs an eventastic adapter, which would also open Visit Nampa. Terms not read"
+      "venue": "McCall area",
+      "venueKey": "mccall-area",
+      "priority": 60,
+      "notes": "Visitor bureau, suggested 2026-11-08 as https://visitmccall.org/events/?ical=1. robots.txt allows everything and sets Crawl-delay 10. ?ical=1 returns the HTML page: the site does not run The Events Calendar but the Eventastic plugin (Madden Media), like Visit Nampa. /events/ embeds a few events as JSON (window.preLoadData), and the calendar posts action=get_events_date_ordered with start_date and end_date to /wp-admin/admin-ajax.php, which returns event_objects (title, start_date, end_date, start_time, end_time, pattern_dates, addr1, city, permalink, categories). On 2026-11-08 the range to 2027-05-07 held only 4 events (56 dates): Trivia Tuesdays at Seven Devils and Friday Night Singo (both Tamarack, which tamarack-resort reads), Broken Horn Thursday Trivia (McCall), and a chamber Fall Membership Breakfast. Needs an eventastic adapter, which would also open Visit Nampa. Terms not read. 2026-11-08: now read by the eventastic adapter, one POST a night for the next 180 days. Weekly events are listed once per date (Trivia Tuesdays and Friday Singo at Tamarack, which tamarack-resort skips because its feed lists them as one months-long event). Priority 60, so an organizer's own listing wins when both have an event"
     },
     {
       "displayName": "Valley County",

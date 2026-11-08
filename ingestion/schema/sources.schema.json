@@ -66,6 +66,7 @@
             "cityofboise",
             "eventbrite",
             "eventbrite-search",
+            "eventastic",
             "ics",
             "meetup",
             "rss",
@@ -260,7 +261,7 @@
         },
         "excludeTitlePattern": {
           "type": "string",
-          "description": "ticketmaster, rss, ics, tribe, meetup, and scrape with scrapeMode jsonld, cards, civicplus, or chambermaster: regex. Matching titles are skipped.",
+          "description": "ticketmaster, rss, ics, tribe, meetup, eventastic, and scrape with scrapeMode jsonld, cards, civicplus, or chambermaster: regex. Matching titles are skipped.",
           "minLength": 1
         },
         "excludeDescriptionPattern": {

@@ -62,7 +62,8 @@ function ConvertFrom-TvJson {
 function Invoke-TvRequest {
   <#
   .SYNOPSIS
-    GETs a URL with the project User-Agent, a timeout, and one retry on 5xx.
+    GETs a URL with the project User-Agent, a timeout, and one retry on 5xx. -Method Post with a
+    -Form hashtable sends a form POST instead, for WordPress admin-ajax calendars.
   .PARAMETER Raw
     Return the response body as text, for ICS feeds. Otherwise the body is parsed as JSON.
   .PARAMETER Headers
@@ -79,6 +80,10 @@ function Invoke-TvRequest {
 
     [hashtable]$Headers = @{},
 
+    [ValidateSet('Get', 'Post')][string]$Method = 'Get',
+
+    [hashtable]$Form,
+
     [int]$TimeoutSec = 30,
 
     [int]$RetryDelaySeconds = 5
@@ -88,7 +93,9 @@ function Invoke-TvRequest {
   while ($true) {
     $attempt++
     try {
-      $response = Invoke-WebRequest -Uri $Uri -UserAgent (Get-TvUserAgent) -Headers $Headers -TimeoutSec $TimeoutSec -SkipHttpErrorCheck -ErrorAction Stop
+      $request = @{ Uri = $Uri; UserAgent = (Get-TvUserAgent); Headers = $Headers; TimeoutSec = $TimeoutSec; Method = $Method }
+      if ($Form) { $request.Body = $Form }
+      $response = Invoke-WebRequest @request -SkipHttpErrorCheck -ErrorAction Stop
     } catch {
       throw "Request failed for $(Hide-TvSecret $Uri): $(Hide-TvSecret $_.Exception.Message)"
     }

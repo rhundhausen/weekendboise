@@ -1,0 +1,1058 @@
+{
+  "event_objects": {
+    "70328": {
+      "ID": 70328,
+      "post_title": "Friday Night Singo Game",
+      "post_status": "publish",
+      "post_content": "<!-- wp:paragraph -->\n<p>Join us for an exciting new game night at Tamarack Resort! Singo is just like Bingo but with music! Each round is played like traditional Bingo except the spaces you are trying to fill on your Singo card are songs and you can cross off the space when the corresponding song is played. This game night is free and you can win fun Tamarack Resort swag and other prizes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Come play Singo, enjoy a meal, and sip on some craft beverages from the 40+ tap wall at Seven Devils",
+      "permalink": "https://visitmccall.org/event/friday-night-singo-game/",
+      "meta": {
+        "thisVenues": false,
+        "thisCategories": [
+          {
+            "name": "Culinary | Dining",
+            "slug": "culinary-dining"
+          },
+          {
+            "name": "Family Fun",
+            "slug": "family-fun"
+          },
+          {
+            "name": "Indoor Recreation",
+            "slug": "indoor-recreation"
+          },
+          {
+            "name": "Wine | Beer | Cocktails",
+            "slug": "wine-beer-cocktails"
+          }
+        ],
+        "start_date": "2026-10-16",
+        "end_date": "2026-11-27",
+        "start_time": "5:30 pm",
+        "end_time": "7:00 pm",
+        "recurrence_options": "pattern",
+        "repeat_pattern": "{\"freq\":\"weekly\",\"days\":[5]}",
+        "pattern_dates": [
+          "2026-10-16",
+          "2026-10-23",
+          "2026-10-30",
+          "2026-11-06",
+          "2026-11-13",
+          "2026-11-20",
+          "2026-11-27"
+        ],
+        "price": "",
+        "addr1": "311 Village Dr.",
+        "city": "Tamarack",
+        "state": "ID",
+        "zip": "83615"
+      }
+    },
+    "70330": {
+      "ID": 70330,
+      "post_title": "Trivia Tuesdays at Seven Devils",
+      "post_status": "publish",
+      "post_content": "<!-- wp:paragraph -->\n<p>Come test your knowledge at our weekly trivia nights. Compete as a team to win prizes and bragging rights every Tuesday at Seven Devils Taphouse from 5:30-7:30.</p>\n<!-- /wp:paragraph -->",
+      "permalink": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "meta": {
+        "thisVenues": false,
+        "thisCategories": [
+          {
+            "name": "Continuing Education",
+            "slug": "continuing-education"
+          },
+          {
+            "name": "Culinary | Dining",
+            "slug": "culinary-dining"
+          },
+          {
+            "name": "Education and Learning",
+            "slug": "education-and-learning"
+          },
+          {
+            "name": "Family Fun",
+            "slug": "family-fun"
+          },
+          {
+            "name": "Indoor Recreation",
+            "slug": "indoor-recreation"
+          },
+          {
+            "name": "Wine | Beer | Cocktails",
+            "slug": "wine-beer-cocktails"
+          }
+        ],
+        "start_date": "2026-10-20",
+        "end_date": "2027-08-31",
+        "start_time": "5:30 pm",
+        "end_time": "7:00 pm",
+        "recurrence_options": "pattern",
+        "repeat_pattern": "{\"freq\":\"weekly\",\"days\":[2]}",
+        "pattern_dates": [
+          "2026-10-20",
+          "2026-10-27",
+          "2026-11-03",
+          "2026-11-10",
+          "2026-11-17",
+          "2026-11-24",
+          "2026-12-01",
+          "2026-12-08",
+          "2026-12-15",
+          "2026-12-22",
+          "2026-12-29",
+          "2027-01-05",
+          "2027-01-12",
+          "2027-01-19",
+          "2027-01-26",
+          "2027-02-02",
+          "2027-02-09",
+          "2027-02-16",
+          "2027-02-23",
+          "2027-03-02",
+          "2027-03-09",
+          "2027-03-16",
+          "2027-03-23",
+          "2027-03-30",
+          "2027-04-06",
+          "2027-04-13",
+          "2027-04-20",
+          "2027-04-27",
+          "2027-05-04",
+          "2027-05-11",
+          "2027-05-18",
+          "2027-05-25",
+          "2027-06-01",
+          "2027-06-08",
+          "2027-06-15",
+          "2027-06-22",
+          "2027-06-29",
+          "2027-07-06",
+          "2027-07-13",
+          "2027-07-20",
+          "2027-07-27",
+          "2027-08-03",
+          "2027-08-10",
+          "2027-08-17",
+          "2027-08-24",
+          "2027-08-31"
+        ],
+        "price": "",
+        "addr1": "740 Village Dr.",
+        "city": "Donnelly",
+        "state": "ID",
+        "zip": "83615"
+      }
+    },
+    "70321": {
+      "ID": 70321,
+      "post_title": "Broken Horn - Thursday Trivia",
+      "post_status": "publish",
+      "post_content": "<!-- wp:paragraph -->\n<p>Thursday Trivia is back! Join us every week at 6pm. Come early, seats fill up fast! River Grill has dinner taken care of.</p>\n<!-- /wp:paragraph -->",
+      "permalink": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "meta": {
+        "thisVenues": false,
+        "thisCategories": [
+          {
+            "name": "Continuing Education",
+            "slug": "continuing-education"
+          },
+          {
+            "name": "Culinary | Dining",
+            "slug": "culinary-dining"
+          },
+          {
+            "name": "Education and Learning",
+            "slug": "education-and-learning"
+          },
+          {
+            "name": "Family Fun",
+            "slug": "family-fun"
+          },
+          {
+            "name": "Indoor Recreation",
+            "slug": "indoor-recreation"
+          },
+          {
+            "name": "Wine | Beer | Cocktails",
+            "slug": "wine-beer-cocktails"
+          }
+        ],
+        "start_date": "2026-10-22",
+        "end_date": "2027-05-20",
+        "start_time": "6:00 pm",
+        "end_time": "8:00 pm",
+        "recurrence_options": "pattern",
+        "repeat_pattern": "{\"freq\":\"weekly\",\"days\":[4]}",
+        "pattern_dates": [
+          "2026-10-22",
+          "2026-10-29",
+          "2026-11-05",
+          "2026-11-12",
+          "2026-11-19",
+          "2026-11-26",
+          "2026-12-03",
+          "2026-12-10",
+          "2026-12-17",
+          "2026-12-24",
+          "2026-12-31",
+          "2027-01-07",
+          "2027-01-14",
+          "2027-01-21",
+          "2027-01-28",
+          "2027-02-04",
+          "2027-02-11",
+          "2027-02-18",
+          "2027-02-25",
+          "2027-03-04",
+          "2027-03-11",
+          "2027-03-18",
+          "2027-03-25",
+          "2027-04-01",
+          "2027-04-08",
+          "2027-04-15",
+          "2027-04-22",
+          "2027-04-29",
+          "2027-05-06",
+          "2027-05-13",
+          "2027-05-20"
+        ],
+        "price": "",
+        "addr1": "201 Mission St.",
+        "city": "McCall",
+        "state": "ID",
+        "zip": "83638"
+      }
+    },
+    "70350": {
+      "ID": 70350,
+      "post_title": "Fall Membership Breakfast",
+      "post_status": "publish",
+      "post_content": "<!-- wp:paragraph -->\n<p>Join us for our 2026 Fall Membership Breakfast at <a href=\"https://visitmccall.org/directory/listing/the-evergreen-hotel/\">The Evergreen Hotel</a> on Thursday, November 19th from 8:30-10:30am. Network with fellow business owners, enjoy coffee and breakfast, and hear from local speakers who will discuss Investing in Yourself, Investing in Your Business, and Investing in Your Community.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A big thank you to our sponsor, <a href=\"https://visitmccall.org/directory/listi",
+      "permalink": "https://visitmccall.org/event/fall-membership-breakfast-2/",
+      "meta": {
+        "thisVenues": [
+          {
+            "term_id": 726,
+            "name": "Evergreen Hotel",
+            "slug": "evergreen-hotel"
+          }
+        ],
+        "thisCategories": [
+          {
+            "name": "Business Development",
+            "slug": "business-development"
+          },
+          {
+            "name": "Community + Business",
+            "slug": "community-business"
+          },
+          {
+            "name": "Economic Development",
+            "slug": "economic-development"
+          },
+          {
+            "name": "Education and Learning",
+            "slug": "education-and-learning"
+          },
+          {
+            "name": "Networking",
+            "slug": "networking"
+          }
+        ],
+        "start_date": "2026-11-19",
+        "end_date": "2026-11-19",
+        "start_time": "8:30 am",
+        "end_time": "10:30 am",
+        "recurrence_options": "one_day",
+        "repeat_pattern": "custom",
+        "pattern_dates": null,
+        "price": "",
+        "addr1": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      }
+    }
+  },
+  "days": {
+    "1794268800": {
+      "meta": {
+        "date": "2026-11-10"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1794441600": {
+      "meta": {
+        "date": "2026-11-12"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1794528000": {
+      "meta": {
+        "date": "2026-11-13"
+      },
+      "events": [
+        70328
+      ]
+    },
+    "1794873600": {
+      "meta": {
+        "date": "2026-11-17"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1795046400": {
+      "meta": {
+        "date": "2026-11-19"
+      },
+      "events": [
+        70321,
+        70350
+      ]
+    },
+    "1795132800": {
+      "meta": {
+        "date": "2026-11-20"
+      },
+      "events": [
+        70328
+      ]
+    },
+    "1795478400": {
+      "meta": {
+        "date": "2026-11-24"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1795651200": {
+      "meta": {
+        "date": "2026-11-26"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1795737600": {
+      "meta": {
+        "date": "2026-11-27"
+      },
+      "events": [
+        70328
+      ]
+    },
+    "1796083200": {
+      "meta": {
+        "date": "2026-12-01"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1796256000": {
+      "meta": {
+        "date": "2026-12-03"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1796688000": {
+      "meta": {
+        "date": "2026-12-08"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1796860800": {
+      "meta": {
+        "date": "2026-12-10"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1797292800": {
+      "meta": {
+        "date": "2026-12-15"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1797465600": {
+      "meta": {
+        "date": "2026-12-17"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1797897600": {
+      "meta": {
+        "date": "2026-12-22"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1798070400": {
+      "meta": {
+        "date": "2026-12-24"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1798502400": {
+      "meta": {
+        "date": "2026-12-29"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1798675200": {
+      "meta": {
+        "date": "2026-12-31"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1799107200": {
+      "meta": {
+        "date": "2027-01-05"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1799280000": {
+      "meta": {
+        "date": "2027-01-07"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1799712000": {
+      "meta": {
+        "date": "2027-01-12"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1799884800": {
+      "meta": {
+        "date": "2027-01-14"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1800316800": {
+      "meta": {
+        "date": "2027-01-19"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1800489600": {
+      "meta": {
+        "date": "2027-01-21"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1800921600": {
+      "meta": {
+        "date": "2027-01-26"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1801094400": {
+      "meta": {
+        "date": "2027-01-28"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1801526400": {
+      "meta": {
+        "date": "2027-02-02"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1801699200": {
+      "meta": {
+        "date": "2027-02-04"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1802131200": {
+      "meta": {
+        "date": "2027-02-09"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1802304000": {
+      "meta": {
+        "date": "2027-02-11"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1802736000": {
+      "meta": {
+        "date": "2027-02-16"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1802908800": {
+      "meta": {
+        "date": "2027-02-18"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1803340800": {
+      "meta": {
+        "date": "2027-02-23"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1803513600": {
+      "meta": {
+        "date": "2027-02-25"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1803945600": {
+      "meta": {
+        "date": "2027-03-02"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1804118400": {
+      "meta": {
+        "date": "2027-03-04"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1804550400": {
+      "meta": {
+        "date": "2027-03-09"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1804723200": {
+      "meta": {
+        "date": "2027-03-11"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1805155200": {
+      "meta": {
+        "date": "2027-03-16"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1805328000": {
+      "meta": {
+        "date": "2027-03-18"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1805760000": {
+      "meta": {
+        "date": "2027-03-23"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1805932800": {
+      "meta": {
+        "date": "2027-03-25"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1806364800": {
+      "meta": {
+        "date": "2027-03-30"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1806537600": {
+      "meta": {
+        "date": "2027-04-01"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1806969600": {
+      "meta": {
+        "date": "2027-04-06"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1807142400": {
+      "meta": {
+        "date": "2027-04-08"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1807574400": {
+      "meta": {
+        "date": "2027-04-13"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1807747200": {
+      "meta": {
+        "date": "2027-04-15"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1808179200": {
+      "meta": {
+        "date": "2027-04-20"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1808352000": {
+      "meta": {
+        "date": "2027-04-22"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1808784000": {
+      "meta": {
+        "date": "2027-04-27"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1808956800": {
+      "meta": {
+        "date": "2027-04-29"
+      },
+      "events": [
+        70321
+      ]
+    },
+    "1809388800": {
+      "meta": {
+        "date": "2027-05-04"
+      },
+      "events": [
+        70330
+      ]
+    },
+    "1809561600": {
+      "meta": {
+        "date": "2027-05-06"
+      },
+      "events": [
+        70321
+      ]
+    }
+  },
+  "fullCalendarEventsSource": [
+    {
+      "title": "Friday Night Singo Game",
+      "url": "https://visitmccall.org/event/friday-night-singo-game/",
+      "start": "2026-11-13T17:30:00",
+      "end": "2026-11-13T19:00:00"
+    },
+    {
+      "title": "Friday Night Singo Game",
+      "url": "https://visitmccall.org/event/friday-night-singo-game/",
+      "start": "2026-11-20T17:30:00",
+      "end": "2026-11-20T19:00:00"
+    },
+    {
+      "title": "Friday Night Singo Game",
+      "url": "https://visitmccall.org/event/friday-night-singo-game/",
+      "start": "2026-11-27T17:30:00",
+      "end": "2026-11-27T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2026-11-10T17:30:00",
+      "end": "2026-11-10T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2026-11-17T17:30:00",
+      "end": "2026-11-17T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2026-11-24T17:30:00",
+      "end": "2026-11-24T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2026-12-01T17:30:00",
+      "end": "2026-12-01T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2026-12-08T17:30:00",
+      "end": "2026-12-08T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2026-12-15T17:30:00",
+      "end": "2026-12-15T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2026-12-22T17:30:00",
+      "end": "2026-12-22T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2026-12-29T17:30:00",
+      "end": "2026-12-29T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-01-05T17:30:00",
+      "end": "2027-01-05T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-01-12T17:30:00",
+      "end": "2027-01-12T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-01-19T17:30:00",
+      "end": "2027-01-19T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-01-26T17:30:00",
+      "end": "2027-01-26T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-02-02T17:30:00",
+      "end": "2027-02-02T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-02-09T17:30:00",
+      "end": "2027-02-09T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-02-16T17:30:00",
+      "end": "2027-02-16T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-02-23T17:30:00",
+      "end": "2027-02-23T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-03-02T17:30:00",
+      "end": "2027-03-02T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-03-09T17:30:00",
+      "end": "2027-03-09T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-03-16T17:30:00",
+      "end": "2027-03-16T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-03-23T17:30:00",
+      "end": "2027-03-23T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-03-30T17:30:00",
+      "end": "2027-03-30T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-04-06T17:30:00",
+      "end": "2027-04-06T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-04-13T17:30:00",
+      "end": "2027-04-13T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-04-20T17:30:00",
+      "end": "2027-04-20T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-04-27T17:30:00",
+      "end": "2027-04-27T19:00:00"
+    },
+    {
+      "title": "Trivia Tuesdays at Seven Devils",
+      "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
+      "start": "2027-05-04T17:30:00",
+      "end": "2027-05-04T19:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2026-11-12T18:00:00",
+      "end": "2026-11-12T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2026-11-19T18:00:00",
+      "end": "2026-11-19T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2026-11-26T18:00:00",
+      "end": "2026-11-26T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2026-12-03T18:00:00",
+      "end": "2026-12-03T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2026-12-10T18:00:00",
+      "end": "2026-12-10T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2026-12-17T18:00:00",
+      "end": "2026-12-17T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2026-12-24T18:00:00",
+      "end": "2026-12-24T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2026-12-31T18:00:00",
+      "end": "2026-12-31T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-01-07T18:00:00",
+      "end": "2027-01-07T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-01-14T18:00:00",
+      "end": "2027-01-14T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-01-21T18:00:00",
+      "end": "2027-01-21T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-01-28T18:00:00",
+      "end": "2027-01-28T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-02-04T18:00:00",
+      "end": "2027-02-04T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-02-11T18:00:00",
+      "end": "2027-02-11T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-02-18T18:00:00",
+      "end": "2027-02-18T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-02-25T18:00:00",
+      "end": "2027-02-25T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-03-04T18:00:00",
+      "end": "2027-03-04T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-03-11T18:00:00",
+      "end": "2027-03-11T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-03-18T18:00:00",
+      "end": "2027-03-18T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-03-25T18:00:00",
+      "end": "2027-03-25T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-04-01T18:00:00",
+      "end": "2027-04-01T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-04-08T18:00:00",
+      "end": "2027-04-08T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-04-15T18:00:00",
+      "end": "2027-04-15T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-04-22T18:00:00",
+      "end": "2027-04-22T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-04-29T18:00:00",
+      "end": "2027-04-29T20:00:00"
+    },
+    {
+      "title": "Broken Horn &#8211; Thursday Trivia",
+      "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
+      "start": "2027-05-06T18:00:00",
+      "end": "2027-05-06T20:00:00"
+    },
+    {
+      "title": "Fall Membership Breakfast",
+      "url": "https://visitmccall.org/event/fall-membership-breakfast-2/",
+      "start": "2026-11-19T08:30:00",
+      "end": "2026-11-19T10:30:00"
+    }
+  ]
+}

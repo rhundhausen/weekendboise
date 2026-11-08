@@ -61,6 +61,14 @@ Describe 'Invoke-TvRequest' {
     Invoke-TvRequest 'https://x.test/' -Raw | Should -Be 'BEGIN:VCALENDAR'
   }
 
+  It 'sends a form POST when given a method and form' {
+    # Built inline: inside this mock $Body is the request's form, which New-FakeResponse's
+    # own -Body parameter would collide with.
+    Mock Invoke-WebRequest { [pscustomobject]@{ StatusCode = 200; RawContentStream = [IO.MemoryStream]::new([Text.Encoding]::UTF8.GetBytes('{"a":3}')) } }
+    (Invoke-TvRequest 'https://x.test/ajax' -Method Post -Form @{ action = 'list' }).a | Should -Be 3
+    Should -Invoke Invoke-WebRequest -Times 1 -Exactly -ParameterFilter { $Method -eq 'Post' -and $Body.action -eq 'list' }
+  }
+
   It 'decodes UTF-8' {
     Mock Invoke-WebRequest { New-FakeResponse 200 'Café' }
     Invoke-TvRequest 'https://x.test/' -Raw | Should -Be 'Café'
