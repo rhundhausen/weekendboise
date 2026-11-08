@@ -89,9 +89,29 @@
         <span class="label">To</span>
         <input id="to" type="date">
       </label>
+      {{- /* City options are built here, from the events this build ships. A city is listed only when
+           it has at least one upcoming event; one with none is left out, not shown as "(0)". This is
+           presentation only: every running source still runs each night (cities with no events
+           included), and a city reappears on the next build once it has an event. Order: A to Z,
+           then Other, then Valley County pinned last. */}}
+      {{- $cityNames := slice }}
+      {{- range hugo.Data.events }}{{ with .city }}{{ $cityNames = $cityNames | append . }}{{ end }}{{ end }}
+      {{- $cityNames = $cityNames | uniq | sort }}
+      {{- $last := slice "Other" "Valley County" }}
+      {{- $cityOrder := slice }}
+      {{- range $cityNames }}{{ if not (in $last .) }}{{ $cityOrder = $cityOrder | append . }}{{ end }}{{ end }}
+      {{- range $last }}{{ if in $cityNames . }}{{ $cityOrder = $cityOrder | append . }}{{ end }}{{ end }}
       <label class="field">
         <span class="label">City</span>
-        <select id="city"><option value="">All cities</option></select>
+        <select id="city">
+          <option value="">All cities</option>
+          {{- range $cityOrder }}
+          {{- $n := len (where hugo.Data.events "city" .) }}
+          {{- if gt $n 0 }}
+          <option value="{{ . }}">{{ . }} ({{ $n | lang.FormatNumber 0 }})</option>
+          {{- end }}
+          {{- end }}
+        </select>
       </label>
       <label class="field more" id="size-field">
         <span class="label">Venue Size</span>

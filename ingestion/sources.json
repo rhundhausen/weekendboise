@@ -1,5 +1,5 @@
 {
-  "_comment": "Every source: running, configured but waiting, ideas, and sites ruled out. Ingest runs only status running. Only displayName is required; check here before probing a site. See docs/sources.md.",
+  "_comment": "Every source: running, configured but waiting, ideas, and sites ruled out. Ingest runs only status running. Only displayName is required; check here before probing a site. See docs/sources.md. The site hides a city with no upcoming events from its City list; that is presentation only, so keep every running source for such a city: it still runs nightly, and the city reappears once it has an event.",
   "sources": [
     {
       "name": "meetup-abu-games-events",

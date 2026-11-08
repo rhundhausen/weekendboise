@@ -373,25 +373,9 @@ function renderSortHeaders() {
   }
 }
 
-// Always listed, even with no events yet. Any other city in the data, such as Other, follows them.
-const CITIES = ['Boise', 'Caldwell', 'Eagle', 'Emmett', 'Garden City', 'Kuna', 'Marsing', 'Meridian', 'Middleton',
-  'Mountain Home', 'Nampa', 'Payette', 'Star', 'Weiser'];
-// Always listed, after everything else including Other, whatever the alphabet says. Valley County is
-// one location for McCall, Cascade, Donnelly, New Meadows, and Riggins (the last two are outside the
-// county but grouped with it on purpose).
-const LAST = ['Valley County'];
-
+// The City options and their counts come from the build (layouts/home.html), which lists only
+// cities with at least one upcoming event.
 function fillSelects() {
-  const byCity = Object.fromEntries([...CITIES, ...LAST].map((c) => [c, 0]));
-  for (const e of events) if (e.city) byCity[e.city] = (byCity[e.city] || 0) + 1;
-  const extra = Object.keys(byCity).filter((c) => !CITIES.includes(c) && !LAST.includes(c)).sort((a, b) => a.localeCompare(b));
-  for (const name of [...CITIES, ...extra, ...LAST]) {
-    const n = byCity[name];
-    const o = document.createElement('option');
-    o.value = name;
-    o.textContent = `${name} (${numFmt.format(n)})`;
-    el.city.append(o);
-  }
   // Largest first, so the list reads down in size.
   for (const [id, label] of Object.entries(cfg.sizes).sort((a, b) => cfg.sizeOrder.indexOf(b[0]) - cfg.sizeOrder.indexOf(a[0]))) {
     const o = document.createElement('option');
@@ -417,7 +401,8 @@ function readUrl() {
   const p = new URLSearchParams(location.search);
   state.q = p.get('q') || '';
   state.cats = new Set((p.get('cat') || '').split(',').filter((c) => c in cfg.categories));
-  state.city = p.get('city') || '';
+  // A saved link to a city that has no events now (so it isn't listed) shows all cities.
+  state.city = [...el.city.options].some((o) => o.value && o.value === p.get('city')) ? p.get('city') : '';
   state.size = p.get('size') || '';
   state.cost = ['free', '1', '2', '3'].includes(p.get('cost')) ? p.get('cost') : '';
   state.source = p.get('source') || '';
