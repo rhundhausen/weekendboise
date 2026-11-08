@@ -121,8 +121,13 @@ function Resolve-TvCity {
     [string]$Name
   )
 
-  foreach ($city in 'Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Emmett', 'Marsing', 'Middleton', 'Mountain Home', 'Payette', 'Weiser') {
+  foreach ($city in 'Boise', 'Meridian', 'Nampa', 'Caldwell', 'Eagle', 'Garden City', 'Kuna', 'Star', 'Emmett', 'Marsing', 'Middleton', 'Mountain Home', 'Payette', 'Weiser', 'Valley County') {
     if ($Name.Trim() -ieq $city) { return $city }
+  }
+  # The mountain towns are one location, Valley County, not a city each. New Meadows (Adams
+  # County) and Riggins (Idaho County) are outside Valley County but are grouped with it on purpose.
+  foreach ($town in 'McCall', 'Cascade', 'Donnelly', 'Tamarack', 'Lake Fork', 'Yellow Pine', 'New Meadows', 'Riggins') {
+    if ($Name.Trim() -ieq $town) { return 'Valley County' }
   }
   $null
 }

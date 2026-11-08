@@ -11,7 +11,7 @@
 | `allDay` | boolean | no | Defaults to false |
 | `venue` | string | yes | Display name |
 | `venueKey` | string | yes | Lowercase slug, for example `extramile-arena` |
-| `city` | string | no | `Boise`, `Meridian`, `Nampa`, `Caldwell`, `Eagle`, `Garden City`, `Kuna`, `Star`, `Emmett`, `Marsing`, `Middleton`, `Mountain Home`, `Payette`, `Weiser`, or `Other` |
+| `city` | string | no | `Boise`, `Meridian`, `Nampa`, `Caldwell`, `Eagle`, `Garden City`, `Kuna`, `Star`, `Emmett`, `Marsing`, `Middleton`, `Mountain Home`, `Payette`, `Weiser`, `Valley County`, or `Other` |
 | `category` | string | yes | One id from `data/schema/categories.json` |
 | `tags` | array | no | Zero or more ids from `data/schema/tags.json` |
 | `size` | string | no | Estimated crowd: `S`, `M`, `L`, or `XL`. A guess, see below |

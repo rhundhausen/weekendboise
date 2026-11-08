@@ -43,7 +43,15 @@ foreach ($item in (ConvertFrom-Ics $text)) {
     # Some feeds (SIDEARM-style team sites) give a link relative to the site, such as /games/1.
     $url = if ($item.Url) { [uri]::new([uri]$Source.url, [System.Net.WebUtility]::HtmlDecode($item.Url)).AbsoluteUri } else { $Source.url }
 
-    New-TvEvent -Title $title -Start $item.Start -End $item.End -AllDay:$item.AllDay `
+    $start = $item.Start
+    $end = $item.End
+    if ($Source.localTimeAsUtc -and -not $item.AllDay) {
+      # Events Calendar sites set to UTC+0 label Boise wall-clock time as UTC. Read the clock as local.
+      $start = ConvertTo-BoiseTime ([DateTimeOffset]::Parse($start, [Globalization.CultureInfo]::InvariantCulture).UtcDateTime.ToString('yyyy-MM-ddTHH:mm:ss'))
+      if ($end) { $end = ConvertTo-BoiseTime ([DateTimeOffset]::Parse($end, [Globalization.CultureInfo]::InvariantCulture).UtcDateTime.ToString('yyyy-MM-ddTHH:mm:ss')) }
+    }
+
+    New-TvEvent -Title $title -Start $start -End $end -AllDay:$item.AllDay `
       -Venue $location.Venue -VenueKey $location.VenueKey -City $location.City `
       -Category $Source.category -InferCategory:([bool]$Source.inferCategory) -Url $url -Description $description `
       -Sources @(@{ name = $Source.name; url = $url; fetchedAt = $FetchedAt })

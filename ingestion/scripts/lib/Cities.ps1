@@ -17,6 +17,12 @@ $script:TvZipCities = @{
   '83669' = 'Star'
   '83672' = 'Weiser'
   '83714' = 'Garden City'
+  # Valley County is one location for all its towns: McCall, Cascade, Donnelly, Lake Fork, and
+  # Yellow Pine. New Meadows (83654, Adams County) and Riggins (83549, Idaho County) are outside
+  # Valley County but are grouped with it on purpose.
+  '83638' = 'Valley County'; '83611' = 'Valley County'; '83615' = 'Valley County'
+  '83635' = 'Valley County'; '83677' = 'Valley County'
+  '83654' = 'Valley County'; '83549' = 'Valley County'
 }
 foreach ($zip in 83701..83799) {
   if (-not $script:TvZipCities.ContainsKey("$zip")) { $script:TvZipCities["$zip"] = 'Boise' }
@@ -117,7 +123,7 @@ function Get-TvCityClue {
 
   # Each step runs only if the ones before it found nothing.
   $steps = @(
-    { @([regex]::Matches("$venue`n$description", '\b83[67]\d\d\b') | ForEach-Object { $script:TvZipCities[$_.Value] }) }
+    { @([regex]::Matches("$venue`n$description", '\b83[567]\d\d\b') | ForEach-Object { $script:TvZipCities[$_.Value] }) }
     { @(Find-TvCityWord $all -WithState) + @(Find-TvCityWord $title -Before '\(\s*' | Where-Object { $title -match ('(?i)\(\s*' + [regex]::Escape($_) + '\s*\)') }) }
     { Find-TvCityWord $venue -Unambiguous }
     { Find-TvPlace $all }

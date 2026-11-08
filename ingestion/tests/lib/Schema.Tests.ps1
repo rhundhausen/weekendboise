@@ -89,6 +89,24 @@ Describe 'Get-NormalizedTitle' {
   }
 }
 
+Describe 'Resolve-TvCity' {
+  It 'maps <name> to <want>' -ForEach @(
+    @{ name = 'boise'; want = 'Boise' }
+    @{ name = 'Valley County'; want = 'Valley County' }
+    @{ name = 'McCall'; want = 'Valley County' }
+    @{ name = 'Cascade'; want = 'Valley County' }
+    @{ name = 'Donnelly'; want = 'Valley County' }
+    @{ name = 'New Meadows'; want = 'Valley County' }
+    @{ name = 'Riggins'; want = 'Valley County' }
+  ) {
+    Resolve-TvCity $name | Should -Be $want
+  }
+
+  It 'returns nothing for a place outside the list' {
+    Resolve-TvCity 'White Bird' | Should -BeNullOrEmpty
+  }
+}
+
 Describe 'ConvertFrom-TvLocation' {
   BeforeAll {
     $source = [pscustomobject]@{ venue = 'Boise State University'; venueKey = 'boise-state-university'; city = 'Other' }
@@ -100,6 +118,8 @@ Describe 'ConvertFrom-TvLocation' {
     @{ location = 'Caldwell, ID, J.A. Albertson Activities Center'; venue = 'J.A. Albertson Activities Center'; key = 'j-a-albertson-activities-center'; city = 'Caldwell' }
     @{ location = 'Morrison Center for the Performing Arts (MORR), Recital Hall, C200'; venue = 'Morrison Center for the Performing Arts'; key = 'morrison-center-for-the-performing-arts'; city = 'Other' }
     @{ location = '123 Main St, Garden City, ID 83714'; venue = '123 Main St'; key = '123-main-st'; city = 'Garden City' }
+    @{ location = 'Seven Devils Taphouse, 740 Village Dr., Donnelly, ID, 83615, United States'; venue = 'Seven Devils Taphouse'; key = 'seven-devils-taphouse'; city = 'Valley County' }
+    @{ location = 'MAC Snow Front Base Area, 3890 Goose Lake Road, McCall, ID, 83638'; venue = 'MAC Snow Front Base Area'; key = 'mac-snow-front-base-area'; city = 'Valley County' }
   ) {
     $result = ConvertFrom-TvLocation $location -Source $source
     $result.Venue | Should -Be $venue

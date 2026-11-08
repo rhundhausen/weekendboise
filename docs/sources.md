@@ -53,6 +53,7 @@ robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rs
 | --- | --- | --- |
 | `fixedVenue` | no | `true` uses the entry's venue for every event. Use it when a site lists rooms or buildings as venues, like Expo Idaho |
 | `excludeTitlePattern` | no | Regex. Matching titles are skipped, such as the Idaho Wine Commission's weekly happy hours |
+| `localTimeAsUtc` | no | `true` for a site set to UTC+0 (as Donnelly Library is), whose `utc_start_date` is really Boise wall-clock time. Reads `start_date` as local instead |
 
 `url` is the REST events endpoint, ending in `/wp-json/tribe/events/v1/events`. The site's event categories feed tag matching.
 
@@ -118,6 +119,7 @@ The last resort, for sites with no API or feed. Check for a feed first: a workin
 | `maxPages` | no | `jsonld`: most event pages to read in one run. Defaults to 40. `civicplus` and `chambermaster`: months to read, starting with this one. Defaults to 3 |
 | `itemPattern` | `cards` | Regex matching one event's HTML block |
 | `datePattern` | no | `cards`: regex with named groups `month` and `day`, matched inside a card. Defaults to `month` and `day` spans. Add a `year` group to read a numeric date, such as `date=2026-11-14` in a link (The Little Gym) |
+| `yearFromTitle` | no | `cards`: `true` takes the year of the dates from a year in the card title, such as "Winter Carnival 2027", instead of guessing it from the month (McCall Winter Carnival). A later date before the first is the next year's |
 | `titlePattern` | no | `cards`: regex with a named group `title`. Defaults to the first heading |
 | `timePattern` | no | `cards`: regex with named groups `start` and optional `end`, such as `3:00 pm`. Without a match, the event is all-day |
 | `localTimeAsUtc` | no | `true` corrects sites that write local time as UTC |
@@ -149,7 +151,7 @@ Reads an RSS 2.0 feed that uses the RSS event module (`ev:` namespace), which ca
 
 ### ics: fixedVenue
 
-`fixedVenue: true` on an `ics` entry uses the entry's venue for every event. The library LibCal feeds need it, because their `LOCATION` names rooms ("Children's Area"), not the building. `excludeTitlePattern` (regex) skips matching titles, such as library closures and board meetings.
+`fixedVenue: true` on an `ics` entry uses the entry's venue for every event. The library LibCal feeds need it, because their `LOCATION` names rooms ("Children's Area"), not the building. `excludeTitlePattern` (regex) skips matching titles, such as library closures and board meetings. `localTimeAsUtc: true` is for Events Calendar sites set to UTC+0 (Tamarack Resort): their `?ical=1` feed labels Boise wall-clock time `TZID=UTC`, which would make every timed event 7 hours early.
 
 Compare scraped times with what the site displays before enabling a source. Modern Events Calendar sites write local time as if it were UTC, which makes every event 7 hours early. Idaho History, Visit Boise, and Bluebird Social need `localTimeAsUtc`.
 

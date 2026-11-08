@@ -235,17 +235,25 @@ function Read-CardsSource {
       $url = [regex]::Match($text, "href=([`"'])([^`"']+)\1").Groups[2].Value
 
       # Most cards show no year: a date more than 2 months back is next year's. A datePattern
-      # with a year group reads a numeric date as is.
+      # with a year group reads a numeric date as is. With yearFromTitle, a year in the title
+      # ("Winter Carnival 2027") is the first date's year, and a later date before it is the next year's.
+      $titleYear = if ($Source.yearFromTitle -and $title -match '\b(20\d\d)\b') { [int]$Matches[1] }
       $dates = @([regex]::Matches($text, $datePattern) | ForEach-Object {
           if ($_.Groups['year'].Success) {
             return [DateTime]::new([int]$_.Groups['year'].Value, [int]$_.Groups['month'].Value, [int]$_.Groups['day'].Value).ToString('yyyy-MM-dd', $invariant)
           }
           $monthText = $_.Groups['month'].Value
           $month = $monthText.Substring(0, [Math]::Min(3, $monthText.Length))
-          $date = [DateTime]::ParseExact("$($now.Year) $month $([int]$_.Groups['day'].Value)", 'yyyy MMM d', $invariant)
-          if ($date -lt $now.AddMonths(-2)) { $date = $date.AddYears(1) }
+          $year = if ($titleYear) { $titleYear } else { $now.Year }
+          $date = [DateTime]::ParseExact("$year $month $([int]$_.Groups['day'].Value)", 'yyyy MMM d', $invariant)
+          if (-not $titleYear -and $date -lt $now.AddMonths(-2)) { $date = $date.AddYears(1) }
           $date.ToString('yyyy-MM-dd', $invariant)
         })
+      if ($titleYear) {
+        for ($d = 1; $d -lt $dates.Count; $d++) {
+          if ($dates[$d] -lt $dates[0]) { $dates[$d] = ([DateTime]::ParseExact($dates[$d], 'yyyy-MM-dd', $invariant)).AddYears(1).ToString('yyyy-MM-dd', $invariant) }
+        }
+      }
       if ($dates.Count -eq 0) { throw 'no date on the card' }
 
       $link = if ($url) { [uri]::new($listUri, [System.Net.WebUtility]::HtmlDecode($url)).AbsoluteUri } else { $Source.url }

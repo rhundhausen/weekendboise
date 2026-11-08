@@ -149,6 +149,18 @@ Describe 'tribe adapter with excludeTitlePattern' {
   }
 }
 
+Describe 'tribe adapter with localTimeAsUtc' {
+  It 'reads a site set to UTC+0 as Boise wall-clock time' {
+    # Donnelly Library's site is set to UTC+0, so 4 PM local comes back as 16:00 in both fields.
+    $page = '{"total_pages":1,"events":[{"title":"Festival of Trees","all_day":false,"start_date":"2026-11-27 16:00:00","end_date":"2026-11-27 19:00:00","utc_start_date":"2026-11-27 16:00:00","utc_end_date":"2026-11-27 19:00:00","timezone":"UTC+0","url":"https://x.test/a","description":"","venue":[]}]}'
+    $path = Join-Path $repo 'scripts' 'adapters' 'tribe.ps1'
+    $events = @(& $path -Source (Get-TestSource 'donnelly-library') -FetchedAt $fetchedAt -Response $page)
+    $events[0].start | Should -Be '2026-11-27T16:00:00-07:00'
+    $events[0].end | Should -Be '2026-11-27T19:00:00-07:00'
+    $events[0].city | Should -Be 'Valley County'
+  }
+}
+
 Describe 'ticketmaster adapter' {
   BeforeAll {
     $source = Get-TestSource 'ford-idaho-center-arena'
@@ -300,6 +312,25 @@ Describe 'ics adapter with fixedVenue' {
     $event.venue | Should -Be 'Boise Public Library'
     $event.city | Should -Be 'Boise'
     $event.start | Should -Be '2026-11-10T16:00:00-07:00'
+  }
+}
+
+Describe 'ics adapter with localTimeAsUtc' {
+  BeforeAll {
+    $source = Get-TestSource 'tamarack-resort'
+    $feed = "BEGIN:VCALENDAR`r`nBEGIN:VEVENT`r`nUID:1`r`nSUMMARY:Shred Shed 2026`r`nDTSTART;TZID=UTC:20261114T100000`r`nDTEND;TZID=UTC:20261114T150000`r`nEND:VEVENT`r`nBEGIN:VEVENT`r`nUID:2`r`nSUMMARY:Tuesday Trivia`r`nDTSTART;TZID=UTC:20251209T173000`r`nDTEND;TZID=UTC:20270406T190000`r`nEND:VEVENT`r`nEND:VCALENDAR`r`n"
+    $events = @(& (Join-Path $repo 'scripts' 'adapters' 'ics.ps1') -Source $source -FetchedAt $fetchedAt -Response $feed)
+  }
+
+  It 'reads a site that labels Boise wall-clock time as UTC' {
+    # Tamarack shows Shred Shed at 10:00 AM; its feed says 10:00 UTC.
+    $events[0].start | Should -Be '2026-11-14T10:00:00-07:00'
+    $events[0].end | Should -Be '2026-11-14T15:00:00-07:00'
+    $events[0].city | Should -Be 'Valley County'
+  }
+
+  It 'skips the weekly series the feed lists as one event spanning months' {
+    $events.Count | Should -Be 1
   }
 }
 

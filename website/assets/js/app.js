@@ -376,12 +376,16 @@ function renderSortHeaders() {
 // Always listed, even with no events yet. Any other city in the data, such as Other, follows them.
 const CITIES = ['Boise', 'Caldwell', 'Eagle', 'Emmett', 'Garden City', 'Kuna', 'Marsing', 'Meridian', 'Middleton',
   'Mountain Home', 'Nampa', 'Payette', 'Star', 'Weiser'];
+// Always listed, after everything else including Other, whatever the alphabet says. Valley County is
+// one location for McCall, Cascade, Donnelly, New Meadows, and Riggins (the last two are outside the
+// county but grouped with it on purpose).
+const LAST = ['Valley County'];
 
 function fillSelects() {
-  const byCity = Object.fromEntries(CITIES.map((c) => [c, 0]));
+  const byCity = Object.fromEntries([...CITIES, ...LAST].map((c) => [c, 0]));
   for (const e of events) if (e.city) byCity[e.city] = (byCity[e.city] || 0) + 1;
-  const extra = Object.keys(byCity).filter((c) => !CITIES.includes(c)).sort((a, b) => a.localeCompare(b));
-  for (const name of [...CITIES, ...extra]) {
+  const extra = Object.keys(byCity).filter((c) => !CITIES.includes(c) && !LAST.includes(c)).sort((a, b) => a.localeCompare(b));
+  for (const name of [...CITIES, ...extra, ...LAST]) {
     const n = byCity[name];
     const o = document.createElement('option');
     o.value = name;

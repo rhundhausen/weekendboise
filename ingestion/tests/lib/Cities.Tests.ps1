@@ -19,6 +19,8 @@ Describe 'Get-TvCityClue' {
     @{ title = 'Veterans Breakfast | Warhawk Air Museum'; venue = 'Various'; description = ''; want = 'Nampa' }
     @{ title = 'Old Town Lights'; venue = 'Various'; description = 'Join us in downtown Nampa for the lights'; want = 'Nampa' }
     @{ title = 'Movie Night'; venue = 'Various'; description = 'A family movie at the West Boise YMCA'; want = 'Boise' }
+    @{ title = 'Winter Carnival'; venue = 'Various'; description = 'Downtown, 216 E Park St 83638'; want = 'Valley County' }
+    @{ title = 'Tree Lighting'; venue = 'Various'; description = 'Main Street, 83549'; want = 'Valley County' }
   ) {
     Get-TvCityClue (New-OtherEvent -Title $title -Venue $venue -Description $description) | Should -Be $want
   }

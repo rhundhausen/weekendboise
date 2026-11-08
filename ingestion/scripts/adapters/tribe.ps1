@@ -43,6 +43,12 @@ foreach ($item in ($pages | ForEach-Object { $_.events } | Where-Object { $_ }))
       $start = $item.start_date.Substring(0, 10)
       $end = $item.end_date.Substring(0, 10)
       if ($end -le $start) { $end = $null }
+    } elseif ($Source.localTimeAsUtc) {
+      # A site set to UTC+0 writes Boise wall-clock time in every field, so read start_date as local.
+      $invariant = [Globalization.CultureInfo]::InvariantCulture
+      $start = ConvertTo-BoiseTime ([DateTime]::ParseExact($item.start_date, 'yyyy-MM-dd HH:mm:ss', $invariant))
+      $end = ConvertTo-BoiseTime ([DateTime]::ParseExact($item.end_date, 'yyyy-MM-dd HH:mm:ss', $invariant))
+      if ($end -eq $start) { $end = $null }
     } else {
       # The utc_ fields are always UTC. The timezone field can be a label like UTC+0.
       $start = ConvertTo-BoiseTime "$($item.utc_start_date)Z"

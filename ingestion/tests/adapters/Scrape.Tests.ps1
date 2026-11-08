@@ -336,6 +336,55 @@ Describe 'scrape adapter, cards with a weekday and ordinal date (Recycled Minds)
   }
 }
 
+Describe 'scrape adapter, cards that stop at Past Events (Cascade Chamber)' {
+  BeforeAll {
+    $card = '<div class="grid-col dmach-grid-item  post_id_{0}" data-id="{0}"><div class="bc-link-whole-grid-card" data-link-url="https://cascadechamber.com/cascade-events/{1}/"><p class="dmach-acf-value ">{2}</p><p class="dmach-acf-value ">{3}</p><p class="dmach-acf-value ">Join us!</p></div></div>'
+    $html = ($card -f 1, 'turkey-trot', 'Turkey Trot', 'November 26, 2026') +
+      ($card -f 2, 'tree-lighting', 'Cascade Christmas Tree Lighting &amp; Market', 'December 5, 2026') +
+      '<div class="et_pb_text_inner"><h2 style="text-align: center;"><strong>Past Events</strong></h2></div>' +
+      ($card -f 3, 'old-lighting', 'Cascade Christmas Tree Lighting', 'December 6, 2025')
+    $events = @(& $adapter -Source (Get-TestSource 'cascade-chamber') -FetchedAt $fetchedAt -Response $html)
+  }
+
+  It 'reads only the upcoming cards, as all-day events' {
+    $events.Count | Should -Be 2
+    $events[0].title | Should -Be 'Turkey Trot'
+    $events[0].start | Should -Be '2026-11-26'
+    $events[0].allDay | Should -BeTrue
+    $events[1].title | Should -Be 'Cascade Christmas Tree Lighting & Market'
+  }
+
+  It 'files them under Valley County, linking to the events page' {
+    $events[0].city | Should -Be 'Valley County'
+    $events[0].venueKey | Should -Be 'cascade'
+    $events[0].url | Should -Be 'https://cascadechamber.com/events/'
+  }
+}
+
+Describe 'scrape adapter, cards from a festival page (McCall Winter Carnival)' {
+  It 'reads the heading and the date range under it as one all-day event' {
+    $html = '<h1 class="wp-block-heading has-text-align-center" style="margin-top:0">Winter Carnival 2027</h1>' + "`n`n" +
+      '<p class="has-text-align-center wp-block-paragraph" style="margin-top:0">Jan 28 &#8211; Feb 6</p>' +
+      '<p>The carnival returns January 28th to February 6th, with the Mardi Gras Parade (Feb 6, 2027!).</p>'
+    $events = @(& $adapter -Source (Get-TestSource 'mccall-winter-carnival') -FetchedAt $fetchedAt -Response $html)
+    $events.Count | Should -Be 1
+    $events[0].title | Should -Be 'Winter Carnival 2027'
+    $events[0].start | Should -Be '2027-01-28'
+    $events[0].end | Should -Be '2027-02-06'
+    $events[0].allDay | Should -BeTrue
+    $events[0].city | Should -Be 'Valley County'
+    $events[0].category | Should -Be 'festivals'
+  }
+
+  It 'takes the year from the heading, so last year''s page is not read as next year' {
+    # In April 2027 the page may still show the 2027 carnival. Guessing would give Jan 28, 2028.
+    $html = '<h1 class="wp-block-heading">Winter Carnival 2027</h1><p class="x">Jan 28 &#8211; Feb 6</p>'
+    $events = @(& $adapter -Source (Get-TestSource 'mccall-winter-carnival') -FetchedAt '2027-04-15T10:00:00Z' -Response $html)
+    $events[0].start | Should -Be '2027-01-28'
+    $events[0].end | Should -Be '2027-02-06'
+  }
+}
+
 Describe 'scrape adapter, cards from a Simple Calendar page (Reuseum)' {
   BeforeAll {
     $events = @(& $adapter -Source (Get-TestSource 'reuseum') -FetchedAt $fetchedAt -Response (Get-Fixture 'reuseum.html'))

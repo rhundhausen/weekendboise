@@ -40,7 +40,7 @@
     },
     "city": {
       "type": "string",
-      "enum": ["Boise", "Meridian", "Nampa", "Caldwell", "Eagle", "Garden City", "Kuna", "Star", "Emmett", "Marsing", "Middleton", "Mountain Home", "Payette", "Weiser", "Other"]
+      "enum": ["Boise", "Meridian", "Nampa", "Caldwell", "Eagle", "Garden City", "Kuna", "Star", "Emmett", "Marsing", "Middleton", "Mountain Home", "Payette", "Weiser", "Valley County", "Other"]
     },
     "category": {
       "type": "string",

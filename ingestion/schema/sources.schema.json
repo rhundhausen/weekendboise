@@ -130,6 +130,7 @@
             "Mountain Home",
             "Payette",
             "Weiser",
+            "Valley County",
             "Other"
           ]
         },
@@ -213,9 +214,14 @@
           "description": "scrape: most event pages to read in one run. Defaults to 40. With scrapeMode civicplus or chambermaster, how many months to read, starting with this one. Defaults to 3.",
           "minimum": 1
         },
+        "yearFromTitle": {
+          "type": "boolean",
+          "description": "scrape cards: a year in the card title (\"Winter Carnival 2027\") sets the year of its dates instead of guessing it.",
+          "default": false
+        },
         "localTimeAsUtc": {
           "type": "boolean",
-          "description": "scrape: the site writes local time as UTC, as Modern Events Calendar does. Corrects it.",
+          "description": "scrape, tribe, and ics: the site writes local time as UTC, as Modern Events Calendar and Events Calendar sites set to UTC+0 do. Corrects it.",
           "default": false
         },
         "locationFilter": {
