@@ -33,8 +33,10 @@ const fold = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/
 const ALIASES = { bsu: ['boise state'], nnu: ['northwest nazarene'], cofi: ['college of idaho'], meetups: ['meetup'] };
 const searchTerms = (q) => fold(q).split(/\s+/).filter(Boolean).map((w) => [w, ...(ALIASES[w] || [])]);
 const today = () => boiseDay(new Date());
-// "Tonight" is events today that start at 5 PM or later, or are still going then.
+// "Tonight" is events that start today at 5 PM or later and end by 2 AM (last call in Idaho).
+// An event with no end time counts if it starts in that window.
 const EVENING = '17:00';
+const LAST_CALL = '02:00';
 // A timed event with no end (or an end not after its start) is taken to last 3 hours, so it
 // leaves the list 3 hours after it starts.
 const ASSUMED_LENGTH = 3 * 60 * 60 * 1000;
@@ -84,6 +86,7 @@ function prepare(e) {
     sd, ed, allDay,
     instant, end,
     // Boise "YYYY-MM-DD HH:MM" of the start and the real end (blank without one), for Tonight.
+    // An end exactly at the start counts as no end.
     startKey: allDay ? '' : `${sd} ${hmFmt.format(new Date(instant))}`,
     endKey: endParsed > instant ? `${boiseDay(new Date(endParsed))} ${hmFmt.format(new Date(endParsed))}` : '',
     dateText, timeText,
@@ -124,8 +127,8 @@ function matches(e, words, from, to, skipCats, now) {
   // Timed events that are over drop off the list, in every date choice.
   if (!e.allDay && e.end <= now) return false;
   if (state.when === 'tonight') {
-    const evening = `${from} ${EVENING}`;
-    if (e.allDay || e.sd !== from || (e.startKey < evening && e.endKey <= evening)) return false;
+    if (e.allDay || e.sd !== from || e.startKey < `${from} ${EVENING}`) return false;
+    if (e.endKey && e.endKey > `${addDays(from, 1)} ${LAST_CALL}`) return false;
   }
   if (state.city && e.city !== state.city) return false;
   if (state.size && e.size !== state.size) return false;

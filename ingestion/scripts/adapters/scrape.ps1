@@ -232,7 +232,7 @@ function Read-CardsSource {
       $title = ConvertTo-PlainText ([regex]::Match($text, $titlePattern).Groups['title'].Value)
       if (-not $title) { throw 'no title on the card' }
       if ($Source.excludeTitlePattern -and $title -match $Source.excludeTitlePattern) { continue }
-      $url = [regex]::Match($text, 'href="([^"]+)"').Groups[1].Value
+      $url = [regex]::Match($text, "href=([`"'])([^`"']+)\1").Groups[2].Value
 
       # Most cards show no year: a date more than 2 months back is next year's. A datePattern
       # with a year group reads a numeric date as is.
@@ -251,12 +251,13 @@ function Read-CardsSource {
       $link = if ($url) { [uri]::new($listUri, [System.Net.WebUtility]::HtmlDecode($url)).AbsoluteUri } else { $Source.url }
 
       $time = if ($Source.timePattern) { [regex]::Match($text, $Source.timePattern) }
-      $startMinutes = if ($time -and $time.Success) { ConvertFrom-ClockTime $time.Groups['start'].Value }
+      # Tags inside a time ("8<span>pm</span>") are dropped before it is read.
+      $startMinutes = if ($time -and $time.Success) { ConvertFrom-ClockTime ($time.Groups['start'].Value -replace '<[^>]*>', '') }
       if ($null -ne $startMinutes) {
         # A timed event: the first date at the start time, ending the same day if an end time is given.
         $day = [DateTime]::ParseExact($dates[0], 'yyyy-MM-dd', $invariant)
         $start = ConvertTo-BoiseTime $day.AddMinutes($startMinutes)
-        $endMinutes = ConvertFrom-ClockTime $time.Groups['end'].Value
+        $endMinutes = ConvertFrom-ClockTime ($time.Groups['end'].Value -replace '<[^>]*>', '')
         $end = if ($null -ne $endMinutes -and $endMinutes -gt $startMinutes) { ConvertTo-BoiseTime $day.AddMinutes($endMinutes) }
         New-ScrapeEvent -Title $title -Start $start -End $end -AllDay $false -Url $link
         continue

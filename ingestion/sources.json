@@ -1286,7 +1286,7 @@
     {
       "name": "cwi",
       "displayName": "College of Western Idaho",
-      "status": "ready",
+      "status": "running",
       "adapter": "ics",
       "url": "https://25livepub.collegenet.com/calendars/website-events-calendar.ics",
       "robotsChecked": "2026-11-07",
@@ -1298,7 +1298,7 @@
       "priority": 20,
       "fixedVenue": true,
       "excludeTitlePattern": "(?i)\\bmeetings?\\b|\\bclub\\b|\\bstudy\\b|\\bregistration\\b|\\bwithdraw\\b|\\borientation\\b|\\bdeadline\\b|\\blast day\\b|\\bscavenger hunt\\b|\\btransfer\\b|\\bnext steps\\b|\\bstudent government\\b|\\bleadership circle\\b|\\bfirst steps\\b|\\bbusiness basics\\b|\\bclosed\\b|\\bno classes\\b|\\bbegins\\b|\\bends\\b|\\bfinals?\\b|\\bboise software developer|^veteran.?s day$|\\bfoodbank drive\\b|^alter display\\b",
-      "notes": "College of Western Idaho. Checked 2026-11-07: cwi.edu/events redirects to /students/campus-life/events, which embeds one Trumba calendar, website-events-calendar (cwi.edu robots.txt allows it with a 10 second crawl delay). 25livepub.collegenet.com serves it, robots.txt allows everything, and it publishes https://25livepub.collegenet.com/calendars/website-events-calendar.ics (also .rss and .xml). The ICS had 100 VEVENTs on 2026-11-07, running only to 2026-11-17 (about 10 days ahead), 2 with RRULE. LOCATION is a campus room (NCSC 117 - Student Commons, Nampa Campus - Quad), so fixedVenue with Nampa as the city; Boise (Pintail) campus and off-campus events, such as the Astronomy Club star party at Dedication Point in Melba, get the Nampa fallback. Most entries are student club meetings, study breaks, registration dates and campus drives; excludeTitlePattern removes them, leaving 12 on 2026-11-07, such as the November Star Party, a visiting artist lecture, the Veteran Job Fair and a DKMS stem cell drive. An event held on several campuses is listed once per campus with the same time. Held at ready: decide whether a student-facing campus calendar is wanted. Terms not read"
+      "notes": "College of Western Idaho. Checked 2026-11-07: cwi.edu/events redirects to /students/campus-life/events, which embeds one Trumba calendar, website-events-calendar (cwi.edu robots.txt allows it with a 10 second crawl delay). 25livepub.collegenet.com serves it, robots.txt allows everything, and it publishes https://25livepub.collegenet.com/calendars/website-events-calendar.ics (also .rss and .xml). The ICS had 100 VEVENTs on 2026-11-07, running only to 2026-11-17 (about 10 days ahead), 2 with RRULE. LOCATION is a campus room (NCSC 117 - Student Commons, Nampa Campus - Quad), so fixedVenue with Nampa as the city; Boise (Pintail) campus and off-campus events, such as the Astronomy Club star party at Dedication Point in Melba, get the Nampa fallback. Most entries are student club meetings, study breaks, registration dates and campus drives; excludeTitlePattern removes them, leaving 12 on 2026-11-07, such as the November Star Party, a visiting artist lecture, the Veteran Job Fair and a DKMS stem cell drive. An event held on several campuses is listed once per campus with the same time. Running from 2026-11-07, after the user asked again for the CWI public event calendar: 12 events on the dry run. Terms not read"
     },
     {
       "name": "meetup-collister-boise-pickle-ball-tennis-group",
@@ -3748,6 +3748,26 @@
       "reason": "rdbooks.org answered robots.txt with a 403 Cloudflare managed challenge (Just a moment...) on 2026-11-06, so it refuses automated requests"
     },
     {
+      "name": "recycled-minds",
+      "displayName": "Recycled Minds Comedy",
+      "status": "running",
+      "adapter": "scrape",
+      "url": "https://www.recycledmindscomedy.com/shows",
+      "robotsChecked": "2026-11-07",
+      "category": "performing-arts",
+      "city": "Garden City",
+      "venue": "The Creative Space",
+      "venueKey": "the-creative-space",
+      "priority": 20,
+      "fixedVenue": true,
+      "scrapeMode": "cards",
+      "itemPattern": "(?s)<h3 class=\"text-component w-product-title.*?Get Tickets</a>",
+      "titlePattern": "(?s)<h3[^>]*>(?<title>.*?)</h3>",
+      "datePattern": "<h4>[A-Za-z]+,\\s*(?<month>[A-Za-z]{3})[a-z]*\\.?\\s+(?<day>\\d{1,2})(?:st|nd|rd|th)?\\b",
+      "timePattern": "<h4>[^<]*?\\bat\\s+(?<start>\\d{1,2}(?::\\d{2})?\\s*[AP]M)",
+      "notes": "Improv comedy company at its own venue, The Creative Space, 121 E 34th St, Garden City. Suggested 2026-11-07. www.recycledmindscomedy.com robots.txt allows everything (the bare domain fails TLS). Kajabi site; /shows is server-rendered, each show an h3 title, an h4 date line such as 'Saturday, Nov. 7th at 8PM' (no year), and a Get Tickets link to recycledmindsllc.thundertix.com/events/<id>. ThunderTix robots.txt allows event pages, but they carry no date in the HTML and its /events list answered 403, so only the shows page is read. Tickets $20 at the door, $6 kids, 20% off online (no price stored). Terms not read"
+    },
+    {
       "name": "reuseum",
       "displayName": "Reuseum",
       "status": "running",
@@ -3900,7 +3920,7 @@
     {
       "name": "shrine-social-club",
       "displayName": "Shrine Social Club",
-      "status": "ready",
+      "status": "running",
       "adapter": "scrape",
       "url": "https://shrinesocialclub.com/shows/",
       "robotsChecked": "2026-11-07",
@@ -3915,8 +3935,8 @@
       "itemPattern": "(?s)<div class='shr-show-item .*?class='shr-show-ticket'.*?</div>",
       "datePattern": "<br>(?<month>\\d{1,2})/(?<day>\\d{1,2})/(?<year>\\d{4})",
       "titlePattern": "(?s)<div class='fs-h1'>(?<title>.*?)</div>",
-      "timePattern": "Doors:\\s*(?<start>\\d{1,2}(?::\\d{2})?\\s*[ap]m)",
-      "notes": "Music venue at 1118 W Idaho St, downtown Boise, with two rooms (Ballroom and Basement); same group as Treefort Music Hall and The Duck Club. Checked 2026-11-07: robots.txt allows everything but /wp-admin/ (www redirects to shrinesocialclub.com). WordPress, but no tribe route (rest_no_route) and no schema.org Event data. /shows/ is server-rendered: 83 shows on 2026-11-07 through June 2027, each a div.shr-show-item with a numeric date (Saturday<br>11/7/2026), doors time, headliner in div.fs-h1, supports in div.fs-sa, the room, and a DICE ticket link (link.dice.fm). Tickets are on DICE. Dry run with scrapeMode cards: 83 events, titles and dates right, but every event is all-day and links to /shows/: the doors time is written as 'Doors: 8<span>pm</span>', which the cards time parser cannot read, and the ticket links use single-quoted href, which cards mode does not read. Held at ready: all-day copies would not merge with mike-brown-group's timed listings of the same shows (26 Shrine events) and would show twice. Weekly 'KARAOKE IN THE BASEMENT!' is listed; filter it with excludeTitlePattern if unwanted. Terms not read"
+      "timePattern": "Doors:\\s*(?<start>\\d{1,2}(?::\\d{2})?\\s*(?:<[^>]+>\\s*)*[ap]m)",
+      "notes": "Music venue at 1118 W Idaho St, downtown Boise, with two rooms (Ballroom and Basement); same group as Treefort Music Hall and The Duck Club. Checked 2026-11-07: robots.txt allows everything but /wp-admin/ (www redirects to shrinesocialclub.com). WordPress, but no tribe route (rest_no_route) and no schema.org Event data. /shows/ is server-rendered: 83 shows on 2026-11-07 through June 2027, each a div.shr-show-item with a numeric date (Saturday<br>11/7/2026), doors time, headliner in div.fs-h1, supports in div.fs-sa, the room, and a DICE ticket link (link.dice.fm). Tickets are on DICE. The doors time is written as 'Doors: 8<span>pm</span>' and the ticket links use single-quoted href; since 2026-11-07 cards mode drops tags inside a time and reads either quote, and timePattern allows the tag. Running from 2026-11-07: dry run 83 timed events with DICE links. Start times are doors times, which match mike-brown-group's listings for 24 of its 26 Shrine shows, so those merge; Pokey LaFarge (doors 7, show 8 on mike-brown-group) shows twice. Weekly 'KARAOKE IN THE BASEMENT!' is listed; filter it with excludeTitlePattern if unwanted. Terms not read"
     },
     {
       "name": "meetup-shutupandwriteboiseid",

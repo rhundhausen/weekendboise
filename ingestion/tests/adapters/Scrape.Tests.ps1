@@ -286,6 +286,56 @@ Describe 'scrape adapter, cards with a numeric date' {
   }
 }
 
+Describe 'scrape adapter, cards with single-quoted links and a split time (Shrine Social Club)' {
+  BeforeAll {
+    $html = @"
+<div class='shr-show-item shr-show-item-even'>
+  <div class='shr-show-date' style='flex-direction:column'>Monday<br>11/9/2026<p class='shr-show-time'>Doors: 6:30<span>pm</span></p></div>
+  <div class='shr-show-artists'><div class='fs-h1'>Oso Oso</div><div class='fs-sa'>Liquid Mike<br>bugsy</div></div>
+  <div class='shr-show-room'>Basement</div><div class='shr-show-ticket'><a class='fun-button' target='_blank' href='https://link.dice.fm/e0039c969cc3'>TICKETS</a></div>
+</div>
+"@
+    $event = & $adapter -Source (Get-TestSource 'shrine-social-club') -FetchedAt $fetchedAt -Response $html
+  }
+
+  It 'reads a time whose am or pm is in its own tag' {
+    $event.allDay | Should -BeFalse
+    $event.start | Should -Be '2026-11-09T18:30:00-07:00'
+  }
+
+  It 'reads a single-quoted link' {
+    $event.url | Should -Be 'https://link.dice.fm/e0039c969cc3'
+  }
+}
+
+Describe 'scrape adapter, cards with a weekday and ordinal date (Recycled Minds)' {
+  BeforeAll {
+    $html = @"
+<h3 class="text-component w-product-title" title="x">Make A Scene Comedy Show</h3>
+<h4>Saturday, Nov. 7th at 8PM</h4>
+<p>You give us the inspiration.</p>
+<a href="https://recycledmindsllc.thundertix.com/events/272342" class="btn btn-cta" target="_blank">Get Tickets</a>
+<h3 class="text-component w-product-title" title="x">Holiday Improv</h3>
+<h4>Friday, December 4th at 7:30PM</h4>
+<a href="https://recycledmindsllc.thundertix.com/events/272719" class="btn btn-cta" target="_blank">Get Tickets</a>
+"@
+    $events = @(& $adapter -Source (Get-TestSource 'recycled-minds') -FetchedAt $fetchedAt -Response $html)
+  }
+
+  It 'reads every show with its time and ticket link' {
+    $events.Count | Should -Be 2
+    $events[0].title | Should -Be 'Make A Scene Comedy Show'
+    $events[0].start | Should -Be '2026-11-07T20:00:00-07:00'
+    $events[0].url | Should -Be 'https://recycledmindsllc.thundertix.com/events/272342'
+    $events[1].start | Should -Be '2026-12-04T19:30:00-07:00'
+  }
+
+  It 'uses the fixed venue in Garden City' {
+    $events[0].venueKey | Should -Be 'the-creative-space'
+    $events[0].city | Should -Be 'Garden City'
+  }
+}
+
 Describe 'scrape adapter, cards from a Simple Calendar page (Reuseum)' {
   BeforeAll {
     $events = @(& $adapter -Source (Get-TestSource 'reuseum') -FetchedAt $fetchedAt -Response (Get-Fixture 'reuseum.html'))
