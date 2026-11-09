@@ -34,7 +34,9 @@ const ALIASES = { bsu: ['boise state'], nnu: ['northwest nazarene'], cofi: ['col
 const searchTerms = (q) => fold(q).split(/\s+/).filter(Boolean).map((w) => [w, ...(ALIASES[w] || [])]);
 const today = () => boiseDay(new Date());
 // "Tonight" is events that start today at 5 PM or later and end by 2 AM (last call in Idaho).
-// An event with no end time counts if it starts in that window.
+// "Tomorrow night" is the same window a day later. An event with no end time counts if it
+// starts in that window.
+const NIGHTS = new Set(['tonight', 'tomorrow-night']);
 const EVENING = '17:00';
 const LAST_CALL = '02:00';
 // A timed event with no end (or an end not after its start) is taken to last 3 hours, so it
@@ -85,7 +87,8 @@ function prepare(e) {
     title: e.t, venue: e.v, shortTitle: shorten(e.t), shortVenue: shorten(dropAddress(e.v || '')), city: e.c, cat: e.k, catLabel, tags: e.g || [], size: e.z, cost: e.p || '', broken: Boolean(e.x), url: e.u, desc: e.d, src: e.r || [], meetup,
     sd, ed, allDay,
     instant, end,
-    // Boise "YYYY-MM-DD HH:MM" of the start and the real end (blank without one), for Tonight.
+    // Boise "YYYY-MM-DD HH:MM" of the start and the real end (blank without one), for Tonight
+    // and Tomorrow night.
     // An end exactly at the start counts as no end.
     startKey: allDay ? '' : `${sd} ${hmFmt.format(new Date(instant))}`,
     endKey: endParsed > instant ? `${boiseDay(new Date(endParsed))} ${hmFmt.format(new Date(endParsed))}` : '',
@@ -98,7 +101,7 @@ function presetRange(when) {
   const t = today();
   switch (when) {
     case 'today': case 'tonight': return [t, t];
-    case 'tomorrow': return [addDays(t, 1), addDays(t, 1)];
+    case 'tomorrow': case 'tomorrow-night': return [addDays(t, 1), addDays(t, 1)];
     case 'weekend': {
       const dow = asDate(t).getUTCDay();
       if (dow === 0) return [t, t];
@@ -126,7 +129,7 @@ function matches(e, words, from, to, skipCats, now) {
   if (to && e.sd > to) return false;
   // Timed events that are over drop off the list, in every date choice.
   if (!e.allDay && e.end <= now) return false;
-  if (state.when === 'tonight') {
+  if (NIGHTS.has(state.when)) {
     if (e.allDay || e.sd !== from || e.startKey < `${from} ${EVENING}`) return false;
     if (e.endKey && e.endKey > `${addDays(from, 1)} ${LAST_CALL}`) return false;
   }
