@@ -109,6 +109,12 @@ function presetRange(when) {
       const fri = addDays(t, 5 - dow);
       return [fri, addDays(fri, 2)];
     }
+    // The Friday to Sunday after this weekend. On a Saturday or Sunday that is next week's.
+    case 'next-weekend': {
+      const dow = asDate(t).getUTCDay();
+      const fri = addDays(t, (dow === 6 ? -1 : dow === 0 ? -2 : 5 - dow) + 7);
+      return [fri, addDays(fri, 2)];
+    }
     case 'week': return [t, addDays(t, 6)];
     case 'month': return [t, addDays(t, 29)];
     case 'custom': return [state.from, state.to];
