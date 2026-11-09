@@ -37,6 +37,11 @@ jobs:
           Import-Module Pester -RequiredVersion 6.0.0
           Invoke-Pester -Path ./ingestion/tests -CI
 
+      # The site's Worker (website/worker): the visitor log endpoint and its daily purge.
+      - name: Run Worker tests
+        working-directory: website/worker
+        run: node --test
+
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@v6

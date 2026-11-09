@@ -4,8 +4,18 @@
   "build": {
     "command": "chmod +x build.sh && ./build.sh"
   },
+  // The Worker handles only /api/* (the visitor log); every other request is a static file.
+  "main": "worker/index.js",
   "assets": {
     "directory": "./public",
-    "not_found_handling": "404-page"
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
+  },
+  // Deletes visitor log rows older than 90 days, once a day at 10:00 UTC.
+  "triggers": {
+    "crons": ["0 10 * * *"]
   }
+  // The visitor log's database goes here once it exists (see website/README.md, "Visitor log").
+  // Until then the Worker accepts log requests and stores nothing.
 }

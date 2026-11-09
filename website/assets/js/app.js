@@ -192,7 +192,54 @@ function render() {
   renderPager(el.pagerBottom, pages);
   renderSortHeaders();
   writeUrl();
+  queueLog(shown.length);
 }
+
+// Visitor log: the page reports the view when it opens, then each set of filters once it has
+// settled for 2 seconds, so typing "jazz" logs one search, not four. The Worker
+// (website/worker/index.js) adds the IP address, device, and browser and stores the row where
+// only the site owner can read it. A failure here never touches the page.
+const LOG_DELAY = 2000;
+let logTimer;
+let loggedQuery = null;
+let pendingLog = null;
+
+function flushLog() {
+  clearTimeout(logTimer);
+  if (!pendingLog) return;
+  const entry = pendingLog;
+  pendingLog = null;
+  loggedQuery = entry.qs;
+  try {
+    const body = JSON.stringify(entry);
+    const sent = navigator.sendBeacon && navigator.sendBeacon('/api/log', new Blob([body], { type: 'application/json' }));
+    if (!sent) fetch('/api/log', { method: 'POST', body, headers: { 'content-type': 'application/json' }, keepalive: true }).catch(() => {});
+  } catch {
+    // Logging is never worth an error on the page.
+  }
+}
+
+function queueLog(results) {
+  const qs = location.search.replace(/^\?/, '');
+  if (qs === loggedQuery) {
+    // Back where the last entry left off, so whatever was waiting is moot.
+    clearTimeout(logTimer);
+    pendingLog = null;
+    return;
+  }
+  const kind = loggedQuery === null && !pendingLog ? 'view' : 'search';
+  pendingLog = { kind, path: location.pathname, qs, q: state.q, results, w: window.innerWidth };
+  if (kind === 'view') {
+    pendingLog.ref = document.referrer;
+    flushLog();
+  } else {
+    clearTimeout(logTimer);
+    logTimer = setTimeout(flushLog, LOG_DELAY);
+  }
+}
+
+// A search still waiting when the visitor leaves is sent on the way out.
+addEventListener('pagehide', flushLog);
 
 function renderChips(counts) {
   el.cats.replaceChildren();

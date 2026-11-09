@@ -19,3 +19,15 @@ hugo -s website --minify        # builds to website/public/ (gitignored)
 - `assets/js/app.js` loads that file and does the rest in the browser: search (all words must match, accents ignored), the date, city, size, and category filters, sorting, and paging. The filters are kept in the URL, so a filtered view can be shared or bookmarked.
 - `assets/css/site.css` holds the styles. Colors are CSS variables with a dark set for `prefers-color-scheme: dark`. Below 760px wide, each row becomes a card.
 - No external scripts, fonts, or CDNs. Event text comes from outside sources, so the script only ever sets it with `textContent`.
+
+## Visitor log
+
+A private log of who uses the site and what they search for. Only the Cloudflare account can read it; nothing serves it over the web.
+
+- **What is logged:** `app.js` posts to `/api/log` when the page opens (a `view`) and each time the filters settle for 2 seconds (a `search`): the query string, the search words, how many events matched, the window width, and on views the referring page. The Worker (`worker/index.js`, which `wrangler.jsonc` runs only for `/api/*`) adds the time, the IP address, Cloudflare's location and network for that address, and the device (phone, tablet, or desktop), browser, and OS from the User-Agent, then stores one row in the `visits` table. Columns are described in `worker/schema.js`.
+- **Where:** the D1 database `weekendboise-log`, bound as `LOG_DB`. The table is created on the first log request. A daily cron (10:00 UTC) deletes rows older than 90 days.
+- **Viewing:** `./website/scripts/Get-VisitorLog.ps1` (newest 100 rows from the last 7 days; `-Days`, `-Last`, `-Ip`, `-Search`, `-IncludeBots`) or `-Summary` (visits by device, browser, and city, top searches, and searches that found nothing). It runs `wrangler d1 execute` as you, so run `npx wrangler login` once first. The Cloudflare dashboard's D1 console (Storage and databases > D1 > weekendboise-log) runs any SQL, for example `SELECT * FROM visits ORDER BY ts DESC LIMIT 50`.
+- **Tests:** `node --test` in `website/worker` (also run by the test workflow).
+- **Setting it up:** create the database once with `npx wrangler d1 create weekendboise-log` (or in the dashboard), then add its binding to `wrangler.jsonc`:
+  `"d1_databases": [{ "binding": "LOG_DB", "database_name": "weekendboise-log", "database_id": "<id>" }]`.
+  Until the binding exists, `/api/log` answers 204 and stores nothing.
