@@ -15,7 +15,9 @@
   // Deletes visitor log rows older than 90 days, once a day at 10:00 UTC.
   "triggers": {
     "crons": ["0 10 * * *"]
-  }
-  // The visitor log's database goes here once it exists (see website/README.md, "Visitor log").
-  // Until then the Worker accepts log requests and stores nothing.
+  },
+  // The visitor log's database (see website/README.md, "Visitor log").
+  "d1_databases": [
+    { "binding": "LOG_DB", "database_name": "weekendboise-log", "database_id": "70e3dcea-2774-4f11-b2df-bae9e4148f8a" }
+  ]
 }
