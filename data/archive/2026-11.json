@@ -9290,5 +9290,535 @@
         "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
+  },
+  {
+    "id": "969dbdac7ece",
+    "title": "Tales and Trails - Hyatt Hidden Lakes Reserve",
+    "start": "2026-11-09T09:00:00-07:00",
+    "end": "2026-11-09T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/17053642",
+    "description": "Each week, library staff will share a story and lead participants on a short walk through nature. This walk is stroller friendly. Please bring the following with you, as needed: weather appropriate clothing, good footwear, water, sunscreen and hat. Hyatt Hidden Lakes Reserve - 5301 N. Maple Grove...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/17053642",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "f4d534a7096a",
+    "title": "Homeschool PE",
+    "start": "2026-11-09T09:00:00-07:00",
+    "end": "2026-11-09T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Star Chamber of Commerce",
+    "venueKey": "star-chamber",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/homeschool-pe-11-09-2026-3975",
+    "description": "A homeschool PE class with a heavy focus on teamwork and active play. Students will be introduced to youth sports as well as the basics of general health and fitness. To Register go to: https://www.hisawyer.com/star-idaho/schedules/widget_calendar Hello Participants! As a reminder, you will NO LO...",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/homeschool-pe-11-09-2026-3975",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "29347c52fe88",
+    "title": "Hidden Springs Branch Library - Fit and Fall Proof",
+    "start": "2026-11-09T09:30:00-07:00",
+    "end": "2026-11-09T10:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Hidden Springs Branch",
+    "venueKey": "ada-community-library-hidden-springs-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/ada-community-library/events/317304137/",
+    "description": "Developed by the Idaho Department of Health and Welfare, Fit and Fall Proof™ is an exercise-based fall prevention program for older adults that focuses on improving strength, mobility, and balance to reduce an older adults' risk of falling. Classes are led by trained local volunteers. Meeting in-...",
+    "sources": [
+      {
+        "name": "meetup-ada-community-library",
+        "url": "https://www.meetup.com/ada-community-library/events/317304137/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "31289e5bdb1d",
+    "title": "Toddle Time",
+    "start": "2026-11-09T09:30:00-07:00",
+    "end": "2026-11-09T10:15:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17280006",
+    "description": "Storytime, Music and Movement, and playtime all in one! Toddle time lasts approximately 45 minutes and is ideal for little ones ages 0-3 and their adult caregivers.",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17280006",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "1992218e3d2f",
+    "title": "Baby Storytime 1, 2, & 3",
+    "start": "2026-11-09T10:00:00-07:00",
+    "end": "2026-11-09T12:15:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell Public Library",
+    "venueKey": "caldwell-public-library",
+    "city": "Caldwell",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-09-10-00",
+    "description": "Baby Storytime 1: 10am-–10:45am Baby Storytime 2: 10:45am–11:30am Baby Storytime 3: 11:30am–12:15pm",
+    "sources": [
+      {
+        "name": "caldwell-public-library",
+        "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-09-10-00",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "4bc601fbffd3",
+    "title": "Story Time: Dinosaurs",
+    "start": "2026-11-09T10:00:00-07:00",
+    "end": "2026-11-09T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Watershed",
+    "venueKey": "boise-watershed",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/story-time-dinosaurs/",
+    "description": "Come learn and listen with us at our free Story Time at the WaterShed. Designed for children ages 2-5 to learn and play, but all ages are welcome to attend. Hear a story and participate in an activity all about Dinosaurs! Story time is a shared experience, we ask that parents or caregivers stay w...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/story-time-dinosaurs/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "7b7f2652ed69",
+    "title": "Intermediate Pottery Wheel Skills, Drills, & Projects",
+    "start": "2026-11-09T10:00:00-07:00",
+    "end": "2026-11-09T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317267153/",
+    "description": "Refine your throwing, gain control, and explore new pottery projects on the wheel. Age 13+ For practiced, beginner to intermediate level students (not suitable for absolute beginners). Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/pottery-wh...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317267153/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "fb77aeac199b",
+    "title": "Play Pals",
+    "start": "2026-11-09T10:00:00-07:00",
+    "end": "2026-11-09T11:15:00-07:00",
+    "allDay": false,
+    "venue": "Mountain Home Public Library",
+    "venueKey": "mountain-home-public-library",
+    "city": "Mountain Home",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://mhlibrary.libcal.com/event/17221224",
+    "description": "Children and their parent/caregiver are welcome to drop in anytime during this hour and 15 minute long playdate every Monday, 10:00-11:15 am in the conference room. Parents/caregivers are invited to chat while the children play with board books and educational toys. This specific program has been...",
+    "sources": [
+      {
+        "name": "mountain-home-library",
+        "url": "https://mhlibrary.libcal.com/event/17221224",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "07b81d68ba1e",
+    "title": "Preschool Storytime",
+    "start": "2026-11-09T10:15:00-07:00",
+    "end": "2026-11-09T10:45:00-07:00",
+    "allDay": false,
+    "venue": "Nampa Public Library",
+    "venueKey": "nampa-public-library",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://nampalibrary.libcal.com/event/16156367",
+    "description": "Join us in the children's area for Preschool Storytime to explore Kindergarten readiness skills! Geared for children ages 3-5 and their caregivers; featuring stories, songs, fingerplays, and rhymes.",
+    "sources": [
+      {
+        "name": "nampa-public-library",
+        "url": "https://nampalibrary.libcal.com/event/16156367",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "332b9b77de10",
+    "title": "Music and Movement",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17358861",
+    "description": "Thirty minutes of singing, dancing, and fun, that’s our Music and Movement class! The class instructor uses songs that encourage both fine and gross motor skills. Children must attend with an adult caregiver, and caregivers are encouraged and expected to participate with the child. NO REGISTRATIO...",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17358861",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "489340fbc9a3",
+    "title": "Baby Stories and Play | Library! Cole & Ustick",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Library! at Cole & Ustick",
+    "venueKey": "library-at-cole-and-ustick",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/baby-stories-and-play-library-cole-ustick/2026-11-09/",
+    "description": "Join us for a weekly story time for children ages 0-24 months and their caregivers. Library staff will help you nurture your child’s love of reading through rhymes, stories, and play.",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/baby-stories-and-play-library-cole-ustick/2026-11-09/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "56757167781b",
+    "title": "Story Time",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Star Chamber of Commerce",
+    "venueKey": "star-chamber",
+    "city": "Star",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/story-time-11-09-2026-2588",
+    "description": "Come enjoy fun stories, songs and silliness with Miss Bonnie. All ages. There is a preschool craft or short playtime after the stories/songs, etc.",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/story-time-11-09-2026-2588",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "aa8ccdcec241",
+    "title": "Music & Movement | Garden City Public Library",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-09/",
+    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-09/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "ae33e3994923",
+    "title": "Music & Movement Collister Library!",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Library! at Collister",
+    "venueKey": "library-at-collister",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/music-movement-collister-library-2/2026-11-09/",
+    "description": "Designed for children ages 0-5 and their caregivers. We’ll clap, stomp and dance to music together!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/music-movement-collister-library-2/2026-11-09/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "b625bacb7759",
+    "title": "Baby Stories and Play",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/16237065",
+    "description": "Join us for a weekly story time for children ages 0-24 months and their caregivers. Library staff will help you nurture your child’s love of reading through rhymes, stories, and play.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/16237065",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "f6126a5cec5d",
+    "title": "Mini Foods with Polymer Clay",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/316878200/",
+    "description": "Sculpt tiny food creations while learning the basics of working with polymer clay! Age 11+ Ongoing, every 2nd Monday: 10:30am - 12:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/mini-foods-with-polymer-clay-every-2nd-mon-10-30am In this...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/316878200/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "f71ae6841e8a",
+    "title": "Music and Movement",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/16513644",
+    "description": "Designed for children ages 0-5 and their caregivers. We'll clap, stomp and dance to music together!",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/16513644",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "fd4bcf8f5aa8",
+    "title": "Fit and Fall Proof",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15106471",
+    "description": "™ is designed to help senior citizens prevent injuries and the subsequent loss of independence. Class participants learn simple exercises to increase strength, balance and endurance, which can help prevent the accidental falls and tripping sometimes associated with age. Registration is required....",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15106471",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "327d3ae10cab",
+    "title": "Storytime",
+    "start": "2026-11-09T11:00:00-07:00",
+    "end": "2026-11-09T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17358767",
+    "description": "Open to all ages Join us for a story and an activity during our Storytime program! Storytime is offered on the following days and times: Monday, 11:00 Tuesday 10:00 Wednesday 10:15 Location: children's room",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17358767",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "f7ba7d270331",
+    "title": "College of Idaho Women's Soccer vs Eastern Oregon University - CCC Semifinal",
+    "start": "2026-11-09T11:00:00-07:00",
+    "end": "2026-11-09T13:00:00-07:00",
+    "allDay": false,
+    "venue": "Simplot Stadium",
+    "venueKey": "simplot-stadium",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "M",
+    "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8688&sport_id=15",
+    "description": "W 2-1 Streaming Video: https://www.cascadesportsnetwork.com/",
+    "sources": [
+      {
+        "name": "college-of-idaho-athletics",
+        "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8688&sport_id=15",
+        "fetchedAt": "2026-11-09T07:05:18Z"
+      }
+    ]
+  },
+  {
+    "id": "0d8e3cdfadd8",
+    "title": "Fit and Fall Proof",
+    "start": "2026-11-09T11:30:00-07:00",
+    "end": "2026-11-09T12:15:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17346839",
+    "description": "A FREE fitness program designed to help older adults prevent injury. Participants learn simple exercises to increase strength, mobility, balance, and endurance, which can help prevent accidental falls and tripping. All fitness levels are welcome.",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17346839",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "98d616a65f42",
+    "title": "Line Dancing",
+    "start": "2026-11-09T12:30:00-07:00",
+    "end": "2026-11-09T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Gem County Recreation District",
+    "venueKey": "gem-county-recreation-district",
+    "city": "Emmett",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://business.emmettidaho.com/events/details/line-dancing-11-09-2026-16729",
+    "description": "Get moving and have fun! Join our Line Dancing Classes at the Gem County Recreation District. No partner needed and all are welcome. Great exercise for your body and mind in a friendly, social environment. Free Membership and Registration required click the link https://gcrd.activityreg.com/dance...",
+    "sources": [
+      {
+        "name": "gem-county-chamber",
+        "url": "https://business.emmettidaho.com/events/details/line-dancing-11-09-2026-16729",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
   }
 ]

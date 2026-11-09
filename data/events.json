@@ -67,10 +67,10 @@
     ]
   },
   {
-    "id": "af67fd81d5f1",
+    "id": "653291f5dca8",
     "title": "Idaho Steelheads",
-    "start": "2026-11-04T19:10:00-07:00",
-    "end": "2027-04-10T19:10:00-06:00",
+    "start": "2026-11-05T02:10:00-07:00",
+    "end": "2027-04-11T01:10:00-06:00",
     "allDay": false,
     "venue": "Idaho Central Arena",
     "venueKey": "idaho-central-arena",
@@ -86,7 +86,7 @@
       {
         "name": "visit-boise",
         "url": "https://www.ticketsmarter.com/p/idaho-steelheads-tickets?utm_source=dmo&utm_medium=visitboise&utm_campaign=idaho-steelheads_recurring_20261104_20270410",
-        "fetchedAt": "2026-11-06T07:04:43Z"
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -183,537 +183,6 @@
     ]
   },
   {
-    "id": "969dbdac7ece",
-    "title": "Tales and Trails - Hyatt Hidden Lakes Reserve",
-    "start": "2026-11-09T09:00:00-07:00",
-    "end": "2026-11-09T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise Public Library",
-    "venueKey": "boise-public-library",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://boisepubliclibrary.libcal.com/event/17053642",
-    "description": "Each week, library staff will share a story and lead participants on a short walk through nature. This walk is stroller friendly. Please bring the following with you, as needed: weather appropriate clothing, good footwear, water, sunscreen and hat. Hyatt Hidden Lakes Reserve - 5301 N. Maple Grove...",
-    "sources": [
-      {
-        "name": "boise-public-library",
-        "url": "https://boisepubliclibrary.libcal.com/event/17053642",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "f4d534a7096a",
-    "title": "Homeschool PE",
-    "start": "2026-11-09T09:00:00-07:00",
-    "end": "2026-11-09T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Star Chamber of Commerce",
-    "venueKey": "star-chamber",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/homeschool-pe-11-09-2026-3975",
-    "description": "A homeschool PE class with a heavy focus on teamwork and active play. Students will be introduced to youth sports as well as the basics of general health and fitness. To Register go to: https://www.hisawyer.com/star-idaho/schedules/widget_calendar Hello Participants! As a reminder, you will NO LO...",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/homeschool-pe-11-09-2026-3975",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "29347c52fe88",
-    "title": "Hidden Springs Branch Library - Fit and Fall Proof",
-    "start": "2026-11-09T09:30:00-07:00",
-    "end": "2026-11-09T10:30:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Hidden Springs Branch",
-    "venueKey": "ada-community-library-hidden-springs-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/ada-community-library/events/317304137/",
-    "description": "Developed by the Idaho Department of Health and Welfare, Fit and Fall Proof™ is an exercise-based fall prevention program for older adults that focuses on improving strength, mobility, and balance to reduce an older adults' risk of falling. Classes are led by trained local volunteers. Meeting in-...",
-    "sources": [
-      {
-        "name": "meetup-ada-community-library",
-        "url": "https://www.meetup.com/ada-community-library/events/317304137/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "31289e5bdb1d",
-    "title": "Toddle Time",
-    "start": "2026-11-09T09:30:00-07:00",
-    "end": "2026-11-09T10:15:00-07:00",
-    "allDay": false,
-    "venue": "Kuna Library",
-    "venueKey": "kuna-library",
-    "city": "Kuna",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://kunalibrary.libcal.com/event/17280006",
-    "description": "Storytime, Music and Movement, and playtime all in one! Toddle time lasts approximately 45 minutes and is ideal for little ones ages 0-3 and their adult caregivers.",
-    "sources": [
-      {
-        "name": "kuna-library",
-        "url": "https://kunalibrary.libcal.com/event/17280006",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "1992218e3d2f",
-    "title": "Baby Storytime 1, 2, & 3",
-    "start": "2026-11-09T10:00:00-07:00",
-    "end": "2026-11-09T12:15:00-07:00",
-    "allDay": false,
-    "venue": "Caldwell Public Library",
-    "venueKey": "caldwell-public-library",
-    "city": "Caldwell",
-    "category": "learning-business",
-    "tags": [
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-09-10-00",
-    "description": "Baby Storytime 1: 10am-–10:45am Baby Storytime 2: 10:45am–11:30am Baby Storytime 3: 11:30am–12:15pm",
-    "sources": [
-      {
-        "name": "caldwell-public-library",
-        "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-09-10-00",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "4bc601fbffd3",
-    "title": "Story Time: Dinosaurs",
-    "start": "2026-11-09T10:00:00-07:00",
-    "end": "2026-11-09T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise Watershed",
-    "venueKey": "boise-watershed",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/story-time-dinosaurs/",
-    "description": "Come learn and listen with us at our free Story Time at the WaterShed. Designed for children ages 2-5 to learn and play, but all ages are welcome to attend. Hear a story and participate in an activity all about Dinosaurs! Story time is a shared experience, we ask that parents or caregivers stay w...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/story-time-dinosaurs/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "7b7f2652ed69",
-    "title": "Intermediate Pottery Wheel Skills, Drills, & Projects",
-    "start": "2026-11-09T10:00:00-07:00",
-    "end": "2026-11-09T14:00:00-07:00",
-    "allDay": false,
-    "venue": "Catalyst Arts Collaborative",
-    "venueKey": "catalyst-arts-collaborative",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "costTier": "$$$",
-    "url": "https://www.meetup.com/boise-arts-community/events/317267153/",
-    "description": "Refine your throwing, gain control, and explore new pottery projects on the wheel. Age 13+ For practiced, beginner to intermediate level students (not suitable for absolute beginners). Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/pottery-wh...",
-    "sources": [
-      {
-        "name": "meetup-boise-arts-community",
-        "url": "https://www.meetup.com/boise-arts-community/events/317267153/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "fb77aeac199b",
-    "title": "Play Pals",
-    "start": "2026-11-09T10:00:00-07:00",
-    "end": "2026-11-09T11:15:00-07:00",
-    "allDay": false,
-    "venue": "Mountain Home Public Library",
-    "venueKey": "mountain-home-public-library",
-    "city": "Mountain Home",
-    "category": "learning-business",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "url": "https://mhlibrary.libcal.com/event/17221224",
-    "description": "Children and their parent/caregiver are welcome to drop in anytime during this hour and 15 minute long playdate every Monday, 10:00-11:15 am in the conference room. Parents/caregivers are invited to chat while the children play with board books and educational toys. This specific program has been...",
-    "sources": [
-      {
-        "name": "mountain-home-library",
-        "url": "https://mhlibrary.libcal.com/event/17221224",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "07b81d68ba1e",
-    "title": "Preschool Storytime",
-    "start": "2026-11-09T10:15:00-07:00",
-    "end": "2026-11-09T10:45:00-07:00",
-    "allDay": false,
-    "venue": "Nampa Public Library",
-    "venueKey": "nampa-public-library",
-    "city": "Nampa",
-    "category": "learning-business",
-    "tags": [
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://nampalibrary.libcal.com/event/16156367",
-    "description": "Join us in the children's area for Preschool Storytime to explore Kindergarten readiness skills! Geared for children ages 3-5 and their caregivers; featuring stories, songs, fingerplays, and rhymes.",
-    "sources": [
-      {
-        "name": "nampa-public-library",
-        "url": "https://nampalibrary.libcal.com/event/16156367",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "332b9b77de10",
-    "title": "Music and Movement",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Kuna Library",
-    "venueKey": "kuna-library",
-    "city": "Kuna",
-    "category": "learning-business",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "url": "https://kunalibrary.libcal.com/event/17358861",
-    "description": "Thirty minutes of singing, dancing, and fun, that’s our Music and Movement class! The class instructor uses songs that encourage both fine and gross motor skills. Children must attend with an adult caregiver, and caregivers are encouraged and expected to participate with the child. NO REGISTRATIO...",
-    "sources": [
-      {
-        "name": "kuna-library",
-        "url": "https://kunalibrary.libcal.com/event/17358861",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "489340fbc9a3",
-    "title": "Baby Stories and Play | Library! Cole & Ustick",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Library! at Cole & Ustick",
-    "venueKey": "library-at-cole-and-ustick",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/baby-stories-and-play-library-cole-ustick/2026-11-09/",
-    "description": "Join us for a weekly story time for children ages 0-24 months and their caregivers. Library staff will help you nurture your child’s love of reading through rhymes, stories, and play.",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/baby-stories-and-play-library-cole-ustick/2026-11-09/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "56757167781b",
-    "title": "Story Time",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Star Chamber of Commerce",
-    "venueKey": "star-chamber",
-    "city": "Star",
-    "category": "learning-business",
-    "tags": [
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/story-time-11-09-2026-2588",
-    "description": "Come enjoy fun stories, songs and silliness with Miss Bonnie. All ages. There is a preschool craft or short playtime after the stories/songs, etc.",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/story-time-11-09-2026-2588",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "aa8ccdcec241",
-    "title": "Music & Movement | Garden City Public Library",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-09/",
-    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-09/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "ae33e3994923",
-    "title": "Music & Movement Collister Library!",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Library! at Collister",
-    "venueKey": "library-at-collister",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/music-movement-collister-library-2/2026-11-09/",
-    "description": "Designed for children ages 0-5 and their caregivers. We’ll clap, stomp and dance to music together!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/music-movement-collister-library-2/2026-11-09/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "b625bacb7759",
-    "title": "Baby Stories and Play",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Boise Public Library",
-    "venueKey": "boise-public-library",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "url": "https://boisepubliclibrary.libcal.com/event/16237065",
-    "description": "Join us for a weekly story time for children ages 0-24 months and their caregivers. Library staff will help you nurture your child’s love of reading through rhymes, stories, and play.",
-    "sources": [
-      {
-        "name": "boise-public-library",
-        "url": "https://boisepubliclibrary.libcal.com/event/16237065",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "f6126a5cec5d",
-    "title": "Mini Foods with Polymer Clay",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T12:00:00-07:00",
-    "allDay": false,
-    "venue": "Catalyst Arts Collaborative",
-    "venueKey": "catalyst-arts-collaborative",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "costTier": "$$$",
-    "url": "https://www.meetup.com/boise-arts-community/events/316878200/",
-    "description": "Sculpt tiny food creations while learning the basics of working with polymer clay! Age 11+ Ongoing, every 2nd Monday: 10:30am - 12:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/mini-foods-with-polymer-clay-every-2nd-mon-10-30am In this...",
-    "sources": [
-      {
-        "name": "meetup-boise-arts-community",
-        "url": "https://www.meetup.com/boise-arts-community/events/316878200/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "f71ae6841e8a",
-    "title": "Music and Movement",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise Public Library",
-    "venueKey": "boise-public-library",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "url": "https://boisepubliclibrary.libcal.com/event/16513644",
-    "description": "Designed for children ages 0-5 and their caregivers. We'll clap, stomp and dance to music together!",
-    "sources": [
-      {
-        "name": "boise-public-library",
-        "url": "https://boisepubliclibrary.libcal.com/event/16513644",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "fd4bcf8f5aa8",
-    "title": "Fit and Fall Proof",
-    "start": "2026-11-09T10:30:00-07:00",
-    "end": "2026-11-09T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Boise Public Library",
-    "venueKey": "boise-public-library",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://boisepubliclibrary.libcal.com/event/15106471",
-    "description": "™ is designed to help senior citizens prevent injuries and the subsequent loss of independence. Class participants learn simple exercises to increase strength, balance and endurance, which can help prevent the accidental falls and tripping sometimes associated with age. Registration is required....",
-    "sources": [
-      {
-        "name": "boise-public-library",
-        "url": "https://boisepubliclibrary.libcal.com/event/15106471",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "327d3ae10cab",
-    "title": "Storytime",
-    "start": "2026-11-09T11:00:00-07:00",
-    "end": "2026-11-09T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Kuna Library",
-    "venueKey": "kuna-library",
-    "city": "Kuna",
-    "category": "learning-business",
-    "tags": [
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://kunalibrary.libcal.com/event/17358767",
-    "description": "Open to all ages Join us for a story and an activity during our Storytime program! Storytime is offered on the following days and times: Monday, 11:00 Tuesday 10:00 Wednesday 10:15 Location: children's room",
-    "sources": [
-      {
-        "name": "kuna-library",
-        "url": "https://kunalibrary.libcal.com/event/17358767",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "f57349acb046",
-    "title": "Distillery Tour",
-    "start": "2026-11-09T11:00:00-07:00",
-    "end": "2026-11-09T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Bardenay Distilling Co.",
-    "venueKey": "bardenay-distilling-co",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "brewery"
-    ],
-    "size": "S",
-    "url": "https://www.bardenaydistilling.com/",
-    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://www.bardenaydistilling.com/",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "f7ba7d270331",
-    "title": "College of Idaho Women's Soccer vs Eastern Oregon University - CCC Semifinal",
-    "start": "2026-11-09T11:00:00-07:00",
-    "end": "2026-11-09T13:00:00-07:00",
-    "allDay": false,
-    "venue": "Simplot Stadium",
-    "venueKey": "simplot-stadium",
-    "city": "Caldwell",
-    "category": "sports",
-    "tags": [
-      "college-sports"
-    ],
-    "size": "M",
-    "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8688&sport_id=15",
-    "description": "Streaming Video: https://www.cascadesportsnetwork.com/",
-    "sources": [
-      {
-        "name": "college-of-idaho-athletics",
-        "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8688&sport_id=15",
-        "fetchedAt": "2026-11-09T07:05:18Z"
-      }
-    ]
-  },
-  {
-    "id": "0d8e3cdfadd8",
-    "title": "Fit and Fall Proof",
-    "start": "2026-11-09T11:30:00-07:00",
-    "end": "2026-11-09T12:15:00-07:00",
-    "allDay": false,
-    "venue": "Kuna Library",
-    "venueKey": "kuna-library",
-    "city": "Kuna",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://kunalibrary.libcal.com/event/17346839",
-    "description": "A FREE fitness program designed to help older adults prevent injury. Participants learn simple exercises to increase strength, mobility, balance, and endurance, which can help prevent accidental falls and tripping. All fitness levels are welcome.",
-    "sources": [
-      {
-        "name": "kuna-library",
-        "url": "https://kunalibrary.libcal.com/event/17346839",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
     "id": "ac1772aecf65",
     "title": "From Big Burn to Good Fire",
     "start": "2026-11-09T12:00:00-07:00",
@@ -735,29 +204,6 @@
         "name": "boise-state-arts",
         "url": "https://events.boisestate.edu/event/from-big-burn-to-good-fire",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "98d616a65f42",
-    "title": "Line Dancing",
-    "start": "2026-11-09T12:30:00-07:00",
-    "end": "2026-11-09T14:00:00-07:00",
-    "allDay": false,
-    "venue": "Gem County Recreation District",
-    "venueKey": "gem-county-recreation-district",
-    "city": "Emmett",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "costTier": "$",
-    "url": "https://business.emmettidaho.com/events/details/line-dancing-11-09-2026-16729",
-    "description": "Get moving and have fun! Join our Line Dancing Classes at the Gem County Recreation District. No partner needed and all are welcome. Great exercise for your body and mind in a friendly, social environment. Free Membership and Registration required click the link https://gcrd.activityreg.com/dance...",
-    "sources": [
-      {
-        "name": "gem-county-chamber",
-        "url": "https://business.emmettidaho.com/events/details/line-dancing-11-09-2026-16729",
-        "fetchedAt": "2026-11-06T07:04:43Z"
       }
     ]
   },
@@ -832,50 +278,6 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/homeschool-kids-winter-adaptations/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "c0863f7a8cf7",
-    "title": "Knitting & Crochet Social",
-    "start": "2026-11-09T13:30:00-07:00",
-    "end": "2026-11-09T15:00:00-07:00",
-    "allDay": false,
-    "venue": "Caldwell Public Library",
-    "venueKey": "caldwell-public-library",
-    "city": "Caldwell",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.caldwellpubliclibrary.org/events/knitting-crochet-social-26",
-    "description": "Bring a project and make a friend at our monthly knitting & crochet meetup. All skill levels welcome. Socialize and help each other learn and troubleshoot your projects. Formal instruction is not provided. Limited supplies available.",
-    "sources": [
-      {
-        "name": "caldwell-public-library",
-        "url": "https://www.caldwellpubliclibrary.org/events/knitting-crochet-social-26",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "9bce5b254f1d",
-    "title": "Crafty Sundays",
-    "start": "2026-11-09T14:00:00-07:00",
-    "end": "2026-11-09T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Meriwether Cider Co.",
-    "venueKey": "meriwether-cider-co",
-    "city": "Garden City",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meriwethercider.com/eventscalendar",
-    "description": "Bring whatever you are working on. Knitting, whittling, coloring, writing, or any project that fits in your hands. Settle in, create alongside fellow makers, and enjoy the easy rhythm of an afternoon spent crafting. Chat if you want. Focus if you prefer. Either way, pair it with a hand CRAFTED ci...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://www.meriwethercider.com/eventscalendar",
-        "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
   },
@@ -1195,6 +597,52 @@
     ]
   },
   {
+    "id": "b537aab5eeae",
+    "title": "Monday Recovery Dharma Meeting - Buddhist Topic Meeting",
+    "start": "2026-11-09T18:00:00-07:00",
+    "end": "2026-11-09T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317066874/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigating a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your recovery process. No experience...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317066874/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "f57349acb046",
+    "title": "Distillery Tour",
+    "start": "2026-11-09T18:00:00-07:00",
+    "end": "2026-11-10T03:00:00-07:00",
+    "allDay": false,
+    "venue": "Bardenay Distilling Co.",
+    "venueKey": "bardenay-distilling-co",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "brewery"
+    ],
+    "size": "S",
+    "url": "https://www.bardenaydistilling.com/",
+    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.bardenaydistilling.com/",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
     "id": "2996517c0fea",
     "title": "The Dirt on Gardening",
     "start": "2026-11-09T18:30:00-07:00",
@@ -1288,29 +736,6 @@
     ],
     "description": "Oso Oso plays Shrine Social Club’s Basement on Monday, November 9, with Liquid Mike and bugsy. Doors at 6:30 PM.",
     "costTier": "$$"
-  },
-  {
-    "id": "0adc3009f180",
-    "title": "Paint Nite @ Amsterdam Lounge",
-    "start": "2026-11-09T19:00:00-07:00",
-    "end": "2026-11-09T21:00:00-07:00",
-    "allDay": false,
-    "venue": "Amsterdam Lounge",
-    "venueKey": "amsterdam-lounge",
-    "city": "Boise",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "costTier": "$$",
-    "url": "https://tinyurl.com/y8v52twy",
-    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://tinyurl.com/y8v52twy",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
   },
   {
     "id": "1485b85d06ca",
@@ -1411,6 +836,28 @@
     ]
   },
   {
+    "id": "9bce5b254f1d",
+    "title": "Crafty Sundays",
+    "start": "2026-11-09T21:00:00-07:00",
+    "end": "2026-11-10T01:00:00-07:00",
+    "allDay": false,
+    "venue": "Meriwether Cider Co.",
+    "venueKey": "meriwether-cider-co",
+    "city": "Garden City",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meriwethercider.com/eventscalendar",
+    "description": "Bring whatever you are working on. Knitting, whittling, coloring, writing, or any project that fits in your hands. Settle in, create alongside fellow makers, and enjoy the easy rhythm of an afternoon spent crafting. Chat if you want. Focus if you prefer. Either way, pair it with a hand CRAFTED ci...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.meriwethercider.com/eventscalendar",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
     "id": "478a018fab91",
     "title": "Veterans Free Week",
     "start": "2026-11-10T00:00:00-07:00",
@@ -1477,6 +924,51 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-10/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "d9caba1b0624",
+    "title": "Paint Nite @ Amsterdam Lounge",
+    "start": "2026-11-10T02:00:00-07:00",
+    "end": "2026-11-10T04:00:00-07:00",
+    "allDay": false,
+    "venue": "Amsterdam Lounge",
+    "venueKey": "amsterdam-lounge",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://tinyurl.com/y8v52twy",
+    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://tinyurl.com/y8v52twy",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "1ac5d928c90f",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-11-10T09:00:00-07:00",
+    "end": "2026-11-10T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/317075089/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/317075089/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -2785,6 +2277,30 @@
     ]
   },
   {
+    "id": "45927a30b316",
+    "title": "Distillery Tour",
+    "start": "2026-11-10T18:00:00-07:00",
+    "end": "2026-11-11T03:00:00-07:00",
+    "allDay": false,
+    "venue": "Bardenay Distilling Co.",
+    "venueKey": "bardenay-distilling-co",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "brewery"
+    ],
+    "size": "S",
+    "url": "https://www.bardenaydistilling.com/",
+    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.bardenaydistilling.com/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "5c5ad2b8408d",
     "title": "Boise Public Library Pokémon League",
     "start": "2026-11-10T18:00:00-07:00",
@@ -2943,6 +2459,28 @@
         "name": "city-of-boise",
         "url": "https://www.cityofboise.org/events/city-council/2026/november/city-council-meeting/",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "0b81b7f019f9",
+    "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+    "start": "2026-11-10T18:15:00-07:00",
+    "end": "2026-11-10T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Black Bear Diner Boise - Entertainment Ave",
+    "venueKey": "black-bear-diner-boise-entertainment-ave",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317082272/",
+    "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+    "sources": [
+      {
+        "name": "meetup-d15toastmasters-meet-up-group",
+        "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317082272/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -3447,31 +2985,26 @@
     ]
   },
   {
-    "id": "1bf29719c41d",
-    "title": "Token, Clark D",
+    "id": "20e93358f891",
+    "title": "Golden Hour(s) at Split Rail Winery!",
     "start": "2026-11-10T20:00:00-07:00",
+    "end": "2026-11-14T23:00:00-07:00",
     "allDay": false,
-    "venue": "9th St. Parallel at Knitting Factory",
-    "venueKey": "9th-st-parallel-at-knitting-factory",
+    "venue": "Split Rail Winery",
+    "venueKey": "split-rail-winery",
     "city": "Boise",
-    "category": "music",
+    "category": "food-drink",
     "tags": [
-      "concert"
+      "winery"
     ],
-    "size": "M",
-    "costTier": "$$",
-    "url": "https://www.ticketweb.com/event/token-clark-d-9th-st-parallel-at-knitting-tickets/14251754",
-    "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event.VIP MEET Includes GA TicketExclusive VIP Meet & Greet with Token after his show(1) solo photo opp with Token VIP SOUND CHECK + MEET Includes GA TicketEarly entry into th...",
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.splitrailwines.com/",
     "sources": [
       {
-        "name": "ninth-st-parallel",
-        "url": "https://www.ticketweb.com/event/token-clark-d-9th-st-parallel-at-knitting-tickets/14251754",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      },
-      {
-        "name": "ticketmaster-metro",
-        "url": "https://www.ticketweb.com/event/token-clark-d-9th-st-parallel-at-knitting-tickets/14251754",
-        "fetchedAt": "2026-11-03T17:00:01Z"
+        "name": "visit-boise",
+        "url": "https://www.splitrailwines.com/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -3500,6 +3033,35 @@
     ]
   },
   {
+    "id": "f028c2acec42",
+    "title": "Token",
+    "start": "2026-11-10T20:00:00-07:00",
+    "allDay": false,
+    "venue": "9th St. Parallel at Knitting Factory",
+    "venueKey": "9th-st-parallel-at-knitting-factory",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
+    "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event. VIP 'MEET & GREET' Includes GA Ticket Exclusive VIP Meet & Greet with Token after his show (1) solo photo opp with Token VIP 'SOUND CHECK + MEET & GREET' Includes GA Ti...",
+    "sources": [
+      {
+        "name": "ninth-st-parallel",
+        "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      },
+      {
+        "name": "ticketmaster-metro",
+        "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "14fe7f15a817",
     "title": "Intermediate Partner Country Dance",
     "start": "2026-11-10T20:30:00-07:00",
@@ -3519,6 +3081,32 @@
         "name": "meetup-boise-country-dancers",
         "url": "https://www.meetup.com/boise-country-dancers/events/317084273/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "b65e8f016598",
+    "title": "Art Show",
+    "start": "2026-11-10T23:08:00-07:00",
+    "end": "2026-11-12T06:06:00-07:00",
+    "allDay": false,
+    "venue": "idaho art gallery",
+    "venueKey": "idaho-art-gallery",
+    "city": "Meridian",
+    "category": "arts-culture",
+    "tags": [
+      "free-admission",
+      "gallery"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://visitboise.com/events/art-show-2/",
+    "description": "November art exhibition at the Idaho Art Gallery. Appetizers, wine and art provided. Free and open to the public",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://visitboise.com/events/art-show-2/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -3657,6 +3245,127 @@
         "name": "nampa-public-library",
         "url": "https://nampalibrary.libcal.com/event/9978875",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "fbd78e94f111",
+    "title": "Grilled Cheese with MELT Food Truck",
+    "start": "2026-11-11T00:00:00-07:00",
+    "end": "2026-11-11T02:00:00-07:00",
+    "allDay": false,
+    "venue": "Barbarian Brewery Taproom",
+    "venueKey": "barbarian-brewery-taproom",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "food-truck"
+    ],
+    "size": "S",
+    "url": "https://www.facebook.com/events/2090725278212194/2175065739778147/",
+    "description": "MELT Food Truck will be serving up grilled cheese creations and tomato soup every 2nd TUESDAY of the month at Barbarian! MELT is a local food truck with chef inspired grilled cheese creations served on ACME bread and scratch made soups.",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.facebook.com/events/2090725278212194/2175065739778147/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "5cbe999d60f6",
+    "title": "Boise State Women’s Basketball",
+    "start": "2026-11-11T01:30:00-07:00",
+    "end": "2026-11-11T03:30:00-07:00",
+    "allDay": false,
+    "venue": "ExtraMile Arena",
+    "venueKey": "extramile-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "XL",
+    "url": "https://broncosports.com/sports/womens-basketball/schedule",
+    "description": "The Boise State Broncos women's basketball team represents Boise State University in Boise, Idaho, United States. The school's team currently competes in the Pac-12 Conference. They play their home games at ExtraMile Arena.",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://broncosports.com/sports/womens-basketball/schedule",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "2682840fd6a8",
+    "title": "Idaho Mountain Search and Rescue–Free event",
+    "start": "2026-11-11T02:00:00-07:00",
+    "end": "2026-11-11T03:30:00-07:00",
+    "allDay": false,
+    "venue": "Idaho Outdoor Association Hall",
+    "venueKey": "idaho-outdoor-association-hall",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [
+      "free-admission"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://www.idahooutdoorassn.org/events",
+    "description": "Christopher Kall will provide information about IMSARU and what they do; a discussion of backcountry safety; how to avoid getting lost and what to do if you are lost; some winter-specific information, and some real-life examples of searches, rescues, & recoveries. Christopher Kall is the Vice Pre...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.idahooutdoorassn.org/events",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "577c314c22d9",
+    "title": "Tater Patch Tuesdays",
+    "start": "2026-11-11T02:00:00-07:00",
+    "end": "2026-11-11T04:00:00-07:00",
+    "allDay": false,
+    "venue": "Barbarian Brewing Downtown Beer Bar",
+    "venueKey": "barbarian-brewing-downtown-beer-bar",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [
+      "free-admission"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://www.facebook.com/events/1069460215741086/1069460289074412?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
+    "description": "Listen to the best Bluegrass in Boise every Tuesday night at Barbarian Downtown with Tater Patch! No cover. Must be 21 and older. *The Barbarian Beer Bar is a 21 and older venue because we do not brew beer on-site*",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.facebook.com/events/1069460215741086/1069460289074412?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "ca8fee09eaf2",
+    "title": "Paint Nite @ Amsterdam Lounge",
+    "start": "2026-11-11T02:00:00-07:00",
+    "end": "2026-11-11T04:00:00-07:00",
+    "allDay": false,
+    "venue": "Amsterdam Lounge",
+    "venueKey": "amsterdam-lounge",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://tinyurl.com/y8v52twy",
+    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://tinyurl.com/y8v52twy",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -4059,6 +3768,29 @@
     ]
   },
   {
+    "id": "a0eafe2c5aae",
+    "title": "Teen Art Self-Discovery",
+    "start": "2026-11-11T16:30:00-07:00",
+    "end": "2026-11-11T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317155243/",
+    "description": "Teen vibe check: decompress, build confidence, and express through low-pressure art! Age 11-18 Ongoing: Every 2nd & 4th Wednesday, 4:30pm - 6:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/introspection-expression-thur-4-30pm Being a te...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317155243/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "bc3e162c8514",
     "title": "After School Art – Ages 10-12 -Wed 4:30p",
     "start": "2026-11-11T16:30:00-07:00",
@@ -4105,6 +3837,28 @@
         "name": "meetup-abu-games-events",
         "url": "https://www.meetup.com/abu-games-events/events/317097368/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "aa2686691e6a",
+    "title": "Wednesday Recovery Dharma Meeting",
+    "start": "2026-11-11T17:30:00-07:00",
+    "end": "2026-11-11T18:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317097822/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317097822/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -4778,6 +4532,7 @@
     "id": "645eacc4ccc1",
     "title": "$3 Thursdays at Zoo Boise",
     "start": "2026-11-12T10:00:00-07:00",
+    "end": "2026-11-12T17:00:00-07:00",
     "allDay": false,
     "venue": "Zoo Boise",
     "venueKey": "zoo-boise",
@@ -5238,6 +4993,30 @@
     ]
   },
   {
+    "id": "57083f07e923",
+    "title": "College of Idaho Women's Volleyball vs Corban University vs TBD - CCC QUARTERFINALS",
+    "start": "2026-11-12T14:00:00-07:00",
+    "end": "2026-11-12T16:00:00-07:00",
+    "allDay": false,
+    "venue": "J.A. Albertson Activities Center",
+    "venueKey": "j-a-albertson-activities-center",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "M",
+    "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8689&sport_id=19",
+    "description": "Streaming Video: https://www.cascadesportsnetwork.com/collegeofidaho/",
+    "sources": [
+      {
+        "name": "college-of-idaho-athletics",
+        "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8689&sport_id=19",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "bcb12b3373b8",
     "title": "Thursday Read Book Club",
     "start": "2026-11-12T14:00:00-07:00",
@@ -5590,6 +5369,30 @@
         "name": "caldwell-public-library",
         "url": "https://www.caldwellpubliclibrary.org/events/farmway-afterschool-program-2026-11-12-16-30",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "33fd38bcccda",
+    "title": "College of Idaho Women's Volleyball vs Southern Oregon University vs TBD - CCC QUARTERFINALS",
+    "start": "2026-11-12T17:00:00-07:00",
+    "end": "2026-11-12T19:00:00-07:00",
+    "allDay": false,
+    "venue": "J.A. Albertson Activities Center",
+    "venueKey": "j-a-albertson-activities-center",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "M",
+    "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8690&sport_id=19",
+    "description": "Streaming Video: https://www.cascadesportsnetwork.com/collegeofidaho/",
+    "sources": [
+      {
+        "name": "college-of-idaho-athletics",
+        "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8690&sport_id=19",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -7609,6 +7412,30 @@
     ]
   },
   {
+    "id": "fae586c2e99f",
+    "title": "College of Idaho Women's Volleyball vs Eastern Oregon University vs TBD - CCC SEMIFINALS",
+    "start": "2026-11-13T14:00:00-07:00",
+    "end": "2026-11-13T16:00:00-07:00",
+    "allDay": false,
+    "venue": "J.A. Albertson Activities Center",
+    "venueKey": "j-a-albertson-activities-center",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "M",
+    "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8691&sport_id=19",
+    "description": "Streaming Video: https://www.cascadesportsnetwork.com/collegeofidaho/",
+    "sources": [
+      {
+        "name": "college-of-idaho-athletics",
+        "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8691&sport_id=19",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "ee4850f502a0",
     "title": "Idaho Humane Society | Dog Winter Photo Sessions",
     "start": "2026-11-13T14:10:00-07:00",
@@ -8011,6 +7838,30 @@
     ]
   },
   {
+    "id": "25e7cb41804a",
+    "title": "College of Idaho Women's Volleyball vs TBD - CCC SEMIFINALS",
+    "start": "2026-11-13T17:00:00-07:00",
+    "end": "2026-11-13T19:00:00-07:00",
+    "allDay": false,
+    "venue": "J.A. Albertson Activities Center",
+    "venueKey": "j-a-albertson-activities-center",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "M",
+    "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8692&sport_id=19",
+    "description": "Streaming Video: https://urbanedgenetwork.net/",
+    "sources": [
+      {
+        "name": "college-of-idaho-athletics",
+        "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8692&sport_id=19",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "7cd6fff64401",
     "title": "Christmas at the Tolleth House with Santa Rusty",
     "start": "2026-11-13T17:00:00-07:00",
@@ -8252,6 +8103,30 @@
         "name": "boise-state-athletics",
         "url": "https://admin.broncosports.com/calendar.aspx?game_id=23285&sport_id=10",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "5ec2e4054b0a",
+    "title": "McCall Mountaineers vs Jackson Hole Moose",
+    "start": "2026-11-13T18:30:00-07:00",
+    "allDay": false,
+    "venue": "Manchester Ice and Event Centre",
+    "venueKey": "manchester-ice-and-event-centre",
+    "city": "Valley County",
+    "category": "community-civic",
+    "tags": [
+      "family-friendly"
+    ],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://visitmccall.org/event/mccall-mountaineers-vs-jackson-hole-moose-2/",
+    "description": "Come cheer on the McCall Mountaineers this weekend against the Jackson Hole Moose team! We will see you all at Manchester Ice and Event Center on Friday, November 13th and Saturday, November 14th. Doors open at 6:30pm for 7:00pm game time.",
+    "sources": [
+      {
+        "name": "visit-mccall",
+        "url": "https://visitmccall.org/event/mccall-mountaineers-vs-jackson-hole-moose-2/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -8740,6 +8615,32 @@
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
+  },
+  {
+    "id": "14406dfe7d12",
+    "title": "Veterans Breakfast",
+    "start": "2026-11-14T08:00:00-07:00",
+    "end": "2026-11-14T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event"
+    ],
+    "size": "M",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/veterans-breakfast/",
+    "description": "The City of Eagle honors veterans, active military, and their families at our annual Veterans Day Breakfast. Date and Time: Saturday, November 14, 2026 – 8 a.m. to 10 a.m. Location: Eagle Senior Center – 312 E State St, Eagle This event is free and open to the public.",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/veterans-breakfast/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ],
+    "city": "Eagle"
   },
   {
     "id": "47ceed57d336",
@@ -9325,28 +9226,23 @@
     "start": "2026-11-14T10:00:00-07:00",
     "end": "2026-11-14T11:00:00-07:00",
     "allDay": false,
-    "venue": "The Village at Meridian",
+    "venue": "The Village",
     "venueKey": "the-village",
     "city": "Meridian",
-    "category": "community-civic",
+    "category": "holiday-seasonal",
     "tags": [
       "free-admission",
       "holiday-event"
     ],
     "size": "M",
     "costTier": "free",
-    "url": "https://www.thevillageatmeridian.com/event/45344-cozy-little-bookworms",
-    "description": "​Snuggle up, slow down, and enjoy a little fall fun!Join us for a cozy morning designed for our littlest bookworms. Little ones can explore a selection of fall books, enjoy a simple book-themed craft, and have relaxed playtime in our cozy reading area filled with blankets and stuffed animals.​Par...",
+    "url": "https://boisemom.com/event/cozy-little-bookworms/",
+    "description": "​Snuggle up, slow down, and enjoy a little fall fun! Join us for a cozy morning designed for our littlest bookworms. Little ones can explore a selection of fall books, enjoy a simple book-themed craft, and have relaxed playtime in our cozy reading area filled with blankets and stuffed animals. ​P...",
     "sources": [
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/cozy-little-bookworms/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      },
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/45344-cozy-little-bookworms",
-        "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
   },
@@ -10303,6 +10199,30 @@
     ]
   },
   {
+    "id": "707f933962ce",
+    "title": "College of Idaho Women's Volleyball vs TBD - CCC CHAMPIONSHIP",
+    "start": "2026-11-14T15:00:00-07:00",
+    "end": "2026-11-14T17:00:00-07:00",
+    "allDay": false,
+    "venue": "J.A. Albertson Activities Center",
+    "venueKey": "j-a-albertson-activities-center",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "M",
+    "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8693&sport_id=19",
+    "description": "Streaming Video: https://urbanedgenetwork.net/",
+    "sources": [
+      {
+        "name": "college-of-idaho-athletics",
+        "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8693&sport_id=19",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "f68ca7ddb890",
     "title": "Adults on the Spectrum at Chit’s and Chat’s",
     "start": "2026-11-14T15:00:00-07:00",
@@ -10395,6 +10315,28 @@
     ]
   },
   {
+    "id": "83ec9a3f69ea",
+    "title": "Saturday Recovery Dharma Meeting",
+    "start": "2026-11-14T16:30:00-07:00",
+    "end": "2026-11-14T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317137965/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317137965/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "280fffa97646",
     "title": "Independence Slay: Murder Mystery Dinner Party",
     "start": "2026-11-14T17:00:00-07:00",
@@ -10413,6 +10355,31 @@
         "name": "mountain-home-library",
         "url": "https://mhlibrary.libcal.com/event/17832255",
         "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "abbb5060d35b",
+    "title": "Parents’ Night Out – Heros and Ninjas",
+    "start": "2026-11-14T17:00:00-07:00",
+    "end": "2026-11-14T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Bodies In Motion",
+    "venueKey": "bodies-in-motion",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://boisemom.com/event/parents-night-out-heros-and-ninjas/",
+    "description": "Heroes & Ninjas – Parents’ Night Out Capes, masks and ninja moves! Kids dress as heroes or ninjas for a themed evening of play, games, pizza and a sweet treat while you enjoy a kidless night out.",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/parents-night-out-heros-and-ninjas/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -11044,6 +11011,28 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-15/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "3d32549269df",
+    "title": "Sunday Recovery Dharma Book Study",
+    "start": "2026-11-15T09:00:00-07:00",
+    "end": "2026-11-15T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317146369/",
+    "description": "This meeting focuses on readings from the Recovery Dharma book. Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddh...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317146369/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -11763,6 +11752,30 @@
     ]
   },
   {
+    "id": "a03c0bfdf044",
+    "title": "Baby Storytime 1, 2, & 3",
+    "start": "2026-11-16T10:00:00-07:00",
+    "end": "2026-11-16T12:15:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell Public Library",
+    "venueKey": "caldwell-public-library",
+    "city": "Caldwell",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-16-10-00",
+    "description": "Baby Storytime 1: 10am-–10:45am Baby Storytime 2: 10:45am–11:30am Baby Storytime 3: 11:30am–12:15pm",
+    "sources": [
+      {
+        "name": "caldwell-public-library",
+        "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-16-10-00",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "f11d2663d0f3",
     "title": "Homeschool Days at the Discovery Center of Idaho",
     "start": "2026-11-16T10:00:00-07:00",
@@ -12428,6 +12441,28 @@
     ]
   },
   {
+    "id": "f8f3681eac40",
+    "title": "Monday Recovery Dharma Meeting - Buddhist Topic Meeting",
+    "start": "2026-11-16T18:00:00-07:00",
+    "end": "2026-11-16T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317169289/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigating a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your recovery process. No experience...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317169289/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "335875a9dd10",
     "title": "Kung Fu Training",
     "start": "2026-11-16T18:30:00-07:00",
@@ -12694,6 +12729,28 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-17/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "175014250f82",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-11-17T09:00:00-07:00",
+    "end": "2026-11-17T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/317175974/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/317175974/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -14113,6 +14170,28 @@
     ]
   },
   {
+    "id": "2899df886558",
+    "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+    "start": "2026-11-17T18:15:00-07:00",
+    "end": "2026-11-17T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Black Bear Diner Boise - Entertainment Ave",
+    "venueKey": "black-bear-diner-boise-entertainment-ave",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317183935/",
+    "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+    "sources": [
+      {
+        "name": "meetup-d15toastmasters-meet-up-group",
+        "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317183935/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "04872e6be4cd",
     "title": "Kung Fu Training",
     "start": "2026-11-17T18:30:00-07:00",
@@ -14842,6 +14921,30 @@
     ]
   },
   {
+    "id": "f0b5d27bbca8",
+    "title": "Hidden Springs Branch Library - Dry Creek Writers Group",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T12:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Hidden Springs Branch",
+    "venueKey": "ada-community-library-hidden-springs-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/ada-community-library/events/317272530/",
+    "description": "Dry Creek Writers Group encourages and supports fellow writers in a fun, relaxed atmosphere (publishing goals optional). Would you like to preserve family stories, journal life lessons and travels, or share memorable occasions? Join us monthly for creative activities designed to keep you writing!...",
+    "sources": [
+      {
+        "name": "meetup-ada-community-library",
+        "url": "https://www.meetup.com/ada-community-library/events/317272530/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "fd6714760fd0",
     "title": "Toddler Storytime | Bown Library!",
     "start": "2026-11-18T10:30:00-07:00",
@@ -15552,6 +15655,28 @@
         "name": "meetup-boisegdg",
         "url": "https://www.meetup.com/boisegdg/events/316173893/",
         "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "203ed91553aa",
+    "title": "Wednesday Recovery Dharma Meeting",
+    "start": "2026-11-18T17:30:00-07:00",
+    "end": "2026-11-18T18:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317198716/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317198716/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -19181,6 +19306,28 @@
     "city": "Boise"
   },
   {
+    "id": "5262eba062ca",
+    "title": "Buckhorn Vineyards – Paint and Sip Class",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Idaho wineries",
+    "venueKey": "idaho-wineries",
+    "city": "Other",
+    "category": "food-drink",
+    "tags": [],
+    "size": "S",
+    "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class/",
+    "description": "Home @ Paint and Sip Class Hosted by Angry Easel on Friday, November, 20th from 6:00PM to 8:30PM. Click here for tickets.",
+    "sources": [
+      {
+        "name": "idaho-wine-commission",
+        "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "ad2c8c6b8426",
     "title": "Festival of Trees - Rockin' Around the Christmas Tree Dance",
     "start": "2026-11-20T18:00:00-07:00",
@@ -19637,6 +19784,30 @@
     ]
   },
   {
+    "id": "6b9101868356",
+    "title": "Level I Backpacking Training Hike with John: Boise Foothills",
+    "start": "2026-11-21T08:00:00-07:00",
+    "end": "2026-11-21T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Military Reserve",
+    "venueKey": "military-reserve",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "hike"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317284553/",
+    "description": "Join us for a level 1 backpack training hike. ### What is a training hike? A training hike is a purposeful outing designed to prepare you for backpacking. These hikes help you safely build endurance, strength, and confidence on the trail while getting used to hiking with a pack. For each training...",
+    "sources": [
+      {
+        "name": "meetup-idaho-hikers-backpackers",
+        "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317284553/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "0a7c0806fc2f",
     "title": "Home Depot Kids’ Workshop: Christmas Car",
     "start": "2026-11-21T09:00:00-07:00",
@@ -19954,28 +20125,23 @@
     "start": "2026-11-21T10:00:00-07:00",
     "end": "2026-11-21T11:00:00-07:00",
     "allDay": false,
-    "venue": "The Village at Meridian",
+    "venue": "The Village",
     "venueKey": "the-village",
     "city": "Meridian",
-    "category": "community-civic",
+    "category": "holiday-seasonal",
     "tags": [
       "free-admission",
       "holiday-event"
     ],
     "size": "M",
     "costTier": "free",
-    "url": "https://www.thevillageatmeridian.com/event/45346-gratitude-goodies",
-    "description": "​A cozy morning filled with sweet treats, little moments, and lots to be thankful for.​Join us for a slightly more elevated fall experience where parents and little ones can slow down and enjoy time together. Sip on coffee or apple cider, enjoy seasonal goodies, create a gratitude-themed craft, a...",
+    "url": "https://boisemom.com/event/gratitude-goodies/",
+    "description": "​A cozy morning filled with sweet treats, little moments, and lots to be thankful for. ​Join us for a slightly more elevated fall experience where parents and little ones can slow down and enjoy time together. Sip on coffee or apple cider, enjoy seasonal goodies, create a gratitude-themed craft,...",
     "sources": [
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/gratitude-goodies/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      },
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/45346-gratitude-goodies",
-        "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
   },
@@ -20847,6 +21013,28 @@
     ]
   },
   {
+    "id": "a95e12d22c03",
+    "title": "Saturday Recovery Dharma Meeting",
+    "start": "2026-11-21T16:30:00-07:00",
+    "end": "2026-11-21T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317246119/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317246119/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "437149ef7494",
     "title": "Did Therapy Make You Need Therapy?",
     "start": "2026-11-21T17:00:00-07:00",
@@ -21410,6 +21598,28 @@
     ]
   },
   {
+    "id": "8ca934c4e7d3",
+    "title": "Sunday Recovery Dharma Book Study",
+    "start": "2026-11-22T09:00:00-07:00",
+    "end": "2026-11-22T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317255502/",
+    "description": "This meeting focuses on readings from the Recovery Dharma book. Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddh...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317255502/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "6fc443ffbe2c",
     "title": "Let's drink some coffee and talk about our spiritual experiences!",
     "start": "2026-11-22T09:30:00-07:00",
@@ -21962,6 +22172,32 @@
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/eagle-country-christmas-6073",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "5c5751d53dc7",
+    "title": "Thanksgiving Break Camp",
+    "start": "2026-11-23T09:00:00-07:00",
+    "end": "2026-11-25T15:00:00-07:00",
+    "allDay": false,
+    "venue": "Bodies In Motion",
+    "venueKey": "bodies-in-motion",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "holiday-event",
+      "kids"
+    ],
+    "size": "M",
+    "costTier": "$",
+    "url": "https://boisemom.com/event/thanksgiving-break-camp-2/",
+    "description": "Thanksgiving Break Camp Thanksgiving Break Camp is packed with festive fun! 🦃🍂 Campers will search for hidden treasures, race through a Turkey Trot Obstacle Course, and team up for holiday-themed games and challenges like the Feather Frenzy Team Challenge. It’s a day full of movement, teamwork,...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/thanksgiving-break-camp-2/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -22707,6 +22943,28 @@
     ]
   },
   {
+    "id": "376a6acdb1d4",
+    "title": "Monday Recovery Dharma Meeting - Buddhist Topic Meeting",
+    "start": "2026-11-23T18:00:00-07:00",
+    "end": "2026-11-23T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317279083/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigating a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your recovery process. No experience...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317279083/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "93df11c225c8",
     "title": "Hand Build Ceramic Pumpkins",
     "start": "2026-11-23T18:00:00-07:00",
@@ -22924,6 +23182,28 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-24/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "53eae6000105",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-11-24T09:00:00-07:00",
+    "end": "2026-11-24T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/317285471/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/317285471/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -23984,6 +24264,28 @@
     "city": "Garden City"
   },
   {
+    "id": "84ebade4837c",
+    "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+    "start": "2026-11-24T18:15:00-07:00",
+    "end": "2026-11-24T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Black Bear Diner Boise - Entertainment Ave",
+    "venueKey": "black-bear-diner-boise-entertainment-ave",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317293100/",
+    "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+    "sources": [
+      {
+        "name": "meetup-d15toastmasters-meet-up-group",
+        "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317293100/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "0fe19565f342",
     "title": "HALO Teen Meetup",
     "start": "2026-11-24T18:30:00-07:00",
@@ -24784,6 +25086,28 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/christmas-in-color-2/2026-11-25/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "67447133e99a",
+    "title": "Wednesday Recovery Dharma Meeting",
+    "start": "2026-11-25T17:30:00-07:00",
+    "end": "2026-11-25T18:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317307282/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317307282/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -26137,28 +26461,6 @@
       }
     ],
     "city": "Boise"
-  },
-  {
-    "id": "726bd23c72a7",
-    "title": "Santa's Reindeer with Corbin Maxey",
-    "start": "2026-11-27T10:00:00-07:00",
-    "end": "2026-11-27T12:00:00-07:00",
-    "allDay": false,
-    "venue": "The Village at Meridian",
-    "venueKey": "the-village",
-    "city": "Meridian",
-    "category": "community-civic",
-    "tags": [],
-    "size": "M",
-    "url": "https://www.thevillageatmeridian.com/event/33172-santa-reindeer-with-corbin-maxey",
-    "description": "Get up-close and personal with live reindeer, with none other than nationally recognized animal expert Corbin Maxey! Join us on Big Al’s Patio for this interactive experience on November 27th from 10AM-12PM",
-    "sources": [
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/33172-santa-reindeer-with-corbin-maxey",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
   },
   {
     "id": "7816fbc7a173",
@@ -30366,6 +30668,28 @@
     ]
   },
   {
+    "id": "1bf9a72a734b",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-12-01T09:00:00-07:00",
+    "end": "2026-12-01T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbcb/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbcb/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "b48e8ac1481b",
     "title": "Fit and Fall Proof",
     "start": "2026-12-01T09:15:00-07:00",
@@ -31566,6 +31890,28 @@
         "name": "meetup-meetup-group-nsdbawui",
         "url": "https://www.meetup.com/meetup-group-nsdbawui/events/315793667/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "8e22bd9687b6",
+    "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+    "start": "2026-12-01T18:15:00-07:00",
+    "end": "2026-12-01T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Black Bear Diner Boise - Entertainment Ave",
+    "venueKey": "black-bear-diner-boise-entertainment-ave",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbcb/",
+    "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+    "sources": [
+      {
+        "name": "meetup-d15toastmasters-meet-up-group",
+        "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbcb/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -33569,12 +33915,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-12-03/",
+    "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-12-03/",
     "description": "Join us every Thursday at 10:30 AM for this kindergarten readiness storytime and craft! This storytime is designed for children ages 3-5 and their caregiver.",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-12-03/",
+        "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-12-03/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -34035,12 +34381,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
+    "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
     "description": "Join us after school for a variety of video games! Ages 12-17.",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
+        "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -35880,6 +36226,29 @@
     ]
   },
   {
+    "id": "4fe694fd79fb",
+    "title": "Curbside Books pop-up at Primitive Grounds",
+    "start": "2026-12-04T17:00:00-07:00",
+    "end": "2026-12-04T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Primitive Grounds",
+    "venueKey": "primitive-grounds",
+    "city": "Meridian",
+    "category": "markets-shopping",
+    "tags": [],
+    "size": "M",
+    "costTier": "free",
+    "url": "https://www.curbsidebooks.com/pages/events",
+    "description": "Trolley Parton pulls up at Primitive Grounds in Meridian with a fresh shelf of books to browse over a cup of coffee.",
+    "sources": [
+      {
+        "name": "curbside-books",
+        "url": "https://www.curbsidebooks.com/pages/events",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "690dba6bf36a",
     "title": "Lost in Christmas A Walk-Through Light Maze",
     "start": "2026-12-04T17:00:00-07:00",
@@ -37641,6 +38010,34 @@
         "name": "boise-state-arts",
         "url": "https://events.boisestate.edu/event/senior-recital-emily-kline-flute",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "0f11fc5f2434",
+    "title": "Tuba Christmas 2026",
+    "start": "2026-12-05T16:00:00-07:00",
+    "end": "2026-12-05T17:00:00-07:00",
+    "allDay": false,
+    "venue": "The Grove Plaza",
+    "venueKey": "the-grove-plaza",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "concert",
+      "family-friendly",
+      "free-admission",
+      "holiday-event"
+    ],
+    "size": "M",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/tuba-christmas-2026/",
+    "description": "Boise’s Tuba Christmas has been an ongoing community gathering of tuba and euphonium musicians since 1992. Members of this unique ensemble include student musicians from local high schools, middle schools, colleges/universities and adult musicians from various professions. It is truly a Boise tra...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/tuba-christmas-2026/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -39578,6 +39975,28 @@
     ]
   },
   {
+    "id": "ff79c9b8ac60",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-12-08T09:00:00-07:00",
+    "end": "2026-12-08T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqblb/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqblb/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "7272afdf39d1",
     "title": "Idaho Department of Labor",
     "start": "2026-12-08T09:30:00-07:00",
@@ -40561,6 +40980,28 @@
     ]
   },
   {
+    "id": "864c37b336b9",
+    "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+    "start": "2026-12-08T18:15:00-07:00",
+    "end": "2026-12-08T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Black Bear Diner Boise - Entertainment Ave",
+    "venueKey": "black-bear-diner-boise-entertainment-ave",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqblb/",
+    "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+    "sources": [
+      {
+        "name": "meetup-d15toastmasters-meet-up-group",
+        "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqblb/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "3e4e09877e2c",
     "title": "GENTRI Christmas 2026",
     "start": "2026-12-08T19:00:00-07:00",
@@ -40630,12 +41071,12 @@
     "category": "nightlife-social",
     "tags": [],
     "size": "S",
-    "url": "https://www.meetup.com/plug-in-boise/events/sbqsxtyjcqblb/",
+    "url": "https://www.meetup.com/plug-in-boise/events/317358076/",
     "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
     "sources": [
       {
         "name": "meetup-plug-in-boise",
-        "url": "https://www.meetup.com/plug-in-boise/events/sbqsxtyjcqblb/",
+        "url": "https://www.meetup.com/plug-in-boise/events/317358076/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -42723,6 +43164,28 @@
         "name": "gem-county-chamber",
         "url": "https://business.emmettidaho.com/events/details/shotokan-karate-12-10-2026-16550",
         "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "db00710aa13e",
+    "title": "Buckhorn Vineyards – Paint and Sip",
+    "start": "2026-12-10T18:00:00-07:00",
+    "end": "2026-12-10T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Idaho wineries",
+    "venueKey": "idaho-wineries",
+    "city": "Other",
+    "category": "food-drink",
+    "tags": [],
+    "size": "S",
+    "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip/",
+    "description": "Home @ Hosted by Loretta Barra on Thursday, December, 10th from 6:00PM to 8:30PM. Click here for tickets.",
+    "sources": [
+      {
+        "name": "idaho-wine-commission",
+        "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -45079,6 +45542,30 @@
     ]
   },
   {
+    "id": "106b2b53a450",
+    "title": "Buckhorn Vineyards – Live Music",
+    "start": "2026-12-12T14:00:00-07:00",
+    "end": "2026-12-12T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Idaho wineries",
+    "venueKey": "idaho-wineries",
+    "city": "Other",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "url": "https://idahowines.org/event/buckhorn-vineyards-live-music/",
+    "description": "Home @ Good Time Charlie will be playing in the Tasting Room Saturday, December, 12th from 2:00PM to 5:00PM. Click here for tickets.",
+    "sources": [
+      {
+        "name": "idaho-wine-commission",
+        "url": "https://idahowines.org/event/buckhorn-vineyards-live-music/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "39a849bb8662",
     "title": "Saturday Board Games at Flying M Coffee Garage",
     "start": "2026-12-12T14:00:00-07:00",
@@ -46794,28 +47281,6 @@
     ]
   },
   {
-    "id": "03ca3eda2c00",
-    "title": "Light The World",
-    "start": "2026-12-15",
-    "end": "2026-12-31",
-    "allDay": true,
-    "venue": "The Village at Meridian",
-    "venueKey": "the-village",
-    "city": "Meridian",
-    "category": "community-civic",
-    "tags": [],
-    "size": "M",
-    "url": "https://www.thevillageatmeridian.com/event/45779-light-the-world",
-    "description": "Light the World Giving Machine: Make a Local Impact This Christmas SeasonVisit the Light the World Giving Machine, coming to The Village at Meridian: December 15th - 31stThe Light the World Giving Machine is a unique, charitable vending machine initiative that allows people to purchase donations...",
-    "sources": [
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/45779-light-the-world",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
     "id": "4b0ee5154141",
     "title": "Free 4×6 Santa Photo | Cabela’s Boise",
     "start": "2026-12-15",
@@ -46861,6 +47326,28 @@
         "name": "city-of-boise",
         "url": "https://www.cityofboise.org/events/city-council/2026/december/city-council-strategic-planning-session/",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "21ba04ec4e63",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-12-15T09:00:00-07:00",
+    "end": "2026-12-15T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbtb/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbtb/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -47777,6 +48264,28 @@
     ]
   },
   {
+    "id": "9c3e7734c021",
+    "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+    "start": "2026-12-15T18:15:00-07:00",
+    "end": "2026-12-15T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Black Bear Diner Boise - Entertainment Ave",
+    "venueKey": "black-bear-diner-boise-entertainment-ave",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbtb/",
+    "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+    "sources": [
+      {
+        "name": "meetup-d15toastmasters-meet-up-group",
+        "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbtb/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "3b89fbea7ed9",
     "title": "Save Ferris",
     "start": "2026-12-15T19:00:00-07:00",
@@ -48657,6 +49166,26 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/pajama-storytime-downtown-library-2/2026-12-16/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "a8843545e446",
+    "title": "Velnias",
+    "start": "2026-12-16T18:30:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "url": "https://link.dice.fm/c0270ca02d3e",
+    "sources": [
+      {
+        "name": "shrine-social-club",
+        "url": "https://link.dice.fm/c0270ca02d3e",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -51413,6 +51942,28 @@
     "city": "Boise"
   },
   {
+    "id": "c29ff9235aa4",
+    "title": "Buckhorn Vineyards – Paint and Sip Class",
+    "start": "2026-12-19T13:00:00-07:00",
+    "end": "2026-12-19T15:30:00-07:00",
+    "allDay": false,
+    "venue": "Idaho wineries",
+    "venueKey": "idaho-wineries",
+    "city": "Other",
+    "category": "food-drink",
+    "tags": [],
+    "size": "S",
+    "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class-2/",
+    "description": "Home @ Hosted by Angry Easel on Sautrday, December, 19th from 1:00PM to 3:30PM. Click here for tickets.",
+    "sources": [
+      {
+        "name": "idaho-wine-commission",
+        "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class-2/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "efbbb6e3548d",
     "title": "Chess Club",
     "start": "2026-12-19T13:00:00-07:00",
@@ -52037,7 +52588,7 @@
       },
       {
         "name": "ticketmaster-metro",
-        "url": "https://www.ticketweb.com/event/emo-nite-knitting-factory-boise-tickets/14402084",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7gr4",
         "fetchedAt": "2026-11-03T17:00:01Z"
       }
     ],
@@ -53255,6 +53806,28 @@
     ]
   },
   {
+    "id": "366389fee497",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-12-22T09:00:00-07:00",
+    "end": "2026-12-22T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbdc/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbdc/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "9721089e1048",
     "title": "Idaho Department of Labor",
     "start": "2026-12-22T09:30:00-07:00",
@@ -53913,6 +54486,28 @@
         "name": "meetup-meetup-group-nsdbawui",
         "url": "https://www.meetup.com/meetup-group-nsdbawui/events/315793670/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "03a3f93da980",
+    "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+    "start": "2026-12-22T18:15:00-07:00",
+    "end": "2026-12-22T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Black Bear Diner Boise - Entertainment Ave",
+    "venueKey": "black-bear-diner-boise-entertainment-ave",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbdc/",
+    "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+    "sources": [
+      {
+        "name": "meetup-d15toastmasters-meet-up-group",
+        "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbdc/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -57167,6 +57762,28 @@
     ]
   },
   {
+    "id": "e51d825280b0",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-12-29T09:00:00-07:00",
+    "end": "2026-12-29T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbmc/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbmc/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "c28ed879bacd",
     "title": "Idaho Department of Labor",
     "start": "2026-12-29T09:30:00-07:00",
@@ -57696,6 +58313,28 @@
     ]
   },
   {
+    "id": "b518f3a6ac62",
+    "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+    "start": "2026-12-29T18:15:00-07:00",
+    "end": "2026-12-29T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Black Bear Diner Boise - Entertainment Ave",
+    "venueKey": "black-bear-diner-boise-entertainment-ave",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbmc/",
+    "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+    "sources": [
+      {
+        "name": "meetup-d15toastmasters-meet-up-group",
+        "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbmc/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "4b8caa02237c",
     "title": "Boise State University Men's Basketball vs Lamar",
     "start": "2026-12-29T19:00:00-07:00",
@@ -58103,12 +58742,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/teens-new-years-vision-boards-2/",
+    "url": "https://boisemom.com/event/teens-new-years-vision-boards/",
     "description": "Create a vision board for the New Year! Location: Library Corner",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/teens-new-years-vision-boards-2/",
+        "url": "https://boisemom.com/event/teens-new-years-vision-boards/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -59443,6 +60082,28 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-01-2027-4825",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "6ad8fd2240c1",
+    "title": "McCall Snowshoeing",
+    "start": "2027-01-02T07:45:00-07:00",
+    "end": "2027-01-02T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Ten mile Park and Ride",
+    "venueKey": "ten-mile-park-and-ride",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317359388/",
+    "description": "Come join me and my wife Samantha; celebrate my birthday with our first snowshoe of the year in McCall. I plan to bring my snowshoes and [Ski Pulk made in Minnesota-](https://skipulk.com/)- you can try it out if you want. We will head up to the [Goose Creek Falls trail ](https://www.alltrails.com...",
+    "sources": [
+      {
+        "name": "meetup-idaho-hikers-backpackers",
+        "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317359388/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -82228,6 +82889,29 @@
     ]
   },
   {
+    "id": "0f78a39ac188",
+    "title": "Bryce Crawford: Not Your Average Jesus Tour",
+    "start": "2027-03-16T19:00:00-06:00",
+    "allDay": false,
+    "venue": "Morrison Center for the Performing Arts",
+    "venueKey": "morrison-center-for-the-performing-arts",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "L",
+    "url": "https://www.ticketmaster.com/bryce-crawford-not-your-average-jesus-boise-idaho-03-16-2027/event/1E00655DE7969C84",
+    "description": "-All seats are reserved. -Everyone through the door, regardless of age, requires a ticket. -Guests who arrive late will be seated at the discretion of Management. -The Morrison Center reserves the right to search all bags. -Clutches or purses no larger than 14×14 are permitted. -Large purses, tot...",
+    "sources": [
+      {
+        "name": "morrison-center",
+        "url": "https://www.ticketmaster.com/bryce-crawford-not-your-average-jesus-boise-idaho-03-16-2027/event/1E00655DE7969C84",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "7406e334376e",
     "title": "Hans Williams",
     "start": "2027-03-16T19:00:00-06:00",
@@ -82244,6 +82928,29 @@
         "name": "shrine-social-club",
         "url": "https://link.dice.fm/Jfcd5ec36c23",
         "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "e0d732a7e771",
+    "title": "Bryce Crawford Pre-Show Q&A - Event Ticket Required -Must arrive early",
+    "start": "2027-03-16T19:00:00-06:00",
+    "allDay": false,
+    "venue": "Morrison Center for the Performing Arts",
+    "venueKey": "morrison-center-for-the-performing-arts",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "L",
+    "url": "https://www.ticketmaster.com/bryce-crawford-preshow-qa-event-ticket-boise-idaho-03-16-2027/event/1E00655EA3424928",
+    "description": "Pre-Show Q&A Add-On includes early entry to the venue, an exclusive hour with Bryce featuring a photo opportunity, and first access to merchandise. Pre-Show Q&A Add-On doors open at 4:00 PM, and the show starts at 7:00 PM. Pre-Show Q&A Add-On ticket holders must arrive by 4:15 PM to take advantag...",
+    "sources": [
+      {
+        "name": "morrison-center",
+        "url": "https://www.ticketmaster.com/bryce-crawford-preshow-qa-event-ticket-boise-idaho-03-16-2027/event/1E00655EA3424928",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -83855,6 +84562,35 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-24-2027-4636",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "457c10bb4983",
+    "title": "GRIEVES - OUT COLD TOUR 5 with Horrorshow and Street Sweepers",
+    "start": "2027-03-24T20:00:00-06:00",
+    "allDay": false,
+    "venue": "9th St. Parallel at Knitting Factory",
+    "venueKey": "9th-st-parallel-at-knitting-factory",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$$",
+    "url": "https://www.ticketweb.com/event/grieves-out-cold-9th-st-parallel-at-knitting-tickets/14425514",
+    "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event.",
+    "sources": [
+      {
+        "name": "ninth-st-parallel",
+        "url": "https://www.ticketweb.com/event/grieves-out-cold-9th-st-parallel-at-knitting-tickets/14425514",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      },
+      {
+        "name": "ticketmaster-metro",
+        "url": "https://www.ticketweb.com/event/grieves-out-cold-9th-st-parallel-at-knitting-tickets/14425514",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -87555,6 +88291,28 @@
     ]
   },
   {
+    "id": "5fa450de02e6",
+    "title": "Hells Canyon Snake River Trail — 4-Day Backpacking Trip",
+    "start": "2027-04-10T06:00:00-06:00",
+    "end": "2027-04-13T15:00:00-06:00",
+    "allDay": false,
+    "venue": "Idaho Hikers & Backpackers - Where Friends and Nature Meet",
+    "venueKey": "idaho-hikers-and-backpackers-where-friends-and-nature-meet",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/idaho-hikers-backpackers/events/315781260/",
+    "description": "Join us for an unforgettable 4-day, 3-night backpacking trip along the [famous Snake River Trail in Hells Canyon](https://www.backpacker.com/trips/trek-hells-canyon-deepest-canyon/), the deepest river gorge in North America. October is one of the best times to visit Hells Canyon: cooler hiking te...",
+    "sources": [
+      {
+        "name": "meetup-idaho-hikers-backpackers",
+        "url": "https://www.meetup.com/idaho-hikers-backpackers/events/315781260/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
     "id": "b031c43a65bb",
     "title": "OLD BOISE MODEL RAILROAD",
     "start": "2027-04-10T09:00:00-06:00",
@@ -88975,7 +89733,7 @@
     "tags": [],
     "size": "M",
     "url": "https://runsignup.com/Race/ID/Boise/RacetoRobieCreek",
-    "description": "Join us for our next Race on Saturday, April 17, 2027 at high noon (MT). If you have questions, please check out the Frequently Asked Questions & Race Details tabs.",
+    "description": "Join us for the next Race to Robie Creek® on Saturday, April 17, 2027 at high noon (MT). Registration begins on Monday, February 15, 2027 at noon (MT). If you have questions, please check out the Frequently Asked Questions & Race Details tabs.",
     "sources": [
       {
         "name": "race-to-robie-creek",
@@ -89730,6 +90488,26 @@
         "name": "visit-mccall",
         "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "6fc5e4418658",
+    "title": "Rec Hall",
+    "start": "2027-04-20T19:00:00-06:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "url": "https://link.dice.fm/d60e94cf88f9",
+    "sources": [
+      {
+        "name": "shrine-social-club",
+        "url": "https://link.dice.fm/d60e94cf88f9",
+        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -92982,6 +93760,161 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-05-07-2027-4843",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "eb99139f0fb4",
+    "title": "OLD BOISE MODEL RAILROAD",
+    "start": "2027-05-08T09:00:00-06:00",
+    "end": "2027-05-08T14:00:00-06:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "category": "community-civic",
+    "tags": [
+      "family-friendly",
+      "free-admission"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/old-boise-model-railroad-2/2027-05-08/",
+    "description": "WE ARE OPEN TUESDAYS AND SATURDAYS! At the corner of 6th & Main below Jimmy Johns in downtown Boise Regular Hours: Tuesday 5 pm-8 pm & Saturdays 9 am-2 pm THE OLD BOISE MODEL RAILROAD CLUB Welcome to the Old Boise Model Railroad! The railroad depicts scenes from across the Western U.S. and variou...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/old-boise-model-railroad-2/2027-05-08/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ],
+    "city": "Boise"
+  },
+  {
+    "id": "34d47fc79292",
+    "title": "Guided Walk-In Capitol Tours",
+    "start": "2027-05-08T10:30:00-06:00",
+    "end": "2027-05-08T12:00:00-06:00",
+    "allDay": false,
+    "venue": "Idaho State Capital",
+    "venueKey": "idaho-state-capital",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "free-admission",
+      "tour"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/guided-walk-in-capitol-tours/2027-05-08/",
+    "description": "Guided Walk-in Tours Guided tours, on a walk-in basis are available every Friday and Saturday at 10:30 am year-round, except major holidays (New Years Day, Christmas Day, 4th of July). Summer Tours: From June 1st to October 31st we will have extra guided tours, on a walk-in basis available every...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/guided-walk-in-capitol-tours/2027-05-08/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "98fd17618214",
+    "title": "The Dirt on Gardening",
+    "start": "2027-05-08T10:30:00-06:00",
+    "end": "2027-05-08T12:00:00-06:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-05-08-2027-1798",
+    "description": "Topics range from Veggie Gardens, Composting, Canning and much more! Check out the Star Library Calendar for more information https://adalib.org/whats-happening-at-the-library/",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-05-08-2027-1798",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "3916166ce1b8",
+    "title": "Santa at the Old Boise Pioneer Building",
+    "start": "2027-05-08T12:00:00-06:00",
+    "end": "2027-05-08T16:00:00-06:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "category": "holiday-seasonal",
+    "tags": [
+      "family-friendly",
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "M",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/santa-at-the-old-boise-pioneer-building/2027-05-08/",
+    "description": "Santa is visiting the Old Boise Pioneer building Saturday’s starting November 28th. It is free to check out the model railroad display in the basement of this building and this is always a fun Christmas event to swing by and appreciate!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/santa-at-the-old-boise-pioneer-building/2027-05-08/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ],
+    "city": "Boise"
+  },
+  {
+    "id": "705f4f4f0ca0",
+    "title": "Ballet Idaho presents Swan Lake",
+    "start": "2027-05-08T14:00:00-06:00",
+    "allDay": false,
+    "venue": "Morrison Center for the Performing Arts",
+    "venueKey": "morrison-center-for-the-performing-arts",
+    "city": "Boise",
+    "category": "performing-arts",
+    "tags": [
+      "dance"
+    ],
+    "size": "L",
+    "url": "https://www.ticketmaster.com/ballet-idaho-presents-swan-lake-boise-idaho-05-08-2027/event/1E0064C4CF86BCB4",
+    "description": "Set to Tchaikovsky's soaring and unforgettable score, Swan Lake is the ultimate classical ballet - a sweeping story of love, fate, betrayal, and transformation that has captivated audiences for generations. From the haunting elegance of Odette and the swans to the grandeur of the royal court, eve...",
+    "sources": [
+      {
+        "name": "boise-state-arts",
+        "url": "https://events.boisestate.edu/event/swan-lake-3836",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      },
+      {
+        "name": "morrison-center",
+        "url": "https://www.ticketmaster.com/ballet-idaho-presents-swan-lake-boise-idaho-05-08-2027/event/1E0064C4CF86BCB4",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ],
+    "end": "2027-05-08T16:00:00-06:00"
+  },
+  {
+    "id": "776ff7222d6e",
+    "title": "Dog Tales",
+    "start": "2027-05-08T14:00:00-06:00",
+    "end": "2027-05-08T15:00:00-06:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/dog-tales-star-library-05-08-2027-3620",
+    "description": "Come read a book to one of our furry library friends! Kids can improve their reading skills and confidence while reading to a registered therapy dog. Earn a dog related incentive each visit. No sign up required. All ages.",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/dog-tales-star-library-05-08-2027-3620",
         "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
