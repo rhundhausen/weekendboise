@@ -1742,7 +1742,7 @@
     {
       "name": "meetup-boise-real-estate-investors-meetup-group",
       "displayName": "GREATEST OPPORTUNITY IN REAL ESTATE IS NOW!  Idaho (Meetup)",
-      "status": "running",
+      "status": "ruled-out",
       "adapter": "meetup",
       "url": "https://www.meetup.com/boise-real-estate-investors-meetup-group/events/ical/",
       "robotsChecked": "2026-11-06",
@@ -1752,7 +1752,8 @@
       "venue": "GREATEST OPPORTUNITY IN REAL ESTATE IS NOW!  Idaho",
       "venueKey": "meetup-boise-real-estate-investors-meetup-group",
       "priority": 70,
-      "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
+      "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06",
+      "reason": "The group no longer exists: Meetup's page says the group doesn't exist and the iCal feed answers HTTP 404 (checked 2026-11-09). It never had an event"
     },
     {
       "displayName": "Guardian Estate Sales",
@@ -2125,6 +2126,13 @@
       "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-06)"
     },
     {
+      "displayName": "Meetup: boise-baby-boomers",
+      "url": "https://www.meetup.com/boise-baby-boomers/events/ical/",
+      "status": "ruled-out",
+      "robotsChecked": "2026-11-09",
+      "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-09)"
+    },
+    {
       "displayName": "Meetup: boise-d-d",
       "url": "https://www.meetup.com/boise-d-d/events/ical/",
       "status": "ruled-out",
@@ -2144,6 +2152,13 @@
       "status": "ruled-out",
       "robotsChecked": "2026-11-06",
       "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-06)"
+    },
+    {
+      "displayName": "Meetup: boise-photo-walk",
+      "url": "https://www.meetup.com/boise-photo-walk/events/ical/",
+      "status": "ruled-out",
+      "robotsChecked": "2026-11-09",
+      "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-09)"
     },
     {
       "displayName": "Meetup: boise-servicenow-user-group-snug-meetup",
@@ -2179,6 +2194,13 @@
       "status": "ruled-out",
       "robotsChecked": "2026-11-06",
       "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-06)"
+    },
+    {
+      "displayName": "Meetup: boisearearunners",
+      "url": "https://www.meetup.com/boisearearunners/events/ical/",
+      "status": "ruled-out",
+      "robotsChecked": "2026-11-09",
+      "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-09)"
     },
     {
       "displayName": "Meetup: boisepartypeople",
@@ -2223,6 +2245,13 @@
       "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-06)"
     },
     {
+      "displayName": "Meetup: institute-for-buddhist-studies",
+      "url": "https://www.meetup.com/institute-for-buddhist-studies/events/ical/",
+      "status": "ruled-out",
+      "robotsChecked": "2026-11-09",
+      "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-09)"
+    },
+    {
       "displayName": "Meetup: ladies-social-boise",
       "url": "https://www.meetup.com/ladies-social-boise/events/ical/",
       "status": "ruled-out",
@@ -2237,6 +2266,13 @@
       "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-06)"
     },
     {
+      "displayName": "Meetup: level-up-lounge-meridian",
+      "url": "https://www.meetup.com/level-up-lounge-meridian/events/ical/",
+      "status": "ruled-out",
+      "robotsChecked": "2026-11-09",
+      "reason": "The same group as meetup-boranloungecoffee-meridian under a second slug: on 2026-11-09 its iCal feed held the same 10 events, with event URLs under the boranloungecoffee-meridian slug, so reading it too would repeat them"
+    },
+    {
       "displayName": "Meetup: liberals-who-like-to-drink-and-occasionally-hike",
       "url": "https://www.meetup.com/liberals-who-like-to-drink-and-occasionally-hike/events/ical/",
       "status": "ruled-out",
@@ -2249,6 +2285,13 @@
       "status": "ruled-out",
       "robotsChecked": "2026-11-06",
       "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-06)"
+    },
+    {
+      "displayName": "Meetup: shus-idaho-running-company-meetup",
+      "url": "https://www.meetup.com/shus-idaho-running-company-meetup/events/ical/",
+      "status": "ruled-out",
+      "robotsChecked": "2026-11-09",
+      "reason": "The same group as meetup-idaho-running-company-meetup under a second slug: both iCal feeds carry the calendar name Idaho Running Company Meetup (checked 2026-11-09, 0 events in either), so the older slug stays running and this one is not read"
     },
     {
       "displayName": "Meetup: socialize-boise-1980-1995",
@@ -2291,6 +2334,13 @@
       "status": "ruled-out",
       "robotsChecked": "2026-11-06",
       "reason": "Private Meetup group: its iCal feed answers HTTP 403 without a member login (checked 2026-11-06)"
+    },
+    {
+      "displayName": "Meetup: ttrpg-in-parma",
+      "url": "https://www.meetup.com/ttrpg-in-parma/events/ical/",
+      "status": "ruled-out",
+      "robotsChecked": "2026-11-09",
+      "reason": "Its events are in Parma, which this site does not cover (the first event page's address is Parma, checked 2026-11-09), so the adapter would drop every event"
     },
     {
       "displayName": "Meetup: Wine-Etc-Boise",
@@ -5036,6 +5086,186 @@
       "venueKey": "meetup-yoga-love-boise-yoga-wellness-events",
       "priority": 70,
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
+    },
+    {
+      "name": "meetup-boiseinvestorgroup",
+      "displayName": "Boise Investor Group (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/boiseinvestorgroup/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Boise Investor Group",
+      "venueKey": "meetup-boiseinvestorgroup",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 8 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-d15toastmasters-meet-up-group",
+      "displayName": "Toastmasters District 15 Idaho Utah (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Toastmasters District 15 Idaho Utah",
+      "venueKey": "meetup-d15toastmasters-meet-up-group",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 8 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-healthy-fun-choices",
+      "displayName": "Healthy & Fun Choices (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/healthy-fun-choices/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Healthy & Fun Choices",
+      "venueKey": "meetup-healthy-fun-choices",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 10 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-idaho-hikers-backpackers",
+      "displayName": "Idaho Hikers & Backpackers - Where Friends and Nature Meet (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/idaho-hikers-backpackers/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Idaho Hikers & Backpackers - Where Friends and Nature Meet",
+      "venueKey": "meetup-idaho-hikers-backpackers",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 4 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-idaho-sierra-club",
+      "displayName": "Idaho Sierra Club (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/idaho-sierra-club/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Idaho Sierra Club",
+      "venueKey": "meetup-idaho-sierra-club",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-idahorealestate",
+      "displayName": "IDAHO REAL ESTATE MASTERMINDS (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/idahorealestate/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "IDAHO REAL ESTATE MASTERMINDS",
+      "venueKey": "meetup-idahorealestate",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-meetup-group-zqmonsnf",
+      "displayName": "Boise Note Closers Group (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/meetup-group-ZQMonSnF/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Boise Note Closers Group",
+      "venueKey": "meetup-meetup-group-zqmonsnf",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-meetup-group-djtnhrmk",
+      "displayName": "Zoom Room Dog Training (Boise) (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/meetup-group-djtnhrmk/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Zoom Room Dog Training (Boise)",
+      "venueKey": "meetup-meetup-group-djtnhrmk",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-propertydealnetwork",
+      "displayName": "Real Estate Investor Networking - Property Deal Network (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/propertydealnetwork/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Real Estate Investor Networking - Property Deal Network",
+      "venueKey": "meetup-propertydealnetwork",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 10 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-recoverydharmaboise",
+      "displayName": "Recovery Dharma Boise (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/recoverydharmaboise/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Recovery Dharma Boise",
+      "venueKey": "meetup-recoverydharmaboise",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 10 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-strive-networking",
+      "displayName": "Strive Networking (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/strive-networking/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Strive Networking",
+      "venueKey": "meetup-strive-networking",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 10 events in the feed on 2026-11-09"
+    },
+    {
+      "name": "meetup-treasure-valley-needle-arts-meetup",
+      "displayName": "Treasure Valley Needle Arts Meetup (Meetup)",
+      "status": "running",
+      "adapter": "meetup",
+      "url": "https://www.meetup.com/treasure-valley-needle-arts-meetup/events/ical/",
+      "robotsChecked": "2026-11-09",
+      "category": "nightlife-social",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Treasure Valley Needle Arts Meetup",
+      "venueKey": "meetup-treasure-valley-needle-arts-meetup",
+      "priority": 70,
+      "notes": "Meetup group, added 2026-11-09. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 10 events in the feed on 2026-11-09"
     },
     {
       "displayName": "Zoo Boise",
