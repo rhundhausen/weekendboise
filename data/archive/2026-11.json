@@ -8360,6 +8360,32 @@
     ]
   },
   {
+    "id": "7ceef2552330",
+    "title": "Free 4×6 Santa Photo | Cabela’s Boise",
+    "start": "2026-11-08",
+    "allDay": true,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-08/",
+    "description": "Choose your free photo appointment with Santa Appointments are available 1 week from the current day. All new appointments are released at 12:01 AM for the next available day. If all slots show UNAVAILABLE this means all bookings have been reserved for those dates and times. Please try again late...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-08/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
     "id": "5ff23a1f14ec",
     "title": "Idaho Reined Cow Horse Association",
     "start": "2026-11-08T08:00:00-07:00",
@@ -8559,6 +8585,31 @@
     ]
   },
   {
+    "id": "eed3c0a49834",
+    "title": "Mixed Greens Holiday Open House",
+    "start": "2026-11-08T10:00:00-07:00",
+    "end": "2026-11-08T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "city": "Other",
+    "category": "community-civic",
+    "tags": [
+      "holiday-event",
+      "public-meeting"
+    ],
+    "size": "S",
+    "url": "https://boisemom.com/event/mixed-greens-holiday-open-house/",
+    "description": "Our Holiday Open House is right around the corner! Join us Sunday November 8th from 10am-5pm for one of our favorite days of the year! 25% off the entire store (gift cards excluded), coffee, treats, free gift wrap with your purchased and lots of fun! Hope to see you there!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/mixed-greens-holiday-open-house/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
     "id": "a6b8265d35b5",
     "title": "Sunday Hike - Upper Hulls Gulch",
     "start": "2026-11-08T10:30:00-07:00",
@@ -8583,6 +8634,28 @@
     ]
   },
   {
+    "id": "69999d5063fa",
+    "title": "Game Day at Smoky’s",
+    "start": "2026-11-08T11:00:00-07:00",
+    "end": "2026-11-08T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Brundage Mountain",
+    "venueKey": "brundage-mountain",
+    "city": "Valley County",
+    "category": "outdoors-recreation",
+    "tags": [],
+    "size": "S",
+    "url": "https://brundage.com/event/game-day-at-smokys-2/2026-11-08/",
+    "description": "Football season is taking over Smoky’s this fall. Join us every Saturday and Sunday for Game Days at Smoky’s, with multiple games on the screens, game-day food and drinks, and plenty of reasons to settle in for an afternoon at the mountain! Come up to watch your team, keep an eye on a few games a...",
+    "sources": [
+      {
+        "name": "brundage-mountain",
+        "url": "https://brundage.com/event/game-day-at-smokys-2/2026-11-08/",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
     "id": "802d593e2709",
     "title": "Outdoor Pickleball @ Settlers Park 11 AM",
     "start": "2026-11-08T11:00:00-07:00",
@@ -8601,6 +8674,30 @@
         "name": "meetup-the-fun-seekers-connection",
         "url": "https://www.meetup.com/the-fun-seekers-connection/events/317258779/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "f555d5c35125",
+    "title": "Distillery Tour",
+    "start": "2026-11-08T11:00:00-07:00",
+    "end": "2026-11-08T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Bardenay Distilling Co.",
+    "venueKey": "bardenay-distilling-co",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "brewery"
+    ],
+    "size": "S",
+    "url": "https://www.bardenaydistilling.com/",
+    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.bardenaydistilling.com/",
+        "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
   },
@@ -8690,6 +8787,29 @@
       {
         "name": "meetup-nature-act-nature-journaling-workshops",
         "url": "https://www.meetup.com/nature-act-nature-journaling-workshops/events/316858299/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "1281a02d3b61",
+    "title": "Master Impressionist Painting",
+    "start": "2026-11-08T14:00:00-07:00",
+    "end": "2026-11-08T16:30:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317052541/",
+    "description": "An ongoing class where we practice painting in the style of impressionism. Ages 14+ Ongoing, biweekly Sundays, 2:00pm - 4:30pm. Beginner-intermediate level Attendees must register through this link: https://www.catalystartscollaborative.com/service-page/master-impressionist-painting-sun-2pm In th...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317052541/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -8785,6 +8905,389 @@
         "name": "boise-arts-history",
         "url": "https://www.boiseartsandhistory.org/calendar/event?key=project-flux-perspectives_20261108",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "d12e60a42683",
+    "title": "Beginner-Advanced Pottery Wheel Throwing (Multiple Days/Times Per Week)",
+    "start": "2026-11-08T15:30:00-07:00",
+    "end": "2026-11-08T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317053580/",
+    "description": "Work on the pottery wheel independently, with Cat staff instruction, or glaze your pieces! Ages 13+ Beginner-advanced; Ages 13+. (See “[Adults’ Beginner-Advanced Pottery Wheel](https://www.catalystartscollaborative.com/service-page/adults-beginner-advanced-pottery-wheel)” for an 18+ offering) Ses...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317053580/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "5692b89299a4",
+    "title": "Colossal Cinematic Showcase, November 8, 2026, Overland Park Cinemas",
+    "start": "2026-11-08T16:00:00-07:00",
+    "end": "2026-11-08T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "http://go.evvnt.com/3877634-2?pid=11493",
+    "description": "The Colossal Cinematic Showcase is a red carpet event featuring two hours of short films made primarily by local filmmakers shown on the big screen at Overland Park Cinemas (7051 W Overland Rd, Boise, ID 83709)! Following the films, attend the Colossal After Party to meet and mingle with the feat...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "http://go.evvnt.com/3877634-2?pid=11493",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "f2f90a5148b0",
+    "title": "The Audio Book & Podcast Club",
+    "start": "2026-11-08T16:00:00-07:00",
+    "end": "2026-11-08T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Syringa",
+    "venueKey": "syringa",
+    "city": "Nampa",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/nampa-climate-change-meetup-group/events/316929396/",
+    "description": "### The Audio Book & Podcast Club 🎧 This month’s discussion will be about the topic: The real trap of consumerism-from our changing climate podcast on YouTube! [https://youtu.be/aU0zQpxdUTE?is=5v4oYjaDDMW1Yp3B](https://youtu.be/aU0zQpxdUTE?is=5v4oYjaDDMW1Yp3B) Changing the world means changing t...",
+    "sources": [
+      {
+        "name": "meetup-nampa-climate-change-meetup-group",
+        "url": "https://www.meetup.com/nampa-climate-change-meetup-group/events/316929396/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "683044a4822e",
+    "title": "Tease Academy’s Winter Burlesque Series",
+    "start": "2026-11-08T16:15:00-07:00",
+    "end": "2026-11-08T18:15:00-07:00",
+    "allDay": false,
+    "venue": "Wear Haus",
+    "venueKey": "wear-haus",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "burlesque"
+    ],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.femmevonfollies.com/",
+    "description": "Everyone deserves a little sparkle and a whole lotta shimmy. Whether you're stage-curious or already practicing, all are welcome. Each week is themed, fabulous, and full of juicy tips from seasoned performers. Optional stage time Dec. 20th for the Student Showcase. 11/08 - Crowd Choreo Intensive...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.femmevonfollies.com/",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "3e808fe1b46c",
+    "title": "Modele Pre Goth Night Party",
+    "start": "2026-11-08T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/modele-pre-goth-night-party/",
+    "description": "Modele Pre Goth Night Party comes to Shrine Social Club on Sunday, November 8. Doors at 6 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/modele-pre-goth-night-party/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "42a3999d2914",
+    "title": "Boise International Short Film Festival",
+    "start": "2026-11-08T18:00:00-07:00",
+    "end": "2026-11-08T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Special Events Center",
+    "venueKey": "special-events-center",
+    "city": "Boise",
+    "category": "festivals",
+    "tags": [
+      "festival",
+      "film",
+      "free-admission"
+    ],
+    "size": "L",
+    "costTier": "free",
+    "url": "https://events.boisestate.edu/event/boise-international-short-film-festival",
+    "description": "The Film Program and the Cinema Club are excited to host the Boise International Short Film Festival (BISFF) on Sunday, November 8th, at 6:00 PM in the Special Events Center (SPEC) on the Boise State University campus. Admission is completely free and open to all faculty, staff, students, and com...",
+    "sources": [
+      {
+        "name": "boise-state-arts",
+        "url": "https://events.boisestate.edu/event/boise-international-short-film-festival",
+        "fetchedAt": "2026-11-03T23:26:24Z"
+      }
+    ]
+  },
+  {
+    "id": "c62648ad8669",
+    "title": "Modele",
+    "start": "2026-11-08T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "url": "https://link.dice.fm/Xe283367dcea",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/modele-pre-goth-night-party/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      },
+      {
+        "name": "shrine-social-club",
+        "url": "https://link.dice.fm/Xe283367dcea",
+        "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ],
+    "description": "Modele Pre Goth Night Party comes to Shrine Social Club on Sunday, November 8. Doors at 6 PM.",
+    "costTier": "$$"
+  },
+  {
+    "id": "1d388a6cafaf",
+    "title": "Roll On: Alabama Tribute",
+    "start": "2026-11-08T19:00:00-07:00",
+    "end": "2026-11-08T21:15:00-07:00",
+    "allDay": false,
+    "venue": "The Riverside Hotel",
+    "venueKey": "the-riverside-hotel",
+    "city": "Garden City",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "url": "https://sapphiresocietyboise.com/events/rollonnovember",
+    "sources": [
+      {
+        "name": "riverside-hotel",
+        "url": "https://sapphiresocietyboise.com/events/rollonnovember",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "2fbeb758ac2e",
+    "title": "Daily Bread",
+    "start": "2026-11-08T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Knitting Factory",
+    "venueKey": "knitting-factory",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "L",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZkQK",
+    "sources": [
+      {
+        "name": "knitting-factory-boise",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZkQK",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "ticketmaster-metro",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZkQK",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      },
+      {
+        "name": "visit-boise",
+        "url": "https://www.ticketsmarter.com/e/daily-bread-with-probcause-and-pheel-tickets-boise-11-8-2026-knitting-factory-concert-house-boise/3440516?utm_source=dmo&utm_medium=visitboise&utm_campaign=dailybreadwithprobcauseandpheel-3440516",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ],
+    "description": "Atlanta producer Daily Bread brings his Vanishing Point Tour to Boise, presenting a live electronic set shaped by warm soul textures, gritty hip-hop influence and bass-forward production. The tour centers on his album Vanishing Point, which Daily Bread describes as music inspired by sounds, place...",
+    "end": "2026-11-08T23:00:00-07:00"
+  },
+  {
+    "id": "4e23b952e37b",
+    "title": "CHIPPED NAIL POLISH , McKenna Esteb, Red Caroline",
+    "start": "2026-11-08T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Neurolux",
+    "venueKey": "neurolux",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.ticketweb.com/event/chipped-nail-polish-mckenna-neurolux-lounge-tickets/14375754",
+    "sources": [
+      {
+        "name": "neurolux",
+        "url": "https://www.ticketweb.com/event/chipped-nail-polish-mckenna-neurolux-lounge-tickets/14375754",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "ticketmaster-metro",
+        "url": "https://www.ticketweb.com/event/chipped-nail-polish-mckenna-neurolux-lounge-tickets/14375754",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      }
+    ]
+  },
+  {
+    "id": "5b6f02a49aa4",
+    "title": "Daily Bread - Vanishing Point Tour",
+    "start": "2026-11-08T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Knitting Factory",
+    "venueKey": "knitting-factory",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "L",
+    "costTier": "$$",
+    "url": "https://www.ticketweb.com/event/daily-bread-vanishing-knitting-factory-boise-tickets/14240384",
+    "description": "www.plus1.org // DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event. // Daily Bread Early Entry Package, Includes: One general admission ticket Early entry into the venue Special curated Vanishing Point VIP merch pack Co...",
+    "sources": [
+      {
+        "name": "knitting-factory-boise",
+        "url": "https://www.ticketweb.com/event/daily-bread-vanishing-knitting-factory-boise-tickets/14240384",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/daily-bread-vanishing-point-tour/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "ticketmaster-metro",
+        "url": "https://www.ticketweb.com/event/daily-bread-vanishing-knitting-factory-boise-tickets/14240384",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      }
+    ]
+  },
+  {
+    "id": "718c5d4afbc1",
+    "title": "L7 – The Last Hurrah Tour 2026 w/ NOBRO",
+    "start": "2026-11-08T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Treefort Music Hall",
+    "venueKey": "treefort-music-hall",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "url": "https://www.mikebrowngroup.com/event/l7-the-last-hurrah-tour-2026-w-nobro/",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/l7-the-last-hurrah-tour-2026-w-nobro/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "visit-boise",
+        "url": "https://www.ticketsmarter.com/e/l7-tickets-boise-11-8-2026-treefort-music-hall/3483114?utm_source=dmo&utm_medium=visitboise&utm_campaign=l7-3483114",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ],
+    "description": "L7 brings its punk-inflected alternative rock to Treefort Music Hall for a Boise stop on The Last Hurrah tour. Formed in Los Angeles, the band is known for a forceful guitar-driven sound, with Donita Sparks and Suzi Gardner on guitars and vocals and Dee Plakas on drums. Visitors can expect a live...",
+    "end": "2026-11-08T23:00:00-07:00"
+  },
+  {
+    "id": "a1b8105e212c",
+    "title": "Daily Bread with Probcause and Pheel",
+    "start": "2026-11-08T20:00:00-07:00",
+    "end": "2026-11-08T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Knitting Factory",
+    "venueKey": "knitting-factory",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "L",
+    "url": "https://www.ticketsmarter.com/e/daily-bread-with-probcause-and-pheel-tickets-boise-11-8-2026-knitting-factory-concert-house-boise/3440516?utm_source=dmo&utm_medium=visitboise&utm_campaign=dailybreadwithprobcauseandpheel-3440516",
+    "description": "Atlanta producer Daily Bread brings his Vanishing Point Tour to Boise, presenting a live electronic set shaped by warm soul textures, gritty hip-hop influence and bass-forward production. The tour centers on his album Vanishing Point, which Daily Bread describes as music inspired by sounds, place...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.ticketsmarter.com/e/daily-bread-with-probcause-and-pheel-tickets-boise-11-8-2026-knitting-factory-concert-house-boise/3440516?utm_source=dmo&utm_medium=visitboise&utm_campaign=dailybreadwithprobcauseandpheel-3440516",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "fc9cbb3a7835",
+    "title": "L7",
+    "start": "2026-11-08T20:00:00-07:00",
+    "end": "2026-11-08T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Treefort Music Hall",
+    "venueKey": "treefort-music-hall",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://www.ticketsmarter.com/e/l7-tickets-boise-11-8-2026-treefort-music-hall/3483114?utm_source=dmo&utm_medium=visitboise&utm_campaign=l7-3483114",
+    "description": "L7 brings its punk-inflected alternative rock to Treefort Music Hall for a Boise stop on The Last Hurrah tour. Formed in Los Angeles, the band is known for a forceful guitar-driven sound, with Donita Sparks and Suzi Gardner on guitars and vocals and Dee Plakas on drums. Visitors can expect a live...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.ticketsmarter.com/e/l7-tickets-boise-11-8-2026-treefort-music-hall/3483114?utm_source=dmo&utm_medium=visitboise&utm_campaign=l7-3483114",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "5a752719562d",
+    "title": "Goth Night",
+    "start": "2026-11-08T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "url": "https://link.dice.fm/a745c5b0cd42",
+    "sources": [
+      {
+        "name": "shrine-social-club",
+        "url": "https://link.dice.fm/a745c5b0cd42",
+        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   }
