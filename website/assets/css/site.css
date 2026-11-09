@@ -2,8 +2,9 @@
    - day: blue sky (#1D4ED8 to #7DD3FC), yellow sun (#FDE047), slate skyline (#1E3A5F)
    - sunset: pink to amber sky (#EC4899 to #F59E0B), navy skyline (#1E1B4B)
    - night: indigo sky (#020617 to #312E81), moon (#FDE68A), dark skyline (#0B0A2A) with lit windows
-   Day is the default. A script in baseof.html sets data-period to "sunset" from 6 PM to 9 PM and
-   "night" from 9 PM to 6 AM on the visitor's clock. The logo and the top stripe follow the period
+   Day is the default. A script in baseof.html sets data-period to "sunset" from an hour before
+   Boise's sunset to half an hour after, and "night" from then until half an hour before sunrise,
+   so the periods follow the season (see baseof.html). The logo and the top stripe follow the period
    in every color scheme; the page colors follow it only in light mode, so dark mode stays dark.
    The page around the panels takes the period's sky (light blue, peach, deep indigo), and the
    filter panel and event table stay light in every period, so long lists read the same. */
