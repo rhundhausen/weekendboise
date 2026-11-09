@@ -1,8 +1,8 @@
 {
-  "asOf": "2026-11-09T07:00:00Z",
+  "asOf": "2026-11-09T20:49:46Z",
   "sources": {
     "albertsons-stadium": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "e683db649aa4",
@@ -51,7 +51,7 @@
       ]
     },
     "barnes-noble-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "9db8e3d1d535",
@@ -270,7 +270,7 @@
       ]
     },
     "bluebird-social": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "c03042c3f15e",
@@ -446,7 +446,7 @@
       ]
     },
     "bogus-basin": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "850bfc88afb8",
@@ -539,7 +539,7 @@
       ]
     },
     "boise-arts-history": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "0c3cd755f5ee",
@@ -930,7 +930,7 @@
       ]
     },
     "boise-centre": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "1d122dd91f81",
@@ -979,7 +979,7 @@
       ]
     },
     "boise-mom": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "e7ad0683bdcc",
@@ -2819,6 +2819,32 @@
           ]
         },
         {
+          "id": "14406dfe7d12",
+          "title": "Veterans Breakfast",
+          "start": "2026-11-14T08:00:00-07:00",
+          "end": "2026-11-14T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Various Treasure Valley locations",
+          "venueKey": "various-treasure-valley",
+          "city": "Other",
+          "category": "holiday-seasonal",
+          "tags": [
+            "free-admission",
+            "holiday-event"
+          ],
+          "size": "M",
+          "costTier": "free",
+          "url": "https://boisemom.com/event/veterans-breakfast/",
+          "description": "The City of Eagle honors veterans, active military, and their families at our annual Veterans Day Breakfast. Date and Time: Saturday, November 14, 2026 – 8 a.m. to 10 a.m. Location: Eagle Senior Center – 312 E State St, Eagle This event is free and open to the public.",
+          "sources": [
+            {
+              "name": "boise-mom",
+              "url": "https://boisemom.com/event/veterans-breakfast/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
           "id": "5ed241a3b4b2",
           "title": "BOISE EAGLES HOLIDAY BAZAAR",
           "start": "2026-11-14T09:00:00-07:00",
@@ -3420,6 +3446,31 @@
               "name": "boise-mom",
               "url": "https://boisemom.com/event/holiday-lego-build/",
               "fetchedAt": "2026-11-06T19:12:30Z"
+            }
+          ]
+        },
+        {
+          "id": "abbb5060d35b",
+          "title": "Parents’ Night Out – Heros and Ninjas",
+          "start": "2026-11-14T17:00:00-07:00",
+          "end": "2026-11-14T21:00:00-07:00",
+          "allDay": false,
+          "venue": "Bodies In Motion",
+          "venueKey": "bodies-in-motion",
+          "city": "Boise",
+          "category": "community-civic",
+          "tags": [
+            "kids"
+          ],
+          "size": "S",
+          "costTier": "$$$",
+          "url": "https://boisemom.com/event/parents-night-out-heros-and-ninjas/",
+          "description": "Heroes & Ninjas – Parents’ Night Out Capes, masks and ninja moves! Kids dress as heroes or ninjas for a themed evening of play, games, pizza and a sweet treat while you enjoy a kidless night out.",
+          "sources": [
+            {
+              "name": "boise-mom",
+              "url": "https://boisemom.com/event/parents-night-out-heros-and-ninjas/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -6584,6 +6635,32 @@
               "name": "boise-mom",
               "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-23/",
               "fetchedAt": "2026-11-06T19:12:30Z"
+            }
+          ]
+        },
+        {
+          "id": "5c5751d53dc7",
+          "title": "Thanksgiving Break Camp",
+          "start": "2026-11-23T09:00:00-07:00",
+          "end": "2026-11-25T15:00:00-07:00",
+          "allDay": false,
+          "venue": "Bodies In Motion",
+          "venueKey": "bodies-in-motion",
+          "city": "Boise",
+          "category": "holiday-seasonal",
+          "tags": [
+            "holiday-event",
+            "kids"
+          ],
+          "size": "M",
+          "costTier": "$",
+          "url": "https://boisemom.com/event/thanksgiving-break-camp-2/",
+          "description": "Thanksgiving Break Camp Thanksgiving Break Camp is packed with festive fun! 🦃🍂 Campers will search for hidden treasures, race through a Turkey Trot Obstacle Course, and team up for holiday-themed games and challenges like the Feather Frenzy Team Challenge. It’s a day full of movement, teamwork,...",
+          "sources": [
+            {
+              "name": "boise-mom",
+              "url": "https://boisemom.com/event/thanksgiving-break-camp-2/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -11629,12 +11706,12 @@
           ],
           "size": "S",
           "costTier": "free",
-          "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-12-03/",
+          "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-12-03/",
           "description": "Join us every Thursday at 10:30 AM for this kindergarten readiness storytime and craft! This storytime is designed for children ages 3-5 and their caregiver.",
           "sources": [
             {
               "name": "boise-mom",
-              "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-12-03/",
+              "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-12-03/",
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
@@ -11656,12 +11733,12 @@
           ],
           "size": "S",
           "costTier": "free",
-          "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-12-03/",
+          "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-12-03/",
           "description": "Join us every Thursday at 10:30 AM for this kindergarten readiness storytime and craft! This storytime is designed for children ages 3-5 and their caregiver.",
           "sources": [
             {
               "name": "boise-mom",
-              "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-12-03/",
+              "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-12-03/",
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
@@ -11901,12 +11978,12 @@
           ],
           "size": "S",
           "costTier": "free",
-          "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
+          "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
           "description": "Join us after school for a variety of video games! Ages 12-17.",
           "sources": [
             {
               "name": "boise-mom",
-              "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
+              "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
@@ -11928,12 +12005,12 @@
           ],
           "size": "S",
           "costTier": "free",
-          "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
+          "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
           "description": "Join us after school for a variety of video games! Ages 12-17.",
           "sources": [
             {
               "name": "boise-mom",
-              "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
+              "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
@@ -13807,6 +13884,34 @@
               "name": "boise-mom",
               "url": "https://boisemom.com/event/2026-annual-boise-ice-show-jingle-blades-spellbound-on-ice-in-vegas/2026-12-05/1/",
               "fetchedAt": "2026-11-06T19:12:30Z"
+            }
+          ]
+        },
+        {
+          "id": "0f11fc5f2434",
+          "title": "Tuba Christmas 2026",
+          "start": "2026-12-05T16:00:00-07:00",
+          "end": "2026-12-05T17:00:00-07:00",
+          "allDay": false,
+          "venue": "The Grove Plaza",
+          "venueKey": "the-grove-plaza",
+          "city": "Boise",
+          "category": "holiday-seasonal",
+          "tags": [
+            "concert",
+            "family-friendly",
+            "free-admission",
+            "holiday-event"
+          ],
+          "size": "M",
+          "costTier": "free",
+          "url": "https://boisemom.com/event/tuba-christmas-2026/",
+          "description": "Boise’s Tuba Christmas has been an ongoing community gathering of tuba and euphonium musicians since 1992. Members of this unique ensemble include student musicians from local high schools, middle schools, colleges/universities and adult musicians from various professions. It is truly a Boise tra...",
+          "sources": [
+            {
+              "name": "boise-mom",
+              "url": "https://boisemom.com/event/tuba-christmas-2026/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -25879,16 +25984,17 @@
           "tags": [
             "free-admission",
             "holiday-event",
-            "library-program"
+            "kids",
+            "workshop"
           ],
           "size": "S",
           "costTier": "free",
-          "url": "https://boisemom.com/event/teens-new-years-vision-boards-2/",
+          "url": "https://boisemom.com/event/teens-new-years-vision-boards/",
           "description": "Create a vision board for the New Year! Location: Library Corner",
           "sources": [
             {
               "name": "boise-mom",
-              "url": "https://boisemom.com/event/teens-new-years-vision-boards-2/",
+              "url": "https://boisemom.com/event/teens-new-years-vision-boards/",
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
@@ -25906,17 +26012,16 @@
           "tags": [
             "free-admission",
             "holiday-event",
-            "kids",
-            "workshop"
+            "library-program"
           ],
           "size": "S",
           "costTier": "free",
-          "url": "https://boisemom.com/event/teens-new-years-vision-boards/",
+          "url": "https://boisemom.com/event/teens-new-years-vision-boards-2/",
           "description": "Create a vision board for the New Year! Location: Library Corner",
           "sources": [
             {
               "name": "boise-mom",
-              "url": "https://boisemom.com/event/teens-new-years-vision-boards/",
+              "url": "https://boisemom.com/event/teens-new-years-vision-boards-2/",
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
@@ -55288,7 +55393,7 @@
       ]
     },
     "boise-public-library": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "08a66e26f446",
@@ -66804,7 +66909,7 @@
       ]
     },
     "boise-state-arts": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "76a77c93c32d",
@@ -71120,7 +71225,7 @@
       ]
     },
     "boise-state-athletics": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "f1e273ed7a72",
@@ -74029,7 +74134,7 @@
       ]
     },
     "brundage-mountain": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "7f667695a642",
@@ -74548,54 +74653,8 @@
       ]
     },
     "caldwell-public-library": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
-        {
-          "id": "1992218e3d2f",
-          "title": "Baby Storytime 1, 2, & 3",
-          "start": "2026-11-09T10:00:00-07:00",
-          "end": "2026-11-09T12:15:00-07:00",
-          "allDay": false,
-          "venue": "Caldwell Public Library",
-          "venueKey": "caldwell-public-library",
-          "city": "Caldwell",
-          "category": "learning-business",
-          "tags": [
-            "library-program"
-          ],
-          "size": "S",
-          "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-09-10-00",
-          "description": "Baby Storytime 1: 10am-–10:45am Baby Storytime 2: 10:45am–11:30am Baby Storytime 3: 11:30am–12:15pm",
-          "sources": [
-            {
-              "name": "caldwell-public-library",
-              "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-09-10-00",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
-        },
-        {
-          "id": "c0863f7a8cf7",
-          "title": "Knitting & Crochet Social",
-          "start": "2026-11-09T13:30:00-07:00",
-          "end": "2026-11-09T15:00:00-07:00",
-          "allDay": false,
-          "venue": "Caldwell Public Library",
-          "venueKey": "caldwell-public-library",
-          "city": "Caldwell",
-          "category": "learning-business",
-          "tags": [],
-          "size": "S",
-          "url": "https://www.caldwellpubliclibrary.org/events/knitting-crochet-social-26",
-          "description": "Bring a project and make a friend at our monthly knitting & crochet meetup. All skill levels welcome. Socialize and help each other learn and troubleshoot your projects. Formal instruction is not provided. Limited supplies available.",
-          "sources": [
-            {
-              "name": "caldwell-public-library",
-              "url": "https://www.caldwellpubliclibrary.org/events/knitting-crochet-social-26",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
-        },
         {
           "id": "e9e3497402d6",
           "title": "Youth Chess Club",
@@ -74940,11 +74999,35 @@
               "fetchedAt": "2026-11-08T06:23:07Z"
             }
           ]
+        },
+        {
+          "id": "a03c0bfdf044",
+          "title": "Baby Storytime 1, 2, & 3",
+          "start": "2026-11-16T10:00:00-07:00",
+          "end": "2026-11-16T12:15:00-07:00",
+          "allDay": false,
+          "venue": "Caldwell Public Library",
+          "venueKey": "caldwell-public-library",
+          "city": "Caldwell",
+          "category": "learning-business",
+          "tags": [
+            "library-program"
+          ],
+          "size": "S",
+          "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-16-10-00",
+          "description": "Baby Storytime 1: 10am-–10:45am Baby Storytime 2: 10:45am–11:30am Baby Storytime 3: 11:30am–12:15pm",
+          "sources": [
+            {
+              "name": "caldwell-public-library",
+              "url": "https://www.caldwellpubliclibrary.org/events/baby-storytime-1-2-3-2026-11-16-10-00",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
         }
       ]
     },
     "cascade-chamber": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "a6842b09141e",
@@ -75099,7 +75182,7 @@
       ]
     },
     "city-of-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "d9a323b4f511",
@@ -75193,6 +75276,7 @@
           "id": "645eacc4ccc1",
           "title": "$3 Thursdays at Zoo Boise",
           "start": "2026-11-12T10:00:00-07:00",
+          "end": "2026-11-12T17:00:00-07:00",
           "allDay": false,
           "venue": "Zoo Boise",
           "venueKey": "zoo-boise",
@@ -77218,7 +77302,7 @@
       ]
     },
     "city-of-caldwell": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "1ace7833ad42",
@@ -77263,7 +77347,7 @@
       ]
     },
     "city-of-kuna": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "23c68b606d1e",
@@ -77289,7 +77373,7 @@
       ]
     },
     "city-of-mccall": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "36705932a518",
@@ -77593,7 +77677,7 @@
       ]
     },
     "city-of-star": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "0fe19565f342",
@@ -77621,7 +77705,7 @@
       ]
     },
     "college-of-idaho-athletics": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "000b57544b9c",
@@ -78256,7 +78340,7 @@
           ],
           "size": "M",
           "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8688&sport_id=15",
-          "description": "Streaming Video: https://www.cascadesportsnetwork.com/",
+          "description": "W 2-1 Streaming Video: https://www.cascadesportsnetwork.com/",
           "sources": [
             {
               "name": "college-of-idaho-athletics",
@@ -78287,6 +78371,126 @@
               "name": "college-of-idaho-athletics",
               "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8484&sport_id=3",
               "fetchedAt": "2026-11-06T19:12:30Z"
+            }
+          ]
+        },
+        {
+          "id": "57083f07e923",
+          "title": "College of Idaho Women's Volleyball vs Corban University vs TBD - CCC QUARTERFINALS",
+          "start": "2026-11-12T14:00:00-07:00",
+          "end": "2026-11-12T16:00:00-07:00",
+          "allDay": false,
+          "venue": "J.A. Albertson Activities Center",
+          "venueKey": "j-a-albertson-activities-center",
+          "city": "Caldwell",
+          "category": "sports",
+          "tags": [
+            "college-sports"
+          ],
+          "size": "M",
+          "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8689&sport_id=19",
+          "description": "Streaming Video: https://www.cascadesportsnetwork.com/collegeofidaho/",
+          "sources": [
+            {
+              "name": "college-of-idaho-athletics",
+              "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8689&sport_id=19",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "33fd38bcccda",
+          "title": "College of Idaho Women's Volleyball vs Southern Oregon University vs TBD - CCC QUARTERFINALS",
+          "start": "2026-11-12T17:00:00-07:00",
+          "end": "2026-11-12T19:00:00-07:00",
+          "allDay": false,
+          "venue": "J.A. Albertson Activities Center",
+          "venueKey": "j-a-albertson-activities-center",
+          "city": "Caldwell",
+          "category": "sports",
+          "tags": [
+            "college-sports"
+          ],
+          "size": "M",
+          "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8690&sport_id=19",
+          "description": "Streaming Video: https://www.cascadesportsnetwork.com/collegeofidaho/",
+          "sources": [
+            {
+              "name": "college-of-idaho-athletics",
+              "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8690&sport_id=19",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "fae586c2e99f",
+          "title": "College of Idaho Women's Volleyball vs Eastern Oregon University vs TBD - CCC SEMIFINALS",
+          "start": "2026-11-13T14:00:00-07:00",
+          "end": "2026-11-13T16:00:00-07:00",
+          "allDay": false,
+          "venue": "J.A. Albertson Activities Center",
+          "venueKey": "j-a-albertson-activities-center",
+          "city": "Caldwell",
+          "category": "sports",
+          "tags": [
+            "college-sports"
+          ],
+          "size": "M",
+          "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8691&sport_id=19",
+          "description": "Streaming Video: https://www.cascadesportsnetwork.com/collegeofidaho/",
+          "sources": [
+            {
+              "name": "college-of-idaho-athletics",
+              "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8691&sport_id=19",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "25e7cb41804a",
+          "title": "College of Idaho Women's Volleyball vs TBD - CCC SEMIFINALS",
+          "start": "2026-11-13T17:00:00-07:00",
+          "end": "2026-11-13T19:00:00-07:00",
+          "allDay": false,
+          "venue": "J.A. Albertson Activities Center",
+          "venueKey": "j-a-albertson-activities-center",
+          "city": "Caldwell",
+          "category": "sports",
+          "tags": [
+            "college-sports"
+          ],
+          "size": "M",
+          "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8692&sport_id=19",
+          "description": "Streaming Video: https://urbanedgenetwork.net/",
+          "sources": [
+            {
+              "name": "college-of-idaho-athletics",
+              "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8692&sport_id=19",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "707f933962ce",
+          "title": "College of Idaho Women's Volleyball vs TBD - CCC CHAMPIONSHIP",
+          "start": "2026-11-14T15:00:00-07:00",
+          "end": "2026-11-14T17:00:00-07:00",
+          "allDay": false,
+          "venue": "J.A. Albertson Activities Center",
+          "venueKey": "j-a-albertson-activities-center",
+          "city": "Caldwell",
+          "category": "sports",
+          "tags": [
+            "college-sports"
+          ],
+          "size": "M",
+          "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8693&sport_id=19",
+          "description": "Streaming Video: https://urbanedgenetwork.net/",
+          "sources": [
+            {
+              "name": "college-of-idaho-athletics",
+              "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8693&sport_id=19",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -80394,7 +80598,7 @@
       ]
     },
     "curbside-books": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "058271e20a80",
@@ -80538,6 +80742,29 @@
           ]
         },
         {
+          "id": "4fe694fd79fb",
+          "title": "Curbside Books pop-up at Primitive Grounds",
+          "start": "2026-12-04T17:00:00-07:00",
+          "end": "2026-12-04T21:00:00-07:00",
+          "allDay": false,
+          "venue": "Primitive Grounds",
+          "venueKey": "primitive-grounds",
+          "city": "Meridian",
+          "category": "markets-shopping",
+          "tags": [],
+          "size": "M",
+          "costTier": "free",
+          "url": "https://www.curbsidebooks.com/pages/events",
+          "description": "Trolley Parton pulls up at Primitive Grounds in Meridian with a fresh shelf of books to browse over a cup of coffee.",
+          "sources": [
+            {
+              "name": "curbside-books",
+              "url": "https://www.curbsidebooks.com/pages/events",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
           "id": "66f89ef46a7b",
           "title": "Curbside Books pop-up at Mother Earth Brew Co.",
           "start": "2026-12-05T12:00:00-07:00",
@@ -80609,7 +80836,7 @@
       ]
     },
     "cwi": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "be1f62bddd82",
@@ -81120,7 +81347,7 @@
       ]
     },
     "danny-peterson-theatre": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "6cc031925cdd",
@@ -81523,7 +81750,7 @@
       ]
     },
     "discovery-center-idaho": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "760626cd8b73",
@@ -81649,7 +81876,7 @@
       ]
     },
     "donnelly-library": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "c2134fb5215d",
@@ -81795,7 +82022,7 @@
       ]
     },
     "eagle-chamber": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "e57c0830d67c",
@@ -82370,7 +82597,7 @@
       ]
     },
     "egyptian-theatre": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "7b3135f7ba27",
@@ -82550,7 +82777,7 @@
       ]
     },
     "expo-idaho": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "cfa8725e48f3",
@@ -82830,7 +83057,7 @@
       ]
     },
     "extramile-arena": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "523d93ade912",
@@ -83468,7 +83695,7 @@
       ]
     },
     "ford-idaho-center": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "6cf180320427",
@@ -84075,7 +84302,7 @@
       ]
     },
     "ford-idaho-center-amphitheater": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "73706c458d70",
@@ -84146,7 +84373,7 @@
       ]
     },
     "ford-idaho-center-arena": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "2b7cf9c48e93",
@@ -84503,7 +84730,7 @@
       ]
     },
     "gem-county-chamber": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "80fb1a152920",
@@ -86091,7 +86318,7 @@
       ]
     },
     "idaho-botanical-garden": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "b995ab808d9f",
@@ -86119,7 +86346,7 @@
       ]
     },
     "idaho-central-arena": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "57d5a5078e34",
@@ -86220,7 +86447,7 @@
       ]
     },
     "idaho-history": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "68c6697505a1",
@@ -86327,7 +86554,7 @@
       ]
     },
     "idaho-shakespeare-festival": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "04200defd8fc",
@@ -89021,7 +89248,7 @@
       ]
     },
     "idaho-wine-commission": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "ae82ed3e01f9",
@@ -89041,6 +89268,28 @@
               "name": "idaho-wine-commission",
               "url": "https://idahowines.org/event/telaya-wine-co-new-wine-release/",
               "fetchedAt": "2026-11-08T06:23:07Z"
+            }
+          ]
+        },
+        {
+          "id": "5262eba062ca",
+          "title": "Buckhorn Vineyards – Paint and Sip Class",
+          "start": "2026-11-20T18:00:00-07:00",
+          "end": "2026-11-20T20:30:00-07:00",
+          "allDay": false,
+          "venue": "Idaho wineries",
+          "venueKey": "idaho-wineries",
+          "city": "Other",
+          "category": "food-drink",
+          "tags": [],
+          "size": "S",
+          "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class/",
+          "description": "Home @ Paint and Sip Class Hosted by Angry Easel on Friday, November, 20th from 6:00PM to 8:30PM. Click here for tickets.",
+          "sources": [
+            {
+              "name": "idaho-wine-commission",
+              "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -89302,6 +89551,74 @@
               "name": "idaho-wine-commission",
               "url": "https://idahowines.org/event/indian-creek-winery-wino-arts-n-crafts-4/2026-12-05/",
               "fetchedAt": "2026-11-08T06:23:07Z"
+            }
+          ]
+        },
+        {
+          "id": "db00710aa13e",
+          "title": "Buckhorn Vineyards – Paint and Sip",
+          "start": "2026-12-10T18:00:00-07:00",
+          "end": "2026-12-10T20:30:00-07:00",
+          "allDay": false,
+          "venue": "Idaho wineries",
+          "venueKey": "idaho-wineries",
+          "city": "Other",
+          "category": "food-drink",
+          "tags": [],
+          "size": "S",
+          "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip/",
+          "description": "Home @ Hosted by Loretta Barra on Thursday, December, 10th from 6:00PM to 8:30PM. Click here for tickets.",
+          "sources": [
+            {
+              "name": "idaho-wine-commission",
+              "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "106b2b53a450",
+          "title": "Buckhorn Vineyards – Live Music",
+          "start": "2026-12-12T14:00:00-07:00",
+          "end": "2026-12-12T17:00:00-07:00",
+          "allDay": false,
+          "venue": "Idaho wineries",
+          "venueKey": "idaho-wineries",
+          "city": "Other",
+          "category": "music",
+          "tags": [
+            "concert"
+          ],
+          "size": "M",
+          "url": "https://idahowines.org/event/buckhorn-vineyards-live-music/",
+          "description": "Home @ Good Time Charlie will be playing in the Tasting Room Saturday, December, 12th from 2:00PM to 5:00PM. Click here for tickets.",
+          "sources": [
+            {
+              "name": "idaho-wine-commission",
+              "url": "https://idahowines.org/event/buckhorn-vineyards-live-music/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "c29ff9235aa4",
+          "title": "Buckhorn Vineyards – Paint and Sip Class",
+          "start": "2026-12-19T13:00:00-07:00",
+          "end": "2026-12-19T15:30:00-07:00",
+          "allDay": false,
+          "venue": "Idaho wineries",
+          "venueKey": "idaho-wineries",
+          "city": "Other",
+          "category": "food-drink",
+          "tags": [],
+          "size": "S",
+          "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class-2/",
+          "description": "Home @ Hosted by Angry Easel on Sautrday, December, 19th from 1:00PM to 3:30PM. Click here for tickets.",
+          "sources": [
+            {
+              "name": "idaho-wine-commission",
+              "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class-2/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -89811,7 +90128,7 @@
       ]
     },
     "idvs-payette": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "06ba485bb19e",
@@ -89954,7 +90271,7 @@
       ]
     },
     "indian-creek-plaza": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "1e1add3d012e",
@@ -90070,7 +90387,7 @@
       ]
     },
     "jump-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "09e34f6a2186",
@@ -91046,7 +91363,7 @@
       ]
     },
     "knitting-factory-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "1034ae450c0c",
@@ -91900,7 +92217,7 @@
       ]
     },
     "kuna-library": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "3afae6afb478",
@@ -99007,7 +99324,7 @@
       ]
     },
     "little-gym-boise-west": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "402d1e2334f9",
@@ -99161,7 +99478,7 @@
       ]
     },
     "mccall-winter-carnival": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "52186b4d210c",
@@ -99187,7 +99504,7 @@
       ]
     },
     "meetup-abu-games-events": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "aabaf41edd84",
@@ -99426,36 +99743,12 @@
       ]
     },
     "meetup-actions-for-a-healthy-planet-in-idaho": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-ada-community-library": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
-        {
-          "id": "29347c52fe88",
-          "title": "Hidden Springs Branch Library - Fit and Fall Proof",
-          "start": "2026-11-09T09:30:00-07:00",
-          "end": "2026-11-09T10:30:00-07:00",
-          "allDay": false,
-          "venue": "Ada Community Library, Hidden Springs Branch",
-          "venueKey": "ada-community-library-hidden-springs-branch",
-          "city": "Boise",
-          "category": "learning-business",
-          "tags": [
-            "library-program"
-          ],
-          "size": "S",
-          "url": "https://www.meetup.com/ada-community-library/events/317304137/",
-          "description": "Developed by the Idaho Department of Health and Welfare, Fit and Fall Proof™ is an exercise-based fall prevention program for older adults that focuses on improving strength, mobility, and balance to reduce an older adults' risk of falling. Classes are led by trained local volunteers. Meeting in-...",
-          "sources": [
-            {
-              "name": "meetup-ada-community-library",
-              "url": "https://www.meetup.com/ada-community-library/events/317304137/",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
-        },
         {
           "id": "9ecf1ff993d4",
           "title": "Victory Branch Library GAME NIGHT!",
@@ -99668,11 +99961,35 @@
               "fetchedAt": "2026-11-07T03:22:23Z"
             }
           ]
+        },
+        {
+          "id": "f0b5d27bbca8",
+          "title": "Hidden Springs Branch Library - Dry Creek Writers Group",
+          "start": "2026-11-18T10:30:00-07:00",
+          "end": "2026-11-18T12:30:00-07:00",
+          "allDay": false,
+          "venue": "Ada Community Library, Hidden Springs Branch",
+          "venueKey": "ada-community-library-hidden-springs-branch",
+          "city": "Boise",
+          "category": "learning-business",
+          "tags": [
+            "library-program"
+          ],
+          "size": "S",
+          "url": "https://www.meetup.com/ada-community-library/events/317272530/",
+          "description": "Dry Creek Writers Group encourages and supports fellow writers in a fun, relaxed atmosphere (publishing goals optional). Would you like to preserve family stories, journal life lessons and travels, or share memorable occasions? Join us monthly for creative activities designed to keep you writing!...",
+          "sources": [
+            {
+              "name": "meetup-ada-community-library",
+              "url": "https://www.meetup.com/ada-community-library/events/317272530/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
         }
       ]
     },
     "meetup-adult-board-game-night": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "331e1d2240b0",
@@ -99773,19 +100090,19 @@
       ]
     },
     "meetup-ai-safety-awareness-group-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-all-means-all-alliance-for-womens-rights": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-ambivert-girlies": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-amor-immortalem": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "1485b85d06ca",
@@ -100010,15 +100327,15 @@
       ]
     },
     "meetup-atlassian-community-events-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-autism-in-leadership-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-aws-boise-user-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "43742b17a2e9",
@@ -100045,31 +100362,31 @@
       ]
     },
     "meetup-backlogs-brews-an-agile-user-group-for-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-backup-freinds-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-balanced-brains-and-bodies": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-bap-club": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-beat-loneliness-together": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-beer-laughs-help-us-test-our-game": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-beings-of-light-and-coffee": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "083474a44225",
@@ -100294,23 +100611,23 @@
       ]
     },
     "meetup-blueskyhomesinvesting": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-active-seniors-meetup-group-for-fun-activities": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-aeros-house-of-pain-indoor-cycling": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-agtech-network": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-ai-and-data-engineering-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "d2ee5ac5242b",
@@ -100337,15 +100654,15 @@
       ]
     },
     "meetup-boise-area-fly-fishing-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-argentine-tango": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-arts-community": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "7b7f2652ed69",
@@ -100366,29 +100683,6 @@
             {
               "name": "meetup-boise-arts-community",
               "url": "https://www.meetup.com/boise-arts-community/events/317267153/",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
-        },
-        {
-          "id": "f6126a5cec5d",
-          "title": "Mini Foods with Polymer Clay",
-          "start": "2026-11-09T10:30:00-07:00",
-          "end": "2026-11-09T12:00:00-07:00",
-          "allDay": false,
-          "venue": "Catalyst Arts Collaborative",
-          "venueKey": "catalyst-arts-collaborative",
-          "city": "Boise",
-          "category": "nightlife-social",
-          "tags": [],
-          "size": "S",
-          "costTier": "$$$",
-          "url": "https://www.meetup.com/boise-arts-community/events/316878200/",
-          "description": "Sculpt tiny food creations while learning the basics of working with polymer clay! Age 11+ Ongoing, every 2nd Monday: 10:30am - 12:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/mini-foods-with-polymer-clay-every-2nd-mon-10-30am In this...",
-          "sources": [
-            {
-              "name": "meetup-boise-arts-community",
-              "url": "https://www.meetup.com/boise-arts-community/events/316878200/",
               "fetchedAt": "2026-11-07T03:22:23Z"
             }
           ]
@@ -100587,27 +100881,50 @@
               "fetchedAt": "2026-11-09T07:05:18Z"
             }
           ]
+        },
+        {
+          "id": "a0eafe2c5aae",
+          "title": "Teen Art Self-Discovery",
+          "start": "2026-11-11T16:30:00-07:00",
+          "end": "2026-11-11T18:00:00-07:00",
+          "allDay": false,
+          "venue": "Catalyst Arts Collaborative",
+          "venueKey": "catalyst-arts-collaborative",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "costTier": "$$",
+          "url": "https://www.meetup.com/boise-arts-community/events/317155243/",
+          "description": "Teen vibe check: decompress, build confidence, and express through low-pressure art! Age 11-18 Ongoing: Every 2nd & 4th Wednesday, 4:30pm - 6:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/introspection-expression-thur-4-30pm Being a te...",
+          "sources": [
+            {
+              "name": "meetup-boise-arts-community",
+              "url": "https://www.meetup.com/boise-arts-community/events/317155243/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
         }
       ]
     },
     "meetup-boise-arts-entertainment-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-bitcoiners": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-bravo-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-capability-management-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-center-for-spiritual-living": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "5d64ca176282",
@@ -100832,7 +101149,7 @@
       ]
     },
     "meetup-boise-contra-dance-society": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "2dd83975f645",
@@ -100860,7 +101177,7 @@
       ]
     },
     "meetup-boise-country-dancers": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "775759ccdde4",
@@ -101094,7 +101411,7 @@
       ]
     },
     "meetup-boise-crafts-cardmaking-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "ac47f9ddfef7",
@@ -101122,11 +101439,11 @@
       ]
     },
     "meetup-boise-dbt-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-digital-marketing-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "6622c169e85d",
@@ -101155,15 +101472,15 @@
       ]
     },
     "meetup-boise-evening-and-weekends-active-outdoors-community": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-games-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-girls-and-guys-having-fun-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "705bee6c8ed8",
@@ -101264,7 +101581,7 @@
       ]
     },
     "meetup-boise-introverts-who-want-to-mingle": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "0f3f9d0acd5d",
@@ -101385,15 +101702,15 @@
       ]
     },
     "meetup-boise-kafka": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-law-of-attraction": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-mid-century-homes": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "d027fa3fa89f",
@@ -101442,23 +101759,19 @@
       ]
     },
     "meetup-boise-multifamily-investing": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-night-life": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-outdoor-gym-calisthenics-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
-      "events": []
-    },
-    "meetup-boise-real-estate-investors-meetup-group": {
-      "fetchedAt": "2026-11-07T07:04:28Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-remote-workers-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "33ff45677cb2",
@@ -101485,31 +101798,31 @@
       ]
     },
     "meetup-boise-rhug": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-spanish-language-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-spiritual-matters-with-healer-intuitive-mark-earlix": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-stack-signal-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-stepmom-support-group-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-sufi-poetry-rumi-night-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-sukyo-mahikari": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "6cdc623dcfd9",
@@ -101734,19 +102047,19 @@
       ]
     },
     "meetup-boise-table-top-game-design-and-development": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-walk-shoot": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-wealth-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boise-womens-singing-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "919f4addfa2c",
@@ -101991,7 +102304,7 @@
       ]
     },
     "meetup-boiseareaboardgameenthusiasts": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "65e31a590862",
@@ -102236,7 +102549,7 @@
       ]
     },
     "meetup-boisegdg": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "0757fcaa55fb",
@@ -102311,8 +102624,189 @@
         }
       ]
     },
+    "meetup-boiseinvestorgroup": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": [
+        {
+          "id": "1ac5d928c90f",
+          "title": "Weekly Real Estate Investor Coaching and Networking",
+          "start": "2026-11-10T09:00:00-07:00",
+          "end": "2026-11-10T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Fidelity National Title - Meridian",
+          "venueKey": "fidelity-national-title-meridian",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/boiseinvestorgroup/events/317075089/",
+          "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+          "sources": [
+            {
+              "name": "meetup-boiseinvestorgroup",
+              "url": "https://www.meetup.com/boiseinvestorgroup/events/317075089/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "175014250f82",
+          "title": "Weekly Real Estate Investor Coaching and Networking",
+          "start": "2026-11-17T09:00:00-07:00",
+          "end": "2026-11-17T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Fidelity National Title - Meridian",
+          "venueKey": "fidelity-national-title-meridian",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/boiseinvestorgroup/events/317175974/",
+          "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+          "sources": [
+            {
+              "name": "meetup-boiseinvestorgroup",
+              "url": "https://www.meetup.com/boiseinvestorgroup/events/317175974/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "53eae6000105",
+          "title": "Weekly Real Estate Investor Coaching and Networking",
+          "start": "2026-11-24T09:00:00-07:00",
+          "end": "2026-11-24T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Fidelity National Title - Meridian",
+          "venueKey": "fidelity-national-title-meridian",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/boiseinvestorgroup/events/317285471/",
+          "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+          "sources": [
+            {
+              "name": "meetup-boiseinvestorgroup",
+              "url": "https://www.meetup.com/boiseinvestorgroup/events/317285471/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "1bf9a72a734b",
+          "title": "Weekly Real Estate Investor Coaching and Networking",
+          "start": "2026-12-01T09:00:00-07:00",
+          "end": "2026-12-01T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Fidelity National Title - Meridian",
+          "venueKey": "fidelity-national-title-meridian",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbcb/",
+          "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+          "sources": [
+            {
+              "name": "meetup-boiseinvestorgroup",
+              "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbcb/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "ff79c9b8ac60",
+          "title": "Weekly Real Estate Investor Coaching and Networking",
+          "start": "2026-12-08T09:00:00-07:00",
+          "end": "2026-12-08T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Fidelity National Title - Meridian",
+          "venueKey": "fidelity-national-title-meridian",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqblb/",
+          "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+          "sources": [
+            {
+              "name": "meetup-boiseinvestorgroup",
+              "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqblb/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "21ba04ec4e63",
+          "title": "Weekly Real Estate Investor Coaching and Networking",
+          "start": "2026-12-15T09:00:00-07:00",
+          "end": "2026-12-15T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Fidelity National Title - Meridian",
+          "venueKey": "fidelity-national-title-meridian",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbtb/",
+          "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+          "sources": [
+            {
+              "name": "meetup-boiseinvestorgroup",
+              "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbtb/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "366389fee497",
+          "title": "Weekly Real Estate Investor Coaching and Networking",
+          "start": "2026-12-22T09:00:00-07:00",
+          "end": "2026-12-22T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Fidelity National Title - Meridian",
+          "venueKey": "fidelity-national-title-meridian",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbdc/",
+          "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+          "sources": [
+            {
+              "name": "meetup-boiseinvestorgroup",
+              "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbdc/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "e51d825280b0",
+          "title": "Weekly Real Estate Investor Coaching and Networking",
+          "start": "2026-12-29T09:00:00-07:00",
+          "end": "2026-12-29T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Fidelity National Title - Meridian",
+          "venueKey": "fidelity-national-title-meridian",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbmc/",
+          "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+          "sources": [
+            {
+              "name": "meetup-boiseinvestorgroup",
+              "url": "https://www.meetup.com/boiseinvestorgroup/events/pvwhvtyjcqbmc/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        }
+      ]
+    },
     "meetup-boiselanguage": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "631debbf8a2c",
@@ -102361,15 +102855,15 @@
       ]
     },
     "meetup-boistartupweek": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-bold-boise-travel-women": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-boranloungecoffee-meridian": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "f2f5ace31417",
@@ -102608,7 +103102,7 @@
       ]
     },
     "meetup-bsdg-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "ad269d21b387",
@@ -102657,31 +103151,31 @@
       ]
     },
     "meetup-buddhist-philosophy-discussion-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-cacao-kava-trauma-healing-addiction-recovery": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-caldwell-bahai-spirituality-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-caldwell-open-source-zk-proofs-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-capital-book-club": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-capitol-mall-toastmasters": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-chakradancetreasurevalley": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "1aa3a21ad09c",
@@ -102926,7 +103420,7 @@
       ]
     },
     "meetup-city-of-trees-orienteering-club": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "d812f0145f95",
@@ -102977,11 +103471,11 @@
       ]
     },
     "meetup-collister-boise-pickle-ball-tennis-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-connection-collective-treasure-valley": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "437149ef7494",
@@ -103008,7 +103502,7 @@
       ]
     },
     "meetup-conservative-genx-connect": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "4c39b08989ee",
@@ -103195,36 +103689,217 @@
         }
       ]
     },
+    "meetup-d15toastmasters-meet-up-group": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": [
+        {
+          "id": "0b81b7f019f9",
+          "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+          "start": "2026-11-10T18:15:00-07:00",
+          "end": "2026-11-10T19:45:00-07:00",
+          "allDay": false,
+          "venue": "Black Bear Diner Boise - Entertainment Ave",
+          "venueKey": "black-bear-diner-boise-entertainment-ave",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317082272/",
+          "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+          "sources": [
+            {
+              "name": "meetup-d15toastmasters-meet-up-group",
+              "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317082272/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "2899df886558",
+          "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+          "start": "2026-11-17T18:15:00-07:00",
+          "end": "2026-11-17T19:45:00-07:00",
+          "allDay": false,
+          "venue": "Black Bear Diner Boise - Entertainment Ave",
+          "venueKey": "black-bear-diner-boise-entertainment-ave",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317183935/",
+          "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+          "sources": [
+            {
+              "name": "meetup-d15toastmasters-meet-up-group",
+              "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317183935/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "84ebade4837c",
+          "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+          "start": "2026-11-24T18:15:00-07:00",
+          "end": "2026-11-24T19:45:00-07:00",
+          "allDay": false,
+          "venue": "Black Bear Diner Boise - Entertainment Ave",
+          "venueKey": "black-bear-diner-boise-entertainment-ave",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317293100/",
+          "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+          "sources": [
+            {
+              "name": "meetup-d15toastmasters-meet-up-group",
+              "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/317293100/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "8e22bd9687b6",
+          "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+          "start": "2026-12-01T18:15:00-07:00",
+          "end": "2026-12-01T19:45:00-07:00",
+          "allDay": false,
+          "venue": "Black Bear Diner Boise - Entertainment Ave",
+          "venueKey": "black-bear-diner-boise-entertainment-ave",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbcb/",
+          "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+          "sources": [
+            {
+              "name": "meetup-d15toastmasters-meet-up-group",
+              "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbcb/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "864c37b336b9",
+          "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+          "start": "2026-12-08T18:15:00-07:00",
+          "end": "2026-12-08T19:45:00-07:00",
+          "allDay": false,
+          "venue": "Black Bear Diner Boise - Entertainment Ave",
+          "venueKey": "black-bear-diner-boise-entertainment-ave",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqblb/",
+          "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+          "sources": [
+            {
+              "name": "meetup-d15toastmasters-meet-up-group",
+              "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqblb/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "9c3e7734c021",
+          "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+          "start": "2026-12-15T18:15:00-07:00",
+          "end": "2026-12-15T19:45:00-07:00",
+          "allDay": false,
+          "venue": "Black Bear Diner Boise - Entertainment Ave",
+          "venueKey": "black-bear-diner-boise-entertainment-ave",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbtb/",
+          "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+          "sources": [
+            {
+              "name": "meetup-d15toastmasters-meet-up-group",
+              "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbtb/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "03a3f93da980",
+          "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+          "start": "2026-12-22T18:15:00-07:00",
+          "end": "2026-12-22T19:45:00-07:00",
+          "allDay": false,
+          "venue": "Black Bear Diner Boise - Entertainment Ave",
+          "venueKey": "black-bear-diner-boise-entertainment-ave",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbdc/",
+          "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+          "sources": [
+            {
+              "name": "meetup-d15toastmasters-meet-up-group",
+              "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbdc/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "b518f3a6ac62",
+          "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
+          "start": "2026-12-29T18:15:00-07:00",
+          "end": "2026-12-29T19:45:00-07:00",
+          "allDay": false,
+          "venue": "Black Bear Diner Boise - Entertainment Ave",
+          "venueKey": "black-bear-diner-boise-entertainment-ave",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbmc/",
+          "description": "Have you ever wanted to feel more comfortable in situations that require communication? A Toastmasters meeting provides an opportunity and a supportive environment to improve your public speaking, communication, and leadership skills. Meetings are self-run and members work their way through the T...",
+          "sources": [
+            {
+              "name": "meetup-d15toastmasters-meet-up-group",
+              "url": "https://www.meetup.com/d15toastmasters-meet-up-group/events/vzjhvtyjcqbmc/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        }
+      ]
+    },
     "meetup-dead-authors-book-club-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-diamond-house-gardening-club": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-dontspillthetea": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-eagle-meditation-and-mysticism-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-eagle-womens-circle": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-eastwind-dads-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-encore-creators-and-music-lovers": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-explorer-chicks-of-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "5527e238ae02",
@@ -103317,55 +103992,140 @@
       ]
     },
     "meetup-floating-idaho-waterways": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-friends-of-deer-flat-national-wildlife-refuge": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-frontend-devs": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-greater-idaho-sharepoint-user-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-hard-hats-handshakes": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-harris-ranch-hiking-walking": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": []
+    },
+    "meetup-healthy-fun-choices": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-idaho-artistically-creative-souls-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
+    "meetup-idaho-hikers-backpackers": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": [
+        {
+          "id": "6b9101868356",
+          "title": "Level I Backpacking Training Hike with John: Boise Foothills",
+          "start": "2026-11-21T08:00:00-07:00",
+          "end": "2026-11-21T11:00:00-07:00",
+          "allDay": false,
+          "venue": "Military Reserve",
+          "venueKey": "military-reserve",
+          "city": "Boise",
+          "category": "outdoors-recreation",
+          "tags": [
+            "hike"
+          ],
+          "size": "S",
+          "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317284553/",
+          "description": "Join us for a level 1 backpack training hike. ### What is a training hike? A training hike is a purposeful outing designed to prepare you for backpacking. These hikes help you safely build endurance, strength, and confidence on the trail while getting used to hiking with a pack. For each training...",
+          "sources": [
+            {
+              "name": "meetup-idaho-hikers-backpackers",
+              "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317284553/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "6ad8fd2240c1",
+          "title": "McCall Snowshoeing",
+          "start": "2027-01-02T07:45:00-07:00",
+          "end": "2027-01-02T18:00:00-07:00",
+          "allDay": false,
+          "venue": "Ten mile Park and Ride",
+          "venueKey": "ten-mile-park-and-ride",
+          "city": "Meridian",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317359388/",
+          "description": "Come join me and my wife Samantha; celebrate my birthday with our first snowshoe of the year in McCall. I plan to bring my snowshoes and [Ski Pulk made in Minnesota-](https://skipulk.com/)- you can try it out if you want. We will head up to the [Goose Creek Falls trail ](https://www.alltrails.com...",
+          "sources": [
+            {
+              "name": "meetup-idaho-hikers-backpackers",
+              "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317359388/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "5fa450de02e6",
+          "title": "Hells Canyon Snake River Trail — 4-Day Backpacking Trip",
+          "start": "2027-04-10T06:00:00-06:00",
+          "end": "2027-04-13T15:00:00-06:00",
+          "allDay": false,
+          "venue": "Idaho Hikers & Backpackers - Where Friends and Nature Meet",
+          "venueKey": "idaho-hikers-and-backpackers-where-friends-and-nature-meet",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/idaho-hikers-backpackers/events/315781260/",
+          "description": "Join us for an unforgettable 4-day, 3-night backpacking trip along the [famous Snake River Trail in Hells Canyon](https://www.backpacker.com/trips/trek-hells-canyon-deepest-canyon/), the deepest river gorge in North America. October is one of the best times to visit Hells Canyon: cooler hiking te...",
+          "sources": [
+            {
+              "name": "meetup-idaho-hikers-backpackers",
+              "url": "https://www.meetup.com/idaho-hikers-backpackers/events/315781260/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        }
+      ]
+    },
     "meetup-idaho-investor-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-idaho-mt-biking-and-outdoor-adventurers": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-idaho-running-company-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": []
+    },
+    "meetup-idaho-sierra-club": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": []
+    },
+    "meetup-idahorealestate": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-isgci-gem-court-events": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-kartoflanie-folk-dance-ensemble": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-kuna-kung-fu": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "86287a18ff77",
@@ -103590,7 +104350,7 @@
       ]
     },
     "meetup-kuna-tai-chi-in-the-park": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "956d70523eed",
@@ -103815,19 +104575,23 @@
       ]
     },
     "meetup-let-s-dance-treasure-valley": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-lifewithoutlimitsworkshop": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-meetup-group-bdewhjkn": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": []
+    },
+    "meetup-meetup-group-djtnhrmk": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-meetup-group-euuctjxg": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "3e1868b2dff7",
@@ -103945,15 +104709,15 @@
       ]
     },
     "meetup-meetup-group-geyxmlob": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-meetup-group-gojlqrtq": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-meetup-group-nnrwazoo": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "f68ca7ddb890",
@@ -104093,7 +104857,7 @@
       ]
     },
     "meetup-meetup-group-nsdbawui": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "322a3747fed5",
@@ -104338,15 +105102,19 @@
       ]
     },
     "meetup-meetup-group-wqalhnyu": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": []
+    },
+    "meetup-meetup-group-zqmonsnf": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-meridian-critique-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-meridian-gems-enjoying-adventures-after-50": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "1b5380a5ca4e",
@@ -104373,15 +105141,15 @@
       ]
     },
     "meetup-meridian-gravity-falls-larp-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-meridian-library-district": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-meridian-sociale-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "b77e7e76d64c",
@@ -104430,15 +105198,15 @@
       ]
     },
     "meetup-moms-who-run-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-monday-happy-hour": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-nampa-board-games-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "b3eee5bd47a9",
@@ -104683,11 +105451,11 @@
       ]
     },
     "meetup-nampa-caldwell-board-game-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-nampa-climate-change-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "71528c1a500d",
@@ -104714,11 +105482,11 @@
       ]
     },
     "meetup-nampa-creating-community-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-nampa-peace-love-harmony": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "b2a3e45cce05",
@@ -104745,7 +105513,7 @@
       ]
     },
     "meetup-nampa-spiritual-guidance-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "8a983b1685e6",
@@ -104772,11 +105540,11 @@
       ]
     },
     "meetup-nampa-valley-plant-powered-support-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-nature-act-nature-journaling-workshops": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "0ea2457b3d76",
@@ -104828,11 +105596,11 @@
       ]
     },
     "meetup-network-after-work-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-neurodivergence-book-club": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "2f7999afcbe9",
@@ -104881,15 +105649,15 @@
       ]
     },
     "meetup-occult-exchange": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-owasp-boise-chapter": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-pawnsandpintsboise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "2fe6c1fb1880",
@@ -105114,7 +105882,7 @@
       ]
     },
     "meetup-playyourcourt-boise-tennis": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "95c09013be04",
@@ -105339,7 +106107,7 @@
       ]
     },
     "meetup-plug-in-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "ef2e1f22103f",
@@ -105397,12 +106165,12 @@
           "category": "nightlife-social",
           "tags": [],
           "size": "S",
-          "url": "https://www.meetup.com/plug-in-boise/events/sbqsxtyjcqblb/",
+          "url": "https://www.meetup.com/plug-in-boise/events/317358076/",
           "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
           "sources": [
             {
               "name": "meetup-plug-in-boise",
-              "url": "https://www.meetup.com/plug-in-boise/events/sbqsxtyjcqblb/",
+              "url": "https://www.meetup.com/plug-in-boise/events/317358076/",
               "fetchedAt": "2026-11-07T03:22:23Z"
             }
           ]
@@ -105498,11 +106266,11 @@
       ]
     },
     "meetup-positive-mind-healthy-body": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-practical-magic-society-a-creative-social-club-for-women": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "02e39ddf46c8",
@@ -105640,16 +106408,245 @@
         }
       ]
     },
+    "meetup-propertydealnetwork": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": []
+    },
+    "meetup-recoverydharmaboise": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": [
+        {
+          "id": "b537aab5eeae",
+          "title": "Monday Recovery Dharma Meeting - Buddhist Topic Meeting",
+          "start": "2026-11-09T18:00:00-07:00",
+          "end": "2026-11-09T19:00:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317066874/",
+          "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigating a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your recovery process. No experience...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317066874/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "aa2686691e6a",
+          "title": "Wednesday Recovery Dharma Meeting",
+          "start": "2026-11-11T17:30:00-07:00",
+          "end": "2026-11-11T18:30:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317097822/",
+          "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317097822/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "83ec9a3f69ea",
+          "title": "Saturday Recovery Dharma Meeting",
+          "start": "2026-11-14T16:30:00-07:00",
+          "end": "2026-11-14T17:30:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317137965/",
+          "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317137965/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "3d32549269df",
+          "title": "Sunday Recovery Dharma Book Study",
+          "start": "2026-11-15T09:00:00-07:00",
+          "end": "2026-11-15T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317146369/",
+          "description": "This meeting focuses on readings from the Recovery Dharma book. Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddh...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317146369/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "f8f3681eac40",
+          "title": "Monday Recovery Dharma Meeting - Buddhist Topic Meeting",
+          "start": "2026-11-16T18:00:00-07:00",
+          "end": "2026-11-16T19:00:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317169289/",
+          "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigating a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your recovery process. No experience...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317169289/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "203ed91553aa",
+          "title": "Wednesday Recovery Dharma Meeting",
+          "start": "2026-11-18T17:30:00-07:00",
+          "end": "2026-11-18T18:30:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317198716/",
+          "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317198716/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "a95e12d22c03",
+          "title": "Saturday Recovery Dharma Meeting",
+          "start": "2026-11-21T16:30:00-07:00",
+          "end": "2026-11-21T17:30:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317246119/",
+          "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317246119/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "8ca934c4e7d3",
+          "title": "Sunday Recovery Dharma Book Study",
+          "start": "2026-11-22T09:00:00-07:00",
+          "end": "2026-11-22T10:00:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317255502/",
+          "description": "This meeting focuses on readings from the Recovery Dharma book. Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddh...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317255502/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "376a6acdb1d4",
+          "title": "Monday Recovery Dharma Meeting - Buddhist Topic Meeting",
+          "start": "2026-11-23T18:00:00-07:00",
+          "end": "2026-11-23T19:00:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317279083/",
+          "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigating a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your recovery process. No experience...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317279083/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "67447133e99a",
+          "title": "Wednesday Recovery Dharma Meeting",
+          "start": "2026-11-25T17:30:00-07:00",
+          "end": "2026-11-25T18:30:00-07:00",
+          "allDay": false,
+          "venue": "Boise Institute for Buddhist Studies",
+          "venueKey": "boise-institute-for-buddhist-studies",
+          "city": "Boise",
+          "category": "nightlife-social",
+          "tags": [],
+          "size": "S",
+          "url": "https://www.meetup.com/recoverydharmaboise/events/317307282/",
+          "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+          "sources": [
+            {
+              "name": "meetup-recoverydharmaboise",
+              "url": "https://www.meetup.com/recoverydharmaboise/events/317307282/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        }
+      ]
+    },
     "meetup-romantasy-fantasy-book-club": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-rotator-cuff-surgery-support-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-sheworks-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "1d2d1a345cfd",
@@ -105676,31 +106673,35 @@
       ]
     },
     "meetup-shutupandwriteboiseid": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-singles-mixers-by-matchmaking-mavens": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-spiral-dynamics-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-start-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": []
+    },
+    "meetup-strive-networking": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-sweetgrass-society": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-tell-me-your-dreams-meetup-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-the-dandelion-journals-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "a31c103d8b6d",
@@ -105727,7 +106728,7 @@
       ]
     },
     "meetup-the-fun-seekers-connection": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "db210a75b3ea",
@@ -105826,35 +106827,35 @@
       ]
     },
     "meetup-the-liberation-project": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-the-liberation-project-ex-mormon-community": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-thechildrenofgaia-dionysus": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-treasure-valley-couples-dining-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-treasure-valley-gamers-guild": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-treasure-valley-makers": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-treasure-valley-music-meditation": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-treasure-valley-musicians-aspiring-artist": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "ab1d01a4578c",
@@ -105903,48 +106904,52 @@
         }
       ]
     },
+    "meetup-treasure-valley-needle-arts-meetup": {
+      "fetchedAt": "2026-11-09T20:49:46Z",
+      "events": []
+    },
     "meetup-treasure-valley-polyamory": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-treasure-valley-tech-community": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-treasurevalleywp": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-tv-chapter-nonfiction-authors-association": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-tvcsfun": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-tvpnetwork": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-uxdx-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-virtual-worldwide-and-treasure-valley-fiber-arts-meetup": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-volunteers-beers-and-cheers": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-walk-for-the-world-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-waypoint-a-meditative-service-for-pilgrims": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "d411cfca12bc",
@@ -106169,19 +107174,19 @@
       ]
     },
     "meetup-west-boise-intro-to-the-christian-faith-discussion-group": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-west-idaho-collective": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-what-does-the-bible-say-a-discourse-on-theology": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-whole-food-plant-based-for-life-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "e9c3561207ed",
@@ -106231,11 +107236,11 @@
       ]
     },
     "meetup-writers-bloc-meridian": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "meetup-y12sr-45-min-12-step-meeting-with-45-min-yoga-practices": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "7d26b05fce09",
@@ -106306,11 +107311,11 @@
       ]
     },
     "meetup-yoga-love-boise-yoga-wellness-events": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "middleton-chamber": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "c2b0b43bfb76",
@@ -108424,7 +109429,7 @@
       ]
     },
     "morrison-center": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "4bf3bd52ed09",
@@ -109590,6 +110595,52 @@
           ]
         },
         {
+          "id": "0f78a39ac188",
+          "title": "Bryce Crawford: Not Your Average Jesus Tour",
+          "start": "2027-03-16T19:00:00-06:00",
+          "allDay": false,
+          "venue": "Morrison Center for the Performing Arts",
+          "venueKey": "morrison-center-for-the-performing-arts",
+          "city": "Boise",
+          "category": "music",
+          "tags": [
+            "concert"
+          ],
+          "size": "L",
+          "url": "https://www.ticketmaster.com/bryce-crawford-not-your-average-jesus-boise-idaho-03-16-2027/event/1E00655DE7969C84",
+          "description": "-All seats are reserved. -Everyone through the door, regardless of age, requires a ticket. -Guests who arrive late will be seated at the discretion of Management. -The Morrison Center reserves the right to search all bags. -Clutches or purses no larger than 14×14 are permitted. -Large purses, tot...",
+          "sources": [
+            {
+              "name": "morrison-center",
+              "url": "https://www.ticketmaster.com/bryce-crawford-not-your-average-jesus-boise-idaho-03-16-2027/event/1E00655DE7969C84",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "e0d732a7e771",
+          "title": "Bryce Crawford Pre-Show Q&A - Event Ticket Required -Must arrive early",
+          "start": "2027-03-16T19:00:00-06:00",
+          "allDay": false,
+          "venue": "Morrison Center for the Performing Arts",
+          "venueKey": "morrison-center-for-the-performing-arts",
+          "city": "Boise",
+          "category": "music",
+          "tags": [
+            "concert"
+          ],
+          "size": "L",
+          "url": "https://www.ticketmaster.com/bryce-crawford-preshow-qa-event-ticket-boise-idaho-03-16-2027/event/1E00655EA3424928",
+          "description": "Pre-Show Q&A Add-On includes early entry to the venue, an exclusive hour with Bryce featuring a photo opportunity, and first access to merchandise. Pre-Show Q&A Add-On doors open at 4:00 PM, and the show starts at 7:00 PM. Pre-Show Q&A Add-On ticket holders must arrive by 4:15 PM to take advantag...",
+          "sources": [
+            {
+              "name": "morrison-center",
+              "url": "https://www.ticketmaster.com/bryce-crawford-preshow-qa-event-ticket-boise-idaho-03-16-2027/event/1E00655EA3424928",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
           "id": "ed04c54cf8db",
           "title": "Broadway In Boise Presents THE BOOK OF MORMON",
           "start": "2027-03-30T19:00:00-06:00",
@@ -110588,11 +111639,11 @@
       ]
     },
     "mountain-home-chamber": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "mountain-home-library": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "78f38aac7d49",
@@ -114354,7 +115405,7 @@
       ]
     },
     "nampa-public-library": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "28ccddedd255",
@@ -125422,31 +126473,8 @@
       ]
     },
     "neurolux": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
-        {
-          "id": "4e23b952e37b",
-          "title": "CHIPPED NAIL POLISH , McKenna Esteb, Red Caroline",
-          "start": "2026-11-08T20:00:00-07:00",
-          "allDay": false,
-          "venue": "Neurolux",
-          "venueKey": "neurolux",
-          "city": "Boise",
-          "category": "music",
-          "tags": [
-            "concert"
-          ],
-          "size": "M",
-          "costTier": "$$",
-          "url": "https://www.ticketweb.com/event/chipped-nail-polish-mckenna-neurolux-lounge-tickets/14375754",
-          "sources": [
-            {
-              "name": "neurolux",
-              "url": "https://www.ticketweb.com/event/chipped-nail-polish-mckenna-neurolux-lounge-tickets/14375754",
-              "fetchedAt": "2026-11-06T19:12:30Z"
-            }
-          ]
-        },
         {
           "id": "f4875d258d7e",
           "title": "LUCY (Cooper B. Handy), Blanket Ghost",
@@ -125794,11 +126822,11 @@
       ]
     },
     "ninth-st-parallel": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
-          "id": "1bf29719c41d",
-          "title": "Token, Clark D",
+          "id": "f028c2acec42",
+          "title": "Token",
           "start": "2026-11-10T20:00:00-07:00",
           "allDay": false,
           "venue": "9th St. Parallel at Knitting Factory",
@@ -125810,13 +126838,13 @@
           ],
           "size": "M",
           "costTier": "$$",
-          "url": "https://www.ticketweb.com/event/token-clark-d-9th-st-parallel-at-knitting-tickets/14251754",
-          "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event.VIP MEET Includes GA TicketExclusive VIP Meet & Greet with Token after his show(1) solo photo opp with Token VIP SOUND CHECK + MEET Includes GA TicketEarly entry into th...",
+          "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
+          "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event. VIP 'MEET & GREET' Includes GA Ticket Exclusive VIP Meet & Greet with Token after his show (1) solo photo opp with Token VIP 'SOUND CHECK + MEET & GREET' Includes GA Ti...",
           "sources": [
             {
               "name": "ninth-st-parallel",
-              "url": "https://www.ticketweb.com/event/token-clark-d-9th-st-parallel-at-knitting-tickets/14251754",
-              "fetchedAt": "2026-11-06T19:12:30Z"
+              "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -125989,11 +127017,35 @@
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
+        },
+        {
+          "id": "457c10bb4983",
+          "title": "GRIEVES - OUT COLD TOUR 5 with Horrorshow and Street Sweepers",
+          "start": "2027-03-24T20:00:00-06:00",
+          "allDay": false,
+          "venue": "9th St. Parallel at Knitting Factory",
+          "venueKey": "9th-st-parallel-at-knitting-factory",
+          "city": "Boise",
+          "category": "music",
+          "tags": [
+            "concert"
+          ],
+          "size": "M",
+          "costTier": "$$$",
+          "url": "https://www.ticketweb.com/event/grieves-out-cold-9th-st-parallel-at-knitting-tickets/14425514",
+          "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event.",
+          "sources": [
+            {
+              "name": "ninth-st-parallel",
+              "url": "https://www.ticketweb.com/event/grieves-out-cold-9th-st-parallel-at-knitting-tickets/14425514",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
         }
       ]
     },
     "nnu-athletics": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "4db782152752",
@@ -128250,11 +129302,11 @@
       ]
     },
     "owyhee-county": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "race-to-robie-creek": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "41bf5ba6dc5d",
@@ -128268,7 +129320,7 @@
           "tags": [],
           "size": "M",
           "url": "https://runsignup.com/Race/ID/Boise/RacetoRobieCreek",
-          "description": "Join us for our next Race on Saturday, April 17, 2027 at high noon (MT). If you have questions, please check out the Frequently Asked Questions & Race Details tabs.",
+          "description": "Join us for the next Race to Robie Creek® on Saturday, April 17, 2027 at high noon (MT). Registration begins on Monday, February 15, 2027 at noon (MT). If you have questions, please check out the Frequently Asked Questions & Race Details tabs.",
           "sources": [
             {
               "name": "race-to-robie-creek",
@@ -128280,7 +129332,7 @@
       ]
     },
     "recycled-minds": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "7c8a11c05cd1",
@@ -128398,7 +129450,7 @@
       ]
     },
     "reuseum": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "0ee553ace8db",
@@ -128450,7 +129502,7 @@
       ]
     },
     "revolution-concert-house": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "f03df3b77b3a",
@@ -128523,29 +129575,8 @@
       ]
     },
     "riverside-hotel": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
-        {
-          "id": "1d388a6cafaf",
-          "title": "Roll On: Alabama Tribute",
-          "start": "2026-11-08T19:00:00-07:00",
-          "end": "2026-11-08T21:15:00-07:00",
-          "allDay": false,
-          "venue": "The Riverside Hotel",
-          "venueKey": "the-riverside-hotel",
-          "city": "Garden City",
-          "category": "music",
-          "tags": [],
-          "size": "M",
-          "url": "https://sapphiresocietyboise.com/events/rollonnovember",
-          "sources": [
-            {
-              "name": "riverside-hotel",
-              "url": "https://sapphiresocietyboise.com/events/rollonnovember",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
-        },
         {
           "id": "0f276610b7d3",
           "title": "Essential Jazz",
@@ -129923,7 +130954,7 @@
       ]
     },
     "runsignup-treasure-valley": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     },
     "salmon-river-chamber": {
@@ -129977,7 +131008,7 @@
       ]
     },
     "shrine-social-club": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "facd9833ba68",
@@ -130890,6 +131921,26 @@
           ]
         },
         {
+          "id": "a8843545e446",
+          "title": "Velnias",
+          "start": "2026-12-16T18:30:00-07:00",
+          "allDay": false,
+          "venue": "Shrine Social Club",
+          "venueKey": "shrine-social-club",
+          "city": "Boise",
+          "category": "music",
+          "tags": [],
+          "size": "M",
+          "url": "https://link.dice.fm/c0270ca02d3e",
+          "sources": [
+            {
+              "name": "shrine-social-club",
+              "url": "https://link.dice.fm/c0270ca02d3e",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
           "id": "a7c5fe83d720",
           "title": "RUB",
           "start": "2026-12-17T20:00:00-07:00",
@@ -131498,6 +132549,26 @@
           ]
         },
         {
+          "id": "6fc5e4418658",
+          "title": "Rec Hall",
+          "start": "2027-04-20T19:00:00-06:00",
+          "allDay": false,
+          "venue": "Shrine Social Club",
+          "venueKey": "shrine-social-club",
+          "city": "Boise",
+          "category": "music",
+          "tags": [],
+          "size": "M",
+          "url": "https://link.dice.fm/d60e94cf88f9",
+          "sources": [
+            {
+              "name": "shrine-social-club",
+              "url": "https://link.dice.fm/d60e94cf88f9",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
           "id": "f6d0cefc2025",
           "title": "The Chameleons",
           "start": "2027-04-28T19:00:00-06:00",
@@ -131600,7 +132671,7 @@
       ]
     },
     "signal-american": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "5269cde23b3e",
@@ -131668,7 +132739,7 @@
       ]
     },
     "star-chamber": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "510bec86d646",
@@ -140110,7 +141181,7 @@
       ]
     },
     "ste-chapelle-winery": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "49ad01b97f81",
@@ -140200,7 +141271,7 @@
       ]
     },
     "tamarack-resort": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "540178cefea4",
@@ -140819,7 +141890,7 @@
       ]
     },
     "the-cabin": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "c27b9e58a695",
@@ -141111,31 +142182,8 @@
       ]
     },
     "ticketmaster-metro": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
-        {
-          "id": "4e23b952e37b",
-          "title": "CHIPPED NAIL POLISH , McKenna Esteb, Red Caroline",
-          "start": "2026-11-08T20:00:00-07:00",
-          "allDay": false,
-          "venue": "Neurolux",
-          "venueKey": "neurolux",
-          "city": "Boise",
-          "category": "music",
-          "tags": [
-            "concert"
-          ],
-          "size": "M",
-          "costTier": "$$",
-          "url": "https://www.ticketweb.com/event/chipped-nail-polish-mckenna-neurolux-lounge-tickets/14375754",
-          "sources": [
-            {
-              "name": "ticketmaster-metro",
-              "url": "https://www.ticketweb.com/event/chipped-nail-polish-mckenna-neurolux-lounge-tickets/14375754",
-              "fetchedAt": "2026-11-06T19:12:30Z"
-            }
-          ]
-        },
         {
           "id": "f4875d258d7e",
           "title": "LUCY (Cooper B. Handy), Blanket Ghost",
@@ -141183,8 +142231,8 @@
           ]
         },
         {
-          "id": "1bf29719c41d",
-          "title": "Token, Clark D",
+          "id": "f028c2acec42",
+          "title": "Token",
           "start": "2026-11-10T20:00:00-07:00",
           "allDay": false,
           "venue": "9th St. Parallel at Knitting Factory",
@@ -141196,13 +142244,13 @@
           ],
           "size": "M",
           "costTier": "$$",
-          "url": "https://www.ticketweb.com/event/token-clark-d-9th-st-parallel-at-knitting-tickets/14251754",
-          "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event.VIP MEET Includes GA TicketExclusive VIP Meet & Greet with Token after his show(1) solo photo opp with Token VIP SOUND CHECK + MEET Includes GA TicketEarly entry into th...",
+          "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
+          "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event. VIP 'MEET & GREET' Includes GA Ticket Exclusive VIP Meet & Greet with Token after his show (1) solo photo opp with Token VIP 'SOUND CHECK + MEET & GREET' Includes GA Ti...",
           "sources": [
             {
               "name": "ticketmaster-metro",
-              "url": "https://www.ticketweb.com/event/token-clark-d-9th-st-parallel-at-knitting-tickets/14251754",
-              "fetchedAt": "2026-11-06T19:12:30Z"
+              "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -142319,17 +143367,14 @@
           "city": "Boise",
           "category": "music",
           "tags": [
-            "concert",
-            "kids"
+            "concert"
           ],
           "size": "L",
-          "costTier": "$$",
-          "url": "https://www.ticketweb.com/event/emo-nite-knitting-factory-boise-tickets/14402084",
-          "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event. The age limit for this event is 21+. Donations are allocated for worthwhile organizations focusing on: · Mental Health · Harm Reduction · Children & Families · Poverty...",
+          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7gr4",
           "sources": [
             {
               "name": "ticketmaster-metro",
-              "url": "https://www.ticketweb.com/event/emo-nite-knitting-factory-boise-tickets/14402084",
+              "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7gr4",
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
@@ -142344,14 +143389,17 @@
           "city": "Boise",
           "category": "music",
           "tags": [
-            "concert"
+            "concert",
+            "kids"
           ],
           "size": "L",
-          "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7gr4",
+          "costTier": "$$",
+          "url": "https://www.ticketweb.com/event/emo-nite-knitting-factory-boise-tickets/14402084",
+          "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event. The age limit for this event is 21+. Donations are allocated for worthwhile organizations focusing on: · Mental Health · Harm Reduction · Children & Families · Poverty...",
           "sources": [
             {
               "name": "ticketmaster-metro",
-              "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7gr4",
+              "url": "https://www.ticketweb.com/event/emo-nite-knitting-factory-boise-tickets/14402084",
               "fetchedAt": "2026-11-06T19:12:30Z"
             }
           ]
@@ -143217,6 +144265,30 @@
               "name": "ticketmaster-metro",
               "url": "https://www.ticketmaster.com/wheeler-walker-jr-pullin-out-the-boise-idaho-03-21-2027/event/1E0064C495256B88",
               "fetchedAt": "2026-11-06T19:12:30Z"
+            }
+          ]
+        },
+        {
+          "id": "457c10bb4983",
+          "title": "GRIEVES - OUT COLD TOUR 5 with Horrorshow and Street Sweepers",
+          "start": "2027-03-24T20:00:00-06:00",
+          "allDay": false,
+          "venue": "9th St. Parallel at Knitting Factory",
+          "venueKey": "9th-st-parallel-at-knitting-factory",
+          "city": "Boise",
+          "category": "music",
+          "tags": [
+            "concert"
+          ],
+          "size": "M",
+          "costTier": "$$$",
+          "url": "https://www.ticketweb.com/event/grieves-out-cold-9th-st-parallel-at-knitting-tickets/14425514",
+          "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event.",
+          "sources": [
+            {
+              "name": "ticketmaster-metro",
+              "url": "https://www.ticketweb.com/event/grieves-out-cold-9th-st-parallel-at-knitting-tickets/14425514",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -144110,6 +145182,52 @@
           ]
         },
         {
+          "id": "32fdee8d1b8f",
+          "title": "Cody Jinks - Garden Suite",
+          "start": "2027-06-19T19:00:00-06:00",
+          "allDay": false,
+          "venue": "Outlaw Field at the Idaho Botanical Garden",
+          "venueKey": "outlaw-field-at-the-idaho-botanical-garden",
+          "city": "Boise",
+          "category": "music",
+          "tags": [
+            "concert"
+          ],
+          "size": "M",
+          "url": "https://www.ticketmaster.com/cody-jinks-garden-suite-boise-idaho-06-19-2027/event/1E006564D5DC555D",
+          "sources": [
+            {
+              "name": "ticketmaster-metro",
+              "url": "https://www.ticketmaster.com/cody-jinks-garden-suite-boise-idaho-06-19-2027/event/1E006564D5DC555D",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "65799c579197",
+          "title": "Cody Jinks & The Tonedeaf Hippies: The Working Man Tour",
+          "start": "2027-06-19T19:00:00-06:00",
+          "allDay": false,
+          "venue": "Outlaw Field at the Idaho Botanical Garden",
+          "venueKey": "outlaw-field-at-the-idaho-botanical-garden",
+          "city": "Boise",
+          "category": "music",
+          "tags": [
+            "concert",
+            "kids"
+          ],
+          "size": "M",
+          "url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-boise-idaho-06-19-2027/event/1E006564D5F8557B",
+          "description": "RAIN OR SHINE. Firearms are prohibited. Children age 2 and under do not need a ticket. Please Plan Accordingly.",
+          "sources": [
+            {
+              "name": "ticketmaster-metro",
+              "url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-boise-idaho-06-19-2027/event/1E006564D5F8557B",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
           "id": "6b426c1c048b",
           "title": "Saturday Snake River Stampede - Finals Night",
           "start": "2027-06-19T19:30:00-06:00",
@@ -144156,7 +145274,7 @@
       ]
     },
     "village-at-meridian": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "77e4e5fbbb4a",
@@ -144178,31 +145296,6 @@
             {
               "name": "village-at-meridian",
               "url": "https://www.thevillageatmeridian.com/event/44898-ice-skating",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
-        },
-        {
-          "id": "83ffcd471869",
-          "title": "Cozy Little Bookworms",
-          "start": "2026-11-14T10:00:00-07:00",
-          "end": "2026-11-14T11:00:00-07:00",
-          "allDay": false,
-          "venue": "The Village at Meridian",
-          "venueKey": "the-village",
-          "city": "Meridian",
-          "category": "community-civic",
-          "tags": [
-            "free-admission"
-          ],
-          "size": "M",
-          "costTier": "free",
-          "url": "https://www.thevillageatmeridian.com/event/45344-cozy-little-bookworms",
-          "description": "​Snuggle up, slow down, and enjoy a little fall fun!Join us for a cozy morning designed for our littlest bookworms. Little ones can explore a selection of fall books, enjoy a simple book-themed craft, and have relaxed playtime in our cozy reading area filled with blankets and stuffed animals.​Par...",
-          "sources": [
-            {
-              "name": "village-at-meridian",
-              "url": "https://www.thevillageatmeridian.com/event/45344-cozy-little-bookworms",
               "fetchedAt": "2026-11-07T03:22:23Z"
             }
           ]
@@ -144328,53 +145421,6 @@
           ]
         },
         {
-          "id": "f73ef109d66e",
-          "title": "Gratitude & Goodies",
-          "start": "2026-11-21T10:00:00-07:00",
-          "end": "2026-11-21T11:00:00-07:00",
-          "allDay": false,
-          "venue": "The Village at Meridian",
-          "venueKey": "the-village",
-          "city": "Meridian",
-          "category": "community-civic",
-          "tags": [
-            "free-admission"
-          ],
-          "size": "M",
-          "costTier": "free",
-          "url": "https://www.thevillageatmeridian.com/event/45346-gratitude-goodies",
-          "description": "​A cozy morning filled with sweet treats, little moments, and lots to be thankful for.​Join us for a slightly more elevated fall experience where parents and little ones can slow down and enjoy time together. Sip on coffee or apple cider, enjoy seasonal goodies, create a gratitude-themed craft, a...",
-          "sources": [
-            {
-              "name": "village-at-meridian",
-              "url": "https://www.thevillageatmeridian.com/event/45346-gratitude-goodies",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
-        },
-        {
-          "id": "726bd23c72a7",
-          "title": "Santa's Reindeer with Corbin Maxey",
-          "start": "2026-11-27T10:00:00-07:00",
-          "end": "2026-11-27T12:00:00-07:00",
-          "allDay": false,
-          "venue": "The Village at Meridian",
-          "venueKey": "the-village",
-          "city": "Meridian",
-          "category": "community-civic",
-          "tags": [],
-          "size": "M",
-          "url": "https://www.thevillageatmeridian.com/event/33172-santa-reindeer-with-corbin-maxey",
-          "description": "Get up-close and personal with live reindeer, with none other than nationally recognized animal expert Corbin Maxey! Join us on Big Al’s Patio for this interactive experience on November 27th from 10AM-12PM",
-          "sources": [
-            {
-              "name": "village-at-meridian",
-              "url": "https://www.thevillageatmeridian.com/event/33172-santa-reindeer-with-corbin-maxey",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
-        },
-        {
           "id": "f3f8fe35fbac",
           "title": "Breakfast With Santa",
           "start": "2026-11-27T10:00:00-07:00",
@@ -144444,39 +145490,17 @@
               "fetchedAt": "2026-11-07T03:22:23Z"
             }
           ]
-        },
-        {
-          "id": "03ca3eda2c00",
-          "title": "Light The World",
-          "start": "2026-12-15",
-          "end": "2026-12-31",
-          "allDay": true,
-          "venue": "The Village at Meridian",
-          "venueKey": "the-village",
-          "city": "Meridian",
-          "category": "community-civic",
-          "tags": [],
-          "size": "M",
-          "url": "https://www.thevillageatmeridian.com/event/45779-light-the-world",
-          "description": "Light the World Giving Machine: Make a Local Impact This Christmas SeasonVisit the Light the World Giving Machine, coming to The Village at Meridian: December 15th - 31stThe Light the World Giving Machine is a unique, charitable vending machine initiative that allows people to purchase donations...",
-          "sources": [
-            {
-              "name": "village-at-meridian",
-              "url": "https://www.thevillageatmeridian.com/event/45779-light-the-world",
-              "fetchedAt": "2026-11-07T03:22:23Z"
-            }
-          ]
         }
       ]
     },
     "visit-boise": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
-          "id": "af67fd81d5f1",
+          "id": "653291f5dca8",
           "title": "Idaho Steelheads",
-          "start": "2026-11-04T19:10:00-07:00",
-          "end": "2027-04-10T19:10:00-06:00",
+          "start": "2026-11-05T02:10:00-07:00",
+          "end": "2027-04-11T01:10:00-06:00",
           "allDay": false,
           "venue": "Idaho Central Arena",
           "venueKey": "idaho-central-arena",
@@ -144492,204 +145516,15 @@
             {
               "name": "visit-boise",
               "url": "https://www.ticketsmarter.com/p/idaho-steelheads-tickets?utm_source=dmo&utm_medium=visitboise&utm_campaign=idaho-steelheads_recurring_20261104_20270410",
-              "fetchedAt": "2026-11-06T19:12:30Z"
-            }
-          ]
-        },
-        {
-          "id": "e9c16b059bda",
-          "title": "Idaho Dream Wedding Expo",
-          "start": "2026-11-07T08:00:00-07:00",
-          "end": "2026-11-08T09:00:00-07:00",
-          "allDay": false,
-          "venue": "Expo Idaho",
-          "venueKey": "expo-idaho",
-          "city": "Boise",
-          "category": "learning-business",
-          "tags": [
-            "kids",
-            "trade-show"
-          ],
-          "size": "L",
-          "costTier": "$",
-          "url": "http://www.idahodreamwedding.com",
-          "description": "LOVE is in the Air! Idaho Dream Wedding Expo November 7-8, 2026 Saturday: 10 AM - 4 PM | Sunday: 10 AM - 3 PM You’ve been searching for wedding ideas and trends online—now it’s time to see them come to life! Join us at the Idaho Dream Wedding Expo, the largest wedding event of the year. What to E...",
-          "sources": [
-            {
-              "name": "visit-boise",
-              "url": "http://www.idahodreamwedding.com",
-              "fetchedAt": "2026-11-08T06:23:07Z"
-            }
-          ]
-        },
-        {
-          "id": "f555d5c35125",
-          "title": "Distillery Tour",
-          "start": "2026-11-08T11:00:00-07:00",
-          "end": "2026-11-08T20:00:00-07:00",
-          "allDay": false,
-          "venue": "Bardenay Distilling Co.",
-          "venueKey": "bardenay-distilling-co",
-          "city": "Boise",
-          "category": "food-drink",
-          "tags": [
-            "brewery"
-          ],
-          "size": "S",
-          "url": "https://www.bardenaydistilling.com/",
-          "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
-          "sources": [
-            {
-              "name": "visit-boise",
-              "url": "https://www.bardenaydistilling.com/",
-              "fetchedAt": "2026-11-08T23:01:49Z"
-            }
-          ]
-        },
-        {
-          "id": "782449fec3f5",
-          "title": "Boise State Men’s Basketball",
-          "start": "2026-11-08T12:00:00-07:00",
-          "end": "2026-11-08T14:00:00-07:00",
-          "allDay": false,
-          "venue": "ExtraMile Arena",
-          "venueKey": "extramile-arena",
-          "city": "Boise",
-          "category": "sports",
-          "tags": [
-            "college-sports"
-          ],
-          "size": "XL",
-          "url": "https://broncosports.com/sports/mens-basketball",
-          "description": "The Boise State Broncos men's basketball team represents Boise State University in the Pac-12 Conference. The Broncos are led by head coach Leon Rice, hired in March 2010, and play their home games on campus at ExtraMile.",
-          "sources": [
-            {
-              "name": "visit-boise",
-              "url": "https://broncosports.com/sports/mens-basketball",
-              "fetchedAt": "2026-11-08T23:01:49Z"
-            }
-          ]
-        },
-        {
-          "id": "9ac36b7e9d02",
-          "title": "Boise Phil: The Planets",
-          "start": "2026-11-08T14:00:00-07:00",
-          "end": "2026-11-08T16:00:00-07:00",
-          "allDay": false,
-          "venue": "Morrison Center, 2201 W Cesar Chavez Ln, Boise, ID 83725, United States",
-          "venueKey": "morrison-center-2201-w-cesar-chavez-ln-boise-id-83725-united-states",
-          "city": "Boise",
-          "category": "community-civic",
-          "tags": [],
-          "size": "S",
-          "costTier": "$$",
-          "url": "https://boisephil.org",
-          "description": "Presented by Boise Phil. Eric Garcia leads a journey from intimate lyricism to cosmic grandeur as guest pianist Fei-Fei brings elegance and expressive depth to Beethoven’s Piano Concerto No. 4 in G major, Op. 58. Then, the women of the Boise Phil Master Chorale join the orchestra for Holst’s The...",
-          "sources": [
-            {
-              "name": "visit-boise",
-              "url": "https://boisephil.org",
-              "fetchedAt": "2026-11-08T23:01:49Z"
-            }
-          ]
-        },
-        {
-          "id": "5692b89299a4",
-          "title": "Colossal Cinematic Showcase, November 8, 2026, Overland Park Cinemas",
-          "start": "2026-11-08T16:00:00-07:00",
-          "end": "2026-11-08T21:00:00-07:00",
-          "allDay": false,
-          "venue": "Various Treasure Valley locations",
-          "venueKey": "various-treasure-valley",
-          "city": "Boise",
-          "category": "community-civic",
-          "tags": [],
-          "size": "S",
-          "costTier": "$$",
-          "url": "http://go.evvnt.com/3877634-2?pid=11493",
-          "description": "The Colossal Cinematic Showcase is a red carpet event featuring two hours of short films made primarily by local filmmakers shown on the big screen at Overland Park Cinemas (7051 W Overland Rd, Boise, ID 83709)! Following the films, attend the Colossal After Party to meet and mingle with the feat...",
-          "sources": [
-            {
-              "name": "visit-boise",
-              "url": "http://go.evvnt.com/3877634-2?pid=11493",
-              "fetchedAt": "2026-11-08T23:01:49Z"
-            }
-          ]
-        },
-        {
-          "id": "683044a4822e",
-          "title": "Tease Academy’s Winter Burlesque Series",
-          "start": "2026-11-08T16:15:00-07:00",
-          "end": "2026-11-08T18:15:00-07:00",
-          "allDay": false,
-          "venue": "Wear Haus",
-          "venueKey": "wear-haus",
-          "city": "Boise",
-          "category": "nightlife-social",
-          "tags": [
-            "burlesque"
-          ],
-          "size": "S",
-          "costTier": "$$",
-          "url": "https://www.femmevonfollies.com/",
-          "description": "Everyone deserves a little sparkle and a whole lotta shimmy. Whether you're stage-curious or already practicing, all are welcome. Each week is themed, fabulous, and full of juicy tips from seasoned performers. Optional stage time Dec. 20th for the Student Showcase. 11/08 - Crowd Choreo Intensive...",
-          "sources": [
-            {
-              "name": "visit-boise",
-              "url": "https://www.femmevonfollies.com/",
-              "fetchedAt": "2026-11-08T23:01:49Z"
-            }
-          ]
-        },
-        {
-          "id": "a1b8105e212c",
-          "title": "Daily Bread with Probcause and Pheel",
-          "start": "2026-11-08T20:00:00-07:00",
-          "end": "2026-11-08T23:00:00-07:00",
-          "allDay": false,
-          "venue": "Knitting Factory",
-          "venueKey": "knitting-factory",
-          "city": "Boise",
-          "category": "community-civic",
-          "tags": [],
-          "size": "L",
-          "url": "https://www.ticketsmarter.com/e/daily-bread-with-probcause-and-pheel-tickets-boise-11-8-2026-knitting-factory-concert-house-boise/3440516?utm_source=dmo&utm_medium=visitboise&utm_campaign=dailybreadwithprobcauseandpheel-3440516",
-          "description": "Atlanta producer Daily Bread brings his Vanishing Point Tour to Boise, presenting a live electronic set shaped by warm soul textures, gritty hip-hop influence and bass-forward production. The tour centers on his album Vanishing Point, which Daily Bread describes as music inspired by sounds, place...",
-          "sources": [
-            {
-              "name": "visit-boise",
-              "url": "https://www.ticketsmarter.com/e/daily-bread-with-probcause-and-pheel-tickets-boise-11-8-2026-knitting-factory-concert-house-boise/3440516?utm_source=dmo&utm_medium=visitboise&utm_campaign=dailybreadwithprobcauseandpheel-3440516",
-              "fetchedAt": "2026-11-08T23:01:49Z"
-            }
-          ]
-        },
-        {
-          "id": "fc9cbb3a7835",
-          "title": "L7",
-          "start": "2026-11-08T20:00:00-07:00",
-          "end": "2026-11-08T23:00:00-07:00",
-          "allDay": false,
-          "venue": "Treefort Music Hall",
-          "venueKey": "treefort-music-hall",
-          "city": "Boise",
-          "category": "community-civic",
-          "tags": [],
-          "size": "M",
-          "url": "https://www.ticketsmarter.com/e/l7-tickets-boise-11-8-2026-treefort-music-hall/3483114?utm_source=dmo&utm_medium=visitboise&utm_campaign=l7-3483114",
-          "description": "L7 brings its punk-inflected alternative rock to Treefort Music Hall for a Boise stop on The Last Hurrah tour. Formed in Los Angeles, the band is known for a forceful guitar-driven sound, with Donita Sparks and Suzi Gardner on guitars and vocals and Dee Plakas on drums. Visitors can expect a live...",
-          "sources": [
-            {
-              "name": "visit-boise",
-              "url": "https://www.ticketsmarter.com/e/l7-tickets-boise-11-8-2026-treefort-music-hall/3483114?utm_source=dmo&utm_medium=visitboise&utm_campaign=l7-3483114",
-              "fetchedAt": "2026-11-08T23:01:49Z"
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
         {
           "id": "f57349acb046",
           "title": "Distillery Tour",
-          "start": "2026-11-09T11:00:00-07:00",
-          "end": "2026-11-09T20:00:00-07:00",
+          "start": "2026-11-09T18:00:00-07:00",
+          "end": "2026-11-10T03:00:00-07:00",
           "allDay": false,
           "venue": "Bardenay Distilling Co.",
           "venueKey": "bardenay-distilling-co",
@@ -144712,8 +145547,8 @@
         {
           "id": "9bce5b254f1d",
           "title": "Crafty Sundays",
-          "start": "2026-11-09T14:00:00-07:00",
-          "end": "2026-11-09T18:00:00-07:00",
+          "start": "2026-11-09T21:00:00-07:00",
+          "end": "2026-11-10T01:00:00-07:00",
           "allDay": false,
           "venue": "Meriwether Cider Co.",
           "venueKey": "meriwether-cider-co",
@@ -144732,10 +145567,10 @@
           ]
         },
         {
-          "id": "0adc3009f180",
+          "id": "d9caba1b0624",
           "title": "Paint Nite @ Amsterdam Lounge",
-          "start": "2026-11-09T19:00:00-07:00",
-          "end": "2026-11-09T21:00:00-07:00",
+          "start": "2026-11-10T02:00:00-07:00",
+          "end": "2026-11-10T04:00:00-07:00",
           "allDay": false,
           "venue": "Amsterdam Lounge",
           "venueKey": "amsterdam-lounge",
@@ -144750,14 +145585,209 @@
             {
               "name": "visit-boise",
               "url": "https://tinyurl.com/y8v52twy",
-              "fetchedAt": "2026-11-08T23:01:49Z"
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "45927a30b316",
+          "title": "Distillery Tour",
+          "start": "2026-11-10T18:00:00-07:00",
+          "end": "2026-11-11T03:00:00-07:00",
+          "allDay": false,
+          "venue": "Bardenay Distilling Co.",
+          "venueKey": "bardenay-distilling-co",
+          "city": "Boise",
+          "category": "food-drink",
+          "tags": [
+            "brewery"
+          ],
+          "size": "S",
+          "url": "https://www.bardenaydistilling.com/",
+          "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
+          "sources": [
+            {
+              "name": "visit-boise",
+              "url": "https://www.bardenaydistilling.com/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "20e93358f891",
+          "title": "Golden Hour(s) at Split Rail Winery!",
+          "start": "2026-11-10T20:00:00-07:00",
+          "end": "2026-11-14T23:00:00-07:00",
+          "allDay": false,
+          "venue": "Split Rail Winery",
+          "venueKey": "split-rail-winery",
+          "city": "Boise",
+          "category": "food-drink",
+          "tags": [
+            "winery"
+          ],
+          "size": "S",
+          "costTier": "$",
+          "url": "https://www.splitrailwines.com/",
+          "sources": [
+            {
+              "name": "visit-boise",
+              "url": "https://www.splitrailwines.com/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "b65e8f016598",
+          "title": "Art Show",
+          "start": "2026-11-10T23:08:00-07:00",
+          "end": "2026-11-12T06:06:00-07:00",
+          "allDay": false,
+          "venue": "idaho art gallery",
+          "venueKey": "idaho-art-gallery",
+          "city": "Meridian",
+          "category": "arts-culture",
+          "tags": [
+            "free-admission",
+            "gallery"
+          ],
+          "size": "S",
+          "costTier": "free",
+          "url": "https://visitboise.com/events/art-show-2/",
+          "description": "November art exhibition at the Idaho Art Gallery. Appetizers, wine and art provided. Free and open to the public",
+          "sources": [
+            {
+              "name": "visit-boise",
+              "url": "https://visitboise.com/events/art-show-2/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "fbd78e94f111",
+          "title": "Grilled Cheese with MELT Food Truck",
+          "start": "2026-11-11T00:00:00-07:00",
+          "end": "2026-11-11T02:00:00-07:00",
+          "allDay": false,
+          "venue": "Barbarian Brewery Taproom",
+          "venueKey": "barbarian-brewery-taproom",
+          "city": "Boise",
+          "category": "food-drink",
+          "tags": [
+            "food-truck"
+          ],
+          "size": "S",
+          "url": "https://www.facebook.com/events/2090725278212194/2175065739778147/",
+          "description": "MELT Food Truck will be serving up grilled cheese creations and tomato soup every 2nd TUESDAY of the month at Barbarian! MELT is a local food truck with chef inspired grilled cheese creations served on ACME bread and scratch made soups.",
+          "sources": [
+            {
+              "name": "visit-boise",
+              "url": "https://www.facebook.com/events/2090725278212194/2175065739778147/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "5cbe999d60f6",
+          "title": "Boise State Women’s Basketball",
+          "start": "2026-11-11T01:30:00-07:00",
+          "end": "2026-11-11T03:30:00-07:00",
+          "allDay": false,
+          "venue": "ExtraMile Arena",
+          "venueKey": "extramile-arena",
+          "city": "Boise",
+          "category": "sports",
+          "tags": [
+            "college-sports"
+          ],
+          "size": "XL",
+          "url": "https://broncosports.com/sports/womens-basketball/schedule",
+          "description": "The Boise State Broncos women's basketball team represents Boise State University in Boise, Idaho, United States. The school's team currently competes in the Pac-12 Conference. They play their home games at ExtraMile Arena.",
+          "sources": [
+            {
+              "name": "visit-boise",
+              "url": "https://broncosports.com/sports/womens-basketball/schedule",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "2682840fd6a8",
+          "title": "Idaho Mountain Search and Rescue–Free event",
+          "start": "2026-11-11T02:00:00-07:00",
+          "end": "2026-11-11T03:30:00-07:00",
+          "allDay": false,
+          "venue": "Idaho Outdoor Association Hall",
+          "venueKey": "idaho-outdoor-association-hall",
+          "city": "Boise",
+          "category": "community-civic",
+          "tags": [
+            "free-admission"
+          ],
+          "size": "S",
+          "costTier": "free",
+          "url": "https://www.idahooutdoorassn.org/events",
+          "description": "Christopher Kall will provide information about IMSARU and what they do; a discussion of backcountry safety; how to avoid getting lost and what to do if you are lost; some winter-specific information, and some real-life examples of searches, rescues, & recoveries. Christopher Kall is the Vice Pre...",
+          "sources": [
+            {
+              "name": "visit-boise",
+              "url": "https://www.idahooutdoorassn.org/events",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "577c314c22d9",
+          "title": "Tater Patch Tuesdays",
+          "start": "2026-11-11T02:00:00-07:00",
+          "end": "2026-11-11T04:00:00-07:00",
+          "allDay": false,
+          "venue": "Barbarian Brewing Downtown Beer Bar",
+          "venueKey": "barbarian-brewing-downtown-beer-bar",
+          "city": "Boise",
+          "category": "community-civic",
+          "tags": [
+            "free-admission"
+          ],
+          "size": "S",
+          "costTier": "free",
+          "url": "https://www.facebook.com/events/1069460215741086/1069460289074412?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
+          "description": "Listen to the best Bluegrass in Boise every Tuesday night at Barbarian Downtown with Tater Patch! No cover. Must be 21 and older. *The Barbarian Beer Bar is a 21 and older venue because we do not brew beer on-site*",
+          "sources": [
+            {
+              "name": "visit-boise",
+              "url": "https://www.facebook.com/events/1069460215741086/1069460289074412?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
+              "fetchedAt": "2026-11-09T20:49:46Z"
+            }
+          ]
+        },
+        {
+          "id": "ca8fee09eaf2",
+          "title": "Paint Nite @ Amsterdam Lounge",
+          "start": "2026-11-11T02:00:00-07:00",
+          "end": "2026-11-11T04:00:00-07:00",
+          "allDay": false,
+          "venue": "Amsterdam Lounge",
+          "venueKey": "amsterdam-lounge",
+          "city": "Boise",
+          "category": "community-civic",
+          "tags": [],
+          "size": "S",
+          "costTier": "$$",
+          "url": "https://tinyurl.com/y8v52twy",
+          "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
+          "sources": [
+            {
+              "name": "visit-boise",
+              "url": "https://tinyurl.com/y8v52twy",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         }
       ]
     },
     "visit-mccall": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "b92507bd2e5f",
@@ -144830,6 +145860,30 @@
               "name": "visit-mccall",
               "url": "https://visitmccall.org/event/friday-night-singo-game/",
               "fetchedAt": "2026-11-08T23:01:49Z"
+            }
+          ]
+        },
+        {
+          "id": "5ec2e4054b0a",
+          "title": "McCall Mountaineers vs Jackson Hole Moose",
+          "start": "2026-11-13T18:30:00-07:00",
+          "allDay": false,
+          "venue": "Manchester Ice and Event Centre",
+          "venueKey": "manchester-ice-and-event-centre",
+          "city": "Valley County",
+          "category": "community-civic",
+          "tags": [
+            "family-friendly"
+          ],
+          "size": "S",
+          "costTier": "$",
+          "url": "https://visitmccall.org/event/mccall-mountaineers-vs-jackson-hole-moose-2/",
+          "description": "Come cheer on the McCall Mountaineers this weekend against the Jackson Hole Moose team! We will see you all at Manchester Ice and Event Center on Friday, November 13th and Saturday, November 14th. Doors open at 6:30pm for 7:00pm game time.",
+          "sources": [
+            {
+              "name": "visit-mccall",
+              "url": "https://visitmccall.org/event/mccall-mountaineers-vs-jackson-hole-moose-2/",
+              "fetchedAt": "2026-11-09T20:49:46Z"
             }
           ]
         },
@@ -146159,7 +147213,7 @@
       ]
     },
     "warhawk-air-museum": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": [
         {
           "id": "478a018fab91",
@@ -146349,7 +147403,7 @@
       ]
     },
     "western-idaho-fair": {
-      "fetchedAt": "2026-11-09T07:05:18Z",
+      "fetchedAt": "2026-11-09T20:49:46Z",
       "events": []
     }
   }
