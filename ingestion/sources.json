@@ -2621,12 +2621,112 @@
       "notes": "venueId KovZ917AJBe, 14 upcoming on 2026-11-02. Separate from knitting-factory-boise. Configured 2026-11-03 as its own Ticketmaster venue source; ticketmaster-metro skips this venue id. ticketmaster-metro still returns some of its shows under another venue id (10 on 2026-11-03); they merge with this source, so nothing is duplicated"
     },
     {
-      "displayName": "Ada Community Library",
-      "status": "investigating",
-      "adapter": "tribe",
-      "notes": "Checked 2026-10-30 with the project User-Agent. Tribe endpoint responds, but with zero upcoming events. Past events not checked. ICS not tried. Rechecked 2026-11-05: the tribe API still has 0 events. The real calendars are Google Calendars embedded on https://adalib.org/whats-happening-at-the-library/, one per branch (Star branch: adalib.org_ql1qt4vfh2pnvjffht98bfkmso@group.calendar.google.com), but calendar.google.com's robots.txt disallows everything but the home page, so their ICS is out. Branches: Victory, Star, Lake Hazel, Hidden Springs, Connect. Ask the library for another feed; the Star Chamber of Commerce reposts some Star branch events. Rechecked 2026-11-06: adalib.org robots.txt allows everything but /wp-admin/. The page embeds 5 Google Calendars: adalib.org_2em0vjrp0ibgr1qi8dg5kjhvkg, adalib.org_b34slte8hokfn7comaivmuu090, adalib.org_ql1qt4vfh2pnvjffht98bfkmso, adalib.org_usp99jqf5dhehh6gd55l1vdql8 and c_feaf13a6c244f66be0dd84ba284a0bace2f0d1646e461a42a6f144e599771787 (all @group.calendar.google.com). calendar.google.com robots.txt is still 'Allow: /$' then 'Disallow: /', so the public ICS URLs are disallowed and were not requested. No LibCal, Communico or other library calendar platform is linked. Still needs another feed from the library",
+      "name": "ada-library-connect",
+      "displayName": "Ada Community Library, Connect Branch",
+      "status": "running",
+      "adapter": "googlecalendar",
+      "calendarId": "c_feaf13a6c244f66be0dd84ba284a0bace2f0d1646e461a42a6f144e599771787@group.calendar.google.com",
       "url": "https://adalib.org/whats-happening-at-the-library/",
-      "robotsChecked": "2026-11-06"
+      "robotsChecked": "2026-11-10",
+      "category": "learning-business",
+      "inferCategory": true,
+      "city": "Other",
+      "venue": "Ada Community Library, Connect Branch",
+      "venueKey": "ada-community-library-connect-branch",
+      "priority": 20,
+      "excludeTitles": [
+        "CLOSED"
+      ],
+      "notes": "One of five Ada Community Library branch calendars, configured 2026-11-10 with the googlecalendar adapter (Calendar API v3; the calendar.google.com embed is not read). The Connectmobile, a library on wheels: the Branches & Hours page gives no address, only a link to where it visits next, so the fallback city is Other and each event's own location sets its venue and city. City taken from https://adalib.org/branches_hours/, read 2026-11-10; adalib.org robots.txt allows all but /wp-admin/. Titles starting with CLOSED (\"CLOSED-VETERANS DAY\") are skipped. Earlier, as one investigating entry: Checked 2026-10-30 with the project User-Agent. Tribe endpoint responds, but with zero upcoming events. Past events not checked. ICS not tried. Rechecked 2026-11-05: the tribe API still has 0 events. The real calendars are Google Calendars embedded on https://adalib.org/whats-happening-at-the-library/, one per branch (Star branch: adalib.org_ql1qt4vfh2pnvjffht98bfkmso@group.calendar.google.com), but calendar.google.com's robots.txt disallows everything but the home page, so their ICS is out. Branches: Victory, Star, Lake Hazel, Hidden Springs, Connect. Ask the library for another feed; the Star Chamber of Commerce reposts some Star branch events. Rechecked 2026-11-06: adalib.org robots.txt allows everything but /wp-admin/. The page embeds 5 Google Calendars: adalib.org_2em0vjrp0ibgr1qi8dg5kjhvkg, adalib.org_b34slte8hokfn7comaivmuu090, adalib.org_ql1qt4vfh2pnvjffht98bfkmso, adalib.org_usp99jqf5dhehh6gd55l1vdql8 and c_feaf13a6c244f66be0dd84ba284a0bace2f0d1646e461a42a6f144e599771787 (all @group.calendar.google.com). calendar.google.com robots.txt is still 'Allow: /$' then 'Disallow: /', so the public ICS URLs are disallowed and were not requested. No LibCal, Communico or other library calendar platform is linked. Still needs another feed from the library"
+    },
+    {
+      "name": "ada-library-hidden-springs",
+      "displayName": "Ada Community Library, Hidden Springs Branch",
+      "status": "running",
+      "adapter": "googlecalendar",
+      "calendarId": "adalib.org_2em0vjrp0ibgr1qi8dg5kjhvkg@group.calendar.google.com",
+      "url": "https://adalib.org/whats-happening-at-the-library/",
+      "robotsChecked": "2026-11-10",
+      "category": "learning-business",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Ada Community Library, Hidden Springs Branch",
+      "venueKey": "ada-community-library-hidden-springs-branch",
+      "priority": 20,
+      "venueAliases": {
+        "Hidden Springs Branch": "Ada Community Library, Hidden Springs Branch"
+      },
+      "excludeTitles": [
+        "CLOSED"
+      ],
+      "notes": "One of five Ada Community Library branch calendars, configured 2026-11-10 with the googlecalendar adapter (Calendar API v3; the calendar.google.com embed is not read). 5868 W Hidden Springs Dr, Boise, ID 83714 (Branches & Hours page). City taken from https://adalib.org/branches_hours/, read 2026-11-10; adalib.org robots.txt allows all but /wp-admin/. Events that give the full location (\"Ada Community Library, Hidden Springs Branch, ...\") are mapped to this branch by venueAliases. Titles starting with CLOSED (\"CLOSED-VETERANS DAY\") are skipped. Earlier, as one investigating entry: Checked 2026-10-30 with the project User-Agent. Tribe endpoint responds, but with zero upcoming events. Past events not checked. ICS not tried. Rechecked 2026-11-05: the tribe API still has 0 events. The real calendars are Google Calendars embedded on https://adalib.org/whats-happening-at-the-library/, one per branch (Star branch: adalib.org_ql1qt4vfh2pnvjffht98bfkmso@group.calendar.google.com), but calendar.google.com's robots.txt disallows everything but the home page, so their ICS is out. Branches: Victory, Star, Lake Hazel, Hidden Springs, Connect. Ask the library for another feed; the Star Chamber of Commerce reposts some Star branch events. Rechecked 2026-11-06: adalib.org robots.txt allows everything but /wp-admin/. The page embeds 5 Google Calendars: adalib.org_2em0vjrp0ibgr1qi8dg5kjhvkg, adalib.org_b34slte8hokfn7comaivmuu090, adalib.org_ql1qt4vfh2pnvjffht98bfkmso, adalib.org_usp99jqf5dhehh6gd55l1vdql8 and c_feaf13a6c244f66be0dd84ba284a0bace2f0d1646e461a42a6f144e599771787 (all @group.calendar.google.com). calendar.google.com robots.txt is still 'Allow: /$' then 'Disallow: /', so the public ICS URLs are disallowed and were not requested. No LibCal, Communico or other library calendar platform is linked. Still needs another feed from the library"
+    },
+    {
+      "name": "ada-library-lake-hazel",
+      "displayName": "Ada Community Library, Lake Hazel Branch",
+      "status": "running",
+      "adapter": "googlecalendar",
+      "calendarId": "adalib.org_usp99jqf5dhehh6gd55l1vdql8@group.calendar.google.com",
+      "url": "https://adalib.org/whats-happening-at-the-library/",
+      "robotsChecked": "2026-11-10",
+      "category": "learning-business",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Ada Community Library, Lake Hazel Branch",
+      "venueKey": "ada-community-library-lake-hazel-branch",
+      "priority": 20,
+      "venueAliases": {
+        "Lake Hazel Branch": "Ada Community Library, Lake Hazel Branch"
+      },
+      "excludeTitles": [
+        "CLOSED"
+      ],
+      "notes": "One of five Ada Community Library branch calendars, configured 2026-11-10 with the googlecalendar adapter (Calendar API v3; the calendar.google.com embed is not read). 10489 W Lake Hazel Rd, Boise, ID 83709 (Branches & Hours page). City taken from https://adalib.org/branches_hours/, read 2026-11-10; adalib.org robots.txt allows all but /wp-admin/. Events that give the full location (\"Ada Community Library, Lake Hazel Branch, ...\") are mapped to this branch by venueAliases. Titles starting with CLOSED (\"CLOSED-VETERANS DAY\") are skipped. Earlier, as one investigating entry: Checked 2026-10-30 with the project User-Agent. Tribe endpoint responds, but with zero upcoming events. Past events not checked. ICS not tried. Rechecked 2026-11-05: the tribe API still has 0 events. The real calendars are Google Calendars embedded on https://adalib.org/whats-happening-at-the-library/, one per branch (Star branch: adalib.org_ql1qt4vfh2pnvjffht98bfkmso@group.calendar.google.com), but calendar.google.com's robots.txt disallows everything but the home page, so their ICS is out. Branches: Victory, Star, Lake Hazel, Hidden Springs, Connect. Ask the library for another feed; the Star Chamber of Commerce reposts some Star branch events. Rechecked 2026-11-06: adalib.org robots.txt allows everything but /wp-admin/. The page embeds 5 Google Calendars: adalib.org_2em0vjrp0ibgr1qi8dg5kjhvkg, adalib.org_b34slte8hokfn7comaivmuu090, adalib.org_ql1qt4vfh2pnvjffht98bfkmso, adalib.org_usp99jqf5dhehh6gd55l1vdql8 and c_feaf13a6c244f66be0dd84ba284a0bace2f0d1646e461a42a6f144e599771787 (all @group.calendar.google.com). calendar.google.com robots.txt is still 'Allow: /$' then 'Disallow: /', so the public ICS URLs are disallowed and were not requested. No LibCal, Communico or other library calendar platform is linked. Still needs another feed from the library"
+    },
+    {
+      "name": "ada-library-star",
+      "displayName": "Ada Community Library, Star Branch",
+      "status": "running",
+      "adapter": "googlecalendar",
+      "calendarId": "adalib.org_ql1qt4vfh2pnvjffht98bfkmso@group.calendar.google.com",
+      "url": "https://adalib.org/whats-happening-at-the-library/",
+      "robotsChecked": "2026-11-10",
+      "category": "learning-business",
+      "inferCategory": true,
+      "city": "Star",
+      "venue": "Ada Community Library, Star Branch",
+      "venueKey": "ada-community-library-star-branch",
+      "priority": 20,
+      "venueAliases": {
+        "Star Branch": "Ada Community Library, Star Branch",
+        "Annex": "Ada Community Library, Star Branch"
+      },
+      "excludeTitles": [
+        "CLOSED"
+      ],
+      "notes": "One of five Ada Community Library branch calendars, configured 2026-11-10 with the googlecalendar adapter (Calendar API v3; the calendar.google.com embed is not read). 10706 W State St, #100, Star, ID 83669 (Branches & Hours page). City taken from https://adalib.org/branches_hours/, read 2026-11-10; adalib.org robots.txt allows all but /wp-admin/. Events that give the full location (\"Ada Community Library, Star Branch, ...\") are mapped to this branch by venueAliases, as is the branch's Annex room. Titles starting with CLOSED (\"CLOSED-VETERANS DAY\") are skipped. Earlier, as one investigating entry: Checked 2026-10-30 with the project User-Agent. Tribe endpoint responds, but with zero upcoming events. Past events not checked. ICS not tried. Rechecked 2026-11-05: the tribe API still has 0 events. The real calendars are Google Calendars embedded on https://adalib.org/whats-happening-at-the-library/, one per branch (Star branch: adalib.org_ql1qt4vfh2pnvjffht98bfkmso@group.calendar.google.com), but calendar.google.com's robots.txt disallows everything but the home page, so their ICS is out. Branches: Victory, Star, Lake Hazel, Hidden Springs, Connect. Ask the library for another feed; the Star Chamber of Commerce reposts some Star branch events. Rechecked 2026-11-06: adalib.org robots.txt allows everything but /wp-admin/. The page embeds 5 Google Calendars: adalib.org_2em0vjrp0ibgr1qi8dg5kjhvkg, adalib.org_b34slte8hokfn7comaivmuu090, adalib.org_ql1qt4vfh2pnvjffht98bfkmso, adalib.org_usp99jqf5dhehh6gd55l1vdql8 and c_feaf13a6c244f66be0dd84ba284a0bace2f0d1646e461a42a6f144e599771787 (all @group.calendar.google.com). calendar.google.com robots.txt is still 'Allow: /$' then 'Disallow: /', so the public ICS URLs are disallowed and were not requested. No LibCal, Communico or other library calendar platform is linked. Still needs another feed from the library"
+    },
+    {
+      "name": "ada-library-victory",
+      "displayName": "Ada Community Library, Victory Branch",
+      "status": "running",
+      "adapter": "googlecalendar",
+      "calendarId": "adalib.org_b34slte8hokfn7comaivmuu090@group.calendar.google.com",
+      "url": "https://adalib.org/whats-happening-at-the-library/",
+      "robotsChecked": "2026-11-10",
+      "category": "learning-business",
+      "inferCategory": true,
+      "city": "Boise",
+      "venue": "Ada Community Library, Victory Branch",
+      "venueKey": "ada-community-library-victory-branch",
+      "priority": 20,
+      "venueAliases": {
+        "Victory Branch": "Ada Community Library, Victory Branch"
+      },
+      "excludeTitles": [
+        "CLOSED"
+      ],
+      "notes": "One of five Ada Community Library branch calendars, configured 2026-11-10 with the googlecalendar adapter (Calendar API v3; the calendar.google.com embed is not read). 10664 W Victory Rd, Boise, ID 83709 (Branches & Hours page). City taken from https://adalib.org/branches_hours/, read 2026-11-10; adalib.org robots.txt allows all but /wp-admin/. Events that give the full location (\"Ada Community Library, Victory Branch, ...\") are mapped to this branch by venueAliases. Titles starting with CLOSED (\"CLOSED-VETERANS DAY\") are skipped. Earlier, as one investigating entry: Checked 2026-10-30 with the project User-Agent. Tribe endpoint responds, but with zero upcoming events. Past events not checked. ICS not tried. Rechecked 2026-11-05: the tribe API still has 0 events. The real calendars are Google Calendars embedded on https://adalib.org/whats-happening-at-the-library/, one per branch (Star branch: adalib.org_ql1qt4vfh2pnvjffht98bfkmso@group.calendar.google.com), but calendar.google.com's robots.txt disallows everything but the home page, so their ICS is out. Branches: Victory, Star, Lake Hazel, Hidden Springs, Connect. Ask the library for another feed; the Star Chamber of Commerce reposts some Star branch events. Rechecked 2026-11-06: adalib.org robots.txt allows everything but /wp-admin/. The page embeds 5 Google Calendars: adalib.org_2em0vjrp0ibgr1qi8dg5kjhvkg, adalib.org_b34slte8hokfn7comaivmuu090, adalib.org_ql1qt4vfh2pnvjffht98bfkmso, adalib.org_usp99jqf5dhehh6gd55l1vdql8 and c_feaf13a6c244f66be0dd84ba284a0bace2f0d1646e461a42a6f144e599771787 (all @group.calendar.google.com). calendar.google.com robots.txt is still 'Allow: /$' then 'Disallow: /', so the public ICS URLs are disallowed and were not requested. No LibCal, Communico or other library calendar platform is linked. Still needs another feed from the library"
     },
     {
       "displayName": "Air shows",
