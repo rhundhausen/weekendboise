@@ -4033,23 +4033,27 @@
       "name": "reuseum",
       "displayName": "Reuseum",
       "status": "running",
-      "adapter": "scrape",
-      "url": "https://www.reuseum.com/educational/event-calendar",
+      "adapter": "googlecalendar",
+      "calendarId": "j81mf276r2gmrn7b9r4dhfjlv0@group.calendar.google.com",
+      "url": "https://www.reuseum.com/educational/event-calendar/",
       "robotsChecked": "2026-11-06",
       "category": "learning-business",
       "inferCategory": true,
-      "city": "Boise",
+      "city": "Garden City",
       "venue": "Reuseum",
       "venueKey": "reuseum",
       "priority": 20,
-      "fixedVenue": true,
-      "scrapeMode": "cards",
-      "itemPattern": "(?s)<li\\s+class=\"simcal-event\\s.*?</li>",
-      "datePattern": "simcal-event-start-date\"[^>]*content=(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
-      "titlePattern": "(?s)class=[\"']?simcal-event-title[\"']?[^>]*>(?<title>[^<]+)<",
-      "timePattern": "(?s)simcal-event-start-time\"[^>]*>(?<start>\\d{1,2}:\\d{2} [AP]M)<.*?simcal-event-end-time\"[^>]*>(?<end>\\d{1,2}:\\d{2} [AP]M)<",
-      "notes": "Electronics surplus store and STEM workshop space, 4105 W Emerald St, Boise. Suggested 2026-11-06. robots.txt allows everything. The calendar page is the Simple Calendar WordPress plugin over a Google Calendar; it renders the current month server-side with ISO dates in each event's markup, read with scrape cards. Only the current month is read: the next month loads by script, and the Google Calendar feed itself is disallowed by calendar.google.com's robots.txt. Event links go to Google Calendar's event page, the only per-event link. Skipped by title: closures, coaching sessions (private bookings), and Reuseum outreach at schools (STEM nights at elementary schools), which happen at the school, not at Reuseum. Terms not read",
-      "excludeTitlePattern": "(?i)^closed\\b|coaching|accelerator|elementary|stem night|\\bat .+ event$"
+      "venueAliases": {
+        "3145 W Chinden Blvd": "Reuseum"
+      },
+      "excludeTitles": [
+        "Closed",
+        "Reuseum Board Meeting",
+        "Brand Impact Coaching",
+        "Brand Accelerator Coaching"
+      ],
+      "excludeTitlePattern": "STEM Night| at .* (Elementary|Event)",
+      "notes": "Electronics surplus store and STEM workshop space, now at 3145 W Chinden Blvd, Garden City (the calendar's own events give that address; venueAliases maps it to Reuseum). Moved 2026-11-10 from scrape (the Simple Calendar page, current month only) to googlecalendar, reading the Google Calendar behind that page through the Calendar API for 90 days. Skipped by title: closures, board meetings, coaching sessions (private bookings), and outreach at schools and other sites (STEM nights, '... at <school> Elementary', '... at <name> Event'), which happen away from Reuseum. Earlier, as a scrape source: Electronics surplus store and STEM workshop space. Suggested 2026-11-06. robots.txt allows everything. The calendar page is the Simple Calendar WordPress plugin over a Google Calendar; it renders the current month server-side with ISO dates in each event's markup, read with scrape cards. Only the current month is read: the next month loads by script, and the Google Calendar feed itself is disallowed by calendar.google.com's robots.txt. Event links go to Google Calendar's event page, the only per-event link. Skipped by title: closures, coaching sessions (private bookings), and Reuseum outreach at schools (STEM nights at elementary schools), which happen at the school, not at Reuseum. Terms not read"
     },
     {
       "name": "revolution-concert-house",

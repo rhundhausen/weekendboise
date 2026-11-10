@@ -418,7 +418,19 @@ Describe 'scrape adapter, cards with a month name and a year (Fiddlers'' Contest
 
 Describe 'scrape adapter, cards from a Simple Calendar page (Reuseum)' {
   BeforeAll {
-    $events = @(& $adapter -Source (Get-TestSource 'reuseum') -FetchedAt $fetchedAt -Response (Get-Fixture 'reuseum.html'))
+    # Reuseum's scrape settings from before it moved to the googlecalendar adapter (2026-11-10),
+    # kept here because they show how to read any Simple Calendar WordPress page.
+    $simpleCalendar = [pscustomobject]@{
+      name = 'reuseum'; displayName = 'Reuseum'; adapter = 'scrape'; scrapeMode = 'cards'
+      url = 'https://www.reuseum.com/educational/event-calendar'; category = 'learning-business'; inferCategory = $true
+      city = 'Boise'; venue = 'Reuseum'; venueKey = 'reuseum'; fixedVenue = $true
+      itemPattern = '(?s)<li\s+class="simcal-event\s.*?</li>'
+      datePattern = 'simcal-event-start-date"[^>]*content=(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})'
+      titlePattern = '(?s)class=["'']?simcal-event-title["'']?[^>]*>(?<title>[^<]+)<'
+      timePattern = '(?s)simcal-event-start-time"[^>]*>(?<start>\d{1,2}:\d{2} [AP]M)<.*?simcal-event-end-time"[^>]*>(?<end>\d{1,2}:\d{2} [AP]M)<'
+      excludeTitlePattern = '(?i)^closed\b|coaching|accelerator|elementary|stem night|\bat .+ event$'
+    }
+    $events = @(& $adapter -Source $simpleCalendar -FetchedAt $fetchedAt -Response (Get-Fixture 'reuseum.html'))
   }
 
   It 'keeps the public workshops and skips closures, private coaching, and school outreach' {
