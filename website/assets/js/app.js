@@ -443,18 +443,6 @@ function renderSortHeaders() {
   }
 }
 
-// The City options come from the build (layouts/home.html), which lists only cities with at least
-// one upcoming event. render() keeps their counts in step with the other filters.
-function fillSelects() {
-  // Largest first, so the list reads down in size.
-  for (const [id, label] of Object.entries(cfg.sizes).sort((a, b) => cfg.sizeOrder.indexOf(b[0]) - cfg.sizeOrder.indexOf(a[0]))) {
-    const o = document.createElement('option');
-    o.value = id;
-    o.textContent = label;
-    el.size.append(o);
-  }
-}
-
 function syncControls() {
   el.q.value = state.q;
   el.when.value = state.when;
@@ -612,7 +600,6 @@ fetch(cfg.events)
     const now = Date.now();
     const total = events.filter((e) => e.ed >= t && (e.allDay || e.end > now)).length;
     $('total').textContent = numFmt.format(total);
-    fillSelects();
     readUrl();
     syncControls();
     render();

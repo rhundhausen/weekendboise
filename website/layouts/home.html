@@ -7,6 +7,17 @@
 {{- $catIds = $catIds | uniq }}
 {{- $cats := dict }}
 {{- range hugo.Data.schema.categories }}{{ if in $catIds .id }}{{ $cats = merge $cats (dict .id .label) }}{{ end }}{{ end }}
+{{- /* Chip counts as the page first shows them (Meetup events hidden), so the chips are drawn by
+     the build and app.js only updates them; drawing them later made the panel jump. */}}
+{{- $catCounts := dict }}
+{{- $meetupN := 0 }}
+{{- range hugo.Data.events }}
+  {{- if findRE `^https?://([^/?#]+\.)?meetup\.com([/?#:]|$)` (.url | default "") 1 }}
+    {{- $meetupN = add $meetupN 1 }}
+  {{- else }}{{ with .category }}
+    {{- $catCounts = merge $catCounts (dict . (add (index $catCounts . | default 0) 1)) }}
+  {{- end }}{{ end }}
+{{- end }}
 {{- $sizes := dict }}
 {{- $sizeOrder := slice }}
 {{- range hugo.Data.schema.sizes.levels }}
@@ -65,7 +76,9 @@
       {{- /* The build's count, until app.js replaces it with what the unfiltered list shows. */}}
       <span id="total">{{ len hugo.Data.events | lang.FormatNumber 0 }}</span> upcoming events
       <span class="sep" aria-hidden="true">|</span> <a href="{{ relURL "sources/" }}">{{ len $running }} sources</a>
-      {{- with $lastIngest }} <span class="sep" aria-hidden="true">|</span> <time id="as-of" datetime="{{ . }}">{{ (time.AsTime .).Format "Jan 2, 3:04 PM UTC" }}</time>{{ end }}
+      {{- /* In Boise time, as app.js writes it, so the text does not change after the page draws. */}}
+      {{- $boise := (time.AsTime "2000-01-01T00:00:00" "America/Boise").Location }}
+      {{- with $lastIngest }} <span class="sep" aria-hidden="true">|</span> <time id="as-of" datetime="{{ . }}">{{ ((time.AsTime .).In $boise).Format "Jan 2, 3:04 PM" }}</time>{{ end }}
     </p>
   </div>
 </header>
@@ -127,7 +140,14 @@
       </label>
       <label class="field more" id="size-field">
         <span class="label">Venue Size</span>
-        <select id="size"><option value="">Any size</option></select>
+        <select id="size">
+          <option value="">Any size</option>
+          {{- /* Largest first, so the list reads down in size. */}}
+          {{- range seq (len $sizeOrder) }}
+          {{- $id := index $sizeOrder (sub (len $sizeOrder) .) }}
+          <option value="{{ $id }}">{{ index $sizes $id }}</option>
+          {{- end }}
+        </select>
       </label>
       <label class="field more" id="cost-field">
         <span class="label">Cost</span>
@@ -145,8 +165,13 @@
     {{- /* Category chips, then the Meetup toggle on the same row. Meetup events are hidden until it
          is checked, because Meetup groups are only partly public. */}}
     <div class="chips more" id="chips-row">
-      <div class="chip-group" id="cats" role="group" aria-label="Categories"></div>
-      <label class="chip toggle" id="meetup-chip"><input type="checkbox" id="meetup"><span>Include Meetups</span><span class="n" id="meetup-n"></span></label>
+      <div class="chip-group" id="cats" role="group" aria-label="Categories">
+        {{- range $id, $label := $cats }}
+        {{- $n := index $catCounts $id | default 0 }}
+        <button type="button" class="chip cat-{{ $id }}{{ if not $n }} empty{{ end }}" data-cat="{{ $id }}" aria-pressed="false"><span>{{ $label }}</span><span class="n">{{ $n | lang.FormatNumber 0 }}</span></button>
+        {{- end }}
+      </div>
+      <label class="chip toggle" id="meetup-chip"><input type="checkbox" id="meetup"><span>Include Meetups</span><span class="n" id="meetup-n">{{ $meetupN | lang.FormatNumber 0 }}</span></label>
     </div>
     <p class="source-note" id="source-note" hidden></p>
   </section>

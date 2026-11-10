@@ -1,0 +1,9 @@
+# Cloudflare static asset headers. Files under /css/, /js/, and /data/ have a content hash in
+# their names (Hugo's fingerprint), so a changed file gets a new name and these can be cached
+# for good. Pages and icons keep the default (revalidate every time).
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+/data/*
+  Cache-Control: public, max-age=31536000, immutable
