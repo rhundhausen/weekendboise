@@ -10375,6 +10375,76 @@
     "costTier": "$$"
   },
   {
+    "id": "1485b85d06ca",
+    "title": "Cool treats and cool meets!",
+    "start": "2026-11-09T19:00:00-07:00",
+    "end": "2026-11-09T21:00:00-07:00",
+    "allDay": false,
+    "venue": "The Village at Meridian",
+    "venueKey": "the-village-at-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/amor-immortalem/events/317067831/",
+    "description": "Hello everyone! 👋🤠 I welcome you to enjoy some froyo on me, and meet some new people. Or build rapport with familiar faces. I Love good company and good conversation. So please, bring your good energy and let’s enjoy some good vibes! It’s that simple. Hope to see you there! Nothin but Love, Apollo",
+    "sources": [
+      {
+        "name": "meetup-amor-immortalem",
+        "url": "https://www.meetup.com/amor-immortalem/events/317067831/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "775759ccdde4",
+    "title": "All Request Line Dance",
+    "start": "2026-11-09T19:00:00-07:00",
+    "end": "2026-11-09T21:00:00-07:00",
+    "allDay": false,
+    "venue": "YMCA Homecourt",
+    "venueKey": "ymca-homecourt",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317067566/",
+    "description": "Every 2nd and 4th Monday we will be having our \"All Request Line Dance.\" We will be dancing a minimum of 2 hours, NO instruction...one song right after the other. This will get your heart pumping. Please send a list of your favorites that you would like to dance that night to [mailto:R2L2Dance@gm...",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317067566/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "c7ecd08dd843",
+    "title": "Bronco Percussion Group Fall concert",
+    "start": "2026-11-09T19:30:00-07:00",
+    "end": "2026-11-09T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Morrison Center for the Performing Arts",
+    "venueKey": "morrison-center-for-the-performing-arts",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://events.boisestate.edu/event/bronco-percussion-group-fall-recital-2026",
+    "description": "Date: Monday, November 9, 2026 Time: 7:30 PM Experience the incredible range of percussion at the Bronco Percussion Group’s Annual Fall Concert, featuring a program that moves from intimate, experimental sound worlds to virtuosic rhythmic energy. Alyssa Weinberg’s Ember explores shifting colors a...",
+    "sources": [
+      {
+        "name": "boise-state-arts",
+        "url": "https://events.boisestate.edu/event/bronco-percussion-group-fall-recital-2026",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
     "id": "f4875d258d7e",
     "title": "LUCY (Cooper B. Handy), Blanket Ghost",
     "start": "2026-11-09T20:00:00-07:00",
