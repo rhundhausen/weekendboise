@@ -72,6 +72,10 @@ How matching works:
 
 Matching is by keyword, so some events are misfiled. An event whose title is only an artist's name gets no tag unless the publisher labels it.
 
+## Titles
+
+A title in all capitals ("OLD BOISE MODEL RAILROAD") is changed to title case ("Old Boise Model Railroad"). Acronyms stay capitalized: words with no vowels (DJ, CSL), Roman numerals, and the words listed in `data/schema/title-case.json`, which also gives exact spellings (McCall) and the small words kept lowercase (of, the, in). A title with any lowercase letter, or of one word (often a band's own styling, such as KREAM), is left alone. The `id` is computed from the lowercased title, so it does not change. The code is `ConvertTo-TvTitleCase` in `ingestion/scripts/lib/Schema.ps1`.
+
 ## Venues
 
 Sources spell a venue in different ways: Ticketmaster has `Neurolux Lounge` and `Knitting Factory - Boise`, and aggregators have `Extra Mile Arena`. Those would count as separate venues and block merging, so `data/schema/venue-aliases.json` maps each spelling to one `venueKey` and name. It applies to every source, before the `id` is computed. To fix a split venue, add a line there. No code changes are needed.

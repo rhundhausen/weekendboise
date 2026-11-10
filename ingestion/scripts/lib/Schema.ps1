@@ -323,6 +323,55 @@ function Test-TvEvent {
   }
 }
 
+function ConvertTo-TvTitleCase {
+  <#
+  .SYNOPSIS
+    Changes an all-caps title of two or more words to title case ("OLD BOISE MODEL RAILROAD" to
+    "Old Boise Model Railroad"). Acronyms stay capitalized; see data/schema/title-case.json.
+    A title with any lowercase letter, or of one word (often a band's own styling), is left alone.
+  #>
+  param([string]$Title)
+
+  if (-not $Title -or $Title -cmatch '\p{Ll}') { return $Title }
+  $words = [regex]::Matches($Title, "\p{Lu}+(?:['$([char]0x2019)]\p{Lu}+)*")
+  if ($words.Count -lt 2) { return $Title }
+
+  if (-not $script:TvTitleCase) {
+    $path = Join-Path $PSScriptRoot '..' '..' '..' 'data' 'schema' 'title-case.json'
+    $rules = Get-Content -LiteralPath $path -Raw | ConvertFrom-Json -AsHashtable
+    $script:TvTitleCase = @{
+      KeepUpper  = [Collections.Generic.HashSet[string]]::new([string[]]$rules.keepUpper)
+      Forms      = $rules.forms
+      SmallWords = [Collections.Generic.HashSet[string]]::new([string[]]$rules.smallWords)
+    }
+  }
+  $rules = $script:TvTitleCase
+
+  $out = [Text.StringBuilder]::new()
+  $last = 0
+  foreach ($word in $words) {
+    $between = $Title.Substring($last, $word.Index - $last)
+    $null = $out.Append($between)
+    $text = $word.Value
+    # First word, or the first after a colon, dash, or opening bracket, is capitalized.
+    $starts = $last -eq 0 -or $between -match '[:(\[]\s*$|\s[-|]\s*$'
+    $lower = $text.ToLowerInvariant()
+    $cased = if ($rules.Forms.ContainsKey($text)) {
+      $rules.Forms[$text]
+    } elseif ($rules.KeepUpper.Contains($text) -or $text -notmatch '[AEIOUY]' -or $text -match '^(?:II|III|IV|VI|VII|VIII|IX|XI|XII)$') {
+      $text
+    } elseif (-not $starts -and $rules.SmallWords.Contains($lower)) {
+      $lower
+    } else {
+      [string]$text[0] + $lower.Substring(1)
+    }
+    $null = $out.Append($cased)
+    $last = $word.Index + $word.Length
+  }
+  $null = $out.Append($Title.Substring($last))
+  $out.ToString()
+}
+
 function New-TvEvent {
   <#
   .SYNOPSIS
@@ -360,7 +409,7 @@ function New-TvEvent {
     [AllowNull()][Nullable[decimal]]$PriceMin
   )
 
-  $cleanTitle = ($Title -replace '\s+', ' ').Trim()
+  $cleanTitle = ConvertTo-TvTitleCase (($Title -replace '\s+', ' ').Trim())
   $givenVenue = $Venue
   $key = if ($VenueKey) { $VenueKey } else { Get-VenueKey $Venue }
   $alias = Resolve-TvVenueAlias $key

@@ -139,7 +139,41 @@ Describe 'ConvertFrom-TvLocation' {
   }
 }
 
+Describe 'ConvertTo-TvTitleCase' {
+  It 'title-cases an all-caps title and keeps acronyms: <title>' -ForEach @(
+    @{ title = 'OLD BOISE MODEL RAILROAD'; want = 'Old Boise Model Railroad' }
+    @{ title = 'THE LEGEND OF KORRA IN CONCERT'; want = 'The Legend of Korra in Concert' }
+    @{ title = 'TAYLOR TOMLINSON: NOBODY ASKED YOU TO DO THAT'; want = 'Taylor Tomlinson: Nobody Asked You to Do That' }
+    @{ title = 'DJ NITES ON THE ICE WITH DJ MATEO & FRIENDS!'; want = 'DJ Nites on the Ice with DJ Mateo & Friends!' }
+    @{ title = "JEFF CROSBY'S ANNUAL HOMECOMING RUN"; want = "Jeff Crosby's Annual Homecoming Run" }
+    @{ title = '2027 WARRIOR/ECHL ALL STAR CLASSIC'; want = '2027 Warrior/ECHL All Star Classic' }
+    @{ title = 'SPIRITUAL RECOVERY SUPPORT GROUP- CSL SOUL RECOVERY'; want = 'Spiritual Recovery Support Group- CSL Soul Recovery' }
+    @{ title = 'KARAOKE IN THE BASEMENT! (21+)'; want = 'Karaoke in the Basement! (21+)' }
+    @{ title = 'LEGO CLUB'; want = 'LEGO Club' }
+    @{ title = 'CHVRCHES - LIVE 2027'; want = 'Chvrches - Live 2027' }
+    @{ title = 'SDSU @ BSU'; want = 'SDSU @ BSU' }
+    @{ title = 'PRESCHOOL STEAM STORYTIME'; want = 'Preschool STEAM Storytime' }
+    @{ title = 'SNOWSHOE TOUR IN MCCALL'; want = 'Snowshoe Tour in McCall' }
+    @{ title = 'ROCKY II AT THE EGYPTIAN'; want = 'Rocky II at the Egyptian' }
+  ) {
+    ConvertTo-TvTitleCase $title | Should -BeExactly $want
+  }
+
+  It 'leaves a title that has lowercase letters, or is one word: <title>' -ForEach @(
+    @{ title = 'Bingo NIGHT at the VFW' }
+    @{ title = 'KREAM' }
+    @{ title = 'BUNT.' }
+    @{ title = 'Music & Movement' }
+  ) {
+    ConvertTo-TvTitleCase $title | Should -BeExactly $title
+  }
+}
+
 Describe 'New-TvEvent' {
+  It 'title-cases an all-caps title' {
+    (New-TestEvent @{ Title = 'OLD BOISE MODEL RAILROAD' }).title | Should -BeExactly 'Old Boise Model Railroad'
+  }
+
   It 'drops the venue from the end of a title, since the venue is shown beside it: <title>' -ForEach @(
     @{ title = 'Music & Movement | Garden City Public Library'; venue = 'Garden City Public Library'; want = 'Music & Movement' }
     @{ title = "Karoake Friday @ Helina Marie's"; venue = "Helina Marie's"; want = 'Karoake Friday' }
