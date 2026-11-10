@@ -146,7 +146,9 @@
 
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+/* Space for the scrollbar is kept on every page, so the centered layout doesn't shift sideways
+   when the home page's list loads and the page grows a scrollbar. */
+html { -webkit-text-size-adjust: 100%; scrollbar-gutter: stable; }
 
 body {
   margin: 0;
@@ -414,6 +416,8 @@ input:focus-visible, select:focus-visible, button:focus-visible {
 
 /* Status and paging */
 .status {
+  /* As tall as the pager's buttons, so "Loading events" holds the line they will take. */
+  min-height: 28px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
