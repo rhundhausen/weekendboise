@@ -9,7 +9,7 @@
 {{- $suggest := querify "title" "Suggestion: " "body" "Your idea, a missing event or source, or a wrong listing:\n" }}
 
 <header class="top">
-  <div class="wrap">
+  <div class="wrap narrow">
     {{- /* The site name at the same size as on the home page, linking back to it. */}}
     <div class="top-row">
       <a class="brand site-name" href="{{ relURL "/" }}"><span class="logo" aria-hidden="true"></span>{{ site.Title }}</a>
@@ -19,7 +19,7 @@
   </div>
 </header>
 
-<main class="wrap">
+<main class="wrap narrow">
 <div class="prose">
   <h2>What is WeekendBoise?</h2>
   <p>WeekendBoise lists upcoming events in Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, Emmett, and the towns around them, out to Mountain Home, Payette, Weiser, and even Valley County. Concerts, theater, games, markets, festivals, library programs, classes, races, auctions and estate sales: if a public calendar lists it, it shows up here.</p>
@@ -90,7 +90,7 @@
 </div>
 </main>
 
-<footer class="wrap foot">
+<footer class="wrap narrow foot">
   <p>Collected nightly from public calendars and APIs by <a href="https://github.com/rhundhausen/weekendboise">WeekendBoise</a>. <a href="{{ print $newIssue $suggest }}" rel="noopener" target="_blank">Suggest something</a>.</p>
 </footer>
 {{ end }}

@@ -164,6 +164,8 @@ a { color: var(--accent); }
   margin: 0 auto;
   padding: 0 16px;
 }
+/* A reading page (About): the header, card, and footer share the card's width, centered. */
+.wrap.narrow { max-width: 792px; }
 
 /* Header */
 .top {
