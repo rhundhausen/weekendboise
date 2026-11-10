@@ -148,11 +148,16 @@ function matches(e, words, from, to, skipCats, now, skipCity = false) {
   return true;
 }
 
+// Each column's own order, which the header flips, then tie-breakers that stay ascending:
+// same-named events by venue, then date; everything else by date, then title.
+const byDate = (a, b) => a.sd.localeCompare(b.sd) || a.instant - b.instant;
+const byTitle = (a, b) => a.title.localeCompare(b.title);
+const byVenue = (a, b) => a.venue.localeCompare(b.venue);
 const sorters = {
-  date: (a, b) => a.sd.localeCompare(b.sd) || a.instant - b.instant || a.title.localeCompare(b.title),
-  title: (a, b) => a.title.localeCompare(b.title) || sorters.date(a, b),
-  venue: (a, b) => a.venue.localeCompare(b.venue) || sorters.date(a, b),
-  city: (a, b) => a.city.localeCompare(b.city) || sorters.date(a, b),
+  date: [byDate, byTitle],
+  title: [byTitle, byVenue, byDate],
+  venue: [byVenue, byDate, byTitle],
+  city: [(a, b) => a.city.localeCompare(b.city), byDate, byTitle],
 };
 
 function render() {
@@ -176,8 +181,8 @@ function render() {
     counts[e.cat] = (counts[e.cat] || 0) + 1;
     if (inCats(e)) shown.push(e);
   }
-  const sorter = sorters[state.sort] || sorters.date;
-  shown.sort((a, b) => sorter(a, b) * state.dir);
+  const [first, ...ties] = sorters[state.sort] || sorters.date;
+  shown.sort((a, b) => first(a, b) * state.dir || ties.reduce((c, tie) => c || tie(a, b), 0));
 
   const pages = Math.max(1, Math.ceil(shown.length / state.per));
   state.page = Math.min(Math.max(1, state.page), pages);
