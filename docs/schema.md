@@ -116,7 +116,7 @@ The hash uses the date, not the time, so two showings of one title at one venue 
 
 ## Duplicates
 
-Two events are the same if their ids match, or if their normalized titles have Jaro-Winkler similarity above 0.9, they start within 30 minutes, and `venueKey` matches. When merging, the longest description is kept, the url comes from the source with the lowest `priority`, and `sources` is unioned.
+Two events are the same if their ids match, or if their normalized titles have Jaro-Winkler similarity above 0.9, they start within 30 minutes, and `venueKey` matches. Two multi-day events from different sources are also the same, whatever their venue and start time, if their normalized titles match and they share a known city and start day, since sources often disagree on a festival's opening time and building. When merging, the longest description is kept, the url comes from the source with the lowest `priority`, and `sources` is unioned.
 
 ## Lifecycle
 

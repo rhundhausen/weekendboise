@@ -148,6 +148,11 @@ function Merge-TvEvents {
       identifying words (Test-TvSameTitleWords). This catches "Jo Koy" against
       "Jo Koy - Koy Meets World Tour", and "BSU Women's Basketball Game" against
       "Boise State University Women's Basketball vs Portland State".
+    Two multi-day events (ending on a later day than they start) are also the same, at any venueKey
+    and start time, if they have the same normalized title, the same known city (not Other), the same
+    start day, and no source reported both. Sources disagree on a festival's opening time and
+    building more than on a show's ("Festival of Trees" at 6:30 AM in the Horse Park and at noon
+    in the Arena), and the title, city, and dates are enough to tell multi-day events apart.
     A "canceled" marker in a title is ignored for matching, so a cancellation finds its listing.
 
     The event from the best-priority source supplies the url and other fields (between sources
@@ -178,6 +183,8 @@ function Merge-TvEvents {
   $byId = @{}
   $bySlot = @{}
   $slotTicks = [TimeSpan]::FromMinutes(30).Ticks
+  # Multi-day events by "city|start day|title", for the multi-day rule.
+  $byDays = @{}
 
   foreach ($entry in $ordered) {
     $event = $entry.Event
@@ -208,6 +215,17 @@ function Merge-TvEvents {
         }
       }
       if (-not $match) { $match = $sameMinute }
+    }
+
+    $daysKey = $null
+    if ($event.city -and $event.city -ne 'Other' -and $event.end -and
+      $event.end.Substring(0, 10) -gt $event.start.Substring(0, 10)) {
+      $daysKey = "$($event.city)|$($event.start.Substring(0, 10))|$title"
+      if (-not $match) {
+        $match = @($byDays[$daysKey]) | Where-Object {
+          $_ -and -not @($_.Event.sources | Where-Object { $_.name -in $sourceNames })
+        } | Select-Object -First 1
+      }
     }
 
     if ($match) {
@@ -252,6 +270,12 @@ function Merge-TvEvents {
       $bySlot[$slotKey] = [System.Collections.Generic.List[object]]::new()
     }
     $bySlot[$slotKey].Add($record)
+    if ($daysKey) {
+      if (-not $byDays.ContainsKey($daysKey)) {
+        $byDays[$daysKey] = [System.Collections.Generic.List[object]]::new()
+      }
+      $byDays[$daysKey].Add($record)
+    }
   }
 
   $kept | Where-Object { -not ($DropCanceled -and $_.Canceled) } | ForEach-Object { $_.Event }

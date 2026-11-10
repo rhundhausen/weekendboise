@@ -5,6 +5,8 @@ BeforeAll {
     param(
       [string]$Title = 'Boise Philharmonic Season Opener',
       [string]$Start = '2026-11-14T19:30:00-07:00',
+      [string]$End,
+      [string]$City = 'Boise',
       [string]$Venue = 'Morrison Center',
       [string]$Source = 'a',
       [string]$Url = "https://$Source.test/e",
@@ -12,7 +14,7 @@ BeforeAll {
       [string]$FetchedAt = '2026-11-01T10:00:00Z',
       [switch]$AllDay
     )
-    New-TvEvent -Title $Title -Start $Start -Venue $Venue -Category 'music' -Url $Url -Description $Description -AllDay:$AllDay `
+    New-TvEvent -Title $Title -Start $Start -End $End -City $City -Venue $Venue -Category 'music' -Url $Url -Description $Description -AllDay:$AllDay `
       -Sources @(@{ name = $Source; url = $Url; fetchedAt = $FetchedAt })
   }
 }
@@ -232,6 +234,74 @@ Describe 'Merge-TvEvents same-minute rule' {
     $merged = @(Merge-TvEvents @(
         (New-TestEvent -Title 'Jo Koy' -Venue 'Ford Idaho Center Arena' -Start '2026-11-07T20:00:00-07:00' -Source a)
         (New-TestEvent -Title 'Jo Koy (12 and Over)' -Venue 'ExtraMile Arena' -Start '2026-11-07T20:00:00-07:00' -Source b)
+      ))
+    $merged.Count | Should -Be 2
+  }
+}
+
+Describe 'Merge-TvEvents multi-day rule' {
+  BeforeAll {
+    # Two sources for one festival: one reports the wrong opening time and another building.
+    function New-Festival {
+      param([string]$Source, [string]$Start, [string]$Venue, [string]$City = 'Nampa', [string]$End = '2026-11-30T17:00:00-07:00', [string]$Title = 'Canyon County Festival of Trees')
+      New-TestEvent -Title $Title -Start $Start -End $End -Venue $Venue -City $City -Source $Source -Url "https://$Source.test/trees"
+    }
+  }
+
+  It 'merges one multi-day event that two sources list at different times and buildings' {
+    $merged = @(Merge-TvEvents @(
+        (New-Festival -Source venue -Start '2026-11-27T06:30:00-07:00' -Venue 'Ford Idaho Center Horse Park')
+        (New-Festival -Source agency -Start '2026-11-27T12:00:00-07:00' -Venue 'Ford Idaho Center Arena')
+      ) -Priorities @{ venue = 20 })
+    $merged.Count | Should -Be 1
+    $merged[0].url | Should -Be 'https://venue.test/trees'
+    $merged[0].sources.name | Should -Be @('agency', 'venue')
+  }
+
+  It 'keeps them apart in different cities' {
+    $merged = @(Merge-TvEvents @(
+        (New-Festival -Source venue -Start '2026-11-27T06:30:00-07:00' -Venue 'Ford Idaho Center Arena')
+        (New-Festival -Source agency -Start '2026-11-27T12:00:00-07:00' -Venue 'Expo Idaho' -City 'Garden City')
+      ))
+    $merged.Count | Should -Be 2
+  }
+
+  It 'keeps them apart when the city is unknown' {
+    $merged = @(Merge-TvEvents @(
+        (New-Festival -Source venue -Start '2026-11-27T06:30:00-07:00' -Venue 'Hall A' -City 'Other')
+        (New-Festival -Source agency -Start '2026-11-27T12:00:00-07:00' -Venue 'Hall B' -City 'Other')
+      ))
+    $merged.Count | Should -Be 2
+  }
+
+  It 'keeps them apart when they start on different days' {
+    $merged = @(Merge-TvEvents @(
+        (New-Festival -Source venue -Start '2026-11-27T12:00:00-07:00' -Venue 'Ford Idaho Center Arena')
+        (New-Festival -Source agency -Start '2026-11-28T12:00:00-07:00' -Venue 'Ford Idaho Center Horse Park')
+      ))
+    $merged.Count | Should -Be 2
+  }
+
+  It 'keeps them apart when the titles differ' {
+    $merged = @(Merge-TvEvents @(
+        (New-Festival -Source venue -Start '2026-11-27T06:30:00-07:00' -Venue 'Ford Idaho Center Horse Park')
+        (New-Festival -Source agency -Start '2026-11-27T12:00:00-07:00' -Venue 'Ford Idaho Center Arena' -Title 'Canyon County Festival of Lights')
+      ))
+    $merged.Count | Should -Be 2
+  }
+
+  It 'keeps one-day events with the same title at different venues' {
+    $merged = @(Merge-TvEvents @(
+        (New-Festival -Source a -Start '2026-11-27T10:00:00-07:00' -End '2026-11-27T11:00:00-07:00' -Venue 'Library A' -Title 'Story Time')
+        (New-Festival -Source b -Start '2026-11-27T14:00:00-07:00' -End '2026-11-27T15:00:00-07:00' -Venue 'Library B' -Title 'Story Time')
+      ))
+    $merged.Count | Should -Be 2
+  }
+
+  It 'keeps two listings from the same source' {
+    $merged = @(Merge-TvEvents @(
+        (New-TestEvent -Title 'Holiday Bazaar' -Start '2026-11-27T09:00:00-07:00' -End '2026-11-29T17:00:00-07:00' -Venue 'Hall A' -City 'Nampa' -Source s -Url 'https://s.test/1')
+        (New-TestEvent -Title 'Holiday Bazaar' -Start '2026-11-27T10:00:00-07:00' -End '2026-11-29T17:00:00-07:00' -Venue 'Hall B' -City 'Nampa' -Source s -Url 'https://s.test/2')
       ))
     $merged.Count | Should -Be 2
   }
