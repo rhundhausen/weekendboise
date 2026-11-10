@@ -474,7 +474,11 @@ function New-TvEvent {
   # Ticket prices don't belong in stored data, so drop any sentence with a dollar amount.
   $text = (ConvertTo-PlainText $Description) -replace '[^.!?]*\$\d[\d,]*(\.\d+)?[^.!?]*[.!?]?', ''
   $text = ($text -replace '\s+', ' ').Trim()
-  if ($text.Length -gt 300) { $text = $text.Substring(0, 297).TrimEnd() + '...' }
+  if ($text.Length -gt 300) {
+    # Don't end on the first half of an emoji or other two-part character: half of one is not valid text.
+    $cut = [char]::IsHighSurrogate($text[296]) ? 296 : 297
+    $text = $text.Substring(0, $cut).TrimEnd() + '...'
+  }
   if ($text) { $event.description = $text }
 
   $event.sources = @($Sources | ForEach-Object {

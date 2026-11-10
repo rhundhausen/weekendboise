@@ -247,6 +247,13 @@ Describe 'New-TvEvent' {
     $event.description | Should -BeLike '*...'
   }
 
+  It 'never cuts an emoji in half when it truncates the description' {
+    # 296 letters, then an emoji (two UTF-16 halves) across the cut at 297.
+    $musicNote = [char]::ConvertFromUtf32(0x1F3B6)
+    $event = New-TestEvent @{ Description = ('x' * 296) + $musicNote + ('y' * 50) }
+    $event.description | Should -BeExactly (('x' * 296) + '...')
+  }
+
   It 'keeps a sources array with a single entry' {
     $event = New-TestEvent
     @($event.sources).Count | Should -Be 1
