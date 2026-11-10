@@ -187,7 +187,6 @@
   {{- /* The feedback link opens a new GitHub issue with the title filled in; it needs a GitHub account. */}}
   {{- $feedback := querify "title" "Feedback: " "body" "What's on your mind (a wrong listing, a missing event, an idea):\n" }}
   <p>Every listing links to the organizer's own page. Collected nightly from public calendars and APIs by <a href="https://github.com/rhundhausen/weekendboise">WeekendBoise</a>. We welcome feedback. Spot a mistake, miss an event, or have an idea? <a href="{{ print "https://github.com/rhundhausen/weekendboise/issues/new?" $feedback }}" rel="noopener" target="_blank">Create a GitHub issue</a>.</p>
-  <p>This site keeps a private 90-day log of visits and searches, including your IP address and approximate location, to see how it is used. It is never shared.</p>
 </footer>
 
 <script type="application/json" id="tv-config">{{ $cfg | jsonify | safeJS }}</script>
