@@ -190,3 +190,82 @@ function Resolve-TvOtherCity {
   }
   $changed
 }
+
+function Resolve-TvTitleVenue {
+  <#
+  .SYNOPSIS
+    Gives an event at a placeholder venue the venue its title names. Returns how many changed.
+  .DESCRIPTION
+    Aggregators list many events under one placeholder ("Various Treasure Valley locations",
+    city Other) while the title names the place: "$3 Admission Day at Zoo Boise", "1st Sunday
+    Brunch | Meriwether Cider". When the title ends in a known venue after "|", "@", a spaced
+    dash, "at", or "at the", the event takes that venue's name, key, and city, and its id and size
+    are rebuilt to match. After "|", "@", or a dash the venue is also dropped from the title, as
+    New-TvEvent does; after "at" the title reads naturally and stays. Known venues are those other
+    events place in exactly one city (Get-TvVenueCities), and the places in
+    data/schema/place-cities.json. Anything else is left alone, since the words may name an event
+    ("at Canyon County Festival of Trees", "| Dog Winter Photo Sessions"), not a place. Run it
+    before Merge-TvEvents, so the event can merge with the venue's own listing.
+  #>
+  [CmdletBinding()]
+  [OutputType([int])]
+  param([Parameter(Mandatory, Position = 0)][AllowEmptyCollection()][object[]]$Events)
+
+  $venueCities = Get-TvVenueCities $Events
+  $names = @{}
+  foreach ($event in $Events) {
+    if ($event.venueKey -and $venueCities.ContainsKey($event.venueKey) -and -not $names.ContainsKey($event.venueKey)) {
+      $names[$event.venueKey] = $event.venue
+    }
+  }
+
+  $placeholders = @{}
+  foreach ($event in $Events) {
+    if ($event.venueKey -and -not $venueCities.ContainsKey($event.venueKey)) { $placeholders[$event.venueKey] = $true }
+  }
+  $places = (Get-TvPlaceCities).places
+  foreach ($place in $places.Keys) {
+    $key = Get-VenueKey $place
+    if (-not $venueCities.ContainsKey($key)) {
+      $venueCities[$key] = $places[$place]
+      $names[$key] = $place
+    }
+  }
+
+  $separator = "\s*[|@]\s*|\s+(?:-|$([char]0x2013)|$([char]0x2014))\s+"
+  $changed = 0
+  foreach ($event in $Events) {
+    if (-not $placeholders.ContainsKey("$($event.venueKey)")) { continue }
+    if ($event.city -and $event.city -ne 'Other') { continue }
+    $title = "$($event.title)"
+    $key = $null
+    $rest = $null
+    foreach ($pattern in @("^(?<rest>.+)(?:$separator)(?<the>)(?<venue>[^|@]+?)\s*[!.]?$", '^(?<keep>.+\sat\s+(?<the>the\s+)?(?<venue>.+?))\s*[!.]?$')) {
+      $match = [regex]::Match($title, $pattern, 'IgnoreCase')
+      if (-not $match.Success) { continue }
+      $named = $match.Groups['venue'].Value
+      # A bare city ("| Caldwell") says where, not at what venue.
+      if (Resolve-TvCity $named.Trim()) { continue }
+      foreach ($candidate in @("$($match.Groups['the'].Value)$named", $named)) {
+        $try = Get-VenueKey $candidate
+        $alias = Resolve-TvVenueAlias $try
+        if ($alias) { $try = $alias.key }
+        if ($venueCities.ContainsKey($try) -and -not $placeholders.ContainsKey($try)) { $key = $try; break }
+      }
+      if ($key) {
+        if ($match.Groups['rest'].Success -and $match.Groups['rest'].Value.Trim().Length -ge 3) { $rest = $match.Groups['rest'].Value.Trim() }
+        break
+      }
+    }
+    if (-not $key) { continue }
+
+    if ($rest) { $event | Add-Member -NotePropertyName title -NotePropertyValue $rest -Force }
+    $event | Add-Member -NotePropertyName venue -NotePropertyValue $names[$key] -Force
+    $event | Add-Member -NotePropertyName venueKey -NotePropertyValue $key -Force
+    $event | Add-Member -NotePropertyName city -NotePropertyValue $venueCities[$key] -Force
+    $event | Add-Member -NotePropertyName id -NotePropertyValue (Get-TvEventId $event.title $event.start $key) -Force
+    $event | Add-Member -NotePropertyName size -NotePropertyValue (Get-TvEventSize -VenueKey $key -Category $event.category -Tags @($event.tags)) -Force
+    $changed++
+  }
+  $changed
+}

@@ -256,6 +256,21 @@ function Get-TvClassification {
   [pscustomobject]@{ Category = $category; Tags = @($tags) }
 }
 
+function Get-TvEventId {
+  # The first 12 hex digits of SHA-1 over "normalized title|start date|venueKey".
+  [CmdletBinding()]
+  [OutputType([string])]
+  param(
+    [Parameter(Mandatory, Position = 0)][string]$Title,
+    [Parameter(Mandatory, Position = 1)][string]$Start,
+    [Parameter(Mandatory, Position = 2)][string]$VenueKey
+  )
+
+  $seed = ('{0}|{1}|{2}' -f (Get-NormalizedTitle $Title), $Start.Substring(0, [Math]::Min(10, $Start.Length)), $VenueKey).ToLowerInvariant()
+  $hash = [Security.Cryptography.SHA1]::HashData([Text.Encoding]::UTF8.GetBytes($seed))
+  [Convert]::ToHexString($hash).Substring(0, 12).ToLowerInvariant()
+}
+
 function Resolve-TvVenueAlias {
   # Returns the canonical venue for a key in data/schema/venue-aliases.json, or $null.
   param([string]$VenueKey)
@@ -429,11 +444,8 @@ function New-TvEvent {
       break
     }
   }
-  $seed =('{0}|{1}|{2}' -f (Get-NormalizedTitle $cleanTitle), $Start.Substring(0, [Math]::Min(10, $Start.Length)), $key).ToLowerInvariant()
-  $hash = [Security.Cryptography.SHA1]::HashData([Text.Encoding]::UTF8.GetBytes($seed))
-
   $event = [ordered]@{
-    id    = [Convert]::ToHexString($hash).Substring(0, 12).ToLowerInvariant()
+    id    = Get-TvEventId $cleanTitle $Start $key
     title = $cleanTitle
     start = $Start
   }

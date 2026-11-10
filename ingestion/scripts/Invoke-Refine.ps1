@@ -99,6 +99,9 @@ $carried = @(Get-CarriedTvEvents $existing -Refreshed $refreshed -Enabled $runni
 # Events stored before the cost tier change carry cost and costGuess; move them to costTier
 # before the merge compares tiers. A no-op once every stored file has been rewritten.
 $legacyCosts = Update-TvLegacyCost (@($rawEvents) + $carried)
+# An aggregator's "Various locations" event whose title names a known venue ("... at Zoo Boise")
+# takes that venue first, so it can merge with the venue's own listing.
+$titleVenues = Resolve-TvTitleVenue (@($rawEvents) + $carried)
 $merged = @(Merge-TvEvents (@($rawEvents) + $carried) -Priorities $priorities -DropCanceled)
 Restore-TvFetchedAt $merged $existing
 
@@ -194,6 +197,7 @@ $report = [ordered]@{
   upcoming    = $upcoming.Count
   past        = $past.Count
   cityFixes   = $cityFixes
+  titleVenues = $titleVenues
   cityLookup  = [ordered]@{
     skipped  = [bool]($SkipCityLookup -or $NoWrite)
     others   = $lookup.Others
@@ -219,4 +223,4 @@ if ($env:GITHUB_STEP_SUMMARY) {
   Add-Content -LiteralPath $env:GITHUB_STEP_SUMMARY -Value (ConvertTo-TvLinkSummary $links.Broken -Checked $links.Checked.Count)
 }
 
-Write-Host "Refine: $($upcoming.Count) upcoming, $($past.Count) past to the archive (archive $archiveBefore -> $archiveAfter before this run's additions), $cityFixes cities filled in, $legacyCosts events moved to costTier, $($links.Checked.Count) links checked, $($links.Broken.Count) broken ($(@($links.Broken | Where-Object new).Count) new)$($NoWrite ? ' (not written)' : '')"
+Write-Host "Refine: $($upcoming.Count) upcoming, $($past.Count) past to the archive (archive $archiveBefore -> $archiveAfter before this run's additions), $cityFixes cities filled in, $titleVenues venues read from titles, $legacyCosts events moved to costTier, $($links.Checked.Count) links checked, $($links.Broken.Count) broken ($(@($links.Broken | Where-Object new).Count) new)$($NoWrite ? ' (not written)' : '')"
