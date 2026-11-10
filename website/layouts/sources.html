@@ -31,7 +31,7 @@
 </header>
 
 <main class="wrap">
-  {{- /* Sources with no upcoming events are hidden until this is checked; ?empty=1 checks it. */}}
+  {{- /* Sources with no upcoming events are hidden until this is checked; ?show=all checks it. */}}
   <label class="chip toggle sources-toggle"><input type="checkbox" id="show-empty">{{ $empty := 0 }}{{ range $running }}{{ if not (index $counts .name) }}{{ $empty = add $empty 1 }}{{ end }}{{ end }}<span>Show {{ $empty | lang.FormatNumber 0 }} sources with no current events</span></label>
   <div class="table-wrap sources-table hide-empty" id="sources-table">
     <table class="grid list">
@@ -81,10 +81,10 @@
     function apply() {
       table.classList.toggle('hide-empty', !box.checked);
       var url = new URL(location.href);
-      if (box.checked) url.searchParams.set('empty', '1'); else url.searchParams.delete('empty');
+      if (box.checked) url.searchParams.set('show', 'all'); else url.searchParams.delete('show');
       history.replaceState(null, '', url.search ? url.pathname + url.search : url.pathname);
     }
-    box.checked = new URLSearchParams(location.search).get('empty') === '1';
+    box.checked = new URLSearchParams(location.search).get('show') === 'all';
     box.addEventListener('change', apply);
     apply();
   })();
