@@ -11,10 +11,11 @@ BeforeAll {
 }
 
 Describe 'categories.json' {
-  It 'has the 12 ids, in the specified order' {
+  It 'has the 13 ids, in the specified order' {
     $categories.id | Should -Be @(
       'music', 'performing-arts', 'sports', 'festivals', 'holiday-seasonal', 'arts-culture',
-      'markets-shopping', 'food-drink', 'outdoors-recreation', 'community-civic', 'learning-business', 'nightlife-social'
+      'markets-shopping', 'food-drink', 'outdoors-recreation', 'community-civic', 'learning-business', 'nightlife-social',
+      'auctions-estate-sales'
     )
   }
 
@@ -35,9 +36,9 @@ Describe 'categories.json' {
 }
 
 Describe 'tags.json' {
-  It 'has 60 to 80 tags' {
+  It 'has 60 to 81 tags' {
     $tags.Count | Should -BeGreaterOrEqual 60
-    $tags.Count | Should -BeLessOrEqual 80
+    $tags.Count | Should -BeLessOrEqual 81
   }
 
   It 'is sorted, with unique slug ids' {

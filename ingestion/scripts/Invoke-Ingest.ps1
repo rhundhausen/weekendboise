@@ -59,8 +59,24 @@ $global:LASTEXITCODE = 0
 & (Join-Path $PSScriptRoot 'Test-Sources.ps1') -Path $SourcesPath
 if ($LASTEXITCODE -ne 0) { exit 1 }
 
-$allSources = @((Get-Content -LiteralPath $SourcesPath -Raw | ConvertFrom-TvJson).sources)
-$running = @($allSources | Where-Object { $_.status -eq 'running' })
+$sourcesFile = Get-Content -LiteralPath $SourcesPath -Raw | ConvertFrom-TvJson
+$allSources = @($sourcesFile.sources)
+
+# doNotIngest names companies and sites never to fetch, such as one that asked to be removed. A
+# match by name, displayName, or url host (with or without www) is skipped by every run, and
+# leaving it out of $running drops its last fetch from the raw file.
+$blocked = @($sourcesFile.doNotIngest | Where-Object { $_ } | ForEach-Object { "$_".ToLowerInvariant() -replace '^www\.', '' })
+$isBlocked = {
+  param($entry)
+  $siteHost = if ("$($entry.url)" -match '^https?://([^/:?#]+)') { $Matches[1].ToLowerInvariant() -replace '^www\.', '' }
+  @("$($entry.name)".ToLowerInvariant(), "$($entry.displayName)".ToLowerInvariant(), $siteHost) | Where-Object { $_ -and $_ -in $blocked }
+}
+$running = @($allSources | Where-Object { $_.status -eq 'running' -and -not (& $isBlocked $_) })
+
+if ($Source -and @($allSources | Where-Object { $_.name -eq $Source -and (& $isBlocked $_) })) {
+  Write-Host "$Source is on the doNotIngest list in sources.json, so it is not run"
+  exit 1
+}
 
 $selected = if ($Source) {
   @($allSources | Where-Object { $_.name -and $_.name -eq $Source })

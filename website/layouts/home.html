@@ -1,6 +1,12 @@
 {{ define "main" }}
+{{- /* Category chips, like the City options below, list only categories with at least one upcoming
+     event in this build; one with none (such as Auctions and Estate Sales between sales) gets no chip
+     until an event arrives. Presentation only: its sources still run nightly. */}}
+{{- $catIds := slice }}
+{{- range hugo.Data.events }}{{ with .category }}{{ $catIds = $catIds | append . }}{{ end }}{{ end }}
+{{- $catIds = $catIds | uniq }}
 {{- $cats := dict }}
-{{- range hugo.Data.schema.categories }}{{ $cats = merge $cats (dict .id .label) }}{{ end }}
+{{- range hugo.Data.schema.categories }}{{ if in $catIds .id }}{{ $cats = merge $cats (dict .id .label) }}{{ end }}{{ end }}
 {{- $sizes := dict }}
 {{- $sizeOrder := slice }}
 {{- range hugo.Data.schema.sizes.levels }}
@@ -55,6 +61,7 @@
       {{- /* The build's count, until app.js replaces it with what the unfiltered list shows. */}}
       <span id="total">{{ len hugo.Data.events | lang.FormatNumber 0 }}</span> upcoming events
       <span class="sep" aria-hidden="true">|</span> <a href="{{ relURL "sources/" }}">{{ len $running }} sources</a>
+      <span class="sep" aria-hidden="true">|</span> <a href="{{ relURL "about/" }}">About</a>
       {{- with $lastIngest }} <span class="sep" aria-hidden="true">|</span> <time id="as-of" datetime="{{ . }}">{{ (time.AsTime .).Format "Jan 2, 3:04 PM UTC" }}</time>{{ end }}
     </p>
   </div>
@@ -160,7 +167,7 @@
           <th scope="col" data-sort="city"><button type="button">City</button></th>
           <th scope="col">Category</th>
           <th scope="col" title="Estimated crowd size">Size</th>
-          <th scope="col"{{ with $costLegend }} title="{{ . }}"{{ end }}>Cost</th>
+          <th scope="col" class="c-cost"{{ with $costLegend }} title="{{ . }}"{{ end }}>Cost</th>
         </tr>
       </thead>
       <tbody id="rows"></tbody>
@@ -177,6 +184,7 @@
   {{- /* The feedback link opens a new GitHub issue with the title filled in; it needs a GitHub account. */}}
   {{- $feedback := querify "title" "Feedback: " "body" "What's on your mind (a wrong listing, a missing event, an idea):\n" }}
   <p>Every listing links to the organizer's own page. Collected nightly from public calendars and APIs by <a href="https://github.com/rhundhausen/weekendboise">WeekendBoise</a>. We welcome feedback. Spot a mistake, miss an event, or have an idea? <a href="{{ print "https://github.com/rhundhausen/weekendboise/issues/new?" $feedback }}" rel="noopener" target="_blank">Create a GitHub issue</a>.</p>
+  <p>This site keeps a private 90-day log of visits and searches, including your IP address and approximate location, to see how it is used. It is never shared.</p>
 </footer>
 
 <script type="application/json" id="tv-config">{{ $cfg | jsonify | safeJS }}</script>

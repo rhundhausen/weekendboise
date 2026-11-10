@@ -116,6 +116,13 @@ Describe 'scrape adapter, jsonld from linked pages' {
     $events[0].city | Should -Be 'Caldwell'
   }
 
+  It 'warns when the list page has no event links, so a block page is not a quiet empty night' {
+    $events = @(& $adapter -Source $source -FetchedAt $fetchedAt -Response @('<html><body>Just a moment</body></html>') -WarningVariable warnings -WarningAction SilentlyContinue)
+    $events.Count | Should -Be 0
+    @($warnings).Count | Should -Be 1
+    "$($warnings[0])" | Should -Match 'no event links'
+  }
+
   It 'caps the pages it reads' {
     $capped = $source | Select-Object *
     $capped | Add-Member -NotePropertyName maxPages -NotePropertyValue 1 -Force
@@ -651,7 +658,7 @@ Describe 'scrape adapter, staying out of bounds' {
       $global:TvScrapeRequests.Add("$Uri")
       if ("$Uri" -like '*/robots.txt') { New-FakeResponse 404 } else { New-FakeResponse 200 '<html></html>' }
     }
-    @(& $adapter -Source $source -FetchedAt $fetchedAt).Count | Should -Be 0
+    @(& $adapter -Source $source -FetchedAt $fetchedAt -WarningAction SilentlyContinue).Count | Should -Be 0
     $global:TvScrapeRequests.Count | Should -Be 2
   }
 

@@ -1,5 +1,8 @@
 {
-  "_comment": "Every source: running, configured but waiting, ideas, and sites ruled out. Ingest runs only status running. Only displayName is required; check here before probing a site. See docs/sources.md. The site hides a city with no upcoming events from its City list; that is presentation only, so keep every running source for such a city: it still runs nightly, and the city reappears once it has an event.",
+  "_comment": "Every source: running, configured but waiting, ideas, and sites ruled out. Ingest runs only status running. Only displayName is required; check here before probing a site. See docs/sources.md. The site hides a city with no upcoming events from its City list; that is presentation only, so keep every running source for such a city: it still runs nightly, and the city reappears once it has an event. doNotIngest lists companies and sites never to ingest, such as one that asked to be removed, matched by name, displayName, or site (see the schema); adding one stops it in one edit.",
+  "doNotIngest": [
+    "estatesales.net"
+  ],
   "sources": [
     {
       "name": "meetup-abu-games-events",
@@ -48,10 +51,13 @@
     },
     {
       "displayName": "Ada Estate Liquidations",
-      "status": "investigating",
-      "url": "https://estatesales.org/company/26639",
+      "status": "awaiting-reply",
+      "url": "https://adaestateliquidations.com",
+      "type": "estate-sale",
+      "contact": "contact form",
       "city": "Boise",
-      "notes": "Own site not found: the EstateSales.org /company/26639 link did not load with our client on 2026-11-08. Its sales are on EstateSales.org"
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Very active on EstateSales.org (18 sales in 2026). Site blocks crawlers. Earlier (2026-11-08): Own site not found: the EstateSales.org /company/26639 link did not load with our client on 2026-11-08. Its sales are on EstateSales.org Earlier url: https://estatesales.org/company/26639.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-adult-board-game-night",
@@ -125,10 +131,12 @@
     },
     {
       "displayName": "Always Estate Sales",
-      "status": "ruled-out",
-      "url": "http://www.alwaysestatesales.com",
+      "status": "defunct",
+      "url": "https://alwaysestatesales.com",
+      "type": "estate-sale",
       "city": "Boise",
-      "reason": "www.alwaysestatesales.com and alwaysestatesales.com do not resolve (no such host) on 2026-11-08. Lists on EstateSales.org (company 24009)"
+      "notes": "Last sale Oct 2023; site down. Earlier (2026-11-08): www.alwaysestatesales.com and alwaysestatesales.com do not resolve (no such host) on 2026-11-08. Lists on EstateSales.org (company 24009) Earlier url: http://www.alwaysestatesales.com.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-ambivert-girlies",
@@ -147,11 +155,14 @@
     },
     {
       "displayName": "Americana Estate Services",
-      "status": "ruled-out",
-      "url": "https://www.aessd.com/sales",
+      "status": "awaiting-reply",
+      "url": "https://www.aessd.com",
+      "type": "estate-sale",
+      "contact": "AESBoise@gmail.com",
       "robotsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "/sales shows its upcoming sales through an EstateSales.NET iframe (estatesales.net iframe-helper.js), checked 2026-11-08, so the listings are EstateSales.NET's, whose terms forbid automated collection. Also posts on EstateSales.org (company 20803)"
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Own sales page is empty; posts on EstateSales.NET. Earlier (2026-11-08): /sales shows its upcoming sales through an EstateSales.NET iframe (estatesales.net iframe-helper.js), checked 2026-11-08, so the listings are EstateSales.NET's, whose terms forbid automated collection. Also posts on EstateSales.org (company 20803) Earlier url: https://www.aessd.com/sales.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-amor-immortalem",
@@ -290,11 +301,14 @@
     },
     {
       "displayName": "Bates Estate Sales",
-      "status": "ruled-out",
-      "url": "https://estatesalesboiseidaho.com/find-estate-sales-in-boise/",
+      "status": "awaiting-reply",
+      "url": "https://estatesalesboiseidaho.com",
+      "type": "estate-sale",
+      "contact": "contact form, 208-871-6436",
       "robotsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "No sale listings on its own site: /find-estate-sales-in-boise/ is a newsletter sign-up and marketing copy, checked 2026-11-08. Its sales are posted on EstateSales.org (company 26609), which is the source to read"
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Posts on EstateSales.NET and EstateSales.org. Earlier (2026-11-08): No sale listings on its own site: /find-estate-sales-in-boise/ is a newsletter sign-up and marketing copy, checked 2026-11-08. Its sales are posted on EstateSales.org (company 26609), which is the source to read Earlier url: https://estatesalesboiseidaho.com/find-estate-sales-in-boise/.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-beat-loneliness-together",
@@ -343,11 +357,14 @@
     },
     {
       "displayName": "BEL Estate Sales (Boise Estate Liquidators)",
-      "status": "ruled-out",
-      "url": "https://salebybel.com/upcoming-sales",
+      "status": "awaiting-reply",
+      "url": "https://salebybel.com",
+      "type": "estate-sale",
+      "contact": "contact form, 208-572-7253",
       "robotsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "/upcoming-sales shows only an embedded EstateSales.org widget (estatesales.org/feed/25657), checked 2026-11-08. The listings are EstateSales.org's, so they belong to that source"
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Embeds EstateSales.org feed 25657. Earlier (2026-11-08): /upcoming-sales shows only an embedded EstateSales.org widget (estatesales.org/feed/25657), checked 2026-11-08. The listings are EstateSales.org's, so they belong to that source Earlier url: https://salebybel.com/upcoming-sales.",
+      "lastChecked": "2026-11-09"
     },
     {
       "displayName": "BikeReg",
@@ -1573,57 +1590,68 @@
     },
     {
       "displayName": "Estate Consulting Treasure Valley",
-      "status": "investigating",
-      "url": "https://estatesales.org/company/10865",
+      "status": "needs-contact",
+      "url": "http://www.estatectv.com",
+      "type": "estate-sale",
+      "contact": "208-941-5500",
       "city": "Boise",
-      "notes": "Own site not found: the EstateSales.org /company/10865 link did not load with our client on 2026-11-08. Its sales are on EstateSales.org"
+      "notes": "No working email; reach by phone or Facebook. 22 sales on EstateSales.org. Earlier (2026-11-08): Own site not found: the EstateSales.org /company/10865 link did not load with our client on 2026-11-08. Its sales are on EstateSales.org Earlier url: https://estatesales.org/company/10865.",
+      "lastChecked": "2026-11-09"
     },
     {
       "displayName": "Estate Liquidators of Idaho",
-      "status": "ruled-out",
-      "url": "https://www.estateliquidatorsofidaho.com/estate-sale-treasure-valley-idaho",
+      "status": "needs-contact",
+      "url": "https://www.estateliquidatorsofidaho.com",
+      "type": "estate-sale",
+      "contact": "208-812-2133, Middleton",
       "robotsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "Wix site with service pages only and no sale listings, checked 2026-11-08. Its sales are posted on EstateSales.NET"
+      "notes": "No working email; reach by phone or Facebook. No sales listed on site. Earlier (2026-11-08): Wix site with service pages only and no sale listings, checked 2026-11-08. Its sales are posted on EstateSales.NET Earlier url: https://www.estateliquidatorsofidaho.com/estate-sale-treasure-valley-idaho.",
+      "lastChecked": "2026-11-09"
     },
     {
       "displayName": "Estate Sales & More",
-      "status": "ruled-out",
-      "url": "https://www.estatesalesandmore.net/our-sales-events.html",
+      "status": "awaiting-reply",
+      "url": "https://www.estatesalesandmore.net",
+      "type": "estate-sale",
+      "contact": "contact form, 208-504-7521",
       "robotsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "/our-sales-events.html shows only an embedded EstateSales.org widget (estatesales.org/feed/6425), checked 2026-11-08. The listings are EstateSales.org's, so they belong to that source"
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. 85 sales on EstateSales.org; active. Earlier (2026-11-08): /our-sales-events.html shows only an embedded EstateSales.org widget (estatesales.org/feed/6425), checked 2026-11-08. The listings are EstateSales.org's, so they belong to that source Earlier url: https://www.estatesalesandmore.net/our-sales-events.html.",
+      "lastChecked": "2026-11-09"
     },
     {
       "displayName": "EstateSale.com",
-      "status": "ruled-out",
-      "adapter": "other",
-      "url": "https://www.estatesale.com/cities/view/184/Estate-Sales-Kuna-ID.html",
+      "status": "out-of-scope",
+      "url": "https://www.estatesale.com",
+      "type": "platform",
       "robotsChecked": "2026-11-08",
       "city": "Kuna",
-      "reason": "The Kuna city page answered with an Incapsula bot challenge (a 212-byte page loading /_Incapsula_Resource, meta robots noindex,nofollow) on 2026-11-08, although robots.txt asks only for Crawl-Delay: 10. Do not retry around the challenge. Terms not read, since no page loads"
+      "notes": "Aggregator. Earlier (2026-11-08): The Kuna city page answered with an Incapsula bot challenge (a 212-byte page loading /_Incapsula_Resource, meta robots noindex,nofollow) on 2026-11-08, although robots.txt asks only for Crawl-Delay: 10. Do not retry around the challenge. Terms not read, since no page loads Earlier url: https://www.estatesale.com/cities/view/184/Estate-Sales-Kuna-ID.html.",
+      "lastChecked": "2026-11-09"
     },
     {
       "displayName": "EstateSales.NET",
-      "status": "ruled-out",
-      "adapter": "other",
-      "url": "https://www.estatesales.net/ID/Boise",
+      "status": "declined",
+      "url": "https://www.estatesales.net",
+      "type": "platform",
       "robotsChecked": "2026-11-08",
       "termsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "Terms of service (Prohibited Uses) forbid 'using or attempting to use any engine, software, tool, agent, or other device or mechanism (including without limitation browsers, spiders, robots, avatars, or intelligent agents) to harvest or otherwise collect information from the Service for any use, including without limitation use on Third Party Websites', and the license bars reproducing or distributing any part of the Service for a commercial purpose without written consent. robots.txt itself allows the city pages. Needs written permission or a partner feed from EstateSales.NET",
-      "notes": "Largest estate sale site; most Treasure Valley companies post here. Checked 2026-11-08. City pages (/ID/<City>, /ID/<City>/<ZIP>) are Angular with server-rendered state in script#estatesales-net-state: NGRX_STATE.ui.sales.saleRows has, per sale, name, orgName, cityName, postalCodeNumber, stateCode, typeName (EstateSales), pictureCount, utcShowAddressAfter, and dates[] with per-day local start and end; descriptions are on /print. /ID/Boise listed 2 sales on 2026-11-08 (83703 Garden City estate sale by Estate Liquidators Of Idaho, Nov 12 to 13; 83705 Hillcrest View Dr by Americana Estate Services, Nov 20 to 21). No further pages were fetched once the terms were read"
+      "notes": "Declined in writing 2026-11-09 (ticket 10407164). Never ingest; it is on doNotIngest. Owned by Auction Technology Group; do not contact ATG. Earlier (2026-11-08): Terms of service (Prohibited Uses) forbid 'using or attempting to use any engine, software, tool, agent, or other device or mechanism (including without limitation browsers, spiders, robots, avatars, or intelligent agents) to harvest or otherwise collect information from the Service for any use, including without limitation use on Third Party Websites', and the license bars reproducing or distributing any part of the Service for a commercial purpose without written consent. robots.txt itself allows the city pages. Needs written permission or a partner feed from EstateSales.NET Largest estate sale site; most Treasure Valley companies post here. Checked 2026-11-08. City pages (/ID/<City>, /ID/<City>/<ZIP>) are Angular with server-rendered state in script#estatesales-net-state: NGRX_STATE.ui.sales.saleRows has, per sale, name, orgName, cityName, postalCodeNumber, stateCode, typeName (EstateSales), pictureCount, utcShowAddressAfter, and dates[] with per-day local start and end; descriptions are on /print. /ID/Boise listed 2 sales on 2026-11-08 (83703 Garden City estate sale by Estate Liquidators Of Idaho, Nov 12 to 13; 83705 Hillcrest View Dr by Americana Estate Services, Nov 20 to 21). No further pages were fetched once the terms were read Earlier url: https://www.estatesales.net/ID/Boise.",
+      "lastChecked": "2026-11-09"
     },
     {
       "displayName": "EstateSales.org",
-      "status": "ruled-out",
-      "reason": "Terms of Service (last updated 2026-01-21, read by the site owner on 2026-11-08 because robots.txt disallows /terms) forbid this use outright. The license excludes 'any collection, aggregation, copying, scraping, duplication, display' of content and 'any use of data mining, robots, spiders'. Section 4.1 forbids accessing or copying content 'using any automated means' and aggregating, displaying or distributing sale listings, dates or addresses 'without express written permission from EstateSales.org'. Section 4.2 sets liquidated damages of $0.25 per page fetched by automated means and $3,000 per day of aggregation. Needs written permission (support@EstateSales.org) before any reader is built",
-      "adapter": "other",
-      "url": "https://estatesales.org/estate-sales/id/boise",
+      "status": "awaiting-reply",
+      "url": "https://estatesales.org",
+      "type": "platform",
+      "contact": "support@EstateSales.org",
       "robotsChecked": "2026-11-08",
       "termsChecked": "2026-11-08",
       "city": "Boise",
-      "notes": "Estate sale aggregator, the only candidate still open. robots.txt allows the city pages (/estate-sales/id/<city>, /estate-sales/id/<city>/<zip>) and company pages, but disallows /terms and /privacy, so the terms were not read by our client: read https://estatesales.org/terms in a browser before any reader is built. Also disallows /calendar-export, /export, /sale/track/ and /ref/. Server-rendered HTML, no schema.org data. Each sale is a div.card with data-auction-id=L<id>: title in h3.card__title, company in a.card__publisher, type in .card__type (In-person estate sale, Online auction, Live auction and in-person estate sale), 'City, ID ZIP' in .card__location, 'Sale starts Fri. Nov 20, 2026 at 9:00 AM MST' in .card__dates, and picture count in .photo-count. End date, per-day hours and the address-reveal time are on the sale page only. Every city page (boise, nampa, weiser, payette, mccall/83638) pads its list with national online auctions, so a reader keeps only in-person sales whose location is a covered Idaho city. On 2026-11-08: 2 local in-person sales, Nice W Hillcrest View Dr 2-Day Estate Sale (Americana Estate Services, Boise 83705, Nov 20 to 21; the same sale is EstateSales.NET 5138340) and A Little Fringe, A LOT of Farmhouse (BEL Estate Sales, Kuna 83634, 4 days). Weiser, Payette and McCall had none. /company/<id> links did not load with our client (redirect); /estate-sale-companies/<slug>-<id> pages do. Company sites embed its widget (estatesales.org/feed/<companyId>), which is an iframe of the same listings, not a data feed"
+      "notes": "Asked on 2026-11-09 for written permission or a partner feed. Most active local companies post here. BEL's site embeds a per-company feed (estatesales.org/feed/25657). Earlier (2026-11-08): Terms of Service (last updated 2026-01-21, read by the site owner on 2026-11-08 because robots.txt disallows /terms) forbid this use outright. The license excludes 'any collection, aggregation, copying, scraping, duplication, display' of content and 'any use of data mining, robots, spiders'. Section 4.1 forbids accessing or copying content 'using any automated means' and aggregating, displaying or distributing sale listings, dates or addresses 'without express written permission from EstateSales.org'. Section 4.2 sets liquidated damages of $0.25 per page fetched by automated means and $3,000 per day of aggregation. Needs written permission (support@EstateSales.org) before any reader is built Estate sale aggregator, the only candidate still open. robots.txt allows the city pages (/estate-sales/id/<city>, /estate-sales/id/<city>/<zip>) and company pages, but disallows /terms and /privacy, so the terms were not read by our client: read https://estatesales.org/terms in a browser before any reader is built. Also disallows /calendar-export, /export, /sale/track/ and /ref/. Server-rendered HTML, no schema.org data. Each sale is a div.card with data-auction-id=L<id>: title in h3.card__title, company in a.card__publisher, type in .card__type (In-person estate sale, Online auction, Live auction and in-person estate sale), 'City, ID ZIP' in .card__location, 'Sale starts Fri. Nov 20, 2026 at 9:00 AM MST' in .card__dates, and picture count in .photo-count. End date, per-day hours and the address-reveal time are on the sale page only. Every city page (boise, nampa, weiser, payette, mccall/83638) pads its list with national online auctions, so a reader keeps only in-person sales whose location is a covered Idaho city. On 2026-11-08: 2 local in-person sales, Nice W Hillcrest View Dr 2-Day Estate Sale (Americana Estate Services, Boise 83705, Nov 20 to 21; the same sale is EstateSales.NET 5138340) and A Little Fringe, A LOT of Farmhouse (BEL Estate Sales, Kuna 83634, 4 days). Weiser, Payette and McCall had none. /company/<id> links did not load with our client (redirect); /estate-sale-companies/<slug>-<id> pages do. Company sites embed its widget (estatesales.org/feed/<companyId>), which is an iframe of the same listings, not a data feed Earlier url: https://estatesales.org/estate-sales/id/boise.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-explorer-chicks-of-boise",
@@ -1756,12 +1784,14 @@
       "reason": "The group no longer exists: Meetup's page says the group doesn't exist and the iCal feed answers HTTP 404 (checked 2026-11-09). It never had an event"
     },
     {
-      "displayName": "Guardian Estate Sales",
-      "status": "ruled-out",
+      "displayName": "Guardian Estate Solutions",
+      "status": "defunct",
       "url": "https://www.guardiangroupidaho.com",
+      "type": "estate-sale",
       "robotsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "The home page answers with a JavaScript proof-of-work bot challenge (a Lofty real estate site) on 2026-11-08, although robots.txt allows /. Do not retry around the challenge"
+      "notes": "Email domain gone; now real estate. Last sale Jul 2025. Earlier (2026-11-08): The home page answers with a JavaScript proof-of-work bot challenge (a Lofty real estate site) on 2026-11-08, although robots.txt allows /. Do not retry around the challenge",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-hard-hats-handshakes",
@@ -1795,11 +1825,14 @@
     },
     {
       "displayName": "Home & Estate Sales",
-      "status": "ruled-out",
-      "url": "http://www.homeandestatesales.com/our-sales",
+      "status": "awaiting-reply",
+      "url": "https://homeandestatesales.com",
+      "type": "estate-sale",
+      "contact": "Support@homeandestatesales.com",
       "robotsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "/our-sales lists nothing current on 2026-11-08: its newest upcoming sale is August 2024, and the page says its auctions moved to HiBid in April 2024. Lists on EstateSales.org (company 23995)"
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Moved to online-only HiBid in 2024; low priority. Earlier (2026-11-08): /our-sales lists nothing current on 2026-11-08: its newest upcoming sale is August 2024, and the page says its auctions moved to HiBid in April 2024. Lists on EstateSales.org (company 23995) Earlier url: http://www.homeandestatesales.com/our-sales.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "idaho-bike-racing",
@@ -1818,10 +1851,13 @@
     },
     {
       "displayName": "Idaho Estate Transition Solutions",
-      "status": "investigating",
-      "url": "https://estatesales.org/estate-sale-companies/idaho-estate-transition-solutions-21421",
+      "status": "needs-contact",
+      "url": "https://www.idahoets.com",
+      "type": "estate-sale",
+      "contact": "208-571-1420",
       "city": "Boise",
-      "notes": "Its EstateSales.org company page links www.idahoets.com, which answered 404 for / and /robots.txt on 2026-11-08. Its sales are on EstateSales.org"
+      "notes": "No working email; reach by phone or Facebook. Very active on EstateSales.org. Earlier (2026-11-08): Its EstateSales.org company page links www.idahoets.com, which answered 404 for / and /robots.txt on 2026-11-08. Its sales are on EstateSales.org Earlier url: https://estatesales.org/estate-sale-companies/idaho-estate-transition-solutions-21421.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-greater-idaho-sharepoint-user-group",
@@ -2791,7 +2827,7 @@
       "status": "ready",
       "adapter": "ics",
       "url": "https://www.boisehawks.com/sports/bsb/2026/schedule?print=ical",
-      "robotsChecked": "2026-11-06",
+      "robotsChecked": "2026-11-09",
       "category": "sports",
       "city": "Garden City",
       "venue": "Memorial Stadium",
@@ -2799,7 +2835,7 @@
       "priority": 20,
       "locationFilter": "Garden City",
       "fixedVenue": true,
-      "notes": "Pioneer League baseball at Memorial Stadium, Garden City. Checked 2026-11-06: the site is PrestoSports (milb.com/boise redirects to www.boisehawks.com). robots.txt allows /sports/ with a 10 second crawl delay. The schedule page links an iCal feed, /sports/bsb/2026/schedule?print=ical (text/calendar, 97 games, home and away). Home games have LOCATION '5600 N Glenwood Street, Garden City, ID', so locationFilter Garden City keeps them (52, plus 2 promotion and Memorial Stadium variants). The year-less /sports/bsb/schedule?print=ical redirects to 2022, so the url must name the season and be updated each spring (the 2027 schedule is not posted yet). Times are UTC and convert correctly (7:05 pm games). Dry run 2026-11-06: every event failed schema validation because the feed's URL is relative (/links/wnbo19); see needsCode. The 2026 season is over, so nothing is upcoming until spring. Titles look like '(Baseball) Ogden Raptors vs. Boise Hawks (9-4)'. Terms not read"
+      "notes": "Pioneer League baseball at Memorial Stadium, Garden City. Checked 2026-11-06: the site is PrestoSports (milb.com/boise redirects to www.boisehawks.com). robots.txt allows /sports/ with a 10 second crawl delay. The schedule page links an iCal feed, /sports/bsb/2026/schedule?print=ical (text/calendar, 97 games, home and away). Home games have LOCATION '5600 N Glenwood Street, Garden City, ID', so locationFilter Garden City keeps them (52, plus 2 promotion and Memorial Stadium variants). The year-less /sports/bsb/schedule?print=ical redirects to 2022, so the url must name the season and be updated each spring (the 2027 schedule is not posted yet). Times are UTC and convert correctly (7:05 pm games). Dry run 2026-11-06: every event failed schema validation because the feed's URL is relative (/links/wnbo19); see needsCode. The 2026 season is over, so nothing is upcoming until spring. Titles look like '(Baseball) Ogden Raptors vs. Boise Hawks (9-4)'. Terms not read 2026-11-09 (suggested again as https://www.boisehawks.com/sports/bsb/2026/schedule, home games only): the relative-URL problem is gone (the ics adapter now resolves relative links), and a dry run reads 53 home games with no warnings, all past. Left ready because the 2026 season is over and /sports/bsb/2027/schedule?print=ical answers 404. When the 2027 schedule is posted, change the url to 2027 and set status running. Titles still carry \"(Baseball) \" and the final score, such as \"(Baseball) Ogden Raptors vs. Boise Hawks (9-4)\"; future games have no score."
     },
     {
       "displayName": "Boise Little Theater",
@@ -3378,8 +3414,8 @@
       "venue": "Idaho wineries",
       "venueKey": "idaho-wineries",
       "priority": 50,
-      "excludeTitlePattern": "(?i)happy hour|trivia|growler|board meeting|annual meeting|case sale|first fridays",
-      "notes": "Statewide winery events calendar of the Idaho Wine Commission. Suggested 2026-11-07. idahowines.org robots.txt allows everything. /events/month/?ical=1 answered 403, so the ICS is not used; the Events Calendar REST API answers with 665 upcoming events on 2026-11-07 (14 pages), running to 2028. Almost all are weekly repeats posted two years ahead: happy hours (VEER Wine Project, Rolling Hills, Vizcaya), Meriwether Cider trivia and growler fills, and commission board meetings. 442 of them start at 08:00, a placeholder time, as do VEER's First Fridays. excludeTitlePattern drops those, leaving one-off winery events such as Indian Creek Winery's arts and crafts days, Telaya Wine Co pop-up music and wreath making, Huston Vineyards and 3100 Cellars Thanksgiving weekend, and Savor Idaho. No event has a venue object; the winery is only the start of the title (Telaya Wine Co - Pop-Up Music), so city is Other and refine's city lookup reads the event page. The wineries named so far are in Garden City, Kuna, Caldwell and Eagle. Terms not read"
+      "excludeTitlePattern": "(?i)happy hour|trivia|growler|board meeting|annual meeting|case sale|first fridays|^telaya wine co\\b",
+      "notes": "Statewide winery events calendar of the Idaho Wine Commission. Suggested 2026-11-07. idahowines.org robots.txt allows everything. /events/month/?ical=1 answered 403, so the ICS is not used; the Events Calendar REST API answers with 665 upcoming events on 2026-11-07 (14 pages), running to 2028. Almost all are weekly repeats posted two years ahead: happy hours (VEER Wine Project, Rolling Hills, Vizcaya), Meriwether Cider trivia and growler fills, and commission board meetings. 442 of them start at 08:00, a placeholder time, as do VEER's First Fridays. excludeTitlePattern drops those, leaving one-off winery events such as Indian Creek Winery's arts and crafts days, Telaya Wine Co pop-up music and wreath making, Huston Vineyards and 3100 Cellars Thanksgiving weekend, and Savor Idaho. No event has a venue object; the winery is only the start of the title (Telaya Wine Co - Pop-Up Music), so city is Other and refine's city lookup reads the event page. The wineries named so far are in Garden City, Kuna, Caldwell and Eagle. Terms not read 2026-11-09: titles starting \"Telaya Wine Co\" are skipped, because telaya-wine reads Telaya's own calendar with the real venue (the Wine Commission listed them as Idaho wineries, city Other)."
     },
     {
       "name": "idaho-shakespeare-festival",
@@ -3725,11 +3761,24 @@
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
     },
     {
+      "name": "on-the-water-estate-sales",
       "displayName": "On The Water Estate Sales",
-      "status": "investigating",
-      "url": "https://estatesales.org/company/25960",
-      "city": "Boise",
-      "notes": "Own site not found: the EstateSales.org /company/25960 link did not load with our client on 2026-11-08. Its sales are on EstateSales.org"
+      "status": "running",
+      "adapter": "sales",
+      "salesMode": "onthewater",
+      "url": "https://www.onthewaterestatesales.com/estatesales",
+      "robotsChecked": "2026-11-09",
+      "termsChecked": "2026-11-09",
+      "category": "auctions-estate-sales",
+      "city": "Middleton",
+      "venue": "On The Water Estate Sales",
+      "venueKey": "on-the-water-estate-sales",
+      "priority": 60,
+      "type": "estate-sale",
+      "contact": "onthewaterestatesales@gmail.com, 208-608-6805",
+      "notes": "Squarespace page whose UPCOMING SALES lines name each sale, its dates without a year, and its city (\"Ballance Living Estate Sale November 21-22 Boise\"); the next occurrence of those dates is used. Hours lines (\"Saturday, November 21 | 9:00 AM - 2:00 PM\") set the first day's opening and last day's close; without them the sale is all-day. Estate sales are in-person, and there is no per-sale page, so the link is this page. robots.txt allows /estatesales (it disallows /search, /api, /static and others, and lists AI crawlers under the same rules); no terms or legal page (sitemap checked 2026-11-09). Earlier (2026-11-08): Own site not found: the EstateSales.org /company/25960 link did not load with our client on 2026-11-08. Its sales are on EstateSales.org Earlier url: https://estatesales.org/company/25960.",
+      "optOut": "If On The Water Estate Sales asks to be removed, add \"onthewaterestatesales.com\" to doNotIngest in this file (that alone stops it and drops its stored events on the next ingest), then set status to declined.",
+      "lastChecked": "2026-11-09"
     },
     {
       "displayName": "Opera Idaho",
@@ -4015,11 +4064,14 @@
     },
     {
       "displayName": "Rhiannon Antiques & Estate Liquidation",
-      "status": "ruled-out",
-      "url": "http://www.rhiannonantiques.com",
+      "status": "awaiting-reply",
+      "url": "https://rhiannonantiques.com",
+      "type": "estate-sale",
+      "contact": "contact form, 208-794-5743",
       "robotsChecked": "2026-11-08",
       "city": "Boise",
-      "reason": "An antique store at 1526 S. Vista Ave that offers estate sale services; the Squarespace site has no sale listings or calendar, checked 2026-11-08"
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Store plus estate sales; no sales listed on site. Earlier (2026-11-08): An antique store at 1526 S. Vista Ave that offers estate sale services; the Squarespace site has no sale listings or calendar, checked 2026-11-08 Earlier url: http://www.rhiannonantiques.com.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-romantasy-fantasy-book-club",
@@ -4694,10 +4746,13 @@
     },
     {
       "displayName": "Treasure Valley Estate Sales",
-      "status": "investigating",
-      "url": "https://estatesales.org/company/23031",
+      "status": "awaiting-reply",
+      "url": "https://www.treasurevalleyestatesales.com",
+      "type": "estate-sale",
+      "contact": "treasurevalleyes@gmail.com",
       "city": "Boise",
-      "notes": "Own site not found: the EstateSales.org /company/23031 link did not load with our client on 2026-11-08. Its sales are on EstateSales.org"
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Own page empty; 51 sales on EstateSales.org. Earlier (2026-11-08): Own site not found: the EstateSales.org /company/23031 link did not load with our client on 2026-11-08. Its sales are on EstateSales.org Earlier url: https://estatesales.org/company/23031.",
+      "lastChecked": "2026-11-09"
     },
     {
       "name": "meetup-treasure-valley-gamers-guild",
@@ -5442,7 +5497,7 @@
       "displayName": "City of McCall",
       "status": "running",
       "adapter": "scrape",
-      "url": "https://mccall.id.us/Calendar.aspx",
+      "url": "https://mccall.id.us/Calendar.aspx?CID=23,27,38",
       "robotsChecked": "2026-11-08",
       "category": "community-civic",
       "inferCategory": true,
@@ -5452,7 +5507,7 @@
       "priority": 20,
       "scrapeMode": "civicplus",
       "excludeTitlePattern": "(?i)\\bmeeting\\b|\\bclosed\\b|\\bcouncil\\b|\\bcommission\\b|\\bboard\\b|\\bcommittee\\b|\\bagency\\b|\\bbasketball\\b",
-      "notes": "Suggested 2026-11-08 as https://mccall.id.us/. CivicPlus. robots.txt disallows Calendar.aspx only for AI and SEO crawlers; for other agents it disallows RSS.aspx, /common/modules/icalendar/ and the CurrentEvents pages, and sets Crawl-delay 10. Calendar.aspx is allowed, so civicplus mode reads it. Meetings, closures, and boards are skipped, like the other city sources. Terms not read"
+      "notes": "Suggested 2026-11-08 as https://mccall.id.us/. CivicPlus. robots.txt disallows Calendar.aspx only for AI and SEO crawlers; for other agents it disallows RSS.aspx, /common/modules/icalendar/ and the CurrentEvents pages, and sets Crawl-delay 10. Calendar.aspx is allowed, so civicplus mode reads it. Meetings, closures, and boards are skipped, like the other city sources. Terms not read 2026-11-09: the url names the city's categories except Library (CID 24: Boards & Commissions 27, City Council 23, Parks and Recreation 38), because mccall-public-library reads the library's with its own venue; before, library programs showed as \"City of McCall\". A new category on the site needs adding here."
     },
     {
       "name": "visit-north-central-idaho",
@@ -5605,6 +5660,491 @@
       "city": "Other",
       "reason": "No event listing or feed: its events are seasonal editorial guides",
       "notes": "Suggested 2026-11-08 as covering Payette and Washington counties. It is the Southwest Idaho Travel Association's regional site, centred on Boise. robots.txt allows everything (Crawl-delay 10). WordPress with no tribe route and no event post type; schema.org data is Article and CollectionPage only. 'Events' are guides such as /fall-events-in-southwest-idaho/ with no dates or venue cities"
+    },
+    {
+      "displayName": "1 Great Deal Auctions",
+      "status": "online-only",
+      "url": "https://1greatdealauctions.com",
+      "type": "auction",
+      "notes": "Excluded by the in-person rule. Coins and jewelry on Auction Mobility; no dates or locations.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "12Sellit",
+      "status": "out-of-scope",
+      "type": "auction",
+      "notes": "Vehicles.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "aarauctions.com",
+      "status": "out-of-scope",
+      "url": "https://aarauctions.com",
+      "type": "auction",
+      "notes": "New York.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Addington Auctions",
+      "status": "needs-contact",
+      "type": "auction",
+      "contact": "Yelp only, Fruitland",
+      "notes": "No working email; reach by phone or Facebook. No web presence found.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "allinonemovingllc.com",
+      "status": "out-of-scope",
+      "url": "https://allinonemovingllc.com",
+      "type": "estate-sale",
+      "notes": "Out of scope.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "ATX Auctions",
+      "status": "online-only",
+      "type": "auction",
+      "notes": "Excluded by the in-person rule. Online liquidation on HiBid, Boise pickup.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Bluebird Estate Sales of Idaho",
+      "status": "awaiting-reply",
+      "url": "https://bluebirdestatesalesofidaho.com",
+      "type": "estate-sale",
+      "contact": "contact form",
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Could not confirm it is an Idaho company.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Boise Benefit Auctions",
+      "status": "out-of-scope",
+      "type": "auction",
+      "notes": "Benefit auctioneer.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Boise Valley Auction Finds",
+      "status": "needs-contact",
+      "type": "auction",
+      "contact": "Yelp only, Boise",
+      "notes": "No working email; reach by phone or Facebook. Possibly a resale business; verify.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Calhoun's River City Auction",
+      "status": "needs-contact",
+      "type": "auction",
+      "contact": "Yelp only, Boise",
+      "notes": "No working email; reach by phone or Facebook. No web presence found.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Caring Transitions of Treasure Valley",
+      "status": "awaiting-reply",
+      "type": "estate-sale",
+      "contact": "ADickson@CaringTransitions.com, 208-254-7629",
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Email may be stale; inactive on EstateSales.org.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "name": "corbett-auctions",
+      "displayName": "Corbett Auctions & Appraisals",
+      "status": "running",
+      "adapter": "sales",
+      "salesMode": "corbett",
+      "url": "https://corbettauctions.com/",
+      "robotsChecked": "2026-11-09",
+      "termsChecked": "2026-11-09",
+      "category": "auctions-estate-sales",
+      "city": "Nampa",
+      "venue": "Corbett Auctions & Appraisals",
+      "venueKey": "corbett-auctions",
+      "priority": 60,
+      "type": "auction",
+      "contact": "info@corbettauctions.com",
+      "outreach": "awaiting-reply",
+      "notes": "Asked on 2026-11-09 for permission; awaiting reply (outreach), and running meanwhile. Reads the upcoming auctions on the home page (Elementor loop grid after id=\"upcoming\"): only cards marked \"Live onsite\" whose link stays on corbettauctions.com. Online lots link to corbettauctions.hibid.com or auctiontime.com and are never followed. robots.txt has Crawl-delay 10 and allows the home page; no terms or legal page on the site (sitemap checked 2026-11-09). Dates have no year, so the next occurrence is used. On 2026-11-09: 3 live onsite auctions (2 Nampa, 1 with \"Address to be posted\") and 3 online.",
+      "optOut": "If Corbett Auctions asks to be removed, add \"corbettauctions.com\" to doNotIngest in this file (that alone stops it and drops its stored events on the next ingest), then set status to declined.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "creauctions.com",
+      "status": "out-of-scope",
+      "url": "https://creauctions.com",
+      "type": "auction",
+      "notes": "Real estate only.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Discount Boise Auctions",
+      "status": "out-of-scope",
+      "type": "auction",
+      "notes": "No dates, Facebook only.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "name": "downs-auction",
+      "displayName": "Downs Auction",
+      "status": "running",
+      "adapter": "sales",
+      "salesMode": "ics",
+      "url": "https://downsauction.com/events/list/?ical=1",
+      "robotsChecked": "2026-11-09",
+      "termsChecked": "2026-11-09",
+      "category": "auctions-estate-sales",
+      "city": "Nampa",
+      "venue": "Downs Auction",
+      "venueKey": "downs-auction",
+      "priority": 60,
+      "type": "auction",
+      "contact": "info@downsauction.com",
+      "notes": "The Events Calendar iCal export (dates only; the time is read from \"at 2 pm\" in the description). robots.txt allows everything; no terms or legal page on the site (sitemap and links checked 2026-11-09). On-site real estate auctions count as in-person; online estate auctions (title or Online category) are dropped. Real estate auctions are titled by street address, so they are renamed to their kind and city (\"Absolute Real Estate Auction in Nampa\"). 3 events in the feed on 2026-11-09: 2 live real estate auctions (Nampa, Mountain Home) and 1 online.",
+      "optOut": "If Downs Auction asks to be removed, add \"downsauction.com\" to doNotIngest in this file (that alone stops it and drops its stored events on the next ingest), then set status to declined.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Elevated Estate Co",
+      "status": "defunct",
+      "type": "estate-sale",
+      "notes": "Inactive on EstateSales.org.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Estate Sales Management",
+      "status": "needs-contact",
+      "url": "https://estatesalesmanagement.com",
+      "type": "estate-sale",
+      "contact": "208-830-0481, Garden City",
+      "notes": "No working email; reach by phone or Facebook. Site currently redirects to an unrelated domain; possibly compromised. Do not fetch.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Estate Solutions LLC",
+      "status": "awaiting-reply",
+      "url": "https://www.estatesolutionsllc.net",
+      "type": "estate-sale",
+      "contact": "rmysursa@gmail.com, 208-870-9295",
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Site blocks crawlers.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "estatesaleslist.com",
+      "status": "out-of-scope",
+      "url": "https://estatesaleslist.com",
+      "type": "platform",
+      "notes": "Aggregator.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "fourcornersantiquities.hibid.com",
+      "status": "out-of-scope",
+      "url": "https://fourcornersantiquities.hibid.com",
+      "type": "auction",
+      "notes": "Dead subdomain.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Golden Goose Estate Sales",
+      "status": "awaiting-reply",
+      "url": "https://goldengooseestate.com",
+      "type": "estate-sale",
+      "contact": "info@goldengooseestate.com",
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Posts on EstateSales.org and Facebook.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "gunsbay.com",
+      "status": "out-of-scope",
+      "url": "https://gunsbay.com",
+      "type": "auction",
+      "notes": "Out of scope.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Hanson Auction",
+      "status": "needs-contact",
+      "type": "auction",
+      "contact": "Yelp only, Emmett",
+      "notes": "No working email; reach by phone or Facebook. No web presence found.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "IAA Vehicle Purchasing",
+      "status": "out-of-scope",
+      "type": "auction",
+      "notes": "Vehicles.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Idaho Surplus Auctions",
+      "status": "defunct",
+      "url": "https://idahosurplusauctions.com",
+      "type": "auction",
+      "notes": "Last auction Jan 2023, online only.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "ipgauctions.com",
+      "status": "out-of-scope",
+      "url": "https://ipgauctions.com",
+      "type": "auction",
+      "notes": "Redirects to a pawn shop.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Iron Creek Wholesale",
+      "status": "out-of-scope",
+      "type": "auction",
+      "notes": "Wholesale.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "kevintroutt.com",
+      "status": "out-of-scope",
+      "url": "https://kevintroutt.com",
+      "type": "auction",
+      "notes": "Benefit auctioneer.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "larryflynnevents.com",
+      "status": "out-of-scope",
+      "url": "https://larryflynnevents.com",
+      "type": "auction",
+      "notes": "Benefit auctioneer.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "M Enterprizes Auction Services",
+      "status": "out-of-scope",
+      "type": "auction",
+      "notes": "Benefit auctioneer.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Main Auction",
+      "status": "online-only",
+      "url": "https://www.mainauctioncorp.com",
+      "type": "auction",
+      "contact": "208-344-8314",
+      "notes": "Excluded by the in-person rule. Historic weekly live auction now online. Could ask about public preview days.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Montgomery Custom Estate Sales",
+      "status": "needs-contact",
+      "type": "estate-sale",
+      "contact": "208-605-7729",
+      "notes": "No working email; reach by phone or Facebook. No recent activity found.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Musick Auction",
+      "status": "online-only",
+      "url": "https://musickauction.com",
+      "type": "auction",
+      "notes": "Excluded by the in-person rule. Online bidding; yards in Nampa and Meridian for inspection only. mpauction.com redirects here.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "oldarmsofidaho.com",
+      "status": "out-of-scope",
+      "url": "https://oldarmsofidaho.com",
+      "type": "auction",
+      "notes": "Out of scope.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Pickett Auction Service",
+      "status": "needs-contact",
+      "type": "auction",
+      "contact": "208-455-1419, 20217 Hwy 95, Wilder",
+      "notes": "No working email; reach by phone or Facebook. kelly@pickettauctions.com bounced. Ask whether they hold live sales.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "pnwauctions.com",
+      "status": "out-of-scope",
+      "url": "https://pnwauctions.com",
+      "type": "auction",
+      "notes": "Washington.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Red Door Estate Sales and Appraisals",
+      "status": "needs-contact",
+      "type": "estate-sale",
+      "contact": "208-514-5581",
+      "notes": "No working email; reach by phone or Facebook. Directory listing only.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Refined Effects LLC",
+      "status": "out-of-scope",
+      "type": "estate-sale",
+      "notes": "Spokane.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Sagebrush Estate Sales",
+      "status": "needs-contact",
+      "type": "estate-sale",
+      "contact": "208-994-5093, Facebook \"Sagebrush Estate Sale Co.\"",
+      "notes": "No working email; reach by phone or Facebook. Active, Meridian.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Summit Auctions of Idaho",
+      "status": "awaiting-reply",
+      "url": "https://www.summitauctions.com",
+      "type": "auction",
+      "contact": "kevin@summitauctions.com",
+      "notes": "Asked on 2026-11-09 for written permission or a feed; awaiting reply. Current auctions are online on HiBid; only ingest if they hold in-person events. Also runs boiseestatesale.com.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "superiorlivestock.com",
+      "status": "out-of-scope",
+      "url": "https://superiorlivestock.com",
+      "type": "auction",
+      "notes": "Out of scope.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Three Geckos Estate Services",
+      "status": "out-of-scope",
+      "type": "estate-sale",
+      "notes": "Florida, no trace.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Toodle Loo Auctions",
+      "status": "needs-contact",
+      "type": "auction",
+      "contact": "Yelp only, Kuna",
+      "notes": "No working email; reach by phone or Facebook. No web presence found.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Trinkets and Treasures Estate Sales",
+      "status": "needs-contact",
+      "type": "estate-sale",
+      "contact": "208-890-0322",
+      "notes": "No working email; reach by phone or Facebook. New in Oct 2026, Meridian.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Trucks & Auto Auctions (Musser Bros)",
+      "status": "online-only",
+      "url": "https://www.trucksandauto.com",
+      "type": "auction",
+      "notes": "Excluded by the in-person rule. Online vehicle auctions, Nampa. Site blocks crawlers.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Willow and Hearth Estate Sales",
+      "status": "needs-contact",
+      "type": "estate-sale",
+      "contact": "208-432-2512",
+      "notes": "No working email; reach by phone or Facebook. Website expired 2026-11-09; active on EstateSales.NET.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Wingate Manor Galleries",
+      "status": "out-of-scope",
+      "type": "estate-sale",
+      "notes": "Online antiques shop.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "yardsaletreasuremap.com",
+      "status": "out-of-scope",
+      "url": "https://yardsaletreasuremap.com",
+      "type": "platform",
+      "notes": "Aggregator.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "displayName": "Cascade Public Library",
+      "status": "ruled-out",
+      "url": "https://cascade.lili.org/",
+      "robotsChecked": "2026-11-09",
+      "city": "Valley County",
+      "category": "learning-business",
+      "reason": "Its calendar (checked 2026-11-09) is a Google Calendar embed (cascadelibraryidaho@gmail.com), and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events, unlike Donnelly Library on the same lili.org platform. robots.txt on cascade.lili.org allows all but /wp-admin/"
+    },
+    {
+      "displayName": "Fever (Boise)",
+      "status": "blocked-by-terms",
+      "url": "https://feverup.com/en/boise",
+      "robotsChecked": "2026-11-09",
+      "termsChecked": "2026-11-09",
+      "type": "platform",
+      "notes": "Suggested 2026-11-09 as an event aggregator. robots.txt allows /en/boise, but the Terms of Use (feverup.com/legal/terms_en-US.html, read 2026-11-09) forbid \"accessing, monitoring or copying any content from the Website using any robot, spider, scraper or other automated means ... without our express written permission\" and aggregating its activities with other sites' material. Needs Fever's written permission or a partner feed.",
+      "lastChecked": "2026-11-09"
+    },
+    {
+      "name": "mccall-public-library",
+      "displayName": "McCall Public Library",
+      "status": "running",
+      "adapter": "scrape",
+      "scrapeMode": "civicplus",
+      "url": "https://mccall.id.us/Calendar.aspx?CID=24",
+      "robotsChecked": "2026-11-09",
+      "category": "learning-business",
+      "inferCategory": true,
+      "city": "Valley County",
+      "venue": "McCall Public Library",
+      "venueKey": "mccall-public-library",
+      "priority": 15,
+      "fixedVenue": true,
+      "excludeTitlePattern": "(?i)\\bmeeting\\b|\\bclosed\\b|\\bboard\\b",
+      "notes": "Suggested 2026-11-09 as https://mccall.id.us/162/McCall-Public-Library. The library's events are category 24 (Library, 15 events) of the City of McCall CivicPlus calendar, so this reads Calendar.aspx?CID=24 (the civicplus reader keeps the CID on each month's page), and city-of-mccall reads the other categories. robots.txt allows Calendar.aspx for other agents (it disallows it only for AI and SEO crawlers) and sets Crawl-delay 10. Terms not read"
+    },
+    {
+      "displayName": "Middleton Public Library",
+      "status": "ruled-out",
+      "url": "https://mymidlib.org/calendar/",
+      "robotsChecked": "2026-11-09",
+      "city": "Middleton",
+      "category": "learning-business",
+      "reason": "The calendar page (checked 2026-11-09) is a Google Calendar embed (middletonlibrary307@gmail.com), and calendar.google.com robots.txt disallows everything but its home page, so neither the embed nor the calendar's iCal feed may be read. The site's Events Calendar (REST API, ?ical=1) has no events. robots.txt on mymidlib.org allows all but /wp-admin/"
+    },
+    {
+      "displayName": "Payette Public Library",
+      "status": "ruled-out",
+      "url": "https://payette.lili.org/calendar/",
+      "robotsChecked": "2026-11-09",
+      "city": "Payette",
+      "category": "learning-business",
+      "reason": "The calendar page (checked 2026-11-09) is a Google Calendar embed, and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events. robots.txt on payette.lili.org allows all but /wp-admin/"
+    },
+    {
+      "name": "telaya-wine",
+      "displayName": "Telaya Wine Co.",
+      "status": "running",
+      "adapter": "tribe",
+      "url": "https://telayawine.com/wp-json/tribe/events/v1/events",
+      "robotsChecked": "2026-11-09",
+      "category": "food-drink",
+      "inferCategory": true,
+      "city": "Garden City",
+      "venue": "Telaya Wine Co.",
+      "venueKey": "telaya-wine-co",
+      "priority": 20,
+      "fixedVenue": true,
+      "notes": "Suggested 2026-11-09 as https://telayawine.com/events. WordPress with The Events Calendar; robots.txt allows everything. The REST API had 23 upcoming events on 2026-11-09, 14 with the venue Telaya Wine Co., 240 East 32nd Street, Garden City, and 9 (the Cold Nights, Warm Notes music series) with none, so fixedVenue. The site's timezone is set to America/Los_Angeles, so its UTC times are an hour late for Garden City (a 6:00 PM event is 02:00 UTC, which is 7:00 PM Mountain); localTimeAsUtc reads start_date, the wall-clock time the site shows, as Boise time. Replaces the Idaho Wine Commission's copies, which it skips. Terms not read",
+      "localTimeAsUtc": true
+    },
+    {
+      "displayName": "Weiser Public Library",
+      "status": "ruled-out",
+      "url": "https://weiserlibrary.org/events/",
+      "robotsChecked": "2026-11-09",
+      "city": "Weiser",
+      "category": "learning-business",
+      "reason": "The events page (checked 2026-11-09) is one JPEG of the month's calendar (Weiser-Library-NOVEMBER-Events-Calendar-2026), with no text, feed, or schema.org data, so there is nothing to read. robots.txt allows all but /wp-admin/"
     }
   ]
 }

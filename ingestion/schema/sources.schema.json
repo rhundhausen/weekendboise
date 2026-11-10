@@ -17,6 +17,15 @@
     },
     "_comment": {
       "type": "string"
+    },
+    "doNotIngest": {
+      "type": "array",
+      "description": "Companies and sites never to ingest, such as one that asked to be removed. Each item is matched, ignoring case, against a source's name, its displayName, or the host of its url with or without www. A matching source is skipped by every run and its last fetch is dropped from the raw file.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
     }
   },
   "$defs": {
@@ -43,14 +52,21 @@
         },
         "status": {
           "type": "string",
-          "description": "Where the source stands. Missing means idea. Ingest runs only running.",
+          "description": "Where the source stands. Missing means idea. Ingest runs only running. For planned sources that need the owner first: awaiting-reply (we asked for permission or a feed), needs-contact (no working email yet), declined (the owner said no; also list it in doNotIngest), blocked-by-terms (the site's terms forbid automated collection). For sources that will not run: online-only (out of scope for the in-person rule), defunct (no longer operating), out-of-scope.",
           "enum": [
             "idea",
             "investigating",
             "feed-found",
             "ready",
             "running",
-            "ruled-out"
+            "ruled-out",
+            "awaiting-reply",
+            "needs-contact",
+            "declined",
+            "blocked-by-terms",
+            "online-only",
+            "defunct",
+            "out-of-scope"
           ],
           "default": "idea"
         },
@@ -70,6 +86,7 @@
             "ics",
             "meetup",
             "rss",
+            "sales",
             "scrape",
             "seatgeek",
             "songkick",
@@ -84,12 +101,45 @@
           "pattern": "^https?://",
           "description": "Site, feed, or API endpoint. Required from feed-found on."
         },
+        "type": {
+          "type": "string",
+          "description": "Auctions and Estate Sales sources: what the company is.",
+          "enum": [
+            "auction",
+            "estate-sale",
+            "platform"
+          ]
+        },
+        "contact": {
+          "type": "string",
+          "description": "How to reach the owner about permission or a feed: email, phone, or contact form.",
+          "minLength": 1
+        },
+        "outreach": {
+          "type": "string",
+          "description": "Where a request to the owner stands, for a source whose status is running.",
+          "enum": [
+            "awaiting-reply",
+            "needs-contact",
+            "declined"
+          ]
+        },
+        "lastChecked": {
+          "$ref": "#/$defs/date",
+          "description": "Date the entry's status was last confirmed."
+        },
+        "optOut": {
+          "type": "string",
+          "description": "What to do if the company asks to be removed. Adding the company to the top-level doNotIngest list stops it in one edit.",
+          "minLength": 1
+        },
         "category": {
           "type": "string",
           "description": "Category for this source's events. With inferCategory, the fallback.",
           "$comment": "Must match the ids in data/schema/categories.json.",
           "enum": [
             "arts-culture",
+            "auctions-estate-sales",
             "community-civic",
             "festivals",
             "food-drink",
@@ -184,6 +234,15 @@
             "civicplus",
             "jsonld",
             "sveltekit"
+          ]
+        },
+        "salesMode": {
+          "type": "string",
+          "description": "sales: ics reads an Events Calendar iCal export (Downs Auction), corbett reads the upcoming auctions on corbettauctions.com's home page, onthewater reads the UPCOMING SALES lines on onthewaterestatesales.com. Every mode keeps only in-person events in covered cities, and stores only title, company, city, times, and link. See adapters/sales.ps1.",
+          "enum": [
+            "corbett",
+            "ics",
+            "onthewater"
           ]
         },
         "eventLinkPattern": {
@@ -470,6 +529,24 @@
           "then": {
             "required": [
               "scrapeMode"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "name",
+              "adapter"
+            ],
+            "properties": {
+              "adapter": {
+                "const": "sales"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "salesMode"
             ]
           }
         },

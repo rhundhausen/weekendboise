@@ -40,6 +40,12 @@ Describe 'Find-TvAddressCity' {
     Find-TvAddressCity '<p>Boise, ID 83702</p><p>Nampa, ID 83651</p>' | Should -BeNullOrEmpty
   }
 
+  It 'ignores the site''s navigation and page header' {
+    $page = '<header><nav><ul><li><a href="/g">Guide to Moving to Boise, ID</a></li></ul></nav></header>' +
+      '<nav>Visit Meridian, ID</nav><main><div>5242 W Chinden Blvd, Garden City, ID 83714</div></main>'
+    Find-TvAddressCity $page | Should -Be 'Garden City'
+  }
+
   It 'needs a state after the city, so prose does not count' {
     Find-TvAddressCity '<p>Fun for all of Boise and Meridian</p>' | Should -BeNullOrEmpty
   }

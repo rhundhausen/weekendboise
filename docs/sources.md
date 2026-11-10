@@ -47,6 +47,16 @@ One entry per Meetup group, named `meetup-<group slug>` (lowercase, underscores 
 
 robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rss, and xml feeds). It is read once per run for every Meetup source, and requests to meetup.com are at least 1 second apart across all of them. A private group's feed answers 403; those are `ruled-out`, never worked around. `venue`, `venueKey`, and `city` are fallbacks only. The ingest email sums the groups up in one "Meetup groups" line, since a group with nothing scheduled is normal.
 
+### sales
+
+The Auctions and Estate Sales category (`auctions-estate-sales`). `salesMode` picks the reader: `ics` (an Events Calendar iCal export, Downs Auction), `corbett` (the upcoming auctions on corbettauctions.com's home page), or `onthewater` (the UPCOMING SALES lines on onthewaterestatesales.com). One page a night per source, after robots.txt and its Crawl-delay; no link is followed, so Corbett's HiBid lots are never fetched. Every mode applies the same rules from `lib/Sales.ps1`:
+
+- **In-person rule:** an event whose title or text says "online" (any case), or that has no street address or place, is dropped. On-site real estate auctions count as in-person.
+- **City filter:** only the cities the site already covers are kept (`Resolve-TvCity`, so Mountain Home stays and the mountain towns become Valley County).
+- **Minimal data:** only title, company (as the venue), city, start and end, and the link to the event on the company's site. No address, photos, description, contact details, or price. A Downs title that is a street address becomes the auction's kind and city ("Absolute Real Estate Auction in Nampa"). The link is the company's own event page, whose slug can contain the street.
+
+Dates without a year (Corbett, On The Water) are read as their next occurrence: this year, unless that is more than six months gone. `Invoke-Ingest.ps1 -Verbose` prints what each rule dropped. `venue`, `venueKey`, and `city` are fallbacks only.
+
 ### tribe
 
 | Field | Required | Notes |
@@ -265,6 +275,19 @@ Add it to `sources`, keep the list sorted by `displayName`, and run `./ingestion
 | `ready` | Adapter known; waiting on credentials, terms, or a decision | `url`, `adapter` |
 | `running` | Ingest reads it every night | `name` and the full configuration |
 | `ruled-out` | Don't re-probe | `reason` |
+| `awaiting-reply` | We asked the owner for permission or a feed. `contact` says whom | `displayName` |
+| `needs-contact` | No working email yet; phone, Facebook, or a directory listing only | `displayName` |
+| `declined` | The owner said no. Never ingest; also list it in `doNotIngest` | `displayName` |
+| `blocked-by-terms` | The site's terms forbid automated collection | `displayName` |
+| `online-only` | Online bidding only, so out of scope for the in-person rule | `displayName` |
+| `defunct` | No longer operating | `displayName` |
+| `out-of-scope` | Not a local in-person event source (another state, benefit auctioneer, aggregator) | `displayName` |
+
+The Auctions and Estate Sales entries also carry `type` (`auction`, `estate-sale`, or `platform`), `contact`, `lastChecked`, and, on running ones, `optOut`. A running source whose owner was asked for permission keeps `status: running` and records the request in `outreach` (Corbett Auctions).
+
+### Removing a company: doNotIngest
+
+The top-level `doNotIngest` list in `sources.json` names companies and sites never to ingest, such as one that asked to be removed. Each item is matched, ignoring case, against a source's `name`, its `displayName`, or its url's host with or without `www.`. Adding one is the whole edit: every run skips a match (a `-Source` run of one refuses), and its stored events leave the raw file on the next ingest, so the site drops them after refine. Then set its status to `declined`. EstateSales.NET is listed (it declined in writing on 2026-11-09).
 
 To start running an idea, give it a `name` and its adapter's fields, set `status` to `running`, and keep its `notes`: they are the record of how the source was found. To try a configured source without running it nightly, leave it `ready` and run `Invoke-Ingest.ps1 -Source <name> -NoWrite`.
 

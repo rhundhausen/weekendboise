@@ -15,7 +15,7 @@ New-TvEvent -Title "`$(`$Source.displayName) Night" -Start '2026-11-20T19:00:00-
 "@
 
   function Write-Sources {
-    param([hashtable[]]$Entries)
+    param([hashtable[]]$Entries, [string[]]$DoNotIngest)
     $path = Join-Path $TestDrive 'sources.json'
     $list = foreach ($entry in $Entries) {
       [ordered]@{
@@ -23,7 +23,9 @@ New-TvEvent -Title "`$(`$Source.displayName) Night" -Start '2026-11-20T19:00:00-
         url = $entry.url ?? "https://$($entry.name).test"; category = 'music'; city = 'Boise'; venue = 'Hall'; venueKey = 'hall'
       } + $(if ($entry.local) { @{ local = $true } } else { @{} })
     }
-    [ordered]@{ sources = @($list) } | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $path
+    $file = [ordered]@{ sources = @($list) }
+    if ($DoNotIngest) { $file.doNotIngest = @($DoNotIngest) }
+    $file | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $path
     $path
   }
 
@@ -126,6 +128,30 @@ Describe 'Invoke-Ingest' {
       $raw = Read-TvRawFile $rawPath
       $raw.asOf | Should -BeExactly '2026-11-06T07:00:00Z'
       @($raw.sources.PSObject.Properties.Name) | Should -Be @('alpha', 'home')
+    }
+  }
+
+  Context 'doNotIngest' {
+    It 'skips a source on the list, and drops its last fetch' {
+      Invoke-TestIngest | Should -Be 0
+      $script:sourcesPath = Write-Sources @(@{ name = 'alpha' }, @{ name = 'beta' }) -DoNotIngest 'beta'
+      Invoke-TestIngest | Should -Be 0
+      $run = Get-Content (Join-Path $TestDrive 'out' 'run.json') -Raw | ConvertFrom-Json
+      @($run.sources.name) | Should -Be @('alpha')
+      @((Read-TvRawFile $rawPath).sources.PSObject.Properties.Name) | Should -Be @('alpha')
+    }
+
+    It 'matches a display name ignoring case, or a site with or without www' {
+      $script:sourcesPath = Write-Sources @(@{ name = 'alpha' }, @{ name = 'beta' }, @{ name = 'gamma' }) -DoNotIngest 'Beta', 'www.gamma.test'
+      Invoke-TestIngest | Should -Be 0
+      $run = Get-Content (Join-Path $TestDrive 'out' 'run.json') -Raw | ConvertFrom-Json
+      @($run.sources.name) | Should -Be @('alpha')
+    }
+
+    It 'refuses to run a listed source by name' {
+      $script:sourcesPath = Write-Sources @(@{ name = 'alpha' }, @{ name = 'beta' }) -DoNotIngest 'beta'
+      Invoke-TestIngest @{ Source = 'beta' } | Should -Be 1
+      Test-Path -LiteralPath $rawPath | Should -BeFalse
     }
   }
 

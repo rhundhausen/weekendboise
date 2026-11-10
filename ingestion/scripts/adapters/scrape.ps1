@@ -179,6 +179,8 @@ function Read-JsonLdSource {
   $links = @([regex]::Matches($html, $Source.eventLinkPattern) | ForEach-Object Value | Select-Object -Unique | ForEach-Object {
       [uri]::new($listUri, [System.Net.WebUtility]::HtmlDecode($_)).AbsoluteUri
     } | Select-Object -Unique)
+  # A bot block served with status 200 looks like an empty list, so say so instead of reporting 0 events quietly.
+  if ($links.Count -eq 0) { Write-Warning "$($Source.name): no event links on the list page" }
 
   # Skip dates already gone when the link shows them, so a long archive isn't re-read nightly.
   $links = @($links | Where-Object {
@@ -342,7 +344,9 @@ function Read-CivicPlusSource {
   for ($i = 0; $i -lt $months; $i++) {
     $month = $first.AddMonths($i)
     $html = if ($Response) { $Response[$i] } else {
-      $query = if ($i -eq 0) { '' } else { "?month=$($month.Month)&year=$($month.Year)&day=1" }
+      # A url's own query, such as ?CID=24 for one category, is kept on every month's page.
+      $query = $listUri.Query
+      if ($i -gt 0) { $query = ($query ? "$query&" : '?') + "month=$($month.Month)&year=$($month.Year)&day=1" }
       Get-ScrapePage ([uri]::new($listUri, "$($listUri.AbsolutePath)$query"))
     }
     if (-not $html) { break }

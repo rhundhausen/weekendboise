@@ -101,6 +101,7 @@ function ConvertFrom-Ics {
           Description = ConvertFrom-IcsText $current['DESCRIPTION'].Value
           Location    = ConvertFrom-IcsText $current['LOCATION'].Value
           Url         = ConvertFrom-IcsText $current['URL'].Value
+          Categories  = ConvertFrom-IcsText $current['CATEGORIES'].Value
           Status      = $current['STATUS'].Value
           Start       = $start.Value
           End         = $endValue

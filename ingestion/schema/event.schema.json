@@ -45,7 +45,7 @@
     "category": {
       "type": "string",
       "$comment": "Must match the ids in data/schema/categories.json.",
-      "enum": ["arts-culture", "community-civic", "festivals", "food-drink", "holiday-seasonal", "learning-business", "markets-shopping", "music", "nightlife-social", "outdoors-recreation", "performing-arts", "sports"]
+      "enum": ["arts-culture", "auctions-estate-sales", "community-civic", "festivals", "food-drink", "holiday-seasonal", "learning-business", "markets-shopping", "music", "nightlife-social", "outdoors-recreation", "performing-arts", "sports"]
     },
     "tags": {
       "type": "array",

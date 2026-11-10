@@ -140,11 +140,12 @@ Describe 'tribe adapter with fixedVenue' {
 
 Describe 'tribe adapter with excludeTitlePattern' {
   It 'skips events whose title matches' {
-    $page = '{"total_pages":1,"events":[{"title":"Rolling Hills &#8211; Happy Hour","all_day":true,"start_date":"2026-11-12 08:00:00","end_date":"2026-11-12 17:00:00","url":"https://x.test/a","description":"","venue":[]},{"title":"Telaya Wine Co &#8211; Pop-Up Music","all_day":false,"utc_start_date":"2026-11-27 20:00:00","utc_end_date":"2026-11-27 23:00:00","url":"https://x.test/b","description":"","venue":[]}]}'
+    $page = '{"total_pages":1,"events":[{"title":"Rolling Hills &#8211; Happy Hour","all_day":true,"start_date":"2026-11-12 08:00:00","end_date":"2026-11-12 17:00:00","url":"https://x.test/a","description":"","venue":[]},{"title":"Sawtooth Winery &#8211; Pop-Up Music","all_day":false,"utc_start_date":"2026-11-27 20:00:00","utc_end_date":"2026-11-27 23:00:00","url":"https://x.test/b","description":"","venue":[]},{"title":"Telaya Wine Co &#8211; Holiday Wreath Making","all_day":true,"start_date":"2026-11-29 08:00:00","end_date":"2026-11-29 17:00:00","url":"https://x.test/c","description":"","venue":[]}]}'
     $path = Join-Path $repo 'scripts' 'adapters' 'tribe.ps1'
     $events = @(& $path -Source (Get-TestSource 'idaho-wine-commission') -FetchedAt $fetchedAt -Response $page)
     $events.Count | Should -Be 1
-    $events[0].title | Should -BeLike 'Telaya Wine Co*Pop-Up Music'
+    # Telaya's own calendar is read by telaya-wine, so its Wine Commission copies are skipped too.
+    $events[0].title | Should -BeLike 'Sawtooth Winery*Pop-Up Music'
     $events[0].venueKey | Should -Be 'idaho-wineries'
   }
 }

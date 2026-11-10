@@ -130,7 +130,7 @@ const searchesMeetup = (words) => words.some((forms) => forms.some((f) => f.leng
 const meetupsForced = (words) => state.source.startsWith('meetup-') || searchesMeetup(words);
 
 // Every filter except the Meetup one, which render() applies.
-function matches(e, words, from, to, skipCats, now) {
+function matches(e, words, from, to, skipCats, now, skipCity = false) {
   if (e.ed < from) return false;
   if (to && e.sd > to) return false;
   // Timed events that are over drop off the list, in every date choice.
@@ -139,7 +139,7 @@ function matches(e, words, from, to, skipCats, now) {
     if (e.allDay || e.sd !== from || e.startKey < `${from} ${EVENING}`) return false;
     if (e.endKey && e.endKey > `${addDays(from, 1)} ${LAST_CALL}`) return false;
   }
-  if (state.city && e.city !== state.city) return false;
+  if (!skipCity && state.city && e.city !== state.city) return false;
   if (state.size && e.size !== state.size) return false;
   if (COST_TIERS[state.cost] && e.cost !== COST_TIERS[state.cost]) return false;
   if (state.source && !e.src.includes(state.source)) return false;
@@ -185,6 +185,13 @@ function render() {
   const slice = shown.slice(start, start + state.per);
 
   renderChips(counts);
+  // City counts, like the chips, reflect every other filter, so an option shows what picking it would give.
+  const cityCounts = {};
+  for (const e of events) {
+    if (e.meetup && !include) continue;
+    if (matches(e, words, from, to, false, now, true)) cityCounts[e.city] = (cityCounts[e.city] || 0) + 1;
+  }
+  renderCityCounts(cityCounts);
   el.meetup.checked = include;
   el.meetup.disabled = forced;
   el.meetupCount.textContent = numFmt.format(meetups);
@@ -268,6 +275,13 @@ function renderChips(counts) {
     count.textContent = numFmt.format(n);
     b.append(label, count);
     el.cats.append(b);
+  }
+}
+
+// Rewrites each City option's count. Options stay listed at (0), so picking one never vanishes.
+function renderCityCounts(counts) {
+  for (const o of el.city.options) {
+    if (o.value) o.textContent = `${o.value} (${numFmt.format(counts[o.value] || 0)})`;
   }
 }
 
@@ -429,8 +443,8 @@ function renderSortHeaders() {
   }
 }
 
-// The City options and their counts come from the build (layouts/home.html), which lists only
-// cities with at least one upcoming event.
+// The City options come from the build (layouts/home.html), which lists only cities with at least
+// one upcoming event. render() keeps their counts in step with the other filters.
 function fillSelects() {
   // Largest first, so the list reads down in size.
   for (const [id, label] of Object.entries(cfg.sizes).sort((a, b) => cfg.sizeOrder.indexOf(b[0]) - cfg.sizeOrder.indexOf(a[0]))) {

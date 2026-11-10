@@ -223,7 +223,7 @@ function Get-TvClassification {
     [string[]]$Labels = @()
   )
 
-  $order = 'holiday-seasonal', 'festivals', 'sports', 'markets-shopping', 'food-drink', 'performing-arts', 'music',
+  $order = 'holiday-seasonal', 'festivals', 'sports', 'auctions-estate-sales', 'markets-shopping', 'food-drink', 'performing-arts', 'music',
   'arts-culture', 'outdoors-recreation', 'learning-business', 'nightlife-social', 'community-civic'
 
   $titleText = Get-NormalizedTitle $Title

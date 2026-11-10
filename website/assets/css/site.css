@@ -235,6 +235,14 @@ a { color: var(--accent); }
 
 /* Sources page */
 .sources-table { margin-top: 16px; }
+
+/* The About page: readable line length, and compact legend tables. */
+.prose { max-width: 760px; line-height: 1.55; }
+.prose h2 { margin: 28px 0 8px; font-size: 20px; }
+.prose h3 { margin: 20px 0 6px; font-size: 16px; }
+.prose ol, .prose ul { padding-left: 22px; }
+.prose .legend { margin: 8px 0 4px; width: auto; }
+.prose .legend td:first-child { white-space: nowrap; }
 .list .num { text-align: right; font-variant-numeric: tabular-nums; }
 .list .s-name { font-weight: 550; }
 .list .s-name a { color: var(--text); text-decoration: none; }
@@ -485,6 +493,7 @@ input:focus-visible, select:focus-visible, button:focus-visible {
 .cat-community-civic { --dot: #3f73c4; }
 .cat-learning-business { --dot: #6b7a8f; }
 .cat-nightlife-social { --dot: #8d4fc4; }
+.cat-auctions-estate-sales { --dot: #7a6a3a; }
 
 .size {
   display: inline-block;
@@ -512,6 +521,8 @@ input:focus-visible, select:focus-visible, button:focus-visible {
   color: var(--cost-text);
 }
 .c-size .cost { margin-left: 4px; }
+/* The Cost column centers its badge and its header. */
+.events .c-cost { text-align: center; }
 .c-title.no-link { color: var(--muted); cursor: help; }
 .v-sep { color: var(--muted); opacity: 0.6; }
 

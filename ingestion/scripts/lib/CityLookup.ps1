@@ -38,7 +38,9 @@ function Find-TvAddressCity {
     }
   }
 
-  $text = $Html -replace '(?is)<(script|style)[^>]*>.*?</\1>', ' ' -replace '<[^>]+>', ' '
+  # Menus and page headers name other cities ("Guide to Moving to Boise, ID" in Boise Mom's menu),
+  # not the event's, so they are left out. Footers stay: an organizer's own address is often there.
+  $text = $Html -replace '(?is)<(script|style|nav|header)\b[^>]*>.*?</\1>', ' ' -replace '<[^>]+>', ' '
   $text = [Net.WebUtility]::HtmlDecode($text) -replace '\s+', ' '
   $names = (Get-TvCityNames | ForEach-Object { [regex]::Escape($_) }) -join '|'
   foreach ($match in [regex]::Matches($text, "(?i)\b($names)\s*,?\s+(ID|Idaho)\b")) {
