@@ -40,17 +40,18 @@
     <table class="grid list">
       <thead>
         <tr>
-          <th scope="col">Source</th>
-          <th scope="col">City</th>
-          <th scope="col">How it's read</th>
-          <th scope="col" class="num">Upcoming events</th>
+          {{- /* Click a heading to sort by it, again to reverse; ?sort=city or ?sort=count:desc. */}}
+          <th scope="col" data-sort="name" aria-sort="ascending"><button type="button">Source</button></th>
+          <th scope="col" data-sort="city"><button type="button">City</button></th>
+          <th scope="col" data-sort="type"><button type="button">How it's read</button></th>
+          <th scope="col" class="num" data-sort="count"><button type="button">Upcoming events</button></th>
         </tr>
       </thead>
       <tbody>
         {{- range $running }}
         {{- $n := index $counts .name | default 0 }}
-        <tr{{ if not $n }} class="empty-source"{{ end }}>
-          {{- $type := index $types .adapter | default .adapter }}
+        {{- $type := index $types .adapter | default .adapter }}
+        <tr{{ if not $n }} class="empty-source"{{ end }} data-city="{{ .city }}" data-type="{{ $type }}" data-count="{{ $n }}">
           {{- /* On phones the second line reads "host | City | How it's read"; the City and
                How it's read cells are hidden there, and the extra parts are hidden on desktop. */}}
           {{- $more := "" }}
@@ -90,6 +91,51 @@
     box.checked = new URLSearchParams(location.search).get('show') === 'all';
     box.addEventListener('change', apply);
     apply();
+
+    // Sorting. Rows come in Source order; ties fall back to that order (the source name).
+    var body = table.querySelector('tbody');
+    var rows = Array.prototype.slice.call(body.rows);
+    rows.forEach(function (r, i) { r.dataset.order = i; });
+    var keys = {
+      name: function (r) { return +r.dataset.order; },
+      city: function (r) { return r.dataset.city; },
+      type: function (r) { return r.dataset.type; },
+      count: function (r) { return +r.dataset.count; },
+    };
+    var sort = 'name';
+    var dir = 1;
+    function render() {
+      var key = keys[sort];
+      rows.sort(function (a, b) {
+        var x = key(a);
+        var y = key(b);
+        var c = typeof x === 'number' ? x - y : x.localeCompare(y);
+        return c * dir || a.dataset.order - b.dataset.order;
+      });
+      rows.forEach(function (r) { body.appendChild(r); });
+      table.querySelectorAll('th[data-sort]').forEach(function (th) {
+        if (th.dataset.sort === sort) th.setAttribute('aria-sort', dir === 1 ? 'ascending' : 'descending');
+        else th.removeAttribute('aria-sort');
+      });
+      var url = new URL(location.href);
+      if (sort !== 'name' || dir !== 1) url.searchParams.set('sort', sort + (dir === -1 ? ':desc' : ''));
+      else url.searchParams.delete('sort');
+      history.replaceState(null, '', url.search ? url.pathname + url.search : url.pathname);
+    }
+    table.querySelectorAll('th[data-sort] button').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var key = button.parentElement.dataset.sort;
+        if (key === sort) dir = -dir;
+        else { sort = key; dir = 1; }
+        render();
+      });
+    });
+    var asked = (new URLSearchParams(location.search).get('sort') || '').split(':');
+    if (keys[asked[0]]) {
+      sort = asked[0];
+      dir = asked[1] === 'desc' ? -1 : 1;
+      render();
+    }
   })();
 </script>
 
