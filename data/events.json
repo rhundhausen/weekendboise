@@ -162,29 +162,6 @@
     ]
   },
   {
-    "id": "12aa09734968",
-    "title": "Shotokan Karate",
-    "start": "2026-11-09T18:00:00-07:00",
-    "end": "2026-11-09T20:30:00-07:00",
-    "allDay": false,
-    "venue": "Gem County Recreation District",
-    "venueKey": "gem-county-recreation-district",
-    "city": "Emmett",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "costTier": "$$",
-    "url": "https://business.emmettidaho.com/events/details/shotokan-karate-11-09-2026-16541",
-    "description": "The ultimate aim of the art of karate lies not in victory or defeat, but in the perfection of the character of its participants.\" - Gichin Funakoshi Join our Shotokan Karate for the 26-27 Season. Build focus, respect, and confidence on and off the mat. ? Ages 8+ to Adult, Beginner to Advanced ? Y...",
-    "sources": [
-      {
-        "name": "gem-county-chamber",
-        "url": "https://business.emmettidaho.com/events/details/shotokan-karate-11-09-2026-16541",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
     "id": "f57349acb046",
     "title": "Distillery Tour",
     "start": "2026-11-09T18:00:00-07:00",
@@ -3237,28 +3214,6 @@
         "name": "meetup-boise-arts-community",
         "url": "https://www.meetup.com/boise-arts-community/events/317154788/",
         "fetchedAt": "2026-11-09T07:05:18Z"
-      }
-    ]
-  },
-  {
-    "id": "47bdf4c7108d",
-    "title": "Absolute Real Estate Auction in Nampa",
-    "start": "2026-11-11T14:00:00-07:00",
-    "allDay": false,
-    "venue": "Downs Auction",
-    "venueKey": "downs-auction",
-    "city": "Nampa",
-    "category": "auctions-estate-sales",
-    "tags": [
-      "estate-sale"
-    ],
-    "size": "M",
-    "url": "https://downsauction.com/event/431-w-edwards-ave-nampa-id/",
-    "sources": [
-      {
-        "name": "downs-auction",
-        "url": "https://downsauction.com/event/431-w-edwards-ave-nampa-id/",
-        "fetchedAt": "2026-11-10T02:56:22Z"
       }
     ]
   },
@@ -9459,26 +9414,6 @@
     ]
   },
   {
-    "id": "08bab6601fea",
-    "title": "± 2,789 SF, ± 2.21 Acres & Huge Shop — Nampa, ID",
-    "start": "2026-11-14T12:00:00-07:00",
-    "allDay": false,
-    "venue": "Corbett Auctions & Appraisals",
-    "venueKey": "corbett-auctions",
-    "city": "Nampa",
-    "category": "auctions-estate-sales",
-    "tags": [],
-    "size": "M",
-    "url": "https://corbettauctions.com/auction/10207-duck-ln-nampa-id/",
-    "sources": [
-      {
-        "name": "corbett-auctions",
-        "url": "https://corbettauctions.com/auction/10207-duck-ln-nampa-id/",
-        "fetchedAt": "2026-11-10T02:56:22Z"
-      }
-    ]
-  },
-  {
     "id": "1cbca925aa78",
     "title": "Winter Skate at The Village",
     "start": "2026-11-14T12:00:00-07:00",
@@ -15206,28 +15141,6 @@
     ]
   },
   {
-    "id": "c02ab176bfb9",
-    "title": "Real Estate Auction in Mountain Home",
-    "start": "2026-11-18T14:00:00-07:00",
-    "allDay": false,
-    "venue": "Downs Auction",
-    "venueKey": "downs-auction",
-    "city": "Mountain Home",
-    "category": "auctions-estate-sales",
-    "tags": [
-      "estate-sale"
-    ],
-    "size": "M",
-    "url": "https://downsauction.com/event/999-airbase-rd-mountain-home-id/",
-    "sources": [
-      {
-        "name": "downs-auction",
-        "url": "https://downsauction.com/event/999-airbase-rd-mountain-home-id/",
-        "fetchedAt": "2026-11-10T02:56:22Z"
-      }
-    ]
-  },
-  {
     "id": "c471cd893127",
     "title": "Board Games for Adults",
     "start": "2026-11-18T14:00:00-07:00",
@@ -18721,32 +18634,6 @@
     ]
   },
   {
-    "id": "3564566afc99",
-    "title": "Idaho Snowmobile Show",
-    "start": "2026-11-20T15:00:00-07:00",
-    "end": "2026-11-21T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Ford Idaho Center Horse Park & Sports Center",
-    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
-    "city": "Nampa",
-    "category": "markets-shopping",
-    "tags": [
-      "home-show",
-      "kids"
-    ],
-    "size": "L",
-    "costTier": "$",
-    "url": "https://www.fordidahocenter.com/events/detail/idaho-snowmobile-show-5",
-    "description": "00 - Advanced Ticket Price Children under 12 Free Military 50% off Tickets available at gate.",
-    "sources": [
-      {
-        "name": "ford-idaho-center",
-        "url": "https://www.fordidahocenter.com/events/detail/idaho-snowmobile-show-5",
-        "fetchedAt": "2026-11-04T21:43:45Z"
-      }
-    ]
-  },
-  {
     "id": "8e22707087b3",
     "title": "Winter Skate at The Village",
     "start": "2026-11-20T15:00:00-07:00",
@@ -18769,6 +18656,32 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/winter-skate-at-the-village-2/2026-11-20/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "d0f956f69a09",
+    "title": "Idaho Snowmobile Show",
+    "start": "2026-11-20T15:00:00-07:00",
+    "end": "2026-11-21T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Ford Idaho Center",
+    "venueKey": "ford-idaho-center-horse-park",
+    "city": "Nampa",
+    "category": "markets-shopping",
+    "tags": [
+      "home-show",
+      "kids"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://www.fordidahocenter.com/events/detail/idaho-snowmobile-show-5",
+    "description": "00 - Advanced Ticket Price Children under 12 Free Military 50% off Tickets available at gate.",
+    "sources": [
+      {
+        "name": "ford-idaho-center",
+        "url": "https://www.fordidahocenter.com/events/detail/idaho-snowmobile-show-5",
+        "fetchedAt": "2026-11-10T03:55:42Z"
       }
     ]
   },
@@ -26389,13 +26302,13 @@
     ]
   },
   {
-    "id": "5a6636168574",
+    "id": "9f3377aa890f",
     "title": "Canyon County Festival of Trees",
     "start": "2026-11-27T06:30:00-07:00",
     "end": "2026-11-30T17:30:00-07:00",
     "allDay": false,
-    "venue": "Ford Idaho Center Horse Park & Sports Center",
-    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
+    "venue": "Ford Idaho Center",
+    "venueKey": "ford-idaho-center-horse-park",
     "city": "Nampa",
     "category": "festivals",
     "tags": [
@@ -26411,7 +26324,7 @@
       {
         "name": "ford-idaho-center",
         "url": "https://www.fordidahocenter.com/events/detail/canyon-county-festival-of-trees-5",
-        "fetchedAt": "2026-11-04T21:43:45Z"
+        "fetchedAt": "2026-11-10T03:55:42Z"
       }
     ]
   },
@@ -35905,32 +35818,6 @@
     ]
   },
   {
-    "id": "30592de4cb81",
-    "title": "Vintage Market Days",
-    "start": "2026-12-04T12:00:00-07:00",
-    "end": "2026-12-06T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Ford Idaho Center Horse Park & Sports Center",
-    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
-    "city": "Nampa",
-    "category": "markets-shopping",
-    "tags": [
-      "flea-market",
-      "home-show"
-    ],
-    "size": "L",
-    "costTier": "$",
-    "url": "https://www.fordidahocenter.com/events/detail/vintage-market-days-5",
-    "description": "Vintage Market Days presents Ford Sports Center Friday 12pm to 5pm Saturday 10am to 5pm Sunday 10am to 5pm Tickets available at the gate.",
-    "sources": [
-      {
-        "name": "ford-idaho-center",
-        "url": "https://www.fordidahocenter.com/events/detail/vintage-market-days-5",
-        "fetchedAt": "2026-11-04T21:43:45Z"
-      }
-    ]
-  },
-  {
     "id": "5cc763297cdd",
     "title": "Chatty Crafters",
     "start": "2026-12-04T12:00:00-07:00",
@@ -35973,6 +35860,32 @@
       }
     ],
     "city": "Boise"
+  },
+  {
+    "id": "bdb80384e217",
+    "title": "Vintage Market Days",
+    "start": "2026-12-04T12:00:00-07:00",
+    "end": "2026-12-06T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Ford Idaho Center",
+    "venueKey": "ford-idaho-center-horse-park",
+    "city": "Nampa",
+    "category": "markets-shopping",
+    "tags": [
+      "flea-market",
+      "home-show"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://www.fordidahocenter.com/events/detail/vintage-market-days-5",
+    "description": "Vintage Market Days presents Ford Sports Center Friday 12pm to 5pm Saturday 10am to 5pm Sunday 10am to 5pm Tickets available at the gate.",
+    "sources": [
+      {
+        "name": "ford-idaho-center",
+        "url": "https://www.fordidahocenter.com/events/detail/vintage-market-days-5",
+        "fetchedAt": "2026-11-10T03:55:42Z"
+      }
+    ]
   },
   {
     "id": "00505023f168",
@@ -44880,30 +44793,6 @@
     ]
   },
   {
-    "id": "33d98995e422",
-    "title": "Great Idaho Gun Show",
-    "start": "2026-12-12T09:00:00-07:00",
-    "end": "2026-12-13T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Ford Idaho Center Horse Park & Sports Center",
-    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
-    "city": "Nampa",
-    "category": "markets-shopping",
-    "tags": [
-      "home-show"
-    ],
-    "size": "L",
-    "costTier": "$",
-    "url": "https://www.fordidahocenter.com/events/detail/gigs-40",
-    "sources": [
-      {
-        "name": "ford-idaho-center",
-        "url": "https://www.fordidahocenter.com/events/detail/gigs-40",
-        "fetchedAt": "2026-11-04T21:43:45Z"
-      }
-    ]
-  },
-  {
     "id": "6536134e4b3d",
     "title": "Breakfast with the Grinch",
     "start": "2026-12-12T09:00:00-07:00",
@@ -44971,6 +44860,30 @@
         "name": "meetup-kuna-tai-chi-in-the-park",
         "url": "https://www.meetup.com/kuna-tai-chi-in-the-park/events/xlhlbsyjcqbqb/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "f9d195b98d46",
+    "title": "Great Idaho Gun Show",
+    "start": "2026-12-12T09:00:00-07:00",
+    "end": "2026-12-13T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Ford Idaho Center",
+    "venueKey": "ford-idaho-center-horse-park",
+    "city": "Nampa",
+    "category": "markets-shopping",
+    "tags": [
+      "home-show"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://www.fordidahocenter.com/events/detail/gigs-40",
+    "sources": [
+      {
+        "name": "ford-idaho-center",
+        "url": "https://www.fordidahocenter.com/events/detail/gigs-40",
+        "fetchedAt": "2026-11-10T03:55:42Z"
       }
     ]
   },
@@ -51638,6 +51551,31 @@
     ]
   },
   {
+    "id": "5eb53d00fa67",
+    "title": "USA Wrestling",
+    "start": "2026-12-19T09:00:00-07:00",
+    "end": "2026-12-20T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Ford Idaho Center",
+    "venueKey": "ford-idaho-center-horse-park",
+    "city": "Nampa",
+    "category": "sports",
+    "tags": [
+      "combat-sports",
+      "kids"
+    ],
+    "size": "L",
+    "url": "https://www.fordidahocenter.com/events/detail/idaway2023-7",
+    "description": "2026 Idaho Middle School State Championship 9am December 19, 2026 Ford Idaho Sports Center Event Information Christmas Clash Tryouts 6pm December 19, 2026 Ford Idaho Sports Center Event Information Kids Winter Festival 9am December 20, 2026 Ford Idaho Sports Center Arena Event Information",
+    "sources": [
+      {
+        "name": "ford-idaho-center",
+        "url": "https://www.fordidahocenter.com/events/detail/idaway2023-7",
+        "fetchedAt": "2026-11-10T03:55:42Z"
+      }
+    ]
+  },
+  {
     "id": "b5a56b531b8d",
     "title": "Holiday Kids Bike Giveaway",
     "start": "2026-12-19T09:00:00-07:00",
@@ -51685,31 +51623,6 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/winter-market/2026-12-19/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "ff889c43b980",
-    "title": "USA Wrestling",
-    "start": "2026-12-19T09:00:00-07:00",
-    "end": "2026-12-20T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Ford Idaho Center Horse Park & Sports Center",
-    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
-    "city": "Nampa",
-    "category": "sports",
-    "tags": [
-      "combat-sports",
-      "kids"
-    ],
-    "size": "L",
-    "url": "https://www.fordidahocenter.com/events/detail/idaway2023-7",
-    "description": "2026 Idaho Middle School State Championship 9am December 19, 2026 Ford Idaho Sports Center Event Information Christmas Clash Tryouts 6pm December 19, 2026 Ford Idaho Sports Center Event Information Kids Winter Festival 9am December 20, 2026 Ford Idaho Sports Center Arena Event Information",
-    "sources": [
-      {
-        "name": "ford-idaho-center",
-        "url": "https://www.fordidahocenter.com/events/detail/idaway2023-7",
-        "fetchedAt": "2026-11-04T21:43:45Z"
       }
     ]
   },
@@ -60369,30 +60282,6 @@
     ]
   },
   {
-    "id": "441e85fa77a8",
-    "title": "Great Idaho Gun Show",
-    "start": "2027-01-02T09:00:00-07:00",
-    "end": "2027-01-03T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Ford Idaho Center Horse Park & Sports Center",
-    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
-    "city": "Nampa",
-    "category": "markets-shopping",
-    "tags": [
-      "home-show"
-    ],
-    "size": "L",
-    "costTier": "$",
-    "url": "https://www.fordidahocenter.com/events/detail/gigs-39",
-    "sources": [
-      {
-        "name": "ford-idaho-center",
-        "url": "https://www.fordidahocenter.com/events/detail/gigs-39",
-        "fetchedAt": "2026-11-04T21:43:45Z"
-      }
-    ]
-  },
-  {
     "id": "5e624c3b824e",
     "title": "OLD BOISE MODEL RAILROAD",
     "start": "2027-01-02T09:00:00-07:00",
@@ -60437,6 +60326,30 @@
         "name": "meetup-kuna-tai-chi-in-the-park",
         "url": "https://www.meetup.com/kuna-tai-chi-in-the-park/events/xlhlbsykccbdb/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "9f0632bada7d",
+    "title": "Great Idaho Gun Show",
+    "start": "2027-01-02T09:00:00-07:00",
+    "end": "2027-01-03T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Ford Idaho Center",
+    "venueKey": "ford-idaho-center-horse-park",
+    "city": "Nampa",
+    "category": "markets-shopping",
+    "tags": [
+      "home-show"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://www.fordidahocenter.com/events/detail/gigs-39",
+    "sources": [
+      {
+        "name": "ford-idaho-center",
+        "url": "https://www.fordidahocenter.com/events/detail/gigs-39",
+        "fetchedAt": "2026-11-10T03:55:42Z"
       }
     ]
   },
@@ -73222,13 +73135,13 @@
     ]
   },
   {
-    "id": "cdb44de085dd",
+    "id": "c8ddd97cd063",
     "title": "Great Idaho Gun Show",
     "start": "2027-02-06T09:00:00-07:00",
     "end": "2027-02-07T09:00:00-07:00",
     "allDay": false,
-    "venue": "Ford Idaho Center Horse Park & Sports Center",
-    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
+    "venue": "Ford Idaho Center",
+    "venueKey": "ford-idaho-center-horse-park",
     "city": "Nampa",
     "category": "markets-shopping",
     "tags": [
@@ -73241,7 +73154,7 @@
       {
         "name": "ford-idaho-center",
         "url": "https://www.fordidahocenter.com/events/detail/gigs-43",
-        "fetchedAt": "2026-11-04T21:43:45Z"
+        "fetchedAt": "2026-11-10T03:55:42Z"
       }
     ]
   },
@@ -80468,13 +80381,13 @@
     ]
   },
   {
-    "id": "d3c9b8672d48",
+    "id": "74be1a526d03",
     "title": "ICYC 2027",
     "start": "2027-03-05T18:45:00-07:00",
     "end": "2027-03-07T10:00:00-07:00",
     "allDay": false,
-    "venue": "Ford Idaho Center Horse Park & Sports Center",
-    "venueKey": "ford-idaho-center-horse-park-and-sports-center",
+    "venue": "Ford Idaho Center",
+    "venueKey": "ford-idaho-center-horse-park",
     "city": "Nampa",
     "category": "community-civic",
     "tags": [],
@@ -80485,7 +80398,7 @@
       {
         "name": "ford-idaho-center",
         "url": "https://www.fordidahocenter.com/events/detail/icyc-2027",
-        "fetchedAt": "2026-11-04T21:43:45Z"
+        "fetchedAt": "2026-11-10T03:55:42Z"
       }
     ]
   },
