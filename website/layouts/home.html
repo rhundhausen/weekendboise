@@ -74,7 +74,23 @@
     {{- $running := where hugo.Data.sources.sources "status" "running" }}
     <p class="sub">
       {{- /* The build's count, until app.js replaces it with what the unfiltered list shows. */}}
-      <span id="total">{{ len hugo.Data.events | lang.FormatNumber 0 }}</span> upcoming events
+      <span id="total">{{ len hugo.Data.events | lang.FormatNumber 0 }}</span>
+      {{- /* Once per visit, the count runs up from 0 (app.js animates it). This runs before the
+           page draws, so the real number never flashes first. Its width is held at the full
+           number's, so the rest of the line stays put. Skipped for reduced motion. */}}
+      <script>
+        (function () {
+          var t = document.getElementById('total');
+          try {
+            if (sessionStorage.getItem('wb-counted') || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+            sessionStorage.setItem('wb-counted', '1');
+          } catch (e) { return; }
+          t.style.minWidth = t.getBoundingClientRect().width + 'px';
+          t.dataset.countUp = t.textContent;
+          t.textContent = '0';
+        })();
+      </script>
+      upcoming events
       <span class="sep" aria-hidden="true">|</span> <a href="{{ relURL "sources/" }}">{{ len $running }} sources</a>
       {{- /* In Boise time, as app.js writes it, so the text does not change after the page draws. */}}
       {{- $boise := (time.AsTime "2000-01-01T00:00:00" "America/Boise").Location }}

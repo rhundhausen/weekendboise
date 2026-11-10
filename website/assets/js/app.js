@@ -590,6 +590,28 @@ if (asOf && cfg.lastIngest) {
   }
 }
 
+// The header count runs up from 0 to the event total in about a second, when home.html's inline
+// script set it up (once per visit). One short text change per frame, so scrolling, typing, and
+// the list loading go on as usual. set() moves the target when the loaded list gives the real total.
+const countUp = (() => {
+  const node = $('total');
+  let target = Number(node.dataset.countUp?.replace(/,/g, '')) || 0;
+  if (!target) return { set: (n) => { node.textContent = numFmt.format(n); } };
+  let done = false;
+  const DURATION = 1200;
+  const start = performance.now();
+  const step = (now) => {
+    const p = Math.min(1, (now - start) / DURATION);
+    node.textContent = numFmt.format(Math.round(target * (1 - (1 - p) ** 3)));
+    if (p < 1) requestAnimationFrame(step);
+    else { done = true; node.style.minWidth = ''; }
+  };
+  requestAnimationFrame(step);
+  return {
+    set: (n) => { target = n; if (done) node.textContent = numFmt.format(n); },
+  };
+})();
+
 fetch(cfg.events)
   .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
   .then((list) => {
@@ -599,7 +621,7 @@ fetch(cfg.events)
     const t = today();
     const now = Date.now();
     const total = events.filter((e) => e.ed >= t && (e.allDay || e.end > now)).length;
-    $('total').textContent = numFmt.format(total);
+    countUp.set(total);
     readUrl();
     syncControls();
     render();

@@ -234,6 +234,8 @@ a { color: var(--accent); }
   padding: 0 4px;
   opacity: 0.5;
 }
+/* The event count: right-aligned digits of even width, so it can count up in place. */
+#total { display: inline-block; text-align: right; font-variant-numeric: tabular-nums; }
 .sub a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .sub a:hover { color: var(--header-link); }
 /* The site name on inner pages: the home page's title, as a link home. */
