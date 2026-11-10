@@ -164,8 +164,6 @@ a { color: var(--accent); }
   margin: 0 auto;
   padding: 0 16px;
 }
-/* A reading page (About): the header, card, and footer share the card's width, centered. */
-.wrap.narrow { max-width: 792px; }
 
 /* Header */
 .top {
@@ -270,7 +268,7 @@ a { color: var(--accent); }
 /* The About page: one card, like the home page's controls, so the text reads on every
    header theme, with a readable line length and compact legend tables. */
 .prose {
-  max-width: 760px;
+  /* As wide as the home page's list, so the header doesn't move between pages. */
   margin: 16px 0;
   padding: 4px 20px 16px;
   line-height: 1.55;
