@@ -10356,6 +10356,30 @@
     ]
   },
   {
+    "id": "f57349acb046",
+    "title": "Distillery Tour",
+    "start": "2026-11-09T18:00:00-07:00",
+    "end": "2026-11-10T03:00:00-07:00",
+    "allDay": false,
+    "venue": "Bardenay Distilling Co.",
+    "venueKey": "bardenay-distilling-co",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "brewery"
+    ],
+    "size": "S",
+    "url": "https://www.bardenaydistilling.com/",
+    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.bardenaydistilling.com/",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
     "id": "2996517c0fea",
     "title": "The Dirt on Gardening",
     "start": "2026-11-09T18:30:00-07:00",
@@ -10545,6 +10569,143 @@
         "name": "ticketmaster-metro",
         "url": "https://www.ticketweb.com/event/lucy-cooper-b-handy-blanket-neurolux-lounge-tickets/14288814",
         "fetchedAt": "2026-11-03T17:00:01Z"
+      }
+    ]
+  },
+  {
+    "id": "9bce5b254f1d",
+    "title": "Crafty Sundays",
+    "start": "2026-11-09T21:00:00-07:00",
+    "end": "2026-11-10T01:00:00-07:00",
+    "allDay": false,
+    "venue": "Meriwether Cider Co.",
+    "venueKey": "meriwether-cider-co",
+    "city": "Garden City",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meriwethercider.com/eventscalendar",
+    "description": "Bring whatever you are working on. Knitting, whittling, coloring, writing, or any project that fits in your hands. Settle in, create alongside fellow makers, and enjoy the easy rhythm of an afternoon spent crafting. Chat if you want. Focus if you prefer. Either way, pair it with a hand CRAFTED ci...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.meriwethercider.com/eventscalendar",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "f2ab7da0e470",
+    "title": "Paint Nite",
+    "start": "2026-11-10T02:00:00-07:00",
+    "end": "2026-11-10T04:00:00-07:00",
+    "allDay": false,
+    "venue": "Amsterdam Lounge",
+    "venueKey": "amsterdam-lounge",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://tinyurl.com/y8v52twy",
+    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://tinyurl.com/y8v52twy",
+        "fetchedAt": "2026-11-10T05:01:56Z"
+      }
+    ]
+  },
+  {
+    "id": "1ac5d928c90f",
+    "title": "Weekly Real Estate Investor Coaching and Networking",
+    "start": "2026-11-10T09:00:00-07:00",
+    "end": "2026-11-10T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Fidelity National Title - Meridian",
+    "venueKey": "fidelity-national-title-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseinvestorgroup/events/317075089/",
+    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
+    "sources": [
+      {
+        "name": "meetup-boiseinvestorgroup",
+        "url": "https://www.meetup.com/boiseinvestorgroup/events/317075089/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "656bd5add09f",
+    "title": "Fit and Fall Proof",
+    "start": "2026-11-10T09:15:00-07:00",
+    "end": "2026-11-10T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15301980",
+    "description": "Fit and Fall Proof™ is designed to help senior citizens prevent injuries and the subsequent loss of independence. Class participants learn simple exercises to increase strength, balance and endurance, which can help prevent the accidental falls and tripping sometimes associated with age. Registra...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15301980",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "060798aab495",
+    "title": "Music and Movement",
+    "start": "2026-11-10T09:30:00-07:00",
+    "end": "2026-11-10T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17358886",
+    "description": "Thirty minutes of singing, dancing, and fun, that’s our Music and Movement class! The class instructor uses songs that encourage both fine and gross motor skills. Children must attend with an adult caregiver, and caregivers are encouraged and expected to participate with the child. NO REGISTRATIO...",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17358886",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "647e3a283f64",
+    "title": "Storytime",
+    "start": "2026-11-10T10:00:00-07:00",
+    "end": "2026-11-10T10:30:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17358813",
+    "description": "Open to all ages Join us for a story and an activity during our Storytime program! Storytime is offered on the following days and times: Monday, 11:00 Tuesday 10:00 Wednesday 10:15 Location: children's room",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17358813",
+        "fetchedAt": "2026-11-06T07:04:43Z"
       }
     ]
   }

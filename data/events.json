@@ -111,52 +111,6 @@
     ]
   },
   {
-    "id": "f57349acb046",
-    "title": "Distillery Tour",
-    "start": "2026-11-09T18:00:00-07:00",
-    "end": "2026-11-10T03:00:00-07:00",
-    "allDay": false,
-    "venue": "Bardenay Distilling Co.",
-    "venueKey": "bardenay-distilling-co",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "brewery"
-    ],
-    "size": "S",
-    "url": "https://www.bardenaydistilling.com/",
-    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://www.bardenaydistilling.com/",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "9bce5b254f1d",
-    "title": "Crafty Sundays",
-    "start": "2026-11-09T21:00:00-07:00",
-    "end": "2026-11-10T01:00:00-07:00",
-    "allDay": false,
-    "venue": "Meriwether Cider Co.",
-    "venueKey": "meriwether-cider-co",
-    "city": "Garden City",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meriwethercider.com/eventscalendar",
-    "description": "Bring whatever you are working on. Knitting, whittling, coloring, writing, or any project that fits in your hands. Settle in, create alongside fellow makers, and enjoy the easy rhythm of an afternoon spent crafting. Chat if you want. Focus if you prefer. Either way, pair it with a hand CRAFTED ci...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://www.meriwethercider.com/eventscalendar",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
     "id": "478a018fab91",
     "title": "Veterans Free Week",
     "start": "2026-11-10T00:00:00-07:00",
@@ -227,97 +181,6 @@
     ]
   },
   {
-    "id": "f2ab7da0e470",
-    "title": "Paint Nite",
-    "start": "2026-11-10T02:00:00-07:00",
-    "end": "2026-11-10T04:00:00-07:00",
-    "allDay": false,
-    "venue": "Amsterdam Lounge",
-    "venueKey": "amsterdam-lounge",
-    "city": "Boise",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "costTier": "$$",
-    "url": "https://tinyurl.com/y8v52twy",
-    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://tinyurl.com/y8v52twy",
-        "fetchedAt": "2026-11-10T05:01:56Z"
-      }
-    ]
-  },
-  {
-    "id": "1ac5d928c90f",
-    "title": "Weekly Real Estate Investor Coaching and Networking",
-    "start": "2026-11-10T09:00:00-07:00",
-    "end": "2026-11-10T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Fidelity National Title - Meridian",
-    "venueKey": "fidelity-national-title-meridian",
-    "city": "Meridian",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/boiseinvestorgroup/events/317075089/",
-    "description": "Meetings are LIVE at Fidelity National Title: 1144 S. Silverstone Way #120, Meridan ID 83642 Join us this week as we meet in our new location. Are you looking to start your week off right? Join us as we network with other Real Estate investors. Here are just some of the things we do at these even...",
-    "sources": [
-      {
-        "name": "meetup-boiseinvestorgroup",
-        "url": "https://www.meetup.com/boiseinvestorgroup/events/317075089/",
-        "fetchedAt": "2026-11-09T20:49:46Z"
-      }
-    ]
-  },
-  {
-    "id": "656bd5add09f",
-    "title": "Fit and Fall Proof",
-    "start": "2026-11-10T09:15:00-07:00",
-    "end": "2026-11-10T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise Public Library",
-    "venueKey": "boise-public-library",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://boisepubliclibrary.libcal.com/event/15301980",
-    "description": "Fit and Fall Proof™ is designed to help senior citizens prevent injuries and the subsequent loss of independence. Class participants learn simple exercises to increase strength, balance and endurance, which can help prevent the accidental falls and tripping sometimes associated with age. Registra...",
-    "sources": [
-      {
-        "name": "boise-public-library",
-        "url": "https://boisepubliclibrary.libcal.com/event/15301980",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "060798aab495",
-    "title": "Music and Movement",
-    "start": "2026-11-10T09:30:00-07:00",
-    "end": "2026-11-10T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Kuna Library",
-    "venueKey": "kuna-library",
-    "city": "Kuna",
-    "category": "learning-business",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "url": "https://kunalibrary.libcal.com/event/17358886",
-    "description": "Thirty minutes of singing, dancing, and fun, that’s our Music and Movement class! The class instructor uses songs that encourage both fine and gross motor skills. Children must attend with an adult caregiver, and caregivers are encouraged and expected to participate with the child. NO REGISTRATIO...",
-    "sources": [
-      {
-        "name": "kuna-library",
-        "url": "https://kunalibrary.libcal.com/event/17358886",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
     "id": "86a98fcd174d",
     "title": "Idaho Department of Labor",
     "start": "2026-11-10T09:30:00-07:00",
@@ -335,30 +198,6 @@
       {
         "name": "kuna-library",
         "url": "https://kunalibrary.libcal.com/event/16734979",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "647e3a283f64",
-    "title": "Storytime",
-    "start": "2026-11-10T10:00:00-07:00",
-    "end": "2026-11-10T10:30:00-07:00",
-    "allDay": false,
-    "venue": "Kuna Library",
-    "venueKey": "kuna-library",
-    "city": "Kuna",
-    "category": "learning-business",
-    "tags": [
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://kunalibrary.libcal.com/event/17358813",
-    "description": "Open to all ages Join us for a story and an activity during our Storytime program! Storytime is offered on the following days and times: Monday, 11:00 Tuesday 10:00 Wednesday 10:15 Location: children's room",
-    "sources": [
-      {
-        "name": "kuna-library",
-        "url": "https://kunalibrary.libcal.com/event/17358813",
         "fetchedAt": "2026-11-06T07:04:43Z"
       }
     ]
@@ -4763,6 +4602,28 @@
     ]
   },
   {
+    "id": "119c7849e668",
+    "title": "WCR Installation of Officers",
+    "start": "2026-11-12T16:00:00-07:00",
+    "end": "2026-11-12T19:00:00-07:00",
+    "allDay": false,
+    "venue": "7497 W Whisper Rdg Dr",
+    "venueKey": "7497-w-whisper-rdg-dr",
+    "city": "Meridian",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.eventbrite.com/e/wcr-installation-of-officers-tickets-2003786717011",
+    "sources": [
+      {
+        "name": "eventbrite-emmett",
+        "url": "https://www.eventbrite.com/e/wcr-installation-of-officers-tickets-2003786717011",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "425aab2141ae",
     "title": "Open-Play Casual Pokémon League",
     "start": "2026-11-12T16:00:00-07:00",
@@ -5216,6 +5077,30 @@
         "name": "meetup-abu-games-events",
         "url": "https://www.meetup.com/abu-games-events/events/317113326/",
         "fetchedAt": "2026-11-10T05:01:47Z"
+      }
+    ]
+  },
+  {
+    "id": "2cfe8771c9f5",
+    "title": "Meridian Thanksgiving pie and roll tasting class",
+    "start": "2026-11-12T18:00:00-07:00",
+    "end": "2026-11-12T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Kneaders Bakery and Cafe",
+    "venueKey": "kneaders-bakery-and-cafe",
+    "city": "Meridian",
+    "category": "holiday-seasonal",
+    "tags": [
+      "holiday-event"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.eventbrite.com/e/meridian-thanksgiving-pie-and-roll-tasting-class-tickets-1999589354587",
+    "sources": [
+      {
+        "name": "eventbrite-emmett",
+        "url": "https://www.eventbrite.com/e/meridian-thanksgiving-pie-and-roll-tasting-class-tickets-1999589354587",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -5782,6 +5667,28 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-11-12-2026-1372",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "08df6292b00c",
+    "title": "a Courtly Book Club",
+    "start": "2026-11-12T19:00:00-07:00",
+    "end": "2026-11-12T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Shared Stories",
+    "venueKey": "shared-stories",
+    "city": "Caldwell",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://www.eventbrite.com/e/a-courtly-book-club-tickets-1992585804781",
+    "sources": [
+      {
+        "name": "eventbrite-emmett",
+        "url": "https://www.eventbrite.com/e/a-courtly-book-club-tickets-1992585804781",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -7921,6 +7828,29 @@
     "costTier": "$$"
   },
   {
+    "id": "fb2d6f543bf6",
+    "title": "Jeff Crosby’s 13th Annual Homecoming Run",
+    "start": "2026-11-13T19:00:00-07:00",
+    "end": "2026-11-13T23:59:00-07:00",
+    "allDay": false,
+    "venue": "Visual Arts Collective",
+    "venueKey": "visual-arts-collective",
+    "city": "Garden City",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://visualartscollective.com/events/jeff-crosbys-13th-annual-homecoming-run/",
+    "description": "Jeff Crosby's 13th Annual Homecoming Run Night Three at Visual Arts Collective",
+    "sources": [
+      {
+        "name": "visual-arts-collective",
+        "url": "https://visualartscollective.com/events/jeff-crosbys-13th-annual-homecoming-run/",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "0626de1107f4",
     "title": "Northwest Nazarene University Women's Basketball vs Cal State East Bay",
     "start": "2026-11-13T19:30:00-07:00",
@@ -8421,6 +8351,30 @@
     ]
   },
   {
+    "id": "c5a4efb16c80",
+    "title": "Boise Half Marathon",
+    "start": "2026-11-14T09:00:00-07:00",
+    "end": "2026-11-14T12:00:59-07:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "race"
+    ],
+    "size": "L",
+    "url": "https://runsignup.com/Race/ID/Boise/BoiseHalfMarathon",
+    "description": "Saturday, November 14, 2026All runners will receive a race shirt and race medal. Please note courses utilize the Boise Greenbelt system. Should we run the Greenbelt, the river can be unpredictable. Systems and entities that govern the local Greenbelt are constantly dealing with these challenges....",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/BoiseHalfMarathon",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "d9c5cc0461a4",
     "title": "Rake Up Boise – Teen Team",
     "start": "2026-11-14T09:00:00-07:00",
@@ -8782,6 +8736,30 @@
     "city": "Boise"
   },
   {
+    "id": "632713423dd8",
+    "title": "A Run to InspireKidz",
+    "start": "2026-11-14T10:00:00-07:00",
+    "end": "2026-11-14T12:00:59-07:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "kids"
+    ],
+    "size": "M",
+    "url": "https://runsignup.com/Race/ID/Boise/ARunToInspireKidz",
+    "description": "A RUN TO INSPIREKIDZ ❤️🏃‍♂️🏃‍♀️ Run with purpose. Every lap. Every mile. Every kid matters. Join us for A Run to InspireKidz, an in-person and virtual running event bringing our community together to help more kids experience sports, fitness, running, and the confidence that comes from being ac...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/ARunToInspireKidz",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "71528c1a500d",
     "title": "Rake up Nampa",
     "start": "2026-11-14T10:00:00-07:00",
@@ -9003,6 +8981,29 @@
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/veterans-day-parade-4/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "c49e1789e1ae",
+    "title": "Vision Charter XC 4th Annual Turkey Trot",
+    "start": "2026-11-14T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell",
+    "venueKey": "caldwell",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "race"
+    ],
+    "size": "L",
+    "url": "https://runsignup.com/Race/ID/Caldwell/VisionCharterXC4ThAnnualTurkeyTrot",
+    "description": "🦃 Lace Up for the 4th Annual Vision Charter School Turkey Trot 5K! 🏃‍♀️🏃‍♂️ Join us on Saturday, November 14, 2026, at 10:00 AM for a morning of fitness, fun, and holiday spirit! Whether you're chasing a personal record, enjoying a leisurely jog, or walking the course with family and friends,...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Caldwell/VisionCharterXC4ThAnnualTurkeyTrot",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -10749,6 +10750,27 @@
     ]
   },
   {
+    "id": "b4faff0d6bce",
+    "title": "Boise Cozy Fall Reading Retreat",
+    "start": "2026-11-15T10:00:00-07:00",
+    "end": "2026-11-15T14:00:00-07:00",
+    "allDay": false,
+    "venue": "8000 W Deerfawn Ln",
+    "venueKey": "8000-w-deerfawn-ln",
+    "city": "Eagle",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.eventbrite.com/e/boise-cozy-fall-reading-retreat-tickets-2003369105925",
+    "sources": [
+      {
+        "name": "eventbrite-emmett",
+        "url": "https://www.eventbrite.com/e/boise-cozy-fall-reading-retreat-tickets-2003369105925",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "d812f0145f95",
     "title": "Marianne Williams Orienteering",
     "start": "2026-11-15T10:00:00-07:00",
@@ -11143,6 +11165,28 @@
         "name": "boise-state-arts",
         "url": "https://events.boisestate.edu/event/fall-concert-symphonic-winds-with-mountain-view-high-school-concert-band",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "d4b0cc60a861",
+    "title": "Mike Zito",
+    "start": "2026-11-15T19:00:00-07:00",
+    "end": "2026-11-15T21:15:00-07:00",
+    "allDay": false,
+    "venue": "The Sapphire Room at The Riverside Hotel",
+    "venueKey": "the-sapphire-room-at-the-riverside-hotel",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.eventbrite.com/e/mike-zito-tickets-1993170802525",
+    "sources": [
+      {
+        "name": "eventbrite-emmett",
+        "url": "https://www.eventbrite.com/e/mike-zito-tickets-1993170802525",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -19586,6 +19630,31 @@
     ]
   },
   {
+    "id": "2fdabfd37eca",
+    "title": "Let ‘Em Throw Cake!",
+    "start": "2026-11-20T20:00:00-07:00",
+    "end": "2026-11-20T23:59:00-07:00",
+    "allDay": false,
+    "venue": "Visual Arts Collective",
+    "venueKey": "visual-arts-collective",
+    "city": "Garden City",
+    "category": "music",
+    "tags": [
+      "21-plus"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://visualartscollective.com/events/let-em-throw-cake/",
+    "description": "Step back in time and out of your clothes for \"Let 'Em Throw Cake!\", a campy, sultry, and deliciously Georgian-era variety show. Set within the extravagant decadence of the Georgian Era, \"Let 'Em Throw Cake!\" blends burlesque, drag kings & queens, and live cabaret singing for a night of high camp...",
+    "sources": [
+      {
+        "name": "visual-arts-collective",
+        "url": "https://visualartscollective.com/events/let-em-throw-cake/",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "d1bd1ab0ec98",
     "title": "Karoake Friday",
     "start": "2026-11-20T20:00:00-07:00",
@@ -19687,6 +19756,30 @@
     ]
   },
   {
+    "id": "92ad724f0474",
+    "title": "Early Bird Turkey Trot 5K, 10K, 15K, & Half Marathon",
+    "start": "2026-11-21T08:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "race"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://runsignup.com/Race/ID/Boise/EarlyBirdTurkeyTrot5K10K15KHalfMarathonBoise",
+    "description": "This is the EARLY BIRD Turkey Trot...Saturday 11/21/2026 in Boise, ID We are excited to bring a Turkey Trot event to Boise for 2026!~ Guidelines will be the same as prior, please note the specific dates in order to qualify for a complimentary race entry! If you haven't crossed under our finish li...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/EarlyBirdTurkeyTrot5K10K15KHalfMarathonBoise",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "0a7c0806fc2f",
     "title": "Home Depot Kids’ Workshop: Christmas Car",
     "start": "2026-11-21T09:00:00-07:00",
@@ -19782,6 +19875,31 @@
         "name": "on-the-water-estate-sales",
         "url": "https://www.onthewaterestatesales.com/estatesales",
         "fetchedAt": "2026-11-10T02:56:22Z"
+      }
+    ]
+  },
+  {
+    "id": "a2b2ae5ef83c",
+    "title": "Valnova Turkey Trot",
+    "start": "2026-11-21T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Eagle",
+    "venueKey": "eagle",
+    "city": "Eagle",
+    "category": "sports",
+    "tags": [
+      "kids",
+      "race"
+    ],
+    "size": "L",
+    "costTier": "$",
+    "url": "https://runsignup.com/Race/ID/Eagle/ValnovaCommunityTurkeyTrot",
+    "description": "We invite you to join us at Valnova in Eagle for a Turkey Trot on November 21st, starting at 9:00 AM with the help from our friends at Fleet Feet Treasure Valley Our route will start and end at the Trail Head Pavilion in front of the Glencara Recreation Village at Valnova. Registration starts at...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Eagle/ValnovaCommunityTurkeyTrot",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -25642,6 +25760,31 @@
     ]
   },
   {
+    "id": "82a8f51dca77",
+    "title": "Nampa Pumpkin Spice 5K",
+    "start": "2026-11-26T08:00:00-07:00",
+    "end": "2026-11-26T10:30:59-07:00",
+    "allDay": false,
+    "venue": "Nampa",
+    "venueKey": "nampa",
+    "city": "Nampa",
+    "category": "sports",
+    "tags": [
+      "family-friendly",
+      "race"
+    ],
+    "size": "L",
+    "url": "https://runsignup.com/Race/ID/Nampa/NampaPumpkinSpice5K",
+    "description": "Running and walking on Thanksgiving morning! What could be better?? Make room for those second helpings by joining us at 8:00am Thanksgiving morning for an invigorating 5k on the beautiful greenbelt in Nampa! Thanksgiving themed costumes are highly encouraged!! This event is family friendly and r...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Nampa/NampaPumpkinSpice5K",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "f29094832207",
     "title": "Nampa Pumpkin Spice 5K",
     "start": "2026-11-26T08:00:00-07:00",
@@ -25694,6 +25837,32 @@
     ]
   },
   {
+    "id": "0c64ed23f43b",
+    "title": "Harvest Hustle 5k Run/Walk",
+    "start": "2026-11-26T09:00:00-07:00",
+    "end": "2026-11-26T10:00:59-07:00",
+    "allDay": false,
+    "venue": "Mountain Home",
+    "venueKey": "mountain-home",
+    "city": "Mountain Home",
+    "category": "sports",
+    "tags": [
+      "free-admission",
+      "race"
+    ],
+    "size": "L",
+    "costTier": "free",
+    "url": "https://runsignup.com/Race/ID/MountainHome/thanksgiving",
+    "description": "What better way to start your Thanksgiving than with a 5k? Come to the Harvest Hustle 5k at Legacy Park in Mountain Home and get a good calorie burn in before your festivities. This is a free event to support Lost Paws TNR and the Idaho Food Bank. Please bring a donation of non-perishable food fo...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/MountainHome/thanksgiving",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "5907f1c270a0",
     "title": "Turkey Day 5k",
     "start": "2026-11-26T09:00:00-07:00",
@@ -25714,6 +25883,54 @@
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/turkey-day-5k-4/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "9c9f16514150",
+    "title": "Turkey Day 5K Run/Walk",
+    "start": "2026-11-26T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell",
+    "venueKey": "caldwell",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "family-friendly",
+      "race"
+    ],
+    "size": "L",
+    "url": "https://runsignup.com/Race/ID/Caldwell/TurkeyDayKCaldwell",
+    "description": "Welcome to the annual Turkey Day 5k in Caldwell, Idaho’s favorite Thanksgiving Day tradition. Turkey Day 5K is a whole family fun run designed to kick off your day with fun, energy, and community. Bring the whole \"Flock\" and run or walk together on Thanksgiving morning! 2025 marks the 15th year t...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Caldwell/TurkeyDayKCaldwell",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
+    "id": "e74afcbaafd0",
+    "title": "Boise Turkey Day 5K Run/Walk",
+    "start": "2026-11-26T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "family-friendly",
+      "race"
+    ],
+    "size": "L",
+    "url": "https://runsignup.com/Race/ID/Boise/BoiseTurkeyDayK",
+    "description": "Welcome to the 15th annual Turkey Day 5k in Boise, Idaho’s favorite Thanksgiving Day tradition. Turkey Day 5K is a whole family fun run designed to kick off your day with fun, energy, and community. Bring the whole \"Flock\" and run or walk together on Thanksgiving morning! 2026 also marks the 15th...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/BoiseTurkeyDayK",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -26365,6 +26582,30 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/breakfast-with-santa/",
         "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "0570da3bb629",
+    "title": "Black Friday Birding at Hyatt Hidden Lakes",
+    "start": "2026-11-27T10:00:00-07:00",
+    "end": "2026-11-27T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Hyatt Hidden Lakes Reserve",
+    "venueKey": "hyatt-hidden-lakes-reserve",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "nature-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://www.eventbrite.com/e/black-friday-birding-at-hyatt-hidden-lakes-registration-2003378899217",
+    "sources": [
+      {
+        "name": "eventbrite-emmett",
+        "url": "https://www.eventbrite.com/e/black-friday-birding-at-hyatt-hidden-lakes-registration-2003378899217",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -27917,6 +28158,30 @@
       }
     ],
     "city": "Boise"
+  },
+  {
+    "id": "dd99478c47d8",
+    "title": "YMCA Thanksgiving Leftovers Fun Run",
+    "start": "2026-11-28T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "holiday-event",
+      "race"
+    ],
+    "size": "L",
+    "url": "https://runsignup.com/Race/ID/Boise/YMCAThanksgivingLeftoversFunRun",
+    "description": "The YMCA Thanksgiving Leftovers Fun Run! As part of our race community, you know how special race day gear can be! So here's a fun new twist! We have some awesome leftover swag from past events, and we’re giving you the chance to snag a cool hat, shirt, or even a medal from previous races. If you...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/YMCAThanksgivingLeftoversFunRun",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
   },
   {
     "id": "0d9b11ed61c6",
@@ -34107,6 +34372,30 @@
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/entrepreneur-business-summit-power-networking-lunch-6059",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "ca64f456b7bf",
+    "title": "CEO Summit/Power Lunch - Boise, Idaho",
+    "start": "2026-12-03T12:00:00-07:00",
+    "end": "2026-12-03T15:00:00-07:00",
+    "allDay": false,
+    "venue": "The Club at Spurwing",
+    "venueKey": "the-club-at-spurwing",
+    "city": "Meridian",
+    "category": "learning-business",
+    "tags": [
+      "conference"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://www.eventbrite.com/e/ceo-summitpower-lunch-boise-idaho-tickets-1993482731513",
+    "sources": [
+      {
+        "name": "eventbrite-emmett",
+        "url": "https://www.eventbrite.com/e/ceo-summitpower-lunch-boise-idaho-tickets-1993482731513",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -45172,6 +45461,30 @@
     ]
   },
   {
+    "id": "3fc2c029e1a2",
+    "title": "Holiday Hot Cocoa Hustle 5K",
+    "start": "2026-12-12T09:30:00-07:00",
+    "end": "2026-12-12T10:45:59-07:00",
+    "allDay": false,
+    "venue": "Eagle",
+    "venueKey": "eagle",
+    "city": "Eagle",
+    "category": "sports",
+    "tags": [
+      "race"
+    ],
+    "size": "L",
+    "url": "https://runsignup.com/Race/ID/Eagle/holidayhustlerun",
+    "description": "**** Please Read in Entirety **** Holiday Hot Cocoa Hustle 5K - Produced by Hi5K In Support of Girls on the Run Treasure Valley Sponsored by FLEET FEET TREASURE VALLEY A portion of all registration fees will be benefitting Girls on the Run! 100% of additional donations received through the donati...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Eagle/holidayhustlerun",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "69f8ac292739",
     "title": "The Library Book Club",
     "start": "2026-12-12T09:30:00-07:00",
@@ -46320,6 +46633,28 @@
         "name": "shrine-social-club",
         "url": "https://link.dice.fm/jceb6d61d894",
         "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "ff69c1610977",
+    "title": "Cantus Youth Choirs presents LIGHT OF THE WORLD",
+    "start": "2026-12-12T19:00:00-07:00",
+    "end": "2026-12-12T21:30:00-07:00",
+    "allDay": false,
+    "venue": "NNU Brandt Center",
+    "venueKey": "nnu-brandt-center",
+    "city": "Nampa",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.eventbrite.com/e/cantus-youth-choirs-presents-light-of-the-world-tickets-2002311258876",
+    "sources": [
+      {
+        "name": "eventbrite-emmett",
+        "url": "https://www.eventbrite.com/e/cantus-youth-choirs-presents-light-of-the-world-tickets-2002311258876",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -51981,6 +52316,27 @@
       }
     ],
     "city": "Boise"
+  },
+  {
+    "id": "8e336e8ca2f4",
+    "title": "The YMCA Christmas Run presented by FORD",
+    "start": "2026-12-19T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [],
+    "size": "M",
+    "url": "https://runsignup.com/Race/ID/Boise/YMCAChristmasRun",
+    "description": "‘Tis the season to sparkle! Make this a December to remember with Santa, family, and friends at the YMCA Christmas Run! Create a new tradition or continue a long-standing one! Celebrate the holiday season as a family by running or walking together. We are so excited for this Treasure Valley tradi...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/YMCAChristmasRun",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
   },
   {
     "id": "9659bd10f1b0",
@@ -75632,6 +75988,28 @@
     ]
   },
   {
+    "id": "11d22b80cc7d",
+    "title": "The CBH Hearts Across the Valley Love Run presented by CBH and The YMCA",
+    "start": "2027-02-13T10:00:00-07:00",
+    "end": "2027-02-13T12:30:59-07:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [],
+    "size": "M",
+    "url": "https://runsignup.com/Race/ID/Boise/CBHTheHeartsAcrossTheValleyLoveRun",
+    "description": "Join CBH Homes and The Treasure Valley YMCA in the CBH Hearts Across the Valley Love Run.",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/CBHTheHeartsAcrossTheValleyLoveRun",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "1620e030cba0",
     "title": "Brundage Speed Dating",
     "start": "2027-02-13T10:30:00-07:00",
@@ -82645,6 +83023,27 @@
     "city": "Boise"
   },
   {
+    "id": "448a2b5afe79",
+    "title": "YMCA St. Patrick's Day Run",
+    "start": "2027-03-13T09:45:00-07:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [],
+    "size": "M",
+    "url": "https://runsignup.com/Race/ID/Boise/YMCAStPatricksDayRun",
+    "description": "Trade your pot of gold for a pair of sneakers and join us for the most spirited St. Patrick's Day celebration in town! Spring into action with our YMCA St. Patrick's Day River Dash, where green isn't just a color; it's a way of life. Get ready to run, laugh, and showcase your shamrock swagger – i...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/YMCAStPatricksDayRun",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "36bf20bcdd79",
     "title": "Guided Walk-In Capitol Tours",
     "start": "2027-03-13T10:30:00-07:00",
@@ -85603,6 +86002,29 @@
     "city": "Boise"
   },
   {
+    "id": "86b495a2aca4",
+    "title": "The YMCA Easter Run",
+    "start": "2027-03-27T10:00:00-06:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "easter"
+    ],
+    "size": "M",
+    "url": "https://runsignup.com/Race/ID/Boise/TheYMCAEasterRun",
+    "description": "The YMCA Easter Run! Hop into spring at the YMCA’s 2nd Annual Easter Race! Join us on Saturday March 27, 2027 for a celebration of fitness, family, and fun. Choose between a 1-Mile Fun Run or a 5K! Whether you’re racing for a personal best or hopping along with the family, this event is all about...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/TheYMCAEasterRun",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "5d752445e632",
     "title": "Guided Walk-In Capitol Tours",
     "start": "2027-03-27T10:30:00-06:00",
@@ -87231,6 +87653,30 @@
       }
     ],
     "city": "Boise"
+  },
+  {
+    "id": "031891a9f3b8",
+    "title": "Serenata Shuffle",
+    "start": "2027-04-03T10:00:00-06:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "free-admission"
+    ],
+    "size": "M",
+    "costTier": "free",
+    "url": "https://runsignup.com/Race/ID/Boise/SerenataShuffle",
+    "description": "What’s the Serenata Shuffle? The Serenata Shuffle is a fun, music-filled race along Boise’s Greenbelt. Choose between a timed 5K or a 1-Mile Fun Run, perfect for runners, walkers, and families. Starting and finishing at Veterans Memorial Park, the course features live performances from Serenata O...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/SerenataShuffle",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
   },
   {
     "id": "5dc372e586d3",
@@ -90134,6 +90580,27 @@
     ]
   },
   {
+    "id": "1a627fe919b7",
+    "title": "Race to Robie Creek®",
+    "start": "2027-04-17",
+    "allDay": true,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [],
+    "size": "M",
+    "url": "https://runsignup.com/Race/ID/Boise/RacetoRobieCreek",
+    "description": "Join us for the next Race to Robie Creek® on Saturday, April 17, 2027 at high noon (MT). Registration begins on Monday, February 15, 2027 at noon (MT). If you have questions, please check out the Frequently Asked Questions & Race Details tabs.",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/RacetoRobieCreek",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
     "id": "41bf5ba6dc5d",
     "title": "Race to Robie Creek®",
     "start": "2027-04-17",
@@ -90465,6 +90932,28 @@
         "name": "ticketmaster-metro",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70O-7",
         "fetchedAt": "2026-11-03T17:00:01Z"
+      }
+    ]
+  },
+  {
+    "id": "23ccbf7c030a",
+    "title": "Boise Plogs 2027",
+    "start": "2027-04-18",
+    "end": "2027-04-25",
+    "allDay": true,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [],
+    "size": "M",
+    "url": "https://runsignup.com/Race/ID/Boise/BoisePlogs",
+    "description": "Plogging is a combination of running or walking and picking up trash you see on your route. It is an up-and-coming fitness trend that brings variety to your workouts while helping to keep the environment clean and healthy. Boise Plogs is a fitness initiative for both the individual and the planet...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/BoisePlogs",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -91615,6 +92104,28 @@
         "name": "knitting-factory-boise",
         "url": "https://www.ticketmaster.com/connor-wood-boise-idaho-04-23-2027/event/1E006505F45879D9",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "46e0f81947be",
+    "title": "Boise Greenbelt Relays & 50 Mile Ultra",
+    "start": "2027-04-24T07:00:00-06:00",
+    "end": "2027-04-24T17:00:59-06:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [],
+    "size": "M",
+    "url": "https://runsignup.com/Race/ID/Boise/BoiseRiverGreenbeltRelays",
+    "description": "Boise Greenbelt Relays | Saturday, April 24, 2027 Run the entire Boise River Greenbelt with your friends at the Treasure Valley’s only relay race! This 45-mile loop starts and finishes at Ann Morrison Park and passes through Garden City, Eagle, and Southeast Boise. Going solo? Take on our 50-mile...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/BoiseRiverGreenbeltRelays",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },
@@ -92989,6 +93500,31 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/home-depot-kids-workshop-9/2027-05-01/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "8fd3967ed451",
+    "title": "Kick for Kenya 5K",
+    "start": "2027-05-01T09:30:00-06:00",
+    "allDay": false,
+    "venue": "Boise",
+    "venueKey": "boise",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "kids",
+      "race"
+    ],
+    "size": "L",
+    "costTier": "$$$",
+    "url": "https://runsignup.com/Race/ID/Boise/KickforKenyaandCleanWater",
+    "description": "Please join us on Saturday morning, May 1, for the 2027 Kick for Kenya 5K! Run or walk for a cause - race proceeds will be used to fund projects in rural southeastern Kenya in partnership with Kenya Kids (US-based nonprofit), Touch Africa Child Education Project (TACEP, a Kenyan NGO), Gotani Comm...",
+    "sources": [
+      {
+        "name": "runsignup-treasure-valley",
+        "url": "https://runsignup.com/Race/ID/Boise/KickforKenyaandCleanWater",
+        "fetchedAt": "2026-11-10T17:37:18Z"
       }
     ]
   },

@@ -3176,7 +3176,8 @@
         "url": "https://visualartscollective.com/events/sinfully-yours/",
         "fetchedAt": "2026-11-03T17:00:01Z"
       }
-    ]
+    ],
+    "costTier": "$$"
   },
   {
     "id": "d661c308eda9",
@@ -9857,7 +9858,8 @@
         "url": "https://visualartscollective.com/events/mummy-dearest/",
         "fetchedAt": "2026-11-03T17:00:01Z"
       }
-    ]
+    ],
+    "costTier": "$$"
   },
   {
     "id": "d9e78d380699",
@@ -13239,6 +13241,7 @@
         "url": "https://visualartscollective.com/events/grateful-11th-annual-halloween-show/",
         "fetchedAt": "2026-11-03T17:00:01Z"
       }
-    ]
+    ],
+    "costTier": "$$"
   }
 ]

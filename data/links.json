@@ -15558,10 +15558,124 @@
       "checkedAt": "2026-11-08T23:21:37Z",
       "failures": 0
     },
+    "https://runsignup.com/Race/ID/Boise/ARunToInspireKidz": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/BoiseHalfMarathon": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/BoisePlogs": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/BoiseRiverGreenbeltRelays": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/BoiseTurkeyDayK": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/CBHTheHeartsAcrossTheValleyLoveRun": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/EarlyBirdTurkeyTrot5K10K15KHalfMarathonBoise": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/KickforKenyaandCleanWater": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
     "https://runsignup.com/Race/ID/Boise/RacetoRobieCreek": {
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-10T03:19:06Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/SerenataShuffle": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/TheYMCAEasterRun": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/YMCAChristmasRun": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/YMCAStPatricksDayRun": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Boise/YMCAThanksgivingLeftoversFunRun": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Caldwell/TurkeyDayKCaldwell": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Caldwell/VisionCharterXC4ThAnnualTurkeyTrot": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Eagle/holidayhustlerun": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Eagle/ValnovaCommunityTurkeyTrot": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/MountainHome/thanksgiving": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://runsignup.com/Race/ID/Nampa/NampaPumpkinSpice5K": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
       "failures": 0
     },
     "https://sapphiresocietyboise.com/events/60sduos": {
@@ -18594,6 +18708,18 @@
       "checkedAt": "2026-11-08T23:21:37Z",
       "failures": 0
     },
+    "https://visualartscollective.com/events/jeff-crosbys-13th-annual-homecoming-run/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://visualartscollective.com/events/let-em-throw-cake/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
     "https://warhawkairmuseum.org/event/homeschool-family-days-april/": {
       "verdict": "ok",
       "status": 200,
@@ -19390,6 +19516,54 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-07T03:44:25Z",
+      "failures": 0
+    },
+    "https://www.eventbrite.com/e/a-courtly-book-club-tickets-1992585804781": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://www.eventbrite.com/e/black-friday-birding-at-hyatt-hidden-lakes-registration-2003378899217": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://www.eventbrite.com/e/boise-cozy-fall-reading-retreat-tickets-2003369105925": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://www.eventbrite.com/e/cantus-youth-choirs-presents-light-of-the-world-tickets-2002311258876": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://www.eventbrite.com/e/ceo-summitpower-lunch-boise-idaho-tickets-1993482731513": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://www.eventbrite.com/e/meridian-thanksgiving-pie-and-roll-tasting-class-tickets-1999589354587": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://www.eventbrite.com/e/mike-zito-tickets-1993170802525": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
+      "failures": 0
+    },
+    "https://www.eventbrite.com/e/wcr-installation-of-officers-tickets-2003786717011": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T17:50:10Z",
       "failures": 0
     },
     "https://www.facebook.com/events/1069460215741086/1069460289074412?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true": {
