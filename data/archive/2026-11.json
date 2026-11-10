@@ -9292,6 +9292,55 @@
     ]
   },
   {
+    "id": "573a7482e56c",
+    "title": "Boise State University Esports Ohio State",
+    "start": "2026-11-09",
+    "allDay": true,
+    "venue": "Boise State Esports Arena",
+    "venueKey": "boise-state-esports-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "esports"
+    ],
+    "size": "S",
+    "url": "https://admin.broncosports.com/calendar.aspx?game_id=23207&sport_id=35",
+    "description": "TV: Boise State Twitch - Rocket League Streaming Video: https://twitch.tv/boisestate",
+    "sources": [
+      {
+        "name": "boise-state-athletics",
+        "url": "https://admin.broncosports.com/calendar.aspx?game_id=23207&sport_id=35",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "e7ad0683bdcc",
+    "title": "Free 4×6 Santa Photo | Cabela’s Boise",
+    "start": "2026-11-09",
+    "allDay": true,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-09/",
+    "description": "Choose your free photo appointment with Santa Appointments are available 1 week from the current day. All new appointments are released at 12:01 AM for the next available day. If all slots show UNAVAILABLE this means all bookings have been reserved for those dates and times. Please try again late...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-09/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
     "id": "969dbdac7ece",
     "title": "Tales and Trails - Hyatt Hidden Lakes Reserve",
     "start": "2026-11-09T09:00:00-07:00",

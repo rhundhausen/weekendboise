@@ -8190,6 +8190,12 @@
       "checkedAt": "2026-11-07T07:19:15Z",
       "failures": 0
     },
+    "https://boisepubliclibrary.libcal.com/event/15106479": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
+      "failures": 0
+    },
     "https://boisepubliclibrary.libcal.com/event/15110563": {
       "verdict": "ok",
       "status": 200,
@@ -8262,6 +8268,12 @@
       "checkedAt": "2026-11-06T19:54:07Z",
       "failures": 0
     },
+    "https://boisepubliclibrary.libcal.com/event/15142320": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
+      "failures": 0
+    },
     "https://boisepubliclibrary.libcal.com/event/15142393": {
       "verdict": "ok",
       "status": 200,
@@ -8284,6 +8296,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-07T03:44:25Z",
+      "failures": 0
+    },
+    "https://boisepubliclibrary.libcal.com/event/15142429": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://boisepubliclibrary.libcal.com/event/15185073": {
@@ -8350,6 +8368,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-07T03:44:25Z",
+      "failures": 0
+    },
+    "https://boisepubliclibrary.libcal.com/event/15301984": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://boisepubliclibrary.libcal.com/event/15302054": {
@@ -8772,6 +8796,12 @@
       "checkedAt": "2026-11-06T23:39:06Z",
       "failures": 0
     },
+    "https://boisepubliclibrary.libcal.com/event/16237069": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
+      "failures": 0
+    },
     "https://boisepubliclibrary.libcal.com/event/16237124": {
       "verdict": "ok",
       "status": 200,
@@ -8950,6 +8980,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-06T23:39:06Z",
+      "failures": 0
+    },
+    "https://boisepubliclibrary.libcal.com/event/16513649": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://boisepubliclibrary.libcal.com/event/16524521": {
@@ -9180,10 +9216,22 @@
       "checkedAt": "2026-11-09T07:24:49Z",
       "failures": 0
     },
+    "https://boisepubliclibrary.libcal.com/event/17114541": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
+      "failures": 0
+    },
     "https://boisepubliclibrary.libcal.com/event/17115980": {
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-06T07:04:43Z",
+      "failures": 0
+    },
+    "https://boisepubliclibrary.libcal.com/event/17115981": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://boisepubliclibrary.libcal.com/event/17122432": {
@@ -9244,6 +9292,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-07T03:44:25Z",
+      "failures": 0
+    },
+    "https://boisepubliclibrary.libcal.com/event/17214211": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://boisepubliclibrary.libcal.com/event/17218791": {
@@ -9330,6 +9384,12 @@
       "checkedAt": "2026-11-07T03:44:25Z",
       "failures": 0
     },
+    "https://boisepubliclibrary.libcal.com/event/17580079": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
+      "failures": 0
+    },
     "https://boisepubliclibrary.libcal.com/event/17629844": {
       "verdict": "ok",
       "status": 200,
@@ -9352,6 +9412,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-08T07:23:40Z",
+      "failures": 0
+    },
+    "https://boisepubliclibrary.libcal.com/event/17754663": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://boisepubliclibrary.libcal.com/event/17770734": {
@@ -19278,6 +19344,12 @@
       "checkedAt": "2026-11-07T03:44:25Z",
       "failures": 0
     },
+    "https://www.cityofcaldwell.org/City-Calendar/Winter-Wonderland-Festival": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
+      "failures": 0
+    },
     "https://www.curbsidebooks.com/pages/events": {
       "verdict": "ok",
       "status": 200,
@@ -19740,6 +19812,12 @@
       "checkedAt": "2026-11-08T06:42:51Z",
       "failures": 0
     },
+    "https://www.meetup.com/amor-immortalem/events/nbjjbvykccbxb/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
+      "failures": 0
+    },
     "https://www.meetup.com/aws-boise-user-group/events/317274666/": {
       "verdict": "ok",
       "status": 200,
@@ -19810,6 +19888,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-07T03:44:25Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/boise-active-seniors-meetup-group-for-fun-activities/events/317364880/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://www.meetup.com/boise-ai-and-data-engineering-meetup-group/events/316912832/": {
@@ -19912,6 +19996,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-10T03:19:06Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/boise-arts-community/events/317105572/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://www.meetup.com/boise-arts-community/events/317109722/": {
@@ -20086,6 +20176,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-08T07:23:40Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/boise-country-dancers/events/317139623/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-10T07:23:01Z",
       "failures": 0
     },
     "https://www.meetup.com/boise-crafts-cardmaking-meetup-group/events/316678528/": {

@@ -12813,6 +12813,29 @@
     ]
   },
   {
+    "id": "5ece79af78e1",
+    "title": "Dillon Francis",
+    "start": "2026-10-30T17:00:00-06:00",
+    "end": "2026-10-30T22:00:00-06:00",
+    "allDay": false,
+    "venue": "Bluebird Social",
+    "venueKey": "bluebird-social",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://bluebirdsocial.com/events/dillon-francis/",
+    "description": "Dillon Francis has been pushing dance music forward for more than a decade with his signature mix of house, moombahton, trap and massive festival energy. From iconic tracks like “Get Low” with DJ Snake to stages around the world, Dillon brings a high-energy live show built for one thing: a party....",
+    "sources": [
+      {
+        "name": "bluebird-social",
+        "url": "https://bluebirdsocial.com/events/dillon-francis/",
+        "fetchedAt": "2026-11-10T07:04:42Z"
+      }
+    ]
+  },
+  {
     "id": "c03042c3f15e",
     "title": "Dillon Francis @ Bluebird Social",
     "start": "2026-10-30T17:00:00-06:00",
