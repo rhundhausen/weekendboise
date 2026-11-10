@@ -8,8 +8,11 @@
 
 <header class="top">
   <div class="wrap">
-    <p class="crumb"><a class="brand" href="{{ relURL "/" }}"><span class="logo logo-sm" aria-hidden="true"></span>{{ site.Title }}</a></p>
-    <h1>About</h1>
+    {{- /* The site name at the same size as on the home page, linking back to it. */}}
+    <div class="top-row">
+      <a class="brand site-name" href="{{ relURL "/" }}"><span class="logo" aria-hidden="true"></span>{{ site.Title }}</a>
+    </div>
+    <h1 class="page-title">About</h1>
     <p class="sub">Things to do this weekend, and every day, across the Treasure Valley, in one list.</p>
   </div>
 </header>
