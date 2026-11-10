@@ -14,7 +14,7 @@ An idea needs only `displayName`. An entry with a `name` is a configured source 
 | `status` | no | `idea` (the default when missing), `investigating`, `feed-found`, `ready`, `running`, or `ruled-out`. Ingest runs only `running` |
 | `reason` | `ruled-out` | Why it was ruled out |
 | `name` | `running` | Unique slug, also the per-source output file name. Setting it makes the entry a configured source |
-| `adapter` | configured, `ready` | `cityofboise`, `eventastic`, `ics`, `rss`, `tribe`, `ticketmaster`, `eventbrite`, `eventbrite-search`, `seatgeek`, `songkick`, `bandsintown`, or `scrape`. `other` is allowed on ideas that need a new adapter, never on a configured entry |
+| `adapter` | configured, `ready` | `cityofboise`, `eventastic`, `googlecalendar`, `ics`, `rss`, `tribe`, `ticketmaster`, `eventbrite`, `eventbrite-search`, `seatgeek`, `songkick`, `bandsintown`, or `scrape`. `other` is allowed on ideas that need a new adapter, never on a configured entry |
 | `url` | configured, `feed-found`, `ready` | Feed or API endpoint, or the site for an idea |
 | `category` | configured | An id from `data/schema/categories.json`, used for this source's events. With `inferCategory`, it's the fallback |
 | `inferCategory` | no | `true` chooses each event's category from its tags. Use it for sources that mix many kinds of event. See [schema.md](schema.md#categories-and-tags) |
@@ -104,6 +104,21 @@ For WordPress sites running the Eventastic plugin by Madden Media (Visit McCall;
 | `latlong`, `radius` | yes | Center as `lat,lon`, and radius in miles |
 
 `url` is `https://api.seatgeek.com/2/events`. Requires the `SEATGEEK_CLIENT_ID` environment variable. Only Idaho venues are kept. The lowest price sets the cost tier; the price itself is not stored. Disabled: built from the documented response and never run live.
+
+### googlecalendar
+
+| Field | Required | Notes |
+| --- | --- | --- |
+| `calendarId` | yes | The public calendar's id, such as `name@gmail.com` or `...@group.calendar.google.com`. It is in the embed's `src=` |
+| `excludeTitles` | no | Titles to skip, matched from the start of the title, ignoring case. Added to the defaults: Library Closed, Library closed-, City Council Meeting, Planning and Zoning Meeting, School Board Meeting, Library Board Meeting |
+| `venueAliases` | no | Location text to canonical venue name, so variant spellings become one venue. A location matches on its whole text or the part before its first comma, ignoring case. Naming the entry's `venue` keeps its `venueKey` |
+| `excludeTitlePattern` | no | Regex, as for the other adapters |
+
+Reads a public Google Calendar through the Calendar API v3 (`events.list` on `www.googleapis.com`, which has no robots.txt). This is Google's supported way for programs to read a calendar; `calendar.google.com` itself disallows crawling, so its embed and iCal links are never read. `url` is the organization's own calendar page, for people. Requires the `GOOGLE_CALENDAR_API_KEY` environment variable.
+
+It asks for the next 90 days with `singleEvents=true` and `orderBy=startTime`, so Google expands repeating events and applies each instance's changes and exclusions; no RRULE is parsed here. Times are requested in `America/Denver` and stored with the Boise offset; all-day events keep their dates, with the API's exclusive end date made inclusive. Cancelled events, and titles starting with "Canceled" or "Cancelled" in any case, are skipped. Descriptions lose their HTML. A blank location uses the entry's `venue` and `city`. Each event links to its Google Calendar page (`htmlLink`), and an event id listed twice at the same start is kept once.
+
+Without the key, or when the API answers 403 or 404 (the calendar is not public, or the id is wrong), only that source fails; the rest of the run goes on. Adding another calendar needs only a new entry.
 
 ### songkick
 

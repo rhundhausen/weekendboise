@@ -44,6 +44,9 @@ Describe 'Hide-TvSecret' {
   It 'masks <name>' -ForEach @(
     @{ name = 'apikey'; text = 'https://x.test/e?size=1&apikey=SECRET&page=2'; want = 'https://x.test/e?size=1&apikey=***&page=2' }
     @{ name = 'app_id'; text = 'https://x.test/e?app_id=SECRET'; want = 'https://x.test/e?app_id=***' }
+    @{ name = 'key'; text = 'https://www.googleapis.com/calendar/v3/calendars/a%40b.com/events?key=SECRET&singleEvents=true'; want = 'https://www.googleapis.com/calendar/v3/calendars/a%40b.com/events?key=***&singleEvents=true' }
+    @{ name = 'key as the last parameter'; text = 'HTTP 403 from https://x.test/e?pageToken=abc&key=SECRET'; want = 'HTTP 403 from https://x.test/e?pageToken=abc&key=***' }
+    @{ name = 'nothing in apikeys or monkey'; text = 'https://x.test/e?monkey=1'; want = 'https://x.test/e?monkey=1' }
   ) {
     Hide-TvSecret $text | Should -Be $want
   }

@@ -1,0 +1,58 @@
+{
+  "kind": "calendar#events",
+  "summary": "Example Library",
+  "timeZone": "America/Denver",
+  "nextPageToken": "PAGE2",
+  "items": [
+    {
+      "id": "storytime_20261112T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=c3Rvcnl0aW1l",
+      "summary": "Storytime",
+      "description": "<p>Songs &amp; stories<br>for ages 0-5</p>",
+      "start": { "dateTime": "2026-11-12T10:30:00-07:00", "timeZone": "America/Denver" },
+      "end": { "dateTime": "2026-11-12T11:15:00-07:00", "timeZone": "America/Denver" }
+    },
+    {
+      "id": "craftfair",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y3JhZnRmYWly",
+      "summary": "Holiday Craft Fair",
+      "location": "Example Library Annex, 12 Main St, Middleton, ID 83644",
+      "start": { "date": "2026-12-05" },
+      "end": { "date": "2026-12-07" }
+    },
+    {
+      "id": "legoclub",
+      "status": "cancelled",
+      "htmlLink": "https://www.google.com/calendar/event?eid=bGVnb2NsdWI",
+      "summary": "Lego Club",
+      "start": { "dateTime": "2026-11-13T16:00:00-07:00" },
+      "end": { "dateTime": "2026-11-13T17:00:00-07:00" }
+    },
+    {
+      "id": "teennight",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=dGVlbm5pZ2h0",
+      "summary": "Canceled - Teen Night",
+      "start": { "dateTime": "2026-11-14T18:00:00-07:00" },
+      "end": { "dateTime": "2026-11-14T20:00:00-07:00" }
+    },
+    {
+      "id": "bookclub",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Ym9va2NsdWI",
+      "summary": "CANCELLED Book Club",
+      "start": { "dateTime": "2026-11-17T18:30:00-07:00" },
+      "end": { "dateTime": "2026-11-17T19:30:00-07:00" }
+    },
+    {
+      "id": "closed",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y2xvc2Vk",
+      "summary": "Library closed- Thanksgiving",
+      "start": { "date": "2026-11-26" },
+      "end": { "date": "2026-11-27" }
+    }
+  ]
+}

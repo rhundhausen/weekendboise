@@ -1,0 +1,49 @@
+{
+  "kind": "calendar#events",
+  "summary": "Example Library",
+  "timeZone": "America/Denver",
+  "items": [
+    {
+      "id": "storytime_20261112T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=c3Rvcnl0aW1l",
+      "summary": "Storytime",
+      "start": { "dateTime": "2026-11-12T10:30:00-07:00" },
+      "end": { "dateTime": "2026-11-12T11:15:00-07:00" }
+    },
+    {
+      "id": "storytime_20261119T173000Z",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=c3Rvcnl0aW1lMg",
+      "summary": "Storytime",
+      "location": "example library main",
+      "start": { "dateTime": "2026-11-19T10:30:00-07:00" },
+      "end": { "dateTime": "2026-11-19T11:15:00-07:00" }
+    },
+    {
+      "id": "council",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=Y291bmNpbA",
+      "summary": "City Council Meeting",
+      "start": { "dateTime": "2026-11-18T19:00:00-07:00" },
+      "end": { "dateTime": "2026-11-18T21:00:00-07:00" }
+    },
+    {
+      "id": "friends",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=ZnJpZW5kcw",
+      "summary": "Friends of the Library",
+      "start": { "dateTime": "2026-11-20T10:00:00-07:00" },
+      "end": { "dateTime": "2026-11-20T11:00:00-07:00" }
+    },
+    {
+      "id": "pottery",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=cG90dGVyeQ",
+      "summary": "Pottery Workshop",
+      "location": "Middleton Community Center, 310 Cornell St, Middleton, ID 83644",
+      "start": { "dateTime": "2026-11-21T13:00:00-07:00" },
+      "end": { "dateTime": "2026-11-21T15:00:00-07:00" }
+    }
+  ]
+}

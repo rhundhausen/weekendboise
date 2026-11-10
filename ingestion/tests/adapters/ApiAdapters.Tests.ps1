@@ -147,6 +147,145 @@ Describe 'seatgeek adapter' {
   }
 }
 
+Describe 'googlecalendar adapter' {
+  # Two pages in the Calendar API v3 events.list shape (singleEvents=true), hand-written with
+  # made-up ids: one case per rule.
+  BeforeAll {
+    $script:gcSource = New-TestSource 'googlecalendar' @{
+      calendarId = 'examplelibrary@gmail.com'; url = 'https://example-library.test/calendar/'
+      category = 'learning-business'; inferCategory = $true; city = 'Middleton'
+      venue = 'Example Library'; venueKey = 'example-library'
+      excludeTitles = @('Friends of the Library')
+      venueAliases = [pscustomobject]@{ 'Example Library Annex' = 'Example Library'; 'Example Library Main' = 'Example Library' }
+    }
+    $pages = @('page1.json', 'page2.json') | ForEach-Object { Get-Content (Join-Path $repo 'tests' 'fixtures' 'googlecalendar' $_) -Raw }
+    $script:gcEvents = @(& (Join-Path $repo 'scripts/adapters/googlecalendar.ps1') -Source $gcSource -FetchedAt $fetchedAt -Response $pages)
+    function script:Get-GcEvent([string]$Title) { @($gcEvents | Where-Object title -eq $Title) }
+  }
+
+  It 'keeps the four real events across both pages' {
+    $gcEvents.Count | Should -Be 4
+    @($gcEvents.title | Sort-Object -Unique) | Should -Be @('Holiday Craft Fair', 'Pottery Workshop', 'Storytime')
+  }
+
+  It 'skips an event whose status is cancelled' {
+    $gcEvents.title | Should -Not -Contain 'Lego Club'
+  }
+
+  It 'skips titles that start with CANCELED or CANCELLED, in any case' {
+    $gcEvents.title | Should -Not -Match 'Teen Night|Book Club'
+  }
+
+  It 'skips the default excluded titles' {
+    $gcEvents.title | Should -Not -Match 'closed|Council'
+  }
+
+  It "skips the calendar's own excluded titles" {
+    $gcEvents.title | Should -Not -Contain 'Friends of the Library'
+  }
+
+  It 'reads a timed event in Boise time and strips HTML from its description' {
+    $story = (Get-GcEvent 'Storytime')[0]
+    $story.start | Should -Be '2026-11-12T10:30:00-07:00'
+    $story.end | Should -Be '2026-11-12T11:15:00-07:00'
+    $story.allDay | Should -BeFalse
+    $story.description | Should -Be 'Songs & stories for ages 0-5'
+  }
+
+  It 'reads an all-day event with an inclusive end date' {
+    $fair = (Get-GcEvent 'Holiday Craft Fair')[0]
+    $fair.allDay | Should -BeTrue
+    $fair.start | Should -Be '2026-12-05'
+    $fair.end | Should -Be '2026-12-06'
+  }
+
+  It 'uses the default venue and city when the location is blank' {
+    $story = (Get-GcEvent 'Storytime')[0]
+    $story.venue | Should -Be 'Example Library'
+    $story.venueKey | Should -Be 'example-library'
+    $story.city | Should -Be 'Middleton'
+  }
+
+  It 'collapses aliased locations to the canonical venue, ignoring case' {
+    (Get-GcEvent 'Holiday Craft Fair')[0].venueKey | Should -Be 'example-library'
+    (Get-GcEvent 'Storytime')[1].venueKey | Should -Be 'example-library'
+  }
+
+  It 'reads any other location as venue and city' {
+    $pottery = (Get-GcEvent 'Pottery Workshop')[0]
+    $pottery.venue | Should -Be 'Middleton Community Center'
+    $pottery.city | Should -Be 'Middleton'
+  }
+
+  It "links each event to its Google Calendar page under the library's source name" {
+    $story = (Get-GcEvent 'Storytime')[0]
+    $story.url | Should -Be 'https://www.google.com/calendar/event?eid=c3Rvcnl0aW1l'
+    $story.sources[0].name | Should -Be 'test-googlecalendar'
+    $story.sources[0].url | Should -Be $story.url
+  }
+
+  It 'keeps one copy of an event id and start listed twice, and each instance of a repeat' {
+    @(Get-GcEvent 'Storytime').start | Should -Be @('2026-11-12T10:30:00-07:00', '2026-11-19T10:30:00-07:00')
+  }
+
+  It 'fails clearly without an API key' {
+    $saved = $env:GOOGLE_CALENDAR_API_KEY
+    $env:GOOGLE_CALENDAR_API_KEY = $null
+    try {
+      { & (Join-Path $repo 'scripts/adapters/googlecalendar.ps1') -Source $gcSource -FetchedAt $fetchedAt } | Should -Throw '*GOOGLE_CALENDAR_API_KEY is not set*'
+    } finally {
+      $env:GOOGLE_CALENDAR_API_KEY = $saved
+    }
+  }
+
+  It 'asks for expanded instances over the next 90 days in Mountain time, and pages' {
+    $saved = $env:GOOGLE_CALENDAR_API_KEY
+    $env:GOOGLE_CALENDAR_API_KEY = 'SECRET'
+    $global:TvApiRequests = [System.Collections.Generic.List[object]]::new()
+    try {
+      Mock Invoke-WebRequest {
+        $global:TvApiRequests.Add(([uri]$Uri).AbsoluteUri)
+        if ($global:TvApiRequests.Count -eq 1) { New-FakeResponse 200 '{"items":[],"nextPageToken":"NEXT TOKEN"}' }
+        else { New-FakeResponse 200 '{"items":[]}' }
+      }
+      $null = & (Join-Path $repo 'scripts/adapters/googlecalendar.ps1') -Source $gcSource -FetchedAt $fetchedAt
+      $global:TvApiRequests.Count | Should -Be 2
+      $first = $global:TvApiRequests[0]
+      $first | Should -BeLike 'https://www.googleapis.com/calendar/v3/calendars/examplelibrary%40gmail.com/events?*'
+      $first | Should -Match 'singleEvents=true'
+      $first | Should -Match 'orderBy=startTime'
+      $first | Should -Match 'timeZone=America%2FDenver'
+      $first | Should -Match 'key=SECRET'
+      $query = [System.Web.HttpUtility]::ParseQueryString(([uri]$first).Query)
+      $from = [DateTimeOffset]::Parse($query['timeMin'], [Globalization.CultureInfo]::InvariantCulture)
+      $to = [DateTimeOffset]::Parse($query['timeMax'], [Globalization.CultureInfo]::InvariantCulture)
+      ($to - $from).TotalDays | Should -Be 90
+      [Math]::Abs(([DateTimeOffset]::UtcNow - $from).TotalMinutes) | Should -BeLessThan 5
+      $global:TvApiRequests[1] | Should -Match 'pageToken=NEXT%20TOKEN'
+    } finally {
+      $env:GOOGLE_CALENDAR_API_KEY = $saved
+      Remove-Variable -Name TvApiRequests -Scope Global -ErrorAction SilentlyContinue
+    }
+  }
+
+  It 'explains HTTP <status> as a calendar that is not public or a wrong id, without the key' -ForEach @(
+    @{ status = 403 }
+    @{ status = 404 }
+  ) {
+    $saved = $env:GOOGLE_CALENDAR_API_KEY
+    $env:GOOGLE_CALENDAR_API_KEY = 'SECRET'
+    try {
+      Mock Invoke-WebRequest { New-FakeResponse $status '{"error":{}}' }
+      $thrown = $null
+      try { & (Join-Path $repo 'scripts/adapters/googlecalendar.ps1') -Source $gcSource -FetchedAt $fetchedAt } catch { $thrown = "$_" }
+      $thrown | Should -BeLike "*examplelibrary@gmail.com*not public or the calendar ID is wrong*HTTP $status*"
+      $thrown | Should -Not -Match 'SECRET'
+    } finally {
+      $env:GOOGLE_CALENDAR_API_KEY = $saved
+    }
+  }
+}
+
 Describe 'songkick adapter' {
   BeforeAll {
     $source = New-TestSource 'songkick' @{ metroAreaId = '1' }

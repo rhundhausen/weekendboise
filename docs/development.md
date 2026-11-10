@@ -108,11 +108,12 @@ API keys are read from environment variables only. Copy `ingestion/.env.example.
   - **Weekly local reminder:** the ingest `report` job's last step, `Send-LocalReminder.ps1`, sends only on the scheduled Sunday run and only when a running source is marked local. Preview it with `./ingestion/scripts/Send-LocalReminder.ps1 -Force -PreviewPath ./out/reminder` (it emails only when both secrets are set).
   - **Previewing locally:** `./ingestion/scripts/Send-Report.ps1 -Kind ingest -PreviewPath ./out/report` writes `out/report.txt` and `.html`, and sends nothing unless both secrets are set as environment variables.
 
-Create these repository secrets (Settings > Secrets and variables > Actions). Only `TICKETMASTER_KEY` is needed for sources today; the other API keys are for sources that are built but not running yet. An unset secret reaches the scripts as empty. Only the ingest step gets the API keys; both workflows' email steps get `RESEND_API_KEY` and `REPORT_EMAIL`, which is kept as a secret so the address stays out of this public repo.
+Create these repository secrets (Settings > Secrets and variables > Actions). Only `TICKETMASTER_KEY` and `GOOGLE_CALENDAR_API_KEY` are needed for sources today; the other API keys are for sources that are built but not running yet. An unset secret reaches the scripts as empty. Only the ingest step gets the API keys; both workflows' email steps get `RESEND_API_KEY` and `REPORT_EMAIL`, which is kept as a secret so the address stays out of this public repo.
 
 | Secret | Used by |
 | --- | --- |
 | `TICKETMASTER_KEY` | Ticketmaster (running) |
+| `GOOGLE_CALENDAR_API_KEY` | Google Calendar sources (running): a Google Cloud API key with the Calendar API enabled, restricted to that API |
 | `BANDSINTOWN_APP_ID` | Bandsintown (needs an approved app id) |
 | `EVENTBRITE_TOKEN` | Eventbrite (disabled) |
 | `SEATGEEK_CLIENT_ID` | SeatGeek (disabled) |

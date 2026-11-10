@@ -6069,13 +6069,20 @@
       "lastChecked": "2026-11-09"
     },
     {
+      "name": "cascade-public-library",
       "displayName": "Cascade Public Library",
-      "status": "ruled-out",
+      "status": "running",
+      "adapter": "googlecalendar",
+      "calendarId": "cascadelibraryidaho@gmail.com",
       "url": "https://cascade.lili.org/",
       "robotsChecked": "2026-11-09",
-      "city": "Valley County",
       "category": "learning-business",
-      "reason": "Its calendar (checked 2026-11-09) is a Google Calendar embed (cascadelibraryidaho@gmail.com), and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events, unlike Donnelly Library on the same lili.org platform. robots.txt on cascade.lili.org allows all but /wp-admin/"
+      "inferCategory": true,
+      "city": "Valley County",
+      "venue": "Cascade Public Library",
+      "venueKey": "cascade-public-library",
+      "priority": 20,
+      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. Not yet run against the live API. Earlier (ruled out): Its calendar (checked 2026-11-09) is a Google Calendar embed (cascadelibraryidaho@gmail.com), and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events, unlike Donnelly Library on the same lili.org platform. robots.txt on cascade.lili.org allows all but /wp-admin/"
     },
     {
       "displayName": "Fever (Boise)",
@@ -6106,22 +6113,36 @@
       "notes": "Suggested 2026-11-09 as https://mccall.id.us/162/McCall-Public-Library. The library's events are category 24 (Library, 15 events) of the City of McCall CivicPlus calendar, so this reads Calendar.aspx?CID=24 (the civicplus reader keeps the CID on each month's page), and city-of-mccall reads the other categories. robots.txt allows Calendar.aspx for other agents (it disallows it only for AI and SEO crawlers) and sets Crawl-delay 10. Terms not read"
     },
     {
+      "name": "middleton-public-library",
       "displayName": "Middleton Public Library",
-      "status": "ruled-out",
+      "status": "running",
+      "adapter": "googlecalendar",
+      "calendarId": "middletonlibrary307@gmail.com",
       "url": "https://mymidlib.org/calendar/",
       "robotsChecked": "2026-11-09",
-      "city": "Middleton",
       "category": "learning-business",
-      "reason": "The calendar page (checked 2026-11-09) is a Google Calendar embed (middletonlibrary307@gmail.com), and calendar.google.com robots.txt disallows everything but its home page, so neither the embed nor the calendar's iCal feed may be read. The site's Events Calendar (REST API, ?ical=1) has no events. robots.txt on mymidlib.org allows all but /wp-admin/"
+      "inferCategory": true,
+      "city": "Middleton",
+      "venue": "Middleton Public Library",
+      "venueKey": "middleton-public-library",
+      "priority": 20,
+      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. Not yet run against the live API. Earlier (ruled out): The calendar page (checked 2026-11-09) is a Google Calendar embed (middletonlibrary307@gmail.com), and calendar.google.com robots.txt disallows everything but its home page, so neither the embed nor the calendar's iCal feed may be read. The site's Events Calendar (REST API, ?ical=1) has no events. robots.txt on mymidlib.org allows all but /wp-admin/"
     },
     {
+      "name": "payette-public-library",
       "displayName": "Payette Public Library",
-      "status": "ruled-out",
+      "status": "running",
+      "adapter": "googlecalendar",
+      "calendarId": "payettepubliclibrary@gmail.com",
       "url": "https://payette.lili.org/calendar/",
       "robotsChecked": "2026-11-09",
-      "city": "Payette",
       "category": "learning-business",
-      "reason": "The calendar page (checked 2026-11-09) is a Google Calendar embed, and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events. robots.txt on payette.lili.org allows all but /wp-admin/"
+      "inferCategory": true,
+      "city": "Payette",
+      "venue": "Payette Public Library",
+      "venueKey": "payette-public-library",
+      "priority": 20,
+      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. Not yet run against the live API. Earlier (ruled out): The calendar page (checked 2026-11-09) is a Google Calendar embed, and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events. robots.txt on payette.lili.org allows all but /wp-admin/"
     },
     {
       "name": "telaya-wine",

@@ -28,6 +28,7 @@ Settings > Secrets and variables > Actions > New repository secret. The names mu
 | Secret | Needed now |
 | --- | --- |
 | `TICKETMASTER_KEY` | Yes, 13 Ticketmaster sources are running |
+| `GOOGLE_CALENDAR_API_KEY` | Yes, for the Google Calendar sources. A Google Cloud API key with the Google Calendar API enabled, restricted to that API |
 | `BANDSINTOWN_APP_ID` | No, once an app id is approved |
 | `EVENTBRITE_TOKEN` | No, adapter is disabled |
 | `SEATGEEK_CLIENT_ID` | No, adapter is disabled |

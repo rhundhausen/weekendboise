@@ -83,6 +83,7 @@
             "eventbrite",
             "eventbrite-search",
             "eventastic",
+            "googlecalendar",
             "ics",
             "meetup",
             "rss",
@@ -321,7 +322,7 @@
         },
         "excludeTitlePattern": {
           "type": "string",
-          "description": "ticketmaster, rss, ics, tribe, meetup, eventastic, and scrape with scrapeMode jsonld, cards, civicplus, or chambermaster: regex. Matching titles are skipped.",
+          "description": "ticketmaster, rss, ics, tribe, meetup, eventastic, googlecalendar, and scrape with scrapeMode jsonld, cards, civicplus, or chambermaster: regex. Matching titles are skipped.",
           "minLength": 1
         },
         "excludeDescriptionPattern": {
@@ -343,6 +344,27 @@
             "type": "string"
           }
         },
+        "calendarId": {
+          "type": "string",
+          "description": "googlecalendar: the public calendar's id, such as name@gmail.com or ...@group.calendar.google.com.",
+          "minLength": 1
+        },
+        "excludeTitles": {
+          "type": "array",
+          "description": "googlecalendar: titles to skip, matched from the start of the title and ignoring case, on top of the adapter's defaults (Library Closed, council, zoning, school board, and library board meetings).",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "venueAliases": {
+          "type": "object",
+          "description": "googlecalendar: location text (the whole text or the part before the first comma, ignoring case) to the canonical venue name. Naming the entry's venue keeps its venueKey.",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
         "metroAreaId": {
           "type": "string",
           "description": "songkick: metro area id.",
@@ -355,6 +377,24 @@
         }
       },
       "allOf": [
+        {
+          "if": {
+            "required": [
+              "name",
+              "adapter"
+            ],
+            "properties": {
+              "adapter": {
+                "const": "googlecalendar"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "calendarId"
+            ]
+          }
+        },
         {
           "if": {
             "required": [

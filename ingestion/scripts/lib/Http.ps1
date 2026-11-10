@@ -8,7 +8,7 @@ function Hide-TvSecret {
   # Credentials travel in query strings, so strip them before a URL reaches a log.
   param([string]$Text)
 
-  $Text -replace '(?i)\b(apikey|app_id|client_id|client_secret|token)=[^&\s"'']+', '$1=***'
+  $Text -replace '(?i)\b(apikey|app_id|client_id|client_secret|token|key)=[^&\s"'']+', '$1=***'
 }
 
 function ConvertFrom-TvJsonElement {
