@@ -24,13 +24,16 @@
 
 <header class="top">
   <div class="wrap">
-    <p class="crumb"><a class="brand" href="{{ relURL "/" }}"><span class="logo logo-sm" aria-hidden="true"></span>{{ site.Title }}</a></p>
-    <h1>Sources</h1>
-    <p class="sub">{{ len $running }} public calendars, feeds, and APIs, read every night at midnight Boise time. Every listing links back to its source.</p>
+    {{- /* The same header as the home and About pages, so nothing moves when switching pages. */}}
+    <div class="top-row">
+      <h1 class="brand"><a class="brand site-name" href="{{ relURL "/" }}"><span class="logo" aria-hidden="true"></span>{{ site.Title }}</a></h1>
+    </div>
+    <p class="sub">Things to do this weekend, and every day.</p>
   </div>
 </header>
 
 <main class="wrap">
+  <p class="sources-intro">{{ len $running }} public calendars, feeds, and APIs, read every night at midnight Boise time. Every listing links back to its source.</p>
   {{- /* Sources with no upcoming events are hidden until this is checked; ?show=all checks it. */}}
   <label class="chip toggle sources-toggle"><input type="checkbox" id="show-empty">{{ $empty := 0 }}{{ range $running }}{{ if not (index $counts .name) }}{{ $empty = add $empty 1 }}{{ end }}{{ end }}<span>Show {{ $empty | lang.FormatNumber 0 }} sources with no current events</span></label>
   <div class="table-wrap sources-table hide-empty" id="sources-table">

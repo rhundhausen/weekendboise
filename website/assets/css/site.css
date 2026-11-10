@@ -206,12 +206,6 @@ a { color: var(--accent); }
   background: var(--logo) center / contain no-repeat;
   box-shadow: var(--logo-ring, none);
 }
-.logo-sm {
-  width: 18px;
-  height: 18px;
-  border-radius: 4px;
-}
-.crumb .brand { gap: 6px; }
 /* The title line: site name on the left, the About chip on the right. */
 .top-row {
   display: flex;
@@ -251,9 +245,6 @@ a { color: var(--accent); }
   text-decoration: none;
 }
 .site-name:hover { color: var(--header-link); }
-.crumb { margin: 0 0 4px; font-size: 12px; }
-.crumb a { color: var(--header-muted); text-decoration: none; }
-.crumb a:hover { color: var(--header-link); text-decoration: underline; }
 
 .source-note {
   margin: 10px 0 0;
@@ -262,6 +253,7 @@ a { color: var(--accent); }
 }
 
 /* Sources page */
+.sources-intro { margin: 16px 0 0; font-size: 14px; }
 .sources-table { margin-top: 16px; }
 
 /* The About page: one card, like the home page's controls, so the text reads on every
