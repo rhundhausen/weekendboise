@@ -280,8 +280,12 @@ a { color: var(--accent); }
 .prose h2 { margin: 20px 0 8px; font-size: 20px; }
 .prose h3 { margin: 20px 0 6px; font-size: 16px; }
 .prose ol, .prose ul { padding-left: 22px; }
-.prose .legend { margin: 8px 0 4px; width: auto; }
-.prose .legend td:first-child { white-space: nowrap; }
+/* Legend tables: no lines, and the same first-column width in every table, so the second
+   columns line up down the page. Not .grid, whose phone layout turns rows into cards. */
+.prose .legend { margin: 8px 0 4px; width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 12.5px; }
+.prose .legend th, .prose .legend td { padding: 4px 10px 4px 0; text-align: left; vertical-align: top; }
+.prose .legend th { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+.prose .legend th:first-child, .prose .legend td:first-child { width: 150px; white-space: nowrap; }
 .list .num { text-align: right; font-variant-numeric: tabular-nums; }
 .list .s-name { font-weight: 550; }
 .list .s-name a { color: var(--text); text-decoration: none; }

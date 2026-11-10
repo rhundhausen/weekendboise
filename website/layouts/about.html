@@ -1,5 +1,7 @@
 {{ define "main" }}
 {{- $running := where hugo.Data.sources.sources "status" "running" }}
+{{- /* Rounded down to a multiple of 50 ("250+"), so the text changes only at 300, 350, and so on. */}}
+{{- $roundedSources := printf "%d+" (mul (div (len $running) 50) 50) }}
 {{- $sizes := hugo.Data.schema.sizes }}
 {{- $low := 15 }}{{ $high := 40 }}
 {{- with (hugo.Data.meta).costTierBreakpoints }}{{ $low = .low }}{{ $high = .high }}{{ end }}
@@ -19,13 +21,13 @@
 
 <main class="wrap">
 <div class="prose">
-  <h2>What this is</h2>
-  <p>WeekendBoise lists upcoming events in Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, Emmett, and the towns around them, out to Mountain Home, Payette, Weiser, and Valley County. Concerts, theater, games, markets, festivals, library programs, classes, races, auctions and estate sales: if a public calendar lists it, it can show up here.</p>
-  <p>Every night at midnight Boise time, the site reads {{ len $running | lang.FormatNumber 0 }} public calendars, feeds, and APIs (<a href="{{ relURL "sources/" }}">see the sources</a>), merges events that more than one source lists, and drops events that are over. Every listing links to the organizer's own page, which has the full details and the final word on times, tickets, and changes.</p>
+  <h2>What is WeekendBoise?</h2>
+  <p>WeekendBoise lists upcoming events in Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, Emmett, and the towns around them, out to Mountain Home, Payette, Weiser, and even Valley County. Concerts, theater, games, markets, festivals, library programs, classes, races, auctions and estate sales: if a public calendar lists it, it shows up here.</p>
+  <p>Every night at midnight Boise time, the site reads {{ $roundedSources }} public calendars, feeds, and APIs (<a href="{{ relURL "sources/" }}">see the sources</a>), merges events that more than one source lists, and drops events that are over. Every listing links to the organizer's own page, which has the full details and the final word on times, tickets, and changes.</p>
   <p>The site stores only what the list needs: title, times, venue, city, category, and a short description. It keeps no ticket prices, photos, or contact details, and it never works around a site that asks not to be read.</p>
 
-  <h2>Suggestions</h2>
-  <p>Spot a wrong listing, miss an event or a calendar, or have an idea? <a href="{{ print $newIssue $suggest }}" rel="noopener" target="_blank">Create a GitHub issue</a> (it needs a free GitHub account). Run a site listed here and want it left out? Say so in an issue and it is removed.</p>
+  <h2>How it started</h2>
+  <p>WeekendBoise began as a personal project by Richard Hundhausen, with a simple goal: to know what was happening around Boise without hunting through dozens of separate websites. One calendar led to another, then a few dozen more, and a small side project grew into what you see today: hundreds of sources and thousands of events, refreshed every night.</p>
 
   <h2 id="legend">Legend</h2>
 
@@ -37,7 +39,7 @@
     <li>The kind of event: a rodeo or a race is usually Large, an air show Extra Large.</li>
     <li>The category's usual size.</li>
   </ol>
-  <table class="grid legend">
+  <table class="legend">
     <thead><tr><th scope="col">Size</th><th scope="col">Means</th></tr></thead>
     <tbody>
       {{- range $sizes.levels }}
@@ -48,7 +50,7 @@
 
   <h3>Cost</h3>
   <p>The cheapest adult ticket at face value, before fees, sorted into a tier. Only the tier is kept, never the price. It comes from the source's own price data, or from a price written in the event's description. Kids, senior, student, and member prices are ignored; for a range, the low end counts. A suggested donation, or free entry with paid parking or food, is Free.</p>
-  <table class="grid legend">
+  <table class="legend">
     <thead><tr><th scope="col">Cost</th><th scope="col">Cheapest adult ticket</th></tr></thead>
     <tbody>
       <tr><td><span class="cost">Free</span></td><td>No charge</td></tr>
@@ -61,7 +63,7 @@
 
   <h3>Category</h3>
   <p>Each event has one category, from its source (a theater's events are Performing Arts) or, for sources that mix many kinds, from words in its title and the source's own labels. A holiday concert is Holiday and Seasonal first.</p>
-  <table class="grid legend">
+  <table class="legend">
     <thead><tr><th scope="col">Category</th><th scope="col">Includes</th></tr></thead>
     <tbody>
       {{- range hugo.Data.schema.categories }}
@@ -79,6 +81,9 @@
     <li><strong>A title with no link:</strong> the event's page stopped loading, and no other source had a working one.</li>
     <li><strong>Time:</strong> Boise time. An all-day event shows no time; a multi-day event runs from its first day to its last.</li>
   </ul>
+
+  <h2>Suggestions</h2>
+  <p>Spot a wrong listing, miss an event or a calendar, or have an idea? <a href="{{ print $newIssue $suggest }}" rel="noopener" target="_blank">Create a GitHub issue</a> (it needs a free GitHub account). Run a site listed here and want it left out? Say so in an issue and it is removed.</p>
 </div>
 </main>
 
