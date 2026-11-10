@@ -14,7 +14,8 @@
   </div>
 </header>
 
-<main class="wrap prose">
+<main class="wrap">
+<div class="prose">
   <h2>What this is</h2>
   <p>WeekendBoise lists upcoming events in Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, Emmett, and the towns around them, out to Mountain Home, Payette, Weiser, and Valley County. Concerts, theater, games, markets, festivals, library programs, classes, races, auctions and estate sales: if a public calendar lists it, it can show up here.</p>
   <p>Every night at midnight Boise time, the site reads {{ len $running | lang.FormatNumber 0 }} public calendars, feeds, and APIs (<a href="{{ relURL "sources/" }}">see the sources</a>), merges events that more than one source lists, and drops events that are over. Every listing links to the organizer's own page, which has the full details and the final word on times, tickets, and changes.</p>
@@ -75,6 +76,7 @@
     <li><strong>A title with no link:</strong> the event's page stopped loading, and no other source had a working one.</li>
     <li><strong>Time:</strong> Boise time. An all-day event shows no time; a multi-day event runs from its first day to its last.</li>
   </ul>
+</div>
 </main>
 
 <footer class="wrap foot">

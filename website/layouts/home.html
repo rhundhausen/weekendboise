@@ -54,14 +54,17 @@
 
 <header class="top">
   <div class="wrap">
-    <h1 class="brand"><span class="logo" aria-hidden="true"></span>{{ site.Title }}</h1>
+    {{- /* The About chip sits at the right of the title line, so the line below never wraps on phones. */}}
+    <div class="top-row">
+      <h1 class="brand"><span class="logo" aria-hidden="true"></span>{{ site.Title }}</h1>
+      <a class="top-chip" href="{{ relURL "about/" }}">About</a>
+    </div>
     {{- /* Every running source, whether or not it has upcoming events. */}}
     {{- $running := where hugo.Data.sources.sources "status" "running" }}
     <p class="sub">
       {{- /* The build's count, until app.js replaces it with what the unfiltered list shows. */}}
       <span id="total">{{ len hugo.Data.events | lang.FormatNumber 0 }}</span> upcoming events
       <span class="sep" aria-hidden="true">|</span> <a href="{{ relURL "sources/" }}">{{ len $running }} sources</a>
-      <span class="sep" aria-hidden="true">|</span> <a href="{{ relURL "about/" }}">About</a>
       {{- with $lastIngest }} <span class="sep" aria-hidden="true">|</span> <time id="as-of" datetime="{{ . }}">{{ (time.AsTime .).Format "Jan 2, 3:04 PM UTC" }}</time>{{ end }}
     </p>
   </div>

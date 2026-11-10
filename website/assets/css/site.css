@@ -212,6 +212,25 @@ a { color: var(--accent); }
   border-radius: 4px;
 }
 .crumb .brand { gap: 6px; }
+/* The title line: site name on the left, the About chip on the right. */
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.top-chip {
+  flex: none;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--header-muted);
+  color: var(--header-text);
+  text-decoration: none;
+}
+.top-chip:hover { color: var(--header-link); border-color: var(--header-link); }
 .sub {
   margin: 2px 0 0;
   color: var(--header-muted);
@@ -236,9 +255,19 @@ a { color: var(--accent); }
 /* Sources page */
 .sources-table { margin-top: 16px; }
 
-/* The About page: readable line length, and compact legend tables. */
-.prose { max-width: 760px; line-height: 1.55; }
-.prose h2 { margin: 28px 0 8px; font-size: 20px; }
+/* The About page: one card, like the home page's controls, so the text reads on every
+   header theme, with a readable line length and compact legend tables. */
+.prose {
+  max-width: 760px;
+  margin: 16px 0;
+  padding: 4px 20px 16px;
+  line-height: 1.55;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.prose h2 { margin: 20px 0 8px; font-size: 20px; }
 .prose h3 { margin: 20px 0 6px; font-size: 16px; }
 .prose ol, .prose ul { padding-left: 22px; }
 .prose .legend { margin: 8px 0 4px; width: auto; }
