@@ -591,7 +591,7 @@ if (asOf && cfg.lastIngest) {
 }
 
 // The header count runs up from 0 to the event total in about a second, when home.html's inline
-// script set it up (once per visit). One short text change per frame, so scrolling, typing, and
+// script set it up. One short text change per frame, so scrolling, typing, and
 // the list loading go on as usual. set() moves the target when the loaded list gives the real total.
 const countUp = (() => {
   const node = $('total');
