@@ -65,40 +65,43 @@ DESCRIPTION:999 Airbase Rd\, Mountain Home\, ID\nReal Estate Auction\nWednesday 
 URL:https://downs.test/event/999-airbase-rd/
 CATEGORIES:Commercial,Real Estate
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261121
+UID:6@downs.test
+SUMMARY:Smith Family Estate Auction
+DESCRIPTION:Saturday\, November 21st\, 2026 at 10 am\nLOCATION: 123 Elm St\, Nampa\, ID 83651\nTools\, furniture\, and collectibles.
+URL:https://downs.test/event/smith-estate/
+CATEGORIES:Estate Auction
+END:VEVENT
 END:VCALENDAR
 '@
     $script:kept = Invoke-Sales $source $feed
     $script:downsSummary = $script:summary
   }
 
-  It 'keeps the in-person auctions in covered cities' {
-    $kept.Count | Should -Be 2
+  It 'keeps only the live estate auction, dropping real estate auctions' {
+    @($kept.title) | Should -Be @('Smith Family Estate Auction')
     $kept[0].city | Should -Be 'Nampa'
-    $kept[1].city | Should -Be 'Mountain Home'
-  }
-
-  It 'names an auction listed by street address by its kind and city, so no address is stored' {
-    $kept[0].title | Should -Be 'Absolute Real Estate Auction in Nampa'
-    $kept[1].title | Should -Be 'Real Estate Auction in Mountain Home'
   }
 
   It 'reads the start time from the description' {
-    $kept[0].start | Should -Be '2026-11-11T14:00:00-07:00'
+    $kept[0].start | Should -Be '2026-11-21T10:00:00-07:00'
     $kept[0].allDay | Should -BeFalse
   }
 
   It 'stores only the title, company, city, times, and link' {
     $kept[0].venue | Should -Be 'Downs Auction'
-    $kept[0].url | Should -Be 'https://downs.test/event/431-w-edwards-ave-nampa-id/'
+    $kept[0].url | Should -Be 'https://downs.test/event/smith-estate/'
     $kept[0].category | Should -Be 'auctions-estate-sales'
     $kept[0].PSObject.Properties.Name | Should -Not -Contain 'description'
     # The link is the site's own event page, whose slug can hold the street; nothing else may.
-    ($kept | Select-Object -Property * -ExcludeProperty url, sources | ConvertTo-Json -Depth 5) | Should -Not -Match 'Edwards|Airbase|555-0100'
+    ($kept | Select-Object -Property * -ExcludeProperty url, sources | ConvertTo-Json -Depth 5) | Should -Not -Match 'Elm St|Tools|555-0100'
   }
 
-  It 'reports what the in-person rule and the city filter dropped' {
-    $downsSummary | Should -Match 'kept 2'
+  It 'reports what each rule dropped' {
+    $downsSummary | Should -Match 'kept 1'
     $downsSummary | Should -Match '2 dropped by the in-person rule'
+    $downsSummary | Should -Match '2 dropped as real estate'
     $downsSummary | Should -Match '1 dropped by the city filter'
   }
 }
@@ -122,7 +125,7 @@ Describe 'sales adapter, corbett mode' {
       (Card 'https://corbett.test/auction/nampa-live-onsite-auction-10270-duck-ln/' 'estate' @('Nov', '14', 'Estate', 'In 5 days', 'Saturday', 'Saturday, 10:00 am', 'Live onsite') 'Nampa, ID Live Onsite Auction &#8211; Silver &amp; Guns' @('Silver, guns and a tractor.') 'Nampa, ID')
       (Card 'https://corbett.test/auction/10207-duck-ln-nampa-id/' 'real-estate' @('Nov', '14', 'Real Estate', 'Saturday, 12:00 pm', 'Live onsite') '2,789 SF Home &amp; Shop &#8211; Nampa, ID' @('Live onsite auction.', 'Minimum bid $699,000') 'Nampa, ID')
       (Card 'https://corbett.test/auction/machine-shop/' 'estate' @('Nov', '21', 'Saturday, 10:00 am', 'Live onsite') 'Machine Shop' @('CNCs and a metal shop.') 'Address to be posted')
-      (Card 'https://corbett.test/auction/garden-valley/' 'real-estate' @('Nov', '28', 'Saturday, 11:00 am', 'Live onsite') 'Lot &amp; Home' @() 'Garden Valley, ID')
+      (Card 'https://corbett.test/auction/garden-valley/' 'estate' @('Nov', '28', 'Saturday, 11:00 am', 'Live onsite') 'Shop Tools' @() 'Garden Valley, ID')
       (Card 'https://corbett.hibid.test/catalog/1/comics' 'online' @('Dec', '15', 'Tuesday, 7:00 pm', 'Online bidding') 'Online Comic Book Auction' @('Ends Tue, Dec 15') 'Online &#183; HiBid')
       (Card 'https://corbett.test/auction/january/' 'estate' @('Jan', '9', 'Saturday, 9:00 am', 'Live onsite') 'Caldwell Live Onsite Auction' @() 'Caldwell, ID')
       '<div role="listitem" class="e-loop-item"><a href="https://corbett.hibid.test/email/subscribe">Get alerts</a></div>'
@@ -132,26 +135,27 @@ Describe 'sales adapter, corbett mode' {
     $script:corbettSummary = $script:summary
   }
 
-  It 'keeps only the live onsite auctions in covered cities, from the upcoming list' {
-    @($kept.title) | Should -Be @("Nampa, ID Live Onsite Auction $([char]0x2013) Silver & Guns", "2,789 SF Home & Shop $([char]0x2013) Nampa, ID", 'Caldwell Live Onsite Auction')
+  It 'keeps only the live onsite auctions in covered cities, from the upcoming list, and no real estate' {
+    @($kept.title) | Should -Be @("Nampa, ID Live Onsite Auction $([char]0x2013) Silver & Guns", 'Caldwell Live Onsite Auction')
   }
 
   It 'reads the date and time, and guesses the year as the next one with that date' {
     $kept[0].start | Should -Be '2026-11-14T10:00:00-07:00'
-    $kept[2].start | Should -Be '2027-01-09T09:00:00-07:00'
+    $kept[1].start | Should -Be '2027-01-09T09:00:00-07:00'
   }
 
   It 'links each auction to its page on the site and stores no description or price' {
     $kept[0].url | Should -Be 'https://corbett.test/auction/nampa-live-onsite-auction-10270-duck-ln/'
     $kept[0].city | Should -Be 'Nampa'
     $kept[0].venue | Should -Be 'Corbett Auctions & Appraisals'
-    $kept[1].PSObject.Properties.Name | Should -Not -Contain 'description'
-    $kept[1].PSObject.Properties.Name | Should -Not -Contain 'costTier'
+    $kept[0].PSObject.Properties.Name | Should -Not -Contain 'description'
+    $kept[0].PSObject.Properties.Name | Should -Not -Contain 'costTier'
   }
 
   It 'reports what the in-person rule and the city filter dropped' {
-    $corbettSummary | Should -Match 'kept 3'
+    $corbettSummary | Should -Match 'kept 2'
     $corbettSummary | Should -Match '3 dropped by the in-person rule'
+    $corbettSummary | Should -Match '1 dropped as real estate'
     $corbettSummary | Should -Match '1 dropped by the city filter'
   }
 }
@@ -214,6 +218,15 @@ Describe 'Get-TvSaleVerdict' {
 
   It 'drops a place outside the covered cities' {
     Get-TvSaleVerdict -Title 'Estate Auction' -Text '' -HasPlace $true -City $null | Should -Be 'city'
+  }
+
+  It 'drops a real estate auction, marked by the site or named in the title' {
+    Get-TvSaleVerdict -Title 'Home and Shop' -Text '' -HasPlace $true -City 'Nampa' -RealEstate $true | Should -Be 'real-estate'
+    Get-TvSaleVerdict -Title 'Absolute Real Estate Auction' -Text '' -HasPlace $true -City 'Nampa' | Should -Be 'real-estate'
+  }
+
+  It 'keeps an estate sale whose text mentions real estate' {
+    Get-TvSaleVerdict -Title 'Estate Sale' -Text 'Ask us about real estate services' -HasPlace $true -City 'Boise' | Should -Be 'keep'
   }
 
   It 'keeps an in-person sale in a covered city' {

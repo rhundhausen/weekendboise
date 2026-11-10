@@ -5,11 +5,14 @@
 function Get-TvSaleVerdict {
   <#
   .SYNOPSIS
-    Whether one auction or sale is kept: keep, in-person (dropped as online or placeless), or city.
+    Whether one auction or sale is kept: keep, in-person (dropped as online or placeless),
+    real-estate, or city.
   .DESCRIPTION
     In-person events only: anything whose title or text says "online" (any case) is dropped, and
     so is one with no street address or place, since a sale with nowhere to go is online bidding.
-    Then only the cities this site already covers are kept (Resolve-TvCity, which includes Mountain
+    Real estate auctions (a house or land) are dropped too: the site marks them (-RealEstate), or
+    the title says "real estate". The text alone doesn't count, so an estate sale whose blurb
+    mentions real estate services stays. Then only the cities this site already covers are kept (Resolve-TvCity, which includes Mountain
     Home and maps the mountain towns to Valley County).
   #>
   [CmdletBinding()]
@@ -17,10 +20,12 @@ function Get-TvSaleVerdict {
     [string]$Title,
     [AllowEmptyString()][string]$Text,
     [bool]$HasPlace,
-    [AllowNull()][AllowEmptyString()][string]$City
+    [AllowNull()][AllowEmptyString()][string]$City,
+    [bool]$RealEstate
   )
 
   if ("$Title`n$Text" -match '(?i)online' -or -not $HasPlace) { return 'in-person' }
+  if ($RealEstate -or $Title -match '(?i)\breal estate\b') { return 'real-estate' }
   if (-not $City -or $City -eq 'Other') { return 'city' }
   'keep'
 }

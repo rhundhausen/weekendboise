@@ -8,6 +8,8 @@
 
   - In-person only. Anything whose title or text says "online", and anything with no street
     address or place, is dropped (the in-person rule).
+  - No real estate: auctions of a house or land are dropped (Downs' Real Estate category,
+    Corbett's Real Estate cards, or "real estate" in a title).
   - Only the cities the site already covers are kept (the city filter).
   - Only the title, the company (as the venue), the city, start and end, and the link to the
     event on the company's site are stored. No address, photos, description, contact details,
@@ -17,8 +19,8 @@
 
   salesMode:
   - ics: an Events Calendar iCal export (Downs Auction). The start time comes from the description
-    ("at 2 pm"), since the feed gives dates only. A title that is a street address becomes the
-    auction's kind and city ("Absolute Real Estate Auction in Nampa"), so no address is stored.
+    ("at 2 pm"), since the feed gives dates only. Its real estate auctions are titled by street
+    address, and are dropped by the real estate rule, so no address is stored.
   - corbett: the upcoming auctions on corbettauctions.com's home page (an Elementor loop grid
     after id="upcoming"). Only cards marked live onsite whose link stays on the company's site are
     kept; online lots, which link to HiBid or another bidding site, are dropped without following.
@@ -50,7 +52,7 @@ param(
 $today = [datetime]::ParseExact((ConvertTo-BoiseTime $FetchedAt).Substring(0, 10), 'yyyy-MM-dd', [Globalization.CultureInfo]::InvariantCulture)
 $months = 'Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?'
 $clock = '\d{1,2}(?::\d{2})?\s*[AaPp]\.?\s*[Mm]\b\.?'
-$dropped = @{ 'in-person' = 0; city = 0 }
+$dropped = @{ 'in-person' = 0; 'real-estate' = 0; city = 0 }
 $kept = 0
 
 function Get-SalesText {
@@ -70,14 +72,16 @@ function Get-SalesText {
 }
 
 function Add-Sale {
-  # Applies the in-person rule and the city filter, then emits the event or counts the drop.
-  param([string]$Title, [string]$Text, [string]$Town, [hashtable]$Event)
+  # Applies the in-person rule, the real estate rule, and the city filter, then emits the event or
+  # counts the drop.
+  param([string]$Title, [string]$Text, [string]$Town, [hashtable]$Event, [switch]$RealEstate)
 
   $city = if ($Town) { Resolve-TvCity $Town }
-  $verdict = Get-TvSaleVerdict -Title $Title -Text $Text -HasPlace ([bool]$Town) -City $city
+  $verdict = Get-TvSaleVerdict -Title $Title -Text $Text -HasPlace ([bool]$Town) -City $city -RealEstate ([bool]$RealEstate)
   if ($verdict -ne 'keep') {
     $script:dropped[$verdict]++
-    Write-Verbose "$($Source.name): '$Title' dropped by the $($verdict -eq 'city' ? "city filter ($Town)" : 'in-person rule')"
+    $why = switch ($verdict) { 'city' { "the city filter ($Town)" } 'real-estate' { 'the real estate rule' } default { 'the in-person rule' } }
+    Write-Verbose "$($Source.name): '$Title' dropped by $why"
     return
   }
   try {
@@ -110,15 +114,10 @@ function Read-IcsSales {
       $event.AllDay = [bool]$item.AllDay
     }
 
-    $name = $title
-    if ($title -match '^\d+\s+\S' -and $town) {
-      # Listed by street address: name it by its kind and city instead, so the address isn't stored.
-      $kind = $lines | Where-Object { $_ -ne $title -and $_.Length -le 60 -and $_ -match '(?i)\b(auction|sale)\b' -and $_ -notmatch '\d' } | Select-Object -First 1
-      if (-not $kind) { $kind = if ($item.Categories -match '(?i)real estate') { 'Real Estate Auction' } else { 'Auction' } }
-      $name = "$kind in $((Resolve-TvCity $town) ?? $town)"
-    }
-    $event.Title = $name
-    Add-Sale -Title $title -Text "$($item.Description)`n$($item.Categories)" -Town $town -Event $event
+    # A title that is a street address is a real estate listing, which the real estate rule drops.
+    $event.Title = $title
+    Add-Sale -Title $title -Text "$($item.Description)`n$($item.Categories)" -Town $town -Event $event `
+      -RealEstate:($item.Categories -match '(?i)\breal estate\b' -or $title -match '^\d+\s+\S')
   }
 }
 
@@ -161,7 +160,9 @@ function Read-CorbettSales {
     $time = $texts | Where-Object { $_ -match "^\w+day,\s*(?<t>$clock)$" } | Select-Object -First 1
     $start = if ($time) { ConvertTo-TvSaleTime $date ($time -replace '^\w+day,\s*', '') }
     $event = @{ Title = $title; Url = $href; Start = $start ?? $date; AllDay = -not $start }
-    Add-Sale -Title $title -Text ($details -join "`n") -Town $town -Event $event
+    # The card's type label ("Estate", "Real Estate") comes before the title.
+    $realEstate = @($texts | Select-Object -First $titleAt) -contains 'Real Estate' -or $card -match 'auction_type-real-estate'
+    Add-Sale -Title $title -Text ($details -join "`n") -Town $town -Event $event -RealEstate:$realEstate
   }
 }
 
@@ -216,4 +217,4 @@ switch ($Source.salesMode) {
   'onthewater' { Read-OnTheWaterSales $text }
   default { throw "$($Source.name): unknown salesMode '$($Source.salesMode)'" }
 }
-Write-Verbose "$($Source.name): kept $kept, $($dropped['in-person']) dropped by the in-person rule, $($dropped.city) dropped by the city filter"
+Write-Verbose "$($Source.name): kept $kept, $($dropped['in-person']) dropped by the in-person rule, $($dropped['real-estate']) dropped as real estate, $($dropped.city) dropped by the city filter"

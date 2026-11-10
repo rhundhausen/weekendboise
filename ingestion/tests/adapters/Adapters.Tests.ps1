@@ -432,8 +432,11 @@ Describe 'rss adapter' {
   }
 
   It 'builds the venue from venuePrefix and ev:location' {
-    $events[0].venueKey | Should -Be 'ford-idaho-center-horse-park-and-sports-center'
-    $events[0].venue | Should -Be 'Ford Idaho Center Horse Park & Sports Center'
+    # The Horse Park & Sports Center building shows as plain Ford Idaho Center (venue-aliases.json),
+    # with its own key so its size stays Large.
+    $events[0].venueKey | Should -Be 'ford-idaho-center-horse-park'
+    $events[0].venue | Should -Be 'Ford Idaho Center'
+    $events[0].size | Should -Be 'L'
     $events[1].venueKey | Should -Be 'ford-idaho-center-arena'
     $events[2].venueKey | Should -Be 'ford-idaho-center-amphitheater'
   }

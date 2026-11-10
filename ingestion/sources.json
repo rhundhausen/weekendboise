@@ -5764,7 +5764,7 @@
       "type": "auction",
       "contact": "info@corbettauctions.com",
       "outreach": "awaiting-reply",
-      "notes": "Asked on 2026-11-09 for permission; awaiting reply (outreach), and running meanwhile. Reads the upcoming auctions on the home page (Elementor loop grid after id=\"upcoming\"): only cards marked \"Live onsite\" whose link stays on corbettauctions.com. Online lots link to corbettauctions.hibid.com or auctiontime.com and are never followed. robots.txt has Crawl-delay 10 and allows the home page; no terms or legal page on the site (sitemap checked 2026-11-09). Dates have no year, so the next occurrence is used. On 2026-11-09: 3 live onsite auctions (2 Nampa, 1 with \"Address to be posted\") and 3 online.",
+      "notes": "Asked on 2026-11-09 for permission; awaiting reply (outreach), and running meanwhile. Reads the upcoming auctions on the home page (Elementor loop grid after id=\"upcoming\"): only cards marked \"Live onsite\" whose link stays on corbettauctions.com, and not Real Estate cards (dropped at the user's request on 2026-11-09). Online lots link to corbettauctions.hibid.com or auctiontime.com and are never followed. robots.txt has Crawl-delay 10 and allows the home page; no terms or legal page on the site (sitemap checked 2026-11-09). Dates have no year, so the next occurrence is used. On 2026-11-09: 3 live onsite auctions (2 Nampa, 1 with \"Address to be posted\") and 3 online.",
       "optOut": "If Corbett Auctions asks to be removed, add \"corbettauctions.com\" to doNotIngest in this file (that alone stops it and drops its stored events on the next ingest), then set status to declined.",
       "lastChecked": "2026-11-09"
     },
@@ -5799,7 +5799,7 @@
       "priority": 60,
       "type": "auction",
       "contact": "info@downsauction.com",
-      "notes": "The Events Calendar iCal export (dates only; the time is read from \"at 2 pm\" in the description). robots.txt allows everything; no terms or legal page on the site (sitemap and links checked 2026-11-09). On-site real estate auctions count as in-person; online estate auctions (title or Online category) are dropped. Real estate auctions are titled by street address, so they are renamed to their kind and city (\"Absolute Real Estate Auction in Nampa\"). 3 events in the feed on 2026-11-09: 2 live real estate auctions (Nampa, Mountain Home) and 1 online.",
+      "notes": "The Events Calendar iCal export (dates only; the time is read from \"at 2 pm\" in the description). robots.txt allows everything; no terms or legal page on the site (sitemap and links checked 2026-11-09). Real estate auctions (Real Estate category, or a title that is a street address) are dropped, at the user's request on 2026-11-09, and so are online estate auctions (title or Online category); only live auctions of goods remain. 3 events in the feed on 2026-11-09: 2 live real estate auctions (Nampa, Mountain Home) and 1 online, so none kept that night.",
       "optOut": "If Downs Auction asks to be removed, add \"downsauction.com\" to doNotIngest in this file (that alone stops it and drops its stored events on the next ingest), then set status to declined.",
       "lastChecked": "2026-11-09"
     },

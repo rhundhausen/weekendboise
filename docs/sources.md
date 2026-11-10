@@ -51,9 +51,10 @@ robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rs
 
 The Auctions and Estate Sales category (`auctions-estate-sales`). `salesMode` picks the reader: `ics` (an Events Calendar iCal export, Downs Auction), `corbett` (the upcoming auctions on corbettauctions.com's home page), or `onthewater` (the UPCOMING SALES lines on onthewaterestatesales.com). One page a night per source, after robots.txt and its Crawl-delay; no link is followed, so Corbett's HiBid lots are never fetched. Every mode applies the same rules from `lib/Sales.ps1`:
 
-- **In-person rule:** an event whose title or text says "online" (any case), or that has no street address or place, is dropped. On-site real estate auctions count as in-person.
+- **In-person rule:** an event whose title or text says "online" (any case), or that has no street address or place, is dropped.
+- **No real estate:** auctions of a house or land are dropped, by the site's own marker (Downs' Real Estate category, Corbett's Real Estate card type) or "real estate" in the title. Only live auctions of goods and estate sales stay.
 - **City filter:** only the cities the site already covers are kept (`Resolve-TvCity`, so Mountain Home stays and the mountain towns become Valley County).
-- **Minimal data:** only title, company (as the venue), city, start and end, and the link to the event on the company's site. No address, photos, description, contact details, or price. A Downs title that is a street address becomes the auction's kind and city ("Absolute Real Estate Auction in Nampa"). The link is the company's own event page, whose slug can contain the street.
+- **Minimal data:** only title, company (as the venue), city, start and end, and the link to the event on the company's site. No address, photos, description, contact details, or price. The link is the company's own event page, whose slug can contain the street.
 
 Dates without a year (Corbett, On The Water) are read as their next occurrence: this year, unless that is more than six months gone. `Invoke-Ingest.ps1 -Verbose` prints what each rule dropped. `venue`, `venueKey`, and `city` are fallbacks only.
 

@@ -21,7 +21,7 @@
   { "id": "dj-night", "label": "DJ Night or Silent Disco", "category": "nightlife-social", "keywords": ["dj night", "dj set", "dance party", "silent disco", "bar crawl"] },
   { "id": "easter", "label": "Easter", "category": "holiday-seasonal", "keywords": ["easter", "egg hunt"] },
   { "id": "esports", "label": "Esports", "category": "sports", "keywords": ["esports"] },
-  { "id": "estate-sale", "label": "Estate Sale or Auction", "category": "auctions-estate-sales", "keywords": ["estate sale", "estate sales", "estate liquidation", "estate auction", "live onsite auction", "onsite auction", "real estate auction"] },
+  { "id": "estate-sale", "label": "Estate Sale or Auction", "category": "auctions-estate-sales", "keywords": ["estate sale", "estate sales", "estate liquidation", "estate auction", "live onsite auction", "onsite auction"] },
   { "id": "fair", "label": "Fair", "category": "festivals", "keywords": ["county fair", "street fair", "western idaho fair"] },
   { "id": "family-friendly", "label": "Family Friendly", "keywords": ["family friendly", "family fun", "family night", "family event", "family day"], "sourceLabels": ["family", "family fun", "all ages"] },
   { "id": "farmers-market", "label": "Farmers Market", "category": "markets-shopping", "keywords": ["farmers market", "farmers markets", "public market", "winter market"] },

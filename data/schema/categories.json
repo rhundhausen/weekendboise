@@ -74,7 +74,7 @@
   {
     "id": "auctions-estate-sales",
     "label": "Auctions and Estate Sales",
-    "description": "In-person auctions and estate sales. Online-only bidding is left out.",
-    "includes": ["estate sales", "live onsite auctions", "estate auctions", "on-site real estate auctions"]
+    "description": "Live, in-person auctions and estate sales. Online bidding and real estate auctions are left out.",
+    "includes": ["estate sales", "live onsite auctions", "estate auctions"]
   }
 ]
