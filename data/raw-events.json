@@ -80566,14 +80566,14 @@
       ]
     },
     "corbett-auctions": {
-      "fetchedAt": "2026-11-10T03:55:57Z",
+      "fetchedAt": "2026-11-10T04:11:18Z",
       "events": [
         {
           "id": "278cce77bfd5",
           "title": "Nampa, ID Live Onsite Auction — Silver, Guns, Rolex, Tractor & 1927 Chevy",
           "start": "2026-11-14T10:00:00-07:00",
           "allDay": false,
-          "venue": "Corbett Auctions & Appraisals",
+          "venue": "Corbett Auctions",
           "venueKey": "corbett-auctions",
           "city": "Nampa",
           "category": "auctions-estate-sales",

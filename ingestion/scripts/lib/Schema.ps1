@@ -361,11 +361,24 @@ function New-TvEvent {
   )
 
   $cleanTitle = ($Title -replace '\s+', ' ').Trim()
+  $givenVenue = $Venue
   $key = if ($VenueKey) { $VenueKey } else { Get-VenueKey $Venue }
   $alias = Resolve-TvVenueAlias $key
   if ($alias) {
     $key = $alias.key
     $Venue = $alias.name
+  }
+
+  # The venue is shown beside the title, so a title ending in it ("Music & Movement | Garden City
+  # Public Library", "Karaoke Friday @ Helina Marie's") drops it. Only after "|", "@", or a spaced
+  # dash: "Winter Skate at The Village" reads as a title and stays.
+  $separator = "\s*[|@]\s*|\s+(?:-|$([char]0x2013)|$([char]0x2014))\s+"
+  foreach ($name in @($givenVenue, $Venue) | Where-Object { $_ } | Select-Object -Unique) {
+    $match = [regex]::Match($cleanTitle, "^(?<rest>.+?)(?:$separator)$([regex]::Escape($name.Trim()))\s*[!.]?$", 'IgnoreCase')
+    if ($match.Success -and $match.Groups['rest'].Value.Trim().Length -ge 3) {
+      $cleanTitle = $match.Groups['rest'].Value.Trim()
+      break
+    }
   }
   $seed =('{0}|{1}|{2}' -f (Get-NormalizedTitle $cleanTitle), $Start.Substring(0, [Math]::Min(10, $Start.Length)), $key).ToLowerInvariant()
   $hash = [Security.Cryptography.SHA1]::HashData([Text.Encoding]::UTF8.GetBytes($seed))

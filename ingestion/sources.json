@@ -5749,7 +5749,7 @@
     },
     {
       "name": "corbett-auctions",
-      "displayName": "Corbett Auctions & Appraisals",
+      "displayName": "Corbett Auctions",
       "status": "running",
       "adapter": "sales",
       "salesMode": "corbett",
@@ -5758,7 +5758,7 @@
       "termsChecked": "2026-11-09",
       "category": "auctions-estate-sales",
       "city": "Nampa",
-      "venue": "Corbett Auctions & Appraisals",
+      "venue": "Corbett Auctions",
       "venueKey": "corbett-auctions",
       "priority": 60,
       "type": "auction",

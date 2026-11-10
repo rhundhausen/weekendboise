@@ -140,6 +140,24 @@ Describe 'ConvertFrom-TvLocation' {
 }
 
 Describe 'New-TvEvent' {
+  It 'drops the venue from the end of a title, since the venue is shown beside it: <title>' -ForEach @(
+    @{ title = 'Music & Movement | Garden City Public Library'; venue = 'Garden City Public Library'; want = 'Music & Movement' }
+    @{ title = "Karoake Friday @ Helina Marie's"; venue = "Helina Marie's"; want = 'Karoake Friday' }
+    @{ title = 'Coffee with a Vet - Old State Saloon'; venue = 'Old State Saloon'; want = 'Coffee with a Vet' }
+    @{ title = 'Preschool STEAM Storytime | garden city public library'; venue = 'Garden City Public Library'; want = 'Preschool STEAM Storytime' }
+  ) {
+    (New-TestEvent @{ Title = $title; Venue = $venue; City = 'Garden City' }).title | Should -Be $want
+  }
+
+  It 'keeps a title whose venue is joined by "at", or that is only the venue, or has it mid-title: <title>' -ForEach @(
+    @{ title = 'Winter Skate at The Village'; venue = 'The Village' }
+    @{ title = 'Garden City Public Library'; venue = 'Garden City Public Library' }
+    @{ title = 'Fix-It Night'; venue = 'It Night' }
+    @{ title = 'Boise Bicycle Project | Fix-It Night'; venue = 'Boise Bicycle Project' }
+  ) {
+    (New-TestEvent @{ Title = $title; Venue = $venue }).title | Should -Be $title
+  }
+
   It 'computes the documented id' {
     $seed = 'test show|2026-11-14|extramile-arena'
     $hash = [Security.Cryptography.SHA1]::HashData([Text.Encoding]::UTF8.GetBytes($seed))

@@ -69,7 +69,7 @@ Describe 'scrape adapter, jsonld with title and description filters' {
   }
 
   It 'skips closures, opening hours, and food trucks, and keeps shows and watch parties' {
-    $events.title | Should -Be @('Dillon Francis @ Bluebird Social', 'Pray for Snow Festival', 'Oregon State @ BSU')
+    $events.title | Should -Be @('Dillon Francis', 'Pray for Snow Festival', 'Oregon State @ BSU')
   }
 
   It 'removes WordPress shortcodes from the description' {
@@ -535,7 +535,7 @@ Describe 'scrape adapter, chambermaster' {
   }
 
   It 'reads a multi-day event' {
-    $event = $events | Where-Object title -eq 'Cupcake Wars @ Emmett Public Library'
+    $event = $events | Where-Object title -eq 'Cupcake Wars'
     $event.allDay | Should -BeTrue
     $event.start | Should -Be '2026-11-02'
     $event.end | Should -Be '2026-11-14'
@@ -714,7 +714,7 @@ Describe 'scrape adapter, sveltekit (Star Chamber)' {
   }
 
   It 'reads the events, skipping past ones and chamber business by title' {
-    $events.title | Should -Be @('Dog Tales', "Karoake Friday @ Helina Marie's", 'Gebert-Arbaugh Polar Bear Challenge', 'Make Star Shine', 'Homeschool PE')
+    $events.title | Should -Be @('Dog Tales', 'Karoake Friday', 'Gebert-Arbaugh Polar Bear Challenge', 'Make Star Shine', 'Homeschool PE')
   }
 
   It 'fills in repeated values from the payload arguments' {
