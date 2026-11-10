@@ -3160,6 +3160,7 @@
       "name": "eventbrite-emmett",
       "displayName": "Eventbrite (Emmett area)",
       "status": "running",
+      "local": true,
       "adapter": "eventbrite-search",
       "url": "https://www.eventbrite.com/d/id--emmett/events/",
       "robotsChecked": "2026-11-05",
@@ -3169,7 +3170,7 @@
       "venue": "Various Treasure Valley locations",
       "venueKey": "various-treasure-valley",
       "priority": 70,
-      "notes": "Eventbrite's browse page for Emmett. robots.txt does not disallow /d/ or /e/ pages (checked 2026-11-05). The page's window.__SERVER_DATA__ has buckets[].events[] with start and end in America/Boise, and each event's own page has schema.org offers with the price. On 2026-11-05 it listed 16 events: 8 online with no address, and 8 around the valley (Meridian, Garden City, Caldwell, Eagle, Nampa, Boise), none in Emmett itself. No second page. Each kept event's page is read once a run for its price. Configured 2026-11-05. Terms not read"
+      "notes": "Eventbrite's browse page for Emmett. robots.txt does not disallow /d/ or /e/ pages (checked 2026-11-05). The page's window.__SERVER_DATA__ has buckets[].events[] with start and end in America/Boise, and each event's own page has schema.org offers with the price. On 2026-11-05 it listed 16 events: 8 online with no address, and 8 around the valley (Meridian, Garden City, Caldwell, Eagle, Nampa, Boise), none in Emmett itself. No second page. Each kept event's page is read once a run for its price. Configured 2026-11-05. Terms not read 2026-11-10: HTTP 405 from GitHub's servers every night (never fetched there); loads from a home connection (200), so it is local."
     },
     {
       "name": "eventbrite",
@@ -3467,6 +3468,7 @@
       "name": "idaho-steelheads",
       "displayName": "Idaho Steelheads",
       "status": "running",
+      "local": true,
       "adapter": "ics",
       "url": "https://idahosteelheads.com/schedule-home.ics",
       "category": "sports",
@@ -3474,7 +3476,7 @@
       "venue": "Idaho Central Arena",
       "venueKey": "idaho-central-arena",
       "priority": 20,
-      "notes": "Official home games feed, linked from idahosteelheads.com/en/schedule"
+      "notes": "Official home games feed, linked from idahosteelheads.com/en/schedule 2026-11-10: HTTP 405 from GitHub's servers since 2026-11-09; the feed loads from a home connection (200, text/calendar), so it is local."
     },
     {
       "name": "indian-creek-plaza",
@@ -4140,6 +4142,7 @@
       "name": "runsignup-treasure-valley",
       "displayName": "RunSignup",
       "status": "running",
+      "local": true,
       "adapter": "scrape",
       "url": "https://runsignup.com/Races?country=US&state=ID&zipcodeRadius=83702&radius=50",
       "robotsChecked": "2026-11-07",
@@ -4151,7 +4154,7 @@
       "scrapeMode": "jsonld",
       "eventLinkPattern": "/Race/ID/(?:Boise|Meridian|Nampa|Caldwell|Eagle|GardenCity|Kuna|Star|Emmett|Middleton|MountainHome|Payette|Weiser|Marsing)/[A-Za-z0-9]+(?=[?\"])",
       "maxPages": 40,
-      "notes": "Checked 2026-11-07. The official API (api.runsignup.com/rest/races, documented with state, city, zipcode and radius filters) is on a host whose robots.txt is 'Disallow: /' for all agents, so it was not requested; the same API under runsignup.com/Rest/ was not used either, to avoid working around that. runsignup.com robots.txt allows /Races and /Race/ pages (Crawl-delay 1). The Find a Race page /Races?country=US&state=ID&zipcodeRadius=83702&radius=50 lists the 30 soonest races within 50 miles of Boise (page 2 and later are not read), and each race page has schema.org Event JSON-LD with start time and -07:00/-06:00 offsets correct. eventLinkPattern keeps only race links whose URL city is one of the covered towns (Melba and Parma are dropped). 27 events on 2026-11-07. Overlaps mike-brown-group for several races (Boise Half Marathon, Valnova Turkey Trot, Nampa Pumpkin Spice 5K, Turkey Day 5K). Terms not read"
+      "notes": "Checked 2026-11-07. The official API (api.runsignup.com/rest/races, documented with state, city, zipcode and radius filters) is on a host whose robots.txt is 'Disallow: /' for all agents, so it was not requested; the same API under runsignup.com/Rest/ was not used either, to avoid working around that. runsignup.com robots.txt allows /Races and /Race/ pages (Crawl-delay 1). The Find a Race page /Races?country=US&state=ID&zipcodeRadius=83702&radius=50 lists the 30 soonest races within 50 miles of Boise (page 2 and later are not read), and each race page has schema.org Event JSON-LD with start time and -07:00/-06:00 offsets correct. eventLinkPattern keeps only race links whose URL city is one of the covered towns (Melba and Parma are dropped). 27 events on 2026-11-07. Overlaps mike-brown-group for several races (Boise Half Marathon, Valnova Turkey Trot, Nampa Pumpkin Spice 5K, Turkey Day 5K). Terms not read 2026-11-10: from GitHub's servers the list page has no race links (a bot block served as 200, so the run counted 0 events as ok); from a home connection it has 30, so it is local."
     },
     {
       "name": "seatgeek",
