@@ -251,7 +251,6 @@ a { color: var(--accent); }
   text-decoration: none;
 }
 .site-name:hover { color: var(--header-link); }
-.top h1.page-title { margin-top: 12px; }
 .crumb { margin: 0 0 4px; font-size: 12px; }
 .crumb a { color: var(--header-muted); text-decoration: none; }
 .crumb a:hover { color: var(--header-link); text-decoration: underline; }

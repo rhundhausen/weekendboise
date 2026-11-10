@@ -10,11 +10,11 @@
 
 <header class="top">
   <div class="wrap">
-    {{- /* The site name at the same size as on the home page, linking back to it. */}}
+    {{- /* Built like the home page's header (title line, then one line of text), so it is the
+         same height and nothing moves when switching pages. The site name links home. */}}
     <div class="top-row">
-      <a class="brand site-name" href="{{ relURL "/" }}"><span class="logo" aria-hidden="true"></span>{{ site.Title }}</a>
+      <h1 class="brand"><a class="brand site-name" href="{{ relURL "/" }}"><span class="logo" aria-hidden="true"></span>{{ site.Title }}</a></h1>
     </div>
-    <h1 class="page-title">About</h1>
     <p class="sub">Things to do this weekend, and every day.</p>
   </div>
 </header>
