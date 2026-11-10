@@ -56,6 +56,13 @@
       setInterval(set, 600000);
     })();
   </script>
+  {{- /* The header logo for each period, inlined as data so it draws with the page. As a url()
+       it was fetched and revalidated on every page load, and blinked in after the page drew. */}}
+  {{- $logo := dict }}
+  {{- range slice "day" "sunset" "night" }}
+    {{- $logo = merge $logo (dict . (printf "url(\"data:image/svg+xml;base64,%s\")" (readFile (printf "static/icons/%s/favicon.svg" .) | base64Encode))) }}
+  {{- end }}
+  <style>{{ printf ":root{--logo:%s}:root[data-period=\"sunset\"]{--logo:%s}:root[data-period=\"night\"]{--logo:%s}" $logo.day $logo.sunset $logo.night | safeCSS }}</style>
   {{ $css := resources.Get "css/site.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 </head>
