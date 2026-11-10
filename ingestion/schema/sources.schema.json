@@ -359,7 +359,7 @@
         },
         "venueAliases": {
           "type": "object",
-          "description": "googlecalendar: location text (the whole text or the part before the first comma, ignoring case) to the canonical venue name. Naming the entry's venue keeps its venueKey.",
+          "description": "googlecalendar: location text (its whole text or any comma-separated part, ignoring case) to the canonical venue name. Naming the entry's venue keeps its venueKey.",
           "additionalProperties": {
             "type": "string",
             "minLength": 1

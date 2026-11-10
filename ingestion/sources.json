@@ -6082,7 +6082,11 @@
       "venue": "Cascade Public Library",
       "venueKey": "cascade-public-library",
       "priority": 20,
-      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. Not yet run against the live API. Earlier (ruled out): Its calendar (checked 2026-11-09) is a Google Calendar embed (cascadelibraryidaho@gmail.com), and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events, unlike Donnelly Library on the same lili.org platform. robots.txt on cascade.lili.org allows all but /wp-admin/"
+      "excludeTitles": [
+        "Regular Board Meeting",
+        "Library Closes"
+      ],
+      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. First live run 2026-11-10: 28 items in 90 days, none with a location; Computer 101 and Ink & Insights with Mr. Bentley. Board meetings and early closings are skipped by title. Earlier (ruled out): Its calendar (checked 2026-11-09) is a Google Calendar embed (cascadelibraryidaho@gmail.com), and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events, unlike Donnelly Library on the same lili.org platform. robots.txt on cascade.lili.org allows all but /wp-admin/"
     },
     {
       "displayName": "Fever (Boise)",
@@ -6126,7 +6130,13 @@
       "venue": "Middleton Public Library",
       "venueKey": "middleton-public-library",
       "priority": 20,
-      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. Not yet run against the live API. Earlier (ruled out): The calendar page (checked 2026-11-09) is a Google Calendar embed (middletonlibrary307@gmail.com), and calendar.google.com robots.txt disallows everything but its home page, so neither the embed nor the calendar's iCal feed may be read. The site's Events Calendar (REST API, ?ical=1) has no events. robots.txt on mymidlib.org allows all but /wp-admin/"
+      "venueAliases": {
+        "307 Cornell St": "Middleton Public Library"
+      },
+      "excludeTitles": [
+        "Friends of the Library"
+      ],
+      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. First live run 2026-11-10: 77 items in 90 days, 42 kept (council, zoning, and school board meetings at City Hall and the school district are skipped by the default titles). Library events give '307 Cornell St, ...' or 'Middleton, Idaho Public Library, 307 Cornell St, ...' as the location, so venueAliases maps the street address to the library. Mostly Storytime with Ms. Jenny, Monthly Book Club, and LEGO Day. Earlier (ruled out): The calendar page (checked 2026-11-09) is a Google Calendar embed (middletonlibrary307@gmail.com), and calendar.google.com robots.txt disallows everything but its home page, so neither the embed nor the calendar's iCal feed may be read. The site's Events Calendar (REST API, ?ical=1) has no events. robots.txt on mymidlib.org allows all but /wp-admin/"
     },
     {
       "name": "payette-public-library",
@@ -6142,7 +6152,11 @@
       "venue": "Payette Public Library",
       "venueKey": "payette-public-library",
       "priority": 20,
-      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. Not yet run against the live API. Earlier (ruled out): The calendar page (checked 2026-11-09) is a Google Calendar embed, and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events. robots.txt on payette.lili.org allows all but /wp-admin/"
+      "excludeTitles": [
+        "holiday weekend closure",
+        "Library Board of Trustee"
+      ],
+      "notes": "Configured 2026-11-10 with the googlecalendar adapter: the Google Calendar API v3 (www.googleapis.com, which has no robots.txt) with an API key, Google's supported way for programs to read a public calendar. The calendar page itself is not read. First live run 2026-11-10: 85 items in 90 days; Storytime, Lego Club, Ladies Night, Next Chapter, and crafts. Closures and trustee meetings are skipped by title. Earlier (ruled out): The calendar page (checked 2026-11-09) is a Google Calendar embed, and calendar.google.com robots.txt disallows everything but its home page. The site's Events Calendar (REST API) has no events. robots.txt on payette.lili.org allows all but /wp-admin/"
     },
     {
       "name": "telaya-wine",

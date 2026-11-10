@@ -11,7 +11,7 @@
   Skipped: cancelled events, titles starting with "Canceled" or "Cancelled" (any case), and
   titles starting with one of $defaultExcludes or the entry's excludeTitles (any case), as well
   as titles matching excludeTitlePattern. A blank location uses the entry's venue and city; a
-  location named in venueAliases (whole text or the part before the first comma, any case) uses
+  location named in venueAliases (its whole text or any comma-separated part, any case) uses
   that canonical venue; any other is read with ConvertFrom-TvLocation.
 .PARAMETER Source
   One entry from sources.json, with calendarId.
@@ -84,9 +84,9 @@ function Resolve-GoogleCalendarVenue([string]$Location) {
   if (-not $Location) {
     return @{ Venue = $Source.venue; VenueKey = $Source.venueKey; City = $Source.city }
   }
-  $first = ($Location -split ',')[0].Trim()
+  $parts = @($Location) + @($Location -split ',' | ForEach-Object { $_.Trim() })
   foreach ($alias in @($Source.venueAliases.PSObject.Properties | Where-Object { $_ })) {
-    if ($alias.Name -ieq $Location -or $alias.Name -ieq $first) {
+    if ($parts -contains $alias.Name) {
       $key = if ($alias.Value -eq $Source.venue) { $Source.venueKey } else { Get-VenueKey $alias.Value }
       return @{ Venue = $alias.Value; VenueKey = $key; City = $Source.city }
     }

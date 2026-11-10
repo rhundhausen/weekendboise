@@ -111,7 +111,7 @@ For WordPress sites running the Eventastic plugin by Madden Media (Visit McCall;
 | --- | --- | --- |
 | `calendarId` | yes | The public calendar's id, such as `name@gmail.com` or `...@group.calendar.google.com`. It is in the embed's `src=` |
 | `excludeTitles` | no | Titles to skip, matched from the start of the title, ignoring case. Added to the defaults: Library Closed, Library closed-, City Council Meeting, Planning and Zoning Meeting, School Board Meeting, Library Board Meeting |
-| `venueAliases` | no | Location text to canonical venue name, so variant spellings become one venue. A location matches on its whole text or the part before its first comma, ignoring case. Naming the entry's `venue` keeps its `venueKey` |
+| `venueAliases` | no | Location text to canonical venue name, so variant spellings become one venue. A location matches on its whole text or any comma-separated part, ignoring case. Naming the entry's `venue` keeps its `venueKey` |
 | `excludeTitlePattern` | no | Regex, as for the other adapters |
 
 Reads a public Google Calendar through the Calendar API v3 (`events.list` on `www.googleapis.com`, which has no robots.txt). This is Google's supported way for programs to read a calendar; `calendar.google.com` itself disallows crawling, so its embed and iCal links are never read. `url` is the organization's own calendar page, for people. Requires the `GOOGLE_CALENDAR_API_KEY` environment variable.

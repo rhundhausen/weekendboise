@@ -211,6 +211,20 @@ Describe 'googlecalendar adapter' {
     (Get-GcEvent 'Storytime')[1].venueKey | Should -Be 'example-library'
   }
 
+  It 'matches an alias on any comma-separated part of the location' {
+    $source = New-TestSource 'googlecalendar' @{
+      calendarId = 'x@gmail.com'; city = 'Middleton'; venue = 'Middleton Public Library'; venueKey = 'middleton-public-library'
+      venueAliases = [pscustomobject]@{ '307 Cornell St' = 'Middleton Public Library' }
+    }
+    $page = '{"items":[' +
+      '{"id":"a","status":"confirmed","htmlLink":"https://g.test/a","summary":"Storytime","location":"Middleton, Idaho Public Library, 307 Cornell St, Middleton, ID 83644, USA","start":{"dateTime":"2026-11-12T10:30:00-07:00"},"end":{"dateTime":"2026-11-12T11:00:00-07:00"}},' +
+      '{"id":"b","status":"confirmed","htmlLink":"https://g.test/b","summary":"Book Club","location":"307 Cornell St, Middleton, ID 83644, USA","start":{"dateTime":"2026-11-13T18:00:00-07:00"},"end":{"dateTime":"2026-11-13T19:00:00-07:00"}}' +
+      ']}'
+    $events = @(& (Join-Path $repo 'scripts/adapters/googlecalendar.ps1') -Source $source -FetchedAt $fetchedAt -Response $page)
+    $events.venueKey | Should -Be @('middleton-public-library', 'middleton-public-library')
+    $events.venue | Should -Be @('Middleton Public Library', 'Middleton Public Library')
+  }
+
   It 'reads any other location as venue and city' {
     $pottery = (Get-GcEvent 'Pottery Workshop')[0]
     $pottery.venue | Should -Be 'Middleton Community Center'
