@@ -9583,6 +9583,33 @@
     ]
   },
   {
+    "id": "80c38ab9ea1d",
+    "title": "Music & Movement",
+    "start": "2026-11-09T10:30:00-07:00",
+    "end": "2026-11-09T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-09/",
+    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-09/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "aa8ccdcec241",
     "title": "Music & Movement | Garden City Public Library",
     "start": "2026-11-09T10:30:00-07:00",

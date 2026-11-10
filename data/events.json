@@ -21,18 +21,16 @@
     ]
   },
   {
-    "id": "80fb1a152920",
-    "title": "Cupcake Wars @ Emmett Public Library",
+    "id": "324ed84b45b8",
+    "title": "Cupcake Wars",
     "start": "2026-11-02",
     "end": "2026-11-14",
     "allDay": true,
     "venue": "Emmett Public Library",
     "venueKey": "emmett-public-library",
     "city": "Emmett",
-    "category": "learning-business",
-    "tags": [
-      "library-program"
-    ],
+    "category": "community-civic",
+    "tags": [],
     "size": "S",
     "url": "https://business.emmettidaho.com/events/details/cupcake-wars-emmett-public-library-17178",
     "description": "Emmett Public Library Fall Fundraiser Junior Bake Off November 7, Adult Bake Off November 14",
@@ -40,7 +38,7 @@
       {
         "name": "gem-county-chamber",
         "url": "https://business.emmettidaho.com/events/details/cupcake-wars-emmett-public-library-17178",
-        "fetchedAt": "2026-11-06T07:04:43Z"
+        "fetchedAt": "2026-11-10T05:02:04Z"
       }
     ]
   },
@@ -278,8 +276,8 @@
     ]
   },
   {
-    "id": "d9caba1b0624",
-    "title": "Paint Nite @ Amsterdam Lounge",
+    "id": "f2ab7da0e470",
+    "title": "Paint Nite",
     "start": "2026-11-10T02:00:00-07:00",
     "end": "2026-11-10T04:00:00-07:00",
     "allDay": false,
@@ -296,7 +294,7 @@
       {
         "name": "visit-boise",
         "url": "https://tinyurl.com/y8v52twy",
-        "fetchedAt": "2026-11-09T20:49:46Z"
+        "fetchedAt": "2026-11-10T05:01:56Z"
       }
     ]
   },
@@ -391,34 +389,6 @@
     ]
   },
   {
-    "id": "084484e81219",
-    "title": "Preschool STEAM Storytime | Garden City Public Library",
-    "start": "2026-11-10T10:00:00-07:00",
-    "end": "2026-11-10T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program",
-      "workshop"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-10/",
-    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-10/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "647e3a283f64",
     "title": "Storytime",
     "start": "2026-11-10T10:00:00-07:00",
@@ -443,8 +413,8 @@
     ]
   },
   {
-    "id": "c0964772033e",
-    "title": "Coffee with a Vet - Old State Saloon",
+    "id": "c452e612111d",
+    "title": "Coffee with a Vet",
     "start": "2026-11-10T10:00:00-07:00",
     "end": "2026-11-10T12:00:00-07:00",
     "allDay": false,
@@ -459,7 +429,35 @@
       {
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/coffee-with-a-vet-old-state-saloon-11-10-2026-4961",
-        "fetchedAt": "2026-11-07T03:22:23Z"
+        "fetchedAt": "2026-11-10T05:01:07Z"
+      }
+    ]
+  },
+  {
+    "id": "e33f6c56a387",
+    "title": "Preschool STEAM Storytime",
+    "start": "2026-11-10T10:00:00-07:00",
+    "end": "2026-11-10T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program",
+      "workshop"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-10/",
+    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-10/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -1317,32 +1315,6 @@
     ]
   },
   {
-    "id": "46fac0e62f2e",
-    "title": "Santa Christmas Tales | Cabela’s",
-    "start": "2026-11-10T17:00:00-07:00",
-    "end": "2026-11-10T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Cabela’s",
-    "venueKey": "cabelas",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "free-admission",
-      "holiday-event",
-      "santa"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-10/",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-10/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "681440e3f641",
     "title": "Crystal Bowl Sound Healing",
     "start": "2026-11-10T17:00:00-07:00",
@@ -1363,6 +1335,32 @@
         "name": "mountain-home-library",
         "url": "https://mhlibrary.libcal.com/event/17876728",
         "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "76e7103cadb3",
+    "title": "Santa Christmas Tales",
+    "start": "2026-11-10T17:00:00-07:00",
+    "end": "2026-11-10T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-10/",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-10/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -2694,6 +2692,29 @@
     ]
   },
   {
+    "id": "068faa51d06e",
+    "title": "Paint Nite",
+    "start": "2026-11-11T02:00:00-07:00",
+    "end": "2026-11-11T04:00:00-07:00",
+    "allDay": false,
+    "venue": "Amsterdam Lounge",
+    "venueKey": "amsterdam-lounge",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://tinyurl.com/y8v52twy",
+    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://tinyurl.com/y8v52twy",
+        "fetchedAt": "2026-11-10T05:01:56Z"
+      }
+    ]
+  },
+  {
     "id": "2682840fd6a8",
     "title": "Idaho Mountain Search and Rescue–Free event",
     "start": "2026-11-11T02:00:00-07:00",
@@ -2739,29 +2760,6 @@
       {
         "name": "visit-boise",
         "url": "https://www.facebook.com/events/1069460215741086/1069460289074412?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
-        "fetchedAt": "2026-11-09T20:49:46Z"
-      }
-    ]
-  },
-  {
-    "id": "ca8fee09eaf2",
-    "title": "Paint Nite @ Amsterdam Lounge",
-    "start": "2026-11-11T02:00:00-07:00",
-    "end": "2026-11-11T04:00:00-07:00",
-    "allDay": false,
-    "venue": "Amsterdam Lounge",
-    "venueKey": "amsterdam-lounge",
-    "city": "Boise",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "costTier": "$$",
-    "url": "https://tinyurl.com/y8v52twy",
-    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://tinyurl.com/y8v52twy",
         "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
@@ -3591,26 +3589,24 @@
     ]
   },
   {
-    "id": "3e710a7f8415",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "6249ac01cda0",
+    "title": "Adults NoGi",
     "start": "2026-11-11T18:30:00-07:00",
     "end": "2026-11-12T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-11-2026-4617",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-11-2026-4617",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -4145,6 +4141,33 @@
     ]
   },
   {
+    "id": "616db5533d74",
+    "title": "Tunes & Tales",
+    "start": "2026-11-12T10:00:00-07:00",
+    "end": "2026-11-12T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-11-12/",
+    "description": "Gear up for a whirlwind of fun with this energetic storytime! It’s a perfect blend of captivating stories, toe-tapping tunes, groovy moves, and loads of learning! After storytime we will dive into 30 minutes of open play",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-11-12/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "645eacc4ccc1",
     "title": "$3 Thursdays at Zoo Boise",
     "start": "2026-11-12T10:00:00-07:00",
@@ -4214,33 +4237,6 @@
       }
     ],
     "city": "Boise"
-  },
-  {
-    "id": "c07baaef81a0",
-    "title": "Tunes & Tales | Garden City Public Library",
-    "start": "2026-11-12T10:00:00-07:00",
-    "end": "2026-11-12T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-11-12/",
-    "description": "Gear up for a whirlwind of fun with this energetic storytime! It’s a perfect blend of captivating stories, toe-tapping tunes, groovy moves, and loads of learning! After storytime we will dive into 30 minutes of open play",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-11-12/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
   },
   {
     "id": "c5f7a9fe67cc",
@@ -5224,6 +5220,30 @@
     ]
   },
   {
+    "id": "242ac28ac269",
+    "title": "Magic the Gathering: Booster Draft",
+    "start": "2026-11-12T18:00:00-07:00",
+    "end": "2026-11-12T22:00:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317113326/",
+    "description": "Join us for an MTG: Booster Draft! - Join our Discord https://discord.gg/qD9P8838ek",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317113326/",
+        "fetchedAt": "2026-11-10T05:01:47Z"
+      }
+    ]
+  },
+  {
     "id": "343eaa672090",
     "title": "Magic the Gathering: Competitive Commander",
     "start": "2026-11-12T18:00:00-07:00",
@@ -5243,54 +5263,6 @@
       {
         "name": "meetup-abu-games-events",
         "url": "https://www.meetup.com/abu-games-events/events/317113324/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "397d49d63cd3",
-    "title": "Tabletop Miniatures Game Night | ABU Games",
-    "start": "2026-11-12T18:00:00-07:00",
-    "end": "2026-11-12T22:30:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317113364/",
-    "description": "Come play each week and you will see that our Tabletop Miniatures Game night is a slugfest, but what is wrong with that? Every Thursday players of popular miniatures games gather to play their favorite miniatures games with others. The games most represented are: - Warhammer: 40k and Age of Sigma...",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317113364/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "4bd40b04e172",
-    "title": "Warhammer 40k League | ABU Games",
-    "start": "2026-11-12T18:00:00-07:00",
-    "end": "2026-11-12T22:30:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317113366/",
-    "description": "This is a casual and welcoming Warhammer 40K League. All are welcome to join. Use the following link to Reserve a spot: [https://www.signupgenius.com/.../10C0949AEAF2AA4FFC61...](https://www.signupgenius.com/go/10C0949AEAF2AA4FFC61-abucasual2?fbclid=IwAR0v5oGRNyrzHG1-MHT48po9W8bVdm03Udk9uj-R5vRPf...",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317113366/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -5383,6 +5355,30 @@
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/idaho-cobs-community-human-trafficking-awareness-event-6077",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "68d7506ecc55",
+    "title": "Tabletop Miniatures Game Night",
+    "start": "2026-11-12T18:00:00-07:00",
+    "end": "2026-11-12T22:30:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317113364/",
+    "description": "Come play each week and you will see that our Tabletop Miniatures Game night is a slugfest, but what is wrong with that? Every Thursday players of popular miniatures games gather to play their favorite miniatures games with others. The games most represented are: - Warhammer: 40k and Age of Sigma...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317113364/",
+        "fetchedAt": "2026-11-10T05:01:47Z"
       }
     ]
   },
@@ -5521,6 +5517,30 @@
     ]
   },
   {
+    "id": "e5d4129ba747",
+    "title": "Warhammer 40k League",
+    "start": "2026-11-12T18:00:00-07:00",
+    "end": "2026-11-12T22:30:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317113366/",
+    "description": "This is a casual and welcoming Warhammer 40K League. All are welcome to join. Use the following link to Reserve a spot: [https://www.signupgenius.com/.../10C0949AEAF2AA4FFC61...](https://www.signupgenius.com/go/10C0949AEAF2AA4FFC61-abucasual2?fbclid=IwAR0v5oGRNyrzHG1-MHT48po9W8bVdm03Udk9uj-R5vRPf...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317113366/",
+        "fetchedAt": "2026-11-10T05:01:47Z"
+      }
+    ]
+  },
+  {
     "id": "efa95747a486",
     "title": "Supper Club with Terroir – A Night in Mexico City",
     "start": "2026-11-12T18:00:00-07:00",
@@ -5565,30 +5585,6 @@
     ]
   },
   {
-    "id": "f7c6c36b5bd5",
-    "title": "Magic the Gathering: Booster Draft | ABU Games",
-    "start": "2026-11-12T18:00:00-07:00",
-    "end": "2026-11-12T22:00:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317113326/",
-    "description": "Join us for an MTG: Booster Draft! - Join our Discord https://discord.gg/qD9P8838ek",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317113326/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
     "id": "0a7b52cb1464",
     "title": "Adult Social - DIY Buttons!",
     "start": "2026-11-12T18:30:00-07:00",
@@ -5607,6 +5603,33 @@
         "name": "boise-public-library",
         "url": "https://boisepubliclibrary.libcal.com/event/16962690",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "21bd336305a7",
+    "title": "Storytime with Stuffies",
+    "start": "2026-11-12T18:30:00-07:00",
+    "end": "2026-11-12T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Eagle Public Library",
+    "venueKey": "eagle-public-library",
+    "city": "Eagle",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-11-12/",
+    "description": "Build literacy skills through stories and songs in this interactive program for young children and their caregivers. Optional: Wear your pajamas, bring a stuff animal and enjoy a snack! Ages birth-5 years. Location: Library Corner",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-11-12/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -5650,33 +5673,6 @@
     ],
     "costTier": "$$",
     "end": "2026-11-12T20:30:00-07:00"
-  },
-  {
-    "id": "4cc3e5986ba3",
-    "title": "Storytime with Stuffies | Eagle Public Library",
-    "start": "2026-11-12T18:30:00-07:00",
-    "end": "2026-11-12T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Eagle Public Library",
-    "venueKey": "eagle-public-library",
-    "city": "Eagle",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-11-12/",
-    "description": "Build literacy skills through stories and songs in this interactive program for young children and their caregivers. Optional: Wear your pajamas, bring a stuff animal and enjoy a snack! Ages birth-5 years. Location: Library Corner",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-11-12/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
   },
   {
     "id": "6d35ca54d39b",
@@ -7998,6 +7994,28 @@
     ]
   },
   {
+    "id": "d0302d4bd2cb",
+    "title": "Karoake Friday",
+    "start": "2026-11-13T20:00:00-07:00",
+    "end": "2026-11-13T23:30:00-07:00",
+    "allDay": false,
+    "venue": "Helina Marie's",
+    "venueKey": "helina-maries",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-11-13-2026-4818",
+    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-11-13-2026-4818",
+        "fetchedAt": "2026-11-10T04:59:00Z"
+      }
+    ]
+  },
+  {
     "id": "da2f9d9721d2",
     "title": "Triptides, Eunoian",
     "start": "2026-11-13T20:00:00-07:00",
@@ -8022,28 +8040,6 @@
         "name": "ticketmaster-metro",
         "url": "https://www.ticketweb.com/event/triptides-eunoian-neurolux-lounge-tickets/15040933",
         "fetchedAt": "2026-11-03T17:00:01Z"
-      }
-    ]
-  },
-  {
-    "id": "e21fefeb07db",
-    "title": "Karoake Friday @ Helina Marie's",
-    "start": "2026-11-13T20:00:00-07:00",
-    "end": "2026-11-13T23:30:00-07:00",
-    "allDay": false,
-    "venue": "Helina Marie's",
-    "venueKey": "helina-maries",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-11-13-2026-4818",
-    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-11-13-2026-4818",
-        "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
   },
@@ -8617,6 +8613,29 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/holiday-engine/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "16183fb5e3bb",
+    "title": "Cozy Little Bookworms",
+    "start": "2026-11-14T10:00:00-07:00",
+    "end": "2026-11-14T11:00:00-07:00",
+    "allDay": false,
+    "venue": "6 N Eagle Rd",
+    "venueKey": "6-n-eagle-rd",
+    "city": "Meridian",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/cozy-little-bookworms-2/",
+    "description": "Snuggle up, slow down, and enjoy a cozy morning of fall fun! 🍁📚☕️ ​Join us for a sweet and relaxing event designed especially for our littlest bookworms! Little ones can cozy up with a selection of fall-themed books, create their very own special bookmark, and enjoy hands-on fun at our sensory...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/cozy-little-bookworms-2/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -11513,8 +11532,8 @@
     ]
   },
   {
-    "id": "1dcba8a70480",
-    "title": "Music & Movement | Garden City Public Library",
+    "id": "1d307bd139f0",
+    "title": "Music & Movement",
     "start": "2026-11-16T10:30:00-07:00",
     "end": "2026-11-16T11:30:00-07:00",
     "allDay": false,
@@ -11535,7 +11554,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-16/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -12556,34 +12575,6 @@
     ]
   },
   {
-    "id": "1d4e62d72780",
-    "title": "Preschool STEAM Storytime | Garden City Public Library",
-    "start": "2026-11-17T10:00:00-07:00",
-    "end": "2026-11-17T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program",
-      "workshop"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-17/",
-    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-17/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "1f452c724bfe",
     "title": "Storytime",
     "start": "2026-11-17T10:00:00-07:00",
@@ -12631,6 +12622,34 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/public-skate-at-idaho-iceworld-3/2026-11-17/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "e64d6800b7b4",
+    "title": "Preschool STEAM Storytime",
+    "start": "2026-11-17T10:00:00-07:00",
+    "end": "2026-11-17T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program",
+      "workshop"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-17/",
+    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-17/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -13475,6 +13494,32 @@
     ]
   },
   {
+    "id": "586c5f7df5cb",
+    "title": "Santa Christmas Tales",
+    "start": "2026-11-17T17:00:00-07:00",
+    "end": "2026-11-17T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-17/",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-17/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "7298de0ac535",
     "title": "Crystal Bowl Sound Healing",
     "start": "2026-11-17T17:00:00-07:00",
@@ -13495,32 +13540,6 @@
         "name": "mountain-home-library",
         "url": "https://mhlibrary.libcal.com/event/17876729",
         "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "c0572af58771",
-    "title": "Santa Christmas Tales | Cabela’s",
-    "start": "2026-11-17T17:00:00-07:00",
-    "end": "2026-11-17T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Cabela’s",
-    "venueKey": "cabelas",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "free-admission",
-      "holiday-event",
-      "santa"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-17/",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-17/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
   },
@@ -15785,6 +15804,28 @@
     ]
   },
   {
+    "id": "7b3be32adc97",
+    "title": "Adults NoGi",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-19T20:00:00-07:00",
+    "allDay": false,
+    "venue": "West Idaho Brazilian Jiu-Jitsu",
+    "venueKey": "west-idaho-brazilian-jiu-jitsu",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-18-2026-4618",
+    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-18-2026-4618",
+        "fetchedAt": "2026-11-10T04:59:00Z"
+      }
+    ]
+  },
+  {
     "id": "b63f1ddcebab",
     "title": "Waypoint : a meditative service for seekers",
     "start": "2026-11-18T18:30:00-07:00",
@@ -15850,30 +15891,6 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/pajama-storytime-downtown-library-2/2026-11-18/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "f651a5f3aa51",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
-    "start": "2026-11-18T18:30:00-07:00",
-    "end": "2026-11-19T20:00:00-07:00",
-    "allDay": false,
-    "venue": "West Idaho Brazilian Jiu-Jitsu",
-    "venueKey": "west-idaho-brazilian-jiu-jitsu",
-    "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
-    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-18-2026-4618",
-    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-18-2026-4618",
-        "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
   },
@@ -16215,30 +16232,8 @@
     ]
   },
   {
-    "id": "57670b7e537f",
-    "title": "$3 Thursdays at Zoo Boise",
-    "start": "2026-11-19T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Zoo Boise",
-    "venueKey": "zoo-boise",
-    "city": "Boise",
-    "category": "outdoors-recreation",
-    "tags": [
-      "zoo"
-    ],
-    "size": "M",
-    "url": "https://www.cityofboise.org/events/parks/2026/november/3-thursdays-at-zoo-boise-1-1/",
-    "sources": [
-      {
-        "name": "city-of-boise",
-        "url": "https://www.cityofboise.org/events/parks/2026/november/3-thursdays-at-zoo-boise-1-1/",
-        "fetchedAt": "2026-11-06T19:12:30Z"
-      }
-    ]
-  },
-  {
-    "id": "7dad6bea08c3",
-    "title": "Tunes & Tales | Garden City Public Library",
+    "id": "45d90d46161c",
+    "title": "Tunes & Tales",
     "start": "2026-11-19T10:00:00-07:00",
     "end": "2026-11-19T11:00:00-07:00",
     "allDay": false,
@@ -16259,7 +16254,29 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-11-19/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
+    "id": "57670b7e537f",
+    "title": "$3 Thursdays at Zoo Boise",
+    "start": "2026-11-19T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Zoo Boise",
+    "venueKey": "zoo-boise",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "zoo"
+    ],
+    "size": "M",
+    "url": "https://www.cityofboise.org/events/parks/2026/november/3-thursdays-at-zoo-boise-1-1/",
+    "sources": [
+      {
+        "name": "city-of-boise",
+        "url": "https://www.cityofboise.org/events/parks/2026/november/3-thursdays-at-zoo-boise-1-1/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
       }
     ]
   },
@@ -16853,8 +16870,8 @@
     ]
   },
   {
-    "id": "57c497d3dc7f",
-    "title": "Eagle Chamber BAH @ Residence Inn by Marriott - Eagle",
+    "id": "c53d202c4929",
+    "title": "Eagle Chamber BAH",
     "start": "2026-11-19T16:30:00-07:00",
     "end": "2026-11-19T18:30:00-07:00",
     "allDay": false,
@@ -16870,7 +16887,7 @@
       {
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/eagle-chamber-bah-residence-inn-by-marriott-eagle-6019",
-        "fetchedAt": "2026-11-07T03:22:23Z"
+        "fetchedAt": "2026-11-10T05:01:07Z"
       }
     ]
   },
@@ -17369,6 +17386,33 @@
     ]
   },
   {
+    "id": "24b8c5e8d73c",
+    "title": "Storytime with Stuffies",
+    "start": "2026-11-19T18:30:00-07:00",
+    "end": "2026-11-19T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Eagle Public Library",
+    "venueKey": "eagle-public-library",
+    "city": "Eagle",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-11-19/",
+    "description": "Build literacy skills through stories and songs in this interactive program for young children and their caregivers. Optional: Wear your pajamas, bring a stuff animal and enjoy a snack! Ages birth-5 years. Location: Library Corner",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-11-19/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "48a21314d665",
     "title": "The Dirt on Gardening",
     "start": "2026-11-19T18:30:00-07:00",
@@ -17455,33 +17499,6 @@
         "name": "meetup-kuna-kung-fu",
         "url": "https://www.meetup.com/kuna-kung-fu/events/317214241/",
         "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "f56e1043fc2f",
-    "title": "Storytime with Stuffies | Eagle Public Library",
-    "start": "2026-11-19T18:30:00-07:00",
-    "end": "2026-11-19T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Eagle Public Library",
-    "venueKey": "eagle-public-library",
-    "city": "Eagle",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-11-19/",
-    "description": "Build literacy skills through stories and songs in this interactive program for young children and their caregivers. Optional: Wear your pajamas, bring a stuff animal and enjoy a snack! Ages birth-5 years. Location: Library Corner",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-11-19/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
   },
@@ -19529,8 +19546,8 @@
     ]
   },
   {
-    "id": "9582c4511706",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "d1bd1ab0ec98",
+    "title": "Karoake Friday",
     "start": "2026-11-20T20:00:00-07:00",
     "end": "2026-11-20T23:30:00-07:00",
     "allDay": false,
@@ -19546,7 +19563,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-11-20-2026-4819",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -22322,8 +22339,8 @@
     ]
   },
   {
-    "id": "b9c8319f71d0",
-    "title": "Music & Movement | Garden City Public Library",
+    "id": "a3a00912af72",
+    "title": "Music & Movement",
     "start": "2026-11-23T10:30:00-07:00",
     "end": "2026-11-23T11:30:00-07:00",
     "allDay": false,
@@ -22344,7 +22361,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-23/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -23129,34 +23146,6 @@
     ]
   },
   {
-    "id": "e253bd5cfde0",
-    "title": "Preschool STEAM Storytime | Garden City Public Library",
-    "start": "2026-11-24T10:00:00-07:00",
-    "end": "2026-11-24T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program",
-      "workshop"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-24/",
-    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-24/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "e4923948db5e",
     "title": "Compassion Crew",
     "start": "2026-11-24T10:00:00-07:00",
@@ -23179,6 +23168,34 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/compassion-crew-3/2026-11-24/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "f00551fdca5d",
+    "title": "Preschool STEAM Storytime",
+    "start": "2026-11-24T10:00:00-07:00",
+    "end": "2026-11-24T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program",
+      "workshop"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-24/",
+    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-11-24/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -23837,6 +23854,32 @@
     ]
   },
   {
+    "id": "5af609c75bcb",
+    "title": "Santa Christmas Tales",
+    "start": "2026-11-24T17:00:00-07:00",
+    "end": "2026-11-24T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-24/",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-24/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "8f5ef74677b3",
     "title": "OLD BOISE MODEL RAILROAD",
     "start": "2026-11-24T17:00:00-07:00",
@@ -23861,32 +23904,6 @@
       }
     ],
     "city": "Boise"
-  },
-  {
-    "id": "902a6af73019",
-    "title": "Santa Christmas Tales | Cabela’s",
-    "start": "2026-11-24T17:00:00-07:00",
-    "end": "2026-11-24T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Cabela’s",
-    "venueKey": "cabelas",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "free-admission",
-      "holiday-event",
-      "santa"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-24/",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-11-24/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
   },
   {
     "id": "e2fb2185e1bb",
@@ -25226,30 +25243,6 @@
     ]
   },
   {
-    "id": "7d514f716a73",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
-    "start": "2026-11-25T18:30:00-07:00",
-    "end": "2026-11-26T20:00:00-07:00",
-    "allDay": false,
-    "venue": "West Idaho Brazilian Jiu-Jitsu",
-    "venueKey": "west-idaho-brazilian-jiu-jitsu",
-    "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
-    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-25-2026-4619",
-    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-25-2026-4619",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
     "id": "86ab0ecf3791",
     "title": "Pajama Storytime",
     "start": "2026-11-25T18:30:00-07:00",
@@ -25325,6 +25318,28 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/pajama-storytime-3/2026-11-25/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "f6642713fef8",
+    "title": "Adults NoGi",
+    "start": "2026-11-25T18:30:00-07:00",
+    "end": "2026-11-26T20:00:00-07:00",
+    "allDay": false,
+    "venue": "West Idaho Brazilian Jiu-Jitsu",
+    "venueKey": "west-idaho-brazilian-jiu-jitsu",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-25-2026-4619",
+    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-25-2026-4619",
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -27462,8 +27477,8 @@
     ]
   },
   {
-    "id": "46b38f9eb04e",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "74dc12e256bf",
+    "title": "Karoake Friday",
     "start": "2026-11-27T20:00:00-07:00",
     "end": "2026-11-27T23:30:00-07:00",
     "allDay": false,
@@ -27479,7 +27494,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-11-27-2026-4820",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -29404,7 +29419,7 @@
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/elf-in-concert-2/",
+        "url": "https://boisemom.com/event/elf-in-concert/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       },
       {
@@ -29828,6 +29843,33 @@
     ]
   },
   {
+    "id": "5ec454953622",
+    "title": "Music & Movement",
+    "start": "2026-11-30T10:30:00-07:00",
+    "end": "2026-11-30T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-30/",
+    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-30/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "ab7e4cff69e5",
     "title": "Story Time",
     "start": "2026-11-30T10:30:00-07:00",
@@ -29901,33 +29943,6 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/baby-stories-and-play-library-cole-ustick/2026-11-30/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "ccac8aa8b930",
-    "title": "Music & Movement | Garden City Public Library",
-    "start": "2026-11-30T10:30:00-07:00",
-    "end": "2026-11-30T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-30/",
-    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-11-30/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -30717,34 +30732,6 @@
     ]
   },
   {
-    "id": "2ffc8ec7197b",
-    "title": "Preschool STEAM Storytime | Garden City Public Library",
-    "start": "2026-12-01T10:00:00-07:00",
-    "end": "2026-12-01T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program",
-      "workshop"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-01/",
-    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-01/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "42ad809fa0bc",
     "title": "Kilroy Coffee Klatch: Idaho’s largest monthly gathering of veterans!",
     "start": "2026-12-01T10:00:00-07:00",
@@ -30808,6 +30795,34 @@
         "name": "kuna-library",
         "url": "https://kunalibrary.libcal.com/event/17358816",
         "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "87af66f9420b",
+    "title": "Preschool STEAM Storytime",
+    "start": "2026-12-01T10:00:00-07:00",
+    "end": "2026-12-01T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program",
+      "workshop"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-01/",
+    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-01/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -31379,8 +31394,8 @@
     ]
   },
   {
-    "id": "427d27568b49",
-    "title": "Santa Christmas Tales | Cabela’s",
+    "id": "0afb827c73ce",
+    "title": "Santa Christmas Tales",
     "start": "2026-12-01T17:00:00-07:00",
     "end": "2026-12-01T18:00:00-07:00",
     "allDay": false,
@@ -31400,7 +31415,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-12-01/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -33215,30 +33230,6 @@
     ]
   },
   {
-    "id": "a9a64585113e",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
-    "start": "2026-12-02T18:30:00-07:00",
-    "end": "2026-12-03T20:00:00-07:00",
-    "allDay": false,
-    "venue": "West Idaho Brazilian Jiu-Jitsu",
-    "venueKey": "west-idaho-brazilian-jiu-jitsu",
-    "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
-    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-02-2026-4620",
-    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-02-2026-4620",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
     "id": "aefd179397e1",
     "title": "Pajama Storytime",
     "start": "2026-12-02T18:30:00-07:00",
@@ -33259,6 +33250,28 @@
         "name": "boise-public-library",
         "url": "https://boisepubliclibrary.libcal.com/event/16458691",
         "fetchedAt": "2026-11-08T07:04:55Z"
+      }
+    ]
+  },
+  {
+    "id": "ba4a44b1ff16",
+    "title": "Adults NoGi",
+    "start": "2026-12-02T18:30:00-07:00",
+    "end": "2026-12-03T20:00:00-07:00",
+    "allDay": false,
+    "venue": "West Idaho Brazilian Jiu-Jitsu",
+    "venueKey": "west-idaho-brazilian-jiu-jitsu",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-02-2026-4620",
+    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-02-2026-4620",
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -33706,8 +33719,8 @@
     "city": "Boise"
   },
   {
-    "id": "36d1945d3507",
-    "title": "Tunes & Tales | Garden City Public Library",
+    "id": "9ebc8708fdfa",
+    "title": "Tunes & Tales",
     "start": "2026-12-03T10:00:00-07:00",
     "end": "2026-12-03T11:00:00-07:00",
     "allDay": false,
@@ -33728,7 +33741,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-03/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -34360,12 +34373,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
+    "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
     "description": "Join us after school for a variety of video games! Ages 12-17.",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
+        "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -34881,8 +34894,8 @@
     ]
   },
   {
-    "id": "f369406bf800",
-    "title": "Storytime with Stuffies | Eagle Public Library",
+    "id": "7dc5fa734328",
+    "title": "Storytime with Stuffies",
     "start": "2026-12-03T18:30:00-07:00",
     "end": "2026-12-03T19:00:00-07:00",
     "allDay": false,
@@ -34903,7 +34916,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-12-03/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -35276,8 +35289,8 @@
     ]
   },
   {
-    "id": "dc5e1916e688",
-    "title": "Dec 2026 Eagle Chamber Coffee - The Nest",
+    "id": "2ec2ae145ef1",
+    "title": "Dec 2026 Eagle Chamber Coffee",
     "start": "2026-12-03T20:30:00-07:00",
     "end": "2026-12-03T22:00:00-07:00",
     "allDay": false,
@@ -35293,7 +35306,7 @@
       {
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/dec-2026-eagle-chamber-coffee-the-nest-6044",
-        "fetchedAt": "2026-11-07T03:22:23Z"
+        "fetchedAt": "2026-11-10T05:01:07Z"
       }
     ]
   },
@@ -36737,8 +36750,8 @@
     ]
   },
   {
-    "id": "ca51d53685ea",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "db7715e2ec05",
+    "title": "Karoake Friday",
     "start": "2026-12-04T20:00:00-07:00",
     "end": "2026-12-04T23:30:00-07:00",
     "allDay": false,
@@ -36754,7 +36767,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-12-04-2026-4821",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -36911,6 +36924,31 @@
     ]
   },
   {
+    "id": "14e6ce44214b",
+    "title": "Merry Morning Breakfast with Santa",
+    "start": "2026-12-05T09:00:00-07:00",
+    "end": "2026-12-05T22:00:00-07:00",
+    "allDay": false,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "family-friendly",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "url": "https://boisemom.com/event/merry-morning-breakfast-with-santa-cabelas/",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/merry-morning-breakfast-with-santa-cabelas/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "3eeb9c04638a",
     "title": "Winter Market",
     "start": "2026-12-05T09:00:00-07:00",
@@ -36930,31 +36968,6 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/winter-market/2026-12-05/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "61a57352ceca",
-    "title": "Merry Morning Breakfast with Santa | Cabela’s",
-    "start": "2026-12-05T09:00:00-07:00",
-    "end": "2026-12-05T22:00:00-07:00",
-    "allDay": false,
-    "venue": "Cabela’s",
-    "venueKey": "cabelas",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "family-friendly",
-      "holiday-event",
-      "santa"
-    ],
-    "size": "S",
-    "url": "https://boisemom.com/event/merry-morning-breakfast-with-santa-cabelas/",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/merry-morning-breakfast-with-santa-cabelas/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -39393,6 +39406,33 @@
     ]
   },
   {
+    "id": "9dc76deef7cd",
+    "title": "Music & Movement",
+    "start": "2026-12-07T10:30:00-07:00",
+    "end": "2026-12-07T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-07/",
+    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-07/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "c4b76cb6df44",
     "title": "Story Time",
     "start": "2026-12-07T10:30:00-07:00",
@@ -39439,33 +39479,6 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-collister-library-2/2026-12-07/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "d87901316540",
-    "title": "Music & Movement | Garden City Public Library",
-    "start": "2026-12-07T10:30:00-07:00",
-    "end": "2026-12-07T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-07/",
-    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-07/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -40074,34 +40087,6 @@
     ]
   },
   {
-    "id": "4e1d7df69b70",
-    "title": "Preschool STEAM Storytime | Garden City Public Library",
-    "start": "2026-12-08T10:00:00-07:00",
-    "end": "2026-12-08T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program",
-      "workshop"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-08/",
-    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-08/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "932489bf3fef",
     "title": "Compassion Crew",
     "start": "2026-12-08T10:00:00-07:00",
@@ -40128,8 +40113,36 @@
     ]
   },
   {
-    "id": "ebbff772315d",
-    "title": "Coffee with a Vet - Old State Saloon",
+    "id": "cfde6dcbc9ff",
+    "title": "Preschool STEAM Storytime",
+    "start": "2026-12-08T10:00:00-07:00",
+    "end": "2026-12-08T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program",
+      "workshop"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-08/",
+    "description": "It’s time for hands-on learning every week with stories, songs, and special STEAM activities that will spark a love for reading and STEAM!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-08/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
+    "id": "e0ff19d8b996",
+    "title": "Coffee with a Vet",
     "start": "2026-12-08T10:00:00-07:00",
     "end": "2026-12-08T12:00:00-07:00",
     "allDay": false,
@@ -40144,7 +40157,7 @@
       {
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/coffee-with-a-vet-old-state-saloon-12-08-2026-4962",
-        "fetchedAt": "2026-11-07T03:22:23Z"
+        "fetchedAt": "2026-11-10T05:01:07Z"
       }
     ]
   },
@@ -40645,8 +40658,8 @@
     ]
   },
   {
-    "id": "97ed937aa774",
-    "title": "Santa Christmas Tales | Cabela’s",
+    "id": "2743ed994821",
+    "title": "Santa Christmas Tales",
     "start": "2026-12-08T17:00:00-07:00",
     "end": "2026-12-08T18:00:00-07:00",
     "allDay": false,
@@ -40666,7 +40679,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-12-08/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -42124,26 +42137,24 @@
     ]
   },
   {
-    "id": "cffe8aed57cb",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "bf7403b7f60e",
+    "title": "Adults NoGi",
     "start": "2026-12-09T18:30:00-07:00",
     "end": "2026-12-10T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-09-2026-4621",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-09-2026-4621",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -42473,6 +42484,33 @@
     ]
   },
   {
+    "id": "488e9b5e0eb6",
+    "title": "Tunes & Tales",
+    "start": "2026-12-10T10:00:00-07:00",
+    "end": "2026-12-10T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-10/",
+    "description": "Gear up for a whirlwind of fun with this energetic storytime! It’s a perfect blend of captivating stories, toe-tapping tunes, groovy moves, and loads of learning! After storytime we will dive into 30 minutes of open play",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-10/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "542744714e33",
     "title": "$3 Admission Day at Zoo Boise",
     "start": "2026-12-10T10:00:00-07:00",
@@ -42497,33 +42535,6 @@
       }
     ],
     "city": "Boise"
-  },
-  {
-    "id": "5dd2aeb4419c",
-    "title": "Tunes & Tales | Garden City Public Library",
-    "start": "2026-12-10T10:00:00-07:00",
-    "end": "2026-12-10T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-10/",
-    "description": "Gear up for a whirlwind of fun with this energetic storytime! It’s a perfect blend of captivating stories, toe-tapping tunes, groovy moves, and loads of learning! After storytime we will dive into 30 minutes of open play",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-10/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
   },
   {
     "id": "1b6e1ed730cb",
@@ -43193,33 +43204,6 @@
     "city": "Eagle"
   },
   {
-    "id": "34cdaefde61d",
-    "title": "Storytime with Stuffies | Eagle Public Library",
-    "start": "2026-12-10T18:30:00-07:00",
-    "end": "2026-12-10T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Eagle Public Library",
-    "venueKey": "eagle-public-library",
-    "city": "Eagle",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-12-10/",
-    "description": "Build literacy skills through stories and songs in this interactive program for young children and their caregivers. Optional: Wear your pajamas, bring a stuff animal and enjoy a snack! Ages birth-5 years. Location: Library Corner",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-12-10/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "39bf5fa03efa",
     "title": "Mayor's Book Club Disucssion Night",
     "start": "2026-12-10T18:30:00-07:00",
@@ -43260,6 +43244,33 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-12-10-2026-1376",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "f99e436000f0",
+    "title": "Storytime with Stuffies",
+    "start": "2026-12-10T18:30:00-07:00",
+    "end": "2026-12-10T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Eagle Public Library",
+    "venueKey": "eagle-public-library",
+    "city": "Eagle",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-12-10/",
+    "description": "Build literacy skills through stories and songs in this interactive program for young children and their caregivers. Optional: Wear your pajamas, bring a stuff animal and enjoy a snack! Ages birth-5 years. Location: Library Corner",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-12-10/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -44582,8 +44593,8 @@
     ]
   },
   {
-    "id": "062131bc1bdc",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "b2a71c4f04ed",
+    "title": "Karoake Friday",
     "start": "2026-12-11T20:00:00-07:00",
     "end": "2026-12-11T23:30:00-07:00",
     "allDay": false,
@@ -44599,7 +44610,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-12-11-2026-4822",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -46699,33 +46710,6 @@
     ]
   },
   {
-    "id": "753db1fb2890",
-    "title": "Music & Movement | Garden City Public Library",
-    "start": "2026-12-14T10:30:00-07:00",
-    "end": "2026-12-14T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-14/",
-    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-14/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "b7aaae9edaef",
     "title": "Music & Movement Collister Library!",
     "start": "2026-12-14T10:30:00-07:00",
@@ -46748,6 +46732,33 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-collister-library-2/2026-12-14/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "d71644df3e99",
+    "title": "Music & Movement",
+    "start": "2026-12-14T10:30:00-07:00",
+    "end": "2026-12-14T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-14/",
+    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-14/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -47423,8 +47434,8 @@
     ]
   },
   {
-    "id": "33fa2d60e63e",
-    "title": "Preschool STEAM Storytime | Garden City Public Library",
+    "id": "12ee4bd63965",
+    "title": "Preschool STEAM Storytime",
     "start": "2026-12-15T10:00:00-07:00",
     "end": "2026-12-15T11:00:00-07:00",
     "allDay": false,
@@ -47446,7 +47457,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-15/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -48010,6 +48021,32 @@
     "city": "Boise"
   },
   {
+    "id": "51c75078312e",
+    "title": "Santa Christmas Tales",
+    "start": "2026-12-15T17:00:00-07:00",
+    "end": "2026-12-15T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-12-15/",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-12-15/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "76deec5a900e",
     "title": "Christmas in Color",
     "start": "2026-12-15T17:00:00-07:00",
@@ -48057,32 +48094,6 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/teen-hangout-downtown-library-2/2026-12-15/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "c29387c3965f",
-    "title": "Santa Christmas Tales | Cabela’s",
-    "start": "2026-12-15T17:00:00-07:00",
-    "end": "2026-12-15T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Cabela’s",
-    "venueKey": "cabelas",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "free-admission",
-      "holiday-event",
-      "santa"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-12-15/",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-12-15/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -49168,26 +49179,24 @@
     ]
   },
   {
-    "id": "380f632cfeaa",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "77751f68fde6",
+    "title": "Adults NoGi",
     "start": "2026-12-16T18:30:00-07:00",
     "end": "2026-12-17T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-16-2026-4622",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-16-2026-4622",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -49533,8 +49542,30 @@
     ]
   },
   {
-    "id": "c3b21bed968e",
-    "title": "Tunes & Tales | Garden City Public Library",
+    "id": "e519490707c2",
+    "title": "$3 Thursdays at Zoo Boise",
+    "start": "2026-12-17T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Zoo Boise",
+    "venueKey": "zoo-boise",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "zoo"
+    ],
+    "size": "M",
+    "url": "https://www.cityofboise.org/events/parks/2026/december/3-thursdays-at-zoo-boise-1-1-1-1/",
+    "sources": [
+      {
+        "name": "city-of-boise",
+        "url": "https://www.cityofboise.org/events/parks/2026/december/3-thursdays-at-zoo-boise-1-1-1-1/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "eb60cbd19b82",
+    "title": "Tunes & Tales",
     "start": "2026-12-17T10:00:00-07:00",
     "end": "2026-12-17T11:00:00-07:00",
     "allDay": false,
@@ -49555,29 +49586,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-17/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "e519490707c2",
-    "title": "$3 Thursdays at Zoo Boise",
-    "start": "2026-12-17T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Zoo Boise",
-    "venueKey": "zoo-boise",
-    "city": "Boise",
-    "category": "outdoors-recreation",
-    "tags": [
-      "zoo"
-    ],
-    "size": "M",
-    "url": "https://www.cityofboise.org/events/parks/2026/december/3-thursdays-at-zoo-boise-1-1-1-1/",
-    "sources": [
-      {
-        "name": "city-of-boise",
-        "url": "https://www.cityofboise.org/events/parks/2026/december/3-thursdays-at-zoo-boise-1-1-1-1/",
-        "fetchedAt": "2026-11-06T19:12:30Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -50218,8 +50227,8 @@
     ]
   },
   {
-    "id": "74c502ceb719",
-    "title": "Storytime with Stuffies | Eagle Public Library",
+    "id": "39abcfc2e1e0",
+    "title": "Storytime with Stuffies",
     "start": "2026-12-17T18:30:00-07:00",
     "end": "2026-12-17T19:00:00-07:00",
     "allDay": false,
@@ -50240,7 +50249,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-12-17/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -51352,8 +51361,8 @@
     ]
   },
   {
-    "id": "93da8085c611",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "377c5d7e88be",
+    "title": "Karoake Friday",
     "start": "2026-12-18T20:00:00-07:00",
     "end": "2026-12-18T23:30:00-07:00",
     "allDay": false,
@@ -51369,7 +51378,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-12-18-2026-4823",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -51680,6 +51689,32 @@
     ]
   },
   {
+    "id": "9dafc6c29744",
+    "title": "Believe",
+    "start": "2026-12-19T10:00:00-07:00",
+    "end": "2026-12-19T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Children’s Museum of Idaho",
+    "venueKey": "childrens-museum-of-idaho",
+    "city": "Meridian",
+    "category": "holiday-seasonal",
+    "tags": [
+      "family-friendly",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "M",
+    "url": "https://boisemom.com/event/believe-childrens-museum-of-idaho/",
+    "description": "Believe in the Christmas Spirit! Join us December 19th from 10am to 2pm for festive crafts, treats, and a visit from Santa! Pajamas encouraged Included with museum admission. You won’t want to miss this magical celebration! Thank you to our friends at Opal Autism Centers for sponsoring!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/believe-childrens-museum-of-idaho/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "a8a558ee47f4",
     "title": "Old Boise Model Railroad Holiday Open House",
     "start": "2026-12-19T10:00:00-07:00",
@@ -51706,33 +51741,6 @@
       }
     ],
     "city": "Boise"
-  },
-  {
-    "id": "b869ad002424",
-    "title": "Believe | Children’s Museum of Idaho",
-    "start": "2026-12-19T10:00:00-07:00",
-    "end": "2026-12-19T14:00:00-07:00",
-    "allDay": false,
-    "venue": "Children’s Museum of Idaho",
-    "venueKey": "childrens-museum-of-idaho",
-    "city": "Meridian",
-    "category": "arts-culture",
-    "tags": [
-      "family-friendly",
-      "holiday-event",
-      "museum",
-      "santa"
-    ],
-    "size": "S",
-    "url": "https://boisemom.com/event/believe-childrens-museum-of-idaho/",
-    "description": "Believe in the Christmas Spirit! Join us December 19th from 10am to 2pm for festive crafts, treats, and a visit from Santa! Pajamas encouraged Included with museum admission. You won’t want to miss this magical celebration! Thank you to our friends at Opal Autism Centers for sponsoring!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/believe-childrens-museum-of-idaho/",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
   },
   {
     "id": "df82f6e9c848",
@@ -53349,8 +53357,8 @@
     ]
   },
   {
-    "id": "f8a7944fece8",
-    "title": "Music & Movement | Garden City Public Library",
+    "id": "fdb492ed5362",
+    "title": "Music & Movement",
     "start": "2026-12-21T10:30:00-07:00",
     "end": "2026-12-21T11:30:00-07:00",
     "allDay": false,
@@ -53371,7 +53379,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-21/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -53982,28 +53990,8 @@
     ]
   },
   {
-    "id": "ce0253483a01",
-    "title": "$3 December Days",
-    "start": "2026-12-22T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Zoo Boise",
-    "venueKey": "zoo-boise",
-    "city": "Boise",
-    "category": "community-civic",
-    "tags": [],
-    "size": "M",
-    "url": "https://www.cityofboise.org/events/parks/2026/december/3-december-days-1-1-1/",
-    "sources": [
-      {
-        "name": "city-of-boise",
-        "url": "https://www.cityofboise.org/events/parks/2026/december/3-december-days-1-1-1/",
-        "fetchedAt": "2026-11-06T19:12:30Z"
-      }
-    ]
-  },
-  {
-    "id": "ffed179f27e3",
-    "title": "Preschool STEAM Storytime | Garden City Public Library",
+    "id": "791a93d194f0",
+    "title": "Preschool STEAM Storytime",
     "start": "2026-12-22T10:00:00-07:00",
     "end": "2026-12-22T11:00:00-07:00",
     "allDay": false,
@@ -54025,7 +54013,27 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/preschool-steam-storytime-garden-city-public-library/2026-12-22/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
+    "id": "ce0253483a01",
+    "title": "$3 December Days",
+    "start": "2026-12-22T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Zoo Boise",
+    "venueKey": "zoo-boise",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://www.cityofboise.org/events/parks/2026/december/3-december-days-1-1-1/",
+    "sources": [
+      {
+        "name": "city-of-boise",
+        "url": "https://www.cityofboise.org/events/parks/2026/december/3-december-days-1-1-1/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
       }
     ]
   },
@@ -54284,8 +54292,8 @@
     ]
   },
   {
-    "id": "9038dfe779cf",
-    "title": "Santa Christmas Tales | Cabela’s",
+    "id": "83e13a8bdbd5",
+    "title": "Santa Christmas Tales",
     "start": "2026-12-22T17:00:00-07:00",
     "end": "2026-12-22T18:00:00-07:00",
     "allDay": false,
@@ -54305,7 +54313,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/santa-christmas-tales-cabelas/2026-12-22/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -55425,26 +55433,24 @@
     ]
   },
   {
-    "id": "5daa86975279",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "ae9ba3ad9023",
+    "title": "Adults NoGi",
     "start": "2026-12-23T18:30:00-07:00",
     "end": "2026-12-24T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-23-2026-4623",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-23-2026-4623",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -56178,8 +56184,8 @@
     "city": "Eagle"
   },
   {
-    "id": "1bb98e62033c",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "375a7de89889",
+    "title": "Karoake Friday",
     "start": "2026-12-25T20:00:00-07:00",
     "end": "2026-12-25T23:30:00-07:00",
     "allDay": false,
@@ -56195,7 +56201,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-12-25-2026-4824",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -57271,6 +57277,33 @@
     ]
   },
   {
+    "id": "11a4df7cb9cc",
+    "title": "Music & Movement",
+    "start": "2026-12-28T10:30:00-07:00",
+    "end": "2026-12-28T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-28/",
+    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-28/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
     "id": "4398998b2bb7",
     "title": "Story Time",
     "start": "2026-12-28T10:30:00-07:00",
@@ -57317,33 +57350,6 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-collister-library-2/2026-12-28/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "988834f4007c",
-    "title": "Music & Movement | Garden City Public Library",
-    "start": "2026-12-28T10:30:00-07:00",
-    "end": "2026-12-28T11:30:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-28/",
-    "description": "Get ready to groove at our Music and Movement time! Jump, dance, and sing along with action stories, lively songs, and thrilling activities. Shake those egg shakers, ring those bells, and let the music move you!",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2026-12-28/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -59004,6 +59010,28 @@
     ]
   },
   {
+    "id": "235038738ce1",
+    "title": "Adults NoGi",
+    "start": "2026-12-30T18:30:00-07:00",
+    "end": "2026-12-31T20:00:00-07:00",
+    "allDay": false,
+    "venue": "West Idaho Brazilian Jiu-Jitsu",
+    "venueKey": "west-idaho-brazilian-jiu-jitsu",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-30-2026-4624",
+    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-30-2026-4624",
+        "fetchedAt": "2026-11-10T04:59:00Z"
+      }
+    ]
+  },
+  {
     "id": "cc77e9c9c84e",
     "title": "Waypoint : a meditative service for seekers",
     "start": "2026-12-30T18:30:00-07:00",
@@ -59022,30 +59050,6 @@
         "name": "meetup-waypoint-a-meditative-service-for-pilgrims",
         "url": "https://www.meetup.com/waypoint-a-meditative-service-for-pilgrims/events/pxvqztyjcqbnc/",
         "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "fb1cd8983442",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
-    "start": "2026-12-30T18:30:00-07:00",
-    "end": "2026-12-31T20:00:00-07:00",
-    "allDay": false,
-    "venue": "West Idaho Brazilian Jiu-Jitsu",
-    "venueKey": "west-idaho-brazilian-jiu-jitsu",
-    "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
-    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-30-2026-4624",
-    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-12-30-2026-4624",
-        "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
   },
@@ -59186,33 +59190,6 @@
     ]
   },
   {
-    "id": "34802208e954",
-    "title": "Tunes & Tales | Garden City Public Library",
-    "start": "2026-12-31T10:00:00-07:00",
-    "end": "2026-12-31T11:00:00-07:00",
-    "allDay": false,
-    "venue": "Garden City Public Library",
-    "venueKey": "garden-city-public-library",
-    "city": "Garden City",
-    "category": "learning-business",
-    "tags": [
-      "free-admission",
-      "kids",
-      "library-program"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-31/",
-    "description": "Gear up for a whirlwind of fun with this energetic storytime! It’s a perfect blend of captivating stories, toe-tapping tunes, groovy moves, and loads of learning! After storytime we will dive into 30 minutes of open play",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-31/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "49d2d6fd3478",
     "title": "$3 Thursdays at Zoo Boise",
     "start": "2026-12-31T10:00:00-07:00",
@@ -59243,6 +59220,33 @@
     "description": "An inexpensive way to have a wild adventure in Boise! (Open 10AM – 5PM, last admission at 4PM. Closed on Christmas Day.)",
     "costTier": "$",
     "end": "2027-01-12T17:00:00-07:00"
+  },
+  {
+    "id": "4f28aee808ac",
+    "title": "Tunes & Tales",
+    "start": "2026-12-31T10:00:00-07:00",
+    "end": "2026-12-31T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Garden City Public Library",
+    "venueKey": "garden-city-public-library",
+    "city": "Garden City",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-31/",
+    "description": "Gear up for a whirlwind of fun with this energetic storytime! It’s a perfect blend of captivating stories, toe-tapping tunes, groovy moves, and loads of learning! After storytime we will dive into 30 minutes of open play",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/tunes-tales-garden-city-public-library/2026-12-31/",
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
   },
   {
     "id": "713868fa88e1",
@@ -59735,30 +59739,8 @@
     ]
   },
   {
-    "id": "890bd0d3898d",
-    "title": "The Dirt on Gardening",
-    "start": "2026-12-31T18:30:00-07:00",
-    "end": "2026-12-31T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Star Library",
-    "venueKey": "star-library",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-12-31-2026-1379",
-    "description": "Topics range from Veggie Gardens, Composting, Canning and much more! Check out the Star Library Calendar for more information https://adalib.org/whats-happening-at-the-library/",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-12-31-2026-1379",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "f44599551c75",
-    "title": "Storytime with Stuffies | Eagle Public Library",
+    "id": "1f0337855e06",
+    "title": "Storytime with Stuffies",
     "start": "2026-12-31T18:30:00-07:00",
     "end": "2026-12-31T19:00:00-07:00",
     "allDay": false,
@@ -59779,7 +59761,29 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/storytime-with-stuffies-eagle-public-library/2026-12-31/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
+      }
+    ]
+  },
+  {
+    "id": "890bd0d3898d",
+    "title": "The Dirt on Gardening",
+    "start": "2026-12-31T18:30:00-07:00",
+    "end": "2026-12-31T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-12-31-2026-1379",
+    "description": "Topics range from Veggie Gardens, Composting, Canning and much more! Check out the Star Library Calendar for more information https://adalib.org/whats-happening-at-the-library/",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-12-31-2026-1379",
+        "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
   },
@@ -60118,8 +60122,8 @@
     ]
   },
   {
-    "id": "e5db5b82982d",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "a166e50fa1e7",
+    "title": "Karoake Friday",
     "start": "2027-01-01T20:00:00-07:00",
     "end": "2027-01-01T23:30:00-07:00",
     "allDay": false,
@@ -60135,7 +60139,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-01-2027-4825",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -60931,8 +60935,8 @@
     ]
   },
   {
-    "id": "b92e6ab89a20",
-    "title": "Music & Movement | Garden City Public Library",
+    "id": "7ca1b7a3973f",
+    "title": "Music & Movement",
     "start": "2027-01-04T10:30:00-07:00",
     "end": "2027-01-04T11:30:00-07:00",
     "allDay": false,
@@ -60953,7 +60957,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2027-01-04/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -61878,26 +61882,24 @@
     ]
   },
   {
-    "id": "acd5a67efc62",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "dbc58683bb59",
+    "title": "Adults NoGi",
     "start": "2027-01-06T18:30:00-07:00",
     "end": "2027-01-07T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-06-2027-4625",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-06-2027-4625",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -62752,8 +62754,8 @@
     ]
   },
   {
-    "id": "ac7ac0893652",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "e95af06037d5",
+    "title": "Karoake Friday",
     "start": "2027-01-08T20:00:00-07:00",
     "end": "2027-01-08T23:30:00-07:00",
     "allDay": false,
@@ -62769,7 +62771,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-08-2027-4826",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -63512,8 +63514,8 @@
     ]
   },
   {
-    "id": "baed68d8423b",
-    "title": "Music & Movement | Garden City Public Library",
+    "id": "d1739717806a",
+    "title": "Music & Movement",
     "start": "2027-01-11T10:30:00-07:00",
     "end": "2027-01-11T11:30:00-07:00",
     "allDay": false,
@@ -63534,7 +63536,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2027-01-11/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -63809,8 +63811,8 @@
     ]
   },
   {
-    "id": "307175ae7a11",
-    "title": "Coffee with a Vet - Old State Saloon",
+    "id": "65e95a579aaf",
+    "title": "Coffee with a Vet",
     "start": "2027-01-12T10:00:00-07:00",
     "end": "2027-01-12T12:00:00-07:00",
     "allDay": false,
@@ -63825,7 +63827,7 @@
       {
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/coffee-with-a-vet-old-state-saloon-01-12-2027-4963",
-        "fetchedAt": "2026-11-07T03:22:23Z"
+        "fetchedAt": "2026-11-10T05:01:07Z"
       }
     ]
   },
@@ -64482,30 +64484,6 @@
     ]
   },
   {
-    "id": "0321782d1bf5",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
-    "start": "2027-01-13T18:30:00-07:00",
-    "end": "2027-01-14T20:00:00-07:00",
-    "allDay": false,
-    "venue": "West Idaho Brazilian Jiu-Jitsu",
-    "venueKey": "west-idaho-brazilian-jiu-jitsu",
-    "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
-    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-13-2027-4626",
-    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-13-2027-4626",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
     "id": "857927dcb9e9",
     "title": "Waypoint : a meditative service for seekers",
     "start": "2027-01-13T18:30:00-07:00",
@@ -64524,6 +64502,28 @@
         "name": "meetup-waypoint-a-meditative-service-for-pilgrims",
         "url": "https://www.meetup.com/waypoint-a-meditative-service-for-pilgrims/events/pxvqztykccbrb/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "b18837dacd75",
+    "title": "Adults NoGi",
+    "start": "2027-01-13T18:30:00-07:00",
+    "end": "2027-01-14T20:00:00-07:00",
+    "allDay": false,
+    "venue": "West Idaho Brazilian Jiu-Jitsu",
+    "venueKey": "west-idaho-brazilian-jiu-jitsu",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-13-2027-4626",
+    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-13-2027-4626",
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -65387,8 +65387,8 @@
     ]
   },
   {
-    "id": "d651242d260e",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "b620734b8562",
+    "title": "Karoake Friday",
     "start": "2027-01-15T20:00:00-07:00",
     "end": "2027-01-15T23:30:00-07:00",
     "allDay": false,
@@ -65404,7 +65404,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-15-2027-4827",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -66145,8 +66145,8 @@
     ]
   },
   {
-    "id": "acc97b47578e",
-    "title": "Music & Movement | Garden City Public Library",
+    "id": "e98ac774c2ac",
+    "title": "Music & Movement",
     "start": "2027-01-18T10:30:00-07:00",
     "end": "2027-01-18T11:30:00-07:00",
     "allDay": false,
@@ -66167,7 +66167,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2027-01-18/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -67027,26 +67027,24 @@
     ]
   },
   {
-    "id": "e7163b61c42b",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "bbca9867c91c",
+    "title": "Adults NoGi",
     "start": "2027-01-20T18:30:00-07:00",
     "end": "2027-01-21T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-20-2027-4627",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-20-2027-4627",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -67907,8 +67905,8 @@
     ]
   },
   {
-    "id": "606737884989",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "f47b49423a44",
+    "title": "Karoake Friday",
     "start": "2027-01-22T20:00:00-07:00",
     "end": "2027-01-22T23:30:00-07:00",
     "allDay": false,
@@ -67924,7 +67922,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-22-2027-4828",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -68774,8 +68772,8 @@
     ]
   },
   {
-    "id": "8b1f2bd80ec7",
-    "title": "Music & Movement | Garden City Public Library",
+    "id": "b38029aa0dba",
+    "title": "Music & Movement",
     "start": "2027-01-25T10:30:00-07:00",
     "end": "2027-01-25T11:30:00-07:00",
     "allDay": false,
@@ -68796,7 +68794,7 @@
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-movement-garden-city-public-library/2027-01-25/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
+        "fetchedAt": "2026-11-10T04:59:13Z"
       }
     ]
   },
@@ -69778,26 +69776,24 @@
     ]
   },
   {
-    "id": "01f0dbd34608",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "113b30b3742c",
+    "title": "Adults NoGi",
     "start": "2027-01-27T18:30:00-07:00",
     "end": "2027-01-28T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-27-2027-4628",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-01-27-2027-4628",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -70718,28 +70714,6 @@
     ]
   },
   {
-    "id": "85e1c22e5f74",
-    "title": "Karoake Friday @ Helina Marie's",
-    "start": "2027-01-29T20:00:00-07:00",
-    "end": "2027-01-29T23:30:00-07:00",
-    "allDay": false,
-    "venue": "Helina Marie's",
-    "venueKey": "helina-maries",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-29-2027-4829",
-    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-29-2027-4829",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
     "id": "e16cc6953223",
     "title": "Emo Night Brooklyn",
     "start": "2027-01-29T20:00:00-07:00",
@@ -70756,6 +70730,28 @@
         "name": "shrine-social-club",
         "url": "https://link.dice.fm/Leab4144280c",
         "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "eb508c5ccc01",
+    "title": "Karoake Friday",
+    "start": "2027-01-29T20:00:00-07:00",
+    "end": "2027-01-29T23:30:00-07:00",
+    "allDay": false,
+    "venue": "Helina Marie's",
+    "venueKey": "helina-maries",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-29-2027-4829",
+    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-01-29-2027-4829",
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -72021,26 +72017,24 @@
     "end": "2027-02-03T20:00:00-07:00"
   },
   {
-    "id": "2045dae1d7c9",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "096afff0e47f",
+    "title": "Adults NoGi",
     "start": "2027-02-03T18:30:00-07:00",
     "end": "2027-02-04T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-02-03-2027-4629",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-02-03-2027-4629",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -72938,8 +72932,8 @@
     ]
   },
   {
-    "id": "82755891e5fb",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "efb0faa534ed",
+    "title": "Karoake Friday",
     "start": "2027-02-05T20:00:00-07:00",
     "end": "2027-02-05T23:30:00-07:00",
     "allDay": false,
@@ -72955,7 +72949,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-02-05-2027-4830",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -74551,26 +74545,24 @@
     ]
   },
   {
-    "id": "0b4a83d2fbf7",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "4658c4394afe",
+    "title": "Adults NoGi",
     "start": "2027-02-10T18:30:00-07:00",
     "end": "2027-02-11T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-02-10-2027-4630",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-02-10-2027-4630",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -75228,8 +75220,8 @@
     ]
   },
   {
-    "id": "a5003cafb5d3",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "2928871e6413",
+    "title": "Karoake Friday",
     "start": "2027-02-12T20:00:00-07:00",
     "end": "2027-02-12T23:30:00-07:00",
     "allDay": false,
@@ -75245,7 +75237,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-02-12-2027-4831",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -76296,26 +76288,24 @@
     ]
   },
   {
-    "id": "33d60295c557",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "90b05b4725f1",
+    "title": "Adults NoGi",
     "start": "2027-02-17T18:30:00-07:00",
     "end": "2027-02-18T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-02-17-2027-4631",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-02-17-2027-4631",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -76863,8 +76853,8 @@
     ]
   },
   {
-    "id": "f0cbef8a5c38",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "872ca1039b96",
+    "title": "Karoake Friday",
     "start": "2027-02-19T20:00:00-07:00",
     "end": "2027-02-19T23:30:00-07:00",
     "allDay": false,
@@ -76880,7 +76870,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-02-19-2027-4832",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -77873,26 +77863,24 @@
     ]
   },
   {
-    "id": "8b1917d7f9ce",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "dbb140081ff0",
+    "title": "Adults NoGi",
     "start": "2027-02-24T18:30:00-07:00",
     "end": "2027-02-25T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-02-24-2027-4632",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-02-24-2027-4632",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -78653,8 +78641,8 @@
     ]
   },
   {
-    "id": "fc5ba701f57e",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "ace9e926c890",
+    "title": "Karoake Friday",
     "start": "2027-02-26T20:00:00-07:00",
     "end": "2027-02-26T23:30:00-07:00",
     "allDay": false,
@@ -78670,7 +78658,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-02-26-2027-4833",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -79704,26 +79692,24 @@
     ]
   },
   {
-    "id": "e0552230295d",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "b281aa3a5abf",
+    "title": "Adults NoGi",
     "start": "2027-03-03T18:30:00-07:00",
     "end": "2027-03-04T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-03-2027-4633",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-03-2027-4633",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -80426,8 +80412,8 @@
     "end": "2027-03-05T22:00:00-07:00"
   },
   {
-    "id": "df18f8745b4b",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "a3e210a0b2b1",
+    "title": "Karoake Friday",
     "start": "2027-03-05T20:00:00-07:00",
     "end": "2027-03-05T23:30:00-07:00",
     "allDay": false,
@@ -80443,7 +80429,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-03-05-2027-4834",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -81662,26 +81648,24 @@
     ]
   },
   {
-    "id": "74916598c9c7",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "18f7b1ff9e2c",
+    "title": "Adults NoGi",
     "start": "2027-03-10T18:30:00-07:00",
     "end": "2027-03-11T20:00:00-07:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-10-2027-4634",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-10-2027-4634",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -82241,6 +82225,28 @@
     ]
   },
   {
+    "id": "2cb62949cb40",
+    "title": "Karoake Friday",
+    "start": "2027-03-12T20:00:00-07:00",
+    "end": "2027-03-12T23:30:00-07:00",
+    "allDay": false,
+    "venue": "Helina Marie's",
+    "venueKey": "helina-maries",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-03-12-2027-4835",
+    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-03-12-2027-4835",
+        "fetchedAt": "2026-11-10T04:59:00Z"
+      }
+    ]
+  },
+  {
     "id": "af4034a385d2",
     "title": "Graham Barham",
     "start": "2027-03-12T20:00:00-07:00",
@@ -82266,28 +82272,6 @@
         "name": "ticketmaster-metro",
         "url": "https://www.ticketweb.com/event/graham-barham-9th-st-parallel-at-knitting-tickets/14325004",
         "fetchedAt": "2026-11-03T17:00:01Z"
-      }
-    ]
-  },
-  {
-    "id": "b82fbfee345e",
-    "title": "Karoake Friday @ Helina Marie's",
-    "start": "2027-03-12T20:00:00-07:00",
-    "end": "2027-03-12T23:30:00-07:00",
-    "allDay": false,
-    "venue": "Helina Marie's",
-    "venueKey": "helina-maries",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-03-12-2027-4835",
-    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-03-12-2027-4835",
-        "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
   },
@@ -83142,26 +83126,24 @@
     ]
   },
   {
-    "id": "7f97cd9ef1b2",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "2d8c341aa9f6",
+    "title": "Adults NoGi",
     "start": "2027-03-17T18:30:00-06:00",
     "end": "2027-03-18T20:00:00-06:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-17-2027-4635",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-17-2027-4635",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -83601,8 +83583,8 @@
     ]
   },
   {
-    "id": "8e68a654f889",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "8f8150654df6",
+    "title": "Karoake Friday",
     "start": "2027-03-19T20:00:00-06:00",
     "end": "2027-03-19T23:30:00-06:00",
     "allDay": false,
@@ -83618,7 +83600,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-03-19-2027-4836",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -84637,26 +84619,24 @@
     ]
   },
   {
-    "id": "5b1be29af38f",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "2f05a5f99763",
+    "title": "Adults NoGi",
     "start": "2027-03-24T18:30:00-06:00",
     "end": "2027-03-25T20:00:00-06:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-24-2027-4636",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-24-2027-4636",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -85181,8 +85161,8 @@
     ]
   },
   {
-    "id": "3f98cf8b5cce",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "a1e07c5e6104",
+    "title": "Karoake Friday",
     "start": "2027-03-26T20:00:00-06:00",
     "end": "2027-03-26T23:30:00-06:00",
     "allDay": false,
@@ -85198,7 +85178,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-03-26-2027-4837",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -86139,26 +86119,24 @@
     ]
   },
   {
-    "id": "71bcc2f74253",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "2a4720456601",
+    "title": "Adults NoGi",
     "start": "2027-03-31T18:30:00-06:00",
     "end": "2027-04-01T20:00:00-06:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-31-2027-4637",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-03-31-2027-4637",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -86814,8 +86792,8 @@
     ]
   },
   {
-    "id": "db295f5a1899",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "b5ddd03ac72f",
+    "title": "Karoake Friday",
     "start": "2027-04-02T20:00:00-06:00",
     "end": "2027-04-02T23:30:00-06:00",
     "allDay": false,
@@ -86831,7 +86809,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-04-02-2027-4838",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -87835,26 +87813,24 @@
     ]
   },
   {
-    "id": "919033b70354",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "eff20de7aa28",
+    "title": "Adults NoGi",
     "start": "2027-04-07T18:30:00-06:00",
     "end": "2027-04-08T20:00:00-06:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-04-07-2027-4638",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-04-07-2027-4638",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -88335,6 +88311,28 @@
     ]
   },
   {
+    "id": "3e36559bb192",
+    "title": "Karoake Friday",
+    "start": "2027-04-09T20:00:00-06:00",
+    "end": "2027-04-09T23:30:00-06:00",
+    "allDay": false,
+    "venue": "Helina Marie's",
+    "venueKey": "helina-maries",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-04-09-2027-4839",
+    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-04-09-2027-4839",
+        "fetchedAt": "2026-11-10T04:59:00Z"
+      }
+    ]
+  },
+  {
     "id": "971272f2774f",
     "title": "Mudhoney",
     "start": "2027-04-09T20:00:00-06:00",
@@ -88360,28 +88358,6 @@
         "name": "ticketmaster-metro",
         "url": "https://www.ticketweb.com/event/mudhoney-knitting-factory-boise-tickets/14378924",
         "fetchedAt": "2026-11-03T17:00:01Z"
-      }
-    ]
-  },
-  {
-    "id": "ac7b52417cd5",
-    "title": "Karoake Friday @ Helina Marie's",
-    "start": "2027-04-09T20:00:00-06:00",
-    "end": "2027-04-09T23:30:00-06:00",
-    "allDay": false,
-    "venue": "Helina Marie's",
-    "venueKey": "helina-maries",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-04-09-2027-4839",
-    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-04-09-2027-4839",
-        "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
   },
@@ -89340,26 +89316,24 @@
     ]
   },
   {
-    "id": "bcc41e640f9b",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "ca0993f0fde7",
+    "title": "Adults NoGi",
     "start": "2027-04-14T18:30:00-06:00",
     "end": "2027-04-15T20:00:00-06:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-04-14-2027-4639",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-04-14-2027-4639",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -89795,8 +89769,8 @@
     ]
   },
   {
-    "id": "a503ff0cff2c",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "16ebaa700bf2",
+    "title": "Karoake Friday",
     "start": "2027-04-16T20:00:00-06:00",
     "end": "2027-04-16T23:30:00-06:00",
     "allDay": false,
@@ -89812,7 +89786,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-04-16-2027-4840",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -90780,26 +90754,24 @@
     ]
   },
   {
-    "id": "8a818ff7686c",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "799d52769dc7",
+    "title": "Adults NoGi",
     "start": "2027-04-21T18:30:00-06:00",
     "end": "2027-04-22T20:00:00-06:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-04-21-2027-4640",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-04-21-2027-4640",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -91259,8 +91231,8 @@
     ]
   },
   {
-    "id": "65fcf185cd2c",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "13968982958d",
+    "title": "Karoake Friday",
     "start": "2027-04-23T20:00:00-06:00",
     "end": "2027-04-23T23:30:00-06:00",
     "allDay": false,
@@ -91276,7 +91248,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-04-23-2027-4841",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -92165,26 +92137,24 @@
     ]
   },
   {
-    "id": "149384508171",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "8966fb6b30aa",
+    "title": "Adults NoGi",
     "start": "2027-04-28T18:30:00-06:00",
     "end": "2027-04-29T20:00:00-06:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-04-28-2027-4641",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-04-28-2027-4641",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -92582,8 +92552,8 @@
     ]
   },
   {
-    "id": "9aaedd489df1",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "ef5cd2ea9458",
+    "title": "Karoake Friday",
     "start": "2027-04-30T20:00:00-06:00",
     "end": "2027-04-30T23:30:00-06:00",
     "allDay": false,
@@ -92599,7 +92569,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-04-30-2027-4842",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -93526,26 +93496,24 @@
     ]
   },
   {
-    "id": "3611f922f87a",
-    "title": "Adults NoGi @ West Idaho Brazilian Jiu-Jitsu",
+    "id": "cef459f423b6",
+    "title": "Adults NoGi",
     "start": "2027-05-05T18:30:00-06:00",
     "end": "2027-05-06T20:00:00-06:00",
     "allDay": false,
     "venue": "West Idaho Brazilian Jiu-Jitsu",
     "venueKey": "west-idaho-brazilian-jiu-jitsu",
     "city": "Star",
-    "category": "sports",
-    "tags": [
-      "combat-sports"
-    ],
-    "size": "M",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
     "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-05-05-2027-4642",
     "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
     "sources": [
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-05-05-2027-4642",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
@@ -93838,8 +93806,8 @@
     "end": "2027-05-07T21:30:00-06:00"
   },
   {
-    "id": "1d66dbd8af78",
-    "title": "Karoake Friday @ Helina Marie's",
+    "id": "ae812adc8b5c",
+    "title": "Karoake Friday",
     "start": "2027-05-07T20:00:00-06:00",
     "end": "2027-05-07T23:30:00-06:00",
     "allDay": false,
@@ -93855,7 +93823,7 @@
       {
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-05-07-2027-4843",
-        "fetchedAt": "2026-11-08T23:01:49Z"
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   },
