@@ -5,8 +5,8 @@
     "start": "2026-11-12T08:30:00-07:00",
     "end": "2026-11-13T14:00:00-07:00",
     "allDay": false,
-    "venue": "Boise, ID 83703",
-    "venueKey": "boise-id-83703",
+    "venue": "3760 N. Gramarcy Lane Boise, ID 83703",
+    "venueKey": "3760-n-gramarcy-lane-boise-id-83703",
     "city": "Boise",
     "category": "auctions-estate-sales",
     "tags": [],
@@ -17,7 +17,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Boise/83703/5151420",
-        "fetchedAt": "2026-11-11T09:06:07Z"
+        "fetchedAt": "2026-11-11T23:24:00Z"
       }
     ]
   },
@@ -39,14 +39,36 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Boise/83709/5154357",
-        "fetchedAt": "2026-11-11T09:06:07Z"
+        "fetchedAt": "2026-11-11T23:24:00Z"
       }
     ]
   },
   {
-    "id": "508016a52a36",
-    "title": "Nice Hillcrest View Dr 2-Day Estate Sale",
-    "start": "2026-11-20T09:00:00-07:00",
+    "id": "bfcdca194793",
+    "title": "Outside Garage/Estate Sale Brought the Estate Sale Home",
+    "start": "2026-11-13T09:00:00-07:00",
+    "end": "2026-11-13T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Meridian, ID 83646",
+    "venueKey": "meridian-id-83646",
+    "city": "Meridian",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.estatesales.net/ID/Meridian/83646/5156700",
+    "description": "Moved Offsite To Store",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://www.estatesales.net/ID/Meridian/83646/5156700",
+        "fetchedAt": "2026-11-11T23:24:00Z"
+      }
+    ]
+  },
+  {
+    "id": "236a3a9344d0",
+    "title": "**Update** Nice Hillcrest View Dr 3-Day Estate Sale",
+    "start": "2026-11-19T09:00:00-07:00",
     "end": "2026-11-21T14:00:00-07:00",
     "allDay": false,
     "venue": "Boise, ID 83705",
@@ -61,7 +83,73 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Boise/83705/5138340",
-        "fetchedAt": "2026-11-11T09:06:07Z"
+        "fetchedAt": "2026-11-11T23:24:00Z"
+      }
+    ]
+  },
+  {
+    "id": "1d1e4f6bda8d",
+    "title": "Nice W Hillcrest View Dr 2-Day Estate Sale",
+    "start": "2026-11-19T09:00:00-07:00",
+    "end": "2026-11-19T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise, ID 83705",
+    "venueKey": "boise-id-83705",
+    "city": "Boise",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://estatesales.org/estate-sales/id/boise/83705/nice-w-hillcrest-view-dr-2470866",
+    "description": "In-person estate sale",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://estatesales.org/estate-sales/id/boise/83705/nice-w-hillcrest-view-dr-2470866",
+        "fetchedAt": "2026-11-11T23:24:00Z"
+      }
+    ]
+  },
+  {
+    "id": "2510706a2907",
+    "title": "Meridian estate sale",
+    "start": "2026-11-20T08:30:00-07:00",
+    "end": "2026-11-21T13:00:00-07:00",
+    "allDay": false,
+    "venue": "Meridian, ID 83646",
+    "venueKey": "meridian-id-83646",
+    "city": "Meridian",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.estatesales.net/ID/Meridian/83646/5157111",
+    "description": "Estate Sale",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://www.estatesales.net/ID/Meridian/83646/5157111",
+        "fetchedAt": "2026-11-11T23:24:00Z"
+      }
+    ]
+  },
+  {
+    "id": "8fec24629b7f",
+    "title": "A Little Fringe, A LOT of Farmhouse! | 4 Days of Incredible Finds in Kuna",
+    "start": "2026-12-03T09:00:00-07:00",
+    "end": "2026-12-03T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Kuna, ID 83634",
+    "venueKey": "kuna-id-83634",
+    "city": "Kuna",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://estatesales.org/estate-sales/id/kuna/83634/a-little-fringe-a-lot-2472583",
+    "description": "In-person estate sale",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://estatesales.org/estate-sales/id/kuna/83634/a-little-fringe-a-lot-2472583",
+        "fetchedAt": "2026-11-11T23:24:00Z"
       }
     ]
   }
