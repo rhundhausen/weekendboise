@@ -3,12 +3,14 @@ import json
 import os
 import re
 from datetime import datetime, timezone
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 from zoneinfo import ZoneInfo
 
 from playwright.sync_api import sync_playwright
 
-URLS = [u.strip() for u in os.environ["INGEST_ADDITIONAL_URLS"].splitlines() if u.strip()]
+URLS = list(dict.fromkeys(
+    u.strip() for u in os.environ["INGEST_ADDITIONAL_URLS"].splitlines() if u.strip()
+))
 OUTPUT = "data/events-additional.json"
 STATE = "ID"
 BOISE = ZoneInfo("America/Boise")
@@ -104,7 +106,9 @@ def to_event(node, page_url, fetched_at, category):
 
 
 def scrape(page, url):
-    page.goto(url, wait_until="networkidle", timeout=60000)
+    response = page.goto(url, wait_until="networkidle", timeout=60000)
+    if response and not response.ok:
+        raise RuntimeError(f"Listing returned HTTP {response.status}")
     blocks = page.eval_on_selector_all(
         'script[type="application/ld+json"]',
         "els => els.map(e => e.textContent)",
@@ -115,6 +119,61 @@ def scrape(page, url):
             nodes.extend(n for n in walk(json.loads(raw)) if is_event(n))
         except json.JSONDecodeError:
             pass
+    if not nodes and urlparse(url).hostname in ("estatesales.org", "www.estatesales.org"):
+        nodes = scrape_estatesales_org(page, url)
+    return nodes
+
+
+def scrape_estatesales_org(page, url):
+    cards = page.eval_on_selector_all(
+        ".split-view__list .card[data-auction-id]",
+        """cards => cards.map(card => ({
+            title: card.querySelector('.card__title')?.getAttribute('title'),
+            url: card.querySelector('.card__title a')?.getAttribute('href'),
+            type: card.querySelector('.card__type')?.textContent,
+            location: card.querySelector('.card__location')?.textContent,
+            dates: card.querySelector('.card__dates')?.textContent
+        }))""",
+    )
+    nodes = []
+    for card in cards:
+        sale_type = " ".join((card["type"] or "").split())
+        if sale_type.lower() != "in-person estate sale":
+            continue
+        location = " ".join((card["location"] or "").split())
+        address = re.fullmatch(r"(.+),\s*([A-Z]{2})\s+(\d{5})", location)
+        if not address:
+            raise ValueError(f"Unrecognized estate sale location: {location!r}")
+        if address[2] != STATE:
+            continue
+        dates = " ".join((card["dates"] or "").split())
+        start = re.fullmatch(
+            r"Sale starts [A-Za-z]{3}\.?\s+"
+            r"([A-Za-z]{3} \d{1,2}, \d{4} at \d{1,2}:\d{2} [AP]M) (?:MST|MDT)",
+            dates,
+        )
+        if not start:
+            raise ValueError(f"Unrecognized estate sale start time: {dates!r}")
+        if not card["title"] or not card["url"]:
+            raise ValueError("Estate sale card has no title or link")
+        nodes.append({
+            "@type": "Event",
+            "name": card["title"].strip(),
+            "url": urljoin(url, card["url"]),
+            "startDate": datetime.strptime(
+                start[1], "%b %d, %Y at %I:%M %p"
+            ).replace(tzinfo=BOISE).isoformat(timespec="seconds"),
+            # Listing cards expose only the opening time, not the closing time.
+            "location": {
+                "name": location,
+                "address": {
+                    "addressLocality": address[1],
+                    "addressRegion": address[2],
+                    "postalCode": address[3],
+                },
+            },
+            "description": sale_type,
+        })
     return nodes
 
 
@@ -129,7 +188,7 @@ def main():
             try:
                 found = scrape(page, url)
             except Exception as e:
-                print(f"source {i}: {type(e).__name__}")
+                print(f"source {i}: {type(e).__name__}: {e}")
                 continue
             print(f"source {i}: {len(found)} events")
             for node in found:

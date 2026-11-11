@@ -15,15 +15,19 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - run: pip install playwright
       - run: playwright install --with-deps chromium
+      - name: Test additional ingest
+        run: python -m unittest discover -s additional -p 'test_*.py'
       - run: python additional/ingest.py
         env:
-          INGEST_ADDITIONAL_URLS: ${{ secrets.INGEST_ADDITIONAL_URLS }}
+          INGEST_ADDITIONAL_URLS: |
+            ${{ secrets.INGEST_ADDITIONAL_URLS }}
+            https://estatesales.org/estate-sales/id/boise?sort=distance&radius=100&view=list
       - name: Commit output
         run: |
           git config user.name "github-actions[bot]"
