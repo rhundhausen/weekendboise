@@ -222,6 +222,11 @@ Describe 'venue aliases' {
     (New-AtVenue 'Extra Mile Arena').venueKey | Should -Be 'extramile-arena'
   }
 
+  It 'files the 9th St. Parallel room under Knitting Factory' {
+    (New-AtVenue '9th St. Parallel at Knitting Factory').venueKey | Should -Be 'knitting-factory'
+    (New-AtVenue '9th St. Parallel at Knitting Factory').venue | Should -Be 'Knitting Factory'
+  }
+
   It 'gives every spelling the same id, so events merge' {
     (New-AtVenue 'Neurolux Lounge').id | Should -Be (New-AtVenue 'Neurolux').id
   }

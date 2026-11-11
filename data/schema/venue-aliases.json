@@ -1,6 +1,7 @@
 {
   "_comment": "Maps other spellings of a venue to one venueKey and name, so sources merge. Keys are slugs from Get-VenueKey. See docs/schema.md.",
   "aliases": {
+    "9th-st-parallel-at-knitting-factory": { "key": "knitting-factory", "name": "Knitting Factory" },
     "danny-peterson-theatre-at-the-morrison-center": { "key": "danny-peterson-theatre", "name": "Danny Peterson Theatre" },
     "egyptian-theatre": { "key": "the-egyptian-theatre", "name": "The Egyptian Theatre" },
     "egyptian-theatre-id": { "key": "the-egyptian-theatre", "name": "The Egyptian Theatre" },

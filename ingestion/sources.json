@@ -2615,10 +2615,10 @@
       "url": "https://app.ticketmaster.com/discovery/v2/events.json",
       "category": "music",
       "city": "Boise",
-      "venue": "9th St. Parallel at Knitting Factory",
-      "venueKey": "9th-st-parallel-at-knitting-factory",
+      "venue": "Knitting Factory",
+      "venueKey": "knitting-factory",
       "venueId": "KovZ917AJBe",
-      "notes": "venueId KovZ917AJBe, 14 upcoming on 2026-11-02. Separate from knitting-factory-boise. Configured 2026-11-03 as its own Ticketmaster venue source; ticketmaster-metro skips this venue id. ticketmaster-metro still returns some of its shows under another venue id (10 on 2026-11-03); they merge with this source, so nothing is duplicated"
+      "notes": "9th St. Parallel is a room inside the Knitting Factory, so its events show as Knitting Factory (venue-aliases.json does the same for other sources) and merge with the Knitting Factory's own listings. venueId KovZ917AJBe, 14 upcoming on 2026-11-02. Separate from knitting-factory-boise. Configured 2026-11-03 as its own Ticketmaster venue source; ticketmaster-metro skips this venue id. ticketmaster-metro still returns some of its shows under another venue id (10 on 2026-11-03); they merge with this source, so nothing is duplicated"
     },
     {
       "name": "ada-library-connect",
