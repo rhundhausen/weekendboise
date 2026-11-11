@@ -52,9 +52,11 @@ robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rs
 The Auctions and Estate Sales category (`auctions-estate-sales`). `salesMode` picks the reader: `ics` (an Events Calendar iCal export, Downs Auction), `corbett` (the upcoming auctions on corbettauctions.com's home page), or `onthewater` (the UPCOMING SALES lines on onthewaterestatesales.com). One page a night per source, after robots.txt and its Crawl-delay; no link is followed, so Corbett's HiBid lots are never fetched. Every mode applies the same rules from `lib/Sales.ps1`:
 
 - **In-person rule:** an event whose title or text says "online" (any case), or that has no street address or place, is dropped.
-- **No real estate:** auctions of a house or land are dropped, by the site's own marker (Downs' Real Estate category, Corbett's Real Estate card type) or "real estate" in the title. Only live auctions of goods and estate sales stay.
+- **No real estate:** auctions of a house or land are dropped, by the site's own marker (Downs' Real Estate category, Corbett's Real Estate card type) or "real estate" in the title. Only live auctions of goods and estate sales stay, unless the entry sets `keepRealEstate` (below).
 - **City filter:** only the cities the site already covers are kept (`Resolve-TvCity`, so Mountain Home stays and the mountain towns become Valley County).
-- **Minimal data:** only title, company (as the venue), city, start and end, and the link to the event on the company's site. No address, photos, description, contact details, or price. The link is the company's own event page, whose slug can contain the street.
+- **Minimal data:** only title, company (as the venue), city, start and end, and the link to the event on the company's site. No address, photos, description, contact details, or price. The link is the company's own event page, whose slug can contain the street. A real estate auction kept with `keepRealEstate` is the exception: its title is the property's street address, which is where the auction is held.
+
+`keepRealEstate: true` keeps real estate auctions for one entry. Use it only for a company whose real estate auctions are live and held at the property: Downs Auction, since 2026-11-10 (its event pages say "sold at live Absolute Auction", with the property as the location).
 
 Dates without a year (Corbett, On The Water) are read as their next occurrence: this year, unless that is more than six months gone. `Invoke-Ingest.ps1 -Verbose` prints what each rule dropped. `venue`, `venueKey`, and `city` are fallbacks only.
 

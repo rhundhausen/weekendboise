@@ -344,6 +344,10 @@
             "type": "string"
           }
         },
+        "keepRealEstate": {
+          "type": "boolean",
+          "description": "sales: keep real estate auctions, which are dropped by default. For a company whose real estate auctions are live and held at the property."
+        },
         "calendarId": {
           "type": "string",
           "description": "googlecalendar: the public calendar's id, such as name@gmail.com or ...@group.calendar.google.com.",

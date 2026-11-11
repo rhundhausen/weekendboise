@@ -75,8 +75,22 @@ CATEGORIES:Estate Auction
 END:VEVENT
 END:VCALENDAR
 '@
+    $script:downsFeed = $feed
     $script:kept = Invoke-Sales $source $feed
     $script:downsSummary = $script:summary
+  }
+
+  It 'keeps live real estate auctions, with their time, when the source sets keepRealEstate' {
+    $live = $source | Select-Object *
+    $live | Add-Member -NotePropertyName keepRealEstate -NotePropertyValue $true
+    $events = Invoke-Sales $live $downsFeed
+    @($events.title) | Should -Be @('431 W Edwards Ave, Nampa, ID', '999 Airbase Rd, Mountain Home, ID', 'Smith Family Estate Auction')
+    $events[0].start | Should -Be '2026-11-11T14:00:00-07:00'
+    $events[0].city | Should -Be 'Nampa'
+    $events[1].city | Should -Be 'Mountain Home'
+    # Online bidding is still dropped by the in-person rule.
+    $events.title | Should -Not -Contain 'Brewer Incredible Online Estate Auction'
+    $summary | Should -Match '0 dropped as real estate'
   }
 
   It 'keeps only the live estate auction, dropping real estate auctions' {

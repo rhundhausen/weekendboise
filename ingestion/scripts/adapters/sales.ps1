@@ -9,7 +9,8 @@
   - In-person only. Anything whose title or text says "online", and anything with no street
     address or place, is dropped (the in-person rule).
   - No real estate: auctions of a house or land are dropped (Downs' Real Estate category,
-    Corbett's Real Estate cards, or "real estate" in a title).
+    Corbett's Real Estate cards, or "real estate" in a title), unless the source sets
+    keepRealEstate for live real estate auctions held at the property.
   - Only the cities the site already covers are kept (the city filter).
   - Only the title, the company (as the venue), the city, start and end, and the link to the
     event on the company's site are stored. No address, photos, description, contact details,
@@ -20,7 +21,7 @@
   salesMode:
   - ics: an Events Calendar iCal export (Downs Auction). The start time comes from the description
     ("at 2 pm"), since the feed gives dates only. Its real estate auctions are titled by street
-    address, and are dropped by the real estate rule, so no address is stored.
+    address, and are dropped by the real estate rule unless the source sets keepRealEstate.
   - corbett: the upcoming auctions on corbettauctions.com's home page (an Elementor loop grid
     after id="upcoming"). Only cards marked live onsite whose link stays on the company's site are
     kept; online lots, which link to HiBid or another bidding site, are dropped without following.
@@ -77,7 +78,7 @@ function Add-Sale {
   param([string]$Title, [string]$Text, [string]$Town, [hashtable]$Event, [switch]$RealEstate)
 
   $city = if ($Town) { Resolve-TvCity $Town }
-  $verdict = Get-TvSaleVerdict -Title $Title -Text $Text -HasPlace ([bool]$Town) -City $city -RealEstate ([bool]$RealEstate)
+  $verdict = Get-TvSaleVerdict -Title $Title -Text $Text -HasPlace ([bool]$Town) -City $city -RealEstate ([bool]$RealEstate -and -not $Source.keepRealEstate)
   if ($verdict -ne 'keep') {
     $script:dropped[$verdict]++
     $why = switch ($verdict) { 'city' { "the city filter ($Town)" } 'real-estate' { 'the real estate rule' } default { 'the in-person rule' } }
