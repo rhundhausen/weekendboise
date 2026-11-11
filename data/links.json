@@ -19014,6 +19014,12 @@
       "checkedAt": "2026-11-07T03:44:25Z",
       "failures": 0
     },
+    "https://www.caldwellpubliclibrary.org/events/paws-to-read-2026-11-17-17-00": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
+      "failures": 0
+    },
     "https://www.caldwellpubliclibrary.org/events/preschool-storytime-2026-11-12-10-30": {
       "verdict": "ok",
       "status": 200,
@@ -19546,6 +19552,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-07T03:44:25Z",
+      "failures": 0
+    },
+    "https://www.cityofcaldwell.org/City-Calendar/4th-Annual-Vallivue-HS-Holiday-Craft-Fair": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
       "failures": 0
     },
     "https://www.cityofcaldwell.org/City-Calendar/A-Mix-of-Creativity-Art-Craft-and-Gift-Market": {
@@ -21034,6 +21046,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-11T00:29:15Z",
+      "failures": 0
+    },
+    "https://www.google.com/calendar/event?eid=MWE5MXQwMDBobWE3ZTNibG01MTNiaDQ2ZHZfMjAyNzAyMDlUMDIwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Denver": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
       "failures": 0
     },
     "https://www.google.com/calendar/event?eid=MWEyaW1xNGV0MjVmcXVzNnF1Z2thcDBvczBfMjAyNjExMjFUMjEwMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Denver": {
@@ -23580,6 +23598,12 @@
       "checkedAt": "2026-11-11T00:29:15Z",
       "failures": 0
     },
+    "https://www.meetup.com/boise-arts-community/events/317109476/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
+      "failures": 0
+    },
     "https://www.meetup.com/boise-arts-community/events/317109722/": {
       "verdict": "ok",
       "status": 200,
@@ -23668,6 +23692,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-08T06:42:51Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/boise-center-for-spiritual-living/events/fjvxktykccbzb/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
       "failures": 0
     },
     "https://www.meetup.com/boise-contra-dance-society/events/317322119/": {
@@ -23938,6 +23968,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-08T06:42:51Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/boise-sukyo-mahikari/events/vkqcttykccbzb/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
       "failures": 0
     },
     "https://www.meetup.com/boise-wealth-meetup-group/events/317257244/": {
@@ -24516,6 +24552,12 @@
       "checkedAt": "2026-11-07T03:44:25Z",
       "failures": 0
     },
+    "https://www.meetup.com/kuna-kung-fu/events/317376834/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
+      "failures": 0
+    },
     "https://www.meetup.com/kuna-kung-fu/events/nszdxryjcpbnc/": {
       "verdict": "ok",
       "status": 200,
@@ -24526,6 +24568,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-10T03:19:06Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/kuna-kung-fu/events/nszdxryjcqbfb/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
       "failures": 0
     },
     "https://www.meetup.com/kuna-tai-chi-in-the-park/events/317035149/": {
@@ -25012,6 +25060,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-08T06:42:51Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/playyourcourt-boise-tennis/events/kvmxrqyjcqbfb/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T04:28:38Z",
       "failures": 0
     },
     "https://www.meetup.com/plug-in-boise/events/317083343/": {
