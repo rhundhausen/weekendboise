@@ -132,55 +132,6 @@
     ]
   },
   {
-    "id": "55d19a697338",
-    "title": "Boise State University Esports Ohio State",
-    "start": "2026-11-10",
-    "allDay": true,
-    "venue": "Boise State Esports Arena",
-    "venueKey": "boise-state-esports-arena",
-    "city": "Boise",
-    "category": "sports",
-    "tags": [
-      "esports"
-    ],
-    "size": "S",
-    "url": "https://admin.broncosports.com/calendar.aspx?game_id=23209&sport_id=35",
-    "description": "TV: Boise State Twitch - Overwatch 2 Streaming Video: https://twitch.tv/boisestate",
-    "sources": [
-      {
-        "name": "boise-state-athletics",
-        "url": "https://admin.broncosports.com/calendar.aspx?game_id=23209&sport_id=35",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "e66557745319",
-    "title": "Free 4×6 Santa Photo | Cabela’s Boise",
-    "start": "2026-11-10",
-    "allDay": true,
-    "venue": "Cabela’s",
-    "venueKey": "cabelas",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "free-admission",
-      "holiday-event",
-      "santa"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-10/",
-    "description": "Choose your free photo appointment with Santa Appointments are available 1 week from the current day. All new appointments are released at 12:01 AM for the next available day. If all slots show UNAVAILABLE this means all bookings have been reserved for those dates and times. Please try again late...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-10/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
     "id": "20e93358f891",
     "title": "Golden Hour(s) at Split Rail Winery!",
     "start": "2026-11-10T13:00:00-07:00",
@@ -231,30 +182,6 @@
     ]
   },
   {
-    "id": "65e31a590862",
-    "title": "Tuesday Game Night",
-    "start": "2026-11-10T18:00:00-07:00",
-    "end": "2026-11-10T23:59:00-07:00",
-    "allDay": false,
-    "venue": "7079 W Overland Rd",
-    "venueKey": "7079-w-overland-rd",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/317082230/",
-    "description": "A weekly game night at All About Games. Always a good turnout of 20 to 25 people. (Most of them are not on meetup but are still very friendly towards newcomers.) I will be bringing my usual assortment of games but there are always plenty of others that bring their collections as well. The store a...",
-    "sources": [
-      {
-        "name": "meetup-boiseareaboardgameenthusiasts",
-        "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/317082230/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
     "id": "db210a75b3ea",
     "title": "Music bingo w/Trivia",
     "start": "2026-11-10T18:30:00-07:00",
@@ -275,146 +202,6 @@
       {
         "name": "meetup-the-fun-seekers-connection",
         "url": "https://www.meetup.com/the-fun-seekers-connection/events/317286012/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "1f483efc1461",
-    "title": "Line Dancing At the Farm",
-    "start": "2026-11-10T19:00:00-07:00",
-    "end": "2026-11-10T22:00:00-07:00",
-    "allDay": false,
-    "venue": "The Farm",
-    "venueKey": "the-farm",
-    "city": "Garden City",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "costTier": "$",
-    "url": "https://www.meetup.com/boise-country-dancers/events/317083139/",
-    "description": "By Request we have added another night of Line Dance fun!! Join us for Line Dancing every Tuesday at Boise Largest ALL AGE Dance Hub!! Doors Open at 7pm Lesson starts at 7:30pm with Dirt Road Dancing Social dancing from 9pm to 10pm. No experience necessary. The Farm is an Alcohol Free all age Dan...",
-    "sources": [
-      {
-        "name": "meetup-boise-country-dancers",
-        "url": "https://www.meetup.com/boise-country-dancers/events/317083139/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "ca36fa777587",
-    "title": "Joanne Shaw Taylor",
-    "start": "2026-11-10T19:00:00-07:00",
-    "end": "2026-11-10T22:00:00-07:00",
-    "allDay": false,
-    "venue": "The Egyptian Theatre",
-    "venueKey": "the-egyptian-theatre",
-    "city": "Boise",
-    "category": "music",
-    "tags": [
-      "concert"
-    ],
-    "size": "M",
-    "url": "https://www.mikebrowngroup.com/event/joanne-shaw-taylor-2/",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/joanne-shaw-taylor-2/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      },
-      {
-        "name": "visit-boise",
-        "url": "https://www.ticketsmarter.com/e/joanne-shaw-taylor-tickets-boise-11-10-2026-egyptian-theatre-boise/3420036?utm_source=dmo&utm_medium=visitboise&utm_campaign=joanneshawtaylor-3420036",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ],
-    "description": "Joanne Shaw Taylor brings her blues-rock sound to the Egyptian Theatre. The British guitarist, singer and songwriter is known for soulful vocals and expressive electric-guitar playing, blending blues with rock influences. Visitors can expect a live performance centered on Taylor’s musicianship an..."
-  },
-  {
-    "id": "05ae824dee95",
-    "title": "Token",
-    "start": "2026-11-10T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Knitting Factory",
-    "venueKey": "knitting-factory",
-    "city": "Boise",
-    "category": "music",
-    "tags": [
-      "concert"
-    ],
-    "size": "L",
-    "costTier": "$$",
-    "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
-    "description": "DELAYED DELIVERY: There is a ticket delivery delay in place for this event. Tickets will be emailed 48 hours prior to the event. VIP 'MEET & GREET' Includes GA Ticket Exclusive VIP Meet & Greet with Token after his show (1) solo photo opp with Token VIP 'SOUND CHECK + MEET & GREET' Includes GA Ti...",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/token-clark-d/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      },
-      {
-        "name": "ninth-st-parallel",
-        "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
-        "fetchedAt": "2026-11-11T04:05:13Z"
-      },
-      {
-        "name": "ticketmaster-metro",
-        "url": "https://www.ticketweb.com/event/token-9th-st-parallel-at-knitting-tickets/14251754",
-        "fetchedAt": "2026-11-11T04:05:13Z"
-      },
-      {
-        "name": "visit-boise",
-        "url": "https://www.knittingfactory.com/tm-venue/9th-st-parallel-at-knitting-factory/",
-        "fetchedAt": "2026-11-11T04:05:13Z"
-      }
-    ],
-    "end": "2026-11-10T23:00:00-07:00"
-  },
-  {
-    "id": "471ea0ba10d0",
-    "title": "Liquid Laughs Underground Comedy Open Mic Near Me!",
-    "start": "2026-11-10T20:00:00-07:00",
-    "end": "2026-11-10T21:45:00-07:00",
-    "allDay": false,
-    "venue": "Various Treasure Valley locations",
-    "venueKey": "various-treasure-valley",
-    "city": "Boise",
-    "category": "performing-arts",
-    "tags": [
-      "comedy",
-      "open-mic"
-    ],
-    "size": "M",
-    "url": "https://go.evvnt.com/3422873-0?pid=11493",
-    "description": "Free to the public! Watch Boise Best Comics work and hone their craft! Free Free Free! Comics Sign ups at 8:30pm show at 9pm! URLs: Website: https://go.evvnt.com/3422873-0?pid=11493 Facebook: https://go.evvnt.com/3422873-2?pid=11493 Facebook: https://go.evvnt.com/3422873-3?pid=11493 Facebook: htt...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://go.evvnt.com/3422873-0?pid=11493",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
-    "id": "14fe7f15a817",
-    "title": "Intermediate Partner Country Dance",
-    "start": "2026-11-10T20:30:00-07:00",
-    "end": "2026-11-10T21:30:00-07:00",
-    "allDay": false,
-    "venue": "Meridian Homecourt",
-    "venueKey": "meridian-homecourt",
-    "city": "Meridian",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "costTier": "$",
-    "url": "https://www.meetup.com/boise-country-dancers/events/317084273/",
-    "description": "This class is for those who know the basic steps for the dances listed to attend this class. Contact Randy if you are unsure: 208-941-4853. Along with some fun patterns, Randy will teach the importance of your positioning, timing and connection. You may also come to the Intro to Dance class, 7:00...",
-    "sources": [
-      {
-        "name": "meetup-boise-country-dancers",
-        "url": "https://www.meetup.com/boise-country-dancers/events/317084273/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -2235,12 +2022,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-11-12/",
+    "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-11-12/",
     "description": "Join us every Thursday at 10:30 AM for this kindergarten readiness storytime and craft! This storytime is designed for children ages 3-5 and their caregiver.",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-11-12/",
+        "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-11-12/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -12381,6 +12168,29 @@
     ]
   },
   {
+    "id": "e3a95f3a8fb7",
+    "title": "Afternoon Stomps Line Dance Class",
+    "start": "2026-11-17T13:00:00-07:00",
+    "end": "2026-11-17T14:00:00-07:00",
+    "allDay": false,
+    "venue": "The Farm",
+    "venueKey": "the-farm",
+    "city": "Garden City",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317179538/",
+    "description": "Line em up and dance it out! No experience needed—learn fun steps, and leave feeling confident on any dance floor.com",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317179538/",
+        "fetchedAt": "2026-11-11T07:04:48Z"
+      }
+    ]
+  },
+  {
     "id": "ab2dbc807148",
     "title": "Stroller Crew at FLC",
     "start": "2026-11-17T13:30:00-07:00",
@@ -13445,30 +13255,6 @@
     ]
   },
   {
-    "id": "b37582e31a3e",
-    "title": "Trivia at The Warehouse",
-    "start": "2026-11-17T18:00:00-07:00",
-    "end": "2026-11-17T21:00:00-07:00",
-    "allDay": false,
-    "venue": "The Warehouse Food Hall",
-    "venueKey": "the-warehouse-food-hall",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "trivia"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/meetup-group-nsdbawui/events/315793663/",
-    "description": "Come join us for some laughs. Triva starts at 7, come early if you want to socialize beforehand.",
-    "sources": [
-      {
-        "name": "meetup-meetup-group-nsdbawui",
-        "url": "https://www.meetup.com/meetup-group-nsdbawui/events/315793663/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
     "id": "2899df886558",
     "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
     "start": "2026-11-17T18:15:00-07:00",
@@ -13581,6 +13367,30 @@
     ]
   },
   {
+    "id": "b37582e31a3e",
+    "title": "Trivia at The Warehouse",
+    "start": "2026-11-17T18:30:00-07:00",
+    "end": "2026-11-17T21:30:00-07:00",
+    "allDay": false,
+    "venue": "The Warehouse Food Hall",
+    "venueKey": "the-warehouse-food-hall",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "trivia"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/meetup-group-nsdbawui/events/315793663/",
+    "description": "Come join us for some laughs. Triva starts at 7, come early if you want to socialize beforehand.",
+    "sources": [
+      {
+        "name": "meetup-meetup-group-nsdbawui",
+        "url": "https://www.meetup.com/meetup-group-nsdbawui/events/315793663/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
     "id": "36115a2c4ba5",
     "title": "Northwest Nazarene University Men's Basketball at College of Idaho - United Heritage Mayors' Cup | Exhibition",
     "start": "2026-11-17T19:00:00-07:00",
@@ -13602,6 +13412,29 @@
         "name": "nnu-athletics",
         "url": "https://nnusports.com/calendar.aspx?game_id=9631&sport_id=2",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "6794689c7e46",
+    "title": "Intro to Dance & More",
+    "start": "2026-11-17T19:00:00-07:00",
+    "end": "2026-11-17T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Meridian Homecourt",
+    "venueKey": "meridian-homecourt",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317184286/",
+    "description": "What is country dance? This class will introduce you to some of the basic country dances plus pattern dances, mixers and more. Anyone 12 and over wishing to learn these basic dances is encouraged to attend. NO PARTNER NEEDED. Pay at Homecourt Office. Octobrt - 2-Step November - West Coast Swing D...",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317184286/",
+        "fetchedAt": "2026-11-11T07:04:48Z"
       }
     ]
   },
@@ -20541,28 +20374,23 @@
     "start": "2026-11-21T10:00:00-07:00",
     "end": "2026-11-21T11:00:00-07:00",
     "allDay": false,
-    "venue": "The Village at Meridian",
+    "venue": "The Village",
     "venueKey": "the-village",
     "city": "Meridian",
-    "category": "community-civic",
+    "category": "holiday-seasonal",
     "tags": [
       "free-admission",
       "holiday-event"
     ],
     "size": "M",
     "costTier": "free",
-    "url": "https://www.thevillageatmeridian.com/event/45346-gratitude-goodies",
-    "description": "​A cozy morning filled with sweet treats, little moments, and lots to be thankful for.​Join us for a slightly more elevated fall experience where parents and little ones can slow down and enjoy time together. Sip on coffee or apple cider, enjoy seasonal goodies, create a gratitude-themed craft, a...",
+    "url": "https://boisemom.com/event/gratitude-goodies/",
+    "description": "​A cozy morning filled with sweet treats, little moments, and lots to be thankful for. ​Join us for a slightly more elevated fall experience where parents and little ones can slow down and enjoy time together. Sip on coffee or apple cider, enjoy seasonal goodies, create a gratitude-themed craft,...",
     "sources": [
       {
         "name": "boise-mom",
         "url": "https://boisemom.com/event/gratitude-goodies/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      },
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/45346-gratitude-goodies",
-        "fetchedAt": "2026-11-11T04:05:13Z"
       }
     ]
   },
@@ -43175,6 +43003,28 @@
     ]
   },
   {
+    "id": "123536b04a78",
+    "title": "Bown Crossing Music and Movement in the Park",
+    "start": "2026-12-08T10:30:00-07:00",
+    "end": "2026-12-08T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15775783",
+    "description": "We'll clap, stomp and dance to music together at Ivywild Park. As this class is outdoors please dress for the weather and bring a blanket. See you there! Ivywild Park 416 W Ivywild St Boise, ID 83706 (SE side of park next to playground) If inclement weather, the Program title will be changed to R...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15775783",
+        "fetchedAt": "2026-11-11T07:04:48Z"
+      }
+    ]
+  },
+  {
     "id": "16a1025beafa",
     "title": "Music and Movement in the Park @ Ivywild Park w/ Bown Library!",
     "start": "2026-12-08T10:30:00-07:00",
@@ -43197,6 +43047,31 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/music-and-movement-in-the-park-ivywild-park-w-bown-library/2026-12-08/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "2e4666d8ad2e",
+    "title": "Family Storytime",
+    "start": "2026-12-08T10:30:00-07:00",
+    "end": "2026-12-08T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/13201037",
+    "description": "Join us in the Canyon Room located in Library! at Hillcrest. This family storytime is designed for children ages 5 and under and their caregivers to enjoy stories, music, movement, and play together.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/13201037",
+        "fetchedAt": "2026-11-11T07:04:48Z"
       }
     ]
   },
@@ -43321,6 +43196,28 @@
         "name": "ada-library-victory",
         "url": "https://www.google.com/calendar/event?eid=NWF1bGM2M2tpZ3Q0OXJnZzNqZDZyNHR0Y3FfMjAyNjEyMDhUMTczMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Denver",
         "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "fcb55c520c04",
+    "title": "Music and Movement",
+    "start": "2026-12-08T10:30:00-07:00",
+    "end": "2026-12-08T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/16259129",
+    "description": "Every Tuesday in the Sagebrush Room join us for a fun time of moving and grooving! Music and Movement focuses on healthy and fun ways to move your body with activities like yoga and dance! This program is geared toward ages 2-5, but all ages are welcome!",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/16259129",
+        "fetchedAt": "2026-11-11T07:04:48Z"
       }
     ]
   },
@@ -45130,12 +45027,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/teens-cozy-gnomes/",
+    "url": "https://boisemom.com/event/teens-cozy-gnomes-2/",
     "description": "Gnome-y it’s cold outside! Location: Library Corner",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/teens-cozy-gnomes/",
+        "url": "https://boisemom.com/event/teens-cozy-gnomes-2/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -50735,12 +50632,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/storytime-winter-2/",
-    "description": "Start Date Monday, December 14, 2026 at 10:00 AM End Date Monday, December 14, 2026 at 11:00 AM Location The WaterShed, 6411 N. Ancell Avenue, Boise, ID 83714 Tags Boise WaterShed Come learn and listen with us at our free Story Time at the WaterShed. Designed for children ages 2-5 to learn and pl...",
+    "url": "https://boisemom.com/event/storytime-winter/",
+    "description": "Come learn and listen with us at our free Story Time at the WaterShed. Designed for children ages 2-5 to learn and play, but all ages are welcome to attend. Hear a story and participate in an activity all about Winter! Story time is a shared experience, we ask that parents or caregivers stay with...",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/storytime-winter-2/",
+        "url": "https://boisemom.com/event/storytime-winter/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -52376,7 +52273,7 @@
   },
   {
     "id": "86fc4b83518d",
-    "title": "Kids’ Class: Ridiculous Reindeer",
+    "title": "Kid’s Class: Ridiculous Reindeer",
     "start": "2026-12-15T16:00:00-07:00",
     "end": "2026-12-15T17:00:00-07:00",
     "allDay": false,
@@ -52392,15 +52289,15 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/kids-class-ridiculous-reindeer/",
-    "description": "20261215 KIDS Ridiculous Reindeer long These reindeer might be too ridiculous to pull Santa’s sleigh, but they sure will be fun to make! Location: Community Hall, Eagle City Hall",
+    "url": "https://boisemom.com/event/kids-class-ridiculous-reindeer-2/",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/kids-class-ridiculous-reindeer/",
+        "url": "https://boisemom.com/event/kids-class-ridiculous-reindeer-2/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
-    ]
+    ],
+    "description": "20261215 KIDS Ridiculous Reindeer long These reindeer might be too ridiculous to pull Santa’s sleigh, but they sure will be fun to make! Location: Community Hall, Eagle City Hall"
   },
   {
     "id": "8881d84ca2e3",
@@ -52803,6 +52700,30 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/pokemon-league-bown-library/2026-12-15/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "6359ac440077",
+    "title": "Tuesday Game Night",
+    "start": "2026-12-15T18:00:00-07:00",
+    "end": "2026-12-15T23:59:00-07:00",
+    "allDay": false,
+    "venue": "7079 W Overland Rd",
+    "venueKey": "7079-w-overland-rd",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/zqwdctyjcqbtb/",
+    "description": "A weekly game night at All About Games. Always a good turnout of 20 to 25 people. (Most of them are not on meetup but are still very friendly towards newcomers.) I will be bringing my usual assortment of games but there are always plenty of others that bring their collections as well. The store a...",
+    "sources": [
+      {
+        "name": "meetup-boiseareaboardgameenthusiasts",
+        "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/zqwdctyjcqbtb/",
+        "fetchedAt": "2026-11-11T07:04:48Z"
       }
     ]
   },
@@ -54509,12 +54430,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-12-17/",
+    "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-12-17/",
     "description": "Join us every Thursday at 10:30 AM for this kindergarten readiness storytime and craft! This storytime is designed for children ages 3-5 and their caregiver.",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-2/2026-12-17/",
+        "url": "https://boisemom.com/event/preschool-storytime-cole-ustick-library-3/2026-12-17/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -57893,7 +57814,7 @@
       },
       {
         "name": "ticketmaster-metro",
-        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7gr4",
+        "url": "https://www.ticketweb.com/event/emo-nite-knitting-factory-boise-tickets/14402084",
         "fetchedAt": "2026-11-03T17:00:01Z"
       }
     ],
@@ -75653,6 +75574,30 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/youth-chess/2027-01-19/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "2d3cfb238d32",
+    "title": "Trivia at The Warehouse",
+    "start": "2027-01-19T18:00:00-07:00",
+    "end": "2027-01-19T21:00:00-07:00",
+    "allDay": false,
+    "venue": "The Warehouse Food Hall",
+    "venueKey": "the-warehouse-food-hall",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "trivia"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317162746/",
+    "description": "Come join us for some laughs. Triva starts at 7, come early if you want to socialize beforehand.",
+    "sources": [
+      {
+        "name": "meetup-meetup-group-nsdbawui",
+        "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317162746/",
+        "fetchedAt": "2026-11-11T07:04:48Z"
       }
     ]
   },

@@ -6990,6 +6990,12 @@
       "checkedAt": "2026-11-07T07:19:15Z",
       "failures": 0
     },
+    "https://boisemom.com/event/teens-cozy-gnomes-2/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T07:28:13Z",
+      "failures": 0
+    },
     "https://boisemom.com/event/teens-cozy-gnomes/": {
       "verdict": "ok",
       "status": 200,
@@ -8142,6 +8148,12 @@
       "checkedAt": "2026-11-07T03:44:25Z",
       "failures": 0
     },
+    "https://boisepubliclibrary.libcal.com/event/13201037": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T07:28:13Z",
+      "failures": 0
+    },
     "https://boisepubliclibrary.libcal.com/event/13546759": {
       "verdict": "ok",
       "status": 200,
@@ -8718,6 +8730,12 @@
       "checkedAt": "2026-11-07T03:44:25Z",
       "failures": 0
     },
+    "https://boisepubliclibrary.libcal.com/event/15775783": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T07:28:13Z",
+      "failures": 0
+    },
     "https://boisepubliclibrary.libcal.com/event/15793214": {
       "verdict": "ok",
       "status": 200,
@@ -8878,6 +8896,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-07T03:44:25Z",
+      "failures": 0
+    },
+    "https://boisepubliclibrary.libcal.com/event/16259129": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T07:28:13Z",
       "failures": 0
     },
     "https://boisepubliclibrary.libcal.com/event/16356839": {
@@ -23796,6 +23820,18 @@
       "checkedAt": "2026-11-11T00:29:15Z",
       "failures": 0
     },
+    "https://www.meetup.com/boise-country-dancers/events/317179538/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T07:28:13Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/boise-country-dancers/events/317184286/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T07:28:13Z",
+      "failures": 0
+    },
     "https://www.meetup.com/boise-crafts-cardmaking-meetup-group/events/316678528/": {
       "verdict": "ok",
       "status": 200,
@@ -24100,6 +24136,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-07T03:44:25Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/boiseareaboardgameenthusiasts/events/zqwdctyjcqbtb/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T07:28:13Z",
       "failures": 0
     },
     "https://www.meetup.com/boisegdg/events/316173879/": {
@@ -24772,6 +24814,12 @@
       "verdict": "ok",
       "status": 200,
       "checkedAt": "2026-11-08T06:42:51Z",
+      "failures": 0
+    },
+    "https://www.meetup.com/meetup-group-nsdbawui/events/317162746/": {
+      "verdict": "ok",
+      "status": 200,
+      "checkedAt": "2026-11-11T07:28:13Z",
       "failures": 0
     },
     "https://www.meetup.com/meridian-gems-enjoying-adventures-after-50/events/316969927/": {
