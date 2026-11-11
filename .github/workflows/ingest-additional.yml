@@ -4,6 +4,13 @@ on:
     - cron: "0 9 * * *" # ~2-3 AM Boise time
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -17,7 +24,12 @@ jobs:
       - run: python additional/ingest.py
         env:
           INGEST_ADDITIONAL_URLS: ${{ secrets.INGEST_ADDITIONAL_URLS }}
-      - uses: actions/upload-artifact@v4
-        with:
-          name: results
-          path: results.json
+      - name: Commit output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events-additional.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update events-additional.json"
+          git pull --rebase -q
+          git push
