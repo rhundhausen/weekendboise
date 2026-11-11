@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ca0f947eace2",
+    "title": "TUESDAY @4:00PM - Southwest Las Vegas Estate Online Public Auction 11/10/26",
+    "start": "2026-11-06T08:00:00.000Z",
+    "end": "2026-11-11T05:00:00.000Z",
+    "allDay": false,
+    "venue": "",
+    "venueKey": "",
+    "city": "",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.estatesales.net/NV/Las Vegas/89161/5150109",
+    "description": "Online Only Auction",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://www.estatesales.net/NV/Las Vegas/89161/5150109",
+        "fetchedAt": "2026-11-11T03:08:16Z"
+      }
+    ]
+  },
+  {
+    "id": "36ecdf8adac3",
+    "title": "$2 Start MASSIVE Sports, Pokemon, Coin & Jewelry Auction | Tue 11/10 6PM CST",
+    "start": "2026-11-11T00:00:00.000Z",
+    "end": "2026-11-11T04:00:00.000Z",
+    "allDay": false,
+    "venue": "",
+    "venueKey": "",
+    "city": "",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.estatesales.net/MO/Imperial/63052/5142039",
+    "description": "Online Only Auction",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://www.estatesales.net/MO/Imperial/63052/5142039",
+        "fetchedAt": "2026-11-11T03:08:16Z"
+      }
+    ]
+  },
+  {
+    "id": "a594be8e1883",
+    "title": "Garden City estate sale",
+    "start": "2026-11-12T15:30:00.000Z",
+    "end": "2026-11-13T21:00:00.000Z",
+    "allDay": false,
+    "venue": "Boise, ID 83703",
+    "venueKey": "boise-id-83703",
+    "city": "Boise",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.estatesales.net/ID/Boise/83703/5151420",
+    "description": "Estate Sale",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://www.estatesales.net/ID/Boise/83703/5151420",
+        "fetchedAt": "2026-11-11T03:08:16Z"
+      }
+    ]
+  },
+  {
+    "id": "4aae4792b4d6",
+    "title": "**ENTIRE HOUSE MOVING SALE \u2013 EVERYTHING $1 EACH!**",
+    "start": "2026-11-13T16:00:00.000Z",
+    "end": "2026-11-14T22:00:00.000Z",
+    "allDay": false,
+    "venue": "Boise, ID 83709",
+    "venueKey": "boise-id-83709",
+    "city": "Boise",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.estatesales.net/ID/Boise/83709/5154357",
+    "description": "Moving Sale",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://www.estatesales.net/ID/Boise/83709/5154357",
+        "fetchedAt": "2026-11-11T03:08:16Z"
+      }
+    ]
+  },
+  {
+    "id": "ed07de94f484",
+    "title": "Antiques & Decorative Arts in Hyde Park, NY",
+    "start": "2026-11-15T19:00:00.000Z",
+    "end": "2026-11-16T04:59:00.000Z",
+    "allDay": false,
+    "venue": "",
+    "venueKey": "",
+    "city": "",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.estatesales.net/NY/Hyde Park/12538/5125536",
+    "description": "Online Only Auction",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://www.estatesales.net/NY/Hyde Park/12538/5125536",
+        "fetchedAt": "2026-11-11T03:08:16Z"
+      }
+    ]
+  },
+  {
+    "id": "47718e8f8a64",
+    "title": "Nice Hillcrest View Dr 2-Day Estate Sale",
+    "start": "2026-11-20T16:00:00.000Z",
+    "end": "2026-11-21T21:00:00.000Z",
+    "allDay": false,
+    "venue": "Boise, ID 83705",
+    "venueKey": "boise-id-83705",
+    "city": "Boise",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.estatesales.net/ID/Boise/83705/5138340",
+    "description": "Estate Sale",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://www.estatesales.net/ID/Boise/83705/5138340",
+        "fetchedAt": "2026-11-11T03:08:16Z"
+      }
+    ]
+  }
+]
