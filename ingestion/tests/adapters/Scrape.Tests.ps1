@@ -27,7 +27,18 @@ BeforeAll {
 
 Describe 'scrape adapter, jsonld from the list page' {
   BeforeAll {
-    $events = @(& $adapter -Source (Get-TestSource 'visit-boise') -FetchedAt $fetchedAt -Response (Get-Fixture 'visit-boise.html'))
+    # The fixture was saved on 2026-11-02, when Visit Boise (Modern Events Calendar) still wrote
+    # Boise wall-clock time as UTC. The site writes correct times now, so its entry no longer sets
+    # localTimeAsUtc; set here, it keeps the correction tested.
+    $script:visitBoise = (Get-TestSource 'visit-boise') | Select-Object *
+    $visitBoise | Add-Member -NotePropertyName localTimeAsUtc -NotePropertyValue $true -Force
+    $events = @(& $adapter -Source $visitBoise -FetchedAt $fetchedAt -Response (Get-Fixture 'visit-boise.html'))
+  }
+
+  It 'reads the times the site writes today as they are' {
+    $html = '<script type="application/ld+json">{"@type":"Event","name":"Game","startDate":"2026-11-10T18:30:00-07:00","endDate":"2026-11-10T20:30:00-07:00","location":{"name":"ExtraMile Arena"}}</script>'
+    $event = (& $adapter -Source (Get-TestSource 'visit-boise') -FetchedAt $fetchedAt -Response $html)[0]
+    $event.start | Should -Be '2026-11-10T18:30:00-07:00'
   }
 
   It 'reads every event' {

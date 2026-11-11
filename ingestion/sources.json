@@ -5021,8 +5021,7 @@
       "venueKey": "various-treasure-valley",
       "priority": 80,
       "scrapeMode": "jsonld",
-      "localTimeAsUtc": true,
-      "notes": "Modern Events Calendar, so times need localTimeAsUtc. Only the first page has structured data, about 12 events"
+      "notes": "Modern Events Calendar. Until early November 2026 it wrote Boise wall-clock time as UTC, which localTimeAsUtc corrected; by 2026-11-10 its structured data had correct times with the -07:00 offset (a 6:30 PM game as 18:30-07:00), and the correction was moving them 7 hours late (that game to 1:30 AM the next day), so localTimeAsUtc was removed. If times look 7 hours early again, add it back. Only the first page has structured data, about 12 events"
     },
     {
       "displayName": "Visit Idaho",
