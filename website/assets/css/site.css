@@ -255,7 +255,7 @@ a { color: var(--accent); }
 }
 
 /* Sources page */
-.sources-intro { margin: 16px 0 0; font-size: 14px; }
+.sources-intro { margin: 16px 0 0; font-size: 14px; color: var(--page-muted); }
 .sources-table { margin-top: 16px; }
 
 /* The About page: one card, like the home page's controls, so the text reads on every
