@@ -2,6 +2,7 @@
   "_comment": "Maps other spellings of a venue to one venueKey and name, so sources merge. Keys are slugs from Get-VenueKey. See docs/schema.md.",
   "aliases": {
     "9th-st-parallel-at-knitting-factory": { "key": "knitting-factory", "name": "Knitting Factory" },
+    "boise-state-university-special-events-center": { "key": "boise-state-special-events-center", "name": "Boise State Special Events Center" },
     "danny-peterson-theatre-at-the-morrison-center": { "key": "danny-peterson-theatre", "name": "Danny Peterson Theatre" },
     "egyptian-theatre": { "key": "the-egyptian-theatre", "name": "The Egyptian Theatre" },
     "egyptian-theatre-id": { "key": "the-egyptian-theatre", "name": "The Egyptian Theatre" },
@@ -17,6 +18,7 @@
     "morrison-center": { "key": "morrison-center-for-the-performing-arts", "name": "Morrison Center for the Performing Arts" },
     "neurolux-lounge": { "key": "neurolux", "name": "Neurolux" },
     "revolution-concert-house-and-event-center": { "key": "revolution-concert-house", "name": "Revolution Concert House" },
+    "special-events-center": { "key": "boise-state-special-events-center", "name": "Boise State Special Events Center" },
     "the-egyptian-theater": { "key": "the-egyptian-theatre", "name": "The Egyptian Theatre" }
   }
 }

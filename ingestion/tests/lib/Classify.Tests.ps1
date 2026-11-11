@@ -222,6 +222,13 @@ Describe 'venue aliases' {
     (New-AtVenue 'Extra Mile Arena').venueKey | Should -Be 'extramile-arena'
   }
 
+  It 'gives the Boise State Special Events Center one name' {
+    foreach ($name in 'Special Events Center', 'Boise State University Special Events Center') {
+      (New-AtVenue $name).venueKey | Should -Be 'boise-state-special-events-center'
+      (New-AtVenue $name).venue | Should -Be 'Boise State Special Events Center'
+    }
+  }
+
   It 'files the 9th St. Parallel room under Knitting Factory' {
     (New-AtVenue '9th St. Parallel at Knitting Factory').venueKey | Should -Be 'knitting-factory'
     (New-AtVenue '9th St. Parallel at Knitting Factory').venue | Should -Be 'Knitting Factory'
