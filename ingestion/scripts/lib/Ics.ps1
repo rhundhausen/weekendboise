@@ -91,6 +91,8 @@ function ConvertFrom-Ics {
         }
 
         $summary = ConvertFrom-IcsText $current['SUMMARY'].Value
+        # Trumba feeds (CWI) give each event's page as X-TRUMBA-LINK instead of URL.
+        $urlProperty = if ($current['URL']) { $current['URL'] } else { $current['X-TRUMBA-LINK'] }
         if ($current.ContainsKey('RRULE')) {
           Write-Warning "Ignoring RRULE on '$summary', using its first occurrence only"
         }
@@ -100,7 +102,7 @@ function ConvertFrom-Ics {
           Summary     = $summary
           Description = ConvertFrom-IcsText $current['DESCRIPTION'].Value
           Location    = ConvertFrom-IcsText $current['LOCATION'].Value
-          Url         = ConvertFrom-IcsText $current['URL'].Value
+          Url         = ConvertFrom-IcsText $urlProperty.Value
           Categories  = ConvertFrom-IcsText $current['CATEGORIES'].Value
           Status      = $current['STATUS'].Value
           Start       = $start.Value

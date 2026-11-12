@@ -87,6 +87,16 @@ Describe 'ConvertFrom-Ics' {
     (ConvertFrom-Ics (New-Calendar @('URL;VALUE=URI:https://x.test/a?b=1', 'DTSTART:20261030T010000Z'))).Url | Should -Be 'https://x.test/a?b=1'
   }
 
+  It 'takes a Trumba event link when there is no URL' {
+    $lines = @('DTSTART:20261030T010000Z', 'X-TRUMBA-LINK:https://cwi.test/events?trumbaEmbed=view%3Devent%26eventid%3D1')
+    (ConvertFrom-Ics (New-Calendar $lines)).Url | Should -Be 'https://cwi.test/events?trumbaEmbed=view%3Devent%26eventid%3D1'
+  }
+
+  It 'prefers URL over a Trumba event link' {
+    $lines = @('DTSTART:20261030T010000Z', 'URL:https://x.test/a', 'X-TRUMBA-LINK:https://cwi.test/b')
+    (ConvertFrom-Ics (New-Calendar $lines)).Url | Should -Be 'https://x.test/a'
+  }
+
   It 'warns on RRULE and keeps the first occurrence' {
     $event = ConvertFrom-Ics (New-Calendar @('SUMMARY:Weekly', 'DTSTART:20261030T010000Z', 'RRULE:FREQ=WEEKLY')) -WarningVariable warnings -WarningAction SilentlyContinue
     @($event).Count | Should -Be 1
