@@ -1,7 +1,9 @@
 name: ingest-additional
 on:
+  # 23:30 in Boise is 05:30 UTC during daylight time and 06:30 UTC during standard time.
   schedule:
-    - cron: "0 5 * * *" # 10-11 PM Boise time, before the midnight ingest reads the file
+    - cron: "30 5 * * *"
+    - cron: "30 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,7 +14,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  when:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          sparse-checkout: ingestion/scripts/Test-BoiseHour.ps1
+          sparse-checkout-cone-mode: false
+      - name: Check Boise time
+        id: check
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        shell: pwsh
+        run: ./ingestion/scripts/Test-BoiseHour.ps1 -Hour 23
+
   run:
+    needs: when
+    if: needs.when.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5

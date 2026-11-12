@@ -25,6 +25,11 @@ Describe 'Test-BoiseHour' {
     @{ hour = 1; season = 'winter'; cron = '0 8 * * *'; want = $true }
     @{ hour = 1; season = 'summer'; cron = '0 7 * * *'; want = $true }
     @{ hour = 1; season = 'summer'; cron = '0 8 * * *'; want = $false }
+    # Additional ingest, 11:30 PM: 06:30 UTC in winter, 05:30 UTC in summer.
+    @{ hour = 23; season = 'winter'; cron = '30 5 * * *'; want = $false }
+    @{ hour = 23; season = 'winter'; cron = '30 6 * * *'; want = $true }
+    @{ hour = 23; season = 'summer'; cron = '30 5 * * *'; want = $true }
+    @{ hour = 23; season = 'summer'; cron = '30 6 * * *'; want = $false }
   ) {
     $today = if ($season -eq 'winter') { $winter } else { $summer }
     $result = & $gate -Hour $hour -EventName schedule -Schedule $cron -Today $today
