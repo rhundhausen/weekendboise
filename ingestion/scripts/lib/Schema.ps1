@@ -341,15 +341,25 @@ function Test-TvEvent {
 function ConvertTo-TvTitleCase {
   <#
   .SYNOPSIS
-    Changes an all-caps title of two or more words to title case ("OLD BOISE MODEL RAILROAD" to
-    "Old Boise Model Railroad"). Acronyms stay capitalized; see data/schema/title-case.json.
-    A title with any lowercase letter, or of one word (often a band's own styling), is left alone.
+    Changes an all-caps or all-lowercase title of two or more words to title case ("OLD BOISE
+    MODEL RAILROAD" or "idaho art gallery" to "Old Boise Model Railroad", "Idaho Art Gallery").
+    Acronyms stay capitalized; see data/schema/title-case.json. A title with both cases, or of one
+    word (often a band's own styling), is left alone. Used for venues too.
+  .DESCRIPTION
+    All-lowercase text is read as if it were all caps, except that keepUpper is not applied: in
+    lowercase, "us", "id", and "steam" are ordinary words. Words with no vowels (dj, bbq) still
+    become capitals, and forms still apply (st to St).
   #>
   param([string]$Title)
 
-  if (-not $Title -or $Title -cmatch '\p{Ll}') { return $Title }
+  if (-not $Title) { return $Title }
+  $fromLower = $Title -cnotmatch '\p{Lu}'
+  if (-not $fromLower -and $Title -cmatch '\p{Ll}') { return $Title }
+  # Simple case mapping keeps the length, so positions in the uppercased text match the original.
+  $original = $Title
+  if ($fromLower) { $Title = $Title.ToUpperInvariant() }
   $words = [regex]::Matches($Title, "\p{Lu}+(?:['$([char]0x2019)]\p{Lu}+)*")
-  if ($words.Count -lt 2) { return $Title }
+  if ($words.Count -lt 2) { return $original }
 
   if (-not $script:TvTitleCase) {
     $path = Join-Path $PSScriptRoot '..' '..' '..' 'data' 'schema' 'title-case.json'
@@ -373,7 +383,7 @@ function ConvertTo-TvTitleCase {
     $lower = $text.ToLowerInvariant()
     $cased = if ($rules.Forms.ContainsKey($text)) {
       $rules.Forms[$text]
-    } elseif ($rules.KeepUpper.Contains($text) -or $text -notmatch '[AEIOUY]' -or $text -match '^(?:II|III|IV|VI|VII|VIII|IX|XI|XII)$') {
+    } elseif ((-not $fromLower -and $rules.KeepUpper.Contains($text)) -or $text -notmatch '[AEIOUY]' -or $text -match '^(?:II|III|IV|VI|VII|VIII|IX|XI|XII)$') {
       $text
     } elseif (-not $starts -and $rules.SmallWords.Contains($lower)) {
       $lower
@@ -425,6 +435,8 @@ function New-TvEvent {
   )
 
   $cleanTitle = ConvertTo-TvTitleCase (($Title -replace '\s+', ' ').Trim())
+  # A venue in all caps or all lowercase ("idaho art gallery") gets the same title case.
+  $Venue = ConvertTo-TvTitleCase $Venue.Trim()
   $givenVenue = $Venue
   $key = if ($VenueKey) { $VenueKey } else { Get-VenueKey $Venue }
   $alias = Resolve-TvVenueAlias $key

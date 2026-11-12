@@ -74,7 +74,7 @@ Matching is by keyword, so some events are misfiled. An event whose title is onl
 
 ## Titles
 
-A title in all capitals ("OLD BOISE MODEL RAILROAD") is changed to title case ("Old Boise Model Railroad"). Acronyms stay capitalized: words with no vowels (DJ, CSL), Roman numerals, and the words listed in `data/schema/title-case.json`, which also gives exact spellings (McCall) and the small words kept lowercase (of, the, in). A title with any lowercase letter, or of one word (often a band's own styling, such as KREAM), is left alone. The `id` is computed from the lowercased title, so it does not change. The code is `ConvertTo-TvTitleCase` in `ingestion/scripts/lib/Schema.ps1`.
+A title or venue in all capitals ("OLD BOISE MODEL RAILROAD") or all lowercase ("idaho art gallery") is changed to title case ("Old Boise Model Railroad", "Idaho Art Gallery"). Acronyms stay capitalized: words with no vowels (DJ, CSL), Roman numerals, and the words listed in `data/schema/title-case.json`, which also gives exact spellings (McCall) and the small words kept lowercase (of, the, in). All-lowercase text skips that list, since "us", "id", and "steam" are ordinary words in lowercase. A title with both cases, or of one word (often a band's own styling, such as KREAM), is left alone. The `id` is computed from the lowercased title, so it does not change. The code is `ConvertTo-TvTitleCase` in `ingestion/scripts/lib/Schema.ps1`.
 
 ## Venues
 

@@ -164,14 +164,28 @@ Describe 'ConvertTo-TvTitleCase' {
     @{ title = 'KREAM' }
     @{ title = 'BUNT.' }
     @{ title = 'Music & Movement' }
+    @{ title = 'oldspeak' }
   ) {
     ConvertTo-TvTitleCase $title | Should -BeExactly $title
+  }
+
+  It 'title-cases an all-lowercase title, without keepUpper: <title>' -ForEach @(
+    @{ title = 'idaho art gallery'; want = 'Idaho Art Gallery' }
+    @{ title = 'come paint with us at the id center'; want = 'Come Paint with Us at the Id Center' }
+    @{ title = 'dj night on st patrick''s day'; want = 'DJ Night on St Patrick''s Day' }
+    @{ title = 'snowshoe tour in mccall'; want = 'Snowshoe Tour in McCall' }
+  ) {
+    ConvertTo-TvTitleCase $title | Should -BeExactly $want
   }
 }
 
 Describe 'New-TvEvent' {
   It 'title-cases an all-caps title' {
     (New-TestEvent @{ Title = 'OLD BOISE MODEL RAILROAD' }).title | Should -BeExactly 'Old Boise Model Railroad'
+  }
+
+  It 'title-cases an all-lowercase venue' {
+    (New-TestEvent @{ Venue = 'idaho art gallery' }).venue | Should -BeExactly 'Idaho Art Gallery'
   }
 
   It 'drops the venue from the end of a title, since the venue is shown beside it: <title>' -ForEach @(

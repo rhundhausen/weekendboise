@@ -1,5 +1,5 @@
 {
-  "_comment": "How an all-caps event title is changed to title case (ConvertTo-TvTitleCase in ingestion/scripts/lib/Schema.ps1). A word in keepUpper stays capitalized, and so does a word with no vowels (DJ, CSL, BBQ) or a Roman numeral. forms gives a word's exact spelling. smallWords are lowercase except at the start or after a colon. Words are matched in uppercase.",
+  "_comment": "How an all-caps or all-lowercase event title or venue is changed to title case (ConvertTo-TvTitleCase in ingestion/scripts/lib/Schema.ps1). A word in keepUpper stays capitalized, and so does a word with no vowels (DJ, CSL, BBQ) or a Roman numeral. forms gives a word's exact spelling. smallWords are lowercase except at the start or after a colon. Words are matched in uppercase. All-lowercase text skips keepUpper.",
   "keepUpper": [
     "AA",
     "AARP",
