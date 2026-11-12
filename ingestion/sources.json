@@ -1,8 +1,6 @@
 {
   "_comment": "Every source: running, configured but waiting, ideas, and sites ruled out. Ingest runs only status running. Only displayName is required; check here before probing a site. See docs/sources.md. The site hides a city with no upcoming events from its City list; that is presentation only, so keep every running source for such a city: it still runs nightly, and the city reappears once it has an event. doNotIngest lists companies and sites never to ingest, such as one that asked to be removed, matched by name, displayName, or site (see the schema); adding one stops it in one edit.",
-  "doNotIngest": [
-    "estatesales.net"
-  ],
+  "doNotIngest": [],
   "sources": [
     {
       "name": "meetup-abu-games-events",
@@ -1631,14 +1629,22 @@
       "lastChecked": "2026-11-09"
     },
     {
+      "name": "estatesales-net",
       "displayName": "EstateSales.NET",
-      "status": "declined",
+      "status": "running",
+      "adapter": "sales",
+      "salesMode": "file",
+      "path": "data/events-additional.json",
+      "category": "auctions-estate-sales",
+      "venue": "EstateSales.NET",
+      "venueKey": "estatesales-net",
+      "priority": 80,
       "url": "https://www.estatesales.net",
       "type": "platform",
       "robotsChecked": "2026-11-08",
       "termsChecked": "2026-11-08",
       "city": "Boise",
-      "notes": "Declined in writing 2026-11-09 (ticket 10407164). Never ingest; it is on doNotIngest. Owned by Auction Technology Group; do not contact ATG. Earlier (2026-11-08): Terms of service (Prohibited Uses) forbid 'using or attempting to use any engine, software, tool, agent, or other device or mechanism (including without limitation browsers, spiders, robots, avatars, or intelligent agents) to harvest or otherwise collect information from the Service for any use, including without limitation use on Third Party Websites', and the license bars reproducing or distributing any part of the Service for a commercial purpose without written consent. robots.txt itself allows the city pages. Needs written permission or a partner feed from EstateSales.NET Largest estate sale site; most Treasure Valley companies post here. Checked 2026-11-08. City pages (/ID/<City>, /ID/<City>/<ZIP>) are Angular with server-rendered state in script#estatesales-net-state: NGRX_STATE.ui.sales.saleRows has, per sale, name, orgName, cityName, postalCodeNumber, stateCode, typeName (EstateSales), pictureCount, utcShowAddressAfter, and dates[] with per-day local start and end; descriptions are on /print. /ID/Boise listed 2 sales on 2026-11-08 (83703 Garden City estate sale by Estate Liquidators Of Idaho, Nov 12 to 13; 83705 Hillcrest View Dr by Americana Estate Services, Nov 20 to 21). No further pages were fetched once the terms were read Earlier url: https://www.estatesales.net/ID/Boise.",
+      "notes": "Permission given 2026-11-11, per the site owner; read from data/events-additional.json (salesMode file), which the ingest-additional workflow writes. Earlier: declined in writing 2026-11-09 (ticket 10407164) and was on doNotIngest. Owned by Auction Technology Group; do not contact ATG. Earlier (2026-11-08): Terms of service (Prohibited Uses) forbid 'using or attempting to use any engine, software, tool, agent, or other device or mechanism (including without limitation browsers, spiders, robots, avatars, or intelligent agents) to harvest or otherwise collect information from the Service for any use, including without limitation use on Third Party Websites', and the license bars reproducing or distributing any part of the Service for a commercial purpose without written consent. robots.txt itself allows the city pages. Needs written permission or a partner feed from EstateSales.NET Largest estate sale site; most Treasure Valley companies post here. Checked 2026-11-08. City pages (/ID/<City>, /ID/<City>/<ZIP>) are Angular with server-rendered state in script#estatesales-net-state: NGRX_STATE.ui.sales.saleRows has, per sale, name, orgName, cityName, postalCodeNumber, stateCode, typeName (EstateSales), pictureCount, utcShowAddressAfter, and dates[] with per-day local start and end; descriptions are on /print. /ID/Boise listed 2 sales on 2026-11-08 (83703 Garden City estate sale by Estate Liquidators Of Idaho, Nov 12 to 13; 83705 Hillcrest View Dr by Americana Estate Services, Nov 20 to 21). No further pages were fetched once the terms were read Earlier url: https://www.estatesales.net/ID/Boise.",
       "lastChecked": "2026-11-09"
     },
     {
@@ -4125,13 +4131,13 @@
       "scrapeMode": "cards",
       "itemPattern": "(?s)<h3 class=\"text-component w-product-title.*?Get Tickets</a>",
       "titlePattern": "(?s)<h3[^>]*>(?<title>.*?)</h3>",
+      "titlePrefix": "Recycled Minds: ",
       "datePattern": "<h4>[A-Za-z]+,\\s*(?<month>[A-Za-z]{3})[a-z]*\\.?\\s+(?<day>\\d{1,2})(?:st|nd|rd|th)?\\b",
       "timePattern": "<h4>[^<]*?\\bat\\s+(?<start>\\d{1,2}(?::\\d{2})?\\s*[AP]M)",
       "notes": "Improv comedy company at its own venue, The Creative Space, 121 E 34th St, Garden City. Suggested 2026-11-07. www.recycledmindscomedy.com robots.txt allows everything (the bare domain fails TLS). Kajabi site; /shows is server-rendered, each show an h3 title, an h4 date line such as 'Saturday, Nov. 7th at 8PM' (no year), and a Get Tickets link to recycledmindsllc.thundertix.com/events/<id>. ThunderTix robots.txt allows event pages, but they carry no date in the HTML and its /events list answered 403, so only the shows page is read. Tickets $20 at the door, $6 kids, 20% off online (no price stored). Terms not read"
     },
     {
       "name": "reuseum",
-      "titlePrefix": "Recycled Minds: ",
       "displayName": "Reuseum",
       "status": "running",
       "adapter": "googlecalendar",

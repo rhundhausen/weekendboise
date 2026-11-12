@@ -219,6 +219,61 @@ Describe 'sales adapter, onthewater mode' {
   }
 }
 
+Describe 'sales adapter, file mode (EstateSales.NET)' {
+  BeforeAll {
+    $source = New-SaleSource 'file' 'estatesales-net' 'https://www.estatesales.net' 'EstateSales.NET'
+    $source | Add-Member path 'data/events-additional.json'
+    $file = @'
+[
+  { "title": "Garden City estate sale", "start": "2026-11-12T08:30:00-07:00", "end": "2026-11-13T14:00:00-07:00",
+    "allDay": false, "venue": "Boise, ID 83703", "city": "Boise", "url": "https://www.estatesales.net/ID/Boise/83703/1",
+    "description": "Estate Sale" },
+  { "title": "**ENTIRE HOUSE MOVING SALE – EVERYTHING $1 EACH!**", "start": "2026-11-13T09:00:00-07:00", "end": "2026-11-14T15:00:00-07:00",
+    "allDay": false, "venue": "Meridian, ID 83642", "city": "Boise", "url": "https://www.estatesales.net/ID/Meridian/83642/2" },
+  { "title": "Online Only Auction", "start": "2026-11-15T09:00:00-07:00", "venue": "Boise, ID 83709", "url": "https://www.estatesales.net/ID/Boise/83709/3" },
+  { "title": "Twin Falls Estate Sale", "start": "2026-11-15T09:00:00-07:00", "venue": "Twin Falls, ID 83301", "url": "https://www.estatesales.net/ID/Twin-Falls/83301/4" },
+  { "title": "Weekend Sale", "start": "2026-11-21", "end": "2026-11-22", "allDay": true, "city": "Nampa", "url": "https://www.estatesales.net/ID/Nampa/83651/5" }
+]
+'@
+    $script:kept = Invoke-Sales $source $file
+    $script:fileSummary = $script:summary
+  }
+
+  It 'keeps in-person sales in covered cities, keeping times as given' {
+    @($kept.title).Count | Should -Be 3
+    $kept[0].start | Should -Be '2026-11-12T08:30:00-07:00'
+    $kept[0].end | Should -Be '2026-11-13T14:00:00-07:00'
+    $kept[2].allDay | Should -BeTrue
+    $kept[2].start | Should -Be '2026-11-21'
+  }
+
+  It 'takes the town from the venue before the city' {
+    @($kept.city) | Should -Be @('Boise', 'Meridian', 'Nampa')
+  }
+
+  It 'removes Markdown emphasis from titles' {
+    $kept[1].title | Should -Not -Match '\*'
+    $kept[1].title | Should -Match 'Moving Sale'
+  }
+
+  It 'drops the part of a title that has a price' {
+    $kept[1].title | Should -Be 'Entire House Moving Sale'
+  }
+
+  It 'stores only the title, company, city, times, and link' {
+    $kept[0].venue | Should -Be 'EstateSales.NET'
+    $kept[0].url | Should -Be 'https://www.estatesales.net/ID/Boise/83703/1'
+    $kept[0].PSObject.Properties.Name | Should -Not -Contain 'description'
+    $kept[0].sources[0].name | Should -Be 'estatesales-net'
+  }
+
+  It 'reports what the in-person rule and the city filter dropped' {
+    $fileSummary | Should -Match 'kept 3'
+    $fileSummary | Should -Match '1 dropped by the in-person rule'
+    $fileSummary | Should -Match '1 dropped by the city filter'
+  }
+}
+
 Describe 'Get-TvSaleVerdict' {
   BeforeAll { . "$PSScriptRoot/../../scripts/lib/Sales.ps1" }
 

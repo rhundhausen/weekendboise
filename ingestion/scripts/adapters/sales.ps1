@@ -30,6 +30,11 @@
     runs from the first day's opening to the last day's close when the page lists hours for those
     days ("Saturday, November 21 | 9:00 AM - 2:00 PM"), and is all-day otherwise. Its link is the
     sales page, which is all the site has.
+  - file: a JSON array in the site's event format, read from the repository file named by path
+    (EstateSales.NET, data/events-additional.json, which ingest-additional writes nightly with the
+    site's permission). Nothing is fetched. The town comes from "Town, ID" in each venue, else its
+    city. Markdown emphasis and any title part with a price are removed, and the description is
+    read only for the in-person rule.
 .PARAMETER Source
   One entry from sources.json.
 .PARAMETER FetchedAt
@@ -59,6 +64,13 @@ $kept = 0
 function Get-SalesText {
   # The source's page, after checking robots.txt and waiting out its Crawl-delay.
   if ($Response) { return $Response[0] }
+
+  # File mode reads a file in the repository that the site's own data is delivered to; nothing is fetched.
+  if ($Source.salesMode -eq 'file') {
+    $file = Join-Path $PSScriptRoot '..' '..' '..' $Source.path
+    if (-not (Test-Path -LiteralPath $file)) { throw "$($Source.name): $($Source.path) does not exist" }
+    return Get-Content -LiteralPath $file -Raw
+  }
 
   $uri = [uri]$Source.url
   $robots = try { Invoke-TvRequest "$($uri.GetLeftPart('Authority'))/robots.txt" -Raw } catch {
@@ -211,11 +223,41 @@ function Read-OnTheWaterSales {
   }
 }
 
+function Read-FileSales {
+  # A JSON array of events in the site's event format (title, start, end, allDay, venue, city, url,
+  # description). Only what the other modes keep is passed on; the description is read for the
+  # in-person rule and then dropped.
+  param([string]$Text)
+
+  $items = try { @($Text | ConvertFrom-TvJson) } catch { throw "$($Source.name): $($Source.path) is not valid JSON: $_" }
+  foreach ($item in $items) {
+    if (-not $item.title -or -not $item.start) {
+      Write-Warning "$($Source.name): skipping an entry with no title or start"
+      continue
+    }
+    # Markdown emphasis ("**MOVING SALE**") is not part of the title.
+    $title = ((ConvertTo-PlainText "$($item.title)") -replace '\*\*|__|(?<!\w)[*_](?=\S)|(?<=\S)[*_](?!\w)', '' -replace '\s+', ' ').Trim()
+    # No prices are stored, so a title part with one ("Moving Sale - Everything $1 Each!") is dropped.
+    $dash = "\s+[-$([char]0x2013)$([char]0x2014)]\s+|\s*[|:]\s*"
+    $parts = @($title -split $dash | Where-Object { $_ -and $_ -notmatch '\$\s?\d' })
+    if ($title -match '\$\s?\d') {
+      $title = if ($parts) { $parts -join ' - ' } else { ($title -replace '[^.!?]*\$\s?\d[^.!?]*[.!?]?', '').Trim() }
+    }
+    $town = Find-TvSaleTown "$($item.venue)"
+    if (-not $town) { $town = "$($item.city)".Trim() }
+    $event = @{ Title = $title; Start = "$($item.start)"; Url = if ($item.url) { "$($item.url)" } else { $Source.url } }
+    if ($item.end -and "$($item.end)" -ne "$($item.start)") { $event.End = "$($item.end)" }
+    if ($item.allDay) { $event.AllDay = $true }
+    Add-Sale -Title $title -Text "$($item.description)" -Town $town -Event $event
+  }
+}
+
 $text = Get-SalesText
 switch ($Source.salesMode) {
   'ics' { Read-IcsSales $text }
   'corbett' { Read-CorbettSales $text }
   'onthewater' { Read-OnTheWaterSales $text }
+  'file' { Read-FileSales $text }
   default { throw "$($Source.name): unknown salesMode '$($Source.salesMode)'" }
 }
 Write-Verbose "$($Source.name): kept $kept, $($dropped['in-person']) dropped by the in-person rule, $($dropped['real-estate']) dropped as real estate, $($dropped.city) dropped by the city filter"

@@ -1,7 +1,7 @@
 name: ingest-additional
 on:
   schedule:
-    - cron: "0 9 * * *" # ~2-3 AM Boise time
+    - cron: "0 5 * * *" # 10-11 PM Boise time, before the midnight ingest reads the file
   workflow_dispatch:
 
 permissions:

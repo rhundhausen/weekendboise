@@ -49,12 +49,14 @@ robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rs
 
 ### sales
 
-The Auctions and Estate Sales category (`auctions-estate-sales`). `salesMode` picks the reader: `ics` (an Events Calendar iCal export, Downs Auction), `corbett` (the upcoming auctions on corbettauctions.com's home page), or `onthewater` (the UPCOMING SALES lines on onthewaterestatesales.com). One page a night per source, after robots.txt and its Crawl-delay; no link is followed, so Corbett's HiBid lots are never fetched. Every mode applies the same rules from `lib/Sales.ps1`:
+The Auctions and Estate Sales category (`auctions-estate-sales`). `salesMode` picks the reader: `ics` (an Events Calendar iCal export, Downs Auction), `corbett` (the upcoming auctions on corbettauctions.com's home page), `onthewater` (the UPCOMING SALES lines on onthewaterestatesales.com), or `file` (a JSON array of events in the site's event format, read from the repository file named by `path`; nothing is fetched). One page a night per web source, after robots.txt and its Crawl-delay; no link is followed, so Corbett's HiBid lots are never fetched. Every mode applies the same rules from `lib/Sales.ps1`:
 
 - **In-person rule:** an event whose title or text says "online" (any case), or that has no street address or place, is dropped.
 - **No real estate:** auctions of a house or land are dropped, by the site's own marker (Downs' Real Estate category, Corbett's Real Estate card type) or "real estate" in the title. Only live auctions of goods and estate sales stay, unless the entry sets `keepRealEstate` (below).
 - **City filter:** only the cities the site already covers are kept (`Resolve-TvCity`, so Mountain Home stays and the mountain towns become Valley County).
 - **Minimal data:** only title, company (as the venue), city, start and end, and the link to the event on the company's site. No address, photos, description, contact details, or price. The link is the company's own event page, whose slug can contain the street. A real estate auction kept with `keepRealEstate` is the exception: its title is the property's street address, which is where the auction is held.
+
+`file` mode is for a site that lets us take its listings: EstateSales.NET, since 2026-11-11, from `data/events-additional.json`, which the `ingest-additional` workflow (`additional/ingest.py`) writes before the nightly ingest. Each entry needs `title` and `start`; `end`, `allDay`, `venue`, `city`, `url`, and `description` are read when present. The town comes from "Town, ID" in `venue`, else `city`. Markdown emphasis is removed from titles, and so is any part of a title with a price ("Moving Sale - Everything $1 Each!" becomes "Moving Sale"). The description is used only for the in-person rule.
 
 `keepRealEstate: true` keeps real estate auctions for one entry. Use it only for a company whose real estate auctions are live and held at the property: Downs Auction, since 2026-11-10 (its event pages say "sold at live Absolute Auction", with the property as the location).
 
@@ -153,9 +155,9 @@ The last resort, for sites with no API or feed. Check for a feed first: a workin
 | `datePattern` | no | `cards`: regex with named groups `month` and `day`, matched inside a card. Defaults to `month` and `day` spans. Add a `year` group to read the year as given: a numeric date, such as `date=2026-11-14` in a link (The Little Gym), or a month name with the year elsewhere in the card (Fiddlers' Contest) |
 | `yearFromTitle` | no | `cards`: `true` takes the year of the dates from a year in the card title, such as "Winter Carnival 2027", instead of guessing it from the month (McCall Winter Carnival). A later date before the first is the next year's |
 | `titlePattern` | no | `cards`: regex with a named group `title`. Defaults to the first heading |
+| `titlePrefix` | no | `cards`: text put in front of each title that does not already contain it, so "Off Script! Improv Comedy Show" becomes "Recycled Minds: Off Script! Improv Comedy Show" (Recycled Minds) |
 | `timePattern` | no | `cards`: regex with named groups `start` and optional `end`, such as `3:00 pm`. Without a match, the event is all-day |
 | `localTimeAsUtc` | no | `true` corrects sites that write local time as UTC |
-| `titlePrefix` | no | `cards`: text put in front of each title that does not already contain it, so "Off Script! Improv Comedy Show" becomes "Recycled Minds: Off Script! Improv Comedy Show" (Recycled Minds) |
 | `fixedVenue` | no | `true` uses the entry's venue for every event |
 | `excludeTitlePattern` | no | `jsonld`, `cards`, `civicplus`, `chambermaster`, and `sveltekit`: regex. Matching titles are skipped, such as meetings and closures |
 | `excludeDescriptionPattern` | no | `jsonld`: regex, matched against the description as plain text with WordPress shortcodes such as `[post_title]` removed. Matching events are skipped. Bluebird Social uses it to skip food trucks, whose descriptions are only shortcodes |
@@ -306,7 +308,7 @@ The Auctions and Estate Sales entries also carry `type` (`auction`, `estate-sale
 
 ### Removing a company: doNotIngest
 
-The top-level `doNotIngest` list in `sources.json` names companies and sites never to ingest, such as one that asked to be removed. Each item is matched, ignoring case, against a source's `name`, its `displayName`, or its url's host with or without `www.`. Adding one is the whole edit: every run skips a match (a `-Source` run of one refuses), and its stored events leave the raw file on the next ingest, so the site drops them after refine. Then set its status to `declined`. EstateSales.NET is listed (it declined in writing on 2026-11-09).
+The top-level `doNotIngest` list in `sources.json` names companies and sites never to ingest, such as one that asked to be removed. Each item is matched, ignoring case, against a source's `name`, its `displayName`, or its url's host with or without `www.`. Adding one is the whole edit: every run skips a match (a `-Source` run of one refuses), and its stored events leave the raw file on the next ingest, so the site drops them after refine. Then set its status to `declined`. EstateSales.NET was listed after it declined in writing on 2026-11-09, and was taken off on 2026-11-11 when it gave permission.
 
 To start running an idea, give it a `name` and its adapter's fields, set `status` to `running`, and keep its `notes`: they are the record of how the source was found. To try a configured source without running it nightly, leave it `ready` and run `Invoke-Ingest.ps1 -Source <name> -NoWrite`.
 

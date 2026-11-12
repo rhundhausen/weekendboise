@@ -239,12 +239,18 @@
         },
         "salesMode": {
           "type": "string",
-          "description": "sales: ics reads an Events Calendar iCal export (Downs Auction), corbett reads the upcoming auctions on corbettauctions.com's home page, onthewater reads the UPCOMING SALES lines on onthewaterestatesales.com. Every mode keeps only in-person events in covered cities, and stores only title, company, city, times, and link. See adapters/sales.ps1.",
+          "description": "sales: ics reads an Events Calendar iCal export (Downs Auction), corbett reads the upcoming auctions on corbettauctions.com's home page, onthewater reads the UPCOMING SALES lines on onthewaterestatesales.com, file reads a JSON array of events from the repository file named by path (EstateSales.NET). Every mode keeps only in-person events in covered cities, and stores only title, company, city, times, and link. See adapters/sales.ps1.",
           "enum": [
             "corbett",
+            "file",
             "ics",
             "onthewater"
           ]
+        },
+        "path": {
+          "type": "string",
+          "description": "sales, file mode: the JSON file to read, relative to the repository root, such as data/events-additional.json.",
+          "minLength": 1
         },
         "eventLinkPattern": {
           "type": "string",
@@ -266,17 +272,17 @@
           "description": "scrape, cards: regex with a named group title, matched inside a card. Defaults to the first heading.",
           "minLength": 1
         },
+        "titlePrefix": {
+          "type": "string",
+          "description": "scrape, cards: text put in front of each title that does not already contain it, such as \"Recycled Minds: \", for a company whose show titles leave out its name.",
+          "minLength": 1
+        },
         "timePattern": {
           "type": "string",
           "description": "scrape, cards: regex with named groups start and optional end, such as 3:00 pm. Without it, or without a match, events are all-day.",
           "minLength": 1
         },
         "maxPages": {
-        "titlePrefix": {
-          "type": "string",
-          "description": "scrape, cards: text put in front of each title that does not already contain it, such as \"Recycled Minds: \", for a company whose show titles leave out its name.",
-          "minLength": 1
-        },
           "type": "integer",
           "description": "scrape: most event pages to read in one run. Defaults to 40. With scrapeMode civicplus or chambermaster, how many months to read, starting with this one. Defaults to 3.",
           "minimum": 1
