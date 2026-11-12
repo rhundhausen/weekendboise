@@ -214,6 +214,22 @@ Describe 'Merge-TvEvents same-minute rule' {
     $merged[0].title | Should -BeLike 'Boise State University*'
   }
 
+  It 'merges titles that share only their core, without presenter or subtitle' {
+    $merged = @(Merge-TvEvents @(
+        (New-TestEvent -Title 'Ballet Idaho presents The Nutcracker' -Start '2026-12-20T12:00:00-07:00' -Source a)
+        (New-TestEvent -Title 'The Nutcracker: With Live Music by the Boise Phil' -Start '2026-12-20T12:00:00-07:00' -Source b)
+      ))
+    $merged.Count | Should -Be 1
+  }
+
+  It 'keeps core matches apart at different venues' {
+    $merged = @(Merge-TvEvents @(
+        (New-TestEvent -Title 'Ballet Idaho presents The Nutcracker' -Start '2026-12-20T12:00:00-07:00' -Source a)
+        (New-TestEvent -Title 'The Nutcracker: A Puppet Show' -Venue 'Egyptian Theatre' -Start '2026-12-20T12:00:00-07:00' -Source b)
+      ))
+    $merged.Count | Should -Be 2
+  }
+
   It 'keeps them apart when the start differs by a minute or more' {
     $merged = @(Merge-TvEvents @(
         (New-TestEvent -Title 'Jo Koy' -Venue 'Ford Idaho Center Arena' -Start '2026-11-07T20:00:00-07:00' -Source a)
@@ -304,6 +320,83 @@ Describe 'Merge-TvEvents multi-day rule' {
         (New-TestEvent -Title 'Holiday Bazaar' -Start '2026-11-27T10:00:00-07:00' -End '2026-11-29T17:00:00-07:00' -Venue 'Hall B' -City 'Nampa' -Source s -Url 'https://s.test/2')
       ))
     $merged.Count | Should -Be 2
+  }
+}
+
+Describe 'Merge-TvEvents cross-venue rule' {
+  It 'merges one show that sources place in different buildings, keeping the best source''s venue' {
+    $merged = @(Merge-TvEvents @(
+        (New-TestEvent -Title 'Taryn Smith & Christine Turpin' -Venue 'Morrison Center' -Start '2026-11-12T18:00:00-07:00' -Source mbg)
+        (New-TestEvent -Title 'Taryn Smith & Christine Turpin' -Venue 'Boise State Special Events Center' -Start '2026-11-12T18:00:00-07:00' -Source bsu)
+      ) -Priorities @{ mbg = 80; bsu = 30 })
+    $merged.Count | Should -Be 1
+    $merged[0].venue | Should -Be 'Boise State Special Events Center'
+    @($merged[0].sources.name) | Should -Be @('bsu', 'mbg')
+  }
+
+  It 'replaces a placeholder venue with the real one: <placeholder>' -ForEach @(
+    @{ placeholder = 'Boise' }
+    @{ placeholder = 'Boise, ID 83702' }
+    @{ placeholder = 'Various Treasure Valley locations' }
+  ) {
+    $merged = @(Merge-TvEvents @(
+        (New-TestEvent -Title 'Boise Half Marathon' -Venue $placeholder -Start '2026-11-14T09:00:00-07:00' -Source best)
+        (New-TestEvent -Title 'Boise Half Marathon' -Venue 'Julia Davis Park' -Start '2026-11-14T09:00:00-07:00' -Source other)
+      ) -Priorities @{ best = 20; other = 80 })
+    $merged.Count | Should -Be 1
+    $merged[0].venue | Should -Be 'Julia Davis Park'
+    $merged[0].url | Should -Be 'https://best.test/e'
+  }
+
+  It 'keeps them apart when <why>' -ForEach @(
+    @{ why = 'the start differs'; second = @{ Start = '2026-11-12T18:15:00-07:00' } }
+    @{ why = 'the city differs'; second = @{ City = 'Nampa' } }
+    @{ why = 'the city is unknown'; first = @{ City = 'Other' }; second = @{ City = 'Other' } }
+    @{ why = 'the titles differ'; second = @{ Title = 'Taryn Smith' } }
+    @{ why = 'one source lists both'; second = @{ Source = 'a'; Url = 'https://a.test/2' } }
+  ) {
+    $base = @{ Title = 'Story Time'; Venue = 'Library A'; Start = '2026-11-12T18:00:00-07:00'; Source = 'a' }
+    $one = $base.Clone(); if ($first) { foreach ($k in $first.Keys) { $one[$k] = $first[$k] } }
+    $two = $base.Clone(); $two.Venue = 'Library B'; $two.Source = 'b'; foreach ($k in $second.Keys) { $two[$k] = $second[$k] }
+    $merged = @(Merge-TvEvents @((New-TestEvent @one), (New-TestEvent @two)))
+    $merged.Count | Should -Be 2
+  }
+
+  It 'leaves all-day events to the other rules' {
+    $merged = @(Merge-TvEvents @(
+        (New-TestEvent -Title 'Holiday Market' -Venue 'Hall A' -Start '2026-11-27' -AllDay -Source a)
+        (New-TestEvent -Title 'Holiday Market' -Venue 'Hall B' -Start '2026-11-27' -AllDay -Source b)
+      ))
+    $merged.Count | Should -Be 2
+  }
+}
+
+Describe 'Get-TvTitleCore' {
+  It '<title> has core <want>' -ForEach @(
+    @{ title = 'Ballet Idaho presents The Nutcracker'; want = 'The Nutcracker' }
+    @{ title = 'The Nutcracker: With Live Music by the Boise Phil'; want = 'The Nutcracker' }
+    @{ title = 'Jo Koy - Koy Meets World Tour'; want = 'Jo Koy' }
+    @{ title = 'Comedy Night'; want = 'Comedy Night' }
+    @{ title = 'Disney Presents: Frozen Live'; want = 'Frozen Live' }
+    @{ title = 'Pre-K Storytime'; want = 'Pre-K Storytime' }
+  ) {
+    Get-TvTitleCore $title | Should -Be $want
+  }
+}
+
+Describe 'Test-TvPlaceholderVenue' {
+  It '<venue> is a placeholder: <want>' -ForEach @(
+    @{ venue = 'Boise'; want = $true }
+    @{ venue = 'Boise, ID 83703'; want = $true }
+    @{ venue = 'Garden City, Idaho'; want = $true }
+    @{ venue = 'Various Treasure Valley locations'; want = $true }
+    @{ venue = 'TBA'; want = $true }
+    @{ venue = ''; want = $true }
+    @{ venue = '310 W Iowa Ave, Nampa, ID'; want = $false }
+    @{ venue = 'Julia Davis Park'; want = $false }
+    @{ venue = 'Boise State Special Events Center'; want = $false }
+  ) {
+    Test-TvPlaceholderVenue $venue 'Boise' | Should -Be $want
   }
 }
 

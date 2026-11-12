@@ -98,6 +98,22 @@ function Get-TvTitleWords {
   , $words
 }
 
+function Get-TvTitleCore {
+  <#
+  .SYNOPSIS
+    The part of a title that names the work: without a presenter ("Ballet Idaho presents The
+    Nutcracker" to "The Nutcracker") or a subtitle after a colon or spaced dash ("The Nutcracker:
+    With Live Music by the Boise Phil" to "The Nutcracker"). The whole title if nothing is left.
+  #>
+  [CmdletBinding()]
+  [OutputType([string])]
+  param([Parameter(Mandatory, Position = 0)][AllowEmptyString()][string]$Title)
+
+  $core = $Title -replace '(?i)^.*?\bpresents\b[:\s]*', ''
+  $core = ($core -split "\s*:\s+|\s+[-$([char]0x2013)$([char]0x2014)|]\s+", 2)[0].Trim()
+  if ($core) { $core } else { $Title }
+}
+
 function Test-TvSameTitleWords {
   <#
   .SYNOPSIS
@@ -136,6 +152,18 @@ function Get-TvEventRank {
   ($ranks | Measure-Object -Minimum).Minimum
 }
 
+function Test-TvPlaceholderVenue {
+  # True for a venue that names no place: the bare city, a city with state or ZIP ("Boise, ID
+  # 83703"), or a stand-in such as "Various Treasure Valley locations", "TBA", or "TBD".
+  param([AllowEmptyString()][string]$Venue, [AllowEmptyString()][string]$City)
+
+  $v = "$Venue".Trim()
+  if (-not $v) { return $true }
+  if ($City -and $v -eq $City) { return $true }
+  $v -match '(?i)^(?:various\b.*|tba|tbd|to be announced|to be determined)$' -or
+  $v -match '(?i)^[a-z .'']+,\s*(?:id|idaho)\b[\s\d-]*$'
+}
+
 function Merge-TvEvents {
   <#
   .SYNOPSIS
@@ -147,12 +175,21 @@ function Merge-TvEvents {
     - they start at the same minute, no source reported both, and their titles share their
       identifying words (Test-TvSameTitleWords). This catches "Jo Koy" against
       "Jo Koy - Koy Meets World Tour", and "BSU Women's Basketball Game" against
-      "Boise State University Women's Basketball vs Portland State".
+      "Boise State University Women's Basketball vs Portland State". Each title's core (Get-TvTitleCore,
+      without a presenter or subtitle) is compared as well.
     Two multi-day events (ending on a later day than they start) are also the same, at any venueKey
     and start time, if they have the same normalized title, the same known city (not Other), the same
     start day, and no source reported both. Sources disagree on a festival's opening time and
     building more than on a show's ("Festival of Trees" at 6:30 AM in the Horse Park and at noon
     in the Arena), and the title, city, and dates are enough to tell multi-day events apart.
+    Two events are also the same, at any venueKey, if they have the same normalized title, start at
+    the same minute, are in the same known city (not Other), and no source reported both. Sources
+    disagree on the building more often than two different events share a title and start minute
+    in one city ("Taryn Smith & Christine Turpin" at 6 PM, at the Morrison Center by one source and
+    the Special Events Center by two others). One source listing both, such as one library's
+    calendar with the same storytime at two branches, keeps them apart.
+    The best-priority event's venue is kept, unless it is a placeholder (the bare city, "Boise, ID
+    83703", or "Various ..."), when the other event's venue replaces it.
     A "canceled" marker in a title is ignored for matching, so a cancellation finds its listing.
 
     The event from the best-priority source supplies the url and other fields (between sources
@@ -185,11 +222,16 @@ function Merge-TvEvents {
   $slotTicks = [TimeSpan]::FromMinutes(30).Ticks
   # Multi-day events by "city|start day|title", for the multi-day rule.
   $byDays = @{}
+  # Timed events by "city|start minute|title", for the cross-venue rule.
+  $byMinute = @{}
 
   foreach ($entry in $ordered) {
     $event = $entry.Event
     $title = Get-TvMatchTitle $event.title
     $words = Get-TvTitleWords $title
+    # The title's core (no presenter or subtitle) is matched too, so "Ballet Idaho presents The
+    # Nutcracker" and "The Nutcracker: With Live Music by the Boise Phil" at one minute are one show.
+    $core = Get-TvTitleWords (Get-TvMatchTitle (Get-TvTitleCore $event.title))
     $canceled = Test-TvCanceledTitle $event.title
     $sourceNames = @($event.sources | ForEach-Object name)
     $slot = [Math]::Floor($entry.Instant.UtcTicks / $slotTicks)
@@ -209,7 +251,7 @@ function Merge-TvEvents {
           # One source listing two things at the same minute means two things, so only cross-source.
           if (-not $sameMinute -and $gap -lt 1 -and
             -not @($candidate.Event.sources | Where-Object { $_.name -in $sourceNames }) -and
-            @($candidate.WordSets | Where-Object { Test-TvSameTitleWords $words $_ })) {
+            @($candidate.WordSets | Where-Object { (Test-TvSameTitleWords $words $_) -or (Test-TvSameTitleWords $core $_) })) {
             $sameMinute = $candidate
           }
         }
@@ -228,9 +270,27 @@ function Merge-TvEvents {
       }
     }
 
+    $minuteKey = $null
+    if ($event.city -and $event.city -ne 'Other' -and -not $event.allDay -and $title) {
+      $minuteKey = "$($event.city)|$($entry.Instant.UtcTicks)|$title"
+      if (-not $match) {
+        $match = @($byMinute[$minuteKey]) | Where-Object {
+          $_ -and -not @($_.Event.sources | Where-Object { $_.name -in $sourceNames })
+        } | Select-Object -First 1
+        if ($match -and $match.Event.venueKey -ne $event.venueKey) {
+          Write-Verbose "Merged across venues: '$($event.title)' at $($event.start) in $($event.city), $($match.Event.venue) and $($event.venue)"
+          if ((Test-TvPlaceholderVenue $match.Event.venue $match.Event.city) -and -not (Test-TvPlaceholderVenue $event.venue $event.city)) {
+            $match.Event.venue = $event.venue
+            $match.Event.venueKey = $event.venueKey
+          }
+        }
+      }
+    }
+
     if ($match) {
       if ($canceled) { $match.Canceled = $true }
       $match.WordSets.Add($words)
+      if (-not $core.SetEquals($words)) { $match.WordSets.Add($core) }
       $target = $match.Event
       if ("$($event.description)".Length -gt "$($target.description)".Length) {
         $target | Add-Member -NotePropertyName description -NotePropertyValue $event.description -Force
@@ -262,7 +322,9 @@ function Merge-TvEvents {
 
     $copy = $event | Select-Object *
     $copy.sources = @($event.sources)
-    $record = [pscustomobject]@{ Event = $copy; Title = $title; WordSets = [Collections.Generic.List[object]]::new(@(, $words)); Instant = $entry.Instant; Canceled = $canceled }
+    $wordSets = [Collections.Generic.List[object]]::new(@(, $words))
+    if (-not $core.SetEquals($words)) { $wordSets.Add($core) }
+    $record = [pscustomobject]@{ Event = $copy; Title = $title; WordSets = $wordSets; Instant = $entry.Instant; Canceled = $canceled }
     $kept.Add($record)
     $byId[$event.id] = $record
     $slotKey = "$($event.venueKey)|$slot"
@@ -270,6 +332,12 @@ function Merge-TvEvents {
       $bySlot[$slotKey] = [System.Collections.Generic.List[object]]::new()
     }
     $bySlot[$slotKey].Add($record)
+    if ($minuteKey) {
+      if (-not $byMinute.ContainsKey($minuteKey)) {
+        $byMinute[$minuteKey] = [System.Collections.Generic.List[object]]::new()
+      }
+      $byMinute[$minuteKey].Add($record)
+    }
     if ($daysKey) {
       if (-not $byDays.ContainsKey($daysKey)) {
         $byDays[$daysKey] = [System.Collections.Generic.List[object]]::new()
