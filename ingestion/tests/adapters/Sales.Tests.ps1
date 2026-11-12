@@ -232,6 +232,8 @@ Describe 'sales adapter, file mode (EstateSales.NET)' {
     "allDay": false, "venue": "Meridian, ID 83642", "city": "Boise", "url": "https://www.estatesales.net/ID/Meridian/83642/2" },
   { "title": "Online Only Auction", "start": "2026-11-15T09:00:00-07:00", "venue": "Boise, ID 83709", "url": "https://www.estatesales.net/ID/Boise/83709/3" },
   { "title": "Twin Falls Estate Sale", "start": "2026-11-15T09:00:00-07:00", "venue": "Twin Falls, ID 83301", "url": "https://www.estatesales.net/ID/Twin-Falls/83301/4" },
+  { "title": "Other Site Sale", "start": "2026-11-19T09:00:00-07:00", "venue": "Boise, ID 83705",
+    "url": "https://estatesales.org/estate-sales/id/boise/83705/other-site-sale" },
   { "title": "Weekend Sale", "start": "2026-11-21", "end": "2026-11-22", "allDay": true, "city": "Nampa", "url": "https://www.estatesales.net/ID/Nampa/83651/5" }
 ]
 '@
@@ -271,6 +273,11 @@ Describe 'sales adapter, file mode (EstateSales.NET)' {
     $fileSummary | Should -Match 'kept 3'
     $fileSummary | Should -Match '1 dropped by the in-person rule'
     $fileSummary | Should -Match '1 dropped by the city filter'
+  }
+
+  It 'skips entries that link to another site' {
+    @($kept.url) | Should -Not -Match 'estatesales\.org'
+    $fileSummary | Should -Match '1 entries from other sites skipped'
   }
 }
 

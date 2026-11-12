@@ -32,7 +32,8 @@
     sales page, which is all the site has.
   - file: a JSON array in the site's event format, read from the repository file named by path
     (EstateSales.NET, data/events-additional.json, which ingest-additional writes nightly with the
-    site's permission). Nothing is fetched. The town comes from "Town, ID" in each venue, else its
+    site's permission). Nothing is fetched, and only entries linking to the source's own site are
+    read, since the file can hold other sites' listings. The town comes from "Town, ID" in each venue, else its
     city. Markdown emphasis and any title part with a price are removed, and the description is
     read only for the in-person rule.
 .PARAMETER Source
@@ -230,7 +231,16 @@ function Read-FileSales {
   param([string]$Text)
 
   $items = try { @($Text | ConvertFrom-TvJson) } catch { throw "$($Source.name): $($Source.path) is not valid JSON: $_" }
+  # The file can hold listings from more than one site. Only this source's site gave permission,
+  # so only entries linking to its host are read.
+  $siteHost = ([uri]$Source.url).Host -replace '^www\.', ''
+  $otherSites = 0
   foreach ($item in $items) {
+    $itemHost = if ("$($item.url)" -match '^https?://([^/:?#]+)') { $Matches[1].ToLowerInvariant() -replace '^www\.', '' }
+    if ($itemHost -ne $siteHost) {
+      $otherSites++
+      continue
+    }
     if (-not $item.title -or -not $item.start) {
       Write-Warning "$($Source.name): skipping an entry with no title or start"
       continue
@@ -250,6 +260,7 @@ function Read-FileSales {
     if ($item.allDay) { $event.AllDay = $true }
     Add-Sale -Title $title -Text "$($item.description)" -Town $town -Event $event
   }
+  Write-Verbose "$($Source.name): $otherSites entries from other sites skipped"
 }
 
 $text = Get-SalesText
