@@ -333,7 +333,7 @@ Describe 'scrape adapter, cards with a weekday and ordinal date (Recycled Minds)
 <h4>Saturday, Nov. 7th at 8PM</h4>
 <p>You give us the inspiration.</p>
 <a href="https://recycledmindsllc.thundertix.com/events/272342" class="btn btn-cta" target="_blank">Get Tickets</a>
-<h3 class="text-component w-product-title" title="x">Holiday Improv</h3>
+<h3 class="text-component w-product-title" title="x">Recycled Minds Holiday Improv</h3>
 <h4>Friday, December 4th at 7:30PM</h4>
 <a href="https://recycledmindsllc.thundertix.com/events/272719" class="btn btn-cta" target="_blank">Get Tickets</a>
 "@
@@ -342,10 +342,14 @@ Describe 'scrape adapter, cards with a weekday and ordinal date (Recycled Minds)
 
   It 'reads every show with its time and ticket link' {
     $events.Count | Should -Be 2
-    $events[0].title | Should -Be 'Make A Scene Comedy Show'
+    $events[0].title | Should -Be 'Recycled Minds: Make A Scene Comedy Show'
     $events[0].start | Should -Be '2026-11-07T20:00:00-07:00'
     $events[0].url | Should -Be 'https://recycledmindsllc.thundertix.com/events/272342'
     $events[1].start | Should -Be '2026-12-04T19:30:00-07:00'
+  }
+
+  It 'does not repeat the company name when the title already has it' {
+    $events[1].title | Should -Be 'Recycled Minds Holiday Improv'
   }
 
   It 'uses the fixed venue in Garden City' {

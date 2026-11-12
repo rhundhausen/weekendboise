@@ -235,6 +235,8 @@ function Read-CardsSource {
       $title = ConvertTo-PlainText ([regex]::Match($text, $titlePattern).Groups['title'].Value)
       if (-not $title) { throw 'no title on the card' }
       if ($Source.excludeTitlePattern -and $title -match $Source.excludeTitlePattern) { continue }
+      # titlePrefix names a company whose own site leaves its name out of each show title.
+      if ($Source.titlePrefix -and $title.IndexOf($Source.titlePrefix.TrimEnd(': '.ToCharArray()), [StringComparison]::OrdinalIgnoreCase) -lt 0) { $title = $Source.titlePrefix + $title }
       $url = [regex]::Match($text, "href=([`"'])([^`"']+)\1").Groups[2].Value
 
       # Most cards show no year: a date more than 2 months back is next year's. A datePattern

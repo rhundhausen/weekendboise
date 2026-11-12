@@ -4131,6 +4131,7 @@
     },
     {
       "name": "reuseum",
+      "titlePrefix": "Recycled Minds: ",
       "displayName": "Reuseum",
       "status": "running",
       "adapter": "googlecalendar",

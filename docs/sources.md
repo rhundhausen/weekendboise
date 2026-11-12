@@ -155,6 +155,7 @@ The last resort, for sites with no API or feed. Check for a feed first: a workin
 | `titlePattern` | no | `cards`: regex with a named group `title`. Defaults to the first heading |
 | `timePattern` | no | `cards`: regex with named groups `start` and optional `end`, such as `3:00 pm`. Without a match, the event is all-day |
 | `localTimeAsUtc` | no | `true` corrects sites that write local time as UTC |
+| `titlePrefix` | no | `cards`: text put in front of each title that does not already contain it, so "Off Script! Improv Comedy Show" becomes "Recycled Minds: Off Script! Improv Comedy Show" (Recycled Minds) |
 | `fixedVenue` | no | `true` uses the entry's venue for every event |
 | `excludeTitlePattern` | no | `jsonld`, `cards`, `civicplus`, `chambermaster`, and `sveltekit`: regex. Matching titles are skipped, such as meetings and closures |
 | `excludeDescriptionPattern` | no | `jsonld`: regex, matched against the description as plain text with WordPress shortcodes such as `[post_title]` removed. Matching events are skipped. Bluebird Social uses it to skip food trucks, whose descriptions are only shortcodes |
