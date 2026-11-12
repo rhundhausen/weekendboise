@@ -20,6 +20,7 @@ const el = {
   reset: $('reset'), cats: $('cats'), count: $('count'), rows: $('rows'), sourceNote: $('source-note'),
   pagerTop: $('pager-top'), pagerBottom: $('pager-bottom'), per: $('per'),
   meetup: $('meetup'), meetupCount: $('meetup-n'), meetupChip: $('meetup-chip'),
+  library: $('library'), libraryCount: $('library-n'), libraryChip: $('library-chip'),
   more: $('more'), moreCount: $('more-n'), controls: document.querySelector('.controls'),
 };
 
@@ -50,6 +51,10 @@ const shorten = (s) => PHRASES.reduce((text, [re, short]) => text.replace(re, sh
 // "Wassmuth Center for Human Rights, 777 South 8th Street, Boise, ID 83702" keeps only the name.
 // True when an event's link goes to meetup.com (or a subdomain of it).
 const isMeetup = (u) => /^https?:\/\/([^/?#]+\.)?meetup\.com([/?#:]|$)/i.test(u || '');
+// True for a library event: held at a library (the venue says so), or listed by a library's own
+// calendar (its source id says so, such as boise-public-library). layouts/home.html uses the same rule.
+const LIBRARY = /librar/i;
+const isLibrary = (venue, sources) => LIBRARY.test(venue || '') || sources.some((n) => LIBRARY.test(n));
 const dropAddress = (v) => (/^\D[^,]*,.*(\b\d{5}\b|,\s*(ID|Idaho)\b)/.test(v) ? v.split(',')[0] : v);
 
 // Cost filter values (kept in the URL as ?cost=) to tiers. An unknown cost matches only "Any cost".
@@ -58,7 +63,7 @@ const COST_TIERS = { free: 'free', 1: '$', 2: '$$', 3: '$$$' };
 const COST_LABELS = { free: 'Free', $: '$', $$: '$$', $$$: '$$$' };
 const NO_LINK = 'Information not available';
 
-const state = { q: '', cats: new Set(), city: '', size: '', cost: '', source: '', meetup: false, when: '', from: '', to: '', sort: 'date', dir: 1, page: 1, per: DEFAULT_PER };
+const state = { q: '', cats: new Set(), city: '', size: '', cost: '', source: '', meetup: false, library: false, when: '', from: '', to: '', sort: 'date', dir: 1, page: 1, per: DEFAULT_PER };
 let events = [];
 
 function prepare(e) {
@@ -68,6 +73,7 @@ function prepare(e) {
   if (ed < sd) ed = sd;
   const catLabel = cfg.categories[e.k] || e.k;
   const meetup = isMeetup(e.u);
+  const library = isLibrary(e.v, e.r || []);
   const dateText = sd === ed ? dayFmt.format(asDate(sd)) : `${dayFmt.format(asDate(sd))} to ${shortFmt.format(asDate(ed))}`;
   const timeText = allDay ? 'All day' : timeFmt.format(new Date(e.s));
   // Search reads everything a card shows (date, time, size, title, Meetup, city, venue, category,
@@ -84,7 +90,7 @@ function prepare(e) {
   const endParsed = !allDay && e.e ? Date.parse(e.e) : NaN;
   const end = allDay ? 0 : (endParsed > instant ? endParsed : instant + ASSUMED_LENGTH);
   return {
-    title: e.t, venue: e.v, shortTitle: shorten(e.t), shortVenue: shorten(dropAddress(e.v || '')), city: e.c, cat: e.k, catLabel, tags: e.g || [], size: e.z, cost: e.p || '', broken: Boolean(e.x), url: e.u, desc: e.d, src: e.r || [], meetup,
+    title: e.t, venue: e.v, shortTitle: shorten(e.t), shortVenue: shorten(dropAddress(e.v || '')), city: e.c, cat: e.k, catLabel, tags: e.g || [], size: e.z, cost: e.p || '', broken: Boolean(e.x), url: e.u, desc: e.d, src: e.r || [], meetup, library,
     sd, ed, allDay,
     instant, end,
     // Boise "YYYY-MM-DD HH:MM" of the start and the real end (blank without one), for Tonight
@@ -128,8 +134,13 @@ function presetRange(when) {
 // that only Meetup events match, so it finds them instead of nothing. render() decides the last.
 const searchesMeetup = (words) => words.some((forms) => forms.some((f) => f.length >= 4 && 'meetups'.startsWith(f)));
 const meetupsForced = (words) => state.source.startsWith('meetup-') || searchesMeetup(words);
+// Library events work the same way with "Include Libraries": opening one library's page from the
+// sources page, searching for "library" or "libraries" (or a start of at least 4 letters, such as
+// "libr"), or a search that only library events match.
+const searchesLibrary = (words) => words.some((forms) => forms.some((f) => f.length >= 4 && ('library'.startsWith(f) || 'libraries'.startsWith(f))));
+const librariesForced = (words) => LIBRARY.test(state.source) || searchesLibrary(words);
 
-// Every filter except the Meetup one, which render() applies.
+// Every filter except the Meetup and library ones, which render() applies.
 function matches(e, words, from, to, skipCats, now, skipCity = false) {
   if (e.ed < from) return false;
   if (to && e.sd > to) return false;
@@ -166,18 +177,32 @@ function render() {
   const from = rangeFrom && rangeFrom > today() ? rangeFrom : today();
 
   // Category counts reflect every other filter, so a chip shows what clicking it would give.
-  // The Meetup count is how many Meetup events checking the box would add, or did add.
+  // The Meetup and library counts are how many events checking that box would add, or did add.
   const now = Date.now();
   const found = events.filter((e) => matches(e, words, from, to, true, now));
   const inCats = (e) => !state.cats.size || state.cats.has(e.cat);
-  const meetups = found.filter((e) => e.meetup && inCats(e)).length;
-  let forced = meetupsForced(words);
-  if (!state.meetup && !forced && words.length && meetups && !found.some((e) => !e.meetup && inCats(e))) forced = true;
-  const include = state.meetup || forced;
+  let meetupForced = meetupsForced(words);
+  let libraryForced = librariesForced(words);
+  let include = state.meetup || meetupForced;
+  let includeLib = state.library || libraryForced;
+  // A search that nothing shown matches includes the hidden kind it does match: library events
+  // first, then Meetup events, then events that are both.
+  const anyShown = (m, l) => found.some((e) => inCats(e) && (m || !e.meetup) && (l || !e.library));
+  if (words.length && !anyShown(include, includeLib)) {
+    if (!includeLib && anyShown(include, true)) libraryForced = includeLib = true;
+    else if (!include && anyShown(true, includeLib)) meetupForced = include = true;
+    else if (anyShown(true, true)) {
+      if (!include) meetupForced = include = true;
+      if (!includeLib) libraryForced = includeLib = true;
+    }
+  }
+  const hiddenEvent = (e) => (e.meetup && !include) || (e.library && !includeLib);
+  const meetups = found.filter((e) => e.meetup && inCats(e) && (includeLib || !e.library)).length;
+  const libraries = found.filter((e) => e.library && inCats(e) && (include || !e.meetup)).length;
   const counts = {};
   const shown = [];
   for (const e of found) {
-    if (e.meetup && !include) continue;
+    if (hiddenEvent(e)) continue;
     counts[e.cat] = (counts[e.cat] || 0) + 1;
     if (inCats(e)) shown.push(e);
   }
@@ -193,16 +218,20 @@ function render() {
   // City counts, like the chips, reflect every other filter, so an option shows what picking it would give.
   const cityCounts = {};
   for (const e of events) {
-    if (e.meetup && !include) continue;
+    if (hiddenEvent(e)) continue;
     if (matches(e, words, from, to, false, now, true)) cityCounts[e.city] = (cityCounts[e.city] || 0) + 1;
   }
   renderCityCounts(cityCounts);
   el.meetup.checked = include;
-  el.meetup.disabled = forced;
+  el.meetup.disabled = meetupForced;
   el.meetupCount.textContent = numFmt.format(meetups);
   el.meetupChip.classList.toggle('empty', !meetups);
+  el.library.checked = includeLib;
+  el.library.disabled = libraryForced;
+  el.libraryCount.textContent = numFmt.format(libraries);
+  el.libraryChip.classList.toggle('empty', !libraries);
   // The phone's "More filters" button counts the filters set behind it.
-  const hidden = (state.from || state.to ? 1 : 0) + (state.size ? 1 : 0) + (state.cost ? 1 : 0) + state.cats.size + (state.meetup ? 1 : 0);
+  const hidden = (state.from || state.to ? 1 : 0) + (state.size ? 1 : 0) + (state.cost ? 1 : 0) + state.cats.size + (state.meetup ? 1 : 0) + (state.library ? 1 : 0);
   el.moreCount.textContent = hidden ? ` (${hidden})` : '';
   renderSourceNote();
   renderRows(slice);
@@ -470,6 +499,7 @@ function readUrl() {
   state.cost = ['free', '1', '2', '3'].includes(p.get('cost')) ? p.get('cost') : '';
   state.source = p.get('source') || '';
   state.meetup = p.get('meetup') === '1';
+  state.library = p.get('libraries') === '1';
   state.when = p.get('when') || '';
   state.from = p.get('from') || '';
   state.to = p.get('to') || '';
@@ -491,6 +521,7 @@ function writeUrl() {
   if (state.cost) p.set('cost', state.cost);
   if (state.source) p.set('source', state.source);
   if (state.meetup) p.set('meetup', '1');
+  if (state.library) p.set('libraries', '1');
   if (state.when === 'custom') {
     if (state.from) p.set('from', state.from);
     if (state.to) p.set('to', state.to);
@@ -505,7 +536,7 @@ function writeUrl() {
 }
 
 function resetAll() {
-  Object.assign(state, { q: '', cats: new Set(), city: '', size: '', cost: '', source: '', meetup: false, when: '', from: '', to: '', sort: 'date', dir: 1, page: 1 });
+  Object.assign(state, { q: '', cats: new Set(), city: '', size: '', cost: '', source: '', meetup: false, library: false, when: '', from: '', to: '', sort: 'date', dir: 1, page: 1 });
   syncControls();
   render();
 }
@@ -538,6 +569,7 @@ el.city.addEventListener('change', onFilter(() => { state.city = el.city.value; 
 el.size.addEventListener('change', onFilter(() => { state.size = el.size.value; }));
 el.cost.addEventListener('change', onFilter(() => { state.cost = el.cost.value; }));
 el.meetup.addEventListener('change', onFilter(() => { state.meetup = el.meetup.checked; }));
+el.library.addEventListener('change', onFilter(() => { state.library = el.library.checked; }));
 el.reset.addEventListener('click', resetAll);
 function setMoreOpen(open) {
   el.controls.classList.toggle('open', open);
@@ -621,7 +653,7 @@ fetch(cfg.events)
   .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
   .then((list) => {
     events = list.map(prepare);
-    // The header counts what the list shows with no filters set and Meetups included: events that
+    // The header counts what the list shows with no filters set and Meetups and libraries included: events that
     // aren't over yet. The build's count also has the ones that finished since the nightly run.
     const t = today();
     const now = Date.now();

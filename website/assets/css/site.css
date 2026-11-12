@@ -392,9 +392,9 @@ input:focus-visible, select:focus-visible, button:focus-visible {
 }
 .chip[aria-pressed="true"] .n { color: inherit; opacity: 0.85; }
 .chip.empty { opacity: 0.45; }
-/* The category chips sit in the same wrapping row as the Meetup toggle. */
+/* The category chips sit in the same wrapping row as the Meetup and library toggles. */
 .chip-group { display: contents; }
-/* The Meetup toggle: a chip with a checkbox instead of the colored dot. */
+/* The Meetup and library toggles: chips with a checkbox instead of the colored dot. */
 .chip.toggle::before { display: none; }
 .chip.toggle input { margin: 0; width: 13px; height: 13px; accent-color: var(--accent); cursor: pointer; }
 .chip.toggle:has(input:checked) {

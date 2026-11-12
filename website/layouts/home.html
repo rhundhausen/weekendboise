@@ -7,14 +7,20 @@
 {{- $catIds = $catIds | uniq }}
 {{- $cats := dict }}
 {{- range hugo.Data.schema.categories }}{{ if in $catIds .id }}{{ $cats = merge $cats (dict .id .label) }}{{ end }}{{ end }}
-{{- /* Chip counts as the page first shows them (Meetup events hidden), so the chips are drawn by
-     the build and app.js only updates them; drawing them later made the panel jump. */}}
+{{- /* Chip counts as the page first shows them (Meetup and library events hidden), so the chips
+     are drawn by the build and app.js only updates them; drawing them later made the panel jump.
+     A library event is held at a library (venue) or listed by a library's calendar (source id), the
+     same rule as isLibrary in app.js. Each toggle counts what checking it alone would add. */}}
 {{- $catCounts := dict }}
 {{- $meetupN := 0 }}
+{{- $libraryN := 0 }}
 {{- range hugo.Data.events }}
-  {{- if findRE `^https?://([^/?#]+\.)?meetup\.com([/?#:]|$)` (.url | default "") 1 }}
-    {{- $meetupN = add $meetupN 1 }}
-  {{- else }}{{ with .category }}
+  {{- $isMeetup := findRE `^https?://([^/?#]+\.)?meetup\.com([/?#:]|$)` (.url | default "") 1 }}
+  {{- $isLibrary := findRE `(?i)librar` (.venue | default "") 1 }}
+  {{- range .sources }}{{ if findRE `(?i)librar` .name 1 }}{{ $isLibrary = true }}{{ end }}{{ end }}
+  {{- if and $isMeetup (not $isLibrary) }}{{ $meetupN = add $meetupN 1 }}{{ end }}
+  {{- if and $isLibrary (not $isMeetup) }}{{ $libraryN = add $libraryN 1 }}{{ end }}
+  {{- if and (not $isMeetup) (not $isLibrary) }}{{ with .category }}
     {{- $catCounts = merge $catCounts (dict . (add (index $catCounts . | default 0) 1)) }}
   {{- end }}{{ end }}
 {{- end }}
@@ -175,8 +181,9 @@
       <button id="more" class="btn more-toggle" type="button" aria-expanded="false" aria-controls="from-field to-field size-field cost-field chips-row">More filters<span id="more-n"></span></button>
       <button id="reset" class="btn" type="button">Reset</button>
     </div>
-    {{- /* Category chips, then the Meetup toggle on the same row. Meetup events are hidden until it
-         is checked, because Meetup groups are only partly public. */}}
+    {{- /* Category chips, then the Meetup and library toggles on the same row. Meetup events are
+         hidden until that box is checked, because Meetup groups are only partly public; library
+         events, because there are so many of them. */}}
     <div class="chips more" id="chips-row">
       <div class="chip-group" id="cats" role="group" aria-label="Categories">
         {{- range $id, $label := $cats }}
@@ -185,6 +192,7 @@
         {{- end }}
       </div>
       <label class="chip toggle" id="meetup-chip"><input type="checkbox" id="meetup"><span>Include Meetups</span><span class="n" id="meetup-n">{{ $meetupN | lang.FormatNumber 0 }}</span></label>
+      <label class="chip toggle" id="library-chip"><input type="checkbox" id="library"><span>Include Libraries</span><span class="n" id="library-n">{{ $libraryN | lang.FormatNumber 0 }}</span></label>
     </div>
     <p class="source-note" id="source-note" hidden></p>
   </section>
