@@ -17,7 +17,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Boise/83703/5151420",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -27,8 +27,8 @@
     "start": "2026-11-13T09:00:00-07:00",
     "end": "2026-11-14T15:00:00-07:00",
     "allDay": false,
-    "venue": "Boise, ID 83709",
-    "venueKey": "boise-id-83709",
+    "venue": "9528 W. Mossywood Dr.  Boise, ID 83709",
+    "venueKey": "9528-w-mossywood-dr-boise-id-83709",
     "city": "Boise",
     "category": "auctions-estate-sales",
     "tags": [],
@@ -39,7 +39,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Boise/83709/5154357",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -61,7 +61,7 @@
       {
         "name": "additional",
         "url": "https://estatesales.org/estate-sales/id/meridian/83646/meridian-outdoor-garageestate-sale-we-2473325",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -71,8 +71,8 @@
     "start": "2026-11-13T09:00:00-07:00",
     "end": "2026-11-13T14:00:00-07:00",
     "allDay": false,
-    "venue": "Meridian, ID 83646",
-    "venueKey": "meridian-id-83646",
+    "venue": "5997 N Mitchum Ave Meridian, ID 83646",
+    "venueKey": "5997-n-mitchum-ave-meridian-id-83646",
     "city": "Meridian",
     "category": "auctions-estate-sales",
     "tags": [],
@@ -83,7 +83,29 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Meridian/83646/5156700",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
+      }
+    ]
+  },
+  {
+    "id": "2693d488a587",
+    "title": "Sale of the Season!!!",
+    "start": "2026-11-13T09:00:00-07:00",
+    "end": "2026-11-13T09:00:00-07:00",
+    "allDay": false,
+    "venue": "Meridian, ID 83642",
+    "venueKey": "meridian-id-83642",
+    "city": "Meridian",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "S",
+    "url": "https://estatesales.org/estate-sales/id/meridian-/83642/sale-of-the-season-2473536",
+    "description": "In-person estate sale",
+    "sources": [
+      {
+        "name": "additional",
+        "url": "https://estatesales.org/estate-sales/id/meridian-/83642/sale-of-the-season-2473536",
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -105,7 +127,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Boise/83705/5138340",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -127,7 +149,7 @@
       {
         "name": "additional",
         "url": "https://estatesales.org/estate-sales/id/boise/83705/nice-w-hillcrest-view-dr-2470866",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -149,7 +171,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Meridian/83646/5157111",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -171,7 +193,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Eagle/83616/5157723",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -193,7 +215,7 @@
       {
         "name": "additional",
         "url": "https://estatesales.org/estate-sales/id/eagle/83616/eagle-fine-art-furnishings-estate-2473363",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   },
@@ -215,7 +237,7 @@
       {
         "name": "additional",
         "url": "https://estatesales.org/estate-sales/id/kuna/83634/a-little-fringe-a-lot-2472583",
-        "fetchedAt": "2026-11-12T06:39:00Z"
+        "fetchedAt": "2026-11-13T06:39:41Z"
       }
     ]
   }
