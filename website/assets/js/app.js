@@ -24,6 +24,9 @@ const el = {
   more: $('more'), moreCount: $('more-n'), controls: document.querySelector('.controls'),
 };
 
+// Start with the cursor in the search box. Skipped on touch screens, where focusing would pop up the keyboard.
+if (matchMedia('(pointer: fine)').matches) el.q.focus({ preventScroll: true });
+
 // Dates are handled as YYYY-MM-DD strings in Boise time; noon UTC keeps day math clear of DST edges.
 const boiseDay = (date) => ymdFmt.format(date);
 const asDate = (ymd) => new Date(`${ymd}T12:00:00Z`);
