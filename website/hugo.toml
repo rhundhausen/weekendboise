@@ -1,7 +1,10 @@
 baseURL = '/'
 locale = 'en-us'
 title = 'WeekendBoise'
-disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
+disableKinds = ['taxonomy', 'term', 'rss']
+# robots.txt (the engine's layouts/robots.txt) names the sitemap. The engine's build.sh sets the
+# base URL from city.json's domain, so the sitemap's links are absolute.
+enableRobotsTXT = true
 
 # The site is built with the shared engine (github.com/rhundhausen/weekend) as its Hugo theme; see
 # its website/build.sh. Files here at the same path as the engine's replace them: static/ holds this
