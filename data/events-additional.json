@@ -1,27 +1,5 @@
 [
   {
-    "id": "32b8446e6f64",
-    "title": "Garden City estate sale",
-    "start": "2026-11-12T08:30:00-07:00",
-    "end": "2026-11-13T14:00:00-07:00",
-    "allDay": false,
-    "venue": "3760 N. Gramarcy Lane Boise, ID 83703",
-    "venueKey": "3760-n-gramarcy-lane-boise-id-83703",
-    "city": "Boise",
-    "category": "auctions-estate-sales",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.estatesales.net/ID/Boise/83703/5151420",
-    "description": "Estate Sale",
-    "sources": [
-      {
-        "name": "additional",
-        "url": "https://www.estatesales.net/ID/Boise/83703/5151420",
-        "fetchedAt": "2026-11-13T06:39:41Z"
-      }
-    ]
-  },
-  {
     "id": "9d04e85db2e3",
     "title": "**ENTIRE HOUSE MOVING SALE \u2013 EVERYTHING $1 EACH!**",
     "start": "2026-11-13T09:00:00-07:00",
@@ -39,73 +17,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Boise/83709/5154357",
-        "fetchedAt": "2026-11-13T06:39:41Z"
-      }
-    ]
-  },
-  {
-    "id": "6404e9713a04",
-    "title": "Meridian Outdoor Garage/Estate Sale. We brought the estate home",
-    "start": "2026-11-13T09:00:00-07:00",
-    "end": "2026-11-13T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Meridian, ID 83646",
-    "venueKey": "meridian-id-83646",
-    "city": "Meridian",
-    "category": "auctions-estate-sales",
-    "tags": [],
-    "size": "S",
-    "url": "https://estatesales.org/estate-sales/id/meridian/83646/meridian-outdoor-garageestate-sale-we-2473325",
-    "description": "In-person estate sale",
-    "sources": [
-      {
-        "name": "additional",
-        "url": "https://estatesales.org/estate-sales/id/meridian/83646/meridian-outdoor-garageestate-sale-we-2473325",
-        "fetchedAt": "2026-11-13T06:39:41Z"
-      }
-    ]
-  },
-  {
-    "id": "bfcdca194793",
-    "title": "Outside Garage/Estate Sale Brought the Estate Sale Home",
-    "start": "2026-11-13T09:00:00-07:00",
-    "end": "2026-11-13T14:00:00-07:00",
-    "allDay": false,
-    "venue": "5997 N Mitchum Ave Meridian, ID 83646",
-    "venueKey": "5997-n-mitchum-ave-meridian-id-83646",
-    "city": "Meridian",
-    "category": "auctions-estate-sales",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.estatesales.net/ID/Meridian/83646/5156700",
-    "description": "Moved Offsite To Store",
-    "sources": [
-      {
-        "name": "additional",
-        "url": "https://www.estatesales.net/ID/Meridian/83646/5156700",
-        "fetchedAt": "2026-11-13T06:39:41Z"
-      }
-    ]
-  },
-  {
-    "id": "2693d488a587",
-    "title": "Sale of the Season!!!",
-    "start": "2026-11-13T09:00:00-07:00",
-    "end": "2026-11-13T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Meridian, ID 83642",
-    "venueKey": "meridian-id-83642",
-    "city": "Meridian",
-    "category": "auctions-estate-sales",
-    "tags": [],
-    "size": "S",
-    "url": "https://estatesales.org/estate-sales/id/meridian-/83642/sale-of-the-season-2473536",
-    "description": "In-person estate sale",
-    "sources": [
-      {
-        "name": "additional",
-        "url": "https://estatesales.org/estate-sales/id/meridian-/83642/sale-of-the-season-2473536",
-        "fetchedAt": "2026-11-13T06:39:41Z"
+        "fetchedAt": "2026-11-14T06:36:39Z"
       }
     ]
   },
@@ -127,29 +39,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Boise/83705/5138340",
-        "fetchedAt": "2026-11-13T06:39:41Z"
-      }
-    ]
-  },
-  {
-    "id": "1d1e4f6bda8d",
-    "title": "Nice W Hillcrest View Dr 2-Day Estate Sale",
-    "start": "2026-11-19T09:00:00-07:00",
-    "end": "2026-11-19T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise, ID 83705",
-    "venueKey": "boise-id-83705",
-    "city": "Boise",
-    "category": "auctions-estate-sales",
-    "tags": [],
-    "size": "S",
-    "url": "https://estatesales.org/estate-sales/id/boise/83705/nice-w-hillcrest-view-dr-2470866",
-    "description": "In-person estate sale",
-    "sources": [
-      {
-        "name": "additional",
-        "url": "https://estatesales.org/estate-sales/id/boise/83705/nice-w-hillcrest-view-dr-2470866",
-        "fetchedAt": "2026-11-13T06:39:41Z"
+        "fetchedAt": "2026-11-14T06:36:39Z"
       }
     ]
   },
@@ -171,7 +61,7 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Meridian/83646/5157111",
-        "fetchedAt": "2026-11-13T06:39:41Z"
+        "fetchedAt": "2026-11-14T06:36:39Z"
       }
     ]
   },
@@ -193,51 +83,29 @@
       {
         "name": "additional",
         "url": "https://www.estatesales.net/ID/Eagle/83616/5157723",
-        "fetchedAt": "2026-11-13T06:39:41Z"
+        "fetchedAt": "2026-11-14T06:36:39Z"
       }
     ]
   },
   {
-    "id": "85679a0c1b4d",
-    "title": "Eagle Fine Art & Furnishings Estate Sale | Nov. 20\u201321",
-    "start": "2026-11-20T09:00:00-07:00",
-    "end": "2026-11-20T09:00:00-07:00",
+    "id": "36a78c0ac6e1",
+    "title": "Commercial Warehouse & Business Liquidation Estate Sale",
+    "start": "2026-11-27T09:00:00-07:00",
+    "end": "2026-11-29T14:00:00-07:00",
     "allDay": false,
-    "venue": "Eagle, ID 83616",
-    "venueKey": "eagle-id-83616",
-    "city": "Eagle",
+    "venue": "Boise, ID 83705",
+    "venueKey": "boise-id-83705",
+    "city": "Boise",
     "category": "auctions-estate-sales",
     "tags": [],
     "size": "S",
-    "url": "https://estatesales.org/estate-sales/id/eagle/83616/eagle-fine-art-furnishings-estate-2473363",
-    "description": "In-person estate sale",
+    "url": "https://www.estatesales.net/ID/Boise/83705/5159835",
+    "description": "Business Closing",
     "sources": [
       {
         "name": "additional",
-        "url": "https://estatesales.org/estate-sales/id/eagle/83616/eagle-fine-art-furnishings-estate-2473363",
-        "fetchedAt": "2026-11-13T06:39:41Z"
-      }
-    ]
-  },
-  {
-    "id": "8fec24629b7f",
-    "title": "A Little Fringe, A LOT of Farmhouse! | 4 Days of Incredible Finds in Kuna",
-    "start": "2026-12-03T09:00:00-07:00",
-    "end": "2026-12-03T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Kuna, ID 83634",
-    "venueKey": "kuna-id-83634",
-    "city": "Kuna",
-    "category": "auctions-estate-sales",
-    "tags": [],
-    "size": "S",
-    "url": "https://estatesales.org/estate-sales/id/kuna/83634/a-little-fringe-a-lot-2472583",
-    "description": "In-person estate sale",
-    "sources": [
-      {
-        "name": "additional",
-        "url": "https://estatesales.org/estate-sales/id/kuna/83634/a-little-fringe-a-lot-2472583",
-        "fetchedAt": "2026-11-13T06:39:41Z"
+        "url": "https://www.estatesales.net/ID/Boise/83705/5159835",
+        "fetchedAt": "2026-11-14T06:36:39Z"
       }
     ]
   }
