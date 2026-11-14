@@ -1,6 +1,6 @@
 # WeekendBoise
 
-WeekendBoise is an automated reader of public event calendars in Idaho's Treasure Valley (Boise, Meridian, Nampa, Eagle, Caldwell, Garden City, Kuna, Star and nearby). It collects upcoming events into one non-commercial calendar. The public site is not live yet.
+WeekendBoise is an automated reader of public event calendars in Idaho's Treasure Valley (Boise, Meridian, Nampa, Eagle, Caldwell, Garden City, Kuna, Star and nearby). It collects upcoming events into one non-commercial calendar, published at [weekendboise.com](https://weekendboise.com).
 
 This page is for site owners who see the WeekendBoise bot in their logs.
 
