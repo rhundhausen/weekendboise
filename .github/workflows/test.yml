@@ -1,4 +1,6 @@
-# Runs the Pester tests on every push and pull request, or by hand from the Actions tab.
+# Checks this city's files (city.json, sources.json, stored events) and builds the site, with the
+# shared engine's reusable workflow (github.com/rhundhausen/weekend, .github/workflows/city-test.yml),
+# on every push and pull request, or by hand. The engine's own tests run in its repo.
 
 name: test
 
@@ -10,42 +12,6 @@ on:
 permissions:
   contents: read
 
-defaults:
-  run:
-    shell: pwsh
-
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    steps:
-      - name: Check out
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 1
-
-      # The runner image ships Pester 5.x. The tests are written for and verified on 6.0.0.
-      - name: Install Pester 6.0.0
-        run: |
-          Write-Host "PowerShell $($PSVersionTable.PSVersion)"
-          if (-not (Get-Module Pester -ListAvailable | Where-Object Version -eq '6.0.0')) {
-            Install-Module Pester -RequiredVersion 6.0.0 -Scope CurrentUser -Force -SkipPublisherCheck
-          }
-
-      - name: Run Pester
-        run: |
-          Import-Module Pester -RequiredVersion 6.0.0
-          Invoke-Pester -Path ./ingestion/tests -CI
-
-      # The site's Worker (website/worker): the visitor log endpoint and its daily purge.
-      - name: Run Worker tests
-        working-directory: website/worker
-        run: node --test
-
-      - name: Upload test results
-        if: always()
-        uses: actions/upload-artifact@v6
-        with:
-          name: testResults
-          path: testResults.xml
-          if-no-files-found: ignore
+  check:
+    uses: rhundhausen/weekend/.github/workflows/city-test.yml@main

@@ -49,14 +49,14 @@ robots.txt allows the iCal feeds and event pages (it disallows Meetup's atom, rs
 
 ### sales
 
-The Auctions and Estate Sales category (`auctions-estate-sales`). `salesMode` picks the reader: `ics` (an Events Calendar iCal export, Downs Auction), `corbett` (the upcoming auctions on corbettauctions.com's home page), `onthewater` (the UPCOMING SALES lines on onthewaterestatesales.com), or `file` (a JSON array of events in the site's event format, read from the repository file named by `path`; nothing is fetched). One page a night per web source, after robots.txt and its Crawl-delay; no link is followed, so Corbett's HiBid lots are never fetched. Every mode applies the same rules from `lib/Sales.ps1`:
+The Auctions and Estate Sales category (`auctions-estate-sales`). `salesMode` picks the reader: `ics` (an Events Calendar iCal export, Downs Auction), `corbett` (the upcoming auctions on corbettauctions.com's home page), `onthewater` (the UPCOMING SALES lines on onthewaterestatesales.com), `estatesales-net` (EstateSales.NET city pages), or `estatesales-org` (EstateSales.org city pages). One page a night per web source, or per entry in `pages` for the two estate sale sites, after robots.txt and its Crawl-delay, at least 1 second apart; no link is followed, so Corbett's HiBid lots and the estate sale sites' sale pages are never fetched. Every mode applies the same rules from `lib/Sales.ps1`:
 
 - **In-person rule:** an event whose title or text says "online" (any case), or that has no street address or place, is dropped.
 - **No real estate:** auctions of a house or land are dropped, by the site's own marker (Downs' Real Estate category, Corbett's Real Estate card type) or "real estate" in the title. Only live auctions of goods and estate sales stay, unless the entry sets `keepRealEstate` (below).
-- **City filter:** only the cities the site already covers are kept (`Resolve-TvCity`, so Mountain Home stays and the mountain towns become Valley County).
+- **City filter:** only the cities the site already covers are kept (`Resolve-WkCity`, so Mountain Home stays and the mountain towns become Valley County).
 - **Minimal data:** only title, company (as the venue), city, start and end, and the link to the event on the company's site. No address, photos, description, contact details, or price. The link is the company's own event page, whose slug can contain the street. A real estate auction kept with `keepRealEstate` is the exception: its title is the property's street address, which is where the auction is held.
 
-`file` mode is for a site that lets us take its listings: EstateSales.NET, since 2026-11-11, from `data/events-additional.json`, which the `ingest-additional` workflow (`additional/ingest.py`) writes before the nightly ingest. Only entries whose `url` is on the source's own site (its `url` host, with or without `www.`) are read: the file also gets listings from sites that have not given permission, and those are skipped. Each entry needs `title` and `start`; `end`, `allDay`, `venue`, `city`, `url`, and `description` are read when present. The town comes from "Town, ID" in `venue`, else `city`. Markdown emphasis is removed from titles, and so is any part of a title with a price ("Moving Sale - Everything $1 Each!" becomes "Moving Sale"). The description is used only for the in-person rule.
+The two estate sale sites gave permission (EstateSales.NET on 2026-11-11, EstateSales.org on 2026-11-09, per the site owner) and are read from their city pages, listed in each entry's `pages`. `estatesales-net` reads the sales in each page's server-rendered state, from the first day's start to the last day's end, and keeps estate sales, moving sales, and business closings. `estatesales-org` reads each sale card's one time: "Sale starts" becomes a timed start, and "Sale ends" (a sale already open) an all-day event on its last day. Both drop online auctions and read a sale near several cities once. Markdown emphasis is removed from titles, and so is any part of a title with a price ("Moving Sale - Everything $1 Each!" becomes "Moving Sale"). The engine's `adapters/sales.ps1` has the details.
 
 `keepRealEstate: true` keeps real estate auctions for one entry. Use it only for a company whose real estate auctions are live and held at the property: Downs Auction, since 2026-11-10 (its event pages say "sold at live Absolute Auction", with the property as the location).
 
@@ -284,7 +284,7 @@ An entry is valid with nothing but a displayName:
 { "displayName": "Egyptian Theatre" }
 ```
 
-Add it to `sources`, keep the list sorted by `displayName`, and run `./ingestion/scripts/Test-Sources.ps1`. Fill in the rest as you learn it.
+Add it to `sources`, keep the list sorted by `displayName`, and run `../weekend/ingestion/scripts/Test-Sources.ps1` (the engine checked out next to this repo). Fill in the rest as you learn it.
 
 ### Status lifecycle
 

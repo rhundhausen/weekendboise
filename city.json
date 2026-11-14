@@ -1,0 +1,59 @@
+{
+  "_comment": "WeekendBoise's facts for the shared engine (github.com/rhundhausen/weekend). Format: the engine's ingestion/schema/city.schema.json. Valley County is one location for all its towns (cityAliases); New Meadows (Adams County) and Riggins (Idaho County) are outside Valley County but are grouped with it on purpose. 83714 is mostly Garden City.",
+  "siteName": "WeekendBoise",
+  "domain": "weekendboise.com",
+  "repo": "rhundhausen/weekendboise",
+  "cityName": "Boise",
+  "timeZone": "America/Boise",
+  "state": { "code": "ID", "name": "Idaho" },
+  "cities": ["Boise", "Meridian", "Nampa", "Caldwell", "Eagle", "Garden City", "Kuna", "Star", "Emmett", "Marsing", "Middleton", "Mountain Home", "Payette", "Weiser", "Valley County"],
+  "cityAliases": {
+    "McCall": "Valley County",
+    "Cascade": "Valley County",
+    "Donnelly": "Valley County",
+    "Tamarack": "Valley County",
+    "Lake Fork": "Valley County",
+    "Yellow Pine": "Valley County",
+    "New Meadows": "Valley County",
+    "Riggins": "Valley County"
+  },
+  "ambiguousCities": ["Star", "Payette", "Emmett", "Middleton", "Weiser"],
+  "zipCodes": {
+    "83605": "Caldwell", "83607": "Caldwell",
+    "83616": "Eagle",
+    "83617": "Emmett",
+    "83634": "Kuna",
+    "83639": "Marsing",
+    "83642": "Meridian", "83646": "Meridian", "83680": "Meridian",
+    "83644": "Middleton",
+    "83647": "Mountain Home", "83648": "Mountain Home",
+    "83651": "Nampa", "83653": "Nampa", "83686": "Nampa", "83687": "Nampa",
+    "83661": "Payette",
+    "83669": "Star",
+    "83672": "Weiser",
+    "83714": "Garden City",
+    "83638": "Valley County", "83611": "Valley County", "83615": "Valley County", "83635": "Valley County", "83677": "Valley County",
+    "83654": "Valley County", "83549": "Valley County"
+  },
+  "zipRanges": [
+    { "from": "83701", "to": "83799", "city": "Boise" }
+  ],
+  "titleAbbreviations": {
+    "bsu": "boise state university",
+    "nnu": "northwest nazarene university"
+  },
+  "searchAliases": {
+    "bsu": ["boise state"],
+    "nnu": ["northwest nazarene"],
+    "cofi": ["college of idaho"]
+  },
+  "cityListLast": ["Valley County"],
+  "coordinates": { "lat": 43.615, "lon": -116.202 },
+  "description": "Upcoming events in Boise, Meridian, Nampa, and the rest of the Treasure Valley.",
+  "logDatabase": "weekendboise-log",
+  "about": {
+    "intro": "WeekendBoise lists upcoming events in Boise, Meridian, Nampa, Caldwell, Eagle, Garden City, Kuna, Star, Emmett, and the towns around them, out to Mountain Home, Payette, Weiser, and even Valley County. Concerts, theater, games, markets, festivals, library programs, classes, races, auctions and estate sales: if a public calendar lists it, it shows up here.",
+    "story": "WeekendBoise began as a personal project by Richard Hundhausen, with a simple goal: to know what was happening around Boise without hunting through dozens of separate websites. One calendar led to another, then a few dozen more, and a small side project grew into what you see today: hundreds of sources and thousands of events, refreshed every night.",
+    "cityNote": "<em>Valley County</em> groups McCall, Cascade, Donnelly, Tamarack, and the other mountain towns as one place."
+  }
+}

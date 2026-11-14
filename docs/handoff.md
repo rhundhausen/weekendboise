@@ -1,5 +1,7 @@
 # Handoff
 
+**2026-11-14: the code moved to the shared engine** ([rhundhausen/weekend](https://github.com/rhundhausen/weekend)). Scripts, schemas, tests, the site's layouts, and the workflows' steps now live there, and paths below such as `ingestion/scripts/` mean the engine's. `Tv` names became `Wk`, `Test-BoiseHour.ps1` became `Test-LocalHour.ps1`, and the Python `additional/` ingester and its workflow are gone: EstateSales.NET and EstateSales.org are read by the engine's `sales` modes. This file is history; the engine's docs and `docs/plan.md` are current.
+
 ## 2026-11-06: ingest split into ingest and refine
 
 The nightly run is now two workflows, refine starting when ingest finishes. Where this conflicts with the sections below, this section wins; [development.md](development.md#nightly-workflows) has the details.

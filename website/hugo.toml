@@ -3,7 +3,9 @@ locale = 'en-us'
 title = 'WeekendBoise'
 disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
 
-# Events come from the repo-level data/ folder, so ingestion never writes into this tree.
+# The site is built with the shared engine (github.com/rhundhausen/weekend) as its Hugo theme; see
+# its website/build.sh. Files here at the same path as the engine's replace them: static/ holds this
+# city's icons and web manifest, and assets/css/skyline.css (when present) its skyline.
 [module]
   [[module.mounts]]
     source = 'content'
@@ -17,10 +19,10 @@ disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
   [[module.mounts]]
     source = 'data'
     target = 'data'
-  # Favicons and the web manifest, served as-is from the site root.
   [[module.mounts]]
     source = 'static'
     target = 'static'
+  # Events come from the repo-level data/ folder, so ingestion never writes into this tree.
   [[module.mounts]]
     source = '../data'
     target = 'data'
@@ -31,3 +33,7 @@ disableKinds = ['taxonomy', 'term', 'rss', 'sitemap']
   [[module.mounts]]
     source = '../ingestion/sources.json'
     target = 'data/sources.json'
+  # The city's facts: name, time zone, coordinates, About page text.
+  [[module.mounts]]
+    source = '../city.json'
+    target = 'data/city.json'

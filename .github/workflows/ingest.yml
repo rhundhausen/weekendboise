@@ -1,13 +1,13 @@
-# Nightly ingest, stage 1 of 2. Fetches every running source into data/raw-events.json and commits
-# that file alone to the branch it ran on. Runs at midnight Boise time, or by hand with an optional
-# source input. When it finishes, whether it succeeded or not, the refine workflow starts and turns
-# the raw file into what the site reads.
+# Nightly ingest, stage 1 of 2: fetches every running source into data/raw-events.json and commits
+# it. The work is the shared engine's reusable workflow (github.com/rhundhausen/weekend,
+# .github/workflows/ingest.yml); this file holds only the schedule and the secrets. When it
+# finishes, whether it succeeded or not, refine starts.
 
 name: ingest
 
 on:
   # Cron is UTC and Boise is UTC-6 in summer and UTC-7 in winter, so both hours are scheduled
-  # and the when job skips the one that isn't midnight in Boise.
+  # and the engine skips the one that isn't midnight in the city's time zone (city.json).
   schedule:
     - cron: '0 6 * * *'
     - cron: '0 7 * * *'
@@ -21,140 +21,17 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 # Shared with refine, so the two never run at once. A manual refine waits for a running ingest.
 concurrency:
   group: data
   cancel-in-progress: false
 
-defaults:
-  run:
-    shell: pwsh
-
 jobs:
-  when:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    outputs:
-      run: ${{ steps.check.outputs.run }}
-      at: ${{ steps.check.outputs.at }}
-    steps:
-      - name: Check out
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 1
-          sparse-checkout: ingestion/scripts/Test-BoiseHour.ps1
-          sparse-checkout-cone-mode: false
-
-      # A manual run always goes ahead. A scheduled run goes ahead only for the cron line that is
-      # midnight in Boise, and passes the scheduled time on as asOf so the site reads 12:00 AM
-      # however late the run started.
-      - name: Check Boise time
-        id: check
-        env:
-          EVENT: ${{ github.event_name }}
-          SCHEDULE: ${{ github.event.schedule }}
-        run: ./ingestion/scripts/Test-BoiseHour.ps1 -Hour 0
-
-  ingest:
-    needs: when
-    if: needs.when.outputs.run == 'true'
-    runs-on: ubuntu-latest
-    timeout-minutes: 60
-    steps:
-      - name: Check out
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 1
-
-      - name: Validate sources
-        run: ./ingestion/scripts/Test-Sources.ps1
-
-      # An unset repository secret expands to an empty string, so the adapters see it as unset.
-      # The source input goes through env, not inline, so its text is never parsed as script.
-      - name: Ingest
-        env:
-          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
-          GOOGLE_CALENDAR_API_KEY: ${{ secrets.GOOGLE_CALENDAR_API_KEY }}
-          BANDSINTOWN_APP_ID: ${{ secrets.BANDSINTOWN_APP_ID }}
-          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
-          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
-          SONGKICK_API_KEY: ${{ secrets.SONGKICK_API_KEY }}
-          SOURCE: ${{ inputs.source }}
-          SCHEDULED_AT: ${{ needs.when.outputs.at }}
-        run: |
-          $options = @{}
-          $source = "$env:SOURCE".Trim()
-          if ($source) { $options.Source = $source }
-          if ($env:SCHEDULED_AT) { $options.AsOf = $env:SCHEDULED_AT }
-          ./ingestion/scripts/Invoke-Ingest.ps1 @options
-
-      - name: Upload raw output
-        if: always()
-        uses: actions/upload-artifact@v6
-        with:
-          name: out
-          path: out
-          if-no-files-found: ignore
-
-      # [skip ci], because the site doesn't read the raw file. Refine starts after this run and its
-      # commit deploys.
-      - name: Commit raw data
-        run: |
-          ./ingestion/scripts/Publish-Data.ps1 -Path data/raw-events.json -Message 'data: raw ingest' -SkipDeploy
-
-  # The summary email, in its own job because GitHub serves a job's log only once that job has
-  # finished, and the email attaches the ingest job's log. Runs whatever ingest's outcome, so a
-  # failed run is emailed too.
-  report:
-    needs: [when, ingest]
-    if: always() && needs.when.outputs.run == 'true'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      contents: read
-      actions: read
-    steps:
-      - name: Check out
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 1
-
-      - name: Download raw output
-        continue-on-error: true
-        uses: actions/download-artifact@v5
-        with:
-          name: out
-          path: out
-
-      # Never blocks the email: without logs, the email says so.
-      - name: Save the job logs
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ github.token }}
-          RUN_ID: ${{ github.run_id }}
-        run: ./ingestion/scripts/Save-RunLogs.ps1
-
-      # The address is a secret because the repo is public.
-      - name: Email the report
-        if: always()
-        env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          REPORT_EMAIL: ${{ secrets.REPORT_EMAIL }}
-          JOB_STATUS: ${{ needs.ingest.result }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-          EVENT: ${{ github.event_name }}
-          SOURCE: ${{ inputs.source }}
-        run: ./ingestion/scripts/Send-Report.ps1 -Kind ingest
-
-      # The scheduled run at midnight Sunday, Boise time, also emails the weekly reminder to run
-      # the local sources (sites that turn away GitHub's servers) from home. Other runs skip it.
-      - name: Email the weekly local ingest reminder
-        if: always()
-        env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          REPORT_EMAIL: ${{ secrets.REPORT_EMAIL }}
-          SCHEDULED_AT: ${{ needs.when.outputs.at }}
-          EVENT: ${{ github.event_name }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-        run: ./ingestion/scripts/Send-LocalReminder.ps1
+  nightly:
+    uses: rhundhausen/weekend/.github/workflows/ingest.yml@main
+    with:
+      source: ${{ inputs.source || '' }}
+      hour: 0
+    secrets: inherit

@@ -1,8 +1,10 @@
 {
   "name": "weekendboise",
   "compatibility_date": "2026-11-05",
+  // Builds with the shared engine (github.com/rhundhausen/weekend, its main branch) as the Hugo
+  // theme. Its build.sh also copies the engine's Worker into worker/, which "main" points at.
   "build": {
-    "command": "chmod +x build.sh && ./build.sh"
+    "command": "rm -rf ../.engine && git clone --depth 1 https://github.com/rhundhausen/weekend ../.engine && bash ../.engine/website/build.sh"
   },
   // The Worker handles only /api/* (the visitor log); every other request is a static file.
   "main": "worker/index.js",
