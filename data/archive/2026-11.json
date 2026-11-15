@@ -45,6 +45,28 @@
     ]
   },
   {
+    "id": "324ed84b45b8",
+    "title": "Cupcake Wars",
+    "start": "2026-11-02",
+    "end": "2026-11-14",
+    "allDay": true,
+    "venue": "Emmett Public Library",
+    "venueKey": "emmett-public-library",
+    "city": "Emmett",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://business.emmettidaho.com/events/details/cupcake-wars-emmett-public-library-17178",
+    "description": "Emmett Public Library Fall Fundraiser Junior Bake Off November 7, Adult Bake Off November 14",
+    "sources": [
+      {
+        "name": "gem-county-chamber",
+        "url": "https://business.emmettidaho.com/events/details/cupcake-wars-emmett-public-library-17178",
+        "fetchedAt": "2026-11-10T05:02:04Z"
+      }
+    ]
+  },
+  {
     "id": "d5a7db1faff5",
     "title": "Idaho Family Reading Week",
     "start": "2026-11-02",
@@ -19906,6 +19928,54 @@
     "description": "Petty Theft, a tribute to Tom Petty, plays Revolution Concert House on Friday, November 13. Doors at 7 PM, show at 8 PM."
   },
   {
+    "id": "235c097488a2",
+    "title": "Free 4×6 Santa Photo | Cabela’s Boise",
+    "start": "2026-11-14",
+    "allDay": true,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-14/",
+    "description": "Choose your free photo appointment with Santa Appointments are available 1 week from the current day. All new appointments are released at 12:01 AM for the next available day. If all slots show UNAVAILABLE this means all bookings have been reserved for those dates and times. Please try again late...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-14/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "26eff79b6605",
+    "title": "Hoe Down Fundraiser",
+    "start": "2026-11-14",
+    "allDay": true,
+    "venue": "Cascade",
+    "venueKey": "cascade",
+    "city": "Valley County",
+    "category": "community-civic",
+    "tags": [
+      "fundraiser"
+    ],
+    "size": "S",
+    "url": "https://cascadechamber.com/events/",
+    "sources": [
+      {
+        "name": "cascade-chamber",
+        "url": "https://cascadechamber.com/events/",
+        "fetchedAt": "2026-11-15T07:04:15Z"
+      }
+    ]
+  },
+  {
     "id": "14406dfe7d12",
     "title": "Veterans Breakfast",
     "start": "2026-11-14T08:00:00-07:00",
@@ -21904,6 +21974,31 @@
     ]
   },
   {
+    "id": "9ca9045edc26",
+    "title": "The Digital Loom: Intersecting Realities",
+    "start": "2026-11-14T14:00:00-07:00",
+    "end": "2026-11-14T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Centre",
+    "venueKey": "boise-centre",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [
+      "kids"
+    ],
+    "size": "L",
+    "costTier": "$$$",
+    "url": "https://loom.opulx.io",
+    "description": "Saturday, November 14, 2026, Boise Centre, Junior Ballroom. Free afternoon 2:00–4:30 PM, no ticket: The Loom Youth Prize exhibition, art by Idaho kids and teens hung beside international artists, awards on stage at 4:00 PM. Evening: Idaho's first phygital art and fashion showcase, an augmented-re...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://loom.opulx.io",
+        "fetchedAt": "2026-11-15T03:54:59Z"
+      }
+    ]
+  },
+  {
     "id": "b3eee5bd47a9",
     "title": "Saturday Board Games at Flying M Coffee Garage",
     "start": "2026-11-14T14:00:00-07:00",
@@ -22507,6 +22602,29 @@
     "costTier": "$$"
   },
   {
+    "id": "31bd585c5396",
+    "title": "Advanced Country Swing Lesson",
+    "start": "2026-11-14T19:00:00-07:00",
+    "end": "2026-11-14T23:59:00-07:00",
+    "allDay": false,
+    "venue": "The Farm",
+    "venueKey": "the-farm",
+    "city": "Garden City",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317139624/",
+    "description": "NEW CLASS COMING! Advanced Country Swing with Dirt Road Dancing every Saturday 7:30-9pm in studio three! ! Doors open 7pm! Class begins 7:30pm! Social dancing on main floor 9-Midnight!com](http://thefarmboise.com/?fbclid=IwZXh0bgNhZW0CMTAAAR3-lFF3UMQMJolojSzkhornphHZ1r4heEYS95w-ISwO2ek9D3zyZMketu...",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317139624/",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
     "id": "46ced101ce39",
     "title": "EpicUnion Band's DANCE PARTY",
     "start": "2026-11-14T19:00:00-07:00",
@@ -22647,6 +22765,29 @@
     "costTier": "$$"
   },
   {
+    "id": "bff73b8e6bb3",
+    "title": "Line Dancing At the Farm",
+    "start": "2026-11-14T19:00:00-07:00",
+    "end": "2026-11-14T23:59:00-07:00",
+    "allDay": false,
+    "venue": "The Farm",
+    "venueKey": "the-farm",
+    "city": "Garden City",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317139623/",
+    "description": "Join us for Line Dancing every Friday at Boise Largest ALL AGE Dance Hub!! Doors Open at 7pm Lesson starts at 7:30pm with Dirt Road Dancing Social dancing from 9pm to Midnight. No experience necessary. Check out more at www.thefarmboise.com Under 18 allow as long as accompanied by an adult.",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317139623/",
+        "fetchedAt": "2026-11-10T07:04:42Z"
+      }
+    ]
+  },
+  {
     "id": "c2c7ce01a5a9",
     "title": "Boise PhotoGrid: The Midway Opening Reception",
     "start": "2026-11-14T19:00:00-07:00",
@@ -22673,6 +22814,75 @@
       }
     ],
     "end": "2026-11-14T21:00:00-07:00"
+  },
+  {
+    "id": "8d12ecd53e1e",
+    "title": "Jazz Night at Kindred Vineyards",
+    "start": "2026-11-14T19:30:00-07:00",
+    "end": "2026-11-14T22:00:00-07:00",
+    "allDay": false,
+    "venue": "Idaho wineries",
+    "venueKey": "idaho-wineries",
+    "city": "Other",
+    "category": "food-drink",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://idahowines.org/event/jazz-night-at-kindred-vineyards/",
+    "description": "kindredvineyards.com/events/jazz-night-at-kindred-vineyards-2026-11-14/",
+    "sources": [
+      {
+        "name": "idaho-wine-commission",
+        "url": "https://idahowines.org/event/jazz-night-at-kindred-vineyards/",
+        "fetchedAt": "2026-11-12T07:04:44Z"
+      }
+    ]
+  },
+  {
+    "id": "bc4ab9b3bafc",
+    "title": "Northwest Nazarene University Women's Basketball vs Cal Poly Humboldt",
+    "start": "2026-11-14T19:30:00-07:00",
+    "end": "2026-11-14T21:30:00-07:00",
+    "allDay": false,
+    "venue": "Johnson Sports Center",
+    "venueKey": "johnson-sports-center",
+    "city": "Nampa",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "M",
+    "url": "https://nnusports.com/calendar.aspx?game_id=9540&sport_id=13",
+    "description": "W 95-67 Streaming Video: https://www.gnacnetwork.com/nnunighthawks/",
+    "sources": [
+      {
+        "name": "nnu-athletics",
+        "url": "https://nnusports.com/calendar.aspx?game_id=9540&sport_id=13",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "cebecc878e82",
+    "title": "Saturday Social: Live with Justin Ellis",
+    "start": "2026-11-14T19:30:00-07:00",
+    "end": "2026-11-14T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Boran Lounge",
+    "venueKey": "boran-lounge",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boranloungecoffee-meridian/events/317138940/",
+    "description": "Come and join us Saturday with Justin Ellis or Guest DJ as they brings energy and singing to the Boran Lounge Downtown Meridian. Karoake or anyone who loves to perform and entertain the crowds. Also, we are looking forward to seeing you at Boran Lounge and Events. Check us out this week!",
+    "sources": [
+      {
+        "name": "meetup-boranloungecoffee-meridian",
+        "url": "https://www.meetup.com/boranloungecoffee-meridian/events/317138940/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
   },
   {
     "id": "1177b77903b9",
@@ -22760,6 +22970,29 @@
         "name": "ford-idaho-center-arena",
         "url": "https://ictickets.evenue.net/events/ALIENATION?RSRC=LN_TDG&RDAT=PRMT",
         "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "2dd83975f645",
+    "title": "Contra Dance in Nampa by the Boise Contra Dance Society",
+    "start": "2026-11-14T20:00:00-07:00",
+    "end": "2026-11-14T22:00:00-07:00",
+    "allDay": false,
+    "venue": "The Grange Nampa Valley",
+    "venueKey": "the-grange-nampa-valley",
+    "city": "Nampa",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-contra-dance-society/events/317322119/",
+    "description": "Come Social Dance with the Boise Contra Dance Society When: November 14, 2026 8:00 - 10:00 pm. (New-dancer orientation 7:30-8:00 pm). NEW LOCATION! Where: Nampa Valley Grange Hall, 203 5th Ave South, Nampa.o.) Live Band: Live music by the Acrasians, with an assortment of Live Callers. More Inform...",
+    "sources": [
+      {
+        "name": "meetup-boise-contra-dance-society",
+        "url": "https://www.meetup.com/boise-contra-dance-society/events/317322119/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
   },
