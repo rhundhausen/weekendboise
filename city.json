@@ -1,5 +1,5 @@
 {
-  "_comment": "WeekendBoise's facts for the shared engine (github.com/rhundhausen/weekend). Format: the engine's ingestion/schema/city.schema.json. Valley County is one location for all its towns (cityAliases); New Meadows (Adams County) and Riggins (Idaho County) are outside Valley County but are grouped with it on purpose. 83714 is mostly Garden City.",
+  "_comment": "WeekendBoise's facts for the shared core (github.com/rhundhausen/weekend). Format: the core's ingestion/schema/city.schema.json. Valley County is one location for all its towns (cityAliases); New Meadows (Adams County) and Riggins (Idaho County) are outside Valley County but are grouped with it on purpose. 83714 is mostly Garden City.",
   "siteName": "WeekendBoise",
   "domain": "weekendboise.com",
   "repo": "rhundhausen/weekendboise",

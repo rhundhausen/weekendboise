@@ -1,5 +1,5 @@
 {
-  "_comment": "Every source: running, configured but waiting, ideas, and sites ruled out. Ingest runs only status running. Only displayName is required; check here before probing a site. See the engine's docs/sources.md (github.com/rhundhausen/weekend). The site hides a city with no upcoming events from its City list; that is presentation only, so keep every running source for such a city: it still runs nightly, and the city reappears once it has an event. doNotIngest lists companies and sites never to ingest, such as one that asked to be removed, matched by name, displayName, or site (see the schema); adding one stops it in one edit.",
+  "_comment": "Every source: running, configured but waiting, ideas, and sites ruled out. Ingest runs only status running. Only displayName is required; check here before probing a site. See the core's docs/sources.md (github.com/rhundhausen/weekend). The site hides a city with no upcoming events from its City list; that is presentation only, so keep every running source for such a city: it still runs nightly, and the city reappears once it has an event. doNotIngest lists companies and sites never to ingest, such as one that asked to be removed, matched by name, displayName, or site (see the schema); adding one stops it in one edit.",
   "doNotIngest": [],
   "sources": [
     {

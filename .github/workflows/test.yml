@@ -1,6 +1,6 @@
 # Checks this city's files (city.json, sources.json, stored events) and builds the site, with the
-# shared engine's reusable workflow (github.com/rhundhausen/weekend, .github/workflows/city-test.yml),
-# on every push and pull request, or by hand. The engine's own tests run in its repo.
+# shared core's reusable workflow (github.com/rhundhausen/weekend, .github/workflows/city-test.yml),
+# on every push and pull request, or by hand. The core's own tests run in its repo.
 
 name: test
 

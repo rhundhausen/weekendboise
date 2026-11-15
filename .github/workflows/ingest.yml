@@ -1,5 +1,5 @@
 # Nightly ingest, stage 1 of 2: fetches every running source into data/raw-events.json and commits
-# it. The work is the shared engine's reusable workflow (github.com/rhundhausen/weekend,
+# it. The work is the shared core's reusable workflow (github.com/rhundhausen/weekend,
 # .github/workflows/ingest.yml); this file holds only the schedule and the secrets. When it
 # finishes, whether it succeeded or not, refine starts.
 
@@ -7,7 +7,7 @@ name: ingest
 
 on:
   # Cron is UTC and Boise is UTC-6 in summer and UTC-7 in winter, so both hours are scheduled
-  # and the engine skips the one that isn't midnight in the city's time zone (city.json).
+  # and the core skips the one that isn't midnight in the city's time zone (city.json).
   schedule:
     - cron: '0 6 * * *'
     - cron: '0 7 * * *'

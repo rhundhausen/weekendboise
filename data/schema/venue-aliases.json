@@ -1,5 +1,5 @@
 {
-  "_comment": "Maps other spellings of a venue to one venueKey and name, so sources merge. Keys are slugs from Get-VenueKey. See the engine's docs/schema.md (github.com/rhundhausen/weekend).",
+  "_comment": "Maps other spellings of a venue to one venueKey and name, so sources merge. Keys are slugs from Get-VenueKey. See the core's docs/schema.md (github.com/rhundhausen/weekend).",
   "aliases": {
     "9th-st-parallel-at-knitting-factory": { "key": "knitting-factory", "name": "Knitting Factory" },
     "boise-state-university-special-events-center": { "key": "boise-state-special-events-center", "name": "Boise State Special Events Center" },

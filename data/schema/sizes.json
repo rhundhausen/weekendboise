@@ -1,5 +1,5 @@
 {
-  "_comment": "Estimated crowd size. These are guesses: venue values are the usual crowd from approximate capacities, not counts. See the engine's docs/schema.md (github.com/rhundhausen/weekend).",
+  "_comment": "Estimated crowd size. These are guesses: venue values are the usual crowd from approximate capacities, not counts. See the core's docs/schema.md (github.com/rhundhausen/weekend).",
   "levels": [
     { "id": "S", "label": "Small", "description": "Under 100 people" },
     { "id": "M", "label": "Medium", "description": "100 to 999 people" },

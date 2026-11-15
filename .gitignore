@@ -7,8 +7,8 @@ website/resources/
 .secrets.local.md
 website/.wrangler/
 
-# Build output from the shared engine (github.com/rhundhausen/weekend): its checkout, the Worker it
+# Build output from the shared core (github.com/rhundhausen/weekend): its checkout, the Worker it
 # copies into website/, and Hugo's cache.
-.engine/
+.core/
 website/worker/
 website/.cache/
