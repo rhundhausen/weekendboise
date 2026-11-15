@@ -1196,6 +1196,13 @@
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
     },
     {
+      "displayName": "CBS2 Idaho (KBOI-TV)",
+      "status": "investigating",
+      "url": "https://idahonews.com/",
+      "robotsChecked": "2026-11-14",
+      "notes": "TV station, found 2026-11-14 under station calendars. robots.txt allows the site. /community-calendar answers 404, and no calendar is linked from the home page. Events appear only as news articles and roundups (for example \"Holiday Event Guide for Boise\" and a \"community events across the Treasure Valley\" gallery), with no event data or feed."
+    },
+    {
       "name": "meetup-chakradancetreasurevalley",
       "displayName": "Chakradance Treasure Valley (Meetup)",
       "status": "running",
@@ -1397,6 +1404,13 @@
       "venueKey": "meetup-conservative-genx-connect",
       "priority": 70,
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 8 events in the feed on 2026-11-06"
+    },
+    {
+      "displayName": "Cumulus Boise stations (KBOI 670, Kissin 92.3, 96.9 The Eagle, Magic 97.9, 95.3 The Ticket)",
+      "status": "investigating",
+      "url": "https://www.kboi.com/events/",
+      "robotsChecked": "2026-11-14",
+      "notes": "Radio, found 2026-11-14 under station calendars. The stations run on SoCast; robots.txt allows /events/. kboi.com/events/ and kizn.com/events/ (Kissin 92.3) show Upcoming and Past tabs with no events listed on 2026-11-14, and no schema.org Event data or feed. The other three stations' own sites were not found (969theeagle.com and 953theticket.com are other markets' stations). Recheck before a station promotion season."
     },
     {
       "name": "meetup-boise-arts-entertainment-meetup-group",
@@ -1945,6 +1959,13 @@
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
     },
     {
+      "displayName": "Idaho Public Television",
+      "status": "investigating",
+      "url": "https://www.idahoptv.org/events/",
+      "robotsChecked": "2026-11-14",
+      "notes": "TV station, found 2026-11-14 under station calendars. robots.txt answers 404 (no rules). /events/ lists the station's own occasional events, statewide: on 2026-11-14 one, a free screening of an Idaho Experience episode at The Bengal Theatre on November 21. Server-rendered HTML, no schema.org Event data and no feed. Too few Treasure Valley events to configure yet."
+    },
+    {
       "name": "meetup-idaho-running-company-meetup",
       "displayName": "Idaho Running Company Meetup (Meetup)",
       "status": "running",
@@ -1996,6 +2017,13 @@
       "venueKey": "meetup-kartoflanie-folk-dance-ensemble",
       "priority": 70,
       "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
+    },
+    {
+      "displayName": "KIVI (Idaho News 6)",
+      "status": "investigating",
+      "url": "https://www.kivitv.com/",
+      "robotsChecked": "2026-11-14",
+      "notes": "TV station (ABC, Scripps), found 2026-11-14 under station calendars. robots.txt allows the site. /community/events answers 404 (the path Scripps uses for Denver7's community calendar, which is news stories). No calendar linked from the home page."
     },
     {
       "displayName": "Knock 'Em Dead Dinner Theatre",
@@ -3092,8 +3120,8 @@
       "displayName": "Boise State Public Radio",
       "status": "investigating",
       "url": "https://www.boisestatepublicradio.org/community-calendar-search",
-      "robotsChecked": "2026-11-03",
-      "notes": "Community calendar is an evvnt widget; the HTML has no events (checked 2026-11-03). Same vendor as the Idaho Press calendar. evvnt has a publisher API that needs a key. Not re-probed 2026-11-06: nothing new to try without an evvnt key. 2026-11-08: suggested again for Valley County events (filter to McCall, Cascade, Donnelly, New Meadows, Riggins); still an evvnt widget that needs a publisher key"
+      "robotsChecked": "2026-11-14",
+      "notes": "Community calendar is an evvnt widget; the HTML has no events (checked 2026-11-03). Same vendor as the Idaho Press calendar. evvnt has a publisher API that needs a key. Not re-probed 2026-11-06: nothing new to try without an evvnt key. 2026-11-08: suggested again for Valley County events (filter to McCall, Cascade, Donnelly, New Meadows, Riggins); still an evvnt widget that needs a publisher key 2026-11-14: /events (the station's own events) and its /events.rss are empty; the feed was last built 2026-03-18. The community calendar is still the evvnt widget."
     },
     {
       "displayName": "Boise Towne Square",
@@ -4147,9 +4175,9 @@
     },
     {
       "displayName": "Radio station calendars",
-      "notes": "Boise State Public Radio has its own entry. 2026-11-06: Townsquare stations (for example mix106radio.com/events, robots.txt allows it) redirect to a weekly article, Events This Weekend Around the Treasure Valley, with prose and links, no event data. Radio Boise (radioboise.org, robots.txt allows everything) has an /events page on a LeadConnector site with 3 server-rendered events (benefit concerts at Treefort Music Hall, Tiners Alley, Shrine Social Club); each card shows date, venue and time, but cards mode cannot read a per-card venue, and the concerts already come through the venues. See the Radio Boise entry. Other commercial stations (iHeart, Cumulus) not probed",
+      "notes": "Boise State Public Radio has its own entry. 2026-11-06: Townsquare stations (for example mix106radio.com/events, robots.txt allows it) redirect to a weekly article, Events This Weekend Around the Treasure Valley, with prose and links, no event data. Radio Boise (radioboise.org, robots.txt allows everything) has an /events page on a LeadConnector site with 3 server-rendered events (benefit concerts at Treefort Music Hall, Tiners Alley, Shrine Social Club); each card shows date, venue and time, but cards mode cannot read a per-card venue, and the concerts already come through the venues. See the Radio Boise entry. Other commercial stations (iHeart, Cumulus) not probed 2026-11-14: Cumulus stations (KBOI, Kissin 92.3, and others) have their own entry; their SoCast events pages had no events. Per Wikipedia, iHeart and Audacy own no Boise stations. TV stations: see TV station calendars.",
       "status": "investigating",
-      "robotsChecked": "2026-11-06"
+      "robotsChecked": "2026-11-14"
     },
     {
       "displayName": "Rediscovered Books",
@@ -5026,6 +5054,12 @@
       "notes": "Checked 2026-10-30 with the project User-Agent. No tribe route and no schema.org Event data. 2026-11-06: robots.txt allows all but /wp-admin/. The homepage has no ICS link; the schedule lives in the Treefort app (iOS and Android) and tickets sell on DICE. The festival itself (late March 2027) is one multi-day event, best added by hand once dates are posted. Ticketmaster metro covers Treefort Music Hall. The Duck Club (theduckclub.com/shows), the promoter behind Treefort, has a shows page worth its own idea",
       "url": "https://treefortmusicfest.com",
       "robotsChecked": "2026-11-06"
+    },
+    {
+      "displayName": "TV station calendars",
+      "status": "investigating",
+      "robotsChecked": "2026-11-14",
+      "notes": "Checked 2026-11-14. KTVB, KIVI, CBS2 Idaho, and Idaho Public Television have their own entries: none has a community events calendar; Idaho Public Television lists its own occasional events. FOX 9 (KNIN): no station website found (knin.com does not resolve, fox9boise.com has a certificate for another site)."
     },
     {
       "displayName": "Twisted Turtle Racing",
