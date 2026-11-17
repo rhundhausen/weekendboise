@@ -1513,7 +1513,7 @@
     {
       "name": "meetup-eagle-meditation-and-mysticism-meetup-group",
       "displayName": "Eagle Meditation and Mysticism Meetup Group (Meetup)",
-      "status": "running",
+      "status": "defunct",
       "adapter": "meetup",
       "url": "https://www.meetup.com/eagle-meditation-and-mysticism-meetup-group/events/ical/",
       "robotsChecked": "2026-11-06",
@@ -1523,7 +1523,8 @@
       "venue": "Eagle Meditation and Mysticism Meetup Group",
       "venueKey": "meetup-eagle-meditation-and-mysticism-meetup-group",
       "priority": 70,
-      "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06"
+      "notes": "Meetup group, added 2026-11-06. iCal feed for the events, and each new event's page for its venue and city; online events and other cities are dropped. 0 events in the feed on 2026-11-06. Defunct 2026-11-17: the iCal feed has answered 404 since the 2026-11-15 ingest, and the group page shows Meetup's \"Group not found\" page.",
+      "lastChecked": "2026-11-17"
     },
     {
       "displayName": "Eagle Public Library",
