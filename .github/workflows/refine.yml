@@ -1,5 +1,5 @@
 # Nightly refine, stage 2 of 2: turns data/raw-events.json into the files the site reads and
-# commits them, which deploys the site. The work is the shared core's reusable workflow
+# commits them, which deploys the site. The work is the shared code's reusable workflow
 # (github.com/rhundhausen/weekend, .github/workflows/refine.yml); this file holds only the triggers.
 
 name: refine

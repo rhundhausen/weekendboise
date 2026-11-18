@@ -1,7 +1,7 @@
 {
   "name": "weekendboise",
   "compatibility_date": "2026-11-05",
-  // Builds with the shared core (github.com/rhundhausen/weekend, its main branch) as the Hugo
+  // Builds with the shared code (github.com/rhundhausen/weekend, its main branch) as the Hugo
   // theme. Its build.sh also copies the core's Worker into worker/, which "main" points at.
   "build": {
     "command": "rm -rf ../.core && git clone --depth 1 https://github.com/rhundhausen/weekend ../.core && bash ../.core/website/build.sh"

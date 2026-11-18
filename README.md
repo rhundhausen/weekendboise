@@ -56,7 +56,7 @@ Questions, corrections, or concerns: open an issue in this repository.
 
 ## For developers
 
-This repo holds only WeekendBoise's own files: `city.json` (the city's facts), `ingestion/sources.json` (its sources; the core's [docs/sources.md](https://github.com/rhundhausen/weekend/blob/main/docs/sources.md) describes the format), `data/` (events, archive, and the city's lookup tables in `data/schema/`), and the site's icons and Cloudflare config in `website/`. The code, the site's theme, and the workflows are the shared core, [rhundhausen/weekend](https://github.com/rhundhausen/weekend), which this repo's workflows and Cloudflare build fetch from its `main` branch.
+This repo holds only WeekendBoise's own files: `city.json` (the city's facts), `ingestion/sources.json` (its sources; the core's [docs/sources.md](https://github.com/rhundhausen/weekend/blob/main/docs/sources.md) describes the format), `data/` (events, archive, and the city's lookup tables in `data/schema/`), and the site's icons and Cloudflare config in `website/`. The code, the site's theme, and the workflows are the shared code, [rhundhausen/weekend](https://github.com/rhundhausen/weekend), which this repo's workflows and Cloudflare build fetch from its `main` branch.
 
 To work on it locally, check out the core next to this repo (`../weekend`) and run its scripts from here, for example `../weekend/ingestion/scripts/Test-Sources.ps1`, or build the site with `bash ../../weekend/website/build.sh` from `website/`. How the core is built, tested, and run: its `docs/development.md`.
 

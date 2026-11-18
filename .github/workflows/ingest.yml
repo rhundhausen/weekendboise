@@ -1,5 +1,5 @@
 # Nightly ingest, stage 1 of 2: fetches every running source into data/raw-events.json and commits
-# it. The work is the shared core's reusable workflow (github.com/rhundhausen/weekend,
+# it. The work is the shared code's reusable workflow (github.com/rhundhausen/weekend,
 # .github/workflows/ingest.yml); this file holds only the schedule and the secrets. When it
 # finishes, whether it succeeded or not, refine starts.
 
