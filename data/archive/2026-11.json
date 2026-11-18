@@ -26301,6 +26301,31 @@
     ]
   },
   {
+    "id": "6996f3a43fc6",
+    "title": "The Story of Fire",
+    "start": "2026-11-17T12:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Center for the Visual Arts",
+    "venueKey": "center-for-the-visual-arts",
+    "city": "Boise",
+    "category": "arts-culture",
+    "tags": [
+      "free-admission"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://events.boisestate.edu/event/the-story-of-fire",
+    "description": "is an interactive art-science exhibition exploring wildfire. Featuring digital installations in the Keith and Catherine Stein Luminary, as well as science-inspired art and creative technology works by students in the Art-Science Integration Vertically Integrated Projects (VIP) class and other con...",
+    "sources": [
+      {
+        "name": "boise-state-arts",
+        "url": "https://events.boisestate.edu/event/the-story-of-fire",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
     "id": "6d9c15cab8cd",
     "title": "Adult Quilters",
     "start": "2026-11-17T12:00:00-07:00",
@@ -26652,6 +26677,152 @@
     ]
   },
   {
+    "id": "aa325b5097f6",
+    "title": "STEAM Tuesday",
+    "start": "2026-11-17T15:30:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17360049",
+    "description": "School-age kids are invited to join us for creativity time while listening to an audiobook.",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17360049",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "003143f7bab3",
+    "title": "Kid’s Class: Pinecone Fairies & Acorn Art",
+    "start": "2026-11-17T16:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Eagle Public Library",
+    "venueKey": "eagle-public-library",
+    "city": "Eagle",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/kids-class-pinecone-fairies-acorn-art/",
+    "description": "Using pinecones and pressed flowers make a magical fairy and a pop art acorn for fall! Location: Community Hall, Eagle City Hall",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/kids-class-pinecone-fairies-acorn-art/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "0862840d6192",
+    "title": "Local Speaker Series",
+    "start": "2026-11-17T16:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "College of Western Idaho",
+    "venueKey": "college-of-western-idaho",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://cwi.edu/campus-life/events?trumbaEmbed=view%3Devent%26eventid%3D1464368257",
+    "description": "Event Title: Local Speaker Series - 11/17 - NASP Organization: DEPT - Business Categories: Publish to Public Events calendar, Student Related Event, Community Related Event, Open to the Public, Publish to Current Student Event calendar Event Locator: 2026-ABCQKL Do you need this event published t...",
+    "sources": [
+      {
+        "name": "cwi",
+        "url": "https://cwi.edu/campus-life/events?trumbaEmbed=view%3Devent%26eventid%3D1464368257",
+        "fetchedAt": "2026-11-08T07:04:55Z"
+      }
+    ]
+  },
+  {
+    "id": "684ddf45480b",
+    "title": "Read to a Therapy Dog!",
+    "start": "2026-11-17T16:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15700762",
+    "description": "Join us for our Read to a Therapy Dog program, where kids get a chance to practice their reading skills by reading to a Certified Therapy Dog! Kids can read to a dog for 5-10 minutes and the dogs will love it! Children believe they are teaching the dog to read, but they are actually teaching them...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15700762",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "6c5d828e15cf",
+    "title": "Crafternoons for Kids Pipe Cleaner Sculptures",
+    "start": "2026-11-17T16:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15302247",
+    "description": "Join us at the Library! at Collister for a new arts and crafts project every week! Designed for kids ages 6-11. Younger children may need adult assistance.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15302247",
+        "fetchedAt": "2026-11-04T21:43:45Z"
+      }
+    ]
+  },
+  {
+    "id": "a93ca2e821fb",
+    "title": "Hands on STEAM",
+    "start": "2026-11-17T16:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Victory Branch",
+    "venueKey": "ada-community-library-victory-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=MmlyMmE4ZjBhMzRzbGwwMzNhMnI0NnBhMHBfMjAyNjExMTdUMjMwMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+    "description": "Ages 5 - 12 Fun activities that tie into Science, Technology, Engineering, Art, and Mathematics. Questions contact amason@adalib.org",
+    "sources": [
+      {
+        "name": "ada-library-victory",
+        "url": "https://www.google.com/calendar/event?eid=MmlyMmE4ZjBhMzRzbGwwMzNhMnI0NnBhMHBfMjAyNjExMTdUMjMwMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
     "id": "c6f58ed4f07d",
     "title": "City Council Work Session",
     "start": "2026-11-17T16:00:00-07:00",
@@ -26671,6 +26842,86 @@
         "name": "city-of-boise",
         "url": "https://www.cityofboise.org/events/city-council/2026/november/city-council-work-session-1/",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "d1122f2734af",
+    "title": "Crafternoons for Kids | Collister Library!",
+    "start": "2026-11-17T16:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Library! at Collister",
+    "venueKey": "library-at-collister",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program",
+      "workshop"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/crafternoons-for-kids-collister-library-2/2026-11-17/",
+    "description": "Join us at the Library! at Collister for a new arts and crafts project every week! Designed for kids ages 6-11. Younger children may need adult assistance.",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/crafternoons-for-kids-collister-library-2/2026-11-17/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "dd226d791b26",
+    "title": "Teen Hangout",
+    "start": "2026-11-17T16:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/17008218",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/17008218",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ],
+    "description": "If you are age 12-17, join us for Teen Hangout every Tuesday at 5:00! We'll meet in the Collaboration Room on the 3rd Floor of the Downtown Library. Snacks provided!"
+  },
+  {
+    "id": "dfced8244381",
+    "title": "Read to a Therapy Dog | Bown Library!",
+    "start": "2026-11-17T16:00:00-07:00",
+    "end": "2026-11-17T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Library! at Bown Crossing",
+    "venueKey": "library-at-bown-crossing",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "family-friendly",
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/read-to-a-therapy-dog-bown-library/2026-11-17/",
+    "description": "Join us for our Read to a Therapy Dog program, where kids get a chance to practice their reading skills by reading to a Certified Therapy Dog! Kids can read to a dog for 5-10 minutes and the dogs will love it! Children believe they are teaching the dog to read, but they are actually teaching them...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/read-to-a-therapy-dog-bown-library/2026-11-17/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
   }
