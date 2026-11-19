@@ -28381,5 +28381,2703 @@
         "fetchedAt": "2026-11-13T07:04:42Z"
       }
     ]
+  },
+  {
+    "id": "af942e4d8717",
+    "title": "Free 4×6 Santa Photo | Cabela’s Boise",
+    "start": "2026-11-18",
+    "allDay": true,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-18/",
+    "description": "Choose your free photo appointment with Santa Appointments are available 1 week from the current day. All new appointments are released at 12:01 AM for the next available day. If all slots show UNAVAILABLE this means all bookings have been reserved for those dates and times. Please try again late...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "ca9e74e6b18f",
+    "title": "Boise State University Esports Michigan State",
+    "start": "2026-11-18",
+    "allDay": true,
+    "venue": "Boise State Esports Arena",
+    "venueKey": "boise-state-esports-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "esports"
+    ],
+    "size": "S",
+    "url": "https://admin.broncosports.com/calendar.aspx?game_id=23214&sport_id=35",
+    "description": "TV: Boise State Twitch - Valorant Streaming Video: https://twitch.tv/boisestate",
+    "sources": [
+      {
+        "name": "boise-state-athletics",
+        "url": "https://admin.broncosports.com/calendar.aspx?game_id=23214&sport_id=35",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "23c68b606d1e",
+    "title": "Kuna Arbor Day",
+    "start": "2026-11-18T08:00:00-07:00",
+    "end": "2026-11-18T17:00:00-07:00",
+    "allDay": false,
+    "venue": "City of Kuna",
+    "venueKey": "city-of-kuna",
+    "city": "Kuna",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4497",
+    "sources": [
+      {
+        "name": "city-of-kuna",
+        "url": "https://www.kunacity.id.gov/Calendar.aspx?EID=4497",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "5ab7f50e68f7",
+    "title": "Qigong with Katie",
+    "start": "2026-11-18T08:00:00-07:00",
+    "end": "2026-11-18T08:45:00-07:00",
+    "allDay": false,
+    "venue": "McCall Public Library",
+    "venueKey": "mccall-public-library",
+    "city": "Valley County",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://mccall.id.us/Calendar.aspx?EID=2282",
+    "sources": [
+      {
+        "name": "mccall-public-library",
+        "url": "https://mccall.id.us/Calendar.aspx?EID=2282",
+        "fetchedAt": "2026-11-10T02:56:22Z"
+      }
+    ]
+  },
+  {
+    "id": "fbd66172b4da",
+    "title": "Eagle Chamber Coffee - Spitfire Tacos = Tequila",
+    "start": "2026-11-18T08:30:00-07:00",
+    "end": "2026-11-18T10:30:00-07:00",
+    "allDay": false,
+    "venue": "Eagle Chamber of Commerce",
+    "venueKey": "eagle-chamber",
+    "city": "Eagle",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://business.eaglechamber.com/events/details/eagle-chamber-coffee-spitfire-tacos-tequila-6014",
+    "description": "Eagle Chamber Coffee & Connections Spitfire Tacos + Tequila Nov 18th, 8:30am-10:30am Enjoy Spitfire Breakfast Burritos and coffee from Boise Co-Op",
+    "sources": [
+      {
+        "name": "eagle-chamber",
+        "url": "https://business.eaglechamber.com/events/details/eagle-chamber-coffee-spitfire-tacos-tequila-6014",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "da1c6a1d83de",
+    "title": "Special Events Team",
+    "start": "2026-11-18T09:00:00-07:00",
+    "end": "2026-11-18T10:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise City Hall",
+    "venueKey": "boise-city-hall",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://www.cityofboise.org/events/community-engagement/2026/november/special-events-team-1/",
+    "sources": [
+      {
+        "name": "city-of-boise",
+        "url": "https://www.cityofboise.org/events/community-engagement/2026/november/special-events-team-1/",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "75117853675d",
+    "title": "Play With Me!",
+    "start": "2026-11-18T09:30:00-07:00",
+    "end": "2026-11-18T10:15:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17280777",
+    "description": "A program for children of all ages and their adult caregiver. This is an opportunity for parents/caregivers and their children to enjoy playtime together with various activities., including building with blocks, yoga storytime, toddler STEM, and much more! No registration is required.",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17280777",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "2112188ed356",
+    "title": "Employment and Education Support",
+    "start": "2026-11-18T10:00:00-07:00",
+    "end": "2026-11-18T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15604323",
+    "description": "If you're looking for work or want to boost your skills with education and career training we can help! Join Boise Public Library and our partners to start getting the career you want! Here are some of the things you can do at this workshop: Bring a resume and/or cover letter to workshop, or buil...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15604323",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "725d27465f78",
+    "title": "Tech Lab",
+    "start": "2026-11-18T10:00:00-07:00",
+    "end": "2026-11-18T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell Public Library",
+    "venueKey": "caldwell-public-library",
+    "city": "Caldwell",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.caldwellpubliclibrary.org/events/tech-lab-2026-11-18-10-00",
+    "description": "Drop in to ask your technology questions and get one-on-one assistance from a staff member. We are happy to assist you with any tech-related issues. Ages 18+",
+    "sources": [
+      {
+        "name": "caldwell-public-library",
+        "url": "https://www.caldwellpubliclibrary.org/events/tech-lab-2026-11-18-10-00",
+        "fetchedAt": "2026-11-12T07:04:44Z"
+      }
+    ]
+  },
+  {
+    "id": "92624deab765",
+    "title": "Tiny Tunes & Tumbles",
+    "start": "2026-11-18T10:00:00-07:00",
+    "end": "2026-11-18T10:30:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell Public Library",
+    "venueKey": "caldwell-public-library",
+    "city": "Caldwell",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.caldwellpubliclibrary.org/events/tiny-tunes-tumbles-2",
+    "description": "Singing, dancing, and activities for ages 1-2",
+    "sources": [
+      {
+        "name": "caldwell-public-library",
+        "url": "https://www.caldwellpubliclibrary.org/events/tiny-tunes-tumbles-2",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "b890ed857505",
+    "title": "Public Skate at Idaho IceWorld",
+    "start": "2026-11-18T10:00:00-07:00",
+    "end": "2026-11-18T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Idaho Ice World",
+    "venueKey": "idaho-ice-world",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "family-friendly",
+      "holiday-event",
+      "ice-skating"
+    ],
+    "size": "M",
+    "costTier": "$",
+    "url": "https://boisemom.com/event/public-skate-at-idaho-iceworld-3/2026-11-18/",
+    "description": "Public Skate at Idaho IceWorld is your time to enjoy skating with your friends and family. Skate times vary. Please check our Activity Calendar for all Public Skate times. Times are subject to change and/or cancellations. Please check our website calendar or call us ahead of time for possible las...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/public-skate-at-idaho-iceworld-3/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "0135068e05ca",
+    "title": "Time for Twos Storytime",
+    "start": "2026-11-18T10:15:00-07:00",
+    "end": "2026-11-18T10:45:00-07:00",
+    "allDay": false,
+    "venue": "Nampa Public Library",
+    "venueKey": "nampa-public-library",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://nampalibrary.libcal.com/event/16156446",
+    "description": "Join us in the children's area for Toddler Storytime to explore STEM and early literacy skills! Geared for children ages 18 months - 3 years and their caregivers; featuring stories, songs, fingerplays and rhymes.",
+    "sources": [
+      {
+        "name": "nampa-public-library",
+        "url": "https://nampalibrary.libcal.com/event/16156446",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "564d24515318",
+    "title": "Storytime",
+    "start": "2026-11-18T10:15:00-07:00",
+    "end": "2026-11-18T10:45:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17358835",
+    "description": "Open to all ages Join us for a story and an activity during our Storytime program! Storytime is offered on the following days and times: Monday, 11:00 Tuesday 10:00 Wednesday 10:15 Location: children's room",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17358835",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "0c74eb058859",
+    "title": "Storytime",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Hidden Springs Branch",
+    "venueKey": "ada-community-library-hidden-springs-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=MmVyNGYzaGQzdGk4MjRhcm84NmNsaWowdnRfMjAyNjExMThUMTczMDAwWiBhZGFsaWIub3JnXzJlbTB2anJwMGliZ3IxcWk4ZGc1a2podmtnQGc&ctz=America/Boise",
+    "description": "Calling all little ones and their families! Let's read together! Join us for stories, songs, and fun! WHERE: Hidden Springs Branch Library All Ages",
+    "sources": [
+      {
+        "name": "ada-library-hidden-springs",
+        "url": "https://www.google.com/calendar/event?eid=MmVyNGYzaGQzdGk4MjRhcm84NmNsaWowdnRfMjAyNjExMThUMTczMDAwWiBhZGFsaWIub3JnXzJlbTB2anJwMGliZ3IxcWk4ZGc1a2podmtnQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "0f9fe2cc2779",
+    "title": "Fiber Arts",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T12:30:00-07:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/fiber-arts-star-library-11-18-2026-2182",
+    "description": "Bring your projects and work together with others 18+ No instruction given, just socializing with other enthusiasts",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/fiber-arts-star-library-11-18-2026-2182",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "3f3bc27433ad",
+    "title": "Fiber Arts Meet Up - Relax, Create, Connect",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T12:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Star Branch",
+    "venueKey": "ada-community-library-star-branch",
+    "city": "Star",
+    "category": "nightlife-social",
+    "tags": [
+      "meetup"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NWJoYnNuOGoybDQwNjA1M2kxOXZkYzBtajdfMjAyNjExMThUMTczMDAwWiBhZGFsaWIub3JnX3FsMXF0NHZmaDJwbnZqZmZodDk4YmZrbXNvQGc&ctz=America/Boise",
+    "description": "Calling all knitters, crocheters, weavers, and fiber art enthusiasts! Bring your current project and join us for a cozy, informal gathering where creativity and conversation go hand in hand. Whether you're a seasoned stitcher or just getting started, this is a welcoming space to share ideas, swap...",
+    "sources": [
+      {
+        "name": "ada-library-star",
+        "url": "https://www.google.com/calendar/event?eid=NWJoYnNuOGoybDQwNjA1M2kxOXZkYzBtajdfMjAyNjExMThUMTczMDAwWiBhZGFsaWIub3JnX3FsMXF0NHZmaDJwbnZqZmZodDk4YmZrbXNvQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "3f598cf93a92",
+    "title": "Storytime with Ms. Jenny",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Middleton Public Library",
+    "venueKey": "middleton-public-library",
+    "city": "Middleton",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=N3JoZ3Zqa3IxcnZndjUyM2h1NXMxN2tlb2ZfMjAyNjExMThUMTczMDAwWiBtaWRkbGV0b25saWJyYXJ5MzA3QG0&ctz=America/Boise",
+    "description": "Geared toward children 2-5 years of age",
+    "sources": [
+      {
+        "name": "middleton-public-library",
+        "url": "https://www.google.com/calendar/event?eid=N3JoZ3Zqa3IxcnZndjUyM2h1NXMxN2tlb2ZfMjAyNjExMThUMTczMDAwWiBtaWRkbGV0b25saWJyYXJ5MzA3QG0&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "4e746f00dfaa",
+    "title": "Story Stop",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "McCall Public Library",
+    "venueKey": "mccall-public-library",
+    "city": "Valley County",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://mccall.id.us/Calendar.aspx?EID=2200",
+    "sources": [
+      {
+        "name": "mccall-public-library",
+        "url": "https://mccall.id.us/Calendar.aspx?EID=2200",
+        "fetchedAt": "2026-11-10T02:56:22Z"
+      }
+    ]
+  },
+  {
+    "id": "5640753df3f4",
+    "title": "Family Storytime",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/17058585",
+    "description": "Join us in the Sagebrush Room at the Library! at Cole and Ustick for Family Storytime every Wednesday at 10:30am! These storytimes will include stories and songs and are designed for children ages 0-5 and their caregivers.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/17058585",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "5a37f78029ba",
+    "title": "Fit and Fall Proof",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15106474",
+    "description": "™ is designed to help senior citizens prevent injuries and the subsequent loss of independence. Class participants learn simple exercises to increase strength, balance and endurance, which can help prevent the accidental falls and tripping sometimes associated with age. Registration is required....",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15106474",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "68c54c0c0abd",
+    "title": "Chair Yoga",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/chair-yoga-star-library-11-18-2026-2388",
+    "description": "Explore Different Yoga Poses From a Seated & Standing Position Using the Support of a Chair 18+",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/chair-yoga-star-library-11-18-2026-2388",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "895edc58f1eb",
+    "title": "Baby Rhyme Time",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Victory Branch",
+    "venueKey": "ada-community-library-victory-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bmJsYnI5YWk5azFuMzIyZGx0MDVkdTlscjdfMjAyNjExMThUMTczMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+    "description": "Ages 0-2 Did you know that play is one of the key things you can do to help your baby to develop early literacy skills? Baby Rhyme Time focuses on developing your baby's pre-literacy, fine motor, and social skills through stories, songs and movement.",
+    "sources": [
+      {
+        "name": "ada-library-victory",
+        "url": "https://www.google.com/calendar/event?eid=bmJsYnI5YWk5azFuMzIyZGx0MDVkdTlscjdfMjAyNjExMThUMTczMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "9064662ffd26",
+    "title": "Preschool Art",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NnNvMzJkcGw2NHFqaWI5cDY4c202YjlrNjVnamViOXA3NWkzaWI5a2NncWppYzFrY2tzMzhlMWxjb18yMDI2MTExOFQxNzMwMDBaIGFkYWxpYi5vcmdfdXNwOTlqcWY1ZGhlaGg2Z2Q1NWwxdmRxbDhAZw&ctz=America/Boise",
+    "description": "Children are active learners, and making art is a hands-on activity that expands imaginations and exercises creativity. Join us for some fun art! Ages 3-5",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=NnNvMzJkcGw2NHFqaWI5cDY4c202YjlrNjVnamViOXA3NWkzaWI5a2NncWppYzFrY2tzMzhlMWxjb18yMDI2MTExOFQxNzMwMDBaIGFkYWxpYi5vcmdfdXNwOTlqcWY1ZGhlaGg2Z2Q1NWwxdmRxbDhAZw&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "9b73ccaa771f",
+    "title": "Baby Stories and Play",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15301824",
+    "description": "Join us for Baby storytime every Wednesday at 10:30 am. These storytimes will include stories and songs and are designed for babies age 0-2 and their caregivers. A 20-minute storytime will be followed by 30 minutes of open play time.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15301824",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "b300569b61e7",
+    "title": "Storytime",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Payette Public Library",
+    "venueKey": "payette-public-library",
+    "city": "Payette",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NHBjbzdvYjIyczBmczk3NzUwbjAwdWhhZzVfMjAyNjExMThUMTczMDAwWiBwYXlldHRlcHVibGljbGlicmFyeUBt&ctz=America/Boise",
+    "description": "Every Tuesday and Wednesday at 10:30AM, 0-5 years. Singing, dancing, literacy activities, a story, a craft, and a cookie! Come join us for this social program that helps instill a passion for reading and helps with Kindergarten readiness!",
+    "sources": [
+      {
+        "name": "payette-public-library",
+        "url": "https://www.google.com/calendar/event?eid=NHBjbzdvYjIyczBmczk3NzUwbjAwdWhhZzVfMjAyNjExMThUMTczMDAwWiBwYXlldHRlcHVibGljbGlicmFyeUBt&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "b7c89881597c",
+    "title": "Dry Creek Writers Group",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T12:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Hidden Springs Branch",
+    "venueKey": "ada-community-library-hidden-springs-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=cDk0NnU3YzYyZ2E5anE5ajMxa205ajllc2lfMjAyNjExMThUMTczMDAwWiBhZGFsaWIub3JnXzJlbTB2anJwMGliZ3IxcWk4ZGc1a2podmtnQGc&ctz=America/Boise",
+    "description": "Dry Creek Writers Group encourages and supports fellow writers in a fun, relaxed atmosphere (publishing goals optional). Would you like to preserve family stories, journal life lessons and travels, or share memorable occasions? Join us monthly for creative activities designed to keep you writing!...",
+    "sources": [
+      {
+        "name": "ada-library-hidden-springs",
+        "url": "https://www.google.com/calendar/event?eid=cDk0NnU3YzYyZ2E5anE5ajMxa205ajllc2lfMjAyNjExMThUMTczMDAwWiBhZGFsaWIub3JnXzJlbTB2anJwMGliZ3IxcWk4ZGc1a2podmtnQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      },
+      {
+        "name": "meetup-ada-community-library",
+        "url": "https://www.meetup.com/ada-community-library/events/317272530/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "eca693fe5efa",
+    "title": "Toddler Storytime",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15072638",
+    "description": "Join the Library! at Bown Crossing staff for Toddler Storytime every Wednesday at 10:30am in the Martie Brennan Room. This program is designed for children ages 2-3 and their caregivers. Come enjoy songs, stories, and learning together!",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15072638",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "fd6714760fd0",
+    "title": "Toddler Storytime | Bown Library!",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Library! at Bown Crossing",
+    "venueKey": "library-at-bown-crossing",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/toddler-storytime-bown-library/2026-11-18/",
+    "description": "Join the Library! at Bown Crossing staff for Toddler Storytime every Wednesday at 10:30am in the Martie Brennan Room. This program is designed for children ages 2-3 and their caregivers. Come enjoy songs, stories, and learning together!",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/toddler-storytime-bown-library/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "fd9712e415a2",
+    "title": "Family Storytime | Cole & Ustick Library!",
+    "start": "2026-11-18T10:30:00-07:00",
+    "end": "2026-11-18T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Library! at Cole & Ustick",
+    "venueKey": "library-at-cole-and-ustick",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "family-friendly",
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/family-storytime-cole-ustick-library-2/2026-11-18/",
+    "description": "Join us in the Sagebrush Room at the Library! at Cole and Ustick for Family Storytime every Wednesday at 10:30am! These storytimes will include stories and songs and are designed for children ages 0-5 and their caregivers.",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/family-storytime-cole-ustick-library-2/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "4c55b3c8d78f",
+    "title": "Music & Movement",
+    "start": "2026-11-18T10:45:00-07:00",
+    "end": "2026-11-18T11:15:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell Public Library",
+    "venueKey": "caldwell-public-library",
+    "city": "Caldwell",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.caldwellpubliclibrary.org/events/music-movement-33",
+    "description": "Singing, dancing, and activities for ages 3-6",
+    "sources": [
+      {
+        "name": "caldwell-public-library",
+        "url": "https://www.caldwellpubliclibrary.org/events/music-movement-33",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "f48f0dd06342",
+    "title": "Music and Movement",
+    "start": "2026-11-18T10:45:00-07:00",
+    "end": "2026-11-18T11:15:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17358906",
+    "description": "Thirty minutes of singing, dancing, and fun, that’s our Music and Movement class! The class instructor uses songs that encourage both fine and gross motor skills. Children must attend with an adult caregiver, and caregivers are encouraged and expected to participate with the child. NO REGISTRATIO...",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17358906",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "0f0b145db1bc",
+    "title": "Red Cross Blood Drive",
+    "start": "2026-11-18T11:00:00-07:00",
+    "end": "2026-11-18T16:00:00-07:00",
+    "allDay": false,
+    "venue": "Tamarack Resort",
+    "venueKey": "tamarack-resort",
+    "city": "Valley County",
+    "category": "community-civic",
+    "tags": [
+      "blood-drive"
+    ],
+    "size": "S",
+    "url": "https://tamarackidaho.com/events/red-cross-blood-drive-3",
+    "sources": [
+      {
+        "name": "tamarack-resort",
+        "url": "https://tamarackidaho.com/events/red-cross-blood-drive-3",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "43742b17a2e9",
+    "title": "AWS Boise User Group: re:Invent Preview + AI Beyond Bedrock",
+    "start": "2026-11-18T11:00:00-07:00",
+    "end": "2026-11-18T13:00:00-07:00",
+    "allDay": false,
+    "venue": "Blue Cross of Idaho",
+    "venueKey": "blue-cross-of-idaho",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/aws-boise-user-group/events/317274666/",
+    "description": "Join the AWS Boise User Group for lunch and a couple of hours of AWS discussion. We’ll look ahead to re:Invent 2026 with Isaiah from AWS, explore AI beyond Bedrock, dive into a few quick AWS topics, and open things up to the group for architecture questions, experiences, and discussion. Lunch wil...",
+    "sources": [
+      {
+        "name": "meetup-aws-boise-user-group",
+        "url": "https://www.meetup.com/aws-boise-user-group/events/317274666/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "98d5a2e7ee30",
+    "title": "CPL at the Senior Center",
+    "start": "2026-11-18T11:00:00-07:00",
+    "end": "2026-11-18T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell Public Library",
+    "venueKey": "caldwell-public-library",
+    "city": "Caldwell",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.caldwellpubliclibrary.org/events/cpl-at-the-senior-center-2026-11-18-11-00",
+    "description": "Drop by the Caldwell Senior Center and ask questions about library services such as our e-resource collection, technology tutoring, homebound delivery services, or the Talking Book Service.",
+    "sources": [
+      {
+        "name": "caldwell-public-library",
+        "url": "https://www.caldwellpubliclibrary.org/events/cpl-at-the-senior-center-2026-11-18-11-00",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "daee17ef7326",
+    "title": "Distillery Tour",
+    "start": "2026-11-18T11:00:00-07:00",
+    "end": "2026-11-18T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Bardenay Distilling Co.",
+    "venueKey": "bardenay-distilling-co",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "brewery"
+    ],
+    "size": "S",
+    "url": "https://www.bardenaydistilling.com/",
+    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.bardenaydistilling.com/",
+        "fetchedAt": "2026-11-18T07:05:17Z"
+      }
+    ]
+  },
+  {
+    "id": "ab69da24a487",
+    "title": "Baby Storytime",
+    "start": "2026-11-18T11:15:00-07:00",
+    "end": "2026-11-18T11:45:00-07:00",
+    "allDay": false,
+    "venue": "Nampa Public Library",
+    "venueKey": "nampa-public-library",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://nampalibrary.libcal.com/event/16156523",
+    "description": "Join us in the children's area for Baby Storytime to explore early literacy concepts! Geared for children ages 0 months - 18 months and their caregivers; featuring stories, songs, fingerplays and rhymes.",
+    "sources": [
+      {
+        "name": "nampa-public-library",
+        "url": "https://nampalibrary.libcal.com/event/16156523",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "d6cd48d61ebd",
+    "title": "Fit and Fall Proof",
+    "start": "2026-11-18T11:30:00-07:00",
+    "end": "2026-11-18T12:15:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17346743",
+    "description": "A FREE fitness program designed to help older adults prevent injury. Participants learn simple exercises to increase strength, mobility, balance, and endurance, which can help prevent accidental falls and tripping. All fitness levels are welcome.",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17346743",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "0e64508505f8",
+    "title": "Development Impact Fee Advisory Committee",
+    "start": "2026-11-18T12:00:00-07:00",
+    "end": "2026-11-18T13:00:00-07:00",
+    "allDay": false,
+    "venue": "Virtual Event",
+    "venueKey": "virtual-event",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.cityofboise.org/events/parks/2026/november/development-impact-fee-advisory-committee/",
+    "sources": [
+      {
+        "name": "city-of-boise",
+        "url": "https://www.cityofboise.org/events/parks/2026/november/development-impact-fee-advisory-committee/",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "1c6ac64f7136",
+    "title": "Paella on the Patio",
+    "start": "2026-11-18T12:00:00-07:00",
+    "end": "2026-11-18T15:00:00-07:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisemom.com/event/paella-on-the-patio/2026-11-18/",
+    "description": "Join us for paella on the patio at noon until sold out! https://www.thebasquemarket.com/calendar?category=PAELLA%20AVAILABLE ADDRESS On the Basque Block at 608 W Grove St, Boise, ID 83702 PARKING INFORMATION: Download our recommended parking guide here .",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/paella-on-the-patio/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ],
+    "city": "Boise"
+  },
+  {
+    "id": "20f1bdc626a7",
+    "title": "The Story of Fire",
+    "start": "2026-11-18T12:00:00-07:00",
+    "end": "2026-11-18T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Center for the Visual Arts",
+    "venueKey": "center-for-the-visual-arts",
+    "city": "Boise",
+    "category": "arts-culture",
+    "tags": [
+      "free-admission"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://events.boisestate.edu/event/the-story-of-fire",
+    "description": "is an interactive art-science exhibition exploring wildfire. Featuring digital installations in the Keith and Catherine Stein Luminary, as well as science-inspired art and creative technology works by students in the Art-Science Integration Vertically Integrated Projects (VIP) class and other con...",
+    "sources": [
+      {
+        "name": "boise-state-arts",
+        "url": "https://events.boisestate.edu/event/the-story-of-fire",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "51d524b341a8",
+    "title": "Creative Corner",
+    "start": "2026-11-18T12:00:00-07:00",
+    "end": "2026-11-18T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/17122432",
+    "description": "Bring a creative project that you want to work on or try something new using our project starter supplies.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/17122432",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "5afe4a670761",
+    "title": "Employer Spotlight: Mana Resources",
+    "start": "2026-11-18T12:00:00-07:00",
+    "end": "2026-11-18T14:00:00-07:00",
+    "allDay": false,
+    "venue": "College of Western Idaho",
+    "venueKey": "college-of-western-idaho",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://cwi.edu/campus-life/events?trumbaEmbed=view%3Devent%26eventid%3D1415218024",
+    "description": "Event Title: Employer Spotlight: Mana Resources Event Locator: 2026-ABBRCZ Organization: WBLC - Work-Based Learning Center Categories: NAMPA, Publish to Current Student Event calendar, Work-based Learning, 2026FA Do you need this event published to the CWI events calendar?: TRUE Describe how the...",
+    "sources": [
+      {
+        "name": "cwi",
+        "url": "https://cwi.edu/campus-life/events?trumbaEmbed=view%3Devent%26eventid%3D1415218024",
+        "fetchedAt": "2026-11-08T07:04:55Z"
+      }
+    ]
+  },
+  {
+    "id": "7866eaac59f4",
+    "title": "Adult Education - GED Program through College of Western Idaho",
+    "start": "2026-11-18T12:00:00-07:00",
+    "end": "2026-11-18T16:00:00-07:00",
+    "allDay": false,
+    "venue": "Mountain Home Public Library",
+    "venueKey": "mountain-home-public-library",
+    "city": "Mountain Home",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://mhlibrary.libcal.com/event/17616113",
+    "description": "Seeking assistance with: - Improving your Reading skills - Studying for the GED - Preparing for the Armed Services Vocational Aptitude Battery (ASVAB) - Practicing your computer skills CWI can help you meet your goals! STEP 1: Begin by taking reading and math placement tests and filling out regis...",
+    "sources": [
+      {
+        "name": "mountain-home-library",
+        "url": "https://mhlibrary.libcal.com/event/17616113",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "44b66571cb2d",
+    "title": "Line Dancing",
+    "start": "2026-11-18T12:30:00-07:00",
+    "end": "2026-11-18T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Gem County Recreation District",
+    "venueKey": "gem-county-recreation-district",
+    "city": "Emmett",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://business.emmettidaho.com/events/details/line-dancing-11-18-2026-16732",
+    "description": "Get moving and have fun! Join our Line Dancing Classes at the Gem County Recreation District. No partner needed and all are welcome. Great exercise for your body and mind in a friendly, social environment. Free Membership and Registration required click the link https://gcrd.activityreg.com/dance...",
+    "sources": [
+      {
+        "name": "gem-county-chamber",
+        "url": "https://business.emmettidaho.com/events/details/line-dancing-11-18-2026-16732",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "3d8968bea8b8",
+    "title": "Ultimate Book Nerd Book Club",
+    "start": "2026-11-18T13:00:00-07:00",
+    "end": "2026-11-18T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15604343",
+    "description": "Join us to talk about where you're at with the Ultimate Book Nerd Challenge, and get advice on books that meet different categories!",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15604343",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "a4fad8039484",
+    "title": "Nampa Caregiver Support Group Presented by: Alzheimer's Association",
+    "start": "2026-11-18T13:00:00-07:00",
+    "end": "2026-11-18T14:30:00-07:00",
+    "allDay": false,
+    "venue": "Nampa Public Library",
+    "venueKey": "nampa-public-library",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://nampalibrary.libcal.com/event/16615282",
+    "description": "Build a support system with people who understand. Walk-ins are welcome. Alzheimer’s Association support groups, conducted by trained facilitators, are a safe place for care partners of dementia patients to: Develop a support system. Exchange practical information on challenges and possible solut...",
+    "sources": [
+      {
+        "name": "nampa-public-library",
+        "url": "https://nampalibrary.libcal.com/event/16615282",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "09981aa3434e",
+    "title": "Family Fun Zone",
+    "start": "2026-11-18T14:00:00-07:00",
+    "end": "2026-11-18T16:00:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Library",
+    "venueKey": "kuna-library",
+    "city": "Kuna",
+    "category": "learning-business",
+    "tags": [
+      "family-friendly"
+    ],
+    "size": "S",
+    "url": "https://kunalibrary.libcal.com/event/17360084",
+    "description": "Time for families to enjoy learning and playing together at the library.",
+    "sources": [
+      {
+        "name": "kuna-library",
+        "url": "https://kunalibrary.libcal.com/event/17360084",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "4490b0ef9c77",
+    "title": "999 Airbase Rd, Mountain Home, ID",
+    "start": "2026-11-18T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Downs Auction",
+    "venueKey": "downs-auction",
+    "city": "Mountain Home",
+    "category": "auctions-estate-sales",
+    "tags": [],
+    "size": "M",
+    "url": "https://downsauction.com/event/999-airbase-rd-mountain-home-id/",
+    "sources": [
+      {
+        "name": "downs-auction",
+        "url": "https://downsauction.com/event/999-airbase-rd-mountain-home-id/",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "c471cd893127",
+    "title": "Board Games for Adults",
+    "start": "2026-11-18T14:00:00-07:00",
+    "end": "2026-11-18T15:30:00-07:00",
+    "allDay": false,
+    "venue": "Nampa Public Library",
+    "venueKey": "nampa-public-library",
+    "city": "Nampa",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://nampalibrary.libcal.com/event/17828696",
+    "description": "Have fun, meet people and work your brain with games. Each month we will play a different group game like Yahtzee, Dominos, Farkle or Bunco.",
+    "sources": [
+      {
+        "name": "nampa-public-library",
+        "url": "https://nampalibrary.libcal.com/event/17828696",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "df48f65846a9",
+    "title": "Fiber Arts Society",
+    "start": "2026-11-18T14:00:00-07:00",
+    "end": "2026-11-18T15:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/16489755",
+    "description": "Bring your fiber arts projects to the Library! at Cole and Ustick. Crafters of all skill levels are welcome. We also have an ongoing community service project aimed to give back to those in need. Anyone can participate, but it's not mandatory. What we are looking for is any handmade cold weather...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/16489755",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "4445ffe3168f",
+    "title": "Winter Skate at The Village",
+    "start": "2026-11-18T15:00:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "The Village",
+    "venueKey": "the-village",
+    "city": "Meridian",
+    "category": "sports",
+    "tags": [
+      "family-friendly",
+      "holiday-event",
+      "ice-skating"
+    ],
+    "size": "M",
+    "url": "https://boisemom.com/event/winter-skate-at-the-village-3/2026-11-18/",
+    "description": "Ice Skating at The Village Rink! November 14th-January 19th (weather permitting) HOURS: Mon-Fri 3-9pm Saturday 12-9pm Sunday 12-6pm HOLIDAY HOURS: November 19th – Closed for Tree Lighting Thanksgiving – 12-6pm Christmas Eve – 12-6pm Christmas CLOSED Extended Hours during Thanksgiving & Christmas...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/winter-skate-at-the-village-3/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "4acd4eb70dea",
+    "title": "Crafternoons",
+    "start": "2026-11-18T15:00:00-07:00",
+    "end": "2026-11-18T16:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15112039",
+    "description": "A monthly craft project for adults covering a variety of art media. All skill levels are welcome! Come create something amazing, and maybe even make a few new friends too. Registration required.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15112039",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "5d2aabd17a72",
+    "title": "Open Studios: MAKE Studio",
+    "start": "2026-11-18T15:00:00-07:00",
+    "end": "2026-11-18T18:00:00-07:00",
+    "allDay": false,
+    "venue": "JUMP",
+    "venueKey": "jump",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://jumpboise.org/events/open-studios-make-studio",
+    "sources": [
+      {
+        "name": "jump-boise",
+        "url": "https://jumpboise.org/events/open-studios-make-studio",
+        "fetchedAt": "2026-11-12T07:04:44Z"
+      }
+    ]
+  },
+  {
+    "id": "b9cceace3b62",
+    "title": "STEAM Tykes",
+    "start": "2026-11-18T15:15:00-07:00",
+    "end": "2026-11-18T16:15:00-07:00",
+    "allDay": false,
+    "venue": "Mountain Home Public Library",
+    "venueKey": "mountain-home-public-library",
+    "city": "Mountain Home",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://mhlibrary.libcal.com/event/17436305",
+    "description": "Every Wednesday at 3:15 pm, join Bianca in Youth Services to explore and learn about science, technology, engineering, art, and math concepts. This program is designed for school aged children (ages 6 and up).",
+    "sources": [
+      {
+        "name": "mountain-home-library",
+        "url": "https://mhlibrary.libcal.com/event/17436305",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "2ee28fc25bdc",
+    "title": "MHPL Teens Teaching Tech - Email basics & Marketing with Canva",
+    "start": "2026-11-18T15:30:00-07:00",
+    "end": "2026-11-18T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Mountain Home Public Library",
+    "venueKey": "mountain-home-public-library",
+    "city": "Mountain Home",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://mhlibrary.libcal.com/event/17876846",
+    "description": "Join the MHPL Teens Teaching Tech group at the Mountain Home Public Library for digital literacy classes for seniors. This class will focus on how to use your email and making flyers or invites in Canva - a free-to-use, web based graphic design platform.",
+    "sources": [
+      {
+        "name": "mountain-home-library",
+        "url": "https://mhlibrary.libcal.com/event/17876846",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "6ace17807a12",
+    "title": "Afterschool Fun",
+    "start": "2026-11-18T15:30:00-07:00",
+    "end": "2026-11-18T16:30:00-07:00",
+    "allDay": false,
+    "venue": "Caldwell Public Library",
+    "venueKey": "caldwell-public-library",
+    "city": "Caldwell",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://www.caldwellpubliclibrary.org/events/afterschool-fun-60",
+    "description": "Kids will enjoy fun and engaging activities to help keep their young minds creative and inspired through art, crafts, and more. Activity this week: Caldwell Fine Arts: Nutcracker Ballerinas Present",
+    "sources": [
+      {
+        "name": "caldwell-public-library",
+        "url": "https://www.caldwellpubliclibrary.org/events/afterschool-fun-60",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "a1095bce7c4c",
+    "title": "Gaming Club",
+    "start": "2026-11-18T15:30:00-07:00",
+    "end": "2026-11-18T16:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Hidden Springs Branch",
+    "venueKey": "ada-community-library-hidden-springs-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=M3ZzcDZocDlsc2dpZ2hlaWZibzJkNHJjamcgYWRhbGliLm9yZ18yZW0wdmpycDBpYmdyMXFpOGRnNWtqaHZrZ0Bn&ctz=America/Boise",
+    "description": "Stop by the library on Wednesdays to play some fun games! This week we're playing Nintendo Switch games! WHERE: Hidden Springs Branch Library Ages 8 and up",
+    "sources": [
+      {
+        "name": "ada-library-hidden-springs",
+        "url": "https://www.google.com/calendar/event?eid=M3ZzcDZocDlsc2dpZ2hlaWZibzJkNHJjamcgYWRhbGliLm9yZ18yZW0wdmpycDBpYmdyMXFpOGRnNWtqaHZrZ0Bn&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "966d0324d7ad",
+    "title": "Nampa Library Board of Trustees Monthly Meeting",
+    "start": "2026-11-18T16:00:00-07:00",
+    "end": "2026-11-18T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Nampa Public Library",
+    "venueKey": "nampa-public-library",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://nampalibrary.libcal.com/event/17581181",
+    "sources": [
+      {
+        "name": "nampa-public-library",
+        "url": "https://nampalibrary.libcal.com/event/17581181",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "9c23b2d7791b",
+    "title": "School Age Fun: Cardboard Trains",
+    "start": "2026-11-18T16:00:00-07:00",
+    "end": "2026-11-18T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15302142",
+    "description": "Join the Library! at Collister for School Age Fun, for kids ages 6-11! Kids experience fun, hands-on activities in this program. Topics rotate each session. Upcoming Events: 11/18: Cardboard trains 11/25: Lego stop motion and claymation 12/2: Winter window painting 12/9: Fairy houses and gnome ho...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15302142",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "b48344a3d75f",
+    "title": "Seeing Things - Photography for Teens",
+    "start": "2026-11-18T16:00:00-07:00",
+    "end": "2026-11-18T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/16524521",
+    "description": "Come and join in our new photography program offering young creatives a fun, hands-on way to explore cameras, composition, and visual storytelling. Through guided lessons, outdoor shoots, and collaborative projects, you'll learn how to capture meaningful images while developing your visual voice....",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/16524521",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "c85492c59de7",
+    "title": "Shrine Day",
+    "start": "2026-11-18T16:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "url": "https://link.dice.fm/k78a155c0746",
+    "sources": [
+      {
+        "name": "shrine-social-club",
+        "url": "https://link.dice.fm/k78a155c0746",
+        "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "cf3dd76a253d",
+    "title": "Sew Good (sewing class)",
+    "start": "2026-11-18T16:00:00-07:00",
+    "end": "2026-11-18T17:30:00-07:00",
+    "allDay": false,
+    "venue": "McCall Public Library",
+    "venueKey": "mccall-public-library",
+    "city": "Valley County",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://mccall.id.us/Calendar.aspx?EID=2185",
+    "sources": [
+      {
+        "name": "mccall-public-library",
+        "url": "https://mccall.id.us/Calendar.aspx?EID=2185",
+        "fetchedAt": "2026-11-10T02:56:22Z"
+      }
+    ]
+  },
+  {
+    "id": "ee116e9ef41b",
+    "title": "Entrepreneur Lab Fall OtterTank 2026",
+    "start": "2026-11-18T16:00:00-07:00",
+    "end": "2026-11-18T17:30:00-07:00",
+    "allDay": false,
+    "venue": "College of Western Idaho",
+    "venueKey": "college-of-western-idaho",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://cwi.edu/campus-life/events?trumbaEmbed=view%3Devent%26eventid%3D1457777207",
+    "description": "Organization: Entrepreneur Lab Categories: Publish to Public Events calendar, Faculty Related Event, NAMPA, Community Related Event, Open to the Public, Outreach, Future Student Event, Current Student Event, Publish to Employee Events calendar, 2026FA Event Locator: 2026-ABBRJP Do you need this e...",
+    "sources": [
+      {
+        "name": "cwi",
+        "url": "https://cwi.edu/campus-life/events?trumbaEmbed=view%3Devent%26eventid%3D1457777207",
+        "fetchedAt": "2026-11-08T07:04:55Z"
+      }
+    ]
+  },
+  {
+    "id": "032ae1c655eb",
+    "title": "After School Art – Ages 10-12 -Wed 4:30p",
+    "start": "2026-11-18T16:30:00-07:00",
+    "end": "2026-11-18T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "workshop"
+    ],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://boisemom.com/event/after-school-art-ages-10-12-wed-430p/2026-11-18/",
+    "description": "Ongoing, Wednesdays, 4:30pm – 6:00pm Ages 10-12 Register for a single class or save with a multi-class multipass! See “Memberships and Passes” for more info. Around age 10 or so, kids reach the stage in their creative development when realism is the gold standard, and even kids with the strongest...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/after-school-art-ages-10-12-wed-430p/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "2c04f9be5edb",
+    "title": "Tween/Time",
+    "start": "2026-11-18T16:30:00-07:00",
+    "end": "2026-11-18T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Star Branch",
+    "venueKey": "ada-community-library-star-branch",
+    "city": "Star",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NjhuaGw1cGdjbG5mN3ZzMzk4bTltMWUxanIgYWRhbGliLm9yZ19xbDFxdDR2ZmgycG52amZmaHQ5OGJma21zb0Bn&ctz=America/Boise",
+    "description": "Today's activity: Mini Pumpkin Place Markers",
+    "sources": [
+      {
+        "name": "ada-library-star",
+        "url": "https://www.google.com/calendar/event?eid=NjhuaGw1cGdjbG5mN3ZzMzk4bTltMWUxanIgYWRhbGliLm9yZ19xbDFxdDR2ZmgycG52amZmaHQ5OGJma21zb0Bn&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "7fb2a3cbdba1",
+    "title": "Tweens: Pokémon Club",
+    "start": "2026-11-18T16:30:00-07:00",
+    "end": "2026-11-18T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NXY5aGxvZDZ0Y243NnA2OG4ydHM2cGJ0bWNfMjAyNjExMThUMjMzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "This Week: Pokémon Trading Club for our local Pokémon Trainers! Designed for Ages 8-11",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=NXY5aGxvZDZ0Y243NnA2OG4ydHM2cGJ0bWNfMjAyNjExMThUMjMzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "945394bfa9b2",
+    "title": "Tween/Teen Program",
+    "start": "2026-11-18T16:30:00-07:00",
+    "end": "2026-11-18T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/tween-teen-program-star-library-11-18-2026-3192",
+    "description": "Tweens and Teens (ages 10-17) come hang out and participate in fun activities!",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/tween-teen-program-star-library-11-18-2026-3192",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "ae480771df01",
+    "title": "Lego Club",
+    "start": "2026-11-18T16:30:00-07:00",
+    "end": "2026-11-18T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Payette Public Library",
+    "venueKey": "payette-public-library",
+    "city": "Payette",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=b25rMHRub241Y2x0aWo5aHBzdHY5cm9zYXFfMjAyNjExMThUMjMzMDAwWiBwYXlldHRlcHVibGljbGlicmFyeUBt&ctz=America/Boise",
+    "description": "Wednesdays at 4:00PM. Come build LEGO with us! We have thousands of bricks and set up a different challenge or theme each week to challenge your mind. Have little ones too? We have Duplo blocks to play with as well!",
+    "sources": [
+      {
+        "name": "payette-public-library",
+        "url": "https://www.google.com/calendar/event?eid=b25rMHRub241Y2x0aWo5aHBzdHY5cm9zYXFfMjAyNjExMThUMjMzMDAwWiBwYXlldHRlcHVibGljbGlicmFyeUBt&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "d623410e3b90",
+    "title": "Teen Manga Drawing & Comic Arts",
+    "start": "2026-11-18T16:30:00-07:00",
+    "end": "2026-11-18T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317197631/",
+    "description": "Explore, Create, and Bring Your Manga & Comics to Life! Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/teen-manga-drawing-comic-arts-biweekly-wed-4-30pm Looking to learn more about the construction and composition of Manga and Comics? This is...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317197631/",
+        "fetchedAt": "2026-11-15T03:54:59Z"
+      }
+    ]
+  },
+  {
+    "id": "9d38d0e7bd3b",
+    "title": "Cold Nights, Warm Notes Music Series",
+    "start": "2026-11-18T17:00:00-07:00",
+    "end": "2026-11-18T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Telaya Wine Co.",
+    "venueKey": "telaya-wine-co",
+    "city": "Garden City",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "url": "https://telayawine.com/event/cold-nights-warm-notes-music-series-3/",
+    "description": "Enjoy the coziest time of year with live music every Wednesday from 5-7pm Good Time Charlie",
+    "sources": [
+      {
+        "name": "telaya-wine",
+        "url": "https://telayawine.com/event/cold-nights-warm-notes-music-series-3/",
+        "fetchedAt": "2026-11-10T02:56:22Z"
+      }
+    ]
+  },
+  {
+    "id": "c990cd868b0d",
+    "title": "Magic the Gathering: Commander League | Wednesday at ABU Games",
+    "start": "2026-11-18T17:00:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317198230/",
+    "description": "Welcome to Wednesday Night Commander League at ABU Games! A Magic the Gathering event devoted entirely to Commander Format! Prize support uses a raffle system where you earn up to three tickets in the evening. One ticket is automatically earned for registering. Additional tickets are earned throu...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317198230/",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "602ac3eb329e",
+    "title": "Design Review Commission - Work Session",
+    "start": "2026-11-18T17:15:00-07:00",
+    "end": "2026-11-18T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise City Hall",
+    "venueKey": "boise-city-hall",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://www.cityofboise.org/events/pds/2026/november/design-review-commission-work-session/",
+    "sources": [
+      {
+        "name": "city-of-boise",
+        "url": "https://www.cityofboise.org/events/pds/2026/november/design-review-commission-work-session/",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "0757fcaa55fb",
+    "title": "Client Horror Stories & Heartwarming Tales: A BCPC Social at 10 Barrel!",
+    "start": "2026-11-18T17:30:00-07:00",
+    "end": "2026-11-18T19:00:00-07:00",
+    "allDay": false,
+    "venue": "10 Barrel Brewing Boise",
+    "venueKey": "10-barrel-brewing-boise",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boisegdg/events/316173893/",
+    "description": "Wednesday, November 18, 2026 | 5:30–7:00 PM 10 Barrel Brewing Co. | 826 W. Bannock St., Boise Free Appetizers & First 2 Pitchers on Us! We've all had that client. The project that went completely off the rails. The endless revisions. The impossible deadlines. The request that made you question yo...",
+    "sources": [
+      {
+        "name": "meetup-boisegdg",
+        "url": "https://www.meetup.com/boisegdg/events/316173893/",
+        "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "203ed91553aa",
+    "title": "Wednesday Recovery Dharma Meeting",
+    "start": "2026-11-18T17:30:00-07:00",
+    "end": "2026-11-18T18:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Institute for Buddhist Studies",
+    "venueKey": "boise-institute-for-buddhist-studies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/recoverydharmaboise/events/317198716/",
+    "description": "Recovery Dharma is a peer-led, weekly group meeting gathered in the spirit of investigation of a Buddhist approach to recovery from addiction of all kinds. All are welcome. We invite you to join us to find out for yourself if a Buddhist perspective is valuable to your process of recovery. No expe...",
+    "sources": [
+      {
+        "name": "meetup-recoverydharmaboise",
+        "url": "https://www.meetup.com/recoverydharmaboise/events/317198716/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ]
+  },
+  {
+    "id": "72588c102832",
+    "title": "Embossed Metal Ornaments",
+    "start": "2026-11-18T17:30:00-07:00",
+    "end": "2026-11-18T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/17142676",
+    "description": "Join us for a fun class to learn basic metal embossing and make unique metal ornaments.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/17142676",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "84a9577e4092",
+    "title": "Hula Hoop Making",
+    "start": "2026-11-18T17:30:00-07:00",
+    "end": "2026-11-18T19:30:00-07:00",
+    "allDay": false,
+    "venue": "JUMP",
+    "venueKey": "jump",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://jumpboise.org/events/hula-hoop-making",
+    "sources": [
+      {
+        "name": "jump-boise",
+        "url": "https://jumpboise.org/events/hula-hoop-making",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ]
+  },
+  {
+    "id": "0bac415d02a9",
+    "title": "Intermediate Pottery Wheel Skills, Drills, & Projects",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T22:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/316386201/",
+    "description": "Refine your throwing, gain control, and explore new pottery projects on the wheel. Age 13+ For practiced, beginner to intermediate level students (not suitable for absolute beginners). Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/pottery-wh...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/316386201/",
+        "fetchedAt": "2026-11-15T03:54:59Z"
+      }
+    ]
+  },
+  {
+    "id": "1c4f59262156",
+    "title": "Design Review Commission - Moved for Holiday",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise City Hall",
+    "venueKey": "boise-city-hall",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://www.cityofboise.org/events/pds/2026/november/design-review-commission-moved-for-holiday/",
+    "sources": [
+      {
+        "name": "city-of-boise",
+        "url": "https://www.cityofboise.org/events/pds/2026/november/design-review-commission-moved-for-holiday/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "38164a83cabf",
+    "title": "Pokémon League | Collister Library!",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Library! at Collister",
+    "venueKey": "library-at-collister",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/pokemon-league-collister-library/2026-11-18/",
+    "description": "Come and play the Pokémon Trading Card Game with other Pokémon enthusiasts! A Pokémon League provides a nearby place for you to get together with other fans of the Pokémon Trading Card Game, and have some fun. Using your own cards (we will have some decks to borrow), you can play, trade, and even...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/pokemon-league-collister-library/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "3f000db891f7",
+    "title": "Board Game Night | ABUGames",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T21:45:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317199247/",
+    "description": "Join us for a Board Game Every Wednesday at ABU Games! This is a Free to play community meetup each week and is always a blast! Bring your own game to play or borrow one of our 200+ demo games! We will be just down the hall in the Village Square Room. This is a casual meetup to play games. There...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317199247/",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "406502d4eb23",
+    "title": "Books and Brews",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15302572",
+    "description": "Do you love to read but don’t love the structure of a book club? This program is for you! Come to Burger 'n' Brew (4295 W State St, Boise, ID 83703) on the 3rd Wednesday of the month to share what you are reading, get recommendations for your next book, and socialize with like-minded bookworms.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15302572",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "441c312fed9d",
+    "title": "Wine Tasting , Charcuterie & Create A Pumpkin Floral Centerpiece",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Skosh Wine Bar",
+    "venueKey": "skosh-wine-bar",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "winery"
+    ],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://skoshwinebar.com/events",
+    "description": "Join us for a cozy evening of wine tasting, delicious charcuterie, and a little creativity as you create your very own pumpkin floral centerpiece. A perfect blend of beautiful blooms, delightful flavors, and great company to celebrate the season. Ticket price includes the following: Wine Tasting...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://skoshwinebar.com/events",
+        "fetchedAt": "2026-11-18T07:05:17Z"
+      }
+    ]
+  },
+  {
+    "id": "44c77a30840a",
+    "title": "Game Night Live Trivia at Barbarian",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Barbarian Brewery Taproom",
+    "venueKey": "barbarian-brewery-taproom",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "board-games",
+      "brewery",
+      "trivia"
+    ],
+    "size": "S",
+    "url": "https://www.facebook.com/events/1505711250867938/1505711257534604?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
+    "description": "Join us every Wednesday night for Trivia at our Garden City Taproom! Game Night Live trivia is free to play for paying customers and are for everyone who likes to play games and win prizes! All ages. Each night we play 2 games consisting of 3 rounds each. Each round is based off of a popular game...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.facebook.com/events/1505711250867938/1505711257534604?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
+        "fetchedAt": "2026-11-18T07:05:17Z"
+      }
+    ]
+  },
+  {
+    "id": "4f256c05089c",
+    "title": "Adults' Beginner-Advanced Pottery Wheel Throwing",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317199273/",
+    "description": "Work on the pottery wheel independently, with instruction, or glaze your pieces! (See “Beginner-Advanced Pottery Wheel Throwing” for a 13+ offering) Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/adults-beginner-advanced-pottery-wheel Learn t...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317199273/",
+        "fetchedAt": "2026-11-16T07:09:38Z"
+      }
+    ]
+  },
+  {
+    "id": "6aa82260ef17",
+    "title": "The Boise Weekly Language Exchange (7+ languages represented weekly!)",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Jack's Urban Meeting Place",
+    "venueKey": "jacks-urban-meeting-place",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiselanguage/events/317342370/",
+    "description": "IMPORTANT: Going forward, we're now meeting from 6:00-8:00 PM rather than 6:30-8:30 PM. What's the Boise Weekly Language Exchange all about? Learning another language and looking to get some speaking practice in? Are you a native speaker of a non-English language interested in chatting with learn...",
+    "sources": [
+      {
+        "name": "meetup-boiselanguage",
+        "url": "https://www.meetup.com/boiselanguage/events/317342370/",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "755c1628cfba",
+    "title": "Unleash your Inner Grandmaster at The Reef!!",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T20:00:00-07:00",
+    "allDay": false,
+    "venue": "The Reef",
+    "venueKey": "the-reef",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/pawnsandpintsboise/events/317199274/",
+    "description": "We're heading to our new location at The Reef. Come join us for an awesome downtown atmosphere and a cool new venue. Boards and clocks are provided. All skill levels welcome and encouraged!",
+    "sources": [
+      {
+        "name": "meetup-pawnsandpintsboise",
+        "url": "https://www.meetup.com/pawnsandpintsboise/events/317199274/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "991922600c8a",
+    "title": "Friendsgiving",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Donnelly Library",
+    "venueKey": "donnelly-library",
+    "city": "Valley County",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://donnelly.lili.org/event/friendsgiving/",
+    "description": "The Donnelly Public Library Dinner with Friends Ask your child their favorite dish at the holidays and bring that to the table. We share the meaning of Thanksgiving and honor our ancestors and the land. EVERYONE is welcome! Dress warm, we dine outside.",
+    "sources": [
+      {
+        "name": "donnelly-library",
+        "url": "https://donnelly.lili.org/event/friendsgiving/",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "a321a4421cd5",
+    "title": "Trivia at White Dog Brewing (Boise location)",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "White Dog Brewing Co. - Boise",
+    "venueKey": "white-dog-brewing-co-boise",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "brewery",
+      "trivia"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/boise-introverts-who-want-to-mingle/events/317374889/",
+    "description": "Join the introverts for trivia! Questions range from sports to history to pop culture and everything in between - a little something for everyone. Trivia starts at 6:30, but I'm starting the event at 6:00 to give everyone time to settle in and order food and drink. Parking is free at Julia Davis...",
+    "sources": [
+      {
+        "name": "meetup-boise-introverts-who-want-to-mingle",
+        "url": "https://www.meetup.com/boise-introverts-who-want-to-mingle/events/317374889/",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "a6c1fdcd2896",
+    "title": "Guitar for Beginners with Mike",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Nampa Public Library",
+    "venueKey": "nampa-public-library",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://nampalibrary.libcal.com/event/15725348",
+    "description": "Interested in learning to play the guitar? Join volunteer Mike every Wednesday evening from 6-7pm. The weekly class is designed for ages 13 and older. You'll learn basic chords, how to prepare yourself, strumming patterns, and more. Bring your own guitar and lets have fun!",
+    "sources": [
+      {
+        "name": "nampa-public-library",
+        "url": "https://nampalibrary.libcal.com/event/15725348",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "cdac608bcdca",
+    "title": "Creative Writing Group",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/16502246",
+    "description": "Guest author Jacob Nordby is returning to work with us this night! He will be sharing insights on writing his book being released in October titled Acorn. Check out the beginning pages of his illustrated book, a story for all ages (click here). Jacob Nordby is a co-founder of Heal Create and The...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/16502246",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "d5c79ac1d328",
+    "title": "Weekly Language Exchange",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T20:00:00-07:00",
+    "allDay": false,
+    "venue": "JUMP",
+    "venueKey": "jump",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://jumpboise.org/events/weekly-language-exchange",
+    "sources": [
+      {
+        "name": "jump-boise",
+        "url": "https://jumpboise.org/events/weekly-language-exchange",
+        "fetchedAt": "2026-11-12T07:04:44Z"
+      }
+    ]
+  },
+  {
+    "id": "faea870ff5b5",
+    "title": "Boise Public Library Pokémon League",
+    "start": "2026-11-18T18:00:00-07:00",
+    "end": "2026-11-18T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15302327",
+    "description": "Come and play the Pokémon Trading Card Game with other Pokémon enthusiasts! A Pokémon League provides a nearby place for you to get together with other fans of the Pokémon Trading Card Game, and have some fun. Using your own cards (we will have some decks to borrow), you can play, trade, and even...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15302327",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "f54ceb88b30a",
+    "title": "🦃Thanksgiving Bunco 🦃",
+    "start": "2026-11-18T18:15:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Boran Lounge",
+    "venueKey": "boran-lounge",
+    "city": "Meridian",
+    "category": "holiday-seasonal",
+    "tags": [
+      "holiday-event"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.meetup.com/the-fun-seekers-connection/events/317331553/",
+    "description": "Thanksgiving Bunco! I will provide pumpkin pie and whip cream.. if you'd like to bring and appetizer or dish to share, please do! PLEASE EDIT YOUR RSVP IF YOU ARE UNABLE TO MAKE IT!!!! Come out and play BUNCO!! For those of you who have never played it's a VERY easy game, we'll teach you😁 it's l...",
+    "sources": [
+      {
+        "name": "meetup-the-fun-seekers-connection",
+        "url": "https://www.meetup.com/the-fun-seekers-connection/events/317331553/",
+        "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "03d3c24cea1c",
+    "title": "Pajama Storytime",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/17238104",
+    "description": "Put on your jammies, grab your stuffie, and head to the third floor of the Downtown Library for Pajama Storytime! We'll read books, dance, and have loads of fun! This program is designed for families and children ages 0-6.",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/pajama-storytime-3/2026-11-18/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      },
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/17238104",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ],
+    "costTier": "free"
+  },
+  {
+    "id": "2124dfd8a8c4",
+    "title": "Family Reading Night",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/17128727",
+    "description": "Join us for an evening of stories, crafts, snacks, and songs! As part of the annual Idaho Family Reading Week celebrations, there will be fun giveaways for all families who attend. All ages welcome!",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/17128727",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "6bfd60168dc3",
+    "title": "Practical Magic Society November Circle",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Library! at Hillcrest — Canyon Room",
+    "venueKey": "library-at-hillcrest-canyon-room",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/practical-magic-society-a-creative-social-club-for-women/events/316476802/",
+    "description": "Harvest has come and gone and now it’s time to give thanks for Mother Earth’s blessings. Join us in November to celebrate with your sisters, eat and drink, and craft a floral and crystal besom to protect your hearth. I will provide the necessary supplies unless our coven grows too large, then I m...",
+    "sources": [
+      {
+        "name": "meetup-practical-magic-society-a-creative-social-club-for-women",
+        "url": "https://www.meetup.com/practical-magic-society-a-creative-social-club-for-women/events/316476802/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "6da283c92724",
+    "title": "Good Death, Good Life Café at Victory Branch Library",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Victory Branch Library",
+    "venueKey": "victory-branch-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/ada-community-library/events/316161612/",
+    "description": "Join us for the Good Death / Good Life Café—a free monthly community gathering where we explore life, death, and everything in between. Based on the bestselling book The Good Death by Suzanne B. O’Brien RN, this event offers empowering insights, healing tools, and real conversations inspired by w...",
+    "sources": [
+      {
+        "name": "meetup-ada-community-library",
+        "url": "https://www.meetup.com/ada-community-library/events/316161612/",
+        "fetchedAt": "2026-11-12T07:04:44Z"
+      }
+    ]
+  },
+  {
+    "id": "7b64bc67cdcf",
+    "title": "Dreamweaver Film Labs: Art Department",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T20:30:00-07:00",
+    "allDay": false,
+    "venue": "JUMP",
+    "venueKey": "jump",
+    "city": "Boise",
+    "category": "arts-culture",
+    "tags": [
+      "film"
+    ],
+    "size": "M",
+    "url": "https://jumpboise.org/events/art-department-production-lab",
+    "sources": [
+      {
+        "name": "jump-boise",
+        "url": "https://jumpboise.org/events/art-department-production-lab",
+        "fetchedAt": "2026-11-12T07:04:44Z"
+      }
+    ]
+  },
+  {
+    "id": "b186a0f43a69",
+    "title": "English Conversation Club",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=MGJhNzk0MW9sc280ZmhxNTdvaGUxbG45MmtfMjAyNjExMTlUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Want a welcoming, fun place to practice speaking English? Join us for English Conversation Club! Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=MGJhNzk0MW9sc280ZmhxNTdvaGUxbG45MmtfMjAyNjExMTlUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      },
+      {
+        "name": "meetup-ada-community-library",
+        "url": "https://www.meetup.com/ada-community-library/events/317199227/",
+        "fetchedAt": "2026-11-11T04:05:13Z"
+      }
+    ]
+  },
+  {
+    "id": "b63f1ddcebab",
+    "title": "Waypoint : a meditative service for seekers",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Cathedral Of The Rockies",
+    "venueKey": "cathedral-of-the-rockies",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/waypoint-a-meditative-service-for-pilgrims/events/317199624/",
+    "description": "Join us at Waypoint, a meditative service for seekers of all traditions. Waypoint is a meditative service of music, prayer and silence. We gather in a candlelit chapel and begin with a sung call to prayer. A passage from a spiritual text is read and a few very brief remarks about the passage are...",
+    "sources": [
+      {
+        "name": "meetup-waypoint-a-meditative-service-for-pilgrims",
+        "url": "https://www.meetup.com/waypoint-a-meditative-service-for-pilgrims/events/317199624/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "c0f377742935",
+    "title": "Good Death Good Life",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Victory Branch",
+    "venueKey": "ada-community-library-victory-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=MGpkamNjZmQ3Nm52dHFjcTYxamlsc3I4aHZfMjAyNjExMTlUMDEzMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+    "sources": [
+      {
+        "name": "ada-library-victory",
+        "url": "https://www.google.com/calendar/event?eid=MGpkamNjZmQ3Nm52dHFjcTYxamlsc3I4aHZfMjAyNjExMTlUMDEzMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "f26670448dfe",
+    "title": "Weiser River Animal Shelter and Rescue",
+    "start": "2026-11-18T18:30:00-07:00",
+    "allDay": false,
+    "venue": "Weiser",
+    "venueKey": "weiser",
+    "city": "Weiser",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://signalamerican.com/content/weiser-river-animal-shelter-and-rescue-7",
+    "sources": [
+      {
+        "name": "signal-american",
+        "url": "https://signalamerican.com/content/weiser-river-animal-shelter-and-rescue-7",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "f4b194f036fa",
+    "title": "Pajama Storytime | Downtown Library!",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Main Library",
+    "venueKey": "boise-public-main-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "free-admission",
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/pajama-storytime-downtown-library-2/2026-11-18/",
+    "description": "Put on your jammies, grab your stuffie, and head to the third floor of the Downtown Library for Pajama Storytime! We’ll read books, dance, and have loads of fun! This program is designed for families and children ages 0-6.",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/pajama-storytime-downtown-library-2/2026-11-18/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "f97ac94cb7fb",
+    "title": "Building Beginner Watercolor Skills",
+    "start": "2026-11-18T18:30:00-07:00",
+    "end": "2026-11-18T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317199616/",
+    "description": "Keep growing your watercolor skills through brush control, blending, and new techniques! Age 14+ Ongoing, 1-day workshops (register for each separately): Biweekly Wednesdays, 6:30pm - 8:30pm. Beginner (with basic experience) - Intermediate Students Attendees must pre-register through this link: h...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317199616/",
+        "fetchedAt": "2026-11-16T07:09:38Z"
+      }
+    ]
+  },
+  {
+    "id": "6248a783834b",
+    "title": "Rock'n Bingo at Quinn's",
+    "start": "2026-11-18T19:00:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Quinn's Restaurant & Lounge",
+    "venueKey": "quinns-restaurant-and-lounge",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "bingo"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/conservative-genx-connect/events/317089962/",
+    "description": "1 0 0 5 V I S T A A V E N U E B O I S E I D A H O EASY PARKING BEHIND RESTAURANT Menu: https://quinnsrestaurant.com/current-menu/ Step into the spotlight with Game Night Live’s R0CK’N Bingo + Rockstar Trivia. This isn’t your average bingo night — it’s a full-blown rock show where the playlist bec...",
+    "sources": [
+      {
+        "name": "meetup-conservative-genx-connect",
+        "url": "https://www.meetup.com/conservative-genx-connect/events/317089962/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "707b66634499",
+    "title": "Pearl Django",
+    "start": "2026-11-18T19:00:00-07:00",
+    "end": "2026-11-18T21:15:00-07:00",
+    "allDay": false,
+    "venue": "The Riverside Hotel",
+    "venueKey": "the-riverside-hotel",
+    "city": "Garden City",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "url": "https://sapphiresocietyboise.com/events/pearldjangonov-a34l7",
+    "sources": [
+      {
+        "name": "riverside-hotel",
+        "url": "https://sapphiresocietyboise.com/events/pearldjangonov-a34l7",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "a88b15375923",
+    "title": "Adults' Beginner-Advanced Clay Handbuilding",
+    "start": "2026-11-18T19:00:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317199994/",
+    "description": "Handbuild clay pieces independently, with Cat Clay staff instruction, or glaze your pieces! (See “[Beginner-Advanced Pottery Handbuilding](https://www.catalystartscollaborative.com/service-page/beginner-advanced-pottery-handbuilding)” for a 13+ offering) Attendees must register through this link:...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317199994/",
+        "fetchedAt": "2026-11-16T07:09:38Z"
+      }
+    ]
+  },
+  {
+    "id": "aab87ab9d06d",
+    "title": "Conversations of Light",
+    "start": "2026-11-18T19:00:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Fred Meyer",
+    "venueKey": "fred-meyer",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317200143/",
+    "description": "The name says it all! Always in a good mood to talk about our journeys of spirit.",
+    "sources": [
+      {
+        "name": "meetup-beings-of-light-and-coffee",
+        "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317200143/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "ae0f322d368f",
+    "title": "Weekly Board Game Night",
+    "start": "2026-11-18T19:00:00-07:00",
+    "end": "2026-11-18T22:00:00-07:00",
+    "allDay": false,
+    "venue": "Phoenix Fire Games",
+    "venueKey": "phoenix-fire-games",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/317200203/",
+    "description": "Each Wednesday is open play Board Game night! Try out new games or bring your favorites to play in a casual, open play space.",
+    "sources": [
+      {
+        "name": "meetup-boiseareaboardgameenthusiasts",
+        "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/317200203/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "be87c895a525",
+    "title": "Paint Nite",
+    "start": "2026-11-18T19:00:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Amsterdam Lounge",
+    "venueKey": "amsterdam-lounge",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://tinyurl.com/y8v52twy",
+    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://tinyurl.com/y8v52twy",
+        "fetchedAt": "2026-11-19T07:04:58Z"
+      }
+    ]
+  },
+  {
+    "id": "ce6fb59b036b",
+    "title": "Trivia with Geeks Who Drink",
+    "start": "2026-11-18T19:00:00-07:00",
+    "end": "2026-11-18T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Brewing",
+    "venueKey": "boise-brewing",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "trivia"
+    ],
+    "size": "S",
+    "url": "http://boisebrewing.com",
+    "description": "Join us every Wednesday in the Boise Brewing taproom for trivia with Geeks Who Drink, hosted by Professor Truman. Stretch those brain muscles and test your knowledge of random trivia facts, including music and film clip rounds! Plus, you have a chance to win beer in every round! Top 3 finishing t...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "http://boisebrewing.com",
+        "fetchedAt": "2026-11-18T07:05:17Z"
+      }
+    ]
+  },
+  {
+    "id": "fb5e2d1e9f55",
+    "title": "We-Dance-Day: Swing Dancing at The Farm",
+    "start": "2026-11-18T19:00:00-07:00",
+    "end": "2026-11-18T22:00:00-07:00",
+    "allDay": false,
+    "venue": "The Farm",
+    "venueKey": "the-farm",
+    "city": "Garden City",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317200233/",
+    "description": "You asked for another night of country swing dancing and we agree!! Join us at The Farm every Wednesday for Swing Dance lesson and social dancing! Doors Open at 7pm Lesson starts at 7:30pm with Dirt Road Dancing Social dancing from 9pm to 11pm. No experience necessary. The Farm is an Alcohol Free...",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317200233/",
+        "fetchedAt": "2026-11-13T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "37762b513629",
+    "title": "Idaho Steelheads vs. Maine Mariners",
+    "start": "2026-11-18T19:10:00-07:00",
+    "allDay": false,
+    "venue": "Idaho Central Arena",
+    "venueKey": "idaho-central-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "hockey"
+    ],
+    "size": "L",
+    "url": "https://www.mikebrowngroup.com/event/idaho-steelheads-vs-maine-mariners/",
+    "description": "The Idaho Steelheads host the Maine Mariners at Idaho Central Arena on Wednesday, November 18. Doors at 6:15 PM, puck drop at 7:10 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/idaho-steelheads-vs-maine-mariners/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "568b38c8d8ad",
+    "title": "Maine Mariners @ Idaho Steelheads",
+    "start": "2026-11-18T19:10:00-07:00",
+    "end": "2026-11-18T22:10:00-07:00",
+    "allDay": false,
+    "venue": "Idaho Central Arena",
+    "venueKey": "idaho-central-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "hockey"
+    ],
+    "size": "L",
+    "url": "https://idahosteelheads.com/games/2026/11/18/maine-mariners",
+    "sources": [
+      {
+        "name": "idaho-steelheads",
+        "url": "https://idahosteelheads.com/games/2026/11/18/maine-mariners",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/idaho-steelheads-vs-maine-mariners/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "visit-boise",
+        "url": "https://idahosteelheads.com/",
+        "fetchedAt": "2026-11-19T07:04:58Z"
+      }
+    ],
+    "description": "Catch the Idaho Steelheads in ECHL professional hockey at Idaho Central Arena, their downtown Boise home. A game brings fast-paced ice action as the team competes on home ice, with the crowd following the play from the arena stands. The Steelheads are an established part of Boise’s sports scene a..."
+  },
+  {
+    "id": "f61f457e706d",
+    "title": "Deep Heaven, Glass Egg, Blanket Ghost",
+    "start": "2026-11-18T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Neurolux",
+    "venueKey": "neurolux",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$",
+    "url": "https://www.ticketweb.com/event/deep-heaven-glass-egg-blanket-neurolux-lounge-tickets/14391114",
+    "sources": [
+      {
+        "name": "neurolux",
+        "url": "https://www.ticketweb.com/event/deep-heaven-glass-egg-blanket-neurolux-lounge-tickets/14391114",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "ticketmaster-metro",
+        "url": "https://www.ticketweb.com/event/deep-heaven-glass-egg-blanket-neurolux-lounge-tickets/14391114",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      }
+    ]
+  },
+  {
+    "id": "15c451141060",
+    "title": "Karaoke in the Basement! (21+)",
+    "start": "2026-11-18T22:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "karaoke"
+    ],
+    "size": "M",
+    "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
+    "sources": [
+      {
+        "name": "shrine-social-club",
+        "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
+        "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
   }
 ]
