@@ -34286,6 +34286,30 @@
     ]
   },
   {
+    "id": "423cf768e094",
+    "title": "Distillery Tour",
+    "start": "2026-11-20T11:00:00-07:00",
+    "end": "2026-11-20T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Bardenay Distilling Co.",
+    "venueKey": "bardenay-distilling-co",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "brewery"
+    ],
+    "size": "S",
+    "url": "https://www.bardenaydistilling.com/",
+    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.bardenaydistilling.com/",
+        "fetchedAt": "2026-11-20T07:04:43Z"
+      }
+    ]
+  },
+  {
     "id": "88ffcce526f7",
     "title": "Top Hat Studio's Collaborative Theater Club",
     "start": "2026-11-20T11:00:00-07:00",
@@ -34372,6 +34396,28 @@
         "name": "mountain-home-library",
         "url": "https://mhlibrary.libcal.com/event/15876930",
         "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "29e49267311d",
+    "title": "Sip2Give: The Jae Foundation",
+    "start": "2026-11-20T12:00:00-07:00",
+    "end": "2026-11-20T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Telaya Wine Co.",
+    "venueKey": "telaya-wine-co",
+    "city": "Garden City",
+    "category": "food-drink",
+    "tags": [],
+    "size": "S",
+    "url": "https://telayawine.com/event/sip2give-the-jae-foundation/",
+    "description": "The Jae Foundation promotes mental health awareness, suicide prevention and healing for suicide loss survivors. We hope that you can join us as we donate 10% of all retail sales in the tasting room and online. For more information on this incredible organization, please click here .",
+    "sources": [
+      {
+        "name": "telaya-wine",
+        "url": "https://telayawine.com/event/sip2give-the-jae-foundation/",
+        "fetchedAt": "2026-11-19T07:04:58Z"
       }
     ]
   },
@@ -34956,6 +35002,120 @@
     ]
   },
   {
+    "id": "22f4e91a5ea8",
+    "title": "Skosh + Glutonia = Wine & Pizza Nights!",
+    "start": "2026-11-20T17:00:00-07:00",
+    "end": "2026-11-20T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Skosh Wine Bar",
+    "venueKey": "skosh-wine-bar",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://skoshwinebar.com/events",
+    "description": "Pizza + Wine Nights, Thursdays through Saturdays Every Thursday, Friday, and Saturday, Skosh Wine Bar teams up with Glutonia next door for Pizza + Wine Nights. Order a pie from Glutonia's pizzaiolo, pepperoni with arugula, four cheese, margarita, or the rotating chef's choice, and it gets deliver...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://skoshwinebar.com/events",
+        "fetchedAt": "2026-11-20T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "01e0e7dfdd52",
+    "title": "Paint & Sip 6:00PM (Moonstruck Creations)",
+    "start": "2026-11-20T17:30:00-07:00",
+    "end": "2026-11-20T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Victory Gardens Nursery",
+    "venueKey": "victory-gardens-nursery",
+    "city": "Meridian",
+    "category": "learning-business",
+    "tags": [
+      "workshop"
+    ],
+    "size": "S",
+    "url": "https://boisemom.com/event/paint-sip-600pm-moonstruck-creations/2026-11-20/",
+    "description": "Celebrate the colors of summer inside the beautiful greenhouse at Victory Gardens in this cozy, beginner-friendly watercolor workshop. Enjoy step-by-step instruction, all painting supplies, mocktails and hot drinks, and a grazing-style charcuterie spread—everything you need for a relaxed, creativ...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/paint-sip-600pm-moonstruck-creations/2026-11-20/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "3fa30b9ed43f",
+    "title": "Spin Jams: Flow Arts Gatherings",
+    "start": "2026-11-20T17:30:00-07:00",
+    "end": "2026-11-20T19:30:00-07:00",
+    "allDay": false,
+    "venue": "JUMP",
+    "venueKey": "jump",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://jumpboise.org/events/spin-jams-fridays",
+    "sources": [
+      {
+        "name": "jump-boise",
+        "url": "https://jumpboise.org/events/spin-jams-fridays",
+        "fetchedAt": "2026-11-14T07:04:21Z"
+      }
+    ]
+  },
+  {
+    "id": "7d26b05fce09",
+    "title": "Y12SR Yoga of 12 Step Recovery Meeting",
+    "start": "2026-11-20T17:30:00-07:00",
+    "end": "2026-11-20T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Yoga Tree of Boise",
+    "venueKey": "yoga-tree-of-boise",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/y12sr-45-min-12-step-meeting-with-45-min-yoga-practices/events/316462221/",
+    "description": "Location: Yoga Tree of Boise, 1674 W Hill Rd, Boise, ID 83702 Y12SR Yoga is a 12-step recovery based discussion and yoga practice that is open to anyone and everyone dealing with their own addictive behavior or affected by the addictive behavior of others. This is an open and inclusive group. All...",
+    "sources": [
+      {
+        "name": "meetup-y12sr-45-min-12-step-meeting-with-45-min-yoga-practices",
+        "url": "https://www.meetup.com/y12sr-45-min-12-step-meeting-with-45-min-yoga-practices/events/316462221/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "e0ca2ad3f6ff",
+    "title": "Friday Night Singo Game",
+    "start": "2026-11-20T17:30:00-07:00",
+    "end": "2026-11-20T19:00:00-07:00",
+    "allDay": false,
+    "venue": "McCall area",
+    "venueKey": "mccall-area",
+    "city": "Valley County",
+    "category": "community-civic",
+    "tags": [
+      "family-friendly"
+    ],
+    "size": "S",
+    "url": "https://visitmccall.org/event/friday-night-singo-game/",
+    "description": "Join us for an exciting new game night at Tamarack Resort! Singo is just like Bingo but with music! Each round is played like traditional Bingo except the spaces you are trying to fill on your Singo card are songs and you can cross off the space when the corresponding song is played. This game ni...",
+    "sources": [
+      {
+        "name": "visit-mccall",
+        "url": "https://visitmccall.org/event/friday-night-singo-game/",
+        "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
     "id": "0ae03d6777a0",
     "title": "Comeback Kid",
     "start": "2026-11-20T18:00:00-07:00",
@@ -34983,5 +35143,320 @@
     ],
     "description": "Comeback Kid plays Shrine Social Club’s Ballroom on Friday, November 20, with The Warriors, Dead Heat, and Time x Heist. Doors at 6 PM.",
     "costTier": "$$"
+  },
+  {
+    "id": "3b78183c9a67",
+    "title": "Movie Night | West YMCA",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Various Treasure Valley locations",
+    "venueKey": "various-treasure-valley",
+    "category": "arts-culture",
+    "tags": [
+      "family-friendly",
+      "film"
+    ],
+    "size": "S",
+    "url": "https://boisemom.com/event/movie-night-west-ymca/",
+    "description": "Grab your blankets, bring the family, and enjoy a family-friendly movie at the Y! Sit back, relax, and make memories together with popcorn and a great film. November 20, 2026 6:00 pm – 8:00 pm West Boise YMCA",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/movie-night-west-ymca/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ],
+    "city": "Boise"
+  },
+  {
+    "id": "5262eba062ca",
+    "title": "Buckhorn Vineyards – Paint and Sip Class",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Idaho wineries",
+    "venueKey": "idaho-wineries",
+    "category": "food-drink",
+    "tags": [],
+    "size": "S",
+    "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class/",
+    "description": "Home @ Paint and Sip Class Hosted by Angry Easel on Friday, November, 20th from 6:00PM to 8:30PM. Click here for tickets.",
+    "sources": [
+      {
+        "name": "idaho-wine-commission",
+        "url": "https://idahowines.org/event/buckhorn-vineyards-paint-and-sip-class/",
+        "fetchedAt": "2026-11-09T20:49:46Z"
+      }
+    ],
+    "city": "Eagle"
+  },
+  {
+    "id": "acb963293df9",
+    "title": "Family Clay Night",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317230153/",
+    "description": "Drop the kids off for intentional, guided practice on the pottery wheel, or stay & play too! Ages 8+ Ongoing: Fridays, 6:00pm - 8:00pm. Ages 8-Adult (Parents welcome!) Attendees must pre-register here: https://www.catalystartscollaborative.com/service-page/family-clay-night-ages-8-fri-6pm-1 This...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317230153/",
+        "fetchedAt": "2026-11-19T07:04:58Z"
+      }
+    ]
+  },
+  {
+    "id": "c67661672566",
+    "title": "Open Mic Night",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Mountain Home Public Library",
+    "venueKey": "mountain-home-public-library",
+    "city": "Mountain Home",
+    "category": "music",
+    "tags": [
+      "family-friendly",
+      "open-mic"
+    ],
+    "size": "M",
+    "url": "https://mhlibrary.libcal.com/event/16056366",
+    "description": "The Mountain Home Public Library and the Literary Committee of the Mountain Home Arts Council have teamed up to bring you free Open Mic Nights at the library hosted by local singer/songwriter, Billy Splash! Writers, poets, singer/songwriters, comedians, and other performing artists are invited to...",
+    "sources": [
+      {
+        "name": "mountain-home-library",
+        "url": "https://mhlibrary.libcal.com/event/16056366",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "26fd927c9b8f",
+    "title": "Friendsgiving Teen Afterhours Party (permission slip required)",
+    "start": "2026-11-20T18:15:00-07:00",
+    "end": "2026-11-20T19:45:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Victory Branch",
+    "venueKey": "ada-community-library-victory-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NnIzajZmYWdqaGZtbHU0MnQ2MjIyMjFtOGlfMjAyNjExMThUMjMzMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+    "sources": [
+      {
+        "name": "ada-library-victory",
+        "url": "https://www.google.com/calendar/event?eid=NnIzajZmYWdqaGZtbHU0MnQ2MjIyMjFtOGlfMjAyNjExMThUMjMzMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-14T07:04:21Z"
+      }
+    ]
+  },
+  {
+    "id": "4334e80bc1ae",
+    "title": "Candlelight: Tribute to Fleetwood Mac – Boise",
+    "start": "2026-11-20T18:30:00-07:00",
+    "end": "2026-11-20T20:30:00-07:00",
+    "allDay": false,
+    "venue": "First Presbyterian Church of Boise",
+    "venueKey": "first-presbyterian-church-of-boise",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.findtick.com/tickets/8238900/candlelight-tribute-to-fleetwood-mac-boise-tickets-fri-nov-20-2026-first-presbyterian-church-of-boise?utm_source=citiesevent",
+    "description": "Join us for an enchanting evening at the **Candlelight: Tribute to Fleetwood Mac - Boise**, where the timeless melodies of one of rock's most beloved bands come to life in a stunning candlelit setting. Set against the backdrop of the First Presbyterian Church of Boise, this unique concert experie...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.findtick.com/tickets/8238900/candlelight-tribute-to-fleetwood-mac-boise-tickets-fri-nov-20-2026-first-presbyterian-church-of-boise?utm_source=citiesevent",
+        "fetchedAt": "2026-11-20T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "9ec291970bf7",
+    "title": "Warren Miller’s – Days Off",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Bogus Basin",
+    "venueKey": "bogus-basin",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "url": "https://bogusbasin.org/event/warren-millers-days-off-11-20-26/",
+    "description": "Warren Miller’s – days off | Friday Night Premiere @ Winter’s greatest tradition is back! Join us for the Boise premiere of Warren Miller’s 77th feature film, Days Off , as we celebrate the return of snow season and the pure, unscripted joy of mountain culture. This year, the legend takes a breat...",
+    "sources": [
+      {
+        "name": "bogus-basin",
+        "url": "https://bogusbasin.org/event/warren-millers-days-off-11-20-26/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/warren-millers-days-off-2/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "af6d936b7e68",
+    "title": "Warren Miller’s DAYS OFF",
+    "start": "2026-11-20T19:00:00-07:00",
+    "allDay": false,
+    "venue": "The Egyptian Theatre",
+    "venueKey": "the-egyptian-theatre",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "url": "https://www.mikebrowngroup.com/event/warren-millers-days-off-2/",
+    "description": "Warren Miller’s annual ski film, DAYS OFF, screens at The Egyptian Theatre. Showtimes: Thu Nov 19 at 7 PM, Fri Nov 20 at 7 PM, and Sat Nov 21 at 4 PM and 7:30 PM. All ages.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/warren-millers-days-off-2/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "dc48ca15e1ac",
+    "title": "Throes",
+    "start": "2026-11-20T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "url": "https://link.dice.fm/e27ee901f142",
+    "sources": [
+      {
+        "name": "shrine-social-club",
+        "url": "https://link.dice.fm/e27ee901f142",
+        "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "6d3cee95a5ca",
+    "title": "A Christmas Carol",
+    "start": "2026-11-20T19:30:00-07:00",
+    "end": "2026-11-20T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Danny Peterson Theatre",
+    "venueKey": "danny-peterson-theatre",
+    "city": "Boise",
+    "category": "arts-culture",
+    "tags": [
+      "theater"
+    ],
+    "size": "M",
+    "url": "https://events.boisestate.edu/event/a-christmas-carol",
+    "description": "“A CHRISTMAS CAROL” By Charles Dickens Stage Adaptation by Gordon Reinhart A new Treasure Valley holiday tradition begins this season. Be among the first to experience the world premiere of A Christmas Carol: In Prose, Being a Ghost Story of Christmas by Charles Dickens, adapted for the stage by...",
+    "sources": [
+      {
+        "name": "boise-state-arts",
+        "url": "https://events.boisestate.edu/event/a-christmas-carol",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "danny-peterson-theatre",
+        "url": "https://www.ticketmaster.com/boise-state-theatre-arts-presents-a-boise-idaho-11-20-2026/event/1E006504A792ACAD",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "c6d851b0e65e",
+    "title": "Boise State Theatre Arts Presents A Christmas Carol",
+    "start": "2026-11-20T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Danny Peterson Theatre",
+    "venueKey": "danny-peterson-theatre",
+    "city": "Boise",
+    "category": "performing-arts",
+    "tags": [
+      "theater"
+    ],
+    "size": "M",
+    "url": "https://www.ticketmaster.com/boise-state-theatre-arts-presents-a-boise-idaho-11-20-2026/event/1E006504A792ACAD",
+    "description": "-Seating is general admission (first come-first served). -Everyone through the door, regardless of age, requires a ticket. -Guests who arrive late will be seated at the discretion of Management. In some instances late seating will not be allowed. -The Morrison Center reserves the right to search...",
+    "sources": [
+      {
+        "name": "danny-peterson-theatre",
+        "url": "https://www.ticketmaster.com/boise-state-theatre-arts-presents-a-boise-idaho-11-20-2026/event/1E006504A792ACAD",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "211ef3ac3072",
+    "title": "Scott Bradlee's Postmodern Jukebox - The Future Is Vintage World Tour",
+    "start": "2026-11-20T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Knitting Factory",
+    "venueKey": "knitting-factory",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "L",
+    "url": "https://www.ticketmaster.com/scott-bradlees-postmodern-jukebox-the-future-boise-idaho-11-20-2026/event/1E00649DD5316DB3",
+    "sources": [
+      {
+        "name": "knitting-factory-boise",
+        "url": "https://www.ticketmaster.com/scott-bradlees-postmodern-jukebox-the-future-boise-idaho-11-20-2026/event/1E00649DD5316DB3",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/scott-bradlees-postmodern-jukebox-the-future-is-vintage-world-tour/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ],
+    "description": "Scott Bradlee’s Postmodern Jukebox brings The Future Is Vintage World Tour to Knitting Factory on Friday, November 20. Doors at 7 PM, show at 8 PM. All ages."
+  },
+  {
+    "id": "24c523720435",
+    "title": "Switchfoot with special guest Anberlin - Forever Now Tour",
+    "start": "2026-11-20T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Revolution Concert House",
+    "venueKey": "revolution-concert-house",
+    "city": "Garden City",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "L",
+    "url": "https://www.ticketmaster.com/switchfoot-with-special-guest-anberlin-forever-garden-city-idaho-11-20-2026/event/1E0064A6B66ED25C",
+    "description": "All ages, Standing room only, Full bar with ID. VIP Lounge is 21+ includes Access to viewing balcony, private bar, private restrooms, seating is first come first served, not included in VIP Package Offers. All support acts are subject to change without notice.",
+    "sources": [
+      {
+        "name": "revolution-concert-house",
+        "url": "https://www.ticketmaster.com/switchfoot-with-special-guest-anberlin-forever-garden-city-idaho-11-20-2026/event/1E0064A6B66ED25C",
+        "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
   }
 ]
