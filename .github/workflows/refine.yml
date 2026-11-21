@@ -1,21 +1,18 @@
 # Nightly refine, stage 2 of 2: turns data/raw-events.json into the files the site reads and
 # commits them, which deploys the site. The work is the shared code's reusable workflow
-# (github.com/rhundhausen/weekend, .github/workflows/refine.yml); this file holds only the triggers.
+# (github.com/rhundhausen/weekend, .github/workflows/refine.yml); this file holds only the triggers: after the scheduled ingest, or by hand.
 
 name: refine
 
 on:
-  # Every completed ingest run on main, scheduled or manual. The core skips the runs whose ingest
-  # job never started (the cron line that isn't midnight in the city).
+  # Right after the scheduled midnight ingest (the job below skips manual ingest runs). The core
+  # also skips the run whose ingest job never started (the cron line that isn't midnight in the
+  # city). Nothing starts refine on a push.
   workflow_run:
     workflows: [ingest]
     types: [completed]
     branches: [main]
-  # A raw file pushed from a PC by the core's Invoke-LocalIngest.ps1. The nightly ingest's own
-  # push never starts this, because pushes made with a workflow's GITHUB_TOKEN start no workflows.
-  push:
-    branches: [main]
-    paths: [data/raw-events.json]
+  # By hand, from Actions > refine > Run workflow (Invoke-LocalIngest.ps1 starts one this way).
   workflow_dispatch:
     inputs:
       skip_link_check:
@@ -40,6 +37,8 @@ concurrency:
 
 jobs:
   nightly:
+    # A manual ingest runs alone; only the scheduled one is followed by refine.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.event == 'schedule'
     uses: rhundhausen/weekend/.github/workflows/refine.yml@main
     with:
       skip_link_check: ${{ inputs.skip_link_check || false }}
