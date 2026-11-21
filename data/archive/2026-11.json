@@ -24135,6 +24135,28 @@
     "end": "2026-11-15T23:00:00-07:00"
   },
   {
+    "id": "28eb055e533c",
+    "title": "Stuffed Animal Drive",
+    "start": "2026-11-16",
+    "end": "2026-11-20",
+    "allDay": true,
+    "venue": "Drop off at Emmett Police Department",
+    "venueKey": "drop-off-at-emmett-police-department",
+    "city": "Emmett",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://business.emmettidaho.com/events/details/stuffed-animal-drive-17346",
+    "description": "Stuffed Animal Drive (Senior Project)",
+    "sources": [
+      {
+        "name": "gem-county-chamber",
+        "url": "https://business.emmettidaho.com/events/details/stuffed-animal-drive-17346",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ]
+  },
+  {
     "id": "6b4682a397e2",
     "title": "Homeschool Days: November 16th, 2026",
     "start": "2026-11-16",
@@ -33791,6 +33813,54 @@
     ]
   },
   {
+    "id": "14010abc8c1a",
+    "title": "Winter Wonderland Festival",
+    "start": "2026-11-20",
+    "allDay": true,
+    "venue": "City of Caldwell",
+    "venueKey": "city-of-caldwell",
+    "city": "Caldwell",
+    "category": "festivals",
+    "tags": [
+      "festival"
+    ],
+    "size": "L",
+    "url": "https://www.cityofcaldwell.org/City-Calendar/Winter-Wonderland-Festival",
+    "sources": [
+      {
+        "name": "city-of-caldwell",
+        "url": "https://www.cityofcaldwell.org/City-Calendar/Winter-Wonderland-Festival",
+        "fetchedAt": "2026-11-10T07:04:42Z"
+      }
+    ]
+  },
+  {
+    "id": "fc2696d19618",
+    "title": "Free 4×6 Santa Photo | Cabela’s Boise",
+    "start": "2026-11-20",
+    "allDay": true,
+    "venue": "Cabela’s",
+    "venueKey": "cabelas",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "free-admission",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-20/",
+    "description": "Choose your free photo appointment with Santa Appointments are available 1 week from the current day. All new appointments are released at 12:01 AM for the next available day. If all slots show UNAVAILABLE this means all bookings have been reserved for those dates and times. Please try again late...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-20/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
     "id": "9f2817bd1a7a",
     "title": "Candlelight: Coldplay & Imagine Dragons",
     "start": "2026-11-20T08:00:00-07:00",
@@ -34670,6 +34740,32 @@
     ]
   },
   {
+    "id": "8e22707087b3",
+    "title": "Winter Skate at The Village",
+    "start": "2026-11-20T15:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "The Village",
+    "venueKey": "the-village",
+    "city": "Meridian",
+    "category": "sports",
+    "tags": [
+      "family-friendly",
+      "holiday-event",
+      "ice-skating"
+    ],
+    "size": "M",
+    "url": "https://boisemom.com/event/winter-skate-at-the-village-2/2026-11-20/",
+    "description": "Ice Skating at The Village Rink! November 14th-January 19th (weather permitting) HOURS: Mon-Fri 3-9pm Saturday 12-9pm Sunday 12-6pm HOLIDAY HOURS: November 19th – Closed for Tree Lighting Thanksgiving – 12-6pm Christmas Eve – 12-6pm Christmas CLOSED Extended Hours during Thanksgiving & Christmas...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/winter-skate-at-the-village-2/2026-11-20/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
     "id": "a18e8ef5fb32",
     "title": "Open Studios: MOVE Studio",
     "start": "2026-11-20T15:00:00-07:00",
@@ -34969,14 +35065,14 @@
     ],
     "size": "M",
     "url": "https://nnusports.com/calendar.aspx?game_id=9641&sport_id=2",
-    "description": "Streaming Video: https://www.gnacnetwork.com/nnunighthawks/",
     "sources": [
       {
         "name": "nnu-athletics",
         "url": "https://nnusports.com/calendar.aspx?game_id=9641&sport_id=2",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
-    ]
+    ],
+    "description": "ASU def. UAF 79-77 Streaming Video: https://www.gnacnetwork.com/nnunighthawks/"
   },
   {
     "id": "1d0645764dfa",
@@ -35021,6 +35117,59 @@
         "name": "visit-boise",
         "url": "https://skoshwinebar.com/events",
         "fetchedAt": "2026-11-20T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "8dbad26b8289",
+    "title": "Indian Creek Plaza Ice Skating",
+    "start": "2026-11-20T17:00:00-07:00",
+    "end": "2026-11-20T22:30:00-07:00",
+    "allDay": false,
+    "venue": "Indian Creek Plaza",
+    "venueKey": "indian-creek-plaza",
+    "city": "Caldwell",
+    "category": "sports",
+    "tags": [
+      "christmas-lights",
+      "family-friendly",
+      "holiday-event",
+      "ice-skating",
+      "kids"
+    ],
+    "size": "M",
+    "costTier": "$",
+    "url": "https://boisemom.com/event/indian-creek-plaza-ice-skating/",
+    "description": "Experience the magic of winter at Indian Creek Plaza’s one-of-a-kind Ice Ribbon! For questions regarding ice skating, please call: Lactalis Skate Shoppe (208) 800-9032 THE 2026-2027 SKATE SEASON OPENS NOVEMBER 20, 2026! Reserve your skate sessions for the 2026–27 season now! Tickets fill up quick...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/indian-creek-plaza-ice-skating/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "cc5e7680eacc",
+    "title": "Magic the Gathering: Commander League | Fridays At ABU Games",
+    "start": "2026-11-20T17:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317228291/",
+    "description": "Welcome to Friday Night Commander League at ABU Games! A Magic the Gathering event devoted entirely to Commander Format! Prize support uses a raffle system where you earn up to three tickets in the evening. One ticket is automatically earned for registering. Additional tickets are earned through...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317228291/",
+        "fetchedAt": "2026-11-18T07:05:17Z"
       }
     ]
   },
@@ -35145,6 +35294,73 @@
     "costTier": "$$"
   },
   {
+    "id": "1e1add3d012e",
+    "title": "Winter Wonderland Festival",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Indian Creek Plaza",
+    "venueKey": "indian-creek-plaza",
+    "city": "Caldwell",
+    "category": "festivals",
+    "tags": [
+      "christmas-lights",
+      "family-friendly",
+      "festival",
+      "holiday-event",
+      "santa"
+    ],
+    "size": "M",
+    "url": "https://indiancreekplaza.com/calendar/2026/11/20/winter-wonderland-festival",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/winter-wonderland-festival/2026-11-20/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      },
+      {
+        "name": "curbside-books",
+        "url": "https://www.curbsidebooks.com/pages/events",
+        "fetchedAt": "2026-11-19T07:04:58Z"
+      },
+      {
+        "name": "indian-creek-plaza",
+        "url": "https://indiancreekplaza.com/calendar/2026/11/20/winter-wonderland-festival",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/winter-wonderland-festival-2026/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ],
+    "costTier": "free",
+    "description": "WINTER WONDERLAND FESTIVAL Friday, Saturday, & Sunday | November 20-22, 6-9 PM ONE-MILLION LIGHTS | SHOPPING | SANTA | ICE-SKATING | + MORE! Experience Downtown Caldwell that looks like it turned into a scene in a Hallmark movie… just glowing. More details will drop soon so check back for up to d..."
+  },
+  {
+    "id": "204cf306e3a6",
+    "title": "Curbside Books pop-up: Indian Creek Plaza Winter Wonderland",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Indian Creek Plaza",
+    "venueKey": "indian-creek-plaza",
+    "city": "Caldwell",
+    "category": "markets-shopping",
+    "tags": [],
+    "size": "M",
+    "costTier": "free",
+    "url": "https://www.curbsidebooks.com/pages/events",
+    "description": "Trolley Parton rolls up with a fresh stock of books for Indian Creek Plaza Winter Wonderland, and you're welcome to come by and browse.",
+    "sources": [
+      {
+        "name": "curbside-books",
+        "url": "https://www.curbsidebooks.com/pages/events",
+        "fetchedAt": "2026-11-19T07:04:58Z"
+      }
+    ]
+  },
+  {
     "id": "3b78183c9a67",
     "title": "Movie Night | West YMCA",
     "start": "2026-11-20T18:00:00-07:00",
@@ -35217,6 +35433,32 @@
     ]
   },
   {
+    "id": "ad2c8c6b8426",
+    "title": "Festival of Trees - Rockin' Around the Christmas Tree Dance",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Gem County Fair Grounds",
+    "venueKey": "gem-county-fair-grounds",
+    "city": "Emmett",
+    "category": "holiday-seasonal",
+    "tags": [
+      "family-friendly",
+      "festival",
+      "tree-lighting"
+    ],
+    "size": "L",
+    "url": "https://business.emmettidaho.com/events/details/festival-of-trees-rockin-around-the-christmas-tree-dance-17336",
+    "description": "Dance Amongst the Trees! Join us for the Gem County Festival of Trees on Friday, November 20, from 6:00-9:00PM for an evening of music, food, drinks, and holiday fun! Live Music: Almost Famous Band Drinks: Tonic Food: A variety of delicious food trucks This is a family-friendly, ticketed event, s...",
+    "sources": [
+      {
+        "name": "gem-county-chamber",
+        "url": "https://business.emmettidaho.com/events/details/festival-of-trees-rockin-around-the-christmas-tree-dance-17336",
+        "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
     "id": "c67661672566",
     "title": "Open Mic Night",
     "start": "2026-11-20T18:00:00-07:00",
@@ -35238,6 +35480,31 @@
         "name": "mountain-home-library",
         "url": "https://mhlibrary.libcal.com/event/16056366",
         "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "d99d7f9ca646",
+    "title": "November Night Tours 2026",
+    "start": "2026-11-20T18:00:00-07:00",
+    "end": "2026-11-20T22:00:00-07:00",
+    "allDay": false,
+    "venue": "Old Idaho Penitentiary",
+    "venueKey": "old-idaho-penitentiary",
+    "city": "Boise",
+    "category": "arts-culture",
+    "tags": [
+      "free-admission"
+    ],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://history.idaho.gov/event/nighttours2026-412/",
+    "description": "Visit the Old Idaho Penitentiary during one of our final 2026 opportunities for evening exploration this November! Night Tours are Friday, November 13 and 20, 6:00 pm-10:00 pm (last admission 9:00 pm). Idaho State Historical Society Members receive free admission to November Night Tours as well!...",
+    "sources": [
+      {
+        "name": "idaho-history",
+        "url": "https://history.idaho.gov/event/nighttours2026-412/",
+        "fetchedAt": "2026-11-03T17:00:01Z"
       }
     ]
   },
@@ -35285,6 +35552,181 @@
     ]
   },
   {
+    "id": "2cde0498ecf9",
+    "title": "Not Your Granny’s Square Dance",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Idaho Outdoor Association Hall",
+    "venueKey": "idaho-outdoor-association-hall",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.facebook.com/search/top?q=boise%20old%20time",
+    "description": "Not Your Granny's Square Dance on November 20, 2026! The fantastic band, River City Rounders, will be playing the hot tunes Fun loving callers will teach and call the dances All dances will be taught just before each one is danced. Beginner friendly, no experience, partner or special attire neede...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.facebook.com/search/top?q=boise%20old%20time",
+        "fetchedAt": "2026-11-21T07:04:33Z"
+      }
+    ]
+  },
+  {
+    "id": "366a930cf123",
+    "title": "Boise State University Men's Basketball vs Sam Houston",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "ExtraMile Arena",
+    "venueKey": "extramile-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "XL",
+    "url": "https://admin.broncosports.com/calendar.aspx?game_id=23271&sport_id=4",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/boise-state-mens-basketball-game/2026-11-20/",
+        "fetchedAt": "2026-11-03T17:00:01Z"
+      },
+      {
+        "name": "boise-state-athletics",
+        "url": "https://admin.broncosports.com/calendar.aspx?game_id=23271&sport_id=4",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "extramile-arena",
+        "url": "https://www.ticketmaster.com/boise-state-broncos-mens-basketball-vs-boise-idaho-11-20-2026/event/1E006557EC37A4FB",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "visit-boise",
+        "url": "https://broncosports.com/sports/mens-basketball",
+        "fetchedAt": "2026-11-21T07:04:33Z"
+      }
+    ],
+    "description": "Home game schedule here: https://gotickets.com/boise-state-broncos-mens-basketball-tickets?utm_medium=cpc&utm_source=google&tid=kwd-300993523873&agid=202260866140&cid=24399799847&int=&pres=9191083&network=g&gad_source=1&gad_campaignid=24399799847&gbraid=0AAAAAqsaoUSrjJzlELmGYiaACBV4jFcBi&gclid=Cj..."
+  },
+  {
+    "id": "3a7bf5c7bf2c",
+    "title": "Bold Beginnings",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T22:00:00-07:00",
+    "allDay": false,
+    "venue": "JUMP",
+    "venueKey": "jump",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "M",
+    "url": "https://jumpboise.org/events/bold-beginnings",
+    "sources": [
+      {
+        "name": "jump-boise",
+        "url": "https://jumpboise.org/events/bold-beginnings",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ]
+  },
+  {
+    "id": "67a8bdfca604",
+    "title": "Northwest Nazarene University Men's Basketball vs Cal Poly Humboldt",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Johnson Sports Center",
+    "venueKey": "johnson-sports-center",
+    "city": "Nampa",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "M",
+    "url": "https://nnusports.com/calendar.aspx?game_id=9642&sport_id=2",
+    "description": "L 72-73 Streaming Video: https://www.gnacnetwork.com/nnunighthawks/",
+    "sources": [
+      {
+        "name": "nnu-athletics",
+        "url": "https://nnusports.com/calendar.aspx?game_id=9642&sport_id=2",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "9459c6d6ba46",
+    "title": "Paint Nite",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Amsterdam Lounge",
+    "venueKey": "amsterdam-lounge",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://tinyurl.com/y8v52twy",
+    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://tinyurl.com/y8v52twy",
+        "fetchedAt": "2026-11-21T07:04:33Z"
+      }
+    ]
+  },
+  {
+    "id": "956ce398150e",
+    "title": "Ned Evett",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T21:15:00-07:00",
+    "allDay": false,
+    "venue": "The Riverside Hotel",
+    "venueKey": "the-riverside-hotel",
+    "city": "Garden City",
+    "category": "music",
+    "tags": [],
+    "size": "M",
+    "url": "https://sapphiresocietyboise.com/events/nednovember",
+    "sources": [
+      {
+        "name": "riverside-hotel",
+        "url": "https://sapphiresocietyboise.com/events/nednovember",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "9a34350fd156",
+    "title": "Boise State Broncos Men's Basketball vs. Sam Houston",
+    "start": "2026-11-20T19:00:00-07:00",
+    "allDay": false,
+    "venue": "ExtraMile Arena",
+    "venueKey": "extramile-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "college-sports"
+    ],
+    "size": "XL",
+    "url": "https://www.ticketmaster.com/boise-state-broncos-mens-basketball-vs-boise-idaho-11-20-2026/event/1E006557EC37A4FB",
+    "sources": [
+      {
+        "name": "extramile-arena",
+        "url": "https://www.ticketmaster.com/boise-state-broncos-mens-basketball-vs-boise-idaho-11-20-2026/event/1E006557EC37A4FB",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
     "id": "9ec291970bf7",
     "title": "Warren Miller’s – Days Off",
     "start": "2026-11-20T19:00:00-07:00",
@@ -35314,6 +35756,29 @@
     ]
   },
   {
+    "id": "ab693b4a2793",
+    "title": "Country Swing Dancing At the Farm",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T23:59:00-07:00",
+    "allDay": false,
+    "venue": "The Farm",
+    "venueKey": "the-farm",
+    "city": "Garden City",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317230826/",
+    "description": "Join us for Country Swing Dancing every Friday at Boise Largest ALL AGE Dance Hub!! Doors Open at 7pm Lesson starts at 7:30pm with Dirt Road Dancing Social dancing from 9pm to Midnight. No experience/partner necessary. Learn a few basics for beginners then how to up your dance game with a cool mo...",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317230826/",
+        "fetchedAt": "2026-11-15T07:04:15Z"
+      }
+    ]
+  },
+  {
     "id": "af6d936b7e68",
     "title": "Warren Miller’s DAYS OFF",
     "start": "2026-11-20T19:00:00-07:00",
@@ -35337,6 +35802,30 @@
     ]
   },
   {
+    "id": "bf60f5aa001e",
+    "title": "Karaoke Friday Nights",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T22:00:00-07:00",
+    "allDay": false,
+    "venue": "Boran Lounge",
+    "venueKey": "boran-lounge",
+    "city": "Meridian",
+    "category": "food-drink",
+    "tags": [
+      "karaoke"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/boranloungecoffee-meridian/events/317232923/",
+    "description": "If you’re not at Karaoke Night Friday night at Boran Lounge… you’re missing out DJ bringing the energy with a packed house, great drinks, music, laughs, and people just having a great time all night long. Bring your friends and family, grab some food from local places, meet up for drinks, and com...",
+    "sources": [
+      {
+        "name": "meetup-boranloungecoffee-meridian",
+        "url": "https://www.meetup.com/boranloungecoffee-meridian/events/317232923/",
+        "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
     "id": "dc48ca15e1ac",
     "title": "Throes",
     "start": "2026-11-20T19:00:00-07:00",
@@ -35353,6 +35842,109 @@
         "name": "shrine-social-club",
         "url": "https://link.dice.fm/e27ee901f142",
         "fetchedAt": "2026-11-08T06:23:07Z"
+      }
+    ]
+  },
+  {
+    "id": "f67af55984bf",
+    "title": "Christmas In Color",
+    "start": "2026-11-20T19:00:00-07:00",
+    "end": "2026-11-20T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Roaring Springs",
+    "venueKey": "roaring-springs",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [
+      "family-friendly"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://christmasincolor.net/",
+    "description": "Experience the magic of the holiday season with Christmas in Color, a spectacular drive-through Christmas light show at Roaring Springs in Meridian, Idaho! Enjoy millions of dazzling lights perfectly synchronized to festive holiday music, all from the warmth and comfort of your own vehicle. This...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://christmasincolor.net/",
+        "fetchedAt": "2026-11-21T07:04:33Z"
+      }
+    ]
+  },
+  {
+    "id": "d564a6fcb249",
+    "title": "Maine Mariners @ Idaho Steelheads",
+    "start": "2026-11-20T19:10:00-07:00",
+    "end": "2026-11-20T22:10:00-07:00",
+    "allDay": false,
+    "venue": "Idaho Central Arena",
+    "venueKey": "idaho-central-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "hockey"
+    ],
+    "size": "L",
+    "url": "https://idahosteelheads.com/games/2026/11/20/maine-mariners",
+    "sources": [
+      {
+        "name": "idaho-steelheads",
+        "url": "https://idahosteelheads.com/games/2026/11/20/maine-mariners",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/idaho-steelheads-vs-maine-mariners-2/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ],
+    "description": "The Idaho Steelheads host the Maine Mariners at Idaho Central Arena on Friday, November 20. Doors at 6:15 PM, puck drop at 7:10 PM."
+  },
+  {
+    "id": "ddb993d6c689",
+    "title": "Idaho Steelheads vs. Maine Mariners",
+    "start": "2026-11-20T19:10:00-07:00",
+    "allDay": false,
+    "venue": "Idaho Central Arena",
+    "venueKey": "idaho-central-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "hockey"
+    ],
+    "size": "L",
+    "url": "https://www.mikebrowngroup.com/event/idaho-steelheads-vs-maine-mariners-2/",
+    "description": "The Idaho Steelheads host the Maine Mariners at Idaho Central Arena on Friday, November 20. Doors at 6:15 PM, puck drop at 7:10 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/idaho-steelheads-vs-maine-mariners-2/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "23a02b92321c",
+    "title": "BSU Presents: A Christmas Carol",
+    "start": "2026-11-20T19:30:00-07:00",
+    "end": "2026-11-20T21:30:00-07:00",
+    "allDay": false,
+    "venue": "Morrison Center For The Performing Arts",
+    "venueKey": "morrison-center-for-the-performing-arts",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "family-friendly",
+      "holiday-event",
+      "theater"
+    ],
+    "size": "L",
+    "url": "https://boisemom.com/event/bsu-presents-a-christmas-carol/2026-11-20/",
+    "description": "Danny Peterson Theater (inside the Morrison Center) A new Treasure Valley holiday tradition begins this season. Be among the first to experience the world premiere of A Christmas Carol: In Prose, Being a Ghost Story of Christmas by Charles Dickens, adapted for the stage by Gordon Reinhart. This f...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/bsu-presents-a-christmas-carol/2026-11-20/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
   },
@@ -35456,6 +36048,53 @@
         "name": "revolution-concert-house",
         "url": "https://www.ticketmaster.com/switchfoot-with-special-guest-anberlin-forever-garden-city-idaho-11-20-2026/event/1E0064A6B66ED25C",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "2fdabfd37eca",
+    "title": "Let ‘Em Throw Cake!",
+    "start": "2026-11-20T20:00:00-07:00",
+    "end": "2026-11-20T23:59:00-07:00",
+    "allDay": false,
+    "venue": "Visual Arts Collective",
+    "venueKey": "visual-arts-collective",
+    "city": "Garden City",
+    "category": "music",
+    "tags": [
+      "21-plus"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://visualartscollective.com/events/let-em-throw-cake/",
+    "description": "Step back in time and out of your clothes for \"Let 'Em Throw Cake!\", a campy, sultry, and deliciously Georgian-era variety show. Set within the extravagant decadence of the Georgian Era, \"Let 'Em Throw Cake!\" blends burlesque, drag kings & queens, and live cabaret singing for a night of high camp...",
+    "sources": [
+      {
+        "name": "visual-arts-collective",
+        "url": "https://visualartscollective.com/events/let-em-throw-cake/",
+        "fetchedAt": "2026-11-10T17:37:18Z"
+      }
+    ]
+  },
+  {
+    "id": "d1bd1ab0ec98",
+    "title": "Karoake Friday",
+    "start": "2026-11-20T20:00:00-07:00",
+    "end": "2026-11-20T23:30:00-07:00",
+    "allDay": false,
+    "venue": "Helina Marie's",
+    "venueKey": "helina-maries",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-11-20-2026-4819",
+    "description": "Ready to have some end of the week fun??? Bring friends to attend Karaoke Night at Helina Marie’s. Enjoy all kinds of beverages, drink specials, fine wines, beers and cocktails. Groups, duos, solos welcome to sing or just sit back, relax and enjoy the entertainment. Call to reserve table for grou...",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-11-20-2026-4819",
+        "fetchedAt": "2026-11-10T04:59:00Z"
       }
     ]
   }
