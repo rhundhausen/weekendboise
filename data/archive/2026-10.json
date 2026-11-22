@@ -8714,14 +8714,14 @@
     ],
     "size": "S",
     "url": "https://admin.broncosports.com/calendar.aspx?game_id=23199&sport_id=35",
-    "description": "TV: Boise State Twitch - Super Smash Bros. Ultimate Streaming Video: https://twitch.tv/boisestate",
     "sources": [
       {
         "name": "boise-state-athletics",
         "url": "https://admin.broncosports.com/calendar.aspx?game_id=23199&sport_id=35",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
-    ]
+    ],
+    "description": "L 0-2 TV: Boise State Twitch - Super Smash Bros. Ultimate Streaming Video: https://twitch.tv/boisestate"
   },
   {
     "id": "9e5ee3eee28f",
@@ -10210,6 +10210,29 @@
     "costTier": "$"
   },
   {
+    "id": "906a5256a26d",
+    "title": "Boise State University Esports Syracuse",
+    "start": "2026-10-26",
+    "allDay": true,
+    "venue": "Boise State Esports Arena",
+    "venueKey": "boise-state-esports-arena",
+    "city": "Boise",
+    "category": "sports",
+    "tags": [
+      "esports"
+    ],
+    "size": "S",
+    "url": "https://admin.broncosports.com/calendar.aspx?game_id=23493&sport_id=35",
+    "description": "L 2-3 TV: Boise State Twitch - Rocket League Streaming Video: https://twitch.tv/boisestate",
+    "sources": [
+      {
+        "name": "boise-state-athletics",
+        "url": "https://admin.broncosports.com/calendar.aspx?game_id=23493&sport_id=35",
+        "fetchedAt": "2026-11-22T07:04:28Z"
+      }
+    ]
+  },
+  {
     "id": "f2b01afa2673",
     "title": "Trick-or-Treat at the Library",
     "start": "2026-10-26",
@@ -10665,14 +10688,14 @@
     ],
     "size": "S",
     "url": "https://admin.broncosports.com/calendar.aspx?game_id=23200&sport_id=35",
-    "description": "TV: Boise State Twitch - Overwatch 2 Streaming Video: https://twitch.tv/boisestate",
     "sources": [
       {
         "name": "boise-state-athletics",
         "url": "https://admin.broncosports.com/calendar.aspx?game_id=23200&sport_id=35",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
-    ]
+    ],
+    "description": "L 2-3 TV: Boise State Twitch - Overwatch 2 Streaming Video: https://twitch.tv/boisestate"
   },
   {
     "id": "bb1e0a4562bd",
@@ -11297,14 +11320,14 @@
     ],
     "size": "S",
     "url": "https://admin.broncosports.com/calendar.aspx?game_id=23201&sport_id=35",
-    "description": "TV: Boise State Twitch - Valorant Streaming Video: https://twitch.tv/boisestate",
     "sources": [
       {
         "name": "boise-state-athletics",
         "url": "https://admin.broncosports.com/calendar.aspx?game_id=23201&sport_id=35",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
-    ]
+    ],
+    "description": "W 2-0 TV: Boise State Twitch - Valorant Streaming Video: https://twitch.tv/boisestate"
   },
   {
     "id": "5f368d7c7de5",
@@ -11932,14 +11955,14 @@
     ],
     "size": "S",
     "url": "https://admin.broncosports.com/calendar.aspx?game_id=23202&sport_id=35",
-    "description": "TV: Boise State Twitch - Super Smash Bros. Ultimate Streaming Video: https://twitch.tv/boisestate",
     "sources": [
       {
         "name": "boise-state-athletics",
         "url": "https://admin.broncosports.com/calendar.aspx?game_id=23202&sport_id=35",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
-    ]
+    ],
+    "description": "L 0-2 TV: Boise State Twitch - Super Smash Bros. Ultimate Streaming Video: https://twitch.tv/boisestate"
   },
   {
     "id": "e20b9b1a479e",
