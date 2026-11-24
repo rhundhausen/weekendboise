@@ -49,6 +49,23 @@
   },
   "cityListLast": ["Valley County"],
   "coordinates": { "lat": 43.615, "lon": -116.202 },
+  "cityCenters": {
+    "Boise": { "lat": 43.615, "lon": -116.202 },
+    "Meridian": { "lat": 43.612, "lon": -116.392 },
+    "Nampa": { "lat": 43.579, "lon": -116.562 },
+    "Caldwell": { "lat": 43.663, "lon": -116.687 },
+    "Eagle": { "lat": 43.696, "lon": -116.354 },
+    "Garden City": { "lat": 43.638, "lon": -116.258 },
+    "Kuna": { "lat": 43.492, "lon": -116.420 },
+    "Star": { "lat": 43.692, "lon": -116.494 },
+    "Emmett": { "lat": 43.874, "lon": -116.499 },
+    "Marsing": { "lat": 43.545, "lon": -116.813 },
+    "Middleton": { "lat": 43.707, "lon": -116.620 },
+    "Mountain Home": { "lat": 43.133, "lon": -115.691 },
+    "Payette": { "lat": 44.078, "lon": -116.934 },
+    "Weiser": { "lat": 44.251, "lon": -116.969 },
+    "Valley County": { "lat": 44.911, "lon": -116.099 }
+  },
   "description": "Upcoming events in Boise, Meridian, Nampa, and the rest of the Treasure Valley.",
   "logDatabase": "weekendboise-log",
   "about": {
