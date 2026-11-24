@@ -45,28 +45,6 @@
     ]
   },
   {
-    "id": "b294b9791793",
-    "title": "Cocoa & Cider with Market Optical",
-    "start": "2026-11-19T17:30:00-07:00",
-    "end": "2026-12-11T19:30:00-07:00",
-    "allDay": false,
-    "venue": "The Village at Meridian",
-    "venueKey": "the-village",
-    "city": "Meridian",
-    "category": "community-civic",
-    "tags": [],
-    "size": "M",
-    "url": "https://www.thevillageatmeridian.com/event/46300-pre",
-    "description": "Join Market Optical for a little holiday cheer! Stop by before or after the tree lighting to enjoy complimentary hot chocolate and apple cider. ☕✨",
-    "sources": [
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/46300-pre",
-        "fetchedAt": "2026-11-18T07:05:17Z"
-      }
-    ]
-  },
-  {
     "id": "3c6fa838c0dd",
     "title": "Letter to Santa",
     "start": "2026-11-20",
@@ -86,30 +64,6 @@
       {
         "name": "village-at-meridian",
         "url": "https://www.thevillageatmeridian.com/event/44853-letter-to-santa",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "3f2f84154363",
-    "title": "Season of Giving",
-    "start": "2026-11-20",
-    "end": "2026-12-18",
-    "allDay": true,
-    "venue": "The Village at Meridian",
-    "venueKey": "the-village",
-    "city": "Meridian",
-    "category": "community-civic",
-    "tags": [
-      "kids"
-    ],
-    "size": "M",
-    "url": "https://www.thevillageatmeridian.com/event/45624-season-of-giving",
-    "description": "Tis the Season for Giving! Help The Village at Meridian provide much needed joy and happiness by granting Christmas wishes to children at the Boise Rescue Mission. Starting November 20th, simply stop by the concierge lobby to pull a cookie shingle off of our Season of Giving House. Each scrumptio...",
-    "sources": [
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/45624-season-of-giving",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -159,28 +113,6 @@
         "name": "eagle-chamber",
         "url": "https://business.eaglechamber.com/events/details/siren-song-winemaker-s-loft-bistro-live-music-6054",
         "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "6521269bf0e7",
-    "title": "DJ Nites on the Ice with DJ Mateo & Friends!",
-    "start": "2026-11-20T16:00:00-07:00",
-    "end": "2027-01-15T20:00:00-07:00",
-    "allDay": false,
-    "venue": "The Village at Meridian",
-    "venueKey": "the-village",
-    "city": "Meridian",
-    "category": "community-civic",
-    "tags": [],
-    "size": "M",
-    "url": "https://www.thevillageatmeridian.com/event/45718-dj-nites-on-the-ice-with-dj-mateo-friends",
-    "description": "DJ Nites on the Ice with DJ Mateo & FriendsFriday Nights | 4–8 PM | The Village at MeridianFriday nights just got a whole lot cooler! Lace up your skates and join us forDJ Nites on the Ice featuring DJ Mateo & Friends!Each week brings a new themed skating experience filled with great music, festi...",
-    "sources": [
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/45718-dj-nites-on-the-ice-with-dj-mateo-friends",
-        "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
   },
@@ -2049,6 +1981,11 @@
         "name": "extramile-arena",
         "url": "https://www.ticketmaster.com/boise-state-broncos-mens-basketball-vs-boise-idaho-11-24-2026/event/1E006557EC3AA507",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      },
+      {
+        "name": "visit-boise",
+        "url": "https://broncosports.com/sports/mens-basketball",
+        "fetchedAt": "2026-11-24T16:09:29Z"
       }
     ],
     "description": "Home game schedule here: https://gotickets.com/boise-state-broncos-mens-basketball-tickets?utm_medium=cpc&utm_source=google&tid=kwd-300993523873&agid=202260866140&cid=24399799847&int=&pres=9191083&network=g&gad_source=1&gad_campaignid=24399799847&gbraid=0AAAAAqsaoUSrjJzlELmGYiaACBV4jFcBi&gclid=Cj..."
@@ -2651,6 +2588,30 @@
         "name": "caldwell-public-library",
         "url": "https://www.caldwellpubliclibrary.org/events/music-movement-34",
         "fetchedAt": "2026-11-19T07:04:58Z"
+      }
+    ]
+  },
+  {
+    "id": "8ab4c29ecb46",
+    "title": "Distillery Tour",
+    "start": "2026-11-25T11:00:00-07:00",
+    "end": "2026-11-25T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Bardenay Distilling Co.",
+    "venueKey": "bardenay-distilling-co",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "brewery"
+    ],
+    "size": "S",
+    "url": "https://www.bardenaydistilling.com/",
+    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.bardenaydistilling.com/",
+        "fetchedAt": "2026-11-24T16:09:29Z"
       }
     ]
   },
@@ -3361,6 +3322,32 @@
     ]
   },
   {
+    "id": "43876b08d4c8",
+    "title": "Game Night Live is at Barbarian Brewing (GC)!!!",
+    "start": "2026-11-25T18:00:00-07:00",
+    "end": "2026-11-25T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Barbarian Brewery Taproom",
+    "venueKey": "barbarian-brewery-taproom",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "board-games",
+      "brewery",
+      "trivia"
+    ],
+    "size": "S",
+    "url": "https://www.facebook.com/events/964433631852918/964433691852912/?acontext=%7B%22event_action_history%22%3A%5B%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22user_timeline%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D%5D%2C%22ref_notif_type%22%3Anull%7D",
+    "description": "Not a super trivia know it all? No problem.Our games are free to play and are for everyone who likes to play games and win prizes! Each night we play 2 games consisting of 3 rounds each. Each round is based off of a popular game show. No basic question and answers here either…we have word jumbles...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://www.facebook.com/events/964433631852918/964433691852912/?acontext=%7B%22event_action_history%22%3A%5B%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22unknown%22%2C%22surface%22%3A%22user_timeline%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22permalink%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22surface%22%2C%22surface%22%3A%22edit_dialog%22%7D%5D%2C%22ref_notif_type%22%3Anull%7D",
+        "fetchedAt": "2026-11-24T16:09:29Z"
+      }
+    ]
+  },
+  {
     "id": "48ca7c02e2df",
     "title": "General Business Networking - Boise",
     "start": "2026-11-25T18:00:00-07:00",
@@ -3770,6 +3757,30 @@
     ]
   },
   {
+    "id": "1ebfb70d6efd",
+    "title": "Trivia with Geeks Who Drink",
+    "start": "2026-11-25T19:00:00-07:00",
+    "end": "2026-11-25T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Brewing",
+    "venueKey": "boise-brewing",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "trivia"
+    ],
+    "size": "S",
+    "url": "http://boisebrewing.com",
+    "description": "Join us every Wednesday in the Boise Brewing taproom for trivia with Geeks Who Drink, hosted by Professor Truman. Stretch those brain muscles and test your knowledge of random trivia facts, including music and film clip rounds! Plus, you have a chance to win beer in every round! Top 3 finishing t...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "http://boisebrewing.com",
+        "fetchedAt": "2026-11-24T16:09:29Z"
+      }
+    ]
+  },
+  {
     "id": "225530079569",
     "title": "Weekly Board Game Night",
     "start": "2026-11-25T19:00:00-07:00",
@@ -3790,6 +3801,29 @@
         "name": "meetup-boiseareaboardgameenthusiasts",
         "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/317308687/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "312ea5a0e0b7",
+    "title": "Paint Nite",
+    "start": "2026-11-25T19:00:00-07:00",
+    "end": "2026-11-25T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Amsterdam Lounge",
+    "venueKey": "amsterdam-lounge",
+    "city": "Boise",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://tinyurl.com/y8v52twy",
+    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
+    "sources": [
+      {
+        "name": "visit-boise",
+        "url": "https://tinyurl.com/y8v52twy",
+        "fetchedAt": "2026-11-24T16:09:29Z"
       }
     ]
   },
@@ -12519,28 +12553,6 @@
     "city": "Boise"
   },
   {
-    "id": "730743b2b5fd",
-    "title": "Yoga w/ Lisa",
-    "start": "2026-12-01T18:00:00-07:00",
-    "end": "2026-12-01T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMDJUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMDJUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
     "id": "8f161829b45c",
     "title": "Early Closure",
     "start": "2026-12-01T18:00:00-07:00",
@@ -12743,6 +12755,28 @@
         "name": "meetup-kuna-kung-fu",
         "url": "https://www.meetup.com/kuna-kung-fu/events/317390818/",
         "fetchedAt": "2026-11-10T02:56:22Z"
+      }
+    ]
+  },
+  {
+    "id": "730743b2b5fd",
+    "title": "Yoga w/ Lisa",
+    "start": "2026-12-01T18:30:00-07:00",
+    "end": "2026-12-01T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMDJUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMDJUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
   },
@@ -14992,28 +15026,6 @@
       {
         "name": "meetup-boiseareaboardgameenthusiasts",
         "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/317316668/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "c7cfe3976f50",
-    "title": "PlugIn Group Monthly Gathering",
-    "start": "2026-12-02T19:00:00-07:00",
-    "end": "2026-12-02T20:30:00-07:00",
-    "allDay": false,
-    "venue": "Tesla Meridian",
-    "venueKey": "tesla-meridian",
-    "city": "Meridian",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/plug-in-boise/events/317406105/",
-    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
-    "sources": [
-      {
-        "name": "meetup-plug-in-boise",
-        "url": "https://www.meetup.com/plug-in-boise/events/317406105/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -26137,28 +26149,6 @@
     ]
   },
   {
-    "id": "347dbf0eb9ee",
-    "title": "Yoga w/ Lisa",
-    "start": "2026-12-08T18:00:00-07:00",
-    "end": "2026-12-08T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMDlUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMDlUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
     "id": "3506599e7a72",
     "title": "Life Café: Conversations About Living and Dying Well",
     "start": "2026-12-08T18:00:00-07:00",
@@ -26419,6 +26409,28 @@
         "name": "kuna-library",
         "url": "https://kunalibrary.libcal.com/event/18030368",
         "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ]
+  },
+  {
+    "id": "347dbf0eb9ee",
+    "title": "Yoga w/ Lisa",
+    "start": "2026-12-08T18:30:00-07:00",
+    "end": "2026-12-08T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMDlUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMDlUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
   },
@@ -32730,6 +32742,37 @@
     ]
   },
   {
+    "id": "932f0b87cdf5",
+    "title": "Live Camels with Corbin Maxey",
+    "start": "2026-12-12T10:00:00-07:00",
+    "end": "2026-12-12T12:00:00-07:00",
+    "allDay": false,
+    "venue": "The Village at Meridan",
+    "venueKey": "the-village-at-meridan",
+    "city": "Meridian",
+    "category": "community-civic",
+    "tags": [
+      "family-friendly",
+      "free-admission"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://www.mikebrowngroup.com/event/live-camels-with-corbin-maxey/",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/live-camels-with-corbin-maxey/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/live-camels-with-corbin-maxey/",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ],
+    "description": "Get ready for a unique up-close animal encounter! Join us at Big Al’s Patio on December 12th as wildlife expert Corbin Maxey brings his camels to The Village at Meridian! Guests will have the opportunity to meet these incredible animals and enjoy a fun, one-of-a-kind experience for the whole fami..."
+  },
+  {
     "id": "b9258ddb1b23",
     "title": "Curbside Books pop-up at Bumble Coffee & Taps",
     "start": "2026-12-12T10:00:00-07:00",
@@ -32751,42 +32794,6 @@
         "fetchedAt": "2026-11-24T07:04:19Z"
       }
     ]
-  },
-  {
-    "id": "bbc0e926d16f",
-    "title": "Live Camels with Corbin Maxey",
-    "start": "2026-12-12T10:00:00-07:00",
-    "end": "2026-12-12T12:00:00-07:00",
-    "allDay": false,
-    "venue": "The Village at Meridian",
-    "venueKey": "the-village",
-    "city": "Meridian",
-    "category": "community-civic",
-    "tags": [
-      "family-friendly",
-      "free-admission"
-    ],
-    "size": "M",
-    "url": "https://www.thevillageatmeridian.com/event/45717-live-camels-with-corbin-maxey",
-    "description": "Get ready for a unique up-close animal encounter! Join us at Big Al’s Patio on December 12th as wildlife expert Corbin Maxey brings his camels to The Village at Meridian! Guests will have the opportunity to meet these incredible animals and enjoy a fun, one-of-a-kind experience for the whole fami...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/live-camels-with-corbin-maxey/",
-        "fetchedAt": "2026-11-06T19:12:30Z"
-      },
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/live-camels-with-corbin-maxey/",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "village-at-meridian",
-        "url": "https://www.thevillageatmeridian.com/event/45717-live-camels-with-corbin-maxey",
-        "fetchedAt": "2026-11-18T07:05:17Z"
-      }
-    ],
-    "costTier": "free"
   },
   {
     "id": "cd3abf815ca6",
@@ -38077,28 +38084,6 @@
     ]
   },
   {
-    "id": "de0d4adf1df4",
-    "title": "Yoga w/ Lisa",
-    "start": "2026-12-15T18:00:00-07:00",
-    "end": "2026-12-15T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMTZUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMTZUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
     "id": "ef687590ab7e",
     "title": "Trivia at The Warehouse",
     "start": "2026-12-15T18:00:00-07:00",
@@ -38234,6 +38219,28 @@
         "name": "boise-public-library",
         "url": "https://boisepubliclibrary.libcal.com/event/16237020",
         "fetchedAt": "2026-11-21T07:04:33Z"
+      }
+    ]
+  },
+  {
+    "id": "de0d4adf1df4",
+    "title": "Yoga w/ Lisa",
+    "start": "2026-12-15T18:30:00-07:00",
+    "end": "2026-12-15T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMTZUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMTZUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
   },
@@ -47621,28 +47628,6 @@
     ]
   },
   {
-    "id": "f53cbd04c40d",
-    "title": "Yoga w/ Lisa",
-    "start": "2026-12-22T18:00:00-07:00",
-    "end": "2026-12-22T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMjNUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMjNUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
     "id": "03a3f93da980",
     "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
     "start": "2026-12-22T18:15:00-07:00",
@@ -47683,6 +47668,28 @@
         "name": "boise-public-library",
         "url": "https://boisepubliclibrary.libcal.com/event/16237021",
         "fetchedAt": "2026-11-24T07:04:19Z"
+      }
+    ]
+  },
+  {
+    "id": "f53cbd04c40d",
+    "title": "Yoga w/ Lisa",
+    "start": "2026-12-22T18:30:00-07:00",
+    "end": "2026-12-22T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMjNUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMjNUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
   },
@@ -52654,28 +52661,6 @@
     ]
   },
   {
-    "id": "f1f478264d4a",
-    "title": "Yoga w/ Lisa",
-    "start": "2026-12-29T18:00:00-07:00",
-    "end": "2026-12-29T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMzBUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNjEyMzBUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
     "id": "b518f3a6ac62",
     "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
     "start": "2026-12-29T18:15:00-07:00",
@@ -52694,6 +52679,28 @@
         "name": "meetup-d15toastmasters-meet-up-group",
         "url": "https://www.meetup.com/district-207-toastmasters-meetup/events/vzjhvtyjcqbmc/",
         "fetchedAt": "2026-11-24T07:04:19Z"
+      }
+    ]
+  },
+  {
+    "id": "f1f478264d4a",
+    "title": "Yoga w/ Lisa",
+    "start": "2026-12-29T18:30:00-07:00",
+    "end": "2026-12-29T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMzBUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNjEyMzBUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
   },
@@ -56990,28 +56997,6 @@
     ]
   },
   {
-    "id": "03075be7dbc8",
-    "title": "Yoga w/ Lisa",
-    "start": "2027-01-05T18:00:00-07:00",
-    "end": "2027-01-05T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAxMDZUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAxMDZUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
     "id": "31a35a043cf2",
     "title": "Survivors of Suicide | Boise Hive",
     "start": "2027-01-05T18:00:00-07:00",
@@ -57054,6 +57039,28 @@
         "name": "meetup-meetup-group-nsdbawui",
         "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317162740/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "03075be7dbc8",
+    "title": "Yoga w/ Lisa",
+    "start": "2027-01-05T18:30:00-07:00",
+    "end": "2027-01-05T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAxMDZUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAxMDZUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
   },
@@ -57711,28 +57718,6 @@
         "name": "meetup-beings-of-light-and-coffee",
         "url": "https://www.meetup.com/beings-of-light-and-coffee/events/mpsqvtykccbjb/",
         "fetchedAt": "2026-11-23T07:05:24Z"
-      }
-    ]
-  },
-  {
-    "id": "be969d799e06",
-    "title": "PlugIn Group Monthly Gathering",
-    "start": "2027-01-06T19:00:00-07:00",
-    "end": "2027-01-06T20:30:00-07:00",
-    "allDay": false,
-    "venue": "Tesla Meridian",
-    "venueKey": "tesla-meridian",
-    "city": "Meridian",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/plug-in-boise/events/rspwbvykccbjb/",
-    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
-    "sources": [
-      {
-        "name": "meetup-plug-in-boise",
-        "url": "https://www.meetup.com/plug-in-boise/events/rspwbvykccbjb/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
   },
@@ -60791,28 +60776,6 @@
     ]
   },
   {
-    "id": "5e6835b1b60c",
-    "title": "Yoga w/ Lisa",
-    "start": "2027-01-12T18:00:00-07:00",
-    "end": "2027-01-12T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAxMTNUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAxMTNUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
     "id": "f18b61144933",
     "title": "Trivia at The Warehouse",
     "start": "2027-01-12T18:00:00-07:00",
@@ -60833,6 +60796,50 @@
         "name": "meetup-meetup-group-nsdbawui",
         "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317162741/",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "5e6835b1b60c",
+    "title": "Yoga w/ Lisa",
+    "start": "2027-01-12T18:30:00-07:00",
+    "end": "2027-01-12T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAxMTNUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAxMTNUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-11T00:10:09Z"
+      }
+    ]
+  },
+  {
+    "id": "571c0170807b",
+    "title": "PlugIn Group Monthly Gathering",
+    "start": "2027-01-12T19:00:00-07:00",
+    "end": "2027-01-12T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Tesla Meridian",
+    "venueKey": "tesla-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/plug-in-boise/events/plrdcvykccbqb/",
+    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
+    "sources": [
+      {
+        "name": "meetup-plug-in-boise",
+        "url": "https://www.meetup.com/plug-in-boise/events/plrdcvykccbqb/",
+        "fetchedAt": "2026-11-24T16:09:29Z"
       }
     ]
   },
@@ -64367,8 +64374,8 @@
   {
     "id": "4686b202a873",
     "title": "Yoga w/ Lisa",
-    "start": "2027-01-19T18:00:00-07:00",
-    "end": "2027-01-19T19:00:00-07:00",
+    "start": "2027-01-19T18:30:00-07:00",
+    "end": "2027-01-19T19:30:00-07:00",
     "allDay": false,
     "venue": "Ada Community Library, Lake Hazel Branch",
     "venueKey": "ada-community-library-lake-hazel-branch",
@@ -64376,12 +64383,12 @@
     "category": "learning-business",
     "tags": [],
     "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAxMjBUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAxMjBUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
     "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
     "sources": [
       {
         "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAxMjBUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAxMjBUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
         "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
@@ -68320,8 +68327,8 @@
   {
     "id": "facb7b7c19e4",
     "title": "Yoga w/ Lisa",
-    "start": "2027-01-26T18:00:00-07:00",
-    "end": "2027-01-26T19:00:00-07:00",
+    "start": "2027-01-26T18:30:00-07:00",
+    "end": "2027-01-26T19:30:00-07:00",
     "allDay": false,
     "venue": "Ada Community Library, Lake Hazel Branch",
     "venueKey": "ada-community-library-lake-hazel-branch",
@@ -68329,12 +68336,12 @@
     "category": "learning-business",
     "tags": [],
     "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAxMjdUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAxMjdUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
     "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
     "sources": [
       {
         "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAxMjdUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAxMjdUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
         "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
@@ -71815,8 +71822,8 @@
   {
     "id": "b70d1c0f7515",
     "title": "Yoga w/ Lisa",
-    "start": "2027-02-02T18:00:00-07:00",
-    "end": "2027-02-02T19:00:00-07:00",
+    "start": "2027-02-02T18:30:00-07:00",
+    "end": "2027-02-02T19:30:00-07:00",
     "allDay": false,
     "venue": "Ada Community Library, Lake Hazel Branch",
     "venueKey": "ada-community-library-lake-hazel-branch",
@@ -71824,12 +71831,12 @@
     "category": "learning-business",
     "tags": [],
     "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAyMDNUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAyMDNUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
     "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
     "sources": [
       {
         "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAyMDNUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAyMDNUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
         "fetchedAt": "2026-11-11T00:10:09Z"
       }
     ]
@@ -72417,28 +72424,6 @@
       {
         "name": "riverside-hotel",
         "url": "https://sapphiresocietyboise.com/events/stamey2-4k62l",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "70de05f46e73",
-    "title": "PlugIn Group Monthly Gathering",
-    "start": "2027-02-03T19:00:00-07:00",
-    "end": "2027-02-03T20:30:00-07:00",
-    "allDay": false,
-    "venue": "Tesla Meridian",
-    "venueKey": "tesla-meridian",
-    "city": "Meridian",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/plug-in-boise/events/rspwbvykcdbfb/",
-    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
-    "sources": [
-      {
-        "name": "meetup-plug-in-boise",
-        "url": "https://www.meetup.com/plug-in-boise/events/rspwbvykcdbfb/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -75415,28 +75400,6 @@
     ]
   },
   {
-    "id": "446758e1566a",
-    "title": "Yoga w/ Lisa",
-    "start": "2027-02-09T18:00:00-07:00",
-    "end": "2027-02-09T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAyMTBUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAyMTBUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-12T07:04:44Z"
-      }
-    ]
-  },
-  {
     "id": "745b12d29587",
     "title": "Indian Creek Plaza Ice Skating",
     "start": "2027-02-09T18:00:00-07:00",
@@ -75464,6 +75427,28 @@
     ]
   },
   {
+    "id": "446758e1566a",
+    "title": "Yoga w/ Lisa",
+    "start": "2027-02-09T18:30:00-07:00",
+    "end": "2027-02-09T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAyMTBUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAyMTBUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-12T07:04:44Z"
+      }
+    ]
+  },
+  {
     "id": "d010d7bb27c7",
     "title": "Johnny Wheels & The Swamp Donkeys",
     "start": "2027-02-09T19:00:00-07:00",
@@ -75481,6 +75466,28 @@
         "name": "riverside-hotel",
         "url": "https://sapphiresocietyboise.com/events/swapdonkeys",
         "fetchedAt": "2026-11-12T07:04:44Z"
+      }
+    ]
+  },
+  {
+    "id": "d835b042583b",
+    "title": "PlugIn Group Monthly Gathering",
+    "start": "2027-02-09T19:00:00-07:00",
+    "end": "2027-02-09T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Tesla Meridian",
+    "venueKey": "tesla-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/plug-in-boise/events/plrdcvykcdbmb/",
+    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
+    "sources": [
+      {
+        "name": "meetup-plug-in-boise",
+        "url": "https://www.meetup.com/plug-in-boise/events/plrdcvykcdbmb/",
+        "fetchedAt": "2026-11-24T16:09:29Z"
       }
     ]
   },
@@ -78447,28 +78454,6 @@
     ]
   },
   {
-    "id": "b78971699f63",
-    "title": "Yoga w/ Lisa",
-    "start": "2027-02-16T18:00:00-07:00",
-    "end": "2027-02-16T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Ada Community Library, Lake Hazel Branch",
-    "venueKey": "ada-community-library-lake-hazel-branch",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAyMTdUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
-    "sources": [
-      {
-        "name": "ada-library-lake-hazel",
-        "url": "https://www.google.com/calendar/event?eid=NDhodW1uazBmb3VoaTI0ZGsyYWVqc2k4YnBfMjAyNzAyMTdUMDEwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
-        "fetchedAt": "2026-11-19T07:04:58Z"
-      }
-    ]
-  },
-  {
     "id": "eb9f22cf5ab0",
     "title": "PechaKucha: The Shift",
     "start": "2027-02-16T18:00:00-07:00",
@@ -78486,6 +78471,28 @@
         "name": "jump-boise",
         "url": "https://jumpboise.org/events/pecha-kucha",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "b78971699f63",
+    "title": "Yoga w/ Lisa",
+    "start": "2027-02-16T18:30:00-07:00",
+    "end": "2027-02-16T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAyMTdUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Join us for this all-levels yoga class! Mat & gear provided. Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAyMTdUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-19T07:04:58Z"
       }
     ]
   },
@@ -83120,28 +83127,6 @@
     ]
   },
   {
-    "id": "dc6ab018fa6a",
-    "title": "PlugIn Group Monthly Gathering",
-    "start": "2027-03-03T19:00:00-07:00",
-    "end": "2027-03-03T20:30:00-07:00",
-    "allDay": false,
-    "venue": "Tesla Meridian",
-    "venueKey": "tesla-meridian",
-    "city": "Meridian",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/plug-in-boise/events/rspwbvykcfbfb/",
-    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
-    "sources": [
-      {
-        "name": "meetup-plug-in-boise",
-        "url": "https://www.meetup.com/plug-in-boise/events/rspwbvykcfbfb/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
     "id": "b78de90ba97c",
     "title": "Blue October",
     "start": "2027-03-03T20:00:00-07:00",
@@ -84947,6 +84932,28 @@
         "name": "visit-mccall",
         "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "97febbba4d99",
+    "title": "PlugIn Group Monthly Gathering",
+    "start": "2027-03-09T19:00:00-07:00",
+    "end": "2027-03-09T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Tesla Meridian",
+    "venueKey": "tesla-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/plug-in-boise/events/plrdcvykcfbmb/",
+    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
+    "sources": [
+      {
+        "name": "meetup-plug-in-boise",
+        "url": "https://www.meetup.com/plug-in-boise/events/plrdcvykcfbmb/",
+        "fetchedAt": "2026-11-24T16:09:29Z"
       }
     ]
   },
@@ -91982,28 +91989,6 @@
     ]
   },
   {
-    "id": "a406bda67774",
-    "title": "PlugIn Group Monthly Gathering",
-    "start": "2027-04-07T19:00:00-06:00",
-    "end": "2027-04-07T20:30:00-06:00",
-    "allDay": false,
-    "venue": "Tesla Meridian",
-    "venueKey": "tesla-meridian",
-    "city": "Meridian",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/plug-in-boise/events/rspwbvykcgbkb/",
-    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
-    "sources": [
-      {
-        "name": "meetup-plug-in-boise",
-        "url": "https://www.meetup.com/plug-in-boise/events/rspwbvykcgbkb/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
     "id": "cd0af66d6c5d",
     "title": "Kansas City Mavericks @ Idaho Steelheads",
     "start": "2027-04-07T19:10:00-06:00",
@@ -93298,6 +93283,28 @@
       }
     ],
     "end": "2027-04-13T20:00:00-06:00"
+  },
+  {
+    "id": "87fb73b4d54a",
+    "title": "PlugIn Group Monthly Gathering",
+    "start": "2027-04-13T19:00:00-06:00",
+    "end": "2027-04-13T20:30:00-06:00",
+    "allDay": false,
+    "venue": "Tesla Meridian",
+    "venueKey": "tesla-meridian",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/plug-in-boise/events/plrdcvykcgbrb/",
+    "description": "We are a group of Electric Vehicle Enthusiasts . We meet monthly to discuss wht has happened In the Ev world since last month. The group consists of Tesla, Kia, Volkswagon, Volve, etc car owners. We participate in car shows, the Treasure Valley Clean Cities Association, the Fathers' Day Car Show,...",
+    "sources": [
+      {
+        "name": "meetup-plug-in-boise",
+        "url": "https://www.meetup.com/plug-in-boise/events/plrdcvykcgbrb/",
+        "fetchedAt": "2026-11-24T16:09:29Z"
+      }
+    ]
   },
   {
     "id": "2da0a1cacb8e",
