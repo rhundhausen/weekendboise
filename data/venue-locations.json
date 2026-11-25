@@ -302,6 +302,10 @@
     "from": "none",
     "checked": "2026-11-24"
   },
+  "bold-boise-travel-women": {
+    "from": "none",
+    "checked": "2026-11-25"
+  },
   "books-on-the-vine-books-art-and-art-classes": {
     "from": "none",
     "checked": "2026-11-24"
@@ -326,6 +330,13 @@
     "address": "8109 W Franklin Rd, Boise, ID 83709",
     "from": "lookup",
     "checked": "2026-11-24"
+  },
+  "caffe-capri": {
+    "lat": 43.54136,
+    "lon": -116.1543805,
+    "address": "2242 East Gowen Road, Boise, ID, Boise, ID",
+    "from": "lookup",
+    "checked": "2026-11-25"
   },
   "caldwell": {
     "lat": 43.6569972,
@@ -823,8 +834,8 @@
     "checked": "2026-11-24"
   },
   "idaho-wineries": {
-    "from": "placeholder",
-    "checked": "2026-11-24"
+    "from": "none",
+    "checked": "2026-11-25"
   },
   "indian-creek-plaza": {
     "lat": 43.6668104,
@@ -1101,6 +1112,12 @@
     "from": "none",
     "checked": "2026-11-24"
   },
+  "old-idaho-penitentiary": {
+    "lat": 43.6022363,
+    "lon": -116.1622119,
+    "from": "lookup",
+    "checked": "2026-11-25"
+  },
   "old-state-saloon": {
     "lat": 43.6953842,
     "lon": -116.3533486,
@@ -1117,6 +1134,11 @@
     "address": "2355 Old Penitentiary Road, Boise, ID 83712",
     "from": "feed",
     "checked": "2026-11-24"
+  },
+  "panera-bread": {
+    "address": "8401 W Franklin Rd, Boise, ID 83709, USA, Boise, ID, Boise, ID",
+    "from": "none",
+    "checked": "2026-11-25"
   },
   "patriot-ammo-bulk-ammo-outlet": {
     "from": "none",
@@ -1477,6 +1499,13 @@
   "where-gem-county-recreation-district-address": {
     "from": "none",
     "checked": "2026-11-24"
+  },
+  "white-dog-brewing-co-boise": {
+    "lat": 43.6112397,
+    "lon": -116.206448,
+    "address": "705 West Fulton Street, Boise, ID, Boise, ID",
+    "from": "lookup",
+    "checked": "2026-11-25"
   },
   "wolfe-field": {
     "from": "none",
