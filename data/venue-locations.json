@@ -284,6 +284,13 @@
     "from": "lookup",
     "checked": "2026-11-24"
   },
+  "boise-stage-stop": {
+    "lat": 43.3844653,
+    "lon": -115.9990162,
+    "address": "23801 Orchard Access Road, Boise, ID, Boise, ID",
+    "from": "lookup",
+    "checked": "2026-11-26"
+  },
   "boise-state-esports-arena": {
     "from": "none",
     "checked": "2026-11-24"
@@ -453,6 +460,12 @@
     "address": "2201 W Friendship Ln, Boise, ID 83725",
     "from": "feed",
     "checked": "2026-11-24"
+  },
+  "dawson-taylor-coffee-roasters": {
+    "lat": 43.6077888,
+    "lon": -116.2124492,
+    "from": "lookup",
+    "checked": "2026-11-26"
   },
   "discovery-center-of-idaho": {
     "lat": 43.6085033,
@@ -1190,6 +1203,10 @@
     "from": "none",
     "checked": "2026-11-24"
   },
+  "register-online-at-www-gemcountyrecreation-com-gem-county-recreation-district": {
+    "from": "none",
+    "checked": "2026-11-26"
+  },
   "reid-merrill-park": {
     "lat": 43.6880398,
     "lon": -116.3479122,
@@ -1252,6 +1269,10 @@
     "lon": -116.6713646,
     "from": "lookup",
     "checked": "2026-11-24"
+  },
+  "skosh-wine-bar": {
+    "from": "none",
+    "checked": "2026-11-26"
   },
   "split-rail-winery": {
     "from": "none",
