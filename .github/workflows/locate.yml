@@ -1,0 +1,25 @@
+# Weekly locate: finds the street addresses of venues the map can't place yet, on their events'
+# own pages, and commits data/venue-locations.json, which deploys the site. The work is the shared
+# code's reusable workflow (github.com/rhundhausen/weekend, .github/workflows/locate.yml); this
+# file holds only the triggers. It never searches by a venue's name.
+
+name: locate
+
+on:
+  # Sundays at 10:00 UTC, early morning in the city, after the night's ingest and refine.
+  schedule:
+    - cron: '0 10 * * 0'
+  # By hand, from Actions > locate > Run workflow.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with ingest and refine, so only one of them writes data at a time.
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    uses: rhundhausen/weekend/.github/workflows/locate.yml@main
