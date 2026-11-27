@@ -314,287 +314,6 @@
     ]
   },
   {
-    "id": "8892a33b96ec",
-    "title": "2026 Festival of Trees",
-    "start": "2026-11-24",
-    "end": "2026-11-30",
-    "allDay": true,
-    "venue": "Boise Centre",
-    "venueKey": "boise-centre",
-    "city": "Boise",
-    "category": "festivals",
-    "tags": [
-      "festival"
-    ],
-    "size": "L",
-    "url": "https://www.saintalphonsus.org/foundation/events/festival-of-trees/admission-and-attractions",
-    "sources": [
-      {
-        "name": "boise-centre",
-        "url": "https://www.saintalphonsus.org/foundation/events/festival-of-trees/admission-and-attractions",
-        "fetchedAt": "2026-11-06T19:12:30Z"
-      }
-    ]
-  },
-  {
-    "id": "eff175d61e88",
-    "title": "Golden Hour(s) at Split Rail Winery!",
-    "start": "2026-11-24T13:00:00-07:00",
-    "end": "2026-11-28T16:00:00-07:00",
-    "allDay": false,
-    "venue": "Split Rail Winery",
-    "venueKey": "split-rail-winery",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "winery"
-    ],
-    "size": "S",
-    "costTier": "$",
-    "url": "https://www.splitrailwines.com/",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://www.splitrailwines.com/",
-        "fetchedAt": "2026-11-24T07:04:19Z"
-      }
-    ]
-  },
-  {
-    "id": "400e22c9aef6",
-    "title": "Wednesdays @ Hooligan's for Trivia",
-    "start": "2026-11-25T18:30:00-07:00",
-    "end": "2026-11-26T21:00:00-07:00",
-    "allDay": false,
-    "venue": "Hooligans",
-    "venueKey": "hooligans",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "trivia"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317554676/",
-    "description": "Adding an addition night of trivia for those that cannot make Tuesdays downtown. Come meet new people and see how much you dont know. LOL Note - we still have Tuesday night trivia- this is just an extra night of fun.",
-    "sources": [
-      {
-        "name": "meetup-meetup-group-nsdbawui",
-        "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317554676/",
-        "fetchedAt": "2026-11-24T07:04:19Z"
-      }
-    ]
-  },
-  {
-    "id": "f6642713fef8",
-    "title": "Adults NoGi",
-    "start": "2026-11-25T18:30:00-07:00",
-    "end": "2026-11-26T20:00:00-07:00",
-    "allDay": false,
-    "venue": "West Idaho Brazilian Jiu-Jitsu",
-    "venueKey": "west-idaho-brazilian-jiu-jitsu",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-25-2026-4619",
-    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-11-25-2026-4619",
-        "fetchedAt": "2026-11-10T04:59:00Z"
-      }
-    ]
-  },
-  {
-    "id": "b78b35a9460e",
-    "title": "Late Nite Karaoke at Shrine Social Club",
-    "start": "2026-11-25T22:00:00-07:00",
-    "end": "2026-11-26T02:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "free-admission",
-      "karaoke"
-    ],
-    "size": "M",
-    "costTier": "free",
-    "url": "https://findkaraoke.net/boise/venues/shrine-social-club-2",
-    "description": "Late Nite Karaoke every Wednesday, 10 PM to 2 AM in the Basement at Shrine Social Club on W Idaho Street in downtown Boise. 21+, no cover. Downtown Boise's after-hours karaoke home base. Head into the Basement, put in a song, and take the mic. \"Liquid Courage\" drink specials (shot and can combo)...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://findkaraoke.net/boise/venues/shrine-social-club-2",
-        "fetchedAt": "2026-11-26T07:04:51Z"
-      }
-    ]
-  },
-  {
-    "id": "075b1b734e57",
-    "title": "Turkey Trot",
-    "start": "2026-11-26",
-    "allDay": true,
-    "venue": "Cascade",
-    "venueKey": "cascade",
-    "city": "Valley County",
-    "category": "sports",
-    "tags": [
-      "race"
-    ],
-    "size": "L",
-    "url": "https://cascadechamber.com/events/",
-    "sources": [
-      {
-        "name": "cascade-chamber",
-        "url": "https://cascadechamber.com/events/",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "10e420e25c4f",
-    "title": "Free 4×6 Santa Photo | Cabela’s Boise",
-    "start": "2026-11-26",
-    "allDay": true,
-    "venue": "Cabela’s",
-    "venueKey": "cabelas",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "free-admission",
-      "holiday-event",
-      "santa"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-26/",
-    "description": "Choose your free photo appointment with Santa Appointments are available 1 week from the current day. All new appointments are released at 12:01 AM for the next available day. If all slots show UNAVAILABLE this means all bookings have been reserved for those dates and times. Please try again late...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/free-4x6-santa-photo-cabelas-boise/2026-11-26/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "19d32b6e6c7d",
-    "title": "Holiday Closure: Thanksgiving Day",
-    "start": "2026-11-26",
-    "allDay": true,
-    "venue": "Boise Public Library",
-    "venueKey": "boise-public-library",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "holiday-event"
-    ],
-    "size": "S",
-    "url": "https://boisepubliclibrary.libcal.com/event/16172851",
-    "description": "All Boise Public Library locations will be closed for the Thanksgiving Day holiday.",
-    "sources": [
-      {
-        "name": "boise-public-library",
-        "url": "https://boisepubliclibrary.libcal.com/event/16172851",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "27ca31ca9e3f",
-    "title": "Library Closed",
-    "start": "2026-11-26",
-    "allDay": true,
-    "venue": "Kuna Library",
-    "venueKey": "kuna-library",
-    "city": "Kuna",
-    "category": "learning-business",
-    "tags": [
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://kunalibrary.libcal.com/event/17863702",
-    "description": "The library is closed today for the Thanksgiving Holiday Regular hours resume on Saturday, November 28. Library hours Monday and Friday, 9:30 am - 6:00 pm Tuesday, Wednesday and Thursday, 9:30 am - 8:00 pm Saturday, 10:30 am - 3:00 pm Sunday, closed",
-    "sources": [
-      {
-        "name": "kuna-library",
-        "url": "https://kunalibrary.libcal.com/event/17863702",
-        "fetchedAt": "2026-11-06T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "a051166abc71",
-    "title": "CLOSED - Thanksgiving Day",
-    "start": "2026-11-26",
-    "allDay": true,
-    "venue": "Nampa Public Library",
-    "venueKey": "nampa-public-library",
-    "city": "Nampa",
-    "category": "holiday-seasonal",
-    "tags": [
-      "holiday-event"
-    ],
-    "size": "S",
-    "url": "https://nampalibrary.libcal.com/event/9977440",
-    "sources": [
-      {
-        "name": "nampa-public-library",
-        "url": "https://nampalibrary.libcal.com/event/9977440",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "aaa79bb3f464",
-    "title": "Thanksgiving - Library Closed",
-    "start": "2026-11-26",
-    "allDay": true,
-    "venue": "Ada Community Library, Victory Branch",
-    "venueKey": "ada-community-library-victory-branch",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "holiday-event",
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://www.google.com/calendar/event?eid=MWphN2JqdW50anI2c20wZ3FraXNlbTk1dTcgYWRhbGliLm9yZ19iMzRzbHRlOGhva2ZuN2NvbWFpdm11dTA5MEBn&ctz=America/Boise",
-    "sources": [
-      {
-        "name": "ada-library-victory",
-        "url": "https://www.google.com/calendar/event?eid=MWphN2JqdW50anI2c20wZ3FraXNlbTk1dTcgYWRhbGliLm9yZ19iMzRzbHRlOGhva2ZuN2NvbWFpdm11dTA5MEBn&ctz=America/Boise",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
-    "id": "b09dc37679d9",
-    "title": "Closed for Thanksgiving",
-    "start": "2026-11-26",
-    "allDay": true,
-    "venue": "Telaya Wine Co.",
-    "venueKey": "telaya-wine-co",
-    "city": "Garden City",
-    "category": "holiday-seasonal",
-    "tags": [
-      "holiday-event"
-    ],
-    "size": "M",
-    "url": "https://telayawine.com/event/closed-for-thanksgiving/",
-    "description": "Telaya wishes everyone a very happy Thanksgiving Day with delicious food, amazing wine and so many things to be thankful for.",
-    "sources": [
-      {
-        "name": "telaya-wine",
-        "url": "https://telayawine.com/event/closed-for-thanksgiving/",
-        "fetchedAt": "2026-11-19T07:04:58Z"
-      }
-    ]
-  },
-  {
     "id": "b47ed9543fbd",
     "title": "Thanksgiving holiday break",
     "start": "2026-11-26",
@@ -615,1005 +334,6 @@
         "name": "cwi",
         "url": "https://cwi.edu/campus-life/events?trumbaEmbed=view%3Devent%26eventid%3D1437288445",
         "fetchedAt": "2026-11-08T07:04:55Z"
-      }
-    ]
-  },
-  {
-    "id": "82a8f51dca77",
-    "title": "Nampa Pumpkin Spice 5K",
-    "start": "2026-11-26T08:00:00-07:00",
-    "end": "2026-11-26T10:30:59-07:00",
-    "allDay": false,
-    "venue": "310 W Iowa Ave, Nampa, ID",
-    "venueKey": "310-w-iowa-ave-nampa-id",
-    "city": "Nampa",
-    "category": "sports",
-    "tags": [
-      "family-friendly",
-      "holiday-event",
-      "race"
-    ],
-    "size": "L",
-    "url": "https://runsignup.com/Race/ID/Nampa/NampaPumpkinSpice5K",
-    "description": "Running and walking on Thanksgiving morning! What could be better?? Make room for those second helpings by joining us at 8:00am Thanksgiving morning for an invigorating 5k on the beautiful greenbelt in Nampa! Thanksgiving themed costumes are highly encouraged!! This event is family friendly and r...",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/nampa-pumpkin-spice-5k-5/",
-        "fetchedAt": "2026-11-06T19:12:30Z"
-      },
-      {
-        "name": "runsignup-treasure-valley",
-        "url": "https://runsignup.com/Race/ID/Nampa/NampaPumpkinSpice5K",
-        "fetchedAt": "2026-11-10T17:37:18Z"
-      }
-    ],
-    "costTier": "$$$"
-  },
-  {
-    "id": "b86635092390",
-    "title": "Let's do the Turkey Day 5k (Boise) - Walk or Run, Slowpolks Welcome !!!🍂🦃",
-    "start": "2026-11-26T08:30:00-07:00",
-    "end": "2026-11-26T10:30:00-07:00",
-    "allDay": false,
-    "venue": "Cecil D. Andrus Park",
-    "venueKey": "cecil-d-andrus-park",
-    "city": "Boise",
-    "category": "sports",
-    "tags": [
-      "race"
-    ],
-    "size": "L",
-    "costTier": "$$$",
-    "url": "https://www.meetup.com/boise-introverts-who-want-to-mingle/events/316625837/",
-    "description": "It's that time of year again! And while it doesn't seem possible that Thanksgiving is right around the corner, I can assure you that it will be here before we know it... yikes! The good news is that we'll have something fun to look forward to! This will be our 4th year hosting the Turkey Day 5k,...",
-    "sources": [
-      {
-        "name": "meetup-boise-introverts-who-want-to-mingle",
-        "url": "https://www.meetup.com/boise-introverts-who-want-to-mingle/events/316625837/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "0c64ed23f43b",
-    "title": "Harvest Hustle 5k Run/Walk",
-    "start": "2026-11-26T09:00:00-07:00",
-    "end": "2026-11-26T10:00:59-07:00",
-    "allDay": false,
-    "venue": "Mountain Home",
-    "venueKey": "mountain-home",
-    "city": "Mountain Home",
-    "category": "sports",
-    "tags": [
-      "free-admission",
-      "race"
-    ],
-    "size": "L",
-    "costTier": "free",
-    "url": "https://runsignup.com/Race/ID/MountainHome/thanksgiving",
-    "description": "What better way to start your Thanksgiving than with a 5k? Come to the Harvest Hustle 5k at Legacy Park in Mountain Home and get a good calorie burn in before your festivities. This is a free event to support Lost Paws TNR and the Idaho Food Bank. Please bring a donation of non-perishable food fo...",
-    "sources": [
-      {
-        "name": "runsignup-treasure-valley",
-        "url": "https://runsignup.com/Race/ID/MountainHome/thanksgiving",
-        "fetchedAt": "2026-11-10T17:37:18Z"
-      }
-    ]
-  },
-  {
-    "id": "5907f1c270a0",
-    "title": "Turkey Day 5k",
-    "start": "2026-11-26T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Capitol Blvd",
-    "venueKey": "capitol-blvd",
-    "city": "Boise",
-    "category": "sports",
-    "tags": [
-      "holiday-event",
-      "race"
-    ],
-    "size": "L",
-    "url": "https://www.mikebrowngroup.com/event/turkey-day-5k-4/",
-    "description": "Boise’s Thanksgiving morning tradition. The Boise race starts at 9 AM downtown near Capitol & Idaho; a Caldwell race runs at the same time from Indian Creek Plaza. Registration is open now.",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/turkey-day-5k-4/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "9c9f16514150",
-    "title": "Turkey Day 5K Run/Walk",
-    "start": "2026-11-26T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Caldwell",
-    "venueKey": "caldwell",
-    "city": "Caldwell",
-    "category": "sports",
-    "tags": [
-      "family-friendly",
-      "race"
-    ],
-    "size": "L",
-    "url": "https://runsignup.com/Race/ID/Caldwell/TurkeyDayKCaldwell",
-    "description": "Welcome to the annual Turkey Day 5k in Caldwell, Idaho’s favorite Thanksgiving Day tradition. Turkey Day 5K is a whole family fun run designed to kick off your day with fun, energy, and community. Bring the whole \"Flock\" and run or walk together on Thanksgiving morning! 2025 marks the 15th year t...",
-    "sources": [
-      {
-        "name": "runsignup-treasure-valley",
-        "url": "https://runsignup.com/Race/ID/Caldwell/TurkeyDayKCaldwell",
-        "fetchedAt": "2026-11-10T17:37:18Z"
-      }
-    ]
-  },
-  {
-    "id": "e74afcbaafd0",
-    "title": "Boise Turkey Day 5K Run/Walk",
-    "start": "2026-11-26T09:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise",
-    "venueKey": "boise",
-    "city": "Boise",
-    "category": "sports",
-    "tags": [
-      "family-friendly",
-      "race"
-    ],
-    "size": "L",
-    "url": "https://runsignup.com/Race/ID/Boise/BoiseTurkeyDayK",
-    "description": "Welcome to the 15th annual Turkey Day 5k in Boise, Idaho’s favorite Thanksgiving Day tradition. Turkey Day 5K is a whole family fun run designed to kick off your day with fun, energy, and community. Bring the whole \"Flock\" and run or walk together on Thanksgiving morning! 2026 also marks the 15th...",
-    "sources": [
-      {
-        "name": "runsignup-treasure-valley",
-        "url": "https://runsignup.com/Race/ID/Boise/BoiseTurkeyDayK",
-        "fetchedAt": "2026-11-10T17:37:18Z"
-      }
-    ]
-  },
-  {
-    "id": "f0ae9dfef389",
-    "title": "Homeschool PE",
-    "start": "2026-11-26T09:00:00-07:00",
-    "end": "2026-11-26T10:00:00-07:00",
-    "allDay": false,
-    "venue": "Star Chamber of Commerce",
-    "venueKey": "star-chamber",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/homeschool-pe-11-26-2026-3980",
-    "description": "A homeschool PE class with a heavy focus on teamwork and active play. Students will be introduced to youth sports as well as the basics of general health and fitness. To Register go to: https://www.hisawyer.com/star-idaho/schedules/widget_calendar Hello Participants! As a reminder, you will NO LO...",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/homeschool-pe-11-26-2026-3980",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "f0185779762c",
-    "title": "Story Time",
-    "start": "2026-11-26T10:30:00-07:00",
-    "end": "2026-11-26T11:30:00-07:00",
-    "allDay": false,
-    "venue": "McCall Public Library",
-    "venueKey": "mccall-public-library",
-    "city": "Valley County",
-    "category": "learning-business",
-    "tags": [
-      "library-program"
-    ],
-    "size": "S",
-    "url": "https://mccall.id.us/Calendar.aspx?EID=2335",
-    "sources": [
-      {
-        "name": "mccall-public-library",
-        "url": "https://mccall.id.us/Calendar.aspx?EID=2335",
-        "fetchedAt": "2026-11-21T07:04:33Z"
-      }
-    ]
-  },
-  {
-    "id": "6d231a69f98f",
-    "title": "DIY Cosplay Workshop",
-    "start": "2026-11-26T11:00:00-07:00",
-    "end": "2026-11-26T13:00:00-07:00",
-    "allDay": false,
-    "venue": "Catalyst Arts Collaborative",
-    "venueKey": "catalyst-arts-collaborative",
-    "city": "Boise",
-    "category": "learning-business",
-    "tags": [
-      "workshop"
-    ],
-    "size": "S",
-    "costTier": "$",
-    "url": "https://www.meetup.com/boise-arts-community/events/317316328/",
-    "description": "Open studio time for cosplayers to sew, style, paint, and finally finish projects. Age 15+ Every 2nd & 4th Thursday, 11:00am - 1:00pm (register for each separately). Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/diy-cosplay-workshop-2nd-4th-...",
-    "sources": [
-      {
-        "name": "meetup-boise-arts-community",
-        "url": "https://www.meetup.com/boise-arts-community/events/317316328/",
-        "fetchedAt": "2026-11-24T07:04:19Z"
-      }
-    ]
-  },
-  {
-    "id": "840320050d69",
-    "title": "Distillery Tour",
-    "start": "2026-11-26T11:00:00-07:00",
-    "end": "2026-11-26T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Bardenay Distilling Co.",
-    "venueKey": "bardenay-distilling-co",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "brewery"
-    ],
-    "size": "S",
-    "url": "https://www.bardenaydistilling.com/",
-    "description": "Bardenay Distilling Co. — Idaho’s Original Craft Spirit Experience Established in Boise as the nation’s first restaurant-distillery post-Prohibition, Bardenay has been an Idaho icon for decades. Now, Bardenay Distilling Co. carries that pioneering spirit forward, offering complimentary tours that...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://www.bardenaydistilling.com/",
-        "fetchedAt": "2026-11-26T07:04:51Z"
-      }
-    ]
-  },
-  {
-    "id": "6a60774a601d",
-    "title": "Winter Skate at The Village",
-    "start": "2026-11-26T12:00:00-07:00",
-    "end": "2026-11-26T18:00:00-07:00",
-    "allDay": false,
-    "venue": "The Village",
-    "venueKey": "the-village",
-    "city": "Meridian",
-    "category": "sports",
-    "tags": [
-      "family-friendly",
-      "holiday-event",
-      "ice-skating"
-    ],
-    "size": "M",
-    "url": "https://boisemom.com/event/winter-skate-at-the-village-3/2026-11-26/",
-    "description": "Ice Skating at The Village Rink! November 14th-January 19th (weather permitting) HOURS: Mon-Fri 3-9pm Saturday 12-9pm Sunday 12-6pm HOLIDAY HOURS: November 19th – Closed for Tree Lighting Thanksgiving – 12-6pm Christmas Eve – 12-6pm Christmas CLOSED Extended Hours during Thanksgiving & Christmas...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/winter-skate-at-the-village-3/2026-11-26/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "3874b393aa4a",
-    "title": "Homeschool Art Adventures (Ages 10-13)",
-    "start": "2026-11-26T13:00:00-07:00",
-    "end": "2026-11-26T14:30:00-07:00",
-    "allDay": false,
-    "venue": "Catalyst Arts Collaborative",
-    "venueKey": "catalyst-arts-collaborative",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "costTier": "$$",
-    "url": "https://www.meetup.com/boise-arts-community/events/317317935/",
-    "description": "Age 10-13. A flexible art program to help nurture your homeschooler's creativity and artistic growth Ongoing, individual sessions: Thursdays, 1:00pm - 2:30pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/homeschool-art-adventures-thur-1pm L...",
-    "sources": [
-      {
-        "name": "meetup-boise-arts-community",
-        "url": "https://www.meetup.com/boise-arts-community/events/317317935/",
-        "fetchedAt": "2026-11-24T07:04:19Z"
-      }
-    ]
-  },
-  {
-    "id": "4d24b85774b6",
-    "title": "Festival of Trees",
-    "start": "2026-11-26T14:00:00-07:00",
-    "end": "2026-11-26T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise Centre",
-    "venueKey": "boise-centre",
-    "city": "Boise",
-    "category": "festivals",
-    "tags": [
-      "christmas-lights",
-      "family-friendly",
-      "festival",
-      "holiday-event",
-      "kids",
-      "santa"
-    ],
-    "size": "L",
-    "url": "https://boisemom.com/event/festival-of-trees/2026-11-26/",
-    "description": "Over 40 years of working together to strengthen our community What began as a holiday tradition has become a powerful force for good—helping expand care, strengthen services, and improve lives across the Treasure Valley. Together, we continue a legacy of generosity, compassion, and commitment to...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/festival-of-trees/2026-11-26/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ],
-    "costTier": "$"
-  },
-  {
-    "id": "5f376990d776",
-    "title": "Thanksgiving Dinner at The Reserve",
-    "start": "2026-11-26T14:00:00-07:00",
-    "end": "2026-11-26T21:00:00-07:00",
-    "allDay": false,
-    "venue": "Tamarack Resort",
-    "venueKey": "tamarack-resort",
-    "city": "Valley County",
-    "category": "holiday-seasonal",
-    "tags": [
-      "holiday-event"
-    ],
-    "size": "M",
-    "url": "https://tamarackidaho.com/events/thanksgiving-dinner-at-the-reserve",
-    "sources": [
-      {
-        "name": "tamarack-resort",
-        "url": "https://tamarackidaho.com/events/thanksgiving-dinner-at-the-reserve",
-        "fetchedAt": "2026-11-14T07:04:21Z"
-      }
-    ]
-  },
-  {
-    "id": "dbffbf56ea9c",
-    "title": "Thanksgiving Dinner at Boise Stage Stop",
-    "start": "2026-11-26T14:00:00-07:00",
-    "end": "2026-11-26T16:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise Stage Stop",
-    "venueKey": "boise-stage-stop",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "holiday-event"
-    ],
-    "size": "M",
-    "costTier": "$$",
-    "url": "https://www.meetup.com/meetup-group-euuctjxg/events/317590237/",
-    "description": "Yes it's Thanksgiving Dinner at a truck stop. Come join me and 4 of my friends. I've done this before and they have a great home cooked meal. You may feel like your at g'mas house again. This is my 1st time posting on here so I hope I give you enough information. If not feel free to call or txt M...",
-    "sources": [
-      {
-        "name": "meetup-meetup-group-euuctjxg",
-        "url": "https://www.meetup.com/meetup-group-euuctjxg/events/317590237/",
-        "fetchedAt": "2026-11-26T07:04:51Z"
-      }
-    ]
-  },
-  {
-    "id": "be547ed4f366",
-    "title": "Indian Creek Plaza Ice Skating",
-    "start": "2026-11-26T16:00:00-07:00",
-    "end": "2026-11-26T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Indian Creek Plaza",
-    "venueKey": "indian-creek-plaza",
-    "city": "Caldwell",
-    "category": "sports",
-    "tags": [
-      "christmas-lights",
-      "family-friendly",
-      "holiday-event",
-      "ice-skating",
-      "kids"
-    ],
-    "size": "M",
-    "costTier": "$",
-    "url": "https://boisemom.com/event/indian-creek-plaza-ice-skating-3/2026-11-26/",
-    "description": "Experience the magic of winter at Indian Creek Plaza’s one-of-a-kind Ice Ribbon! For questions regarding ice skating, please call: Lactalis Skate Shoppe (208) 800-9032 THE 2026-2027 SKATE SEASON OPENS NOVEMBER 20, 2026! Reserve your skate sessions for the 2026–27 season now! Tickets fill up quick...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/indian-creek-plaza-ice-skating-3/2026-11-26/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "edf1c1d651d2",
-    "title": "Open-Play Casual Pokémon League",
-    "start": "2026-11-26T16:00:00-07:00",
-    "end": "2026-11-26T19:00:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317319684/",
-    "description": "Welcome to the Free Open-play Casual Pokémon league!! This open-play event has something for everyone! Intended for: - New players to learn to play - Seasoned players to practice. - Card Trading - Deck tech. This is the perfect time to trade and play casually. This weekly event takes place the 3...",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317319684/",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "88576e90a706",
-    "title": "After School Art - Ages 10-12",
-    "start": "2026-11-26T16:30:00-07:00",
-    "end": "2026-11-26T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Catalyst Arts Collaborative",
-    "venueKey": "catalyst-arts-collaborative",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "kids"
-    ],
-    "size": "S",
-    "costTier": "$$$",
-    "url": "https://www.meetup.com/boise-arts-community/events/317319993/",
-    "description": "Support your child during the most challenging time in their art development. Ages 10-12 Ongoing, Thursdays, 4:30pm - 6:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/after-school-art-age-10-12-thu-4-30pm Around age 10 or so, kids reach...",
-    "sources": [
-      {
-        "name": "meetup-boise-arts-community",
-        "url": "https://www.meetup.com/boise-arts-community/events/317319993/",
-        "fetchedAt": "2026-11-25T07:04:56Z"
-      }
-    ]
-  },
-  {
-    "id": "22ad04448244",
-    "title": "Christmas in Color",
-    "start": "2026-11-26T17:00:00-07:00",
-    "end": "2026-11-26T22:00:00-07:00",
-    "allDay": false,
-    "venue": "Roaring Springs",
-    "venueKey": "roaring-springs",
-    "city": "Meridian",
-    "category": "holiday-seasonal",
-    "tags": [
-      "christmas-lights",
-      "family-friendly",
-      "holiday-event"
-    ],
-    "size": "M",
-    "url": "https://boisemom.com/event/christmas-in-color-2/2026-11-26/",
-    "description": "Christmas in Color is a popular, family-friendly drive-thru holiday light show located in the Boise area (at Roaring Springs Water Park in nearby Meridian, after previously running at Expo Idaho). Synchronized Lights & Music: Millions of colorful lights, giant candy canes, snowmen, and glowing ar...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/christmas-in-color-2/2026-11-26/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "e668e1db8032",
-    "title": "Skosh + Glutonia = Wine & Pizza Nights!",
-    "start": "2026-11-26T17:00:00-07:00",
-    "end": "2026-11-26T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Skosh Wine Bar",
-    "venueKey": "skosh-wine-bar",
-    "city": "Boise",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "costTier": "$",
-    "url": "https://skoshwinebar.com/events",
-    "description": "Pizza + Wine Nights, Thursdays through Saturdays Every Thursday, Friday, and Saturday, Skosh Wine Bar teams up with Glutonia next door for Pizza + Wine Nights. Order a pie from Glutonia's pizzaiolo, pepperoni with arugula, four cheese, margarita, or the rotating chef's choice, and it gets deliver...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://skoshwinebar.com/events",
-        "fetchedAt": "2026-11-26T07:04:51Z"
-      }
-    ]
-  },
-  {
-    "id": "42cfe5396b10",
-    "title": "FREE Flow Arts Spin Jam",
-    "start": "2026-11-26T17:30:00-07:00",
-    "end": "2026-11-26T19:30:00-07:00",
-    "allDay": false,
-    "venue": "JUMP",
-    "venueKey": "jump",
-    "city": "Boise",
-    "category": "performing-arts",
-    "tags": [
-      "family-friendly",
-      "theater"
-    ],
-    "size": "M",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/free-flow-arts-spin-jam/2026-11-26/",
-    "description": "FREE Flow Arts Spin Jams Led by Krissy Humphreys JUMP Boise Thursday’s 5:30-7:30pm Flow arts is a dynamic practice that blends elements of dance, skill-based object manipulation, and creative expression. It often incorporates props such as poi, hula hoops, staff, fans, and juggling equipment, whi...",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/free-flow-arts-spin-jam/2026-11-26/",
-        "fetchedAt": "2026-11-04T06:01:16Z"
-      }
-    ]
-  },
-  {
-    "id": "06a81ba2ce16",
-    "title": "Magic the Gathering: Booster Draft",
-    "start": "2026-11-26T18:00:00-07:00",
-    "end": "2026-11-26T22:00:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317321507/",
-    "description": "Join us for an MTG: Booster Draft! - Join our Discord https://discord.gg/qD9P8838ek",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317321507/",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "6548512e0479",
-    "title": "Tabletop Miniatures Game Night",
-    "start": "2026-11-26T18:00:00-07:00",
-    "end": "2026-11-26T22:30:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317321543/",
-    "description": "Come play each week and you will see that our Tabletop Miniatures Game night is a slugfest, but what is wrong with that? Every Thursday players of popular miniatures games gather to play their favorite miniatures games with others. The games most represented are: - Warhammer: 40k and Age of Sigma...",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317321543/",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "7998b1a4a596",
-    "title": "Broken Horn - Thursday Trivia",
-    "start": "2026-11-26T18:00:00-07:00",
-    "end": "2026-11-26T20:00:00-07:00",
-    "allDay": false,
-    "venue": "McCall area",
-    "venueKey": "mccall-area",
-    "city": "Valley County",
-    "category": "food-drink",
-    "tags": [
-      "family-friendly",
-      "trivia"
-    ],
-    "size": "S",
-    "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
-    "description": "Thursday Trivia is back! Join us every week at 6pm. Come early, seats fill up fast! River Grill has dinner taken care of.",
-    "sources": [
-      {
-        "name": "visit-mccall",
-        "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "a9f2adb7f50a",
-    "title": "Kid’s Fix-It Night at Boise Bicycle Project",
-    "start": "2026-11-26T18:00:00-07:00",
-    "end": "2026-11-26T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Boise Bicycle Project",
-    "venueKey": "boise-bicycle-project",
-    "city": "Boise",
-    "category": "community-civic",
-    "tags": [
-      "free-admission",
-      "kids"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://boisemom.com/event/kids-fix-it-night-at-boise-bicycle-project/2026-11-26/",
-    "description": "Every Thursday night, teens and kids can bring their bike to BBP between 6 p.m and 7 p.m to work hands on with our team of volunteer mechanics to repair or maintain their bicycle free of charge! Everyone welcome from 6pm-7pm",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/kids-fix-it-night-at-boise-bicycle-project/2026-11-26/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "b872ba6ed708",
-    "title": "Marvel Crisis Protocol | Open Play",
-    "start": "2026-11-26T18:00:00-07:00",
-    "end": "2026-11-26T21:00:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317321542/",
-    "description": "Join the Fight, Every Thursday night at 6pm. Face off against other MCP players at this casual open-play game night, totally Free! Come play each week and you will learn that it's a slugfest, but what is wrong with that? * There is no organizer but don't let that stop you, ABU has one of the most...",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317321542/",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "c1ead86b005d",
-    "title": "Magic the Gathering: Competitive Commander",
-    "start": "2026-11-26T18:00:00-07:00",
-    "end": "2026-11-26T22:00:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317321506/",
-    "description": "Welcome to Competitive Commander (MTG) at ABU Games! Event Details: 65 Min. Rounds As with all of our weekly MTG events players may take their winnings as a Store-wide Credit or as Standard Draft Packs, whichever is preferred. See you there! Join our Discord: https://discord.gg/qD9P8838ek See less",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317321506/",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "c8c85c042f7b",
-    "title": "Warhammer 40k League",
-    "start": "2026-11-26T18:00:00-07:00",
-    "end": "2026-11-26T22:30:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317321544/",
-    "description": "This is a casual and welcoming Warhammer 40K League. All are welcome to join. Use the following link to Reserve a spot: [https://www.signupgenius.com/.../10C0949AEAF2AA4FFC61...](https://www.signupgenius.com/go/10C0949AEAF2AA4FFC61-abucasual2?fbclid=IwAR0v5oGRNyrzHG1-MHT48po9W8bVdm03Udk9uj-R5vRPf...",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317321544/",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "31267e604df2",
-    "title": "Leveling Up Your Art",
-    "start": "2026-11-26T18:30:00-07:00",
-    "end": "2026-11-26T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Catalyst Arts Collaborative",
-    "venueKey": "catalyst-arts-collaborative",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "costTier": "$$",
-    "url": "https://www.meetup.com/boise-arts-community/events/316405852/",
-    "description": "Gain new tools, feedback, and insights to take your drawing, painting, or photos further. Age 12+ Ongoing, every 4 weeks: Thursdays, 6:30pm - 8:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/leveling-up-your-art-thur-6pm Looking to take...",
-    "sources": [
-      {
-        "name": "meetup-boise-arts-community",
-        "url": "https://www.meetup.com/boise-arts-community/events/316405852/",
-        "fetchedAt": "2026-11-26T07:04:51Z"
-      }
-    ]
-  },
-  {
-    "id": "3418fb71f41f",
-    "title": "Kung Fu Training",
-    "start": "2026-11-26T18:30:00-07:00",
-    "end": "2026-11-26T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Kuna Kung Fu",
-    "venueKey": "kuna-kung-fu",
-    "city": "Kuna",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/kuna-kung-fu/events/317321890/",
-    "description": "While no two classes are alike, every class will have a portion devoted to foundation training, drills and exercises designed to sharpen the mind, strengthen the body, and better equip the students to maximize their body's capabilities. Beyond that a class may focus on Drills and exercises to bui...",
-    "sources": [
-      {
-        "name": "meetup-kuna-kung-fu",
-        "url": "https://www.meetup.com/kuna-kung-fu/events/317321890/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "c32d9f1a26a3",
-    "title": "The Dirt on Gardening",
-    "start": "2026-11-26T18:30:00-07:00",
-    "end": "2026-11-26T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Star Library",
-    "venueKey": "star-library",
-    "city": "Star",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-11-26-2026-1374",
-    "description": "Topics range from Veggie Gardens, Composting, Canning and much more! Check out the Star Library Calendar for more information https://adalib.org/whats-happening-at-the-library/",
-    "sources": [
-      {
-        "name": "star-chamber",
-        "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-11-26-2026-1374",
-        "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "0950f8f0b23d",
-    "title": "Free Line Dancing at Maddie's!",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T21:00:00-07:00",
-    "allDay": false,
-    "venue": "Maddie’s Wine, Whiskey and Tapas Bar",
-    "venueKey": "maddies-wine-whiskey-and-tapas-bar",
-    "city": "Meridian",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/boise-country-dancers/events/317175609/",
-    "description": "Have you heard the news?! 📣 Line em up and stomp it out EVERY Thursday!! FREE line dance lessons, good drinks, and an amazing vibe! Lessons start at 7pm! See you on the dance floor!",
-    "sources": [
-      {
-        "name": "meetup-boise-country-dancers",
-        "url": "https://www.meetup.com/boise-country-dancers/events/317175609/",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "32c45b9caf9a",
-    "title": "WCS Takeover at The Farm",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T23:00:00-07:00",
-    "allDay": false,
-    "venue": "The Farm",
-    "venueKey": "the-farm",
-    "city": "Garden City",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "costTier": "$",
-    "url": "https://www.meetup.com/boise-country-dancers/events/317322302/",
-    "description": "Join 208 Swing for West Coast Swing every Thursday night at The Farm Doors Open at 7pm Lesson starts at 7:30pm Social dancing from 9pm to 11pm. No experience necessary.square.site/) The Farm is an Alcohol Free all age Dance Hub and Event Center with a 2,600 sq ft dance floor. Check out more at [w...",
-    "sources": [
-      {
-        "name": "meetup-boise-country-dancers",
-        "url": "https://www.meetup.com/boise-country-dancers/events/317322302/",
-        "fetchedAt": "2026-11-21T07:04:33Z"
-      }
-    ]
-  },
-  {
-    "id": "4c22b28185d9",
-    "title": "Paint Nite",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T21:00:00-07:00",
-    "allDay": false,
-    "venue": "Amsterdam Lounge",
-    "venueKey": "amsterdam-lounge",
-    "city": "Boise",
-    "category": "community-civic",
-    "tags": [],
-    "size": "S",
-    "costTier": "$$",
-    "url": "https://tinyurl.com/y8v52twy",
-    "description": "Paint Nite at Amsterdam Lounge: Sip, Paint & Unwind! Looking for a fun night out in Boise? Join Paint Nite Boise at Amsterdam Lounge for a creative evening filled with painting, laughter, and good company! Follow along with a guided painting experience and create your own artwork to take home, al...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://tinyurl.com/y8v52twy",
-        "fetchedAt": "2026-11-26T07:04:51Z"
-      }
-    ]
-  },
-  {
-    "id": "5200ce494f42",
-    "title": "Pokémon Standard League at ABU Games",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T22:00:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "costTier": "$",
-    "url": "https://www.meetup.com/abu-games-events/events/317322339/",
-    "description": "Welcome to Pokemon at ABU Games! ______________PRIZING______________ 3 Rounds - Pack-Per-Win! - Participation Pack only for players who do not win a game. 4 Rounds - 4-0: 5 Standard packs - 3-1: 3 Standard packs - 2-2 and Lower: 1 Standard pack All Participants will receive packs based on their r...",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317322339/",
-        "fetchedAt": "2026-11-21T07:04:33Z"
-      }
-    ]
-  },
-  {
-    "id": "570e987822fa",
-    "title": "Magic the Gathering: Chaos Draft at ABU Games",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T22:00:00-07:00",
-    "allDay": false,
-    "venue": "ABU Games",
-    "venueKey": "abu-games",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/abu-games-events/events/317322314/",
-    "description": "It's the Last Thursday of the month, and it is time for our MTG Chaos Draft! (You will need to have purchased these 3 packs prior to the start of the event) - 3 Rounds of Swiss pairings. - Prizing: Prize support will be paid out in current standard packs, or you may take the packs or store credit...",
-    "sources": [
-      {
-        "name": "meetup-abu-games-events",
-        "url": "https://www.meetup.com/abu-games-events/events/317322314/",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "6ed9a38a66d8",
-    "title": "Game Night Live Rock’n Bingo",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T21:00:00-07:00",
-    "allDay": false,
-    "venue": "Barbarian Brewing Downtown Beer Bar",
-    "venueKey": "barbarian-brewing-downtown-beer-bar",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "bingo",
-      "board-games"
-    ],
-    "size": "S",
-    "url": "https://www.facebook.com/events/1449994170191290/1449994220191285/?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
-    "description": "R0CK’N BINGO every Thursday at Barbarian Downtown! Rock'n Bingo takes two of America’s favorite things and combines them into one awesome game…Bingo and Music. Instead of numbers in the squares there are songs. Each night the industry leading Game Night Live software creates a customized game, an...",
-    "sources": [
-      {
-        "name": "visit-boise",
-        "url": "https://www.facebook.com/events/1449994170191290/1449994220191285/?acontext=event_action_historyextra_datamechanismleft_railsurfacebookmarkextra_datamechanismsurfacesurfacecreate_dialogref_notif_typenull&onload_action=open_invite_flow&show_created_event_toast=true",
-        "fetchedAt": "2026-11-26T07:04:51Z"
-      }
-    ]
-  },
-  {
-    "id": "897b29aa3845",
-    "title": "Fun & easy way to play more tennis (please read event description for details)",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T21:00:00-07:00",
-    "allDay": false,
-    "venue": "PlayYourCourt Boise Tennis",
-    "venueKey": "playyourcourt-boise-tennis",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/playyourcourt-boise-tennis/events/317322205/",
-    "description": "We’re still working to get more people into these Meetups, but our goal is to give PlayYourCourt members a few social tennis outings each week in addition to your practice sessions and Challenge League matches. These Meetups are co-ed, super laid back, and all skill levels are welcome. Post your...",
-    "sources": [
-      {
-        "name": "meetup-playyourcourt-boise-tennis",
-        "url": "https://www.meetup.com/playyourcourt-boise-tennis/events/317322205/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "ab5ae12e762f",
-    "title": "The Hunger Games: Sunrise on the Reaping IMAX",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T22:00:00-07:00",
-    "allDay": false,
-    "venue": "Regal Edwards Boise",
-    "venueKey": "regal-edwards-boise",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [],
-    "size": "S",
-    "url": "https://www.meetup.com/conservative-genx-connect/events/317456918/",
-    "description": "Looking for a fun Thanksgiving movie? Let's go see the new Hunger Games movie in IMAX! We can recline and try not to fall asleep from all the turkey! Regal Edwards Boise 7701 W Overland Road IMAX, Auditorium 21 7pm We are in row D",
-    "sources": [
-      {
-        "name": "meetup-conservative-genx-connect",
-        "url": "https://www.meetup.com/conservative-genx-connect/events/317456918/",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      }
-    ]
-  },
-  {
-    "id": "b1700b635371",
-    "title": "Boise Women's Singing Meetup",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T21:30:00-07:00",
-    "allDay": false,
-    "venue": "Boise Women's Singing Meetup",
-    "venueKey": "boise-womens-singing-meetup",
-    "city": "Boise",
-    "category": "nightlife-social",
-    "tags": [
-      "meetup"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/boise-womens-singing-meetup/events/317322254/",
-    "description": "Just bring yourself and your voice. Try to get there a few minutes before 7 PM so we can get you set up with a guest book and a riser buddy, and so you can be placed. You will be welcomed !! Message Carol for more information.",
-    "sources": [
-      {
-        "name": "meetup-boise-womens-singing-meetup",
-        "url": "https://www.meetup.com/boise-womens-singing-meetup/events/317322254/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "bd5d90872b45",
-    "title": "Thursday Music Bingo at Boran Lounge🎵",
-    "start": "2026-11-26T19:00:00-07:00",
-    "end": "2026-11-26T21:00:00-07:00",
-    "allDay": false,
-    "venue": "Level Up Lounge",
-    "venueKey": "level-up-lounge",
-    "city": "Meridian",
-    "category": "food-drink",
-    "tags": [
-      "bingo"
-    ],
-    "size": "S",
-    "url": "https://www.meetup.com/boranloungecoffee-meridian/events/317322419/",
-    "description": "Looking for something fun to do on Thursday night? Join us at for Music Bingo with Game Night Live! Instead of numbers, your bingo card is filled with songs and artists. Hear the music, mark your card, sing along, and compete for prizes while enjoying great drinks and a fun atmosphere. Whether yo...",
-    "sources": [
-      {
-        "name": "meetup-boranloungecoffee-meridian",
-        "url": "https://www.meetup.com/boranloungecoffee-meridian/events/317322419/",
-        "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
   },
@@ -2926,7 +1646,7 @@
     "allDay": false,
     "venue": "Split Rail Winery",
     "venueKey": "split-rail-winery",
-    "city": "Boise",
+    "city": "Garden City",
     "category": "markets-shopping",
     "tags": [
       "winery"
@@ -2934,7 +1654,7 @@
     "size": "M",
     "costTier": "free",
     "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "Trolley Parton rolls into Split Rail Winery for Black Friday, with books to browse between sips.",
+    "description": "Trolley Parton parks at Split Rail Winery with a trolley full of books, and you're welcome to come say hi.",
     "sources": [
       {
         "name": "curbside-books",
@@ -3597,21 +2317,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/Gd497cbed9dc",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/sap/",
+    "description": "Sap plays Shrine Social Club’s Basement on Friday, November 27, with Sludge Mother and The Jewelry. Doors at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/sap/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Gd497cbed9dc",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Sap plays Shrine Social Club’s Basement on Friday, November 27, with Sludge Mother and The Jewelry. Doors at 7 PM.",
-    "costTier": "$$"
+    ]
   },
   {
     "id": "524b72ee506a",
@@ -3649,21 +2364,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/Ga5ea96d523e",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/ladrones/",
+    "description": "Ladrones brings the Arriba La L USA Tour to Shrine Social Club’s Ballroom on Friday, November 27, with Empty Shell Casing. Doors at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/ladrones/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Ga5ea96d523e",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Ladrones brings the Arriba La L USA Tour to Shrine Social Club’s Ballroom on Friday, November 27, with Empty Shell Casing. Doors at 7 PM.",
-    "costTier": "$$"
+    ]
   },
   {
     "id": "d24958a5b991",
@@ -4644,7 +3354,7 @@
     "size": "M",
     "costTier": "free",
     "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "Trolley Parton parks at Ease in Boise for a Saturday of books and shop-hopping.",
+    "description": "Trolley Parton parks at Ease with a trolley full of books, and you're welcome to come say hi.",
     "sources": [
       {
         "name": "curbside-books",
@@ -4703,6 +3413,29 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/family-art-saturday-4/2026-11-28/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "531360048463",
+    "title": "Beginner-Advanced Pottery Handbuilding",
+    "start": "2026-11-28T12:00:00-07:00",
+    "end": "2026-11-28T14:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317344504/",
+    "description": "Handbuild clay pieces with Cat staff instruction, independently, or glaze your pieces! Ages 13+ Beginner-advanced; Ages 13+. (See “[Adults’ Beginner-Advanced Handbuilding](https://www.catalystartscollaborative.com/service-page/adults-beginner-advanced-handbuilding)” for an 18+ offering) Limited s...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317344504/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -5199,6 +3932,29 @@
     ]
   },
   {
+    "id": "8a372b99ffe0",
+    "title": "Ceramic Nature Handbuilding",
+    "start": "2026-11-28T15:00:00-07:00",
+    "end": "2026-11-28T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/316684382/",
+    "description": "Learn simple sculpting techniques while creating nature-themed clay projects! Age 9+ Individual, 1-day workshops (register for each separately): every 2nd and 4th Saturday (starting August 8), 3:00pm - 5:00pm. Beginner-intermediate; Ages 10+ Attendees must pre-register through this link: https://...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/316684382/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "c7f8c4a24365",
     "title": "Pub Chess at the Handlebar!",
     "start": "2026-11-28T16:00:00-07:00",
@@ -5574,6 +4330,31 @@
     ]
   },
   {
+    "id": "a500beb5a8db",
+    "title": "Write Justified - FREE Open Write Night",
+    "start": "2026-11-28T18:30:00-07:00",
+    "end": "2026-11-28T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "free-admission"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://www.meetup.com/boise-arts-community/events/317349915/",
+    "description": "Open write night with peers! Ages 13+, any genre welcome. Every 2nd & 4th Saturday of the month, 6:30pm - 8:00pm. Free! Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/write-justified-2nd-4th-sat-6-30pm This is a FREE event designed for writer...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317349915/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "c95dc7eadd2c",
     "title": "Boise Creatives Bi-Weekly Meetup",
     "start": "2026-11-28T18:30:00-07:00",
@@ -5617,26 +4398,6 @@
         "name": "meetup-boise-country-dancers",
         "url": "https://www.meetup.com/boise-country-dancers/events/317350188/",
         "fetchedAt": "2026-11-24T07:04:19Z"
-      }
-    ]
-  },
-  {
-    "id": "36fb18db20fe",
-    "title": "Mondo Pondo",
-    "start": "2026-11-28T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/I8aa7239ec9f",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/I8aa7239ec9f",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -5790,26 +4551,6 @@
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/scotchos-funksgiving/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "e0a03775a9f3",
-    "title": "Bittermint",
-    "start": "2026-11-28T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/n5a012255eff",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/n5a012255eff",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -6286,6 +5027,29 @@
     "costTier": "$$"
   },
   {
+    "id": "6733e9f3dd07",
+    "title": "Texture & Detail Drawing",
+    "start": "2026-11-29T15:00:00-07:00",
+    "end": "2026-11-29T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Catalyst Arts Collaborative",
+    "venueKey": "catalyst-arts-collaborative",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$$$",
+    "url": "https://www.meetup.com/boise-arts-community/events/317361863/",
+    "description": "Explore texture, shadow, and imagination in this quirky drawing class for all skill levels! Age 11+ Ongoing, individual sessions: biweekly Sundays, 3:00pm - 5:00pm. Attendees must pre-register through this link: https://www.catalystartscollaborative.com/service-page/texture-detail-drawing-sun-or-...",
+    "sources": [
+      {
+        "name": "meetup-boise-arts-community",
+        "url": "https://www.meetup.com/boise-arts-community/events/317361863/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "bf823c538db3",
     "title": "Animals ENCORE | Pick your Fav | Family Day!",
     "start": "2026-11-29T15:00:00-07:00",
@@ -6390,35 +5154,6 @@
     ]
   },
   {
-    "id": "944e63fb11c7",
-    "title": "Bodysnatcher",
-    "start": "2026-11-29T17:30:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [
-      "concert"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/Kd434b0ac001",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/bodysnatcher/",
-        "fetchedAt": "2026-11-02T21:24:51Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Kd434b0ac001",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ],
-    "description": "Bodysnatcher brings the Hell Is Here, Hell Is Home Tour to Shrine Social Club’s Ballroom on Sunday, November 29, with Gideon, Psycho-Frame, and Volatile Ways. Doors at 6 PM.",
-    "costTier": "$$"
-  },
-  {
     "id": "ed0a4a743d39",
     "title": "Junior Graphic Novel Bookclub",
     "start": "2026-11-29T17:30:00-07:00",
@@ -6484,6 +5219,30 @@
         "name": "barnes-noble-boise",
         "url": "https://stores.barnesandnoble.com/store/2740?view=calendar",
         "fetchedAt": "2026-11-07T03:22:23Z"
+      }
+    ]
+  },
+  {
+    "id": "944e63fb11c7",
+    "title": "Bodysnatcher",
+    "start": "2026-11-29T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/bodysnatcher/",
+    "description": "Bodysnatcher brings the Hell Is Here, Hell Is Home Tour to Shrine Social Club’s Ballroom on Sunday, November 29, with Gideon, Psycho-Frame, and Volatile Ways. Doors at 6 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/bodysnatcher/",
+        "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
   },
@@ -7794,26 +6553,6 @@
         "name": "meetup-amor-immortalem",
         "url": "https://www.meetup.com/amor-immortalem/events/317074976/",
         "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "3b2becca0d0c",
-    "title": "Tilted Earth",
-    "start": "2026-11-30T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/D404a05db660",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/D404a05db660",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -9462,28 +8201,6 @@
     ]
   },
   {
-    "id": "31eb57a2bee2",
-    "title": "City of Good Bingo",
-    "start": "2026-12-01T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "bingo"
-    ],
-    "size": "M",
-    "url": "https://theduckclub.com/free-show/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://theduckclub.com/free-show/",
-        "fetchedAt": "2026-11-22T07:04:28Z"
-      }
-    ]
-  },
-  {
     "id": "42576d7d3543",
     "title": "Tuesday Game Night",
     "start": "2026-12-01T18:00:00-07:00",
@@ -9895,6 +8612,28 @@
     ]
   },
   {
+    "id": "dcf6f6db97b4",
+    "title": "Computationalism and Thinking Machines",
+    "start": "2026-12-01T19:00:00-07:00",
+    "end": "2026-12-01T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Realms Arcade",
+    "venueKey": "realms-arcade",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/bap-club/events/317591165/",
+    "description": "The time has finally come for us to discuss AI. We still aren't leaving our armchairs though. (No empirical arguments allowed!) What is the Matryoshka Homunculi Argument? What is a Chinese Gym? What is Functionalism and why does our author for this meeting think it's ridiculous? Come join us in s...",
+    "sources": [
+      {
+        "name": "meetup-bap-club",
+        "url": "https://www.meetup.com/bap-club/events/317591165/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "f85ce9773db1",
     "title": "Rock Dee House Dueling Pianos",
     "start": "2026-12-01T19:00:00-07:00",
@@ -10013,6 +8752,29 @@
     ],
     "description": "UpDating takes the stage at the Knitting Factory in Boise on Tuesday, December 1, 2026. Doors open at 7 PM and the show starts at 8 PM. This show is 18 and up.",
     "end": "2026-12-01T23:00:00-07:00"
+  },
+  {
+    "id": "a8d2bf2fee7e",
+    "title": "Intermediate Partner Country Dance",
+    "start": "2026-12-01T20:30:00-07:00",
+    "end": "2026-12-01T21:30:00-07:00",
+    "allDay": false,
+    "venue": "Meridian Homecourt",
+    "venueKey": "meridian-homecourt",
+    "city": "Meridian",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317392427/",
+    "description": "This class is for those who know the basic steps for the dances listed to attend this class. Contact Randy if you are unsure: 208-941-4853. Along with some fun patterns, Randy will teach the importance of your positioning, timing and connection. You may also come to the Intro to Dance class, 7:00...",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317392427/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
   },
   {
     "id": "88dd1624c61b",
@@ -11655,6 +10417,30 @@
     ]
   },
   {
+    "id": "57b2c6914681",
+    "title": "Board Game Night | ABUGames",
+    "start": "2026-12-02T18:00:00-07:00",
+    "end": "2026-12-02T21:45:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317405251/",
+    "description": "Join us for a Board Game Every Wednesday at ABU Games! This is a Free to play community meetup each week and is always a blast! Bring your own game to play or borrow one of our 200+ demo games! We will be just down the hall in the Village Square Room. This is a casual meetup to play games. There...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317405251/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "8ab3f77c5788",
     "title": "The Good Death",
     "start": "2026-12-02T18:00:00-07:00",
@@ -12097,6 +10883,29 @@
     "costTier": "$$"
   },
   {
+    "id": "a1e46cfd7915",
+    "title": "We-Dance-Day: Swing Dancing at The Farm",
+    "start": "2026-12-02T19:00:00-07:00",
+    "end": "2026-12-02T22:00:00-07:00",
+    "allDay": false,
+    "venue": "The Farm",
+    "venueKey": "the-farm",
+    "city": "Garden City",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/boise-country-dancers/events/317406195/",
+    "description": "You asked for another night of country swing dancing and we agree!! Join us at The Farm every Wednesday for Swing Dance lesson and social dancing! Doors Open at 7pm Lesson starts at 7:30pm with Dirt Road Dancing Social dancing from 9pm to 11pm. No experience necessary. The Farm is an Alcohol Free...",
+    "sources": [
+      {
+        "name": "meetup-boise-country-dancers",
+        "url": "https://www.meetup.com/boise-country-dancers/events/317406195/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "a7f290697a81",
     "title": "Broadway In Boise Presents DISNEY'S BEAUTY AND THE BEAST",
     "start": "2026-12-02T19:00:00-07:00",
@@ -12167,6 +10976,7 @@
     "id": "bad088dc6877",
     "title": "Ben Musser & Walker Young",
     "start": "2026-12-02T19:00:00-07:00",
+    "end": "2026-12-02T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -12177,22 +10987,16 @@
       "kids"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/R907624ca70e",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/ben-musser-walker-young/",
+    "description": "Ben Musser & Walker Young play the Basement at the Shrine Social Club in Boise on Wednesday, December 2, 2026. Canyon Kids and Don Hurt Band open. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/ben-musser-walker-young/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/R907624ca70e",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Ben Musser & Walker Young play the Basement at the Shrine Social Club in Boise on Wednesday, December 2, 2026. Canyon Kids and Don Hurt Band open. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-02T23:00:00-07:00"
+    ]
   },
   {
     "id": "c1b38e95e293",
@@ -12368,28 +11172,6 @@
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/solitary-band-the-neil-diamond-experience-night-2/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      }
-    ]
-  },
-  {
-    "id": "ab4af42c96bf",
-    "title": "Karaoke in the Basement! (21+)",
-    "start": "2026-12-02T22:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "karaoke"
-    ],
-    "size": "M",
-    "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-        "fetchedAt": "2026-11-22T07:04:28Z"
       }
     ]
   },
@@ -13471,6 +12253,28 @@
     ]
   },
   {
+    "id": "9763962dfa98",
+    "title": "Open-Play Casual Pokémon League",
+    "start": "2026-12-03T16:00:00-07:00",
+    "end": "2026-12-03T19:00:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317421669/",
+    "description": "Welcome to the Free Open-play Casual Pokémon league!! This open-play event has something for everyone! Intended for: - New players to learn to play - Seasoned players to practice. - Card Trading - Deck tech. This is the perfect time to trade and play casually. This weekly event takes place the 3...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317421669/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "ba7e0c123c25",
     "title": "Teen Club: Video Games",
     "start": "2026-12-03T16:00:00-07:00",
@@ -13511,12 +12315,12 @@
     ],
     "size": "S",
     "costTier": "free",
-    "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
+    "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
     "description": "Join us after school for a variety of video games! Ages 12-17.",
     "sources": [
       {
         "name": "boise-mom",
-        "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-4/",
+        "url": "https://boisemom.com/event/teen-club-video-games-cole-ustick-library-5/",
         "fetchedAt": "2026-11-02T21:24:51Z"
       }
     ]
@@ -13564,26 +12368,6 @@
         "name": "boise-public-library",
         "url": "https://boisepubliclibrary.libcal.com/event/15111974",
         "fetchedAt": "2026-11-09T07:05:18Z"
-      }
-    ]
-  },
-  {
-    "id": "36809fed7764",
-    "title": "Jens’ Jazz Residency",
-    "start": "2026-12-03T17:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://shrinesocialclub.com/shows/%C2%A0https://shrinesocialclub.com/free-show/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://shrinesocialclub.com/shows/%C2%A0https://shrinesocialclub.com/free-show/",
-        "fetchedAt": "2026-11-22T07:04:28Z"
       }
     ]
   },
@@ -13898,6 +12682,30 @@
     ]
   },
   {
+    "id": "36f227100006",
+    "title": "Tabletop Miniatures Game Night",
+    "start": "2026-12-03T18:00:00-07:00",
+    "end": "2026-12-03T22:30:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317423542/",
+    "description": "Come play each week and you will see that our Tabletop Miniatures Game night is a slugfest, but what is wrong with that? Every Thursday players of popular miniatures games gather to play their favorite miniatures games with others. The games most represented are: - Warhammer: 40k and Age of Sigma...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317423542/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "3891eecf3a18",
     "title": "Shotokan Karate",
     "start": "2026-12-03T18:00:00-07:00",
@@ -13947,6 +12755,54 @@
     ]
   },
   {
+    "id": "85cb0939a6fe",
+    "title": "Magic the Gathering: Booster Draft",
+    "start": "2026-12-03T18:00:00-07:00",
+    "end": "2026-12-03T22:00:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317423511/",
+    "description": "Join us for an MTG: Booster Draft! - Join our Discord https://discord.gg/qD9P8838ek",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317423511/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
+    "id": "90e16cb4c0c9",
+    "title": "Magic the Gathering: Competitive Commander",
+    "start": "2026-12-03T18:00:00-07:00",
+    "end": "2026-12-03T22:00:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317423510/",
+    "description": "Welcome to Competitive Commander (MTG) at ABU Games! Event Details: 65 Min. Rounds As with all of our weekly MTG events players may take their winnings as a Store-wide Credit or as Standard Draft Packs, whichever is preferred. See you there! Join our Discord: https://discord.gg/qD9P8838ek See less",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317423510/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "997142db9705",
     "title": "Christmas Cookie Exchange (Friends of The Donnelly Library)",
     "start": "2026-12-03T18:00:00-07:00",
@@ -13992,6 +12848,52 @@
         "name": "visit-mccall",
         "url": "https://visitmccall.org/event/broken-horn-thursday-trivia/",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "aa17fe295b24",
+    "title": "Warhammer 40k League",
+    "start": "2026-12-03T18:00:00-07:00",
+    "end": "2026-12-03T22:30:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "board-games"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317423543/",
+    "description": "This is a casual and welcoming Warhammer 40K League. All are welcome to join. Use the following link to Reserve a spot: [https://www.signupgenius.com/.../10C0949AEAF2AA4FFC61...](https://www.signupgenius.com/go/10C0949AEAF2AA4FFC61-abucasual2?fbclid=IwAR0v5oGRNyrzHG1-MHT48po9W8bVdm03Udk9uj-R5vRPf...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317423543/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
+    "id": "bfc644939f59",
+    "title": "Marvel Crisis Protocol | Open Play",
+    "start": "2026-12-03T18:00:00-07:00",
+    "end": "2026-12-03T21:00:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/abu-games-events/events/317423540/",
+    "description": "Join the Fight, Every Thursday night at 6pm. Face off against other MCP players at this casual open-play game night, totally Free! Come play each week and you will learn that it's a slugfest, but what is wrong with that? * There is no organizer but don't let that stop you, ABU has one of the most...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317423540/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -14350,6 +13252,54 @@
     ]
   },
   {
+    "id": "e18ee353c8b7",
+    "title": "Pokémon Standard League at ABU Games",
+    "start": "2026-12-03T19:00:00-07:00",
+    "end": "2026-12-03T22:00:00-07:00",
+    "allDay": false,
+    "venue": "ABU Games",
+    "venueKey": "abu-games",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "costTier": "$",
+    "url": "https://www.meetup.com/abu-games-events/events/317424266/",
+    "description": "Welcome to Pokemon at ABU Games! ______________PRIZING______________ 3 Rounds - Pack-Per-Win! - Participation Pack only for players who do not win a game. 4 Rounds - 4-0: 5 Standard packs - 3-1: 3 Standard packs - 2-2 and Lower: 1 Standard pack All Participants will receive packs based on their r...",
+    "sources": [
+      {
+        "name": "meetup-abu-games-events",
+        "url": "https://www.meetup.com/abu-games-events/events/317424266/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
+    "id": "eaf4126780d7",
+    "title": "HARBOUR",
+    "start": "2026-12-03T19:00:00-07:00",
+    "end": "2026-12-03T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/harbour/",
+    "description": "Harbour plays the Basement at the Shrine Social Club in Boise on Thursday, December 3, 2026. The Silkies open. Doors open at 7 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/harbour/",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ]
+  },
+  {
     "id": "eb1f12973904",
     "title": "Disney On Ice presents Jump In!",
     "start": "2026-12-03T19:00:00-07:00",
@@ -14667,36 +13617,6 @@
         "fetchedAt": "2026-11-17T07:05:02Z"
       }
     ]
-  },
-  {
-    "id": "eaf4126780d7",
-    "title": "HARBOUR",
-    "start": "2026-12-03T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [
-      "concert"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/d5418d01411c",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/harbour/",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/d5418d01411c",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ],
-    "description": "Harbour plays the Basement at the Shrine Social Club in Boise on Thursday, December 3, 2026. The Silkies open. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-03T23:00:00-07:00"
   },
   {
     "id": "6338c163991a",
@@ -15994,7 +14914,7 @@
     "size": "M",
     "costTier": "free",
     "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "An evening pop-up at Primitive Grounds in Meridian, with books and a warm cup.",
+    "description": "Trolley Parton parks at Primitive Grounds with a trolley full of books, and you're welcome to come say hi.",
     "sources": [
       {
         "name": "curbside-books",
@@ -16734,35 +15654,30 @@
     ]
   },
   {
-    "id": "360d85aa7389",
-    "title": "Folk Night Out",
+    "id": "c920f094783d",
+    "title": "Folk Night Out: An Indie Folk DJ Night",
     "start": "2026-12-04T20:00:00-07:00",
+    "end": "2026-12-05T02:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
     "city": "Boise",
-    "category": "music",
+    "category": "nightlife-social",
     "tags": [
       "concert",
       "dj-night"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/e1e628ef93e7",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/folk-night-out-an-indie-folk-dj-night/",
+    "description": "Folk Night Out, an indie folk DJ night, comes to the Shrine Social Club in Boise on Friday, December 4, 2026. Doors open at 8 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/folk-night-out-an-indie-folk-dj-night/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/e1e628ef93e7",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Folk Night Out, an indie folk DJ night, comes to the Shrine Social Club in Boise on Friday, December 4, 2026. Doors open at 8 PM.",
-    "costTier": "$$",
-    "end": "2026-12-05T02:00:00-07:00"
+    ]
   },
   {
     "id": "db7715e2ec05",
@@ -16783,26 +15698,6 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/karoake-friday-helina-marie-s-12-04-2026-4821",
         "fetchedAt": "2026-11-10T04:59:00Z"
-      }
-    ]
-  },
-  {
-    "id": "8f33a049aa49",
-    "title": "Aktive Events Presents: Clawz",
-    "start": "2026-12-04T20:30:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://aktive-events.eventcube.io/events/97566/clawz-for-the-floor-boise",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://aktive-events.eventcube.io/events/97566/clawz-for-the-floor-boise",
-        "fetchedAt": "2026-11-21T07:04:33Z"
       }
     ]
   },
@@ -18074,7 +16969,7 @@
     "size": "M",
     "costTier": "free",
     "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "Trolley Parton joins the Cowgirl Christmas book fair at Mother Earth Brew Co., stocked with romance and spicy reads.",
+    "description": "Trolley Parton joins the Cowgirl Christmas book fair with a trolley full of books for the season.",
     "sources": [
       {
         "name": "curbside-books",
@@ -19212,6 +18107,7 @@
     "id": "cc0e8165e2d5",
     "title": "Radio Boise’s Practice New Year’s Eve Party",
     "start": "2026-12-05T18:00:00-07:00",
+    "end": "2026-12-05T22:30:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -19222,22 +18118,16 @@
       "new-years"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/t0976879e058",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/radio-boises-practice-new-years-eve-party/",
+    "description": "Radio Boise throws its Practice New Year’s Eve Party, an early run at ringing in the new year, at the Shrine Social Club in Boise on Saturday, December 5, 2026. Doors open at 6 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/radio-boises-practice-new-years-eve-party/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/t0976879e058",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Radio Boise throws its Practice New Year’s Eve Party, an early run at ringing in the new year, at the Shrine Social Club in Boise on Saturday, December 5, 2026. Doors open at 6 PM.",
-    "costTier": "$$",
-    "end": "2026-12-05T22:30:00-07:00"
+    ]
   },
   {
     "id": "68f01a4e296f",
@@ -19765,7 +18655,7 @@
     "size": "M",
     "costTier": "free",
     "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "A Sunday morning pop-up at Spoken Coffee, with books for your coffee order.",
+    "description": "Trolley Parton parks at Spoken Coffee with a trolley full of books, and you're welcome to come say hi.",
     "sources": [
       {
         "name": "curbside-books",
@@ -20335,13 +19225,13 @@
     "allDay": false,
     "venue": "Château des Fleurs",
     "venueKey": "chateau-des-fleurs",
-    "city": "Boise",
+    "city": "Eagle",
     "category": "markets-shopping",
     "tags": [],
     "size": "M",
     "costTier": "free",
     "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "Trolley Parton visits Château des Fleurs for Christmas Traditions, with books for gifting and gathering.",
+    "description": "Trolley Parton parks at Château des Fleurs with a trolley full of books, and you're welcome to come say hi.",
     "sources": [
       {
         "name": "curbside-books",
@@ -20587,6 +19477,7 @@
     "id": "6160ec49e391",
     "title": "Willi Carlisle",
     "start": "2026-12-06T19:00:00-07:00",
+    "end": "2026-12-06T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -20596,22 +19487,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/k1dcb3c32064",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/willi-carlisle/",
+    "description": "Willi Carlisle plays the Basement at the Shrine Social Club in Boise on Sunday, December 6, 2026. Amelia Day opens. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/willi-carlisle/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/k1dcb3c32064",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Willi Carlisle plays the Basement at the Shrine Social Club in Boise on Sunday, December 6, 2026. Amelia Day opens. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-06T23:00:00-07:00"
+    ]
   },
   {
     "id": "0f3a6a22ae18",
@@ -23548,37 +22433,6 @@
     ]
   },
   {
-    "id": "6f02f0860134",
-    "title": "Emo Orchestra",
-    "start": "2026-12-08T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [
-      "concert",
-      "symphony"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/Ke8be33c510b",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/emo-orchestra-with-the-spill-canvas/",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Ke8be33c510b",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ],
-    "description": "Emo Orchestra, with The Spill Canvas, plays the Ballroom at the Shrine Social Club in Boise on Tuesday, December 8, 2026. Greywind opens. Doors open at 6 PM.",
-    "costTier": "$$$",
-    "end": "2026-12-08T23:00:00-07:00"
-  },
-  {
     "id": "7873653974c7",
     "title": "City Council Meeting",
     "start": "2026-12-08T18:00:00-07:00",
@@ -23598,6 +22452,32 @@
         "name": "city-of-boise",
         "url": "https://www.cityofboise.org/events/city-council/2026/december/city-council-meeting-1/",
         "fetchedAt": "2026-11-04T06:01:16Z"
+      }
+    ]
+  },
+  {
+    "id": "803887135f08",
+    "title": "Emo Orchestra with The Spill Canvas",
+    "start": "2026-12-08T18:00:00-07:00",
+    "end": "2026-12-08T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert",
+      "symphony"
+    ],
+    "size": "M",
+    "costTier": "$$$",
+    "url": "https://www.mikebrowngroup.com/event/emo-orchestra-with-the-spill-canvas/",
+    "description": "Emo Orchestra, with The Spill Canvas, plays the Ballroom at the Shrine Social Club in Boise on Tuesday, December 8, 2026. Greywind opens. Doors open at 6 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/emo-orchestra-with-the-spill-canvas/",
+        "fetchedAt": "2026-11-17T07:05:02Z"
       }
     ]
   },
@@ -23651,6 +22531,7 @@
     "id": "b16a8ea8a6d1",
     "title": "Guilt Trip",
     "start": "2026-12-08T18:00:00-07:00",
+    "end": "2026-12-08T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -23660,22 +22541,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/Pac083f5baa1",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/guilt-trip/",
+    "description": "Guilt Trip play the Basement at the Shrine Social Club in Boise on Tuesday, December 8, 2026. Gates to Hell, Mauled and xTREBUCHETx are also on the bill. Doors open at 6 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/guilt-trip/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Pac083f5baa1",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Guilt Trip play the Basement at the Shrine Social Club in Boise on Tuesday, December 8, 2026. Gates to Hell, Mauled and xTREBUCHETx are also on the bill. Doors open at 6 PM.",
-    "costTier": "$$",
-    "end": "2026-12-08T23:00:00-07:00"
+    ]
   },
   {
     "id": "864c37b336b9",
@@ -25410,26 +24285,6 @@
     ]
   },
   {
-    "id": "69ca731f1ba2",
-    "title": "Andrew Cahill",
-    "start": "2026-12-09T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://theduckclub.com/free-show/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://theduckclub.com/free-show/",
-        "fetchedAt": "2026-11-25T07:04:56Z"
-      }
-    ]
-  },
-  {
     "id": "79d0b7ad7ac4",
     "title": "Hyggeligt Bibliotek!",
     "start": "2026-12-09T18:00:00-07:00",
@@ -25794,6 +24649,7 @@
     "id": "b9045a46f863",
     "title": "Pokey LaFarge",
     "start": "2026-12-09T19:00:00-07:00",
+    "end": "2026-12-09T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -25803,22 +24659,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/c7309d2519be",
+    "costTier": "$$$",
+    "url": "https://www.mikebrowngroup.com/event/pokey-lafarge/",
+    "description": "Pokey LaFarge plays the Ballroom at the Shrine Social Club in Boise on Wednesday, December 9, 2026. Cicada Rhythm opens. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/pokey-lafarge/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/c7309d2519be",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Pokey LaFarge plays the Ballroom at the Shrine Social Club in Boise on Wednesday, December 9, 2026. Cicada Rhythm opens. Doors open at 7 PM.",
-    "costTier": "$$$",
-    "end": "2026-12-09T23:00:00-07:00"
+    ]
   },
   {
     "id": "e73f24f99b8f",
@@ -25943,28 +24793,6 @@
         "name": "ticketmaster-metro",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70OFZ",
         "fetchedAt": "2026-11-03T17:00:01Z"
-      }
-    ]
-  },
-  {
-    "id": "bd4fb41c69c1",
-    "title": "Karaoke in the Basement! (21+)",
-    "start": "2026-12-09T22:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "karaoke"
-    ],
-    "size": "M",
-    "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-        "fetchedAt": "2026-11-22T07:04:28Z"
       }
     ]
   },
@@ -27575,6 +26403,7 @@
     "id": "7b3097a34506",
     "title": "Ripe",
     "start": "2026-12-10T19:00:00-07:00",
+    "end": "2026-12-10T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -27584,22 +26413,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/M4a07e27fbcc",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/ripe/",
+    "description": "Ripe plays the Ballroom at the Shrine Social Club in Boise on Thursday, December 10, 2026. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/ripe/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/M4a07e27fbcc",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Ripe plays the Ballroom at the Shrine Social Club in Boise on Thursday, December 10, 2026. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-10T23:00:00-07:00"
+    ]
   },
   {
     "id": "c372440b228a",
@@ -29193,6 +28016,31 @@
     ]
   },
   {
+    "id": "366536caaa09",
+    "title": "Miss May I & Born of Osiris",
+    "start": "2026-12-11T18:00:00-07:00",
+    "end": "2026-12-11T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/miss-may-i-born-of-osiris/",
+    "description": "Miss May I and Born of Osiris co-headline the Ballroom at the Shrine Social Club in Boise on Friday, December 11, 2026. Convictions and Downswing open. Doors open at 6 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/miss-may-i-born-of-osiris/",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ]
+  },
+  {
     "id": "d13de251c95f",
     "title": "Tween Teen Christmas Party",
     "start": "2026-12-11T18:00:00-07:00",
@@ -29238,36 +28086,6 @@
         "fetchedAt": "2026-11-03T17:00:01Z"
       }
     ]
-  },
-  {
-    "id": "fce03389798a",
-    "title": "Miss May I",
-    "start": "2026-12-11T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [
-      "concert"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/Af11204f5c02",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/miss-may-i-born-of-osiris/",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Af11204f5c02",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ],
-    "description": "Miss May I and Born of Osiris co-headline the Ballroom at the Shrine Social Club in Boise on Friday, December 11, 2026. Convictions and Downswing open. Doors open at 6 PM.",
-    "costTier": "$$",
-    "end": "2026-12-11T23:00:00-07:00"
   },
   {
     "id": "87691eb57cd0",
@@ -29352,6 +28170,31 @@
     ]
   },
   {
+    "id": "913bdd01ea3f",
+    "title": "Sunday Cruise x Appleseed",
+    "start": "2026-12-11T19:00:00-07:00",
+    "end": "2026-12-11T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "music",
+    "tags": [
+      "concert"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/sunday-cruise-x-appleseed/",
+    "description": "Sunday Cruise and Appleseed share a bill in the Basement at the Shrine Social Club in Boise on Friday, December 11, 2026. Dino Gala and Friend open. Doors open at 7 PM.",
+    "sources": [
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/sunday-cruise-x-appleseed/",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ]
+  },
+  {
     "id": "a9478666d8b3",
     "title": "Karaoke Friday Nights",
     "start": "2026-12-11T19:00:00-07:00",
@@ -29395,36 +28238,6 @@
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
-  },
-  {
-    "id": "f405317952cb",
-    "title": "Sunday Cruise",
-    "start": "2026-12-11T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [
-      "concert"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/w43167ee0951",
-    "sources": [
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/sunday-cruise-x-appleseed/",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/w43167ee0951",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ],
-    "description": "Sunday Cruise and Appleseed share a bill in the Basement at the Shrine Social Club in Boise on Friday, December 11, 2026. Dino Gala and Friend open. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-11T23:00:00-07:00"
   },
   {
     "id": "2c739ff577e8",
@@ -30188,37 +29001,6 @@
     ]
   },
   {
-    "id": "932f0b87cdf5",
-    "title": "Live Camels with Corbin Maxey",
-    "start": "2026-12-12T10:00:00-07:00",
-    "end": "2026-12-12T12:00:00-07:00",
-    "allDay": false,
-    "venue": "The Village at Meridan",
-    "venueKey": "the-village-at-meridan",
-    "city": "Meridian",
-    "category": "community-civic",
-    "tags": [
-      "family-friendly",
-      "free-admission"
-    ],
-    "size": "S",
-    "costTier": "free",
-    "url": "https://www.mikebrowngroup.com/event/live-camels-with-corbin-maxey/",
-    "sources": [
-      {
-        "name": "boise-mom",
-        "url": "https://boisemom.com/event/live-camels-with-corbin-maxey/",
-        "fetchedAt": "2026-11-06T19:12:30Z"
-      },
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/live-camels-with-corbin-maxey/",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      }
-    ],
-    "description": "Get ready for a unique up-close animal encounter! Join us at Big Al’s Patio on December 12th as wildlife expert Corbin Maxey brings his camels to The Village at Meridian! Guests will have the opportunity to meet these incredible animals and enjoy a fun, one-of-a-kind experience for the whole fami..."
-  },
-  {
     "id": "b9258ddb1b23",
     "title": "Curbside Books pop-up at Bumble Coffee & Taps",
     "start": "2026-12-12T10:00:00-07:00",
@@ -30232,7 +29014,7 @@
     "size": "M",
     "costTier": "free",
     "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "A Saturday pop-up at Bumble Coffee & Taps in Boise, with coffee, taps and plenty of books.",
+    "description": "Trolley Parton parks at Bumble Coffee & Taps with a trolley full of books, and you're welcome to come say hi.",
     "sources": [
       {
         "name": "curbside-books",
@@ -30240,6 +29022,42 @@
         "fetchedAt": "2026-11-24T07:04:19Z"
       }
     ]
+  },
+  {
+    "id": "bbc0e926d16f",
+    "title": "Live Camels with Corbin Maxey",
+    "start": "2026-12-12T10:00:00-07:00",
+    "end": "2026-12-12T12:00:00-07:00",
+    "allDay": false,
+    "venue": "The Village at Meridian",
+    "venueKey": "the-village",
+    "city": "Meridian",
+    "category": "community-civic",
+    "tags": [
+      "family-friendly",
+      "free-admission"
+    ],
+    "size": "M",
+    "url": "https://www.thevillageatmeridian.com/event/45717-live-camels-with-corbin-maxey",
+    "description": "Get ready for a unique up-close animal encounter! Join us at Big Al’s Patio on December 12th as wildlife expert Corbin Maxey brings his camels to The Village at Meridian! Guests will have the opportunity to meet these incredible animals and enjoy a fun, one-of-a-kind experience for the whole fami...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/live-camels-with-corbin-maxey/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/live-camels-with-corbin-maxey/",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      },
+      {
+        "name": "village-at-meridian",
+        "url": "https://www.thevillageatmeridian.com/event/45717-live-camels-with-corbin-maxey",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ],
+    "costTier": "free"
   },
   {
     "id": "cd3abf815ca6",
@@ -31744,6 +30562,7 @@
     "id": "2131efb45aa1",
     "title": "Boot Juice",
     "start": "2026-12-12T19:00:00-07:00",
+    "end": "2026-12-12T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -31753,22 +30572,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/jceb6d61d894",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/boot-juice/",
+    "description": "Boot Juice plays the Ballroom at the Shrine Social Club in Boise on Saturday, December 12, 2026. McKenna Esteb opens. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/boot-juice/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/jceb6d61d894",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Boot Juice plays the Ballroom at the Shrine Social Club in Boise on Saturday, December 12, 2026. McKenna Esteb opens. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-12T23:00:00-07:00"
+    ]
   },
   {
     "id": "2603ce0b5acf",
@@ -31789,26 +30602,6 @@
         "name": "meetup-playyourcourt-boise-tennis",
         "url": "https://www.meetup.com/playyourcourt-boise-tennis/events/317546043/",
         "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
-    "id": "bc76bf20f6f1",
-    "title": "Floating Witch’s Head",
-    "start": "2026-12-12T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/r5edd2d4063a",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/r5edd2d4063a",
-        "fetchedAt": "2026-11-19T07:04:58Z"
       }
     ]
   },
@@ -32046,6 +30839,33 @@
         "name": "meetup-recoverydharmaboise",
         "url": "https://www.meetup.com/recoverydharmaboise/events/317552634/",
         "fetchedAt": "2026-11-26T07:04:51Z"
+      }
+    ]
+  },
+  {
+    "id": "3af81db1b8e2",
+    "title": "Family Friendly Christmas Theme Hike | Boise Foot Hills",
+    "start": "2026-12-13T09:30:00-07:00",
+    "end": "2026-12-13T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Lulu's Fine Pizza & Sushi",
+    "venueKey": "lulus-fine-pizza-and-sushi",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "family-friendly",
+      "hike",
+      "kids"
+    ],
+    "size": "S",
+    "costTier": "$$",
+    "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317599724/",
+    "description": "We have so many great hikers and backpackers in our group but I never get to meet your children and significant others. I would like to welcome families with children for a hike at Hull’s Gulch in the Boise foothills. However, hikers of all ages are welcomed. This is a Christmas themed hike so we...",
+    "sources": [
+      {
+        "name": "meetup-idaho-hikers-backpackers",
+        "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317599724/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -32418,6 +31238,7 @@
     "id": "653be3523ed3",
     "title": "Eyes Set To Kill",
     "start": "2026-12-13T18:00:00-07:00",
+    "end": "2026-12-13T22:30:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -32427,22 +31248,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/Tf8b6a94b2d5",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/eyes-set-to-kill/",
+    "description": "Metalcore band Eyes Set To Kill plays at the Shrine Social Club in Boise on Sunday, December 13, 2026. Twist It and Beyond The Apex open. Doors open at 6 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/eyes-set-to-kill/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Tf8b6a94b2d5",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Metalcore band Eyes Set To Kill plays at the Shrine Social Club in Boise on Sunday, December 13, 2026. Twist It and Beyond The Apex open. Doors open at 6 PM.",
-    "costTier": "$$",
-    "end": "2026-12-13T22:30:00-07:00"
+    ]
   },
   {
     "id": "44cc0d4dfd91",
@@ -33825,6 +32640,7 @@
     "id": "9e067baabddc",
     "title": "Westside Boogie",
     "start": "2026-12-14T19:00:00-07:00",
+    "end": "2026-12-14T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -33834,22 +32650,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/b1e982252925",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/westside-boogie/",
+    "description": "Westside Boogie performs at the Shrine Social Club in Boise on Monday, December 14, 2026. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/westside-boogie/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/b1e982252925",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Westside Boogie performs at the Shrine Social Club in Boise on Monday, December 14, 2026. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-14T23:00:00-07:00"
+    ]
   },
   {
     "id": "f8734a1fa420",
@@ -35765,6 +34575,7 @@
     "id": "3b89fbea7ed9",
     "title": "Save Ferris",
     "start": "2026-12-15T19:00:00-07:00",
+    "end": "2026-12-15T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -35774,22 +34585,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/Sf0462e01a4b",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/save-ferris/",
+    "description": "Save Ferris plays at the Shrine Social Club in Boise on Tuesday, December 15, 2026. Lab Brats and Self Smartid open. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/save-ferris/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Sf0462e01a4b",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Save Ferris plays at the Shrine Social Club in Boise on Tuesday, December 15, 2026. Lab Brats and Self Smartid open. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-15T23:00:00-07:00"
+    ]
   },
   {
     "id": "acd194aa89ce",
@@ -37258,12 +36063,12 @@
     "category": "nightlife-social",
     "tags": [],
     "size": "S",
-    "url": "https://www.meetup.com/pawnsandpintsboise/events/wsjzwtyjcqbvb/",
+    "url": "https://www.meetup.com/pawnsandpintsboise/events/317601211/",
     "description": "We're heading to our new location at The Reef. Come join us for an awesome downtown atmosphere and a cool new venue. Boards and clocks are provided. All skill levels welcome and encouraged!",
     "sources": [
       {
         "name": "meetup-pawnsandpintsboise",
-        "url": "https://www.meetup.com/pawnsandpintsboise/events/wsjzwtyjcqbvb/",
+        "url": "https://www.meetup.com/pawnsandpintsboise/events/317601211/",
         "fetchedAt": "2026-11-12T07:04:44Z"
       }
     ]
@@ -37389,6 +36194,7 @@
     "id": "a8843545e446",
     "title": "Velnias",
     "start": "2026-12-16T18:30:00-07:00",
+    "end": "2026-12-16T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -37398,22 +36204,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/c0270ca02d3e",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/velnias/",
+    "description": "Duck Club and DynaDuo present Velnias at the Shrine Social Club in Boise on Wednesday, December 16, 2026. Doors open at 6:30 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/velnias/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/c0270ca02d3e",
-        "fetchedAt": "2026-11-09T20:49:46Z"
       }
-    ],
-    "description": "Duck Club and DynaDuo present Velnias at the Shrine Social Club in Boise on Wednesday, December 16, 2026. Doors open at 6:30 PM.",
-    "costTier": "$$",
-    "end": "2026-12-16T23:00:00-07:00"
+    ]
   },
   {
     "id": "b2d5c7bcd501",
@@ -37471,12 +36271,12 @@
     "category": "nightlife-social",
     "tags": [],
     "size": "S",
-    "url": "https://www.meetup.com/waypoint-a-meditative-service-for-pilgrims/events/pxvqztyjcqbvb/",
+    "url": "https://www.meetup.com/waypoint-a-meditative-service-for-pilgrims/events/317601379/",
     "description": "Join us at Waypoint, a meditative service for seekers of all traditions. Waypoint is a meditative service of music, prayer and silence. We gather in a candlelit chapel and begin with a sung call to prayer. A passage from a spiritual text is read and a few very brief remarks about the passage are...",
     "sources": [
       {
         "name": "meetup-waypoint-a-meditative-service-for-pilgrims",
-        "url": "https://www.meetup.com/waypoint-a-meditative-service-for-pilgrims/events/pxvqztyjcqbvb/",
+        "url": "https://www.meetup.com/waypoint-a-meditative-service-for-pilgrims/events/317601379/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -37532,12 +36332,12 @@
     "category": "nightlife-social",
     "tags": [],
     "size": "S",
-    "url": "https://www.meetup.com/beings-of-light-and-coffee/events/rfzkwtyjcqbvb/",
+    "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317601783/",
     "description": "The name says it all! Always in a good mood to talk about our journeys of spirit.",
     "sources": [
       {
         "name": "meetup-beings-of-light-and-coffee",
-        "url": "https://www.meetup.com/beings-of-light-and-coffee/events/rfzkwtyjcqbvb/",
+        "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317601783/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -37602,12 +36402,12 @@
       "board-games"
     ],
     "size": "S",
-    "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/rnjjrsyjcqbvb/",
+    "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/317601820/",
     "description": "Each Wednesday is open play Board Game night! Try out new games or bring your favorites to play in a casual, open play space.",
     "sources": [
       {
         "name": "meetup-boiseareaboardgameenthusiasts",
-        "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/rnjjrsyjcqbvb/",
+        "url": "https://www.meetup.com/boiseareaboardgameenthusiasts/events/317601820/",
         "fetchedAt": "2026-11-12T07:04:44Z"
       }
     ]
@@ -37659,28 +36459,6 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/ernest-shackleton-loves-me/2026-12-16/",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "425e9ecf19de",
-    "title": "Karaoke in the Basement! (21+)",
-    "start": "2026-12-16T22:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "karaoke"
-    ],
-    "size": "M",
-    "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-        "fetchedAt": "2026-11-22T07:04:28Z"
       }
     ]
   },
@@ -39352,6 +38130,7 @@
     "id": "a7c5fe83d720",
     "title": "RUB",
     "start": "2026-12-17T20:00:00-07:00",
+    "end": "2026-12-17T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -39361,22 +38140,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/O65f9b099579",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/rub/",
+    "description": "RUB plays the Basement at the Shrine Social Club in Boise on Thursday, December 17, 2026. Dedicated Servers and Gunt! open. Doors open at 8 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/rub/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/O65f9b099579",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "RUB plays the Basement at the Shrine Social Club in Boise on Thursday, December 17, 2026. Dedicated Servers and Gunt! open. Doors open at 8 PM.",
-    "costTier": "$$",
-    "end": "2026-12-17T23:00:00-07:00"
+    ]
   },
   {
     "id": "38ccf6cc6f92",
@@ -40784,6 +39557,30 @@
     ]
   },
   {
+    "id": "4b28f1b113a9",
+    "title": "Karaoke Friday Nights",
+    "start": "2026-12-18T19:00:00-07:00",
+    "end": "2026-12-18T22:00:00-07:00",
+    "allDay": false,
+    "venue": "Boran Lounge",
+    "venueKey": "boran-lounge",
+    "city": "Meridian",
+    "category": "food-drink",
+    "tags": [
+      "karaoke"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/boranloungecoffee-meridian/events/hdjxbvyjcqbxb/",
+    "description": "If you’re not at Karaoke Night Friday night at Boran Lounge… you’re missing out DJ bringing the energy with a packed house, great drinks, music, laughs, and people just having a great time all night long. Bring your friends and family, grab some food from local places, meet up for drinks, and com...",
+    "sources": [
+      {
+        "name": "meetup-boranloungecoffee-meridian",
+        "url": "https://www.meetup.com/boranloungecoffee-meridian/events/hdjxbvyjcqbxb/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "56f05454ac2b",
     "title": "Banger on a Budget",
     "start": "2026-12-18T19:00:00-07:00",
@@ -40836,26 +39633,6 @@
         "name": "riverside-hotel",
         "url": "https://sapphiresocietyboise.com/events/soul-patch22-nckpe-c42yn",
         "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "a8e42cc9b41f",
-    "title": "Mileage in the Headphones",
-    "start": "2026-12-18T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/B5c6c903141b",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/B5c6c903141b",
-        "fetchedAt": "2026-11-18T07:05:17Z"
       }
     ]
   },
@@ -40986,8 +39763,9 @@
   },
   {
     "id": "80038e52467f",
-    "title": "CHMURA",
+    "title": "Chmura",
     "start": "2026-12-18T19:30:00-07:00",
+    "end": "2026-12-18T07:30:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -40997,22 +39775,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/Ze0801b5bc25",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/chmura/",
+    "description": "Persona Productions presents Denver producer Chmura, known for bass music, downtempo and atmospheric sound, at the Shrine Social Club in Boise on Friday, December 18, 2026. Doors open at 7:30 PM, and the night runs until 1 AM.28 on DICE, fees included; 18+.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/chmura/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Ze0801b5bc25",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Persona Productions presents Denver producer Chmura, known for bass music, downtempo and atmospheric sound, at the Shrine Social Club in Boise on Friday, December 18, 2026. Doors open at 7:30 PM, and the night runs until 1 AM.28 on DICE, fees included; 18+.",
-    "costTier": "$$",
-    "end": "2026-12-18T07:30:00-07:00"
+    ]
   },
   {
     "id": "812b525b618b",
@@ -42605,6 +41377,28 @@
     ]
   },
   {
+    "id": "3ed60a48d797",
+    "title": "Fun & easy way to play more tennis (please read event description for details)",
+    "start": "2026-12-19T19:00:00-07:00",
+    "end": "2026-12-19T21:00:00-07:00",
+    "allDay": false,
+    "venue": "PlayYourCourt Boise Tennis",
+    "venueKey": "playyourcourt-boise-tennis",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/playyourcourt-boise-tennis/events/kvmxrqyjcqbzb/",
+    "description": "We’re still working to get more people into these Meetups, but our goal is to give PlayYourCourt members a few social tennis outings each week in addition to your practice sessions and Challenge League matches. These Meetups are co-ed, super laid back, and all skill levels are welcome. Post your...",
+    "sources": [
+      {
+        "name": "meetup-playyourcourt-boise-tennis",
+        "url": "https://www.meetup.com/playyourcourt-boise-tennis/events/kvmxrqyjcqbzb/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "51179bdab47b",
     "title": "A New Orleans Christmas: Jeff Bordes, Jackie Gage, and Friends",
     "start": "2026-12-19T19:00:00-07:00",
@@ -42718,43 +41512,6 @@
     ]
   },
   {
-    "id": "0d8fac2796ab",
-    "title": "Hot Santa Rave",
-    "start": "2026-12-19T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "holiday-seasonal",
-    "tags": [
-      "concert",
-      "fundraiser",
-      "santa"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/Qf0a98ea9ad7",
-    "sources": [
-      {
-        "name": "meetup-west-idaho-collective",
-        "url": "https://www.meetup.com/west-idaho-collective/events/317443231/",
-        "fetchedAt": "2026-11-16T07:09:38Z"
-      },
-      {
-        "name": "mike-brown-group",
-        "url": "https://www.mikebrowngroup.com/event/hot-santa-rave/",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Qf0a98ea9ad7",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ],
-    "description": "Come one, come all to the trashiest fundraiser Christmas Party in the world aka: the 3rd annual HOT SANTA RAVE! Attire: Dress up as your favorite Naughty or Nice Christmas character. Express yourself BB.fm/event/eo99lo-hot-santa-rave-19th-dec-shrine-social-club-boise-tickets",
-    "costTier": "$$",
-    "end": "2026-12-19T23:00:00-07:00"
-  },
-  {
     "id": "7a0cd02368d8",
     "title": "Recycled Minds: A Very Improvised Hallmark Comedy Show",
     "start": "2026-12-19T20:00:00-07:00",
@@ -42772,6 +41529,38 @@
       {
         "name": "recycled-minds",
         "url": "https://recycledmindsllc.thundertix.com/events/272796",
+        "fetchedAt": "2026-11-17T07:05:02Z"
+      }
+    ]
+  },
+  {
+    "id": "cc328d9a99fd",
+    "title": "Hot Santa Rave - Fundraiser for Idaho Burner's Alliance",
+    "start": "2026-12-19T20:00:00-07:00",
+    "end": "2026-12-19T23:00:00-07:00",
+    "allDay": false,
+    "venue": "Shrine Social Club",
+    "venueKey": "shrine-social-club",
+    "city": "Boise",
+    "category": "holiday-seasonal",
+    "tags": [
+      "concert",
+      "fundraiser",
+      "santa"
+    ],
+    "size": "M",
+    "costTier": "$$",
+    "url": "https://www.meetup.com/west-idaho-collective/events/317443231/",
+    "description": "Come one, come all to the trashiest fundraiser Christmas Party in the world aka: the 3rd annual HOT SANTA RAVE! Attire: Dress up as your favorite Naughty or Nice Christmas character. Express yourself BB.fm/event/eo99lo-hot-santa-rave-19th-dec-shrine-social-club-boise-tickets",
+    "sources": [
+      {
+        "name": "meetup-west-idaho-collective",
+        "url": "https://www.meetup.com/west-idaho-collective/events/317443231/",
+        "fetchedAt": "2026-11-16T07:09:38Z"
+      },
+      {
+        "name": "mike-brown-group",
+        "url": "https://www.mikebrowngroup.com/event/hot-santa-rave/",
         "fetchedAt": "2026-11-17T07:05:02Z"
       }
     ]
@@ -43226,6 +42015,7 @@
     "id": "2132cfe52d59",
     "title": "Train Breaks Down",
     "start": "2026-12-20T19:00:00-07:00",
+    "end": "2026-12-20T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -43235,22 +42025,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://shrinesocialclub.com/shows/",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/train-breaks-down/",
+    "description": "Train Breaks Down plays the Basement at the Shrine Social Club in Boise on Sunday, December 20, 2026. Holidays in United States opens. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/train-breaks-down/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://shrinesocialclub.com/shows/",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Train Breaks Down plays the Basement at the Shrine Social Club in Boise on Sunday, December 20, 2026. Holidays in United States opens. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-20T23:00:00-07:00"
+    ]
   },
   {
     "id": "8bdc8c0c4078",
@@ -44230,6 +43014,28 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-12-21-2026-1178",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "a67120da5513",
+    "title": "Kung Fu Training",
+    "start": "2026-12-21T18:30:00-07:00",
+    "end": "2026-12-21T20:00:00-07:00",
+    "allDay": false,
+    "venue": "Kuna Kung Fu",
+    "venueKey": "kuna-kung-fu",
+    "city": "Kuna",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/kuna-kung-fu/events/nszdxryjcqbcc/",
+    "description": "While no two classes are alike, every class will have a portion devoted to foundation training, drills and exercises designed to sharpen the mind, strengthen the body, and better equip the students to maximize their body's capabilities. Beyond that a class may focus on Drills and exercises to bui...",
+    "sources": [
+      {
+        "name": "meetup-kuna-kung-fu",
+        "url": "https://www.meetup.com/kuna-kung-fu/events/nszdxryjcqbcc/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -46666,12 +45472,12 @@
     "category": "nightlife-social",
     "tags": [],
     "size": "S",
-    "url": "https://www.meetup.com/beings-of-light-and-coffee/events/mpsqvtyjcqbfc/",
+    "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317601352/",
     "description": "``` There is a big push is to let go of everything that no longer serves our greatest good. The goal of letting go is to lighten up, to raise our vibe. The goal of raising our vibe is to help us with our personal evolution, self actualization, emergence, or ascension. In this ongoing, drop in hea...",
     "sources": [
       {
         "name": "meetup-beings-of-light-and-coffee",
-        "url": "https://www.meetup.com/beings-of-light-and-coffee/events/mpsqvtyjcqbfc/",
+        "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317601352/",
         "fetchedAt": "2026-11-08T23:01:49Z"
       }
     ]
@@ -46698,28 +45504,6 @@
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/die-hard-1988/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      }
-    ]
-  },
-  {
-    "id": "f6e9b0c64d47",
-    "title": "Karaoke in the Basement! (21+)",
-    "start": "2026-12-23T22:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "karaoke"
-    ],
-    "size": "M",
-    "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-        "fetchedAt": "2026-11-22T07:04:28Z"
       }
     ]
   },
@@ -48090,12 +46874,12 @@
       "board-games"
     ],
     "size": "S",
-    "url": "https://www.meetup.com/nampa-board-games-group/events/mskcvtyjcqbjc/",
+    "url": "https://www.meetup.com/nampa-board-games-group/events/317593443/",
     "description": "This group mostly plays modern board games intended for adults, but anyone that is capable of keeping up with a game is welcome! I will bring games suitable for both new and experienced board gamers, so no experience is necessary. If you have a game that you are able to teach, please bring it alo...",
     "sources": [
       {
         "name": "meetup-nampa-board-games-group",
-        "url": "https://www.meetup.com/nampa-board-games-group/events/mskcvtyjcqbjc/",
+        "url": "https://www.meetup.com/nampa-board-games-group/events/317593443/",
         "fetchedAt": "2026-11-07T03:22:23Z"
       }
     ]
@@ -48339,26 +47123,6 @@
         "name": "riverside-hotel",
         "url": "https://sapphiresocietyboise.com/events/bluesaddicts27-4649c",
         "fetchedAt": "2026-11-07T03:22:23Z"
-      }
-    ]
-  },
-  {
-    "id": "92c74523a5fd",
-    "title": "Magic Sword",
-    "start": "2026-12-26T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/M1c23163be07",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/M1c23163be07",
-        "fetchedAt": "2026-11-26T07:04:51Z"
       }
     ]
   },
@@ -50221,6 +48985,30 @@
     ]
   },
   {
+    "id": "6469d507e6d0",
+    "title": "Read to a Therapy Dog!",
+    "start": "2026-12-29T16:00:00-07:00",
+    "end": "2026-12-29T17:00:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15700768",
+    "description": "Join us for our Read to a Therapy Dog program, where kids get a chance to practice their reading skills by reading to a Certified Therapy Dog! Kids can read to a dog for 5-10 minutes and the dogs will love it! Children believe they are teaching the dog to read, but they are actually teaching them...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15700768",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "6cedbff6b2f6",
     "title": "Hands on STEAM",
     "start": "2026-12-29T16:00:00-07:00",
@@ -50494,6 +49282,30 @@
     ]
   },
   {
+    "id": "fc143e9286a7",
+    "title": "Boise Public Library Pokémon League",
+    "start": "2026-12-29T18:00:00-07:00",
+    "end": "2026-12-29T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/13546774",
+    "description": "Come and play the Pokémon Trading Card Game with other Pokémon enthusiasts! A Pokémon League provides a nearby place for you to get together with other fans of the Pokémon Trading Card Game, and have some fun. Using your own cards (we will have some decks to borrow), you can play, trade, and even...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/13546774",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "b518f3a6ac62",
     "title": "Boise Club 61 Toastmasters Meeting (Guests Welcome!)",
     "start": "2026-12-29T18:15:00-07:00",
@@ -50512,6 +49324,28 @@
         "name": "meetup-d15toastmasters-meet-up-group",
         "url": "https://www.meetup.com/district-207-toastmasters-meetup/events/vzjhvtyjcqbmc/",
         "fetchedAt": "2026-11-24T07:04:19Z"
+      }
+    ]
+  },
+  {
+    "id": "25d03dbd5de7",
+    "title": "Speak German to Me",
+    "start": "2026-12-29T18:30:00-07:00",
+    "end": "2026-12-29T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/16237022",
+    "description": "Interested in German and want people to talk to? Used to know German and want to get back into it? Speak fluently and want to show us a thing or two? Join us as we explore the German language.",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/16237022",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -50782,6 +49616,28 @@
     ]
   },
   {
+    "id": "3fe439fd6680",
+    "title": "Fit and Fall Proof",
+    "start": "2026-12-30T10:30:00-07:00",
+    "end": "2026-12-30T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/15106494",
+    "description": "™ is designed to help senior citizens prevent injuries and the subsequent loss of independence. Class participants learn simple exercises to increase strength, balance and endurance, which can help prevent the accidental falls and tripping sometimes associated with age. Registration is required....",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/15106494",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "75ea48f3cb45",
     "title": "Storytime with Ms. Jenny",
     "start": "2026-12-30T10:30:00-07:00",
@@ -50995,6 +49851,28 @@
         "name": "gem-county-chamber",
         "url": "https://business.emmettidaho.com/events/details/line-dancing-12-30-2026-16744",
         "fetchedAt": "2026-11-06T07:04:43Z"
+      }
+    ]
+  },
+  {
+    "id": "3f04385d824d",
+    "title": "Fiber Arts Society",
+    "start": "2026-12-30T14:00:00-07:00",
+    "end": "2026-12-30T15:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/16489767",
+    "description": "Bring your fiber arts projects to the Library! at Cole and Ustick. Crafters of all skill levels are welcome. We also have an ongoing community service project aimed to give back to those in need. Anyone can participate, but it's not mandatory. What we are looking for is any handmade cold weather...",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/16489767",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -51389,26 +50267,6 @@
     ]
   },
   {
-    "id": "0b6c0423d151",
-    "title": "Lowdown Brass Band",
-    "start": "2026-12-30T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/d039cc4ad4a2",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/d039cc4ad4a2",
-        "fetchedAt": "2026-11-19T07:04:58Z"
-      }
-    ]
-  },
-  {
     "id": "2a954e6eedb5",
     "title": "Conversations of Light",
     "start": "2026-12-30T19:00:00-07:00",
@@ -51479,6 +50337,7 @@
     "id": "ff41871f05ad",
     "title": "Bridge City Sinners",
     "start": "2026-12-30T19:00:00-07:00",
+    "end": "2026-12-30T23:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
@@ -51488,22 +50347,16 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/j40e86405a43",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/bridge-city-sinners/",
+    "description": "Bridge City Sinners play at the Shrine Social Club in Boise on Wednesday, December 30, 2026. Doors open at 7 PM.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/bridge-city-sinners/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/j40e86405a43",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Bridge City Sinners play at the Shrine Social Club in Boise on Wednesday, December 30, 2026. Doors open at 7 PM.",
-    "costTier": "$$",
-    "end": "2026-12-30T23:00:00-07:00"
+    ]
   },
   {
     "id": "14d914a92924",
@@ -51533,28 +50386,6 @@
       }
     ],
     "description": "The Idaho Steelheads host the New Mexico Goatheads at Idaho Central Arena in downtown Boise on Wednesday, December 30, 2026. Doors open at 6:15 PM, and the puck drops at 7:10 PM. Idaho Central Arena is a clear bag venue."
-  },
-  {
-    "id": "24f39dd16a84",
-    "title": "Karaoke in the Basement! (21+)",
-    "start": "2026-12-30T22:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "karaoke"
-    ],
-    "size": "M",
-    "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://shrinesocialclub.com/karaoke-shrine-boise/",
-        "fetchedAt": "2026-11-22T07:04:28Z"
-      }
-    ]
   },
   {
     "id": "78ffa4c25bdb",
@@ -51876,6 +50707,28 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/noon-years-eve-at-library-multiple-locations-2/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "8f748db0d061",
+    "title": "Noon Year's Eve",
+    "start": "2026-12-31T11:00:00-07:00",
+    "end": "2026-12-31T12:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Public Library",
+    "venueKey": "boise-public-library",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://boisepubliclibrary.libcal.com/event/17253164",
+    "description": "Don't want to wait until midnight to celebrate? Come ring in the new year with a countdown to noon! Join us for activities, snacks, crafts, a dance party and a balloon drop!",
+    "sources": [
+      {
+        "name": "boise-public-library",
+        "url": "https://boisepubliclibrary.libcal.com/event/17253164",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -52596,35 +51449,30 @@
     ]
   },
   {
-    "id": "138c05cc49ae",
-    "title": "Grateful",
+    "id": "216b7de41e86",
+    "title": "Grateful NYE",
     "start": "2026-12-31T20:00:00-07:00",
+    "end": "2027-01-01T00:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
     "venueKey": "shrine-social-club",
     "city": "Boise",
-    "category": "music",
+    "category": "holiday-seasonal",
     "tags": [
       "concert",
       "new-years"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/vcd60bae35aa",
+    "costTier": "$$",
+    "url": "https://www.mikebrowngroup.com/event/grateful-nye/",
+    "description": "Duck Club presents Grateful NYE, a New Year’s Eve show in the Shrine Social Club Ballroom in Boise on Thursday, December 31, 2026. Doors open at 8 PM, and the night runs to midnight.",
     "sources": [
       {
         "name": "mike-brown-group",
         "url": "https://www.mikebrowngroup.com/event/grateful-nye/",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      },
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/vcd60bae35aa",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
-    ],
-    "description": "Duck Club presents Grateful NYE, a New Year’s Eve show in the Shrine Social Club Ballroom in Boise on Thursday, December 31, 2026. Doors open at 8 PM, and the night runs to midnight.",
-    "costTier": "$$",
-    "end": "2027-01-01T00:00:00-07:00"
+    ]
   },
   {
     "id": "3d8ac1d600a1",
@@ -52651,26 +51499,6 @@
       }
     ],
     "city": "Garden City"
-  },
-  {
-    "id": "4ec23874190f",
-    "title": "Yes Mang! – Ween Tribute",
-    "start": "2026-12-31T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://theduckclub.com/free-show/",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://theduckclub.com/free-show/",
-        "fetchedAt": "2026-11-25T07:04:56Z"
-      }
-    ]
   },
   {
     "id": "8d615f1a0f6f",
@@ -53072,7 +51900,7 @@
     "tags": [],
     "size": "S",
     "url": "https://www.meetup.com/idaho-hikers-backpackers/events/317359388/",
-    "description": "Come join me and my wife Samantha; celebrate my birthday with our first snowshoe of the year in McCall. I plan to bring my snowshoes and [Ski Pulk made in Minnesota-](https://skipulk.com/)- you can try it out if you want. We will head up to the [Goose Creek Falls trail ](https://www.alltrails.com...",
+    "description": "Come join me and my wife Samantha; celebrate my 48th birthday with our first snowshoe of the year in McCall. We will head up to the [Goose Creek Falls trail ](https://www.alltrails.com/trail/us/idaho/goose-creek-falls?u=i&sh=3zxf7n)[l](https://firstwatch.com/locations/ten-mile) for Snowshoeing. W...",
     "sources": [
       {
         "name": "meetup-idaho-hikers-backpackers",
@@ -55578,6 +54406,28 @@
     ]
   },
   {
+    "id": "681d9be00f77",
+    "title": "New Year's Potluck + Language Exchange (ALL Languages welcome!)",
+    "start": "2027-01-06T18:00:00-07:00",
+    "end": "2027-01-06T20:30:00-07:00",
+    "allDay": false,
+    "venue": "Dorchester Cambridge Apartment Complex (Clubhouse)",
+    "venueKey": "dorchester-cambridge-apartment-complex-clubhouse",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.meetup.com/boiselanguage/events/317593031/",
+    "description": "*Important note: we're going to be meeting at a different venue rather than JUMP for our annual potluck. Read on for all the details! Hola a todos/salut tout le monde/hallo allerseits/مرحبا جميعا, It's almost time for our end-of-the-year language potluck! How will the event work? This event will...",
+    "sources": [
+      {
+        "name": "meetup-boiselanguage",
+        "url": "https://www.meetup.com/boiselanguage/events/317593031/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "30d9d899ac62",
     "title": "English Conversation Club",
     "start": "2027-01-06T18:30:00-07:00",
@@ -55655,12 +54505,12 @@
     "category": "nightlife-social",
     "tags": [],
     "size": "S",
-    "url": "https://www.meetup.com/beings-of-light-and-coffee/events/mpsqvtykccbjb/",
+    "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317601354/",
     "description": "``` There is a big push is to let go of everything that no longer serves our greatest good. The goal of letting go is to lighten up, to raise our vibe. The goal of raising our vibe is to help us with our personal evolution, self actualization, emergence, or ascension. In this ongoing, drop in hea...",
     "sources": [
       {
         "name": "meetup-beings-of-light-and-coffee",
-        "url": "https://www.meetup.com/beings-of-light-and-coffee/events/mpsqvtykccbjb/",
+        "url": "https://www.meetup.com/beings-of-light-and-coffee/events/317601354/",
         "fetchedAt": "2026-11-23T07:05:24Z"
       }
     ]
@@ -55993,6 +54843,32 @@
     ]
   },
   {
+    "id": "07c6eb3d4133",
+    "title": "Trolley gallery: First Thursday",
+    "start": "2027-01-07T17:00:00-07:00",
+    "end": "2027-01-07T21:00:00-07:00",
+    "allDay": false,
+    "venue": "Trolley Parton, the Curbside Books trolley",
+    "venueKey": "trolley-parton-the-curbside-books-trolley",
+    "city": "Boise",
+    "category": "markets-shopping",
+    "tags": [
+      "first-thursday",
+      "gallery"
+    ],
+    "size": "M",
+    "costTier": "free",
+    "url": "https://www.curbsidebooks.com/pages/events",
+    "description": "The trolley doubles as a little gallery for the evening, with books and local art to wander through.",
+    "sources": [
+      {
+        "name": "curbside-books",
+        "url": "https://www.curbsidebooks.com/pages/events",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "220ff4372235",
     "title": "Friends of the Star Library Meeting",
     "start": "2027-01-07T17:00:00-07:00",
@@ -56013,32 +54889,6 @@
         "name": "ada-library-star",
         "url": "https://www.google.com/calendar/event?eid=dDF2bXY2c2I2NGpscWw4dXJyMmRkbmtvMm5fMjAyNzAxMDhUMDAwMDAwWiBhZGFsaWIub3JnX3FsMXF0NHZmaDJwbnZqZmZodDk4YmZrbXNvQGc&ctz=America/Boise",
         "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
-    "id": "84659f1c6b89",
-    "title": "Trolley gallery: First Thursday",
-    "start": "2027-01-07T17:00:00-07:00",
-    "end": "2027-01-07T21:00:00-07:00",
-    "allDay": false,
-    "venue": "Downtown Boise",
-    "venueKey": "downtown-boise",
-    "city": "Boise",
-    "category": "markets-shopping",
-    "tags": [
-      "first-thursday",
-      "gallery"
-    ],
-    "size": "M",
-    "costTier": "free",
-    "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "The trolley turns gallery for First Thursday, a free evening of art and books.",
-    "sources": [
-      {
-        "name": "curbside-books",
-        "url": "https://www.curbsidebooks.com/pages/events",
-        "fetchedAt": "2026-11-24T07:04:19Z"
       }
     ]
   },
@@ -56717,28 +55567,6 @@
     ]
   },
   {
-    "id": "08fd602431e9",
-    "title": "Emo Night Karaoke: Sing Onstage With A Live Band!",
-    "start": "2027-01-08T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "food-drink",
-    "tags": [
-      "karaoke"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/X6f1eb91c806",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/X6f1eb91c806",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "e95af06037d5",
     "title": "Karoake Friday",
     "start": "2027-01-08T20:00:00-07:00",
@@ -56921,7 +55749,7 @@
     "size": "M",
     "costTier": "free",
     "url": "https://www.curbsidebooks.com/pages/events",
-    "description": "A Saturday morning pop-up at Dawson Taylor Coffee Roasters in Boise, with books and fresh coffee.",
+    "description": "Trolley Parton parks at Dawson Taylor Coffee Roasters with a trolley full of books, and you're welcome to come say hi.",
     "sources": [
       {
         "name": "curbside-books",
@@ -57499,28 +56327,6 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/candlelight-tribute-to-adele/2027-01-09/",
         "fetchedAt": "2026-11-03T17:00:01Z"
-      }
-    ]
-  },
-  {
-    "id": "af510089fea6",
-    "title": "Broadway Rave",
-    "start": "2027-01-09T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "performing-arts",
-    "tags": [
-      "musical"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/s2f2863350d2",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/s2f2863350d2",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -64160,26 +62966,6 @@
     ]
   },
   {
-    "id": "21710364bb24",
-    "title": "The Motet",
-    "start": "2027-01-22T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/p4eaaa7ed8da",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/p4eaaa7ed8da",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
     "id": "ba98ad44965f",
     "title": "Idaho Shorts Showcase",
     "start": "2027-01-22T19:00:00-07:00",
@@ -64249,26 +63035,6 @@
       }
     ],
     "end": "2027-01-22T21:00:00-07:00"
-  },
-  {
-    "id": "d32b0affe923",
-    "title": "Marinero",
-    "start": "2027-01-22T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/f93442fb5dd7",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/f93442fb5dd7",
-        "fetchedAt": "2026-11-25T07:04:56Z"
-      }
-    ]
   },
   {
     "id": "81a074f7c899",
@@ -64699,28 +63465,6 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/dog-tales-star-library-01-23-2027-3605",
         "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "b460dc42140a",
-    "title": "Conveyor Belt: (A Folk Adjacent Festival)",
-    "start": "2027-01-23T16:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "festivals",
-    "tags": [
-      "festival"
-    ],
-    "size": "M",
-    "url": "https://link.dice.fm/v693a4a1ebcb",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/v693a4a1ebcb",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -66284,26 +65028,6 @@
         "name": "meetup-meetup-group-nsdbawui",
         "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317162745/",
         "fetchedAt": "2026-11-25T07:04:56Z"
-      }
-    ]
-  },
-  {
-    "id": "a653ebce1886",
-    "title": "Cultist",
-    "start": "2027-01-26T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/pb495a2ca257",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/pb495a2ca257",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -68185,26 +66909,6 @@
     ]
   },
   {
-    "id": "e16cc6953223",
-    "title": "Emo Night Brooklyn",
-    "start": "2027-01-29T20:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/Leab4144280c",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Leab4144280c",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "eb508c5ccc01",
     "title": "Karoake Friday",
     "start": "2027-01-29T20:00:00-07:00",
@@ -69776,6 +68480,30 @@
     ]
   },
   {
+    "id": "2a68ef01d313",
+    "title": "Trivia at The Warehouse",
+    "start": "2027-02-02T18:00:00-07:00",
+    "end": "2027-02-02T21:00:00-07:00",
+    "allDay": false,
+    "venue": "The Warehouse Food Hall",
+    "venueKey": "the-warehouse-food-hall",
+    "city": "Boise",
+    "category": "food-drink",
+    "tags": [
+      "trivia"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317162743/",
+    "description": "Come join us for some laughs. Triva starts at 7, come early if you want to socialize beforehand.",
+    "sources": [
+      {
+        "name": "meetup-meetup-group-nsdbawui",
+        "url": "https://www.meetup.com/meetup-group-nsdbawui/events/317162743/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "3c40693552df",
     "title": "Indian Creek Plaza Ice Skating",
     "start": "2027-02-02T18:00:00-07:00",
@@ -69843,26 +68571,6 @@
         "name": "ada-library-lake-hazel",
         "url": "https://www.google.com/calendar/event?eid=bHZ1aDE0b2I1OXBmdGhwa2R0N2p2ajg3YjVfMjAyNzAyMDNUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
         "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
-    "id": "988ae58d8563",
-    "title": "Twin Fin",
-    "start": "2027-02-02T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/a1473584cc59",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/a1473584cc59",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -71037,6 +69745,30 @@
     ]
   },
   {
+    "id": "161f11aa23c8",
+    "title": "Boise Women's Singing Meetup",
+    "start": "2027-02-04T19:00:00-07:00",
+    "end": "2027-02-04T21:30:00-07:00",
+    "allDay": false,
+    "venue": "Boise Women's Singing Meetup",
+    "venueKey": "boise-womens-singing-meetup",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "meetup"
+    ],
+    "size": "S",
+    "url": "https://www.meetup.com/boise-womens-singing-meetup/events/nqfsztykcdbgb/",
+    "description": "Just bring yourself and your voice. Try to get there a few minutes before 7 PM so we can get you set up with a guest book and a riser buddy, and so you can be placed. You will be welcomed !! Message Carol for more information.",
+    "sources": [
+      {
+        "name": "meetup-boise-womens-singing-meetup",
+        "url": "https://www.meetup.com/boise-womens-singing-meetup/events/nqfsztykcdbgb/",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "d5a00494cb6a",
     "title": "Jason Cheny",
     "start": "2027-02-04T20:00:00-07:00",
@@ -72078,26 +70810,6 @@
     ]
   },
   {
-    "id": "2305e0fd5ef1",
-    "title": "Idaho Bluegrass Association WINTERFEST 2027",
-    "start": "2027-02-06T14:30:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/Ub4099459863",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Ub4099459863",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "35283794aacc",
     "title": "Northwest Nazarene University Men's Basketball vs Central Washington",
     "start": "2027-02-06T16:00:00-07:00",
@@ -72997,26 +71709,6 @@
         "name": "ada-library-lake-hazel",
         "url": "https://www.google.com/calendar/event?eid=MWE5MXQwMDBobWE3ZTNibG01MTNiaDQ2ZHZfMjAyNzAyMDlUMDIwMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
         "fetchedAt": "2026-11-11T04:05:13Z"
-      }
-    ]
-  },
-  {
-    "id": "fde7d76cbace",
-    "title": "Jess Williamson",
-    "start": "2027-02-08T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/Z04e57a29b92",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Z04e57a29b92",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -74555,26 +73247,6 @@
     ]
   },
   {
-    "id": "988dce5acf2c",
-    "title": "Trestles",
-    "start": "2027-02-11T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/cd9d68f01c8e",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/cd9d68f01c8e",
-        "fetchedAt": "2026-11-10T02:56:22Z"
-      }
-    ]
-  },
-  {
     "id": "aea92fb5866e",
     "title": "Northwest Nazarene University Men's Basketball vs Simon Fraser",
     "start": "2027-02-11T19:00:00-07:00",
@@ -75799,6 +74471,27 @@
         "name": "tamarack-resort",
         "url": "https://tamarackidaho.com/events/26-27-all-season-passholder-party",
         "fetchedAt": "2026-11-26T07:04:51Z"
+      }
+    ]
+  },
+  {
+    "id": "c815dcd21c62",
+    "title": "Super Bowl Sunday Party",
+    "start": "2027-02-14T16:30:00-07:00",
+    "end": "2027-02-14T19:00:00-07:00",
+    "allDay": false,
+    "venue": "Tamarack Resort",
+    "venueKey": "tamarack-resort",
+    "city": "Valley County",
+    "category": "outdoors-recreation",
+    "tags": [],
+    "size": "S",
+    "url": "https://tamarackidaho.com/events/super-bowl-sunday-party",
+    "sources": [
+      {
+        "name": "tamarack-resort",
+        "url": "https://tamarackidaho.com/events/super-bowl-sunday-party",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -77796,26 +76489,6 @@
     ]
   },
   {
-    "id": "3392f75f97f9",
-    "title": "Alt Bloom",
-    "start": "2027-02-19T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/a63d8438c954",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/a63d8438c954",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "bb512ed5d05e",
     "title": "The Highwayman Show Ft. Tony Suraci",
     "start": "2027-02-19T19:00:00-07:00",
@@ -78346,26 +77019,6 @@
     "description": "Home game schedule here: https://gotickets.com/boise-state-broncos-mens-basketball-tickets?utm_medium=cpc&utm_source=google&tid=kwd-300993523873&agid=202260866140&cid=24399799847&int=&pres=9191083&network=g&gad_source=1&gad_campaignid=24399799847&gbraid=0AAAAAqsaoUSrjJzlELmGYiaACBV4jFcBi&gclid=Cj..."
   },
   {
-    "id": "1f2f9643c3c7",
-    "title": "Chloe Kimes",
-    "start": "2027-02-20T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/S012e36c7611",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/S012e36c7611",
-        "fetchedAt": "2026-11-20T07:04:43Z"
-      }
-    ]
-  },
-  {
     "id": "e5db8cd6a4f7",
     "title": "The Highwayman Show Ft. Tony Suraci",
     "start": "2027-02-20T19:00:00-07:00",
@@ -78510,26 +77163,6 @@
         "name": "college-of-idaho-athletics",
         "url": "https://www.yoteathletics.com/calendar.aspx?game_id=8643&sport_id=1",
         "fetchedAt": "2026-11-02T21:24:51Z"
-      }
-    ]
-  },
-  {
-    "id": "df80e13c1ac0",
-    "title": "CODEFENDANTS",
-    "start": "2027-02-21T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/n29dc25813fe",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/n29dc25813fe",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -78889,26 +77522,6 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-02-22-2027-1187",
         "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "22a0de61a41a",
-    "title": "Cloud Nothings",
-    "start": "2027-02-22T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/X7a78852b835",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/X7a78852b835",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -79385,26 +77998,6 @@
     ]
   },
   {
-    "id": "1f931e5887ec",
-    "title": "Eddie 9V",
-    "start": "2027-02-23T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/gbd55a796522",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/gbd55a796522",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "489fd91e7d9f",
     "title": "Play With Me!",
     "start": "2027-02-24T09:30:00-07:00",
@@ -79454,6 +78047,77 @@
     ]
   },
   {
+    "id": "103cc4090aa2",
+    "title": "Baby Rhyme Time",
+    "start": "2027-02-24T10:30:00-07:00",
+    "end": "2027-02-24T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Victory Branch",
+    "venueKey": "ada-community-library-victory-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=bmJsYnI5YWk5azFuMzIyZGx0MDVkdTlscjdfMjAyNzAyMjRUMTczMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+    "description": "Ages 0-2 Did you know that play is one of the key things you can do to help your baby to develop early literacy skills? Baby Rhyme Time focuses on developing your baby's pre-literacy, fine motor, and social skills through stories, songs and movement.",
+    "sources": [
+      {
+        "name": "ada-library-victory",
+        "url": "https://www.google.com/calendar/event?eid=bmJsYnI5YWk5azFuMzIyZGx0MDVkdTlscjdfMjAyNzAyMjRUMTczMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
+    "id": "238b876e457d",
+    "title": "Storytime with Ms. Jenny",
+    "start": "2027-02-24T10:30:00-07:00",
+    "end": "2027-02-24T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Middleton Public Library",
+    "venueKey": "middleton-public-library",
+    "city": "Middleton",
+    "category": "learning-business",
+    "tags": [
+      "kids",
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=N3JoZ3Zqa3IxcnZndjUyM2h1NXMxN2tlb2ZfMjAyNzAyMjRUMTczMDAwWiBtaWRkbGV0b25saWJyYXJ5MzA3QG0&ctz=America/Boise",
+    "description": "Geared toward children 2-5 years of age",
+    "sources": [
+      {
+        "name": "middleton-public-library",
+        "url": "https://www.google.com/calendar/event?eid=N3JoZ3Zqa3IxcnZndjUyM2h1NXMxN2tlb2ZfMjAyNzAyMjRUMTczMDAwWiBtaWRkbGV0b25saWJyYXJ5MzA3QG0&ctz=America/Boise",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
+    "id": "2f62501e8c3e",
+    "title": "Storytime",
+    "start": "2027-02-24T10:30:00-07:00",
+    "end": "2027-02-24T11:00:00-07:00",
+    "allDay": false,
+    "venue": "Payette Public Library",
+    "venueKey": "payette-public-library",
+    "city": "Payette",
+    "category": "learning-business",
+    "tags": [
+      "library-program"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NHBjbzdvYjIyczBmczk3NzUwbjAwdWhhZzVfMjAyNzAyMjRUMTczMDAwWiBwYXlldHRlcHVibGljbGlicmFyeUBt&ctz=America/Boise",
+    "description": "Every Tuesday and Wednesday at 10:30AM, 0-5 years. Singing, dancing, literacy activities, a story, a craft, and a cookie! Come join us for this social program that helps instill a passion for reading and helps with Kindergarten readiness!",
+    "sources": [
+      {
+        "name": "payette-public-library",
+        "url": "https://www.google.com/calendar/event?eid=NHBjbzdvYjIyczBmczk3NzUwbjAwdWhhZzVfMjAyNzAyMjRUMTczMDAwWiBwYXlldHRlcHVibGljbGlicmFyeUBt&ctz=America/Boise",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "90735599677c",
     "title": "Fiber Arts",
     "start": "2027-02-24T10:30:00-07:00",
@@ -79472,6 +78136,30 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/fiber-arts-star-library-02-24-2027-2196",
         "fetchedAt": "2026-11-08T23:01:49Z"
+      }
+    ]
+  },
+  {
+    "id": "a157911f0fa2",
+    "title": "Preschool Art",
+    "start": "2027-02-24T10:30:00-07:00",
+    "end": "2027-02-24T11:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [
+      "kids"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NnNvMzJkcGw2NHFqaWI5cDY4c202YjlrNjVnamViOXA3NWkzaWI5a2NncWppYzFrY2tzMzhlMWxjb18yMDI3MDIyNFQxNzMwMDBaIGFkYWxpYi5vcmdfdXNwOTlqcWY1ZGhlaGg2Z2Q1NWwxdmRxbDhAZw&ctz=America/Boise",
+    "description": "Children are active learners, and making art is a hands-on activity that expands imaginations and exercises creativity. Join us for some fun art! Ages 3-5",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=NnNvMzJkcGw2NHFqaWI5cDY4c202YjlrNjVnamViOXA3NWkzaWI5a2NncWppYzFrY2tzMzhlMWxjb18yMDI3MDIyNFQxNzMwMDBaIGFkYWxpYi5vcmdfdXNwOTlqcWY1ZGhlaGg2Z2Q1NWwxdmRxbDhAZw&ctz=America/Boise",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -79545,6 +78233,51 @@
     ]
   },
   {
+    "id": "2288c9c0402d",
+    "title": "Teen Meet-up",
+    "start": "2027-02-24T16:30:00-07:00",
+    "end": "2027-02-24T18:00:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Victory Branch",
+    "venueKey": "ada-community-library-victory-branch",
+    "city": "Boise",
+    "category": "nightlife-social",
+    "tags": [
+      "meetup"
+    ],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NnIzajZmYWdqaGZtbHU0MnQ2MjIyMjFtOGlfMjAyNzAyMjRUMjMzMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+    "sources": [
+      {
+        "name": "ada-library-victory",
+        "url": "https://www.google.com/calendar/event?eid=NnIzajZmYWdqaGZtbHU0MnQ2MjIyMjFtOGlfMjAyNzAyMjRUMjMzMDAwWiBhZGFsaWIub3JnX2IzNHNsdGU4aG9rZm43Y29tYWl2bXV1MDkwQGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
+    "id": "3a99417753c4",
+    "title": "Lego Club",
+    "start": "2027-02-24T16:30:00-07:00",
+    "end": "2027-02-24T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Payette Public Library",
+    "venueKey": "payette-public-library",
+    "city": "Payette",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=b25rMHRub241Y2x0aWo5aHBzdHY5cm9zYXFfMjAyNzAyMjRUMjMzMDAwWiBwYXlldHRlcHVibGljbGlicmFyeUBt&ctz=America/Boise",
+    "description": "Wednesdays at 4:00PM. Come build LEGO with us! We have thousands of bricks and set up a different challenge or theme each week to challenge your mind. Have little ones too? We have Duplo blocks to play with as well!",
+    "sources": [
+      {
+        "name": "payette-public-library",
+        "url": "https://www.google.com/calendar/event?eid=b25rMHRub241Y2x0aWo5aHBzdHY5cm9zYXFfMjAyNzAyMjRUMjMzMDAwWiBwYXlldHRlcHVibGljbGlicmFyeUBt&ctz=America/Boise",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "58ee29202bdb",
     "title": "After School Art – Ages 10-12 -Wed 4:30p",
     "start": "2027-02-24T16:30:00-07:00",
@@ -79567,6 +78300,28 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/after-school-art-ages-10-12-wed-430p/2027-02-24/",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "e4ca2de8c083",
+    "title": "Tweens: []",
+    "start": "2027-02-24T16:30:00-07:00",
+    "end": "2027-02-24T17:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=NXY5aGxvZDZ0Y243NnA2OG4ydHM2cGJ0bWNfMjAyNzAyMjRUMjMzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "This Week: [] Designed for Ages 8-11!",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=NXY5aGxvZDZ0Y243NnA2OG4ydHM2cGJ0bWNfMjAyNzAyMjRUMjMzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -79596,6 +78351,28 @@
         "name": "boise-state-athletics",
         "url": "https://admin.broncosports.com/calendar.aspx?game_id=23394&sport_id=10",
         "fetchedAt": "2026-11-02T21:24:51Z"
+      }
+    ]
+  },
+  {
+    "id": "3c751b796cce",
+    "title": "English Conversation Club",
+    "start": "2027-02-24T18:30:00-07:00",
+    "end": "2027-02-24T19:30:00-07:00",
+    "allDay": false,
+    "venue": "Ada Community Library, Lake Hazel Branch",
+    "venueKey": "ada-community-library-lake-hazel-branch",
+    "city": "Boise",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://www.google.com/calendar/event?eid=MGJhNzk0MW9sc280ZmhxNTdvaGUxbG45MmtfMjAyNzAyMjVUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+    "description": "Want a welcoming, fun place to practice speaking English? Join us for English Conversation Club! Ages 18+",
+    "sources": [
+      {
+        "name": "ada-library-lake-hazel",
+        "url": "https://www.google.com/calendar/event?eid=MGJhNzk0MW9sc280ZmhxNTdvaGUxbG45MmtfMjAyNzAyMjVUMDEzMDAwWiBhZGFsaWIub3JnX3VzcDk5anFmNWRoZWhoNmdkNTVsMXZkcWw4QGc&ctz=America/Boise",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -79842,46 +78619,6 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-02-25-2027-1387",
         "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "6925b4eb5db4",
-    "title": "Marian Hill",
-    "start": "2027-02-25T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/Je207445bcb2",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Je207445bcb2",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
-    "id": "8049e36ef1fe",
-    "title": "Powerplant",
-    "start": "2027-02-25T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/u161657e4f3b",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/u161657e4f3b",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -80196,26 +78933,6 @@
         "name": "jump-boise",
         "url": "https://jumpboise.org/events/swing-into-spring-the-glory-days",
         "fetchedAt": "2026-11-10T02:56:22Z"
-      }
-    ]
-  },
-  {
-    "id": "b8a58969dde9",
-    "title": "Caskets",
-    "start": "2027-02-26T18:30:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/s2ce2b511565",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/s2ce2b511565",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -82792,46 +81509,6 @@
     ]
   },
   {
-    "id": "0a0ae3c674e9",
-    "title": "Surfer Girl",
-    "start": "2027-03-06T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/xf7cdfcd2018",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/xf7cdfcd2018",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
-    "id": "8d5d09f6a5ce",
-    "title": "Youth Fountain",
-    "start": "2027-03-06T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/J27cda121a59",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/J27cda121a59",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "bd2e93381b36",
     "title": "Brahms & Bruckner",
     "start": "2027-03-06T19:30:00-07:00",
@@ -83008,8 +81685,8 @@
     ]
   },
   {
-    "id": "0e952838cd58",
-    "title": "Cursive",
+    "id": "c82261a6761d",
+    "title": "Cursive w/ Smidley",
     "start": "2027-03-07T19:00:00-07:00",
     "allDay": false,
     "venue": "Shrine Social Club",
@@ -83020,37 +81697,12 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/Ae80a018dc01",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAbJ6",
     "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Ae80a018dc01",
-        "fetchedAt": "2026-11-17T07:05:02Z"
-      },
       {
         "name": "ticketmaster-metro",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAbJ6",
         "fetchedAt": "2026-11-21T07:04:33Z"
-      }
-    ]
-  },
-  {
-    "id": "5e07849c29cd",
-    "title": "Penelope Road",
-    "start": "2027-03-07T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/xcc51e4cb4c9",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/xcc51e4cb4c9",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -83689,26 +82341,6 @@
     ]
   },
   {
-    "id": "f2ec00a4464c",
-    "title": "Nervosa",
-    "start": "2027-03-10T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/se238ba18d59",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/se238ba18d59",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "18f7b1ff9e2c",
     "title": "Adults NoGi",
     "start": "2027-03-10T18:30:00-07:00",
@@ -84255,26 +82887,6 @@
     ]
   },
   {
-    "id": "71eb668bab86",
-    "title": "Nile",
-    "start": "2027-03-12T18:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/Y1adf4264ce2",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Y1adf4264ce2",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "47d36e4460c1",
     "title": "Boise State University Softball vs St. Thomas",
     "start": "2027-03-12T18:30:00-07:00",
@@ -84697,26 +83309,6 @@
         "name": "ticketmaster-metro",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Mq8",
         "fetchedAt": "2026-11-06T19:12:30Z"
-      }
-    ]
-  },
-  {
-    "id": "8a23b248e5b7",
-    "title": "Bo Staloch",
-    "start": "2027-03-13T19:00:00-07:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/f972aa998779",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/f972aa998779",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -85277,26 +83869,6 @@
       }
     ],
     "end": "2027-03-16T21:00:00-06:00"
-  },
-  {
-    "id": "7406e334376e",
-    "title": "Hans Williams",
-    "start": "2027-03-16T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/Jfcd5ec36c23",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Jfcd5ec36c23",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
   },
   {
     "id": "9d9256239333",
@@ -86389,26 +84961,6 @@
     ]
   },
   {
-    "id": "b0515caa4351",
-    "title": "Kash’d Out",
-    "start": "2027-03-21T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/L4c9fd354822",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/L4c9fd354822",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "318ae4e11f8d",
     "title": "Wheeler Walker Jr. - Pullin' Out: The Farewell Tour",
     "start": "2027-03-21T20:00:00-06:00",
@@ -87058,26 +85610,6 @@
     ]
   },
   {
-    "id": "16bc005752a8",
-    "title": "Dogpark",
-    "start": "2027-03-24T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/p4e20f6fdc36",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/p4e20f6fdc36",
-        "fetchedAt": "2026-11-24T07:04:19Z"
-      }
-    ]
-  },
-  {
     "id": "6620bd61864d",
     "title": "GRIEVES - OUT COLD TOUR 5 with Horrorshow and Street Sweepers",
     "start": "2027-03-24T20:00:00-06:00",
@@ -87317,26 +85849,6 @@
         "name": "star-chamber",
         "url": "https://staridahochamber.com/events/details/the-dirt-on-gardening-star-library-03-25-2027-1391",
         "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "96b2bb29f1b9",
-    "title": "Cory Branan",
-    "start": "2027-03-25T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/O8e14220f17e",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/O8e14220f17e",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -90353,26 +88865,6 @@
     "city": "Boise"
   },
   {
-    "id": "96ad504732f6",
-    "title": "Earth to Eve",
-    "start": "2027-04-06T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/ufe9abec15b5",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/ufe9abec15b5",
-        "fetchedAt": "2026-11-13T07:04:42Z"
-      }
-    ]
-  },
-  {
     "id": "37c162a725d6",
     "title": "Play With Me!",
     "start": "2027-04-07T09:30:00-06:00",
@@ -92415,26 +90907,6 @@
     ]
   },
   {
-    "id": "42878dc8c610",
-    "title": "Drakulas",
-    "start": "2027-04-16T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/C3e9238f96bf",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/C3e9238f96bf",
-        "fetchedAt": "2026-11-21T07:04:33Z"
-      }
-    ]
-  },
-  {
     "id": "7f44f1683cd3",
     "title": "Jane Austen's Emma",
     "start": "2027-04-16T19:30:00-06:00",
@@ -93172,26 +91644,6 @@
     ]
   },
   {
-    "id": "dbb180f1628a",
-    "title": "Peel Dream Magazine",
-    "start": "2027-04-19T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/ybc96cadb900",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/ybc96cadb900",
-        "fetchedAt": "2026-11-18T07:05:17Z"
-      }
-    ]
-  },
-  {
     "id": "403d3331e67b",
     "title": "Compassion Crew",
     "start": "2027-04-20T10:00:00-06:00",
@@ -93359,26 +91811,6 @@
         "name": "visit-mccall",
         "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
         "fetchedAt": "2026-11-08T23:01:49Z"
-      }
-    ]
-  },
-  {
-    "id": "6fc5e4418658",
-    "title": "Rec Hall",
-    "start": "2027-04-20T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/d60e94cf88f9",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/d60e94cf88f9",
-        "fetchedAt": "2026-11-09T20:49:46Z"
       }
     ]
   },
@@ -95044,26 +93476,6 @@
     ]
   },
   {
-    "id": "f6d0cefc2025",
-    "title": "The Chameleons",
-    "start": "2027-04-28T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/U1130dfd94d6",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/U1130dfd94d6",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
     "id": "958c08503ace",
     "title": "Homeschool PE",
     "start": "2027-04-29T09:00:00-06:00",
@@ -95358,13 +93770,8 @@
       "concert"
     ],
     "size": "M",
-    "url": "https://link.dice.fm/Ycaccef1aee1",
+    "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKjO",
     "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Ycaccef1aee1",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      },
       {
         "name": "ticketmaster-metro",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKjO",
@@ -97114,26 +95521,6 @@
     ]
   },
   {
-    "id": "f1fcaf44a759",
-    "title": "Conor Oberst",
-    "start": "2027-05-10T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/eada246fa3dc",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/eada246fa3dc",
-        "fetchedAt": "2026-11-11T00:10:09Z"
-      }
-    ]
-  },
-  {
     "id": "d13a07e56b7d",
     "title": "Compassion Crew",
     "start": "2027-05-11T10:00:00-06:00",
@@ -97893,46 +96280,6 @@
     ]
   },
   {
-    "id": "5ee47aa53413",
-    "title": "DIIV",
-    "start": "2027-05-15T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/R680f60e63ed",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/R680f60e63ed",
-        "fetchedAt": "2026-11-08T06:23:07Z"
-      }
-    ]
-  },
-  {
-    "id": "8cb719b1e10f",
-    "title": "Madra Salach",
-    "start": "2027-05-15T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/Jffa6b001369",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/Jffa6b001369",
-        "fetchedAt": "2026-11-18T07:05:17Z"
-      }
-    ]
-  },
-  {
     "id": "86d12395ad5b",
     "title": "Gershwin & Copland",
     "start": "2027-05-15T19:30:00-06:00",
@@ -98355,26 +96702,6 @@
         "name": "visit-mccall",
         "url": "https://visitmccall.org/event/trivia-tuesdays-at-seven-devils/",
         "fetchedAt": "2026-11-19T07:04:58Z"
-      }
-    ]
-  },
-  {
-    "id": "8b040adff95f",
-    "title": "The Arcadian Wild",
-    "start": "2027-05-18T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/qf9c847abcf9",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/qf9c847abcf9",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -99144,26 +97471,6 @@
     ]
   },
   {
-    "id": "ad72fdb54b48",
-    "title": "Babes In Canyon",
-    "start": "2027-05-22T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/E03b8d57e707",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/E03b8d57e707",
-        "fetchedAt": "2026-11-13T07:04:42Z"
-      }
-    ]
-  },
-  {
     "id": "42a014aa66e9",
     "title": "The Cottage",
     "start": "2027-05-22T19:30:00-06:00",
@@ -99638,6 +97945,50 @@
     ]
   },
   {
+    "id": "012e0c523cf2",
+    "title": "Chair Yoga",
+    "start": "2027-05-26T10:30:00-06:00",
+    "end": "2027-05-26T12:00:00-06:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/chair-yoga-star-library-05-26-2027-2415",
+    "description": "Explore Different Yoga Poses From a Seated & Standing Position Using the Support of a Chair 18+",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/chair-yoga-star-library-05-26-2027-2415",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
+    "id": "fb1e619f8519",
+    "title": "Fiber Arts",
+    "start": "2027-05-26T10:30:00-06:00",
+    "end": "2027-05-26T12:30:00-06:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/fiber-arts-star-library-05-26-2027-2209",
+    "description": "Bring your projects and work together with others 18+ No instruction given, just socializing with other enthusiasts",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/fiber-arts-star-library-05-26-2027-2209",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
     "id": "7b8a1e7ea982",
     "title": "After School Art – Ages 10-12 -Wed 4:30p",
     "start": "2027-05-26T16:30:00-06:00",
@@ -99660,6 +98011,50 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/after-school-art-ages-10-12-wed-430p/2027-05-26/",
         "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "ca6e176b1aa1",
+    "title": "Tween/Teen Program",
+    "start": "2027-05-26T16:30:00-06:00",
+    "end": "2027-05-26T17:30:00-06:00",
+    "allDay": false,
+    "venue": "Star Library",
+    "venueKey": "star-library",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/tween-teen-program-star-library-05-26-2027-3219",
+    "description": "Tweens and Teens (ages 10-17) come hang out and participate in fun activities!",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/tween-teen-program-star-library-05-26-2027-3219",
+        "fetchedAt": "2026-11-27T07:05:04Z"
+      }
+    ]
+  },
+  {
+    "id": "730afb48489f",
+    "title": "Adults NoGi",
+    "start": "2027-05-26T18:30:00-06:00",
+    "end": "2027-05-27T20:00:00-06:00",
+    "allDay": false,
+    "venue": "West Idaho Brazilian Jiu-Jitsu",
+    "venueKey": "west-idaho-brazilian-jiu-jitsu",
+    "city": "Star",
+    "category": "community-civic",
+    "tags": [],
+    "size": "S",
+    "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-05-26-2027-4645",
+    "description": "Adults NoGi taught by Coach Nik. Every Wednesday 6:30pm. Stop in for a free trial class! Class schedule available on our website westidahobjj.com",
+    "sources": [
+      {
+        "name": "star-chamber",
+        "url": "https://staridahochamber.com/events/details/adults-nogi-west-idaho-brazilian-jiu-jitsu-05-26-2027-4645",
+        "fetchedAt": "2026-11-27T07:05:04Z"
       }
     ]
   },
@@ -102006,26 +100401,6 @@
         "name": "ticketmaster-metro",
         "url": "https://www.ticketmaster.com/chicago-garden-suite-boise-idaho-06-16-2027/event/1E006569E38667A1",
         "fetchedAt": "2026-11-17T07:05:02Z"
-      }
-    ]
-  },
-  {
-    "id": "2a7cf4594ad5",
-    "title": "Vlad Holiday",
-    "start": "2027-06-16T19:00:00-06:00",
-    "allDay": false,
-    "venue": "Shrine Social Club",
-    "venueKey": "shrine-social-club",
-    "city": "Boise",
-    "category": "music",
-    "tags": [],
-    "size": "M",
-    "url": "https://link.dice.fm/U7d498613b83",
-    "sources": [
-      {
-        "name": "shrine-social-club",
-        "url": "https://link.dice.fm/U7d498613b83",
-        "fetchedAt": "2026-11-08T06:23:07Z"
       }
     ]
   },
@@ -113545,6 +111920,54 @@
         "name": "boise-mom",
         "url": "https://boisemom.com/event/kids-fix-it-night-at-boise-bicycle-project/2027-11-25/",
         "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "7d8ea748caa2",
+    "title": "Guided Walk-In Capitol Tours",
+    "start": "2027-11-26T10:30:00-07:00",
+    "end": "2027-11-26T12:00:00-07:00",
+    "allDay": false,
+    "venue": "Idaho State Capital",
+    "venueKey": "idaho-state-capital",
+    "city": "Boise",
+    "category": "outdoors-recreation",
+    "tags": [
+      "free-admission",
+      "tour"
+    ],
+    "size": "S",
+    "costTier": "free",
+    "url": "https://boisemom.com/event/guided-walk-in-capitol-tours/2027-11-26/",
+    "description": "Guided Walk-in Tours Guided tours, on a walk-in basis are available every Friday and Saturday at 10:30 am year-round, except major holidays (New Years Day, Christmas Day, 4th of July). Summer Tours: From June 1st to October 31st we will have extra guided tours, on a walk-in basis available every...",
+    "sources": [
+      {
+        "name": "boise-mom",
+        "url": "https://boisemom.com/event/guided-walk-in-capitol-tours/2027-11-26/",
+        "fetchedAt": "2026-11-06T19:12:30Z"
+      }
+    ]
+  },
+  {
+    "id": "48ffe9e805a0",
+    "title": "Top Hat Studio's Collaborative Theater Club",
+    "start": "2027-11-26T13:00:00-07:00",
+    "end": "2027-11-26T15:00:00-07:00",
+    "allDay": false,
+    "venue": "Nampa Public Library",
+    "venueKey": "nampa-public-library",
+    "city": "Nampa",
+    "category": "learning-business",
+    "tags": [],
+    "size": "S",
+    "url": "https://nampalibrary.libcal.com/event/17870020",
+    "description": "Not everyone wants to stand on the X on stage, but everyone has something to contribute to the show! Join us at the Collaborative Theater Club and share your talents in acting, singing, crafting, choreography, dancing, tech design, writing, set design, and whimsy! Let’s explore our creativity tog...",
+    "sources": [
+      {
+        "name": "nampa-public-library",
+        "url": "https://nampalibrary.libcal.com/event/17870020",
+        "fetchedAt": "2026-11-26T07:04:51Z"
       }
     ]
   }

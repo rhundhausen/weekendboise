@@ -478,6 +478,13 @@
     "from": "none",
     "checked": "2026-11-24"
   },
+  "dorchester-cambridge-apartment-complex-clubhouse": {
+    "lat": 43.6071138,
+    "lon": -116.1873072,
+    "address": "300 S Straughan Ave, Boise, ID, Boise, ID",
+    "from": "lookup",
+    "checked": "2026-11-27"
+  },
   "downtown-boise": {
     "lat": 43.6177696,
     "lon": -116.1996904,
@@ -995,6 +1002,13 @@
     "from": "lookup",
     "checked": "2026-11-24"
   },
+  "lulus-fine-pizza-and-sushi": {
+    "lat": 43.6433839,
+    "lon": -116.2061002,
+    "address": "2594 N Bogus Basin Rd, Boise, ID, Boise, ID",
+    "from": "lookup",
+    "checked": "2026-11-27"
+  },
   "maddies-wine-whiskey-and-tapas-bar": {
     "from": "none",
     "checked": "2026-11-24"
@@ -1191,6 +1205,11 @@
   "primitive-grounds": {
     "from": "none",
     "checked": "2026-11-24"
+  },
+  "realms-arcade": {
+    "address": "109 S 23rd St Ste A, Boise, ID 83702, USA, Boise, ID, Boise, ID",
+    "from": "none",
+    "checked": "2026-11-27"
   },
   "rediscovered-bookshop": {
     "lat": 43.6195869,
@@ -1477,6 +1496,10 @@
     "address": "1406 W Eastman, Boise, ID 83702",
     "from": "lookup",
     "checked": "2026-11-24"
+  },
+  "trolley-parton-the-curbside-books-trolley": {
+    "from": "none",
+    "checked": "2026-11-27"
   },
   "various-treasure-valley": {
     "from": "placeholder",
