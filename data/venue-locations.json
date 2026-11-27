@@ -1,10 +1,10 @@
 {
   "10-barrel-brewing-boise": {
-    "lat": 43.6178661,
-    "lon": -116.2027566,
+    "lat": 43.617376768996,
+    "lon": -116.202307552663,
     "address": "826 West Bannock Street, Boise, ID",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "123-mcclure-avenue": {
     "from": "placeholder",
@@ -40,42 +40,54 @@
   },
   "8th-and-w-idaho-st": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "9492-w-emerald-st": {
     "from": "placeholder",
     "checked": "2026-11-24"
   },
   "abu-games": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.601990365969,
+    "lon": -116.272248098739,
+    "address": "7211 W Colonial St, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "achilles-fitness-institute": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.695946804682,
+    "lon": -116.34736209434,
+    "address": "125 N Stierman Way, Eagle, ID 83616",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "ada-community-library-hidden-springs-branch": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "ada-community-library-lake-hazel-branch": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.546450696009,
+    "lon": -116.312992783828,
+    "address": "10489 W Lake Hazel Rd, Boise, ID, Boise, ID",
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "ada-community-library-star-branch": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "ada-community-library-victory-branch": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.575810528325,
+    "lon": -116.315357869392,
+    "address": "10664 W Victory Rd, Boise, ID 83709",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "albertson-stadium": {
     "lat": 43.6023481,
     "lon": -116.1986575,
     "address": "1400 Bronco Ln, Boise, ID 83706",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "albertsons-stadium": {
     "lat": 43.602799,
@@ -85,39 +97,43 @@
     "checked": "2026-11-24"
   },
   "alchemist-coffee-overland": {
-    "lat": 43.5908779,
-    "lon": -116.3153848,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.590349176685,
+    "lon": -116.314938233128,
+    "address": "10650 west overland road, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "amelies-restaurant-and-event-center": {
-    "lat": 43.5881832,
-    "lon": -116.2758207,
+    "lat": 43.588110310599,
+    "lon": -116.274230541662,
     "address": "1749 S Cole Rd, Boise, ID 83709",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "american-legion-post-33-payette": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 44.078763918272,
+    "lon": -116.913225319614,
+    "address": "301 S Iowa Ave, Payette, ID 83661",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "amsterdam-lounge": {
     "from": "none",
     "checked": "2026-11-24"
   },
   "ann-morrison-park": {
-    "lat": 43.6182859,
-    "lon": -116.2156572,
-    "address": "1000 S Americana Blvd, Boise, ID 83706",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.6169587,
+    "lon": -116.2195622,
+    "address": "1000 S Americana Blvd, Boise, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "awaken-church-boise": {
-    "lat": 43.5944538,
-    "lon": -116.38773,
+    "lat": 43.595145746982,
+    "lon": -116.38794777895,
     "address": "530 E Sonata Ln, Meridian, ID 83642",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "barbarian-brewery-taproom": {
     "from": "none",
@@ -136,84 +152,95 @@
     "checked": "2026-11-24"
   },
   "barnes-and-noble-boise": {
-    "lat": 43.6167123,
-    "lon": -116.2852475,
+    "lat": 43.616741552122,
+    "lon": -116.284238573636,
     "address": "1315 North Milwaukee, Boise, ID 83704",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "barnes-noble-boise": {
     "lat": 43.6167123,
     "lon": -116.2852475,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "beach-volleyball-complex": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "bernie-fisher-park": {
     "lat": 43.4904053,
     "lon": -116.4208661,
     "address": "N Avenue E, Kuna, ID 83634",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "bishops-house": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.603020815174,
+    "lon": -116.162804539979,
+    "address": "2420 Old Penitentiary Rd Boise, Idaho, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "black-bear-diner-boise-entertainment-ave": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.588706119965,
+    "lon": -116.280843087313,
+    "address": "1731 S Entertainment Ave, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "bluebird-social": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.614847812904,
+    "lon": -116.219051677399,
+    "address": "1401 W SHORELINE DR., BOISE, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "bobby-welch-halle-field": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "bogus-basin": {
-    "lat": 43.7706312,
-    "lon": -116.0908882,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.643419515009,
+    "lon": -116.206979920378,
+    "address": "2600 N Bogus Basin Road, Boise, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "bohner-track": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "boise": {
-    "lat": 43.6078846,
-    "lon": -116.1946012,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.5673172,
+    "lon": -116.2114753,
+    "address": ", Boise, ID, Boise, ID",
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "boise-airport": {
     "lat": 43.5600566,
     "lon": -116.2080749,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "boise-art-museum": {
-    "lat": 43.6096777,
-    "lon": -116.206402,
+    "lat": 43.610223375518,
+    "lon": -116.206400636817,
     "address": "670 Julia Davis Drive, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boise-arts-history": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "boise-bicycle-project": {
-    "lat": 43.6080037,
-    "lon": -116.2122898,
+    "lat": 43.608510883491,
+    "lon": -116.211820959288,
     "address": "1027 S. Lusk St., Boise, ID 83706",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boise-brewing": {
     "lat": 43.611843,
@@ -222,24 +249,24 @@
     "checked": "2026-11-24"
   },
   "boise-centre": {
-    "lat": 43.6148416,
-    "lon": -116.2051672,
+    "lat": 43.614434673977,
+    "lon": -116.20547634537,
     "address": "850 W Front St, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boise-city-hall": {
     "lat": 43.6151202,
     "lon": -116.2013819,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "boise-contemporary-theater": {
-    "lat": 43.6123057,
-    "lon": -116.2077851,
+    "lat": 43.612175039303,
+    "lon": -116.207750758698,
     "address": "854 W Fulton St, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boise-depot": {
     "lat": 43.6020326,
@@ -248,15 +275,18 @@
     "checked": "2026-11-24"
   },
   "boise-high-school": {
-    "lat": 43.621463,
-    "lon": -116.2027164,
+    "lat": 43.620777893375,
+    "lon": -116.202286077988,
     "address": "1010 W Washington St., Boise, ID",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boise-institute-for-buddhist-studies": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.62599165048,
+    "lon": -116.205918661345,
+    "address": "901 N. 15th St., Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boise-little-theater": {
     "lat": 43.593201,
@@ -266,23 +296,24 @@
     "checked": "2026-11-24"
   },
   "boise-main-co-working-space": {
-    "lat": 43.6220389,
-    "lon": -116.217478,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.621864012757,
+    "lon": -116.217149715338,
+    "address": "2210 W. Main St., Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boise-public-library": {
     "lat": 43.610476,
     "lon": -116.2078379,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "boise-public-main-library": {
-    "lat": 43.610476,
-    "lon": -116.2078379,
+    "lat": 43.610307625665,
+    "lon": -116.206936102851,
     "address": "715 S Capitol Blvd, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boise-stage-stop": {
     "lat": 43.3844653,
@@ -293,57 +324,66 @@
   },
   "boise-state-esports-arena": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "boise-state-university": {
     "lat": 43.6032821,
     "lon": -116.1994141,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "boise-women-travel-explore-the-world-build-connections": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "boise-womens-singing-meetup": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "bold-boise-travel-women": {
     "from": "none",
-    "checked": "2026-11-25"
+    "checked": "2026-11-27"
   },
   "books-on-the-vine-books-art-and-art-classes": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.619072224914,
+    "lon": -116.24611633799,
+    "address": "5208 Fairview Ave, Boise, ID 83706",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "boran-lounge": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.61134123924,
+    "lon": -116.391497194151,
+    "address": "830 N Main St, Meridian, ID 83642",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "brundage-mountain": {
     "lat": 45.0012324,
     "lon": -116.1474124,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "bumble-coffee-and-taps": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.576258564547,
+    "lon": -116.145841804321,
+    "address": "3157 E Barber Valley Dr, Boise, ID 83716",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "cabelas": {
-    "lat": 43.6048939,
-    "lon": -116.283643,
+    "lat": 43.604917067353,
+    "lon": -116.283523354424,
     "address": "8109 W Franklin Rd, Boise, ID 83709",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "caffe-capri": {
-    "lat": 43.54136,
-    "lon": -116.1543805,
-    "address": "2242 East Gowen Road, Boise, ID, Boise, ID",
-    "from": "lookup",
-    "checked": "2026-11-25"
+    "lat": 43.550364551989,
+    "lon": -116.208240815556,
+    "address": "2242 East Gowen Road, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "caldwell": {
     "lat": 43.6569972,
@@ -352,10 +392,11 @@
     "checked": "2026-11-24"
   },
   "caldwell-public-library": {
-    "lat": 43.6614972,
-    "lon": -116.6881824,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.662046480934,
+    "lon": -116.688446042971,
+    "address": "1010 Dearborn St, Caldwell, ID 83605",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "capitol-blvd": {
     "lat": 43.6146864,
@@ -366,32 +407,33 @@
   },
   "cascade": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "cascade-public-library": {
     "lat": 44.5164445,
     "lon": -116.0414333,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "catalyst-arts-collaborative": {
-    "lat": 43.6333179,
-    "lon": -116.2621977,
-    "address": "6427 W Ustick Rd, Boise, ID 83704",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.633781763926,
+    "lon": -116.261535053199,
+    "address": "6427 W Ustick Rd, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "cathedral-of-the-rockies": {
-    "lat": 43.6227128,
-    "lon": -116.2028652,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.622194270403,
+    "lon": -116.202515745877,
+    "address": "717 North 11th Street, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "cathedral-of-the-rockies-amity-campus": {
     "lat": 43.562512,
     "lon": -116.29247,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "cecil-d-andrus-park": {
     "lat": 43.6165847,
@@ -400,37 +442,50 @@
     "checked": "2026-11-24"
   },
   "center-for-spiritual-living-boise-treasure-valley": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.620811312423,
+    "lon": -116.312993339548,
+    "address": "10464 Garverdale Ct, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "center-for-the-visual-arts": {
-    "lat": 43.606392,
-    "lon": -116.2092066,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.606377460345,
+    "lon": -116.210562737924,
+    "address": "1110 South Capital Blvd, Boise, ID 83725",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "chateau-des-fleurs": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.694046547228,
+    "lon": -116.398813059683,
+    "address": "176 S Rosebud Ln, Eagle, ID 83616",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "childrens-museum-of-idaho": {
-    "lat": 43.59732,
-    "lon": -116.3913043,
+    "lat": 43.597806529928,
+    "lon": -116.391235200941,
     "address": "790 S Progress Avenue, Meridian, 83642",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "chits-and-chats": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.589927480542,
+    "lon": -116.212526806433,
+    "address": "2500 W Overland Rd, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "christian-singles-enjoying-life": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "city-of-caldwell": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.666945038471,
+    "lon": -116.690155818243,
+    "address": "205 South 6th Ave, Caldwell, ID 83605",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "city-of-star": {
     "from": "none",
@@ -440,15 +495,18 @@
     "lat": 43.613983,
     "lon": -116.5083018,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "columbia-village-rec-center": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.549578252318,
+    "lon": -116.138697648208,
+    "address": "3655 E Lake Forest Dr, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "conservative-genx-connect": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "corbett-auctions": {
     "from": "placeholder",
@@ -462,27 +520,28 @@
     "checked": "2026-11-24"
   },
   "dawson-taylor-coffee-roasters": {
-    "lat": 43.6077888,
-    "lon": -116.2124492,
-    "from": "lookup",
-    "checked": "2026-11-26"
+    "lat": 43.608411880158,
+    "lon": -116.211872636176,
+    "address": "1035 S Lusk St, Boise, ID 83706",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "discovery-center-of-idaho": {
-    "lat": 43.6085033,
-    "lon": -116.1992724,
+    "lat": 43.608524354496,
+    "lon": -116.198588744199,
     "address": "131 W. Myrtle Street, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "donnelly-library": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "dorchester-cambridge-apartment-complex-clubhouse": {
-    "lat": 43.6071138,
-    "lon": -116.1873072,
-    "address": "300 S Straughan Ave, Boise, ID, Boise, ID",
-    "from": "lookup",
+    "lat": 43.607465618471,
+    "lon": -116.187314561632,
+    "address": "300 S Straughan Ave, Boise, ID",
+    "from": "page",
     "checked": "2026-11-27"
   },
   "downtown-boise": {
@@ -493,102 +552,109 @@
     "checked": "2026-11-24"
   },
   "downtown-boise-ymca": {
-    "lat": 43.6205042,
-    "lon": -116.2029158,
-    "address": "1050 W State St,, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.620229338647,
+    "lon": -116.203447759984,
+    "address": "1050 W State St, Boise, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "downtown-caldwell": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "downtown-eagle": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "downtown-emmett": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "downtown-library": {
     "lat": 43.6154911,
     "lon": -116.1953987,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "downtown-meridian": {
-    "lat": 43.6110481,
-    "lon": -116.3972223,
+    "lat": 43.610769,
+    "lon": -116.4052337,
     "address": "W Idaho Ave, Meridian, ID 83642",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "eagle": {
     "lat": 43.6961628,
     "lon": -116.3512456,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "eagle-chamber": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "eagle-public-library": {
-    "lat": 43.6961861,
-    "lon": -116.3469295,
+    "lat": 43.695644005997,
+    "lon": -116.347131310255,
     "address": "100 N Stierman Way, Eagle, ID 83616",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "eagle-seventh-day-adventist-church": {
-    "lat": 43.6958973,
-    "lon": -116.3609048,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.695286794304,
+    "lon": -116.360704068651,
+    "address": "538 W. State St., Eagle, ID 83616",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "ease": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.605567413749,
+    "lon": -116.228447029012,
+    "address": "108 N Latah St, Boise, ID 83706",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "elmore-w-vail-field": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "emmett": {
     "lat": 43.8633728,
     "lon": -116.5088123,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "emmett-high-school": {
     "lat": 43.8633728,
     "lon": -116.5088123,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "erma-hayman-house": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "estatesales-net": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.589257073518,
+    "lon": -116.202206806582,
+    "address": "1647 S Federal Way, Boise, ID 83705",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "estatesales-org": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "explorer-chicks-of-boise": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "expo-idaho": {
-    "lat": 43.6683223,
-    "lon": -116.2790824,
+    "lat": 43.655915364264,
+    "lon": -116.27967814223,
     "address": "5610 N Glenwood St, Boise, ID 83714",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "extramile-arena": {
     "lat": 43.60358,
@@ -598,42 +664,45 @@
     "checked": "2026-11-24"
   },
   "fidelity-national-title-meridian": {
-    "lat": 43.5963049,
-    "lon": -116.3490446,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.592236556784,
+    "lon": -116.349619520211,
+    "address": "1144 S Silverstone Way Suite 120, Meridian, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "first-presbyterian-church": {
     "lat": 43.6198413,
     "lon": -116.2020798,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "fleet-feet-boise": {
-    "lat": 43.6264914,
-    "lon": -116.2296603,
+    "lat": 43.626376388749,
+    "lon": -116.229225788529,
     "address": "607 N Whitewater Park Blvd, Boise, ID 83703",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "flying-m": {
-    "lat": 43.5771179,
-    "lon": -116.5588229,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.577260867553,
+    "lon": -116.559453808889,
+    "address": "1314 2nd St S, Nampa, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "flying-m-coffee": {
-    "lat": 43.5771179,
-    "lon": -116.5588229,
+    "lat": 43.577260867553,
+    "lon": -116.559453808889,
     "address": "1314 2nd Street South, Nampa, ID 83651",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "flying-m-coffee-garage": {
-    "lat": 43.5771179,
-    "lon": -116.5588229,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.577260867553,
+    "lon": -116.559453808889,
+    "address": "1314 2nd St S, Nampa, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "flying-m-coffeehouse": {
     "lat": 43.6148398,
@@ -659,66 +728,78 @@
     "lat": 43.6080574,
     "lon": -116.5080492,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "fort-boise-park": {
     "lat": 43.6154933,
     "lon": -116.1889422,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "fred-meyer": {
-    "lat": 43.5892272,
-    "lon": -116.3163716,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.602647998222,
+    "lon": -116.243482958648,
+    "address": "Orchard and Franklin, Boise, ID, Boise, ID",
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "frontier-cinema": {
-    "lat": 43.8753856,
-    "lon": -116.5008352,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.875549935871,
+    "lon": -116.500483517576,
+    "address": "127 W. Main Street, Emmett, ID 83617",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "garden-city": {
     "lat": 43.6738348,
     "lon": -116.2910763,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "garden-city-library": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.659436010572,
+    "lon": -116.279844515827,
+    "address": "6015 Glenwood St, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "garden-city-public-library": {
-    "lat": 43.6601705,
-    "lon": -116.2807041,
+    "lat": 43.659436010572,
+    "lon": -116.279844515827,
     "address": "6015 N. Glenwood Street, Garden City, ID 83714",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "gatsby": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.616953217321,
+    "lon": -116.202108413309,
+    "address": "280 North 8th St, Suite 130, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "gem-boise-county-extension-office": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.857407957534,
+    "lon": -116.492799267382,
+    "address": "2199 S Johns Ave, Emmett, ID 83617",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "gem-county-chamber": {
     "lat": 43.8657698,
     "lon": -116.4994933,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "gem-county-recreation-district": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "golden-star-restaurant": {
-    "lat": 43.6148568,
-    "lon": -116.2428307,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.614729924708,
+    "lon": -116.243368985963,
+    "address": "1142 North Orchard Street, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "guru-donuts": {
     "lat": 43.6168561,
@@ -728,24 +809,29 @@
     "checked": "2026-11-24"
   },
   "handlebar": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.61988075246,
+    "lon": -116.212020846495,
+    "address": "1519 W Main Street, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "helina-maries": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "hemingway-center": {
-    "lat": 43.6035849,
-    "lon": -116.2024178,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.6048711,
+    "lon": -116.2032675,
+    "address": "1819 W. Friendship Lane, Boise, ID 83725",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "homewood-suites": {
-    "lat": 43.6893035,
-    "lon": -116.3448486,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.688640316995,
+    "lon": -116.344240084092,
+    "address": "710 E. Riverside Drive, Eagle, ID 83616",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "hooligans": {
     "from": "none",
@@ -756,41 +842,42 @@
     "lon": -116.677633,
     "address": "16755 Chicken Dinner Road, Caldwell, ID 83607",
     "from": "zip",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "hyatt-hidden-lakes-reserve": {
-    "lat": 43.6518324,
-    "lon": -116.2968965,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.653277568646,
+    "lon": -116.295916859415,
+    "address": "5301 North Maple Grove Road, Boise, ID 83704",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "iconic-bar-and-bistro": {
-    "lat": 43.654477,
-    "lon": -116.2811045,
+    "lat": 43.654472496331,
+    "lon": -116.279832218862,
     "address": "5467 N Glenwood Street, Garden City, ID 83714",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-botanical-garden": {
-    "lat": 43.6046142,
-    "lon": -116.1737098,
+    "lat": 43.602402250082,
+    "lon": -116.163826662902,
     "address": "2355 N Old Penitentiary Rd, Boise, ID 83712",
-    "from": "zip",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-botanical-gardens": {
-    "lat": 43.6046142,
-    "lon": -116.1737098,
+    "lat": 43.602402250082,
+    "lon": -116.163826662902,
     "address": "2355 N Old Penitentiary Rd, Boise, ID 83712",
-    "from": "zip",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-candy-company": {
-    "lat": 43.61268,
-    "lon": -116.2058407,
+    "lat": 43.613170095661,
+    "lon": -116.205744001425,
     "address": "412 South 8th Street, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-central-arena": {
     "lat": 43.614577,
@@ -801,117 +888,126 @@
   },
   "idaho-hikers-and-backpackers-where-friends-and-nature-meet": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "idaho-hillcrest-cc": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "idaho-hillcrest-country-club": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "idaho-ice-world": {
     "lat": 43.5435538,
     "lon": -116.1650161,
     "address": "072 S Eisenman Rd, Boise, ID 83716",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-iceworld": {
     "lat": 43.5377233,
     "lon": -116.159341,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "idaho-pizza-company": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.6900344,
+    "lon": -116.3532158,
+    "address": "78 E Eagle River St, Eagle, ID 83616",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-shakespeare-festival-amphitheater": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "idaho-shakespeare-festival-amphitheater-and-reserve": {
-    "lat": 43.5623339,
-    "lon": -116.114435,
+    "lat": 43.563624212299,
+    "lon": -116.109933735276,
     "address": "5657 Warm Springs Ave, Boise, ID 83716",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-state-capital": {
-    "lat": 43.6177696,
-    "lon": -116.1996904,
+    "lat": 43.617359972006,
+    "lon": -116.200031318285,
     "address": "700 W Jefferson St, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-state-museum": {
-    "lat": 43.6106373,
-    "lon": -116.205587,
+    "lat": 43.610073633277,
+    "lon": -116.204495181516,
     "address": "610 Julia Davis Dr., Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "idaho-wineries": {
     "from": "none",
-    "checked": "2026-11-25"
+    "checked": "2026-11-27"
   },
   "indian-creek-plaza": {
-    "lat": 43.6668104,
-    "lon": -116.6866736,
+    "lat": 43.666306515819,
+    "lon": -116.687280980144,
     "address": "120 S Kimball Ave, Caldwell, ID",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "j-a-albertson-activities-center": {
     "lat": 43.6519608,
     "lon": -116.6747472,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "jacks-urban-meeting-place": {
-    "lat": 43.6146564,
-    "lon": -116.2076938,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.614956997208,
+    "lon": -116.209426100882,
+    "address": "1000 W Myrtle St, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "jacks-urban-meeting-place-jump": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.614956997208,
+    "lon": -116.209426100882,
+    "address": "1000 W Myrtle St, Boise, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "jim-hall-foothills-learning-center": {
     "lat": 43.6414437,
     "lon": -116.1849003,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "johnson-sports-center": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "join-us-at-the-siren-song-winemakers-loft-and-bistro-on-sunday-afternoons-for-live-music": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "julia-davis-park": {
-    "lat": 43.6078796,
-    "lon": -116.202065,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.610334268523,
+    "lon": -116.206718064865,
+    "address": "700 S Capitol Blvd, Boise, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "jump": {
-    "lat": 43.6278967,
-    "lon": -116.2069246,
+    "lat": 43.614956997208,
+    "lon": -116.209426100882,
     "address": "1000 West Myrtle Street, Boise, ID, USA, Boise, ID 83702",
-    "from": "zip",
-    "checked": "2026-11-24"
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "kathryn-albertson-park": {
-    "lat": 43.6141369,
-    "lon": -116.2266386,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.6182859,
+    "lon": -116.2156572,
+    "address": "1001 S Americana Blvd, Boise, ID 83706",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "knitting-factory": {
     "lat": 43.613261,
@@ -924,89 +1020,101 @@
     "lat": 43.4893808,
     "lon": -116.4213794,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "kuna-kung-fu": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.491631618136,
+    "lon": -116.414688256239,
+    "address": "173 W 4th St, suite B, Kuna, id",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "kuna-library": {
     "lat": 43.492462,
     "lon": -116.4205225,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "lakeshore-learning": {
-    "lat": 43.6087136,
-    "lon": -116.2857735,
+    "lat": 43.609185715496,
+    "lon": -116.284852290212,
     "address": "417 N. Milwaukee St, Boise, ID 83704",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "legacy-hall": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.857407957534,
+    "lon": -116.492799267382,
+    "address": "2199 S. Johns Ave, Emmett, ID 83617",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "level-up-lounge": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.61134123924,
+    "lon": -116.391497194151,
+    "address": "830 N Main Street, Meridian, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "library-at-bown-crossing": {
-    "lat": 43.5746516,
-    "lon": -116.156295,
+    "lat": 43.57433206917,
+    "lon": -116.155175729855,
     "address": "2153 E Riverwalk Dr, Boise, ID 83706",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "library-at-cole-and-ustick": {
-    "lat": 43.6336183,
-    "lon": -116.276169,
+    "lat": 43.633876183276,
+    "lon": -116.275139763689,
     "address": "7557 W Ustick Rd, Boise, ID 83704",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "library-at-collister": {
-    "lat": 43.6497836,
-    "lon": -116.2473169,
+    "lat": 43.648702573234,
+    "lon": -116.247512423456,
     "address": "4724 W State St, Boise, ID 83703",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "library-at-hillcrest": {
-    "lat": 43.5919315,
-    "lon": -116.2475707,
+    "lat": 43.589907944232,
+    "lon": -116.246663738746,
     "address": "5246 W Overland Rd, Boise, ID 83705",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "library-at-hillcrest-canyon-room": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.589907944232,
+    "lon": -116.246663738746,
+    "address": "5246 W Overland Road, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "lifespring-church-on-star-rd": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "little-gym-boise-west": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "lost-grove-brewing-hyde-park": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "lost-grove-la-pointe-taproom": {
-    "lat": 43.6081919,
-    "lon": -116.2128226,
+    "lat": 43.608768436266,
+    "lon": -116.212780436294,
     "address": "1026 S La Pointe St, Boise, ID 83706",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "lulus-fine-pizza-and-sushi": {
-    "lat": 43.6433839,
-    "lon": -116.2061002,
-    "address": "2594 N Bogus Basin Rd, Boise, ID, Boise, ID",
-    "from": "lookup",
+    "lat": 43.64337226534,
+    "lon": -116.207019735215,
+    "address": "2594 N Bogus Basin Rd, Boise, ID",
+    "from": "page",
     "checked": "2026-11-27"
   },
   "maddies-wine-whiskey-and-tapas-bar": {
@@ -1015,7 +1123,7 @@
   },
   "mccall": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "mccall-area": {
     "from": "placeholder",
@@ -1025,22 +1133,28 @@
     "lat": 44.9089104,
     "lon": -116.0990531,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "meadow-view-assisted-living-and-memory-care": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.866258023726,
+    "lon": -116.492752284377,
+    "address": "1013 s johns ave, Emmett, ID 83617",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "meridian-homecourt": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.607008177092,
+    "lon": -116.405129602211,
+    "address": "936 Taylor Ave, Meridian, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "meridian-library": {
-    "lat": 43.6199555,
-    "lon": -116.4091243,
+    "lat": 43.619278420558,
+    "lon": -116.40917328586,
     "address": "1326 W. Cherry Lane, Meridian, ID 83642",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "meridian-library-orchard-park": {
     "lat": 43.6605879,
@@ -1049,30 +1163,37 @@
     "checked": "2026-11-24"
   },
   "meridian-library-unbound": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.610340231868,
+    "lon": -116.390064370961,
+    "address": "722 E 2nd St, Meridian, ID 83642",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "meriwether-cider": {
     "lat": 43.6450744,
     "lon": -116.2713189,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "mid-century-homes-by-anthology": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.634862611476,
+    "lon": -116.227572036466,
+    "address": "3130 W. State St., Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "middleton": {
-    "lat": 43.7123959,
-    "lon": -116.6173143,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.706370288841,
+    "lon": -116.628006950764,
+    "address": "511 W Main St, Middleton, ID 83644",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "middleton-public-library": {
     "lat": 43.7067316,
     "lon": -116.618986,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "morrison-center-for-the-performing-arts": {
     "lat": 43.606728,
@@ -1082,8 +1203,11 @@
     "checked": "2026-11-24"
   },
   "mother-earth-brew-co": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.595638139047,
+    "lon": -116.561949766717,
+    "address": "1428 Madison Ave, Nampa, ID 83687",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "mountain-home": {
     "lat": 43.1406294,
@@ -1095,18 +1219,21 @@
     "lat": 43.1372135,
     "lon": -115.6869743,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "music-theatre-of-idaho": {
-    "lat": 43.579621,
-    "lon": -116.4281457,
+    "lat": 43.612443992427,
+    "lon": -116.565223769221,
     "address": "8626 Birch Ln #400, Nampa, ID 83687",
-    "from": "zip",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "nampa-bowl": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.594267033192,
+    "lon": -116.586838215212,
+    "address": "485 Caldwell Blvd, Nampa, ID 83651",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "nampa-civic-center": {
     "lat": 43.5891,
@@ -1116,11 +1243,11 @@
     "checked": "2026-11-24"
   },
   "nampa-public-library": {
-    "lat": 43.5777476,
-    "lon": -116.5617927,
+    "lat": 43.577963119303,
+    "lon": -116.56094978783,
     "address": "215 12th Ave S, Nampa, ID 83651",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "neurolux": {
     "lat": 43.618089,
@@ -1130,26 +1257,28 @@
     "checked": "2026-11-24"
   },
   "nnu-brandt-center": {
-    "lat": 43.562526,
-    "lon": -116.562705,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.562275919309,
+    "lon": -116.561547732719,
+    "address": "707 Fern St, Nampa, ID 83686",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "nnu-soccer-and-lax-field": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "old-idaho-penitentiary": {
-    "lat": 43.6022363,
-    "lon": -116.1622119,
-    "from": "lookup",
-    "checked": "2026-11-25"
+    "lat": 43.602909130279,
+    "lon": -116.162857898772,
+    "address": "2445 Old Penitentiary Rd., Boise, ID 83712",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "old-state-saloon": {
     "lat": 43.6953842,
     "lon": -116.3533486,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "oldspeak": {
     "from": "placeholder",
@@ -1163,112 +1292,134 @@
     "checked": "2026-11-24"
   },
   "panera-bread": {
-    "address": "8401 W Franklin Rd, Boise, ID 83709, USA, Boise, ID, Boise, ID",
-    "from": "none",
-    "checked": "2026-11-25"
+    "lat": 43.604885638887,
+    "lon": -116.28652512042,
+    "address": "8401 W Franklin Rd, Boise, ID 83709",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "patriot-ammo-bulk-ammo-outlet": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.608364218851,
+    "lon": -116.314230137088,
+    "address": "380 N Five Mile Rd, Boise, ID 83713",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "payette-brewery-new-location": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.613165171134,
+    "lon": -116.214526171402,
+    "address": "733 S Pioneer St, Boise, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "payette-brewing-co": {
-    "lat": 43.6133255,
-    "lon": -116.2153548,
+    "lat": 43.613165171134,
+    "lon": -116.214526171402,
     "address": "733 South Pioneer Street, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "payette-public-library": {
     "lat": 44.0742908,
     "lon": -116.9324381,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "phoenix-fire-games": {
-    "lat": 43.6204926,
-    "lon": -116.392129,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.619218802092,
+    "lon": -116.392736190187,
+    "address": "44 E Fairview Ave, Meridian, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "plant-based-treasure-valley": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "playyourcourt-boise-tennis": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "primitive-grounds": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.612141531045,
+    "lon": -116.390061494591,
+    "address": "914 E Second St, Meridian, ID 83642",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "realms-arcade": {
-    "address": "109 S 23rd St Ste A, Boise, ID 83702, USA, Boise, ID, Boise, ID",
-    "from": "none",
+    "lat": 43.621661251489,
+    "lon": -116.218422245343,
+    "address": "109 S 23rd St Ste A, Boise, ID 83702",
+    "from": "page",
     "checked": "2026-11-27"
   },
   "rediscovered-bookshop": {
-    "lat": 43.6195869,
-    "lon": -116.2131901,
+    "lat": 43.619535893825,
+    "lon": -116.213298447079,
     "address": "1576 W Grove St, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "regal-edwards-boise": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.59018618481,
+    "lon": -116.278016456168,
+    "address": "7701 W Overland Rd, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "register-online-at-www-gemcountyrecreation-com-gem-county-recreation-district": {
     "from": "none",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
   },
   "reid-merrill-park": {
     "lat": 43.6880398,
     "lon": -116.3479122,
     "address": "637 East Shore Drive, Eagle, ID 83616",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "reuseum": {
     "lat": 43.6243994,
     "lon": -116.2410665,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "riggins": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "riverside-hotel-the-sapphire-room": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.619825804171,
+    "lon": -116.235190022323,
+    "address": "2900 W Chinden Blvd, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "roaring-springs": {
-    "lat": 43.592182,
-    "lon": -116.3979921,
+    "lat": 43.590156090379,
+    "lon": -116.396635409479,
     "address": "400 W Overland Rd, Meridian, ID 83642",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "scheels": {
     "lat": 43.5985062,
     "lon": -116.4265841,
-    "address": "700 S. Wayfinder Ave., Meridian, ID 83642",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "address": "700 S Wayfinder Ave, Meridian, ID 83642",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "see-qr-code": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "shindig-farms": {
+    "lat": 43.495620982692,
+    "lon": -116.573000005091,
     "address": "ID-45 & Scism Rd., Nampa, ID",
-    "from": "none",
-    "checked": "2026-11-24"
+    "from": "address",
+    "checked": "2026-11-27"
   },
   "shrine-social-club": {
     "lat": 43.658501,
@@ -1278,115 +1429,144 @@
     "checked": "2026-11-24"
   },
   "shus-idaho-running-company": {
-    "lat": 43.6255125,
-    "lon": -116.211252,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.624434118715,
+    "lon": -116.211786580334,
+    "address": "1758 W. State St., Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "simplot-stadium": {
     "lat": 43.6536419,
     "lon": -116.6713646,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "skosh-wine-bar": {
     "from": "none",
     "checked": "2026-11-26"
   },
   "split-rail-winery": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.621366014502,
+    "lon": -116.23735315248,
+    "address": "3200 W Chinden Blvd, Garden City, ID 83714",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "spoken-coffee": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.590334184839,
+    "lon": -116.309283347205,
+    "address": "10092 W Overland Rd Unit 1, Boise, ID 83709",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "spring-shores-marina-at-lucky-peak": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.5941314,
+    "lon": -115.9699644,
+    "address": "74 Arrow Rock Road, Boise, ID 83716",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "star-chamber": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "star-library": {
     "lat": 43.6925504,
     "lon": -116.4869685,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "ste-chapelle-winery": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "symms-field": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "syringa": {
-    "lat": 43.5583041,
-    "lon": -116.5874167,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.578679304415,
+    "lon": -116.559861194983,
+    "address": "108 12th Ave South, Nampa, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "tamarack-resort": {
     "lat": 44.6845884,
     "lon": -116.1434326,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "tbd": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "telaya-wine-co": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.622538098313,
+    "lon": -116.235460923565,
+    "address": "240 East 32nd Street, Garden City, ID 83714",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "ten-mile-park-and-ride": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.586913915065,
+    "lon": -116.428313105132,
+    "address": "3047 W Overland Road, Meridian, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "tesla-meridian": {
-    "address": "2554 W Franklin Rd, Meridian, ID 83642, USA, Meridian, ID, Meridian, ID",
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.604802918981,
+    "lon": -116.425421866149,
+    "address": "2554 W Franklin Rd, Meridian, ID 83642",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-basque-block": {
-    "lat": 43.6137639,
-    "lon": -116.2025761,
+    "lat": 43.613678865793,
+    "lon": -116.202141903466,
     "address": "611 Grove Street, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-bishops-house": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.603020815174,
+    "lon": -116.162804539979,
+    "address": "2420 Old Penitentiary Rd, Boise, ID 83712",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-cabin": {
-    "lat": 43.6096032,
-    "lon": -116.2083457,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.609743064638,
+    "lon": -116.207476358414,
+    "address": "801 South Capitol Boulevard, Boise, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-center-at-canyon-county-fair": {
     "lat": 43.6525449,
     "lon": -116.6670892,
     "address": "110 County Fair Avenue, Caldwell, ID 83605",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-club-at-spurwing": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "the-clubhouse-at-signature-point-apartments": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.636890507315,
+    "lon": -116.274318940044,
+    "address": "3509 N. Cole Road, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-creative-space": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.623176074934,
+    "lon": -116.238353501484,
+    "address": "121 E 34th St, Garden City, ID 83714",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-egyptian-theatre": {
     "lat": 43.615392,
@@ -1396,50 +1576,57 @@
     "checked": "2026-11-24"
   },
   "the-farm": {
-    "lat": 43.6517912,
-    "lon": -116.2814391,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.651322235063,
+    "lon": -116.279829234238,
+    "address": "5137 N Glenwood St, Garden City, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-gem-lounge": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "the-grange-nampa-valley": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.583032573596,
+    "lon": -116.568202351835,
+    "address": "203 5th Ave S, Nampa, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-grove-plaza": {
-    "lat": 43.6150599,
-    "lon": -116.2042268,
+    "lat": 43.615753931985,
+    "lon": -116.203869603896,
     "address": "827 W Main St., Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-hemingway-center": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "the-morrison-center": {
     "lat": 43.6068455,
     "lon": -116.2076237,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "the-nest": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "the-reef": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.614392971155,
+    "lon": -116.201267417824,
+    "address": "105 S 6th, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-riverside-hotel": {
-    "lat": 43.619837,
-    "lon": -116.235154,
-    "address": "2900 W Chinden Blvd, Garden City, ID 83714",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.619825804171,
+    "lon": -116.235190022323,
+    "address": "2900 W Chinden Blvd Boise United States",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-shredder": {
     "lat": 43.658501,
@@ -1449,39 +1636,45 @@
     "checked": "2026-11-24"
   },
   "the-tequila-room": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.610356870497,
+    "lon": -116.390222599224,
+    "address": "725 NE 2nd St, Meridian, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-village": {
-    "lat": 43.6208244,
-    "lon": -116.3492418,
-    "address": "3597 E. Monarch Sky Ln., Meridian, ID 83646",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.620719464385,
+    "lon": -116.348649462218,
+    "address": "3597 E. Monarch Sky Ln #225, Meridian, ID 83646",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-village-at-meridan": {
-    "lat": 43.6207822,
-    "lon": -116.3491195,
-    "address": "3597 E Monarch Sky Ln #225,, Meridian, ID 83646",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.620719464385,
+    "lon": -116.348649462218,
+    "address": "3597 E Monarch Sky Ln #225, Meridian, ID 83646",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-village-at-meridian": {
     "lat": 43.6224809,
     "lon": -116.3513371,
     "from": "lookup",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "the-warehouse-food-hall": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.613495476119,
+    "lon": -116.205431818936,
+    "address": "370 S 8th St, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "the-watershed": {
     "lat": 43.6669376,
     "lon": -116.3301164,
     "address": "6411 N. Ancell Ave., Boise, ID 83714",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "treefort-music-hall": {
     "lat": 43.658501,
@@ -1491,11 +1684,11 @@
     "checked": "2026-11-24"
   },
   "trica": {
-    "lat": 43.6304385,
-    "lon": -116.2049437,
+    "lat": 43.630279985506,
+    "lon": -116.204721309726,
     "address": "1406 W Eastman, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "trolley-parton-the-curbside-books-trolley": {
     "from": "none",
@@ -1506,68 +1699,78 @@
     "checked": "2026-11-24"
   },
   "victory-gardens-nursery": {
-    "lat": 43.5756578,
-    "lon": -116.3922706,
+    "lat": 43.575632204088,
+    "lon": -116.392310992776,
     "address": "120 E Victory Rd., Meridian, ID",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "virtual-event": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "warhawk-air-museum": {
-    "lat": 43.585538,
-    "lon": -116.5235806,
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "lat": 43.584904066556,
+    "lon": -116.52327883018,
+    "address": "201 Municipal Drive, Nampa, ID 83687",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "wassmuth-center": {
-    "lat": 43.6105021,
-    "lon": -116.2089092,
+    "lat": 43.61050335877,
+    "lon": -116.208500309991,
     "address": "777 S 8th Street, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "wassmuth-center-for-human-rights": {
-    "lat": 43.6105021,
-    "lon": -116.2089092,
+    "lat": 43.61050335877,
+    "lon": -116.208500309991,
     "address": "777 S. 8th Street, Boise, ID 83702",
-    "from": "lookup",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "west-idaho-brazilian-jiu-jitsu": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "where-gem-county-recreation-district-address": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.872697551334,
+    "lon": -116.498426945367,
+    "address": "212 E 3rd St, Emmett, ID 83617",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "white-dog-brewing-co-boise": {
-    "lat": 43.6112397,
-    "lon": -116.206448,
-    "address": "705 West Fulton Street, Boise, ID, Boise, ID",
-    "from": "lookup",
-    "checked": "2026-11-25"
+    "lat": 43.611213691508,
+    "lon": -116.206130875933,
+    "address": "705 West Fulton Street, Boise, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "wolfe-field": {
     "from": "none",
-    "checked": "2026-11-24"
+    "checked": "2026-11-27"
   },
   "yoga-tree-of-boise": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.640565384143,
+    "lon": -116.208782463553,
+    "address": "1674 W Hill Rd, Boise, ID 83702",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "yogurtz-grill": {
-    "from": "none",
-    "checked": "2026-11-24"
+    "lat": 43.618924758095,
+    "lon": -116.374454453608,
+    "address": "1560 N Locust Grove Rd, Meridian, ID",
+    "from": "page",
+    "checked": "2026-11-27"
   },
   "zoo-boise": {
-    "lat": 43.6278993,
-    "lon": -116.2069262,
+    "lat": 43.609185009352,
+    "lon": -116.202264623889,
     "address": "355 E Julia Davis Dr., Boise, ID 83702",
-    "from": "zip",
-    "checked": "2026-11-24"
+    "from": "page",
+    "checked": "2026-11-27"
   }
 }
